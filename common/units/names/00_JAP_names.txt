@@ -1,0 +1,93 @@
+﻿JAP = {
+	submarine = {
+		prefix = ""
+		generic = { "Sensuikan" }
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Kuchikukan" }
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Keijunyokan" }
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Jujunyokan" }
+	}
+	light_carrier = {
+		prefix = ""
+		generic = { "Keikubo" }
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Senkan" }
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Kokubokan" }
+	}
+	air_wing_names_template = AIR_WING_NAME_JAP_FALLBACK
+
+	cv_fighter_equipment = {
+		prefix = ""
+		generic = { "Kokutai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+
+	cv_CAS_equipment = {
+		prefix = ""
+		generic = { "Kokutai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+	cv_nav_bomber_equipment = {
+		prefix = ""
+		generic = { "Kokutai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+
+	suicide_craft_equipment = {
+		prefix = ""
+		generic = { "Tokubetsu Kogekitai" }
+		generic_pattern = AIR_WING_NAME_JAP_CARRIER
+		unique = {
+		}	
+	}
+
+	infantry = {
+		prefix = ""
+		generic = { "Hoheishidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	motorized = {
+		prefix = ""
+		generic = { "Hoheishidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	cavalry = {
+		prefix = ""
+		generic = { "Kiheishidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	light_armor = {
+		prefix = ""
+		generic = { "Senshashidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+	medium_armor = {
+		prefix = ""
+		generic = { "Senshashidan" }
+		generic_pattern = "UNIT_GENERIC_NAME_JAP"
+		unique = {}
+	}
+}
