@@ -1,0 +1,36 @@
+﻿##### IRAN/PERSIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PER_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PER }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "IIS "							
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Artemiz"
+		"Palang" "Babr"
+	}
+}
+
+### SUBMARINES ###
+PER_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PER }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "IIS "							
+	fallback_name = "Submarine %d"
+	
+	unique = {
+		"Kousseh"
+		"Tareq" "Nooh" "Yunes"
+	}
+}

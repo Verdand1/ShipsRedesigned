@@ -1,0 +1,74 @@
+﻿##### DENMARK NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+DEN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "HDMS "
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Huitfeldt" "Willemoes"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+DEN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "Lys Cruiseren %d"
+
+	unique = {
+		"Gejser" "Hejmdal"
+		"Niels Iuel"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+DEN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "HDMS "
+	fallback_name = "Tung Cruiseren %d"
+
+	unique = {
+		"Herluf Trolle" "Olfert Fischer" "Peder Skram"
+	}
+}
+
+### SUBMARINES ###
+DEN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { DEN }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "HDMS "
+	fallback_name = "HDMS Ubåd %d"
+	
+	unique = {
+		"Havmanden" "Havfruen" "Havkalen" "Havhesten"
+		"Støren" "Sælen"
+		"Delfinen" "Spækhuggeren" "Tumleren" "Springeren" 
+		"Narhvalen" "Nordkaperen"
+		"Rota" "Bellona" "Flora"
+		"Daphne" "Dryaden"
+	}
+}

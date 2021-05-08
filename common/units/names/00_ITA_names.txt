@@ -4,15 +4,15 @@
 		generic = { "Sommergibile" } 
 	} 
 	destroyer = { 
-		prefix = "RN" # Regio Cacciatorpediniere (this group includes also torpedo boats classified as RT - Regio Torpediniere)
+		prefix = "RCT" # Regio Cacciatorpediniere
 		generic = { "Cacciatorpediniere" } 
 	} 
 	light_cruiser = { 
-		prefix = "RN" # Regio Incrociatore
+		prefix = "RI" # Regio Incrociatore
 		generic = { "Incrociatore Leggero" } 
 	} 
 	heavy_cruiser = { 
-		prefix = "RN" # Regio Incrociatore
+		prefix = "RI" # Regio Incrociatore
 		generic = { "Incrociatore Pesante" } 
 	} 
 	light_carrier = { 

@@ -1,0 +1,53 @@
+﻿##### COLOMBIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+COL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ARC "
+	fallback_name = "ARC Destructor %d"					
+
+	unique = {
+	"Veinte de Julio" "Siete de Agosto" "Trece de Junio"
+	"Antioquia"
+	"Caldas" "Santander"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+COL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "ARC "
+	fallback_name = "ARC Crucero Ligero %d"
+
+	unique = {
+		"Almirante Lezo"
+	}
+}
+
+### SUBMARINES ###
+COL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { COL }
+
+	type = ship
+	ship_types = {  submarine }
+	
+	prefix = "ARC "
+	fallback_name = "ARC Submarino %d"
+	
+	unique = {
+	"Pijao" "Tayrona"
+	}
+}

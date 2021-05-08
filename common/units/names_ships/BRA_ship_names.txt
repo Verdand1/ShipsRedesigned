@@ -1,0 +1,115 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+BRA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "NRB "
+	fallback_name = "NRB Contratorpedeiro %d"					
+
+	unique = {
+		"Juruá" "Javari" "Jutahy" "Juruena" "Jaguaribe" "Japarua"
+		"Mariz e Barros" "Marcílio Dias" "Greenhalgh"
+		"Amazonas" "Araguari" "Ajuricaba" "Acre" "Araguaya" "Apa"
+		"Pará" "Paraíba" "Paraná" "Pernambuco" "Piauí" "Santa Catharina" "Maranhão"
+		"Mato Grosso" "Sergipe" "Alagoas" "Rio Grande do Norte" "Espírito Santo"
+		"Alexandrino Dealenca" "Marnhão"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+BRA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "NRB "
+	fallback_name = "NRB Cruzador Ligeiro %d"
+
+	unique = {
+	"Barroso" "Tamandaré"
+	"República"
+	"Amazonas" "Almirante Abreu"
+	"Bahia"	"Rio Grande do Sul"
+	}
+}
+
+### BATTLESHIP NAMES ###
+BRA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "NRB "
+	fallback_name = "NRB Couraçado %d"		
+
+	unique = {
+	"Minas Gerais" "São Paolo"
+	"Rio de Janeiro"
+	"Riachuelo"
+	"Aquidabã"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+BRA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { carrier }
+	
+	prefix = "NRB "
+	fallback_name = "NRB Porta-Aviões %d"	
+
+	unique = {
+	"São Paolo"
+	}
+}
+
+### LIGHT AIRCRAFT CARRIER NAMES ###
+BRA_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "NRB "
+	fallback_name = "NRB Porta-Aviões Ligeiro %d"	
+
+	unique = {
+	"Minas Gerais"
+	}
+}
+
+### SUBMARINES ###
+BRA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { BRA }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "NRB "
+	fallback_name = "NRB Submarino %d"
+	
+	unique = {
+		"Tupi" "Timbira" "Tamoio"
+		"Humaitá" "Riachuelo" "Guanabara" "Rio Grande do Sul" "Bahia" "Amazonas"
+		"Rio de Janeiro" "Ceará" "Goiás"
+	}
+}

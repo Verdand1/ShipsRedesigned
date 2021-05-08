@@ -1,0 +1,18 @@
+﻿##### PHILIPPINES NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PHI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PHI }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "RPS "							
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Rajah Soliman"
+		"Andres Bonifacio" "Gregorio del Pilar" "Diego Silang" "Francisco Dagohoy" 
+	}
+}

@@ -1,0 +1,147 @@
+﻿##### CANADA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CAN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "HMCS "							
+	fallback_name = "HMCS Destroyer %s"					
+
+	unique = {
+		"Fraser" "St. Laurent" "Restigouche" "Ottawa" "Assiniboine" "Margaree" "Kootenay"
+		"Annapolis" "Caldwell" "Chelsea" "Columbia" "Georgetown" "Hamilton" "Lancaster" "Leamington" "Mansfield" "Montgormery" "Niagara" "Richmond" "St. Clair" "Salisbury"
+		"Buxton" "St. Croix" "St. Francis"
+		"Athabaskan" "Haida" "Huron" "Iroquois" "Cayuga" "Micmac" "Nootka"
+		"Gatineau" "Saskatchewan" "Qu'Appelle"
+		"Chaudiere"
+		"Algonquin" "Sioux"
+		"Crescent" "Crusader"
+		"Saguenay" "Skeena"
+	}
+}
+
+
+### LIGHT CRUISER NAMES###
+CAN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "HMCS "							
+	fallback_name = "HMCS Light Cruiser %s"
+
+	unique = {
+	"Uganda" "Quebec"
+	"Ontario"
+	"Rainbow"
+	"Niobe"
+	"Aurora"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+CAN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { carrier }
+	
+	fallback_name = "HMCS Carrier %s"		
+
+	unique = {
+	"Habakkuk"
+	}
+}
+
+### LIGHT AIRCRAFT CARRIER NAMES ###
+CAN_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "HMCS "							
+	fallback_name = "HMCS Light Carrier %s"		
+
+	unique = {
+	"Warrior"
+	"Magnificent" "Bonaventure"
+	}
+}
+
+### SUBMARINES ###
+CAN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CAN }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "HMCS "							
+	fallback_name = "HMCS Submarine %s"
+	
+	unique = {
+	"Grilse"
+	"Ojibwa" "Okanagan" "Onondaga"
+	"Rainbow"
+	}
+}
+
+
+### THEME: CANADIAN PROVINCES ###
+CAN_PROVINCES = {
+	name = NAME_THEME_PROVINCES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+		"Ontario" "Québec" "British Columbia" "Alberta" "Manitoba" "Saskatchewan" "Nova Scotia" "New Brunswick" "Prince Edward Island" "Northwest Territories" "Nunavut" "Yukon" "Newfoundland" "Labrador" 
+	}
+}
+
+## THEME: CANADIAN CITIES ###
+CAN_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+		"Toronto" "Montréal" "Calgary" "Vancouver" "Ottawa" "Edmonton" "Winnipeg" "Québec City" "Halifax" "Mississauga" "Brampton" "Hamilton" "Regina" 
+		"Victoria" "Fredericton" "Surrey" "Laval" "London" "Markham" "Vaughan" "Gatineau" "Saskatoon" "Longueuil" "Kitchener" "Burnaby" "Windsor" "Richmond" 
+	}
+}
+
+## THEME: TRIBES ###
+CAN_TRIBES = {
+	name = NAME_THEME_TRIBES
+
+	for_countries = { CAN }
+
+	type = ship
+
+	prefix = "HMCS "							
+	unique = {
+		"Algonquin" "Anishinaabe" "Athabaskan" "Assiniboine" "Burrard" "Cayuga" "Chipewyan" "Chehalis" "Comox" "Cowichan" "Cree" 
+		"Haida" "Huron" "Innu" "Iroquois" "Kootenay" "Kwakiutl" "Lekwungen" "Lillooet" "Micmac" "Mohawk" "Nipissing" "Nlakapamuk" "Nootka" "Nuxálk" 
+		"Ojibwa" "Okanagan" "Oneida" "Onondaga" "Ottawa" "Penelakut" "Potawatomi" "Sechelt" "Seneca" "Shuswap" "Sinixt" "Sioux" "Snuneymuxw" "Stahlo" 
+		"Tlingit" "Tuscarora" "Wakashan" "Wyandot" 		
+	}
+}

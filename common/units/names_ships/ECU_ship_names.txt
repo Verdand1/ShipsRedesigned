@@ -1,0 +1,19 @@
+﻿##### ECUADOR NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ECU_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ECU }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "BAE "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Libertador Bolívar"
+		"Presidente Alfaro" "Presidente Velasco"
+		"Veinteicinco de Julio"
+	}
+}

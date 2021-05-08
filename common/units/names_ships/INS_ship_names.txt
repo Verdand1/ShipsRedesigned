@@ -1,0 +1,54 @@
+﻿##### INDONESIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+INS_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "KRI "							
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Gadjah Mada"
+		"Siliwangi" "Singamanga Rajah" "Sandjaja" "Sarwajala" "Sultan Iskandar Muda" "Sultan Darmuda" "Diponegoro" "Brawidjaja"
+		"Jos Sudarso" "Slamet Rijadi" "Ngurah Rai" "Monginsidi" "Lambung Mangkurat" "Hang Tuah" "Kakiali" "Nuku" 
+		"Imam Bondjol" "Untung Surapati"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+INS_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "KRI "							
+	fallback_name = "Light Cruiser %d"
+
+	unique = {
+		"Irian"
+	}
+}
+
+### SUBMARINES ###
+INS_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { INS }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "KRI "							
+	fallback_name = "Submarine %d"
+	
+	unique = {
+		"Tjakra " "Nanggala" "Nagabanda" "Trisula" "Nagarangsang" "Tjandrasa " "Alugoro" "Tjundamani" "Wijajadanu" "Pasopati" "Hendradjala" "Bramastra"
+	}
+}

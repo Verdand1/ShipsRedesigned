@@ -1,0 +1,297 @@
+﻿##### ITALY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ITA_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { destroyer }
+
+	prefix = "RCT " # Regio Cacciatorpediniere
+	fallback_name = "Cacciatorpediniere %s"
+
+	unique = {
+		"Vittorio Alfieri" "Giosue Carducci" "Vincenzo Gioberti" "Alfredo Oriani"
+		"Alpino" "Artigliere" "Ascari" "Aviere" "Bersagliere" "Camicia Nera" "Carabiniere" "Corazziere" "Ficiliere" "Geniere" "Granatiere" "Lanciere" "Bombardiere" "Carrista" "Corsaro" "Legionario" "Mitragliere" "Squadrista" "Velite"
+		"Sebenico" "Lubiana"
+		"Comandante Baroni" "Comandante Borsini" "Comandante Botti" "Comandante Casana"	"Comandante De Cristofaro" "Comandante Dell'Anno" "Comandante Fontana" "Comandante Giobbe" "Comandante Giorgis"	"Comandante Margottini" "Comandante Moccagatta"
+		"Comandante Novaro" "Comandante Ruta" "Comandante Toscano"
+		"Spalato"
+		"Indomito" "Impavido" "Impetuoso" "Insidioso" "Intrepido" "Irrequieto"
+		"Ardito" "Ardente"
+		"Rosolino Pilo" "Giuseppe Cesare Abba" "Pilade Bronzetti" "Giuseppe Dezza" "Giuseppe Missori" "Antonio Mosto" "Ippolito Nievo" "Francesco Nulla" "Fratelli Cairoli" "Simone Schiaffino"
+		"Carlo Mirabello" "Carlo Alberto Racchia" "Augusto Riboty"
+		"Giuseppe Sirtori" "Giovanni Acerbi" "Vincenzo Giordano Orsini" "Francesco Stocco""
+		"Audace"
+		"Aquila" "Falco" "Nibbio" "Sparviero"
+		"Giuseppe La Masa" "Angelo Bassini" "Agostino Bertani" "Enrico Cosenz" "Benedetto Cairoli" "Giacinto Carini" "Nicola Fabrizi" "Giuseppe La Farina" "Giacomo Medici"
+		"Premuda"
+		"Cesare Rossarol"
+		"Ardimento"
+		"Fasana" "Muggia" "Pola" "Zenson" "Cortelazzo" "Grado" "Monfalcone"
+		"Palestro" "Confienza" "San Martino" "Solferino"
+		"Generale Antonio Cantore" "Generale Antonio Cascino" "Generale Antonio Chinotto" "Generale Carlo Montanari" "Generale Achille Papa" "Generale Marcello Prestinari"
+		"Curtatone" "Castelfidaro" "Catalafimi" "Monzambano"
+		"Leone" "Pantera" "Tigre"
+		"Francesco Crispi" "Quintino Sella" "Bettino Ricasoli" "Giovanni Noctera"
+		"Cesare Battisi" "Daniele Manin" "Francesco Nullo" "Nazario Sauro"
+		"Aquilone" "Borea" "Espero" "Euro" "Nembo" "Ostro" "Turbine" "Zeffiro"
+		"Alvise da Mosto" "Alvise Cadamosto" "Antonio da Noli" "Nicoloso da Recco" "Giovanni di Verazzano" "Lanzerotto Malocello" "Leone Pancaldo" "Emanuele Pessagno" "Antonio Pigafetta" "Luca Tarigo" "Antonio Usodimare" "Ugolini Vivaldi" "Nicoló Zeno"
+		"Dardo" "Freccia" "Saetta" "Strale"
+		"Baleno" "Folgore" "Fulmine" "Lampo"
+		"Grecale" "Libeccio" "Maestrale" "Scirocco"
+	}
+}
+
+### LIGHT DESTROYER/TORPEDO BOAT NAMES###
+ITA_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_LIGHT_DDS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "RT " # Regio Torpediniere
+	fallback_name = "Torpediniere %d"					
+
+	unique = {											
+		"Astore" "Spica" "Canopo" "Cassiopea" "Castore" "Centauro" "Cigno" "Climene" "Aldebaran" "Altair" "Andromeda" "Antares" "Perseo" "Sagittario" "Sirio" "Vega" "Airone" "Alcione" "Aretusa" "Ariel" "Calipso" "Calliope" "Circe" "Clio" "Libra" "Lince" "Lira"
+		"Lupo" "Pallade" "Partenope" "Pleiadi" "Polluce"
+		"Pegaso" "Procione" "Orione" "Orsa"
+		"Aliseo" "Animoso" "Ardente" "Ardimentoso" "Ardito" "Ciclone" "Fortunale" "Ghibli" "Groppo" "Impavido" "Impetuoso" "Indomito" "Intrepido" "Monsone" "Tifone" "Uragano"
+		"Alabarda" "Ariete" "Arturo" "Auriga" "Balestra" "Daga" "Dragone" "Endano" "Fionda" "Gladio" "Lancia" "Pugnale" "Rigel" "Spada" "Spica" "Stella Polare"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ITA_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { light_cruiser }
+
+	prefix = "RI " # Regio Incrociatore
+	fallback_name = "Incrociatore leggero %s"
+
+	unique = {
+		"Emanuele Filiberto Duca d'Aosta" "Eugenio di Savoia"
+		"Giuseppe Garibaldi" "Luigi di Savoia Duca degli Abruzzi"
+		"Attilio Regolo" "Scipione Africano" "Giulio Germanico" "Pompeo Magno" "Caio Mario" "Ottaviano Augusto" "Ulpio Traiano" "Claudio Druso" "Claudio Tiberio" "Lucio Cornelio Silla" "Vipsanio Agrippa" "Paolo Emilio" "San Marco" "San Giorgio"
+		"Etna" "Vesuvio"
+		"Taranto"
+		"Brindisi" "Venezia"
+		"Ancona"
+		"Bari"
+		"Alberto da Giussano" "Alberico da Barbiano" "Bartolomeo Colleoni" "Giovanni dalle Bande Nere"
+		"Luigi Cadorna" "Armando Diaz"
+		"Raimondo Montecuccoli" "Muzio Attendolo"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ITA_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+
+	prefix = "RI " # Regio Incrociatore
+	fallback_name = "Incrociatore pesante %s"
+
+	unique = {
+		"Marco Polo"
+		"Carlo Alberto" "Vettor Pisani"
+		"Giuseppe Garibaldi" "Varese" "Francesco Ferruccio"
+		"Pisa" "Amalfi"
+		"San Giorgio" "San Marco"
+		"Trento" "Trieste"
+		"Zara" "Fiume" "Gorizia" "Pola"
+		"Bolzano"
+	}
+}
+
+### MINELAYER NAMES###
+ITA_MINELAYERS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINELAYERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { light_cruiser destroyer }
+
+	prefix = "RN "
+	fallback_name = "Posamine %s"
+
+	unique = {
+		"Buccari" "Durazzo" "Fasana" "Pelagosa"
+		"Dardanelli" "Milazzo" "Ostia" "Legnano" "Lepanto" "Azio"
+	}
+}
+
+### BATTLESHIP NAMES ###
+ITA_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { battleship }
+
+	prefix = "RN " # Regia Nave
+	fallback_name = "Corazzata %s"
+
+	unique = {
+		"Vittorio Veneto" "Littorio" "Roma" "Impero" "Italia"
+		"Regina Margherita" "Benedetto Brin"
+		"Regina Elena" "Vittorio Emanuele" "Napoli"
+		"Dante Alighieri"
+		"Conte di Cavour" "Giulio Cesare" "Leonardo da Vinci"
+		"Caio Duilio" "Andrea Doria"
+		"Francesco Caracciolo" "Cristoforo Colombo" "Marcantonio Colonna" "Francesco Morosini"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+ITA_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { carrier }
+
+	prefix = "RN " # Regia Nave
+	fallback_name = "Portaerei %s"
+
+	unique = {
+		"Aquila"
+	}
+}
+
+### LIGHT CARRIER NAMES ###
+ITA_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { light_carrier }
+
+	prefix = "RN " # Regia Nave
+	fallback_name = "Portaerei Leggero %s"
+
+	unique = {
+		"Sparviero"
+	}
+}
+
+### SUBMARINES ###
+ITA_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ITA }
+
+	type = ship
+	ship_types = { submarine }
+
+	prefix = "RSmg " # Regio Sommergibile
+	fallback_name = "Sommergibile %s"
+
+	unique = {
+		"Pietro Calvi" "Giuseppe Finzi" "Enrico Tazzoli"
+		"Ambra" "Berillo" "Corallo" "Diaspro" "Gemma" "Iride" "Malachite" "Onice" "Perla" "Turchese"
+		"Adua" "Alagi" "Aradam" "Ascianghi" "Axum" "Beilul" "Dagabur" "Dessiè" "Durbo" "Gondar" "Lafolè" "Macallè" "Neghelli" "Scirè" "Tembien" "Uarsciek" "Uebi Scebeli"
+		"Atropo" "Foca" "Zoea"
+		"Argo" "Velella"
+		"Barbarigo" "Dandolo" "Emo" "Marcello" "Mocenigo" "Morosini" "Nani" "Provana" "Veniero" "Comandante Cappellini" "Comandante Faà di Bruno"
+		"Archimede" "Brin" "Galvani" "Guglielmotti" "Torricelli"
+		"Alpino Bagnolini" "Reginaldo Giuliani" "Console Generale Liuzzi" "Capitano Tarantini"
+		"Maggiore Baracca" "Michele Bianchi" "Leonardo da Vinci" "Guglielmo Marconi" "Luigi Torelli"
+		"Ammiraglio Cagni" "Ammiraglio Caracciolo" "Ammiraglio Millo" "Ammiraglio Saint Bon"
+		"Acciaio" "Alabastro" "Argento" "Asteria" "Avorio" "Bronzo" "Cobalto" "Giada" "Granito" "Nichelio" "Platino" "Porfido" "Volframio"
+		"Cernia" "Dentice" "Flutto" "Gorgo" "Grongo" "Marea" "Murena" "Nautilo" "Sparide" "Spigola" "Tritone" "Vortice"
+		"Remo" "Romolo"
+		"Alluminio" "Antimonio" "Cromo" "Ferro" "Fosforo" "Litio" "Manganese" "Piombo" "Potassio" "Rame" "Silicio" "Sodio" "Zinco" "Zolfo"
+		"Pietro Micca" "Angelo Emo" "Luigi Galvani" "Lorenzo Marcello" "Lazzaro Mocenigo"
+		"Andrea Provana" "Agostino Barbarigo" "Giacomo Nani" "Sebastiano Veniero"
+		"Pier Capponi" "Giovanni da Procida" "Goffredo Mameli" "Tito Speri"
+		"Giovanni Bausan" "Marcantonio Colonna" "Des Geneys" "Vettor Pisani"
+		"Ettore Fieramosca"
+		"Fratelli Bandiera" "Luciano Manara" "Ciro Menotti" "Santorre Santarosa"
+		"Delfino" "Narvalo" "Squalo" "Tricheco"
+		"Marcantonio Bragadin" "Filippo Corridoni"
+		"Luigi Settembrini" "Ruggiero Settimo"
+		"Argonauta" "Fisalia" "Jalea" "Jantina" "Medusa" "Salpa" "Serpente"
+		"Ametista" "Anfitrite" "Diamante" "Galatea" "Naiade" "Nereide" "Ondina" "Rubino" "Sirena" "Smeraldo" "Topazio" "Zaffiro"
+		"Galileo Ferraris" "Galileo Galilei" "Evangelista Torricelli"
+		"Glauco" "Otaria"
+	}
+}
+
+### THEME: ITALIAN REGIONS ###
+ITA_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"Sardegna" "Sicilia" "Lucania" "Abruzzi" "Lazio" "Marche" "Toscana" "Emilia" "Piemonte" "Venezia Tridentina" "Venezia Euganea" "Venezia Giulia" "Dalmatia"
+		# "Calabria" "Basilicata" "Puglia" "Campania" "Umbria" "Etruria" "Liguria" "Lombardia" "Zara"
+	}
+}
+
+## THEME: ITALIAN CITIES ###
+ITA_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"Milano" "Torino" "Napoli" "Palermo" "Firenze" "Genova" "Bologna" "Catania" "Padova" "Verona" "Brescia" "Treviso" "Parma" "Prato" "Modena" "Reggio Calabria" "Reggio Emilia" "Perugia" "Ravenna" "Livorno"
+		"Cagliari" "Foggia" "Rimini" "Salerno" "Ferrara" "Sassari" "Monza" "Vicenza" "Como" "Siracusa" "Bergamo" "Pescara" "Forlì" "Lecce" "Trapani" "Mantova" "L'Aquila" "Siena" "La Spezia" "Pavia" "Terni"
+		"Novara" "Piacenza" "Udine" "Arezzo" "Cesena" "Pesaro" "Alessandria" "Pistoia" "Catanzaro" "Lucca" "Asti" "Gela" "Cremona" "Viterbo" "Cosenza" "Savona"
+		# "Roma" "Venezia" "Bari" "Trieste" "Taranto" "Bolzano" "Trento" "Ancona" "Fiume" "Gorizia" "Pola" "Pisa" "Brindisi" "Varese"
+	}
+}
+
+## THEME: ITALIAN COLONIES ###
+ITA_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"Egeo" "Rodi" "Tripoli" "Tobruk" "Bengasi" "Mogadiscio" "Massawa" "Somalia" "Eritrea" "Abissinia" "Addis Abeba"
+		# "Libia"
+	}
+}
+
+## THEME: ITALIAN MYTHOLOGICAL NAMES ###
+ITA_MYTHOLOGY = {
+	name = NAME_THEME_MYTHOLOGY
+
+	for_countries = { ITA }
+
+	type = ship
+
+	prefix = "RN " # Regia Nave
+	unique = {
+		"Venere" "Apollo" "Marte" "Minerva" "Cerere" "Dioniso" "Plutone" "Vulcano" "Giunone" "Vesta" "Nettuno" "Giove" "Saturno" "Urano" "Prometeo" "Proteo" "Aurora" "Atlante" "Scilla" "Cariddi" "Ippocampo"
+		# "Mercurio"
+    }
+}

@@ -1,0 +1,35 @@
+﻿##### URUGUAY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+URG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ROU "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Uruguay" "General Artigas" "Montevideo"
+		"Comandante Pedro Campbell"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+URG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { URG }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "ROU "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		"Montevideo"
+	}
+}

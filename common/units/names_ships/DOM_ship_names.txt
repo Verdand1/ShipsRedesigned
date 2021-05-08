@@ -1,0 +1,19 @@
+﻿##### DOMINICAN REPUBLIC NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+DOM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { DOM }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ARD "
+	fallback_name = "Destructor %d"					
+
+	unique = {			
+		"Generalissimo"
+		"Presidente Trujillo"
+		"Cristobal Colón" "Juan Alejandro Acosta" "Juan Bautista Cambiaso" "Gerardo Jansen" "Juan Bautista Maggiolo" 
+	}
+}

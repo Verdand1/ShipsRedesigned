@@ -1,0 +1,69 @@
+﻿##### ROMANIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ROM_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "NMS "
+	fallback_name = "Distrugator %d"					
+
+	unique = {											
+		"Mărăști" "Mărășești" "Vifor" "Viscul"
+		"Regele Ferdinand" "Regina Maria"
+	}
+}
+
+### SUBMARINES ###
+ROM_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ROM }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "NMS "
+	fallback_name = "Submarin %d"
+	
+	unique = {
+		"Delfinul"
+		"Rechinul"
+		"Marsuinul"
+	}
+}
+
+### THEME: ROMANIAN REGIONS ###
+ROM_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { ROM }
+
+	type = ship
+
+	prefix = "NMS "
+	unique = {
+		"Bucuresti" "Muntenia" "Oltenia" "Banat" "Constanta" "Transilvania" "Moldova" "Dobruja" "Crisana" "Maramures" "Basarabia" "Bukovina" 
+		"Herta" "Budjak" 
+	}
+}
+
+## THEME: ROMANIAN CITIES ###
+ROM_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { ROM }
+
+	type = ship
+
+	prefix = "NMS "
+	unique = {
+		"Bucuresti" "Cluj" "Constanta" "Puebla" "Iasi" "Craiova" "Brasov" "Galati" "Ploiesti" "Oradea" "Arad" "Pitesti" "Brăila" "Sibiu" 
+		"Bacău" "Târgu Mures" "Baia Mare" "Buzău" "Botosani" "Satu Mare" "Râmnicu Vâlcea" "Piatra Neamt" "Piatra Neamt" "Târgu Jiu" "Târgoviste" "Focsani" "Bistrita" 
+		"Tulcea" "Resita" "Slatina" "Călărasi" "Alba Iulia" "Giurgiu" "Deva" "Zalău" "Sfântu Gheorghe" "Vaslui" "Slobozia" "Alexandria" 
+		"Miercurea Ciuc" 
+	}
+}

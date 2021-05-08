@@ -1,0 +1,58 @@
+﻿##### PAKISTAN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PAK_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PAK }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "PNS "							
+	fallback_name = "Destroyer %d"					
+
+	unique = {											
+		"Tippu Sultan" "Tariq" "Tughril"
+		"Jhelum" "Sind"
+		"Zulfiquar" "Shamsher"
+		"Taimur" "Alamgir" "Jahangir" "Shah Jehan"
+		"Badr" "Khaibar"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PAK_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PAK }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "PNS "							
+	fallback_name = "Light Cruiser %d"
+
+	unique = {
+	   "Babur" "Jahangir"
+	}
+}
+
+### SUBMARINES ###
+PAK_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PAK }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "PNS "							
+	fallback_name = "Submarine %d"
+	
+	unique = {
+		"Ghazi"
+		"Hangor" "Shushuk" "Mangro"
+		"Hashmat" "Hurmat"
+		"Khalid" "Saad" "Hamza"
+	}
+}

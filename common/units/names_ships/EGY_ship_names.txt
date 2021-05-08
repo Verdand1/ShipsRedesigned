@@ -1,0 +1,19 @@
+﻿##### EGYPT NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+EGY_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { EGY }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ERN "
+	fallback_name = "Destroyer%d"					
+
+	unique = {											
+		"El Malek Farouq"
+		"Rashid" "Aboukir" "Damiat"
+		"El Qaher" "El Fateh"
+	}
+}

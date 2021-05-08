@@ -1,0 +1,34 @@
+﻿##### ESTONIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+EST_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "EML "
+	fallback_name = "Torpeedopaatide %d"					
+
+	unique = {											
+		"Wambola" "Lennuk"
+	}
+}
+
+### SUBMARINES ###
+EST_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { EST }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "EML "
+	fallback_name = "Allveelaevade %d"
+	
+	unique = {
+		"Kalev" "Lembit"
+	}
+}

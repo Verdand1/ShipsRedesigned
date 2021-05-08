@@ -1,0 +1,16 @@
+﻿##### LITHUANIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+LIT_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LIT }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	fallback_name = "Nakintojas %d"					
+
+	unique = {											
+		"Prezidentas Smetona"
+	}
+}

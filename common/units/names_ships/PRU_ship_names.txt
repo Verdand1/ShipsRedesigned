@@ -1,0 +1,59 @@
+﻿##### PERU NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+PRU_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "BAP "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Villar" "Almirante Guise"
+		"Palacios" "Ferré"
+		"Garcia y Garcia"
+		"Coronel Bolognesi" "Castilla" "Guise" "Capitán Quiñones" "Gálvez" "Diez Canseco"
+		"Teniente Rodríguez"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+PRU_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "BAP "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		"Almirante Grau" "Coronel Bolognesi"
+		"Aguirre"
+	}
+}
+
+### SUBMARINES ###
+PRU_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { PRU }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "BAP "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Pacocha" "La Pedrera"
+		"Dos de Mayo" "Abtao" "Angamos" "Iquique"
+		"Islay" "Arica"
+		"Ferré" "Palacios"
+	}
+}

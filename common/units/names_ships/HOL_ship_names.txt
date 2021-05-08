@@ -1,0 +1,166 @@
+﻿##### GREECE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HOL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { destroyer }		
+
+	prefix = "HrMs "
+	fallback_name = "Torpedobootjager %d"					
+
+	unique = {											
+		"Gerard Callenburgh" "Isaac Sweers" "Tjerk Hiddes" "Philips van Almonde"
+		"Banckert"
+		"Marnix"
+		"Holland" "Zeeland" "Noord-Brabant" "Gelderland"
+		"Friesland" "Groningen" "Limburg" "Overijssel" "Drenthe" "Utrecht" "Rotterdam" "Amsterdam"
+		"Van Ghent" "Eversten" "Kortenaer" "Piet Hein" 
+		"Van Galen" "Witte de With" "Van Nes"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HOL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Kruiser %d"
+
+	unique = {
+		"De Ruyter"
+		"Tromp" "Jacob van Heemskerck"
+		"De Zeven Provinciën"
+		"Holland" "Gelderland" "Zeeland" "Friesland" "Noord-Brabant" "Utrecht"
+		"Java" "Sumatra" "Celebes"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HOL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "HrMs "
+	fallback_name = "Panterschip %d"
+
+	unique = {
+		"Evertsen" "Piet Hein" "Kortenaer"
+		"Koningin Regentes" "De Ruyter" "Hertog Hendrik"
+		"Marten Harpertzoon Tromp"
+		"Jacob van Heemskerck"
+		"De Zeven Provinciën"
+	}
+}
+
+### LIGHT CARRIER NAMES ###
+HOL_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "HrMs "
+	fallback_name = "Lichte Vliegdekschip %d"	
+
+	unique = {
+		"Karel Doorman"
+	}
+}
+
+### SUBMARINES ###
+HOL_SS_OCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_OCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "O-%d"
+	
+}
+HOL_SS_KCLASS = {
+	name = NAME_THEME_HISTORICAL_SUBS_KCLASS
+
+	for_countries = { HOL }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "HrMs "
+	fallback_name = "K-%s"
+	
+}
+
+### THEME: DUTCH REGIONS  ###
+HOL_REGIONS = {
+	name = NAME_THEME_REGIONS
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"Gelderland" "Zeeland" "Friesland" "Gelderland" "Noord-Brabant" "Utrecht" "Drenthe" "Brabant" "Limburg"
+	}
+}
+
+## THEME: DUTCH CITIES ###
+HOL_CITIES = {
+	name = NAME_THEME_CITIES
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"Rotterdam" "Amsterdam" "Den Haag" "Utrecht" "Eindhoven" "Tilburg" "Groningen" "Nijmegen" "Breda" "Almere Stad" "Enschede" 
+		"Arnhem" "Amersfoort" "Maastricht" "Zwolle" "Deventer" "Venlo" "Zoetermeer" "Roosendaal" "Apeldoorn" 
+	}
+}
+
+## THEME: DUTCH COLONIES ###
+HOL_COLONIES = {
+	name = NAME_THEME_COLONIES
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"Java" "Sumatra" "Soerabaja" "Celebes" "Batjan" "Ceram" "Ambon" "Banda" "Ternate" "Batavia" "Sulawesi" "Sunda" "Bali" "Papua" "Medan" 
+		"Makassar" "Palembang" "Balikpapan" "Manado" "Hollandia"
+	}
+}
+
+## THEME: FISH ###
+HOL_FISH = {
+	name = NAME_THEME_FISH
+
+	for_countries = { HOL }
+
+	type = ship
+
+	prefix = "HrMs "							
+	unique = {
+		"Dolfijn" "Zeehond" "Zwaardvis" "Tijgerhaai" "Walrus" "Zeeleeuw" "Potvis" "Tonijn" "Zwaardvis" "Bruinvis"
+	}
+}

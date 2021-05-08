@@ -1,0 +1,45 @@
+﻿##### CHINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CHI_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	fallback_name = "%d Quzujian"					
+
+	unique = {
+		"Shen Yang"
+		"Tan Yang"
+		"Fen Yang"
+		"An Shan" "Fu Shun" "Chang Chun" "Tai Yuan"
+		"Hai Hoha" "Hai Lung" "Hai Hse" "Hai Ying"
+		"Chang Feng" "Fu Po" "Fei Hung"
+		"Ching Po"
+		"Lung Tuan"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CHI_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	fallback_name = "%d Qingxing Xunyangjian"
+
+	unique = {
+		"Ning Hai" "Ping Hai"
+		"Chung King"
+		"Hai Yung" "Hai Chou" "Hai Chen"
+		"Hai Chi" "Hai Tien"
+		"Ying Swei"
+		"Chao Ho"
+		"Fei Hung"
+	}
+}

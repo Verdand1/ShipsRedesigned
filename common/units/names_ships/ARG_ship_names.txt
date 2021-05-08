@@ -1,0 +1,121 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+ARG_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ARA "
+	fallback_name = "ARA Destructor %d"					
+
+	unique = {											
+		"Entre Ríos" "Corrientes" "San Juan" "San Luis" "Misiones" "Santa Cruz" "Buenos Aires"
+		"Espora" "Rosales" "Almirante Brown" "Domecq García" "Almirante Storni"
+		"Seguí" "Bouchard" "Piedra Buena"
+		"Py"
+		"Catamarca" "Jujuy"
+		"Córdoba" "La Plata"
+		"Santa Fé" "Santiago" "Tucumán"
+		"Rioja" "Mendoza" "Salta" 
+		"Cervantes" "Juan de Garay"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+ARG_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "ARA "
+	fallback_name = "ARA Crucero Ligero %d"
+
+	unique = {											
+		"La Argentina"
+		"Diecisiete de Octubre" "Nueve de Julio" "General Belgrano"
+		"Patagonia"
+		"Veinticinco de Mayo"
+		"Buenos Aires"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+ARG_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "ARA "
+	fallback_name = "ARA Crucero Pesado %d"
+
+	unique = {											
+		"Garibaldi" "San Martin" "General Belgrano" "Pueyrredon" "Rivadavia" "Moreno" "Varese" "Mitra" "Roca"
+		"Independencia" "Nueve de Julio" "Libertad"
+		"Veinticinco de Mayo" "Almirante Brown"
+	}
+}
+
+### BATTLESHIP NAMES ###
+ARG_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "ARA "
+	fallback_name = "ARA Acorazado %d"		
+
+	unique = {											
+		"Rivadavia" "Moreno"
+		"El Plata" "Los Andes"
+		"Almirante Brown"
+		"Independencia" "Nueve de Julio"
+	}
+}
+
+### LIGHT AIRCRAFT CARRIER NAMES ###
+ARG_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "ARA "
+	fallback_name = "ARA Portaaviones Ligero %d"	
+
+	unique = {											
+		"Independencia" "Veinticinco de Mayo"
+	}
+}
+
+### SUBMARINES ###
+ARG_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { ARG }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "ARA "
+	fallback_name = "ARA Submarino %d"
+	
+	unique = {											
+		"Santa Fe" "Santiago del Estero" "Salta"
+		"San Luis"
+		"Santa Cruz" "San Juan"
+	}
+}

@@ -1,0 +1,92 @@
+﻿##### SWEDEN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SWE_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "HMS "
+	fallback_name = "Jagare %d"					
+
+	unique = {											
+		"Göteborg" "Stockholm" "Malmö" "Karlskrona" "Gävle" "Norrköping"
+		"Mode" "Magne" "Mjölner" "Munin"
+		"Visby" "Sundsvall" "Hälsingborg" "Kalmar"
+		"Öland" "Uppland"
+		"Halland" "Småland"
+		"Östergötland" "Södermanland" "Gästrikland" "Hälsingland"
+		"Örnen" "Jacob Bagge" "Klas Horn" Psilander" "Klas Uggla"
+		"Ehrensköld" "Nordenskjöld"
+		"Puke"
+		"Romulus" "Remus"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SWE_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "HMS "
+	fallback_name = "Lätt Kryśsare %d"
+
+	unique = {
+		"Fylgia"
+		"Klas Fleming"
+		"Gotland"
+		"Göta Lejon" "Tre Kronor"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SWE_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "HMS "
+	fallback_name = "Tung Kryśsare %d"
+
+	unique = {
+		"Oden" "Thor" "Niord"
+		"Dristigheten"
+		"Äran" "Tapperheten" "Wasa" "Manligheten"
+		"Oscar II"
+		"Sverige" "Drottning Victoria" "Gustav V"
+	}
+}
+
+### SUBMARINES ###
+SWE_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SWE }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "HMS "
+	fallback_name = "Ubåt %d"
+	
+	unique = {
+		"Delfinen" "Nordkaparen" "Springaren"
+		"Sjölejonet" "Sjöbjörnen" "Sjöhunden" "Svärdfisken" "Tumlaren" "Dykaren" "Sjöhästen" "Sjöormen" "Sjöborren"
+		"Forellen" "Aborren" "Siken" "Gäddan" "Laxen" "Makrillen"
+		"Neptun" "Najad" "Näcken"
+		"Hajen" "Sälen" "Valen" "Bävern" "Illern" "Uttern"
+		"Vargen"
+		"Abborren" "Braxen"
+		"Valrossen"
+		"Draken" "Gripen" "Ulven"
+	}
+}

@@ -1,0 +1,97 @@
+﻿##### CHILE NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+CHL_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "BACH "
+	fallback_name = "BACH Destructor %d"					
+
+	unique = {
+		"Almirante Williams" "Almirante Riveros"
+		"Blanco Encalada" "Cochrane"
+		"Ministro Zenteno" "Ministro Portales"
+		"Almirante Lynch" "Almirante Condell"
+		"Almirante Uribe" "Almirante Coni" "Almirante Simpson"
+		"Sargento Aldea" "Ingeniero Hyatt" "Capitán Orella" "Guardiamarina Riquelme" "Teniente Serrano" "Cirujano Videla"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+CHL_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "BACH "
+	fallback_name = "BACH Crucero Ligero %d"
+
+	unique = {
+		"O'Higgins" "Capitán Prat" "Chacabucco"
+		"Almirante Latorre"
+		"Presidente Errázuriz" 	"Presidente Pinto"
+		"Blanco Encalada"
+		"Ministro Zenteno"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+CHL_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "BACH "
+	fallback_name = "BACH Crucero Pesado %d"
+
+	unique = {
+		"Esmeralda"
+		"O'Higgins"
+	}
+}
+
+### BATTLESHIP NAMES ###
+CHL_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "BACH "
+	fallback_name = "BACH Acorazado %d"		
+
+	unique = {
+		"Almirante Latorre" "Almirante Cochrane" "Libertad" "Constitución" "Valparaiso" "Santiago"
+		"Capitán Prat"
+	}
+}
+
+### SUBMARINES ###
+CHL_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { CHL }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "BACH "
+	fallback_name = "BACH Submarino %d"
+	
+	unique = {
+	"Simpson" "Thomson"
+	"O'Brien" "Hyatt"
+	}
+}

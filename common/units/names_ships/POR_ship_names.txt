@@ -1,0 +1,63 @@
+﻿##### ARGENTINA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+POR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "NRP "
+	fallback_name = "Contratorpedeiro %d"					
+
+	unique = {											
+		"Dão" "Douro" "Lima" "Tejo" "Vouga"
+		"Nuno Tristão" "Diogo Gomes"
+		"Diogo Cão" "Corte Real"
+		"Álvares Cabral" "Pacheco Pereira" "Vasco da Gama" "D. Francisco de Almeida"
+		"Pêro Escobar"
+		"Guadiana" "Tamega"
+		"Liz"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+POR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "NRP "
+	fallback_name = "Cruzador Ligeiro %d"
+
+	unique = {
+		"Rainha Dona Amélia"
+		"São Gabriel" "São Rafael"
+		"Dom Carlos I"
+		"Adamastor"
+	}
+}
+
+### SUBMARINES ###
+POR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { POR }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "NRP "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Narval" "Nautilo" "Neptuno"
+		"Albacora" "Barracuda" "Cachalote" "Delfim"
+		"Espadarte"
+		"Golfinho" "Foca" "Hidra"
+	}
+}

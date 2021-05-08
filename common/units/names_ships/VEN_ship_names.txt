@@ -1,0 +1,38 @@
+﻿##### VENEZUELA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+VEN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ARV "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Bolívar"
+		"Carabobo" "Falcon"
+		"Nueva Esparta" "Zulia" "Aragua"
+		"Almirante Clemente" "General Flores" "General Moran" "Almirante Brión" "General Austria" "Almirante Garcia"
+	}
+}
+
+### SUBMARINES ###
+VEN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { VEN }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "ARV "
+	fallback_name = "Submarino %d"
+	
+	unique = {
+		"Carite" "Tiburón"
+		"Picua"
+	}
+}

@@ -1,0 +1,90 @@
+﻿##### TURKEY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+TUR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "TCG "
+	fallback_name = "%d. Yok Edici"					
+
+	unique = {											
+		"Muavenet" "Demirhisar" "Sultanhisar" "Gayret"
+		"Alp Arslan" "Maresal Fevzi Cakmak" "Kilic Ali Pasa" "Piyale Pasa"
+		"Gaziantep" "Giresun" "Gelibolu" "Gemlik"
+		"Istanbul" "Izmir" "Ismit" "Iskenderun" "Icel"
+		"Yücetepe" "Savastepe"
+		"Alcitepe" "Anittepe"
+		"Gazi Osman Pasa"
+		"Peleng-i Derya" "Nimet"
+		"Peyk" "Berk"
+		"Kocatepe" "Adatepe"
+		"Zafer" "Tinaztepe"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+TUR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "TCG "
+	fallback_name = "%d. Isik Kruvazör"
+
+	unique = {
+		"Mecidiye"
+		"Hamidiye"
+		"Drama"
+		"Midilli"
+	}
+}
+
+### BATTLESHIP NAMES ###
+TUR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "TCG "
+	fallback_name = "%d. Savas Gemisi"		
+
+	unique = {
+		"Torgud Reis" "Barbaros Hayreddin"
+		"Resadiye" "Mahmud Resad V" "Fatih Sultan Mehmed"
+		"Sultan Osman-i Evvel"
+		"Yavuz Sultan Selim"
+	}
+}
+
+### SUBMARINES ###
+TUR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { TUR }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "TCG "
+	fallback_name = "%d. Denizalti"
+	
+	unique = {
+		"Saldiray" "Atilay" "Yildiray"
+		"Batiray"
+		"Oruc Reis" "Murat Reis" "Burak Reis" "Uluc Ali Reis"
+		"Preveze" "Cerbe"
+		"Birinci Inönü" "Ikinci Inönü" "Sakarya" "Canakkale" "Gür" "Dumlupinar"
+		"Turgut Reis" "Piri Reis" "Hizir Reis"
+		"Müstecip Onbasi" 
+	}
+}

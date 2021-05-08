@@ -1,0 +1,51 @@
+﻿##### FINLAND NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+FIN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	fallback_name = "Hävittäjä %d"					
+
+	unique = {											
+		"Louhi"
+		"Matti Kurki"
+		"Uusimaa" "Hämeenmaa"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+FIN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	fallback_name = "Raskas Risteilijä %d"
+
+	unique = {
+		"Väinämöinen" "Ilmarinen"
+	}
+}
+
+### SUBMARINES ###
+FIN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { FIN }
+
+	type = ship
+	ship_types = { submarine }
+	
+	fallback_name = "Sukellusvene %d"
+	
+	unique = {
+		"Vetehinen" "Vesihiisi" "Iku-Turso"
+		"Vesikko" 
+	}
+}

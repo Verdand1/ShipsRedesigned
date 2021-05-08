@@ -1,0 +1,32 @@
+﻿##### LATVIA NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+LAT_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	fallback_name = "Iznicinatajs %d"					
+
+	unique = {											
+		"Virsaitis"
+	}
+}
+
+### SUBMARINES ###
+LAT_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { LAT }
+
+	type = ship
+	ship_types = { submarine }
+	
+	fallback_name = "Zemudene %d"
+	
+	unique = {
+		"Ronis" "Spidola"
+	}
+}

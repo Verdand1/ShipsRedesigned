@@ -1,0 +1,322 @@
+﻿##### HUNGARY NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+HUN_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { destroyer }
+
+	fallback_name = "Romboló %d"					
+
+	unique = {											
+		 "Huszár" "Ulan" "Streiter" "Wildfang" "Scharfschütze" "Uskoke" "Turul" "Pandur" "Csikós" "Réka" "Dinara" "Velebit"
+		 "Tátra" "Balaton" "Csepel" "Lika" "Triglav" "Orjen"
+		 "Warasdiner"
+		 "Dukla" "Uzsok"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HUN_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	fallback_name = "Könnyűcirkáló %d"
+
+	unique = {
+		"Szigetvár"
+		"Admiral Spaun"
+		"Saïda" "Helgoland"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HUN_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	fallback_name = "Nehézcirkálo %d"
+
+	unique = {
+		"Sankt Georg"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HUN_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { battleship }
+	
+	
+	fallback_name = "Csatahajó %d"		
+
+	unique = {
+		"Budapest"
+		"Viribus Unitis" "Tegetthoff" "Prinz Eugen" "Szent István"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HUN_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { carrier }
+	
+	fallback_name = "Repülögép-hordozó %d"	
+
+}
+
+### LIGHT CARRIER NAMES ###
+HUN_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { HUN }
+
+	can_use = { 
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	fallback_name = "Könnyű Repülögép-hordozó %d"	
+
+}
+
+### SUBMARINES ###
+HUN_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { HUN }
+
+	can_use = {
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	ship_types = { submarine }
+	
+	fallback_name = "U-%d"
+	
+}
+
+HUN_THEME_RIVERS_IMPERIAL = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { HUN }
+
+	can_use = {
+		not = { has_cosmetic_tag = HUN_EMPIRE }
+	}
+
+	type = ship
+	
+	unique = {
+		"Donau" "Tisza" "Sajó" "Rába" "Lafnitz" "Körös" "Zagyva" "Drava" "Zala" "Hornád" "Marcal" "Tarna" "Salzach" "Steyr" "Leitha" "Thaya" "Inn" "Isar" "Iller" "Traun" "Mur" "Drau" "Enns"
+	}
+}
+
+### REGULAR DESTROYER NAMES###
+HUN_DD_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_DESTROYERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { destroyer }	
+
+	prefix = "SMS "
+	fallback_name = "Romboló %d"					
+
+	unique = {											
+		 "Huszár" "Ulan" "Streiter" "Wildfang" "Scharfschütze" "Uskoke" "Turul" "Pandur" "Csikós" "Réka" "Dinara" "Velebit"
+		 "Tátra" "Balaton" "Csepel" "Lika" "Triglav" "Orjen"
+		 "Warasdiner"
+		 "Dukla" "Uzsok"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+HUN_CL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CL
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "Könnyűcirkáló %d"
+
+	unique = {
+		"Zenta" "Aspern" "Szigetvár"
+		"Admiral Spaun"
+		"Saïda" "Helgoland" "Novara"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+HUN_CA_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CA
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "SMS "
+	fallback_name = "Nehézcirkálo %d"
+
+	unique = {
+		"Kaiserin und Königin Maria Theresia"
+		"Kaiser Karl VI"
+		"Sankt Georg"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+HUN_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "SMS "
+	fallback_name = "Csatahajó %d"		
+
+	unique = {
+		"Monarch" "Wien" "Budapest"
+		"Habsburg" "Árpád" "Babenberg"
+		"Erzherzog Karl" "Erzherzog Friedrich" "Erzherzog Ferdinand Max"
+		"Viribus Unitis" "Tegetthoff" "Prinz Eugen" "Szent István"
+	}
+}
+
+### AIRCRAFT CARRIER NAMES ###
+HUN_CV_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CARRIERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { carrier }
+	
+	prefix = "SMS "
+	fallback_name = "Repülögép-hordozó %d"	
+
+}
+
+### LIGHT CARRIER NAMES ###
+HUN_CVL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CVL
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "SMS "
+	fallback_name = "Könnyű Repülögép-hordozó %d"	
+
+}
+
+### SUBMARINES ###
+HUN_SS_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_SUBMARINES
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "SM "
+	fallback_name = "U-%d"
+	
+}
+
+HUN_THEME_RIVERS_IMPERIAL = {
+	name = NAME_THEME_RIVERS
+
+	for_countries = { AUS CZE CRO HUN }
+
+	can_use = { 
+		has_cosmetic_tag = HUN_EMPIRE
+	}
+
+	type = ship
+	
+	prefix = "SMS "
+	
+	unique = {
+		"Donau" "Tisza" "Sajó" "Rába" "Lafnitz" "Körös" "Zagyva" "Drava" "Zala" "Hornád" "Marcal" "Tarna" "Salzach" "Steyr" "Leitha" "Thaya" "Inn" "Isar" "Iller" "Traun" "Mur" "Drau" "Enns"
+	}
+}

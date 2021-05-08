@@ -1,0 +1,125 @@
+﻿##### SPAIN NAME LISTS #####
+### REGULAR DESTROYER NAMES###
+SPR_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { destroyer }			
+
+	prefix = "ARE "
+	fallback_name = "Destructor %d"					
+
+	unique = {											
+		"Churucca" "Alcalá Galiano" "Sánchez Barcáiztegui" "Almirante Ferrándiz" "José Luis Díez" "Lepanto" "Almirante Valdés" "Almirante Antequera" "Almirante Miranda" "Gravina" "Escaño" "Císcar" "Jorge Juan" "Ulloa"
+		"Almirante Valdéz"
+		"Pizarro" "Hernán Cortés" "Vasco Núñez de Balboa" "Martín Alonso Pinzón" "Magallanes" "Sarmiento de Gamboa" "Vicente Yáñez Pinzón" "Legazpi"
+		"Álava" "Liniers"
+		"Audaz" "Osado" "Meteoro" "Furor" "Rayo" "Ariete" "Temerario" "Intrépido" "Relámpago"
+		"Oquendo" "Roger de Lauria" "Marqués de la Ensenada"
+		"María de Molina" "Marqués de la Victoria" "Álvaro de Bazán"
+		"Huesca" "Teruel"
+		"Melilla" "Ceuta"
+		"Alsedo" "Velasco" "Lazaga"
+	}
+}
+
+### LIGHT CRUISER NAMES###
+SPR_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	prefix = "ARE "
+	fallback_name = "Crucero Ligero %d"
+
+	unique = {
+		"Río de La Plata"
+		"Extremadura"
+		"Reina Regente"
+		"República"
+		"Méndez Núñes"
+		"Blas de Lezo"
+		"Libertad"
+		"Almirante Cervera"
+		"Miguel de Cervantes"
+	}
+}
+
+### HEAVY CRUISER NAMES###
+SPR_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	prefix = "ARE "
+	fallback_name = "Crucero Pesado %d"
+
+	unique = {
+		"Canarias" "Baleares"
+		"Carlos V"
+		"Princesa de Asturias" "Cardenal Cisneros" "Cataluña"
+	}
+}
+
+
+### BATTLESHIP NAMES ###
+SPR_BB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_BB
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { battleship }
+	
+	prefix = "ARE "
+	fallback_name = "Acorazado %d"		
+
+	unique = {
+		España" ""Alfonso XIII" "Jaime I"
+	}
+}
+
+### LIGHT CARRIER NAMES ###
+SPR_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	prefix = "ARE "
+	fallback_name = "Portaaviones Ligero %d"	
+
+	unique = {
+		"Dédalo"
+	}
+}
+
+### SUBMARINES ###
+SPR_SS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { SPR }
+
+	type = ship
+	ship_types = { submarine }
+	
+	prefix = "ARE "
+	fallback_name = "S-%d"
+	
+	unique = {
+		"Isaac Peral"
+		"González López" "Aguilar Tablada"
+		"Almirante García de los Reyes" "Narciso Monturiol" "Cosme García"
+		"Delfín" "Tonina" "Marsopa" "Narval"
+	}
+}
