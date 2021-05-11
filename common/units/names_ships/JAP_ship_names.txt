@@ -8,7 +8,7 @@ JAP_DD_HISTORICAL = {
 	type = ship
 	ship_types = { destroyer }			
 
-	fallback_name = "Kuchikukan %d -go"					
+	fallback_name = "Kuchikukan %d-go"					
 
 	unique = {											
 		"Shiratsuyu" "Shigure" "Murasame" "Yudachi" "Kawakaze" "Umikaze" "Samidare" "Yamakaze" "Harusame" "Suzukaze"
@@ -19,7 +19,7 @@ JAP_DD_HISTORICAL = {
 		"Shimakaze"
 		"Yamazuki" "Urazuki" "Aogumo" "Benigumo" "Harugumo" "Amagumo" "Yaegumo" "Fuyugumo" "Yukigumo" "Okitsukaze" "Shimokaze" "Asagochi" "Okaze" "Kochi" "Nishikaze" "Hae" "Kitakaze" "Hayakaze" "Natsukaze" "Fuyukaze" "Hatsunatsu" "Hatsuaki" "Hayaharu"
 		"Umigiri" "Yamagiri" "Tanigiri" "Kawagiri" "Taekaze" "Kiyokaze" "Satokaze" "Murakaze"
-		"Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" "Akishio" "Harushio" "Wakashio" 
+		"Yamasame" "Akisame" "Natsusame" "Hayasame" "Takashio" "Akishio" "Harushio" "Wakashio"
 		"Minekaze" "Sawakaze" "Okikaze" "Yakaze" "Hakaze" "Nadakaze" "Shiokaze" "Akikaze" "Yukaze" "Tachikaze" "Hokaze" "Nokaze" "Namikaze" "Numakaze"
 		"Kamikaze" "Asakaze" "Harukaze" "Matsukaze" "Hatakaze" "Oite" "Hayate" "Asanagi" "Yunagi"
 		"Mutsuki" "Kisaragi" "Yayoi" "Uzuki" "Satsuki" "Minazuki" "Fumizuki" "Nagatsuki" "Kikuzuki" "Mikazuki" "Mochizuki" "Yuzuki"
@@ -38,12 +38,12 @@ JAP_DE_HISTORICAL = {
 	type = ship
 	ship_types = { destroyer }
 	
-	fallback_name = "Kaiboukan %d -go"
+	fallback_name = "Kaiboukan %d-go"
 
 	unique = {
 		"Otori" "Kasasagi" "Kiyodori" "Hayabusa" "Hato" "Sagi" "Kari" "Kiji"
 		"Shimushu" "Hachijo" "Kunashiri" "Ishigaki"
-		"Etorofu" "Oki" "Sado" "Matsuwa" "Fukue" "Tsushima" "Mutsure" "Wakamiya" "Kanju" "Hirado" "Amakusa" "Manju" "Kasado" "Iki" 
+		"Etorofu" "Oki" "Sado" "Matsuwa" "Fukue" "Tsushima" "Mutsure" "Wakamiya" "Kanju" "Hirado" "Amakusa" "Manju" "Kasado" "Iki"
 		"Mikura" "Miyake" "Awaji" "Kurahashi" "Nomi" "Chiburi" "Yashiro" "Kusagaki"
 		"Ukuru" "Hiburi" "Shonan" "Daito" "Okinawa" "Kume" "Ikuna" "Shinnan" "Yaku" "Aguni" "Mokuto" "Inagi" "Uku" "Chikubu" "Shisaka" "Habushi" "Sakito" "Kuga" "Oga" "Kozu" "Kanawa" "Shiga" "Amami" "Hodaka" "Habuto" "Iwo" "Takane" "Ikara" "Ikino" "Otsu" "Urumi"
 		"Murotsu" "Tomoshiri"
@@ -64,7 +64,7 @@ JAP_CL_HISTORICAL = {
 	type = ship
 	ship_types = { light_cruiser }
 	
-	fallback_name = "Keijun'yokan %d -go"
+	fallback_name = "Keijun'yokan %d-go"
 
 	unique = {
 		"Katori" "Kashima" "Kashii" "Kashiwara"
@@ -81,7 +81,7 @@ JAP_CL_HISTORICAL = {
 		"Kuma" "Kitakami" "Ooi" "Tama" "Kiso"
 		"Nagara" "Isuzu" "Natori" "Yura" "Kinu" "Abukuma"
 		"Yubari"
-		"Sendai" "Jintsu" "Naka" 
+		"Sendai" "Jintsu" "Naka"
 	}
 }
 
@@ -94,7 +94,7 @@ JAP_CA_HISTORICAL = {
 	type = ship
 	ship_types = { heavy_cruiser }
 	
-	fallback_name = "Jujun'yokan %d -go"
+	fallback_name = "Jujun'yokan %d-go"
 
 	unique = {
 		"Suzuya" "Kumano"
@@ -102,9 +102,9 @@ JAP_CA_HISTORICAL = {
 		"Asama" "Tokiwa"
 		"Yakumo"
 		"Azuma"
-		"Izumo" Iwate"
-		"Tsukuba" Ikoma"
-		"Ibuki" Kurama"
+		"Izumo" "Iwate"
+		"Tsukuba" "Ikoma"
+		"Ibuki" "Kurama"
 		"Furutaka" "Kako"
 		"Aoba" "Kinugasa"
 		"Myoko" "Nachi" "Haguro" "Ashigara"
@@ -123,7 +123,7 @@ JAP_MINELAYERS_HISTORICAL = {
 	type = ship
 	ship_types = { light_cruiser destroyer }
 	
-	fallback_name = "Fusetsukan %d -go"
+	fallback_name = "Fusetsukan %d-go"
 
 	unique = {
 		"Okinoshima"
@@ -138,7 +138,7 @@ JAP_MINELAYERS_HISTORICAL = {
 		"Itsukushima"
 		"Kamome" "Tsubame"
 		"Yaeyama"
-		"Nasami" 
+		"Nasami"
 		"Sarushima"
 	}
 }
@@ -152,7 +152,7 @@ JAP_BB_HISTORICAL = {
 	type = ship
 	ship_types = { battleship }
 	
-	fallback_name = "Senkan %d -go"		
+	fallback_name = "Senkan %d-go"		
 
 	unique = {
 		"Yamato" "Musashi" "Shinano"
@@ -181,7 +181,7 @@ JAP_BC_HISTORICAL = {
 	type = ship
 	ship_types = { battle_cruiser }
 	
-	fallback_name = "Jun'yosenkan %d -go"		
+	fallback_name = "Jun'yosenkan %d-go"		
 
 	unique = {
 		"Kongo" "Hiei" "Kirishima" "Haruna"
@@ -198,7 +198,7 @@ JAP_CV_HISTORICAL = {
 	type = ship
 	ship_types = { carrier }
 	
-	fallback_name = "Seikikubo %d -go"	
+	fallback_name = "Seikikubo %d-go"	
 
 	unique = {
 		"Soryu"
@@ -222,7 +222,7 @@ JAP_CVL_HISTORICAL = {
 	type = ship
 	ship_types = { light_carrier }
 	
-	fallback_name = "Keikubo %d -go"	
+	fallback_name = "Keikubo %d-go"	
 
 	unique = {
 		"Zuiho" "Shoho"
@@ -247,9 +247,7 @@ JAP_SS_HISTORICAL = {
 	ship_types = { submarine }
 	
 	fallback_name = "I%d"
-	}
 }
-
 
 ### THEME: JAPANESE PREFECTURES ###
 JAP_PREFECTURES = {
@@ -285,7 +283,7 @@ JAP_CITIES = {
 		"Toyonaka" "Nagano" "Toyohashi" "Ichinomiya" "Wakayama" "Okazaki" "Miyazaki" "Nara" "Suita" "Takatsuki" "Shinagawa" "Asahikawa" "Iwaki" "Kochi" 
 		"Takasaki" "Koriyama" "Tokorozawa" "Kawagoe" "Kita" "Akita" "Otsu" "Koshigaya" "Maebashi" "Naha" "Nakano" "Shinjuku" "Yokaichi" "Aomori" "Kurume" 
 		"Kasugai" "Morioka" "Akashi" "Fukushima" "Tsu" "Shimonoseki" "Nagaoka" "Ichihara" "Hakodate" "Yao" "Ibaraki" "Fukui" "Meguro" "Kakogawa" "Tokushima" 
-		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto"   
+		"Mito" "Hiratsuka" "Toshima" "Yamagata" "Sasebo" "Fuchu" "Kure" "Hachinohe" "Saga" "Neyagawa" "Soka" "Sumida" "Fuji" "Kasukabe" "Chigasaki" "Matsumoto" 
 		"Atsugi" "Yamato" "Ageo" "Takarazuka" "Chofu" "Ota" "Tsukuba" "Numazu" "Joetsu" "Shibuya" "Minato" "Kumagaya" "Isesaki" "Kishiwada" "Tottori" "Kofu" 
 		"Odawara" "Suzuka" "Matsue" "Hitachi" "Bunkyo" "Arakawa" "Itami" "Nishitokyo" "Yamaguchi" "Uji"		
 	}

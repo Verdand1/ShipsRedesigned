@@ -11,14 +11,14 @@ SWE_DD_HISTORICAL = {
 	prefix = "HMS "
 	fallback_name = "Jagare %d"					
 
-	unique = {											
+	unique = {										
 		"Göteborg" "Stockholm" "Malmö" "Karlskrona" "Gävle" "Norrköping"
 		"Mode" "Magne" "Mjölner" "Munin"
 		"Visby" "Sundsvall" "Hälsingborg" "Kalmar"
 		"Öland" "Uppland"
 		"Halland" "Småland"
 		"Östergötland" "Södermanland" "Gästrikland" "Hälsingland"
-		"Örnen" "Jacob Bagge" "Klas Horn" Psilander" "Klas Uggla"
+		"Örnen" "Jacob Bagge" "Klas Horn" "Psilander" "Klas Uggla"
 		"Ehrensköld" "Nordenskjöld"
 		"Puke"
 		"Romulus" "Remus"

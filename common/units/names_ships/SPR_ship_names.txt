@@ -83,7 +83,7 @@ SPR_BB_HISTORICAL = {
 	fallback_name = "Acorazado %d"		
 
 	unique = {
-		España" ""Alfonso XIII" "Jaime I"
+		"España" "Alfonso XIII" "Jaime I"
 	}
 }
 

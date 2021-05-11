@@ -268,7 +268,7 @@ ENG_CV_HISTORICAL = {
 	prefix = "HMS "							
 	fallback_name = "HMS Carrier %d"
 
-	ordered = {
+	unique = {
 		"Ark Royal"
 		"Illustrious" "Formidable" "Victorious"
 		"Indomitable"

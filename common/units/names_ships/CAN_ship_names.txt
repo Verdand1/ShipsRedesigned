@@ -55,6 +55,7 @@ CAN_CV_HISTORICAL = {
 	type = ship
 	ship_types = { carrier }
 	
+	prefix = "HMCS "							
 	fallback_name = "HMCS Carrier %s"		
 
 	unique = {

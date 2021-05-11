@@ -66,7 +66,7 @@ USA_DE_HISTORICAL = {
 	fallback_name = "DE%d"
 
 	unique = {
-		"Baytun" "Bazely" ""Evarts" "Wyffels" "Griswold" "Steele" "Carlson" "Bebas" "Crouter" "Brennan" "Bentinck" "Doherty" "Berry" "Austin" "Duckworth" "Edgar G Chase" "Burges" "Edward C. Daly" "Byard" "Gilmore" "Halder" "Burden R Hastings" "Le Hardy" "Duff"
+		"Baytun" "Bazely" "Evarts" "Wyffels" "Griswold" "Steele" "Carlson" "Bebas" "Crouter" "Brennan" "Bentinck" "Doherty" "Berry" "Austin" "Duckworth" "Edgar G Chase" "Burges" "Edward C. Daly" "Byard" "Gilmore" "Halder" "Burden R Hastings" "Le Hardy" "Duff"
 		"Harold C Thomas" "Essington" "Wileman" "Charles R Greer" "Whitman" "Wintle" "Dempsey" "Duffy" "Emery" "Eisner" "Stadtfeld" "Martin" "Sederstrom" "Gillette" "Fleming" "Tisdale" "Eisele" "Fair" "Manlove" "Greiner" "Wyman" "Lovering" "Sanders" "Brackett"
 		"Reynolds" "Mitchell" "Donaldson" "Andres" "Drury" "Cockburn" "Decker" "Dobler" "Doneff" "Engstrom" "Seid" "Smartt" "Walter S Brown" "William C Miller" "Cabana" "Dionne" "Canfield" "Deede" "Eldon" "Cloues" "Duffey" "Foley" "Garlies" "Grindall" "Reibold"
 		"George" "Herzog" "Trumpeter" "Kingsmill" "Lake" "Lyman" "Crowley" "Rall" "Halloran" "Connolly" "Finnegan" "Creamer" "Ely" "Delbert W. Halsey" "Keppler" "Lloyd Thomas" "William C. Lawe" "Williard Keith" "Pasley" "Lindsay" "Hoste" "O'Toole" "John J Powers"
@@ -438,7 +438,7 @@ USA_FISH = {
 		"Corvina" "Cabrilla" "Capelin" "Cisco" "Crevalle" "Caiman" "Charr" "Chub" "Cabezon" "Capitaine" "Carbonero" "Carp" "Catfish" "Chivo" "Chopper" "Clamagore" "Cobbler" "Cochino" "Corporal" "Cubera" "Cusk" "Conger" "Comber" 
 		"Dolphin" "Darter" "Drum" "Devilfish" "Dragonet" "Dentuda" "Diodon" "Dogfish" "Dugong" "Escolar" "Entemedor" "Eel" "Espada" "Flying Fish" "Finback" "Flasher" "Flier" "Flounder" 
 		"Gar" "Grampus" "Grayback" "Grayling" "Gato" "Greenling" "Grouper" "Growler" "Grunion" "Guardfish" "Gabilan" "Gunnel" "Gurnard" "Greenfish" "Garlopa" "Garrupa" "Goldring" "Golet" "Guavina" "Guitarro" 
-		"Haddock" "Halibut" "Herring""Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
+		"Haddock" "Halibut" "Herring" "Haddo" "Hake" "Harder" "Hoe" "Hackleback" "Halfbeak" "Hammerhead" "Hardhead" "Hawkbill" "Icefish" "Irex" "Jack" "Jawfish" "Jallao" "Kete" "Kraken" "Kingfish" 
 		"Lapon" "Lancetfish" "Ling" "Lionfish" "Lagarto" "Lamprey" "Lizardfish" "Loggerhead" "Manta" "Moray" "Mingo" "Muskallunge" "Mackerel" "Marlin" "Macabi" "Mapiro" "Menhaden" "Mero" "Medregal" 
 		"Narwhal" "Nautilus" "Needlefish" "Nerka" "Ono" "Odax" "Porpoise" "Pike" "Perch" "Pickerel" "Pompano" "Paddle" "Pargo" "Peto" "Pogy" "Pompon" "Puffer" "Piper" "Rasher" "Picuda" "Pampanito" "Parche" "Pilotfish" "Pintado" 
 		"Pipefish" "Piranha" "Plaice" "Pomfret" "Pomodon" "Queenfish" "Quillback" "Raton" "Ray" "Redfin" "Robalo" "Rock" "Runner" "Roncador" "Razorback" "Redfish" "Ronquil" "Requin" "Remora" 

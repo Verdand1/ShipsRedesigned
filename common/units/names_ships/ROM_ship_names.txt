@@ -12,7 +12,7 @@ ROM_DD_HISTORICAL = {
 	fallback_name = "Distrugator %d"					
 
 	unique = {											
-		"Mărăști" "Mărășești" "Vifor" "Viscul"
+		"Mărăsti" "Mărăsesti" "Vifor" "Viscul"
 		"Regele Ferdinand" "Regina Maria"
 	}
 }
