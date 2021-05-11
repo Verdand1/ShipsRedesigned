@@ -10,7 +10,7 @@ HUN_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { destroyer }
+	ship_types = { ship_hull_light }
 
 	fallback_name = "Romboló %d"					
 
@@ -33,7 +33,7 @@ HUN_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	fallback_name = "Könnyűcirkáló %d"
 
@@ -55,7 +55,7 @@ HUN_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	fallback_name = "Nehézcirkálo %d"
 
@@ -76,7 +76,7 @@ HUN_BB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { battleship }
+	ship_types = { ship_hull_heavy }
 	
 	
 	fallback_name = "Csatahajó %d"		
@@ -98,7 +98,7 @@ HUN_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { carrier }
+	ship_types = { ship_hull_carrier }
 	
 	fallback_name = "Repülögép-hordozó %d"	
 
@@ -115,7 +115,7 @@ HUN_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { light_carrier }
+	ship_types = { ship_hull_light_carrier }
 	
 	fallback_name = "Könnyű Repülögép-hordozó %d"	
 
@@ -132,7 +132,7 @@ HUN_SS_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	fallback_name = "U-%d"
 	
@@ -165,7 +165,7 @@ HUN_DD_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { destroyer }	
+	ship_types = { ship_hull_light }	
 
 	prefix = "SMS "
 	fallback_name = "Romboló %d"					
@@ -189,7 +189,7 @@ HUN_CL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "SMS "
 	fallback_name = "Könnyűcirkáló %d"
@@ -212,7 +212,7 @@ HUN_CA_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "SMS "
 	fallback_name = "Nehézcirkálo %d"
@@ -236,7 +236,7 @@ HUN_BB_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { battleship }
+	ship_types = { ship_hull_heavy }
 	
 	prefix = "SMS "
 	fallback_name = "Csatahajó %d"		
@@ -260,7 +260,7 @@ HUN_CV_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { carrier }
+	ship_types = { ship_hull_carrier }
 	
 	prefix = "SMS "
 	fallback_name = "Repülögép-hordozó %d"	
@@ -278,7 +278,7 @@ HUN_CVL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { light_carrier }
+	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "SMS "
 	fallback_name = "Könnyű Repülögép-hordozó %d"	
@@ -296,7 +296,7 @@ HUN_SS_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "SM "
 	fallback_name = "U-%d"

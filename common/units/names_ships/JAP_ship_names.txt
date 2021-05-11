@@ -6,7 +6,7 @@ JAP_DD_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	fallback_name = "Kuchikukan %d-go"					
 
@@ -36,7 +36,7 @@ JAP_DE_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { destroyer }
+	ship_types = { ship_hull_light }
 	
 	fallback_name = "Kaiboukan %d-go"
 
@@ -62,7 +62,7 @@ JAP_CL_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	fallback_name = "Keijun'yokan %d-go"
 
@@ -92,7 +92,7 @@ JAP_CA_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	fallback_name = "Jujun'yokan %d-go"
 
@@ -121,7 +121,7 @@ JAP_MINELAYERS_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { light_cruiser destroyer }
+	ship_types = { ship_hull_light_cruiser ship_hull_light }
 	
 	fallback_name = "Fusetsukan %d-go"
 
@@ -150,7 +150,7 @@ JAP_BB_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { battleship }
+	ship_types = { ship_hull_heavy }
 	
 	fallback_name = "Senkan %d-go"		
 
@@ -196,7 +196,7 @@ JAP_CV_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { carrier }
+	ship_types = { ship_hull_carrier }
 	
 	fallback_name = "Seikikubo %d-go"	
 
@@ -220,7 +220,7 @@ JAP_CVL_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { light_carrier }
+	ship_types = { ship_hull_light_carrier }
 	
 	fallback_name = "Keikubo %d-go"	
 
@@ -244,7 +244,7 @@ JAP_SS_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	fallback_name = "I%d"
 }

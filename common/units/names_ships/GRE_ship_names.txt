@@ -6,7 +6,7 @@ GRE_DD_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	prefix = "RHS "
 	fallback_name = "Metafero %s"					
@@ -30,7 +30,7 @@ GRE_CL_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "RHS "
 	fallback_name = "Elafri Katadromiko %s"
@@ -48,7 +48,7 @@ GRE_CA_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "RHS "
 	fallback_name = "Vari Katadromiko %s"
@@ -66,7 +66,7 @@ GRE_BB_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { battleship }
+	ship_types = { ship_hull_heavy }
 	
 	prefix = "RHS "
 	fallback_name = "Thorikto %s"		
@@ -85,7 +85,7 @@ GRE_SS_HISTORICAL = {
 	for_countries = { GRE }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "RHS "
 	fallback_name = "Ypobrychio %s"

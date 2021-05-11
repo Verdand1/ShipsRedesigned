@@ -6,7 +6,7 @@ POL_DD_HISTORICAL = {
 	for_countries = { POL }
 
 	type = ship
-	ship_types = { destroyer }
+	ship_types = { ship_hull_light }
 
 	prefix = "ORP "
 	fallback_name = "Niszczyciel %d"
@@ -27,7 +27,7 @@ POL_CL_HISTORICAL = {
 	for_countries = { POL }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "ORP "
 	fallback_name = "Lekki Krążownik %d"
@@ -44,7 +44,7 @@ POL_SS_HISTORICAL = {
 	for_countries = { POL }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "ORP "
 	fallback_name = "Okręt Podwodny %d"

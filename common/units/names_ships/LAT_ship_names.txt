@@ -6,7 +6,7 @@ LAT_DD_HISTORICAL = {
 	for_countries = { LAT }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	fallback_name = "Iznicinatajs %d"					
 
@@ -22,7 +22,7 @@ LAT_SS_HISTORICAL = {
 	for_countries = { LAT }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	fallback_name = "Zemudene %d"
 	

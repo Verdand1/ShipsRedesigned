@@ -6,7 +6,7 @@ HOL_DD_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { destroyer }		
+	ship_types = { ship_hull_light }		
 
 	prefix = "HrMs "
 	fallback_name = "Torpedobootjager %d"					
@@ -29,7 +29,7 @@ HOL_CL_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HrMs "
 	fallback_name = "Kruiser %d"
@@ -50,7 +50,7 @@ HOL_CA_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HrMs "
 	fallback_name = "Panterschip %d"
@@ -71,7 +71,7 @@ HOL_CVL_HISTORICAL = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { light_carrier }
+	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "HrMs "
 	fallback_name = "Lichte Vliegdekschip %d"	
@@ -88,7 +88,7 @@ HOL_SS_OCLASS = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
 	fallback_name = "O-%d"
@@ -100,7 +100,7 @@ HOL_SS_KCLASS = {
 	for_countries = { HOL }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
 	fallback_name = "K-%s"

@@ -6,7 +6,7 @@ COL_DD_HISTORICAL = {
 	for_countries = { COL }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	prefix = "ARC "
 	fallback_name = "ARC Destructor %d"					
@@ -25,7 +25,7 @@ COL_CL_HISTORICAL = {
 	for_countries = { COL }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "ARC "
 	fallback_name = "ARC Crucero Ligero %d"

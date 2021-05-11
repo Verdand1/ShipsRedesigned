@@ -6,7 +6,7 @@ BUL_DD_HISTORICAL = {
 	for_countries = { BUL }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	fallback_name = "Razrushitel %d"					
 
@@ -25,7 +25,7 @@ BUL_SS_HISTORICAL = {
 	for_countries = { BUL }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	fallback_name = "Podvodnitsa %d"
 	

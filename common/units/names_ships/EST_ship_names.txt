@@ -6,7 +6,7 @@ EST_DD_HISTORICAL = {
 	for_countries = { EST }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	prefix = "EML "
 	fallback_name = "Torpeedopaatide %d"					
@@ -23,7 +23,7 @@ EST_SS_HISTORICAL = {
 	for_countries = { EST }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "EML "
 	fallback_name = "Allveelaevade %d"

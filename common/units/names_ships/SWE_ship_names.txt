@@ -6,7 +6,7 @@ SWE_DD_HISTORICAL = {
 	for_countries = { SWE }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	prefix = "HMS "
 	fallback_name = "Jagare %d"					
@@ -32,7 +32,7 @@ SWE_CL_HISTORICAL = {
 	for_countries = { SWE }
 
 	type = ship
-	ship_types = { light_cruiser }
+	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HMS "
 	fallback_name = "Lätt Kryśsare %d"
@@ -52,7 +52,7 @@ SWE_CA_HISTORICAL = {
 	for_countries = { SWE }
 
 	type = ship
-	ship_types = { heavy_cruiser }
+	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HMS "
 	fallback_name = "Tung Kryśsare %d"
@@ -73,7 +73,7 @@ SWE_SS_HISTORICAL = {
 	for_countries = { SWE }
 
 	type = ship
-	ship_types = { submarine }
+	ship_types = { ship_hull_submarine }
 	
 	prefix = "HMS "
 	fallback_name = "Ubåt %d"

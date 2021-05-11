@@ -6,7 +6,7 @@ DOM_DD_HISTORICAL = {
 	for_countries = { DOM }
 
 	type = ship
-	ship_types = { destroyer }			
+	ship_types = { ship_hull_light }			
 
 	prefix = "ARD "
 	fallback_name = "Destructor %d"					
