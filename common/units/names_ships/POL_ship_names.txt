@@ -9,7 +9,7 @@ POL_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }
 
 	prefix = "ORP "
-	fallback_name = "Niszczyciel %d"
+	fallback_name = "ORP Niszczyciel %d"
 
 	unique = {
 		"Grom" "Błyskawica"
@@ -30,7 +30,7 @@ POL_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "ORP "
-	fallback_name = "Lekki Krążownik %d"
+	fallback_name = "ORP Lekki Krążownik %d"
 
 	unique = {
 		"Dragon" "Conrad"
@@ -47,7 +47,7 @@ POL_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "ORP "
-	fallback_name = "Okręt Podwodny %d"
+	fallback_name = "ORP Okręt Podwodny %d"
 	
 	unique = {
 		"Orzeł" "Sęp"

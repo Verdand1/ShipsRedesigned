@@ -290,8 +290,6 @@ GER_THEME_FISH = {
 
 	type = ship
 	
-	fallback_name = "Schiff %d"
-	
 	ordered = {
 		1 = {"Zander"}
 		2 = {"Wels"} 
@@ -335,8 +333,6 @@ GER_THEME_ANIMALS = {
 	}
 
 	type = ship
-	
-	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Möwe"}
@@ -407,8 +403,6 @@ GER_THEME_RIVERS = {
 
 	type = ship
 	
-	fallback_name = "Schiff %d"
-	
 	ordered = {
 		1 = {"Rhein"}
 		2 = {"Donau"} 
@@ -456,8 +450,6 @@ GER_THEME_GERMANIC = {
 	}
 
 	type = ship
-	
-	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Wotan"}
@@ -507,8 +499,6 @@ GER_THEME_BATTLE = {
 
 	type = ship
 	
-	fallback_name = "Schiff %d"
-
 	ordered = {
 		1 = {"Skaggerak"}
 		2 = {"Teutoburger Wald"} 
@@ -548,11 +538,11 @@ GER_DD_IMPERIAL = {
 		}
 	}
 	
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_light }
 	
-	fallback_name = "Schiff %d"
+	prefix = "SMS "
+	fallback_name = "SMS Schiff %d"
 	
 	unique = { 
 		"G 200" "G 201" "G 202" "G 203" "G 204" "G 205" "G 206"
@@ -608,11 +598,11 @@ GER_CL_IMPERIAL = {
 		}
 	}
 	
-	prefix = "SMS "
 	type = ship
 	ship_types = { light_cruiser}
 	
-	fallback_name = "Leichter Kreuzer %d"
+	prefix = "SMS "
+	fallback_name = "SMS Leichter Kreuzer %d"
 
 	unique = {
 		"Emden"
@@ -646,12 +636,12 @@ GER_CA_IMPERIAL = {
 			has_completed_focus = GER_the_monarchy_compromise
 		}
 	}
-	prefix = "SMS "
 	
 	type = ship
 	ship_types = { ship_hull_heavy_cruiser }
 	
-	fallback_name = "Schwerer Kreuzer %d"
+	prefix = "SMS "
+	fallback_name = "SMS Schwerer Kreuzer %d"
 	
 	unique = {
 		"Deutschland" "Admiral Scheer" "Admiral Graf Spee"
@@ -678,11 +668,11 @@ GER_BB_IMPERIAL = {
 		}
 	}
 	
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_heavy }
 	
-	fallback_name = "Schlachtschiff %d"
+	prefix = "SMS "
+	fallback_name = "SMS Schlachtschiff %d"
 
 	unique = {
 		"Scharnhorst" "Gneisenau"
@@ -709,11 +699,11 @@ GER_BC_IMPERIAL = {
 		}
 	}
 	
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_heavy }
 	
-	fallback_name = "Schlachtkreuzer %d"
+	prefix = "SMS "
+	fallback_name = "SMS Schlachtkreuzer %d"
 
 	unique = {
 		"Von der Tann"
@@ -738,11 +728,11 @@ GER_CV_IMPERIAL = {
 		}
 	}
 
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_carrier }
 	
-	fallback_name = "Flugzeugträger %d"
+	prefix = "SMS "
+	fallback_name = "SMS Flugzeugträger %d"
 
 	unique = {
 		"Graf Zeppelin" "Peter Strasser"
@@ -762,11 +752,11 @@ GER_CVL_IMPERIAL = {
 		}
 	}
 
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_light_carrier }
 	
-	fallback_name = "Leichter Flugzeugträger %d"
+	prefix = "SMS "
+	fallback_name = "SMS Leichter Flugzeugträger %d"
 
 	unique = {
 		"Weser"
@@ -787,11 +777,11 @@ GER_SS_IMPERIAL = {
 		}
 	}
 
-	prefix = "SMS "
 	type = ship
 	ship_types = { ship_hull_submarine }
 	
-	fallback_name = "U-%d"
+	prefix = "SMS "
+	fallback_name = "SMS U-%d"
 	
 }
 
@@ -808,10 +798,9 @@ GER_THEME_ANIMALS_IMPERIAL = {
 		}
 		
 	}
+	
 	prefix = "SMS "
 	type = ship
-	
-	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Möwe"}
@@ -880,7 +869,6 @@ GER_THEME_GERMANIC_IMPERIAL = {
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Wotan"}
@@ -928,8 +916,6 @@ GER_THEME_BATTLE_IMPERIAL = {
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "Schiff %d"
-
 	
 	ordered = {
 		1 = {"Skaggerak"}
@@ -970,7 +956,6 @@ GER_THEME_FISH_IMPERIAL = {
 
 	type = ship
 	prefix = "SMS "
-	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Zander"}

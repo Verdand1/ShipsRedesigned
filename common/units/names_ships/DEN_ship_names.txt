@@ -9,7 +9,7 @@ DEN_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HDMS "
-	fallback_name = "Destroyer %d"					
+	fallback_name = "HDMS Destroyer %d"					
 
 	unique = {											
 		"Huitfeldt" "Willemoes"
@@ -26,7 +26,7 @@ DEN_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HDMS "
-	fallback_name = "Lys Cruiseren %d"
+	fallback_name = "HDMS Lys Cruiseren %d"
 
 	unique = {
 		"Gejser" "Hejmdal"
@@ -44,7 +44,7 @@ DEN_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HDMS "
-	fallback_name = "Tung Cruiseren %d"
+	fallback_name = "HDMS Tung Cruiseren %d"
 
 	unique = {
 		"Herluf Trolle" "Olfert Fischer" "Peder Skram"

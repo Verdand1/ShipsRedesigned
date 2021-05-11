@@ -9,7 +9,7 @@ PER_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "IIS "							
-	fallback_name = "Destroyer %d"					
+	fallback_name = "IIS Destroyer %d"					
 
 	unique = {											
 		"Artemiz"
@@ -27,7 +27,7 @@ PER_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "IIS "							
-	fallback_name = "Submarine %d"
+	fallback_name = "IIS Submarine %d"
 	
 	unique = {
 		"Kousseh"

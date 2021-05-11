@@ -9,7 +9,7 @@ HOL_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }		
 
 	prefix = "HrMs "
-	fallback_name = "Torpedobootjager %d"					
+	fallback_name = "HrMs Torpedobootjager %d"					
 
 	unique = {											
 		"Gerard Callenburgh" "Isaac Sweers" "Tjerk Hiddes" "Philips van Almonde"
@@ -32,7 +32,7 @@ HOL_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HrMs "
-	fallback_name = "Kruiser %d"
+	fallback_name = "HrMs Kruiser %d"
 
 	unique = {
 		"De Ruyter"
@@ -53,7 +53,7 @@ HOL_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HrMs "
-	fallback_name = "Panterschip %d"
+	fallback_name = "HrMs Panterschip %d"
 
 	unique = {
 		"Evertsen" "Piet Hein" "Kortenaer"
@@ -74,7 +74,7 @@ HOL_CVL_HISTORICAL = {
 	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "HrMs "
-	fallback_name = "Lichte Vliegdekschip %d"	
+	fallback_name = "HrMs Lichte Vliegdekschip %d"	
 
 	unique = {
 		"Karel Doorman"
@@ -91,7 +91,7 @@ HOL_SS_OCLASS = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
-	fallback_name = "O-%d"
+	fallback_name = "HrMs O-%d"
 	
 }
 HOL_SS_KCLASS = {
@@ -103,7 +103,7 @@ HOL_SS_KCLASS = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
-	fallback_name = "K-%s"
+	fallback_name = "HrMs K-%s"
 	
 }
 

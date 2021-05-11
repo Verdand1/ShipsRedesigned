@@ -9,7 +9,7 @@ TUR_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "TCG "
-	fallback_name = "%d. Yok Edici"					
+	fallback_name = "TCG %d. Yok Edici"					
 
 	unique = {											
 		"Muavenet" "Demirhisar" "Sultanhisar" "Gayret"
@@ -36,7 +36,7 @@ TUR_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "TCG "
-	fallback_name = "%d. Isik Kruvazör"
+	fallback_name = "TCG %d. Isik Kruvazör"
 
 	unique = {
 		"Mecidiye"
@@ -56,7 +56,7 @@ TUR_BB_HISTORICAL = {
 	ship_types = { ship_hull_heavy }
 	
 	prefix = "TCG "
-	fallback_name = "%d. Savas Gemisi"		
+	fallback_name = "TCG %d. Savas Gemisi"		
 
 	unique = {
 		"Torgud Reis" "Barbaros Hayreddin"
@@ -76,7 +76,7 @@ TUR_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "TCG "
-	fallback_name = "%d. Denizalti"
+	fallback_name = "TCG %d. Denizalti"
 	
 	unique = {
 		"Saldiray" "Atilay" "Yildiray"

@@ -9,7 +9,7 @@ EGY_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ERN "
-	fallback_name = "Destroyer%d"					
+	fallback_name = "ERN Destroyer %d"					
 
 	unique = {											
 		"El Malek Farouq"

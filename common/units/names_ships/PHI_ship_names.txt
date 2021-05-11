@@ -9,7 +9,7 @@ PHI_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "RPS "							
-	fallback_name = "Destroyer %d"					
+	fallback_name = "RPS Destroyer %d"					
 
 	unique = {											
 		"Rajah Soliman"

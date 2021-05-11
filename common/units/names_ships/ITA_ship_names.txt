@@ -9,7 +9,7 @@ ITA_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }
 
 	prefix = "RCT " # Regio Cacciatorpediniere
-	fallback_name = "Cacciatorpediniere %s"
+	fallback_name = "RCT Cacciatorpediniere %s"
 
 	unique = {
 		"Vittorio Alfieri" "Giosue Carducci" "Vincenzo Gioberti" "Alfredo Oriani"
@@ -54,7 +54,7 @@ ITA_DE_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "RT " # Regio Torpediniere
-	fallback_name = "Torpediniere %d"					
+	fallback_name = "RT Torpediniere %d"					
 
 	unique = {											
 		"Astore" "Spica" "Canopo" "Cassiopea" "Castore" "Centauro" "Cigno" "Climene" "Aldebaran" "Altair" "Andromeda" "Antares" "Perseo" "Sagittario" "Sirio" "Vega" "Airone" "Alcione" "Aretusa" "Ariel" "Calipso" "Calliope" "Circe" "Clio" "Libra" "Lince" "Lira"
@@ -75,7 +75,7 @@ ITA_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
-	fallback_name = "Incrociatore leggero %s"
+	fallback_name = "RI Incrociatore leggero %s"
 
 	unique = {
 		"Emanuele Filiberto Duca d'Aosta" "Eugenio di Savoia"
@@ -102,7 +102,7 @@ ITA_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
-	fallback_name = "Incrociatore pesante %s"
+	fallback_name = "RI Incrociatore pesante %s"
 
 	unique = {
 		"Marco Polo"
@@ -126,7 +126,7 @@ ITA_MINELAYERS_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser ship_hull_light }
 
 	prefix = "RN "
-	fallback_name = "Posamine %s"
+	fallback_name = "RN Posamine %s"
 
 	unique = {
 		"Buccari" "Durazzo" "Fasana" "Pelagosa"
@@ -144,7 +144,7 @@ ITA_BB_HISTORICAL = {
 	ship_types = { ship_hull_heavy }
 
 	prefix = "RN " # Regia Nave
-	fallback_name = "Corazzata %s"
+	fallback_name = "RN Corazzata %s"
 
 	unique = {
 		"Vittorio Veneto" "Littorio" "Roma" "Impero" "Italia"
@@ -167,7 +167,7 @@ ITA_CV_HISTORICAL = {
 	ship_types = { ship_hull_carrier }
 
 	prefix = "RN " # Regia Nave
-	fallback_name = "Portaerei %s"
+	fallback_name = "RN Portaerei %s"
 
 	unique = {
 		"Aquila"
@@ -184,7 +184,7 @@ ITA_CVL_HISTORICAL = {
 	ship_types = { ship_hull_light_carrier }
 
 	prefix = "RN " # Regia Nave
-	fallback_name = "Portaerei Leggero %s"
+	fallback_name = "RN Portaerei Leggero %s"
 
 	unique = {
 		"Sparviero"
@@ -201,7 +201,7 @@ ITA_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 
 	prefix = "RSmg " # Regio Sommergibile
-	fallback_name = "Sommergibile %s"
+	fallback_name = "RSmg Sommergibile %s"
 
 	unique = {
 		"Pietro Calvi" "Giuseppe Finzi" "Enrico Tazzoli"

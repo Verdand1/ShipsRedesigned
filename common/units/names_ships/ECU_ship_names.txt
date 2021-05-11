@@ -9,7 +9,7 @@ ECU_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "BAE "
-	fallback_name = "Destructor %d"					
+	fallback_name = "BAE Destructor %d"					
 
 	unique = {											
 		"Libertador Bolívar"

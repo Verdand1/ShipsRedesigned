@@ -9,7 +9,7 @@ PAK_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "PNS "							
-	fallback_name = "Destroyer %d"					
+	fallback_name = "PNS Destroyer %d"					
 
 	unique = {											
 		"Tippu Sultan" "Tariq" "Tughril"
@@ -30,7 +30,7 @@ PAK_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "PNS "							
-	fallback_name = "Light Cruiser %d"
+	fallback_name = "PNS Light Cruiser %d"
 
 	unique = {
 	   "Babur" "Jahangir"
@@ -47,7 +47,7 @@ PAK_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "PNS "							
-	fallback_name = "Submarine %d"
+	fallback_name = "PNS Submarine %d"
 	
 	unique = {
 		"Ghazi"

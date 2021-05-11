@@ -9,7 +9,7 @@ DOM_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ARD "
-	fallback_name = "Destructor %d"					
+	fallback_name = "ARD Destructor %d"					
 
 	unique = {			
 		"Generalissimo"

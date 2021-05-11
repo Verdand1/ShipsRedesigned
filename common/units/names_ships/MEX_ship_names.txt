@@ -9,7 +9,7 @@ MEX_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ARM "
-	fallback_name = "Destructor No.%d"					
+	fallback_name = "ARM Destructor No.%d"					
 
 	unique = {											
 		"Cuauhtémoc" "Cuitláhuac"
@@ -28,7 +28,7 @@ MEX_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "ARM "
-	fallback_name = "Crucero Pesado No.%d"
+	fallback_name = "ARM Crucero Pesado No.%d"
 
 	unique = {
 		"Anáhuac"

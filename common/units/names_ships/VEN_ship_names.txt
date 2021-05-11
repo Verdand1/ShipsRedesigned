@@ -9,7 +9,7 @@ VEN_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ARV "
-	fallback_name = "Destructor %d"					
+	fallback_name = "ARV Destructor %d"					
 
 	unique = {											
 		"Bolívar"
@@ -29,7 +29,7 @@ VEN_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "ARV "
-	fallback_name = "Submarino %d"
+	fallback_name = "ARV Submarino %d"
 	
 	unique = {
 		"Carite" "Tiburón"

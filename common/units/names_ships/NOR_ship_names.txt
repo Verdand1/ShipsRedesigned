@@ -9,7 +9,7 @@ NOR_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HNoMS "
-	fallback_name = "Ødeleggeren %d"					
+	fallback_name = "HNoMS Ødeleggeren %d"					
 
 	unique = {											
 		"Sleipner" "Æger" "Gyller"
@@ -33,7 +33,7 @@ NOR_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HNoMS "
-	fallback_name = "Lys Kryśseren %d"
+	fallback_name = "HNoMS Lys Kryśseren %d"
 
 	unique = {
 		"Viking"
@@ -51,7 +51,7 @@ NOR_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HNoMS "
-	fallback_name = "Tung Kryśseren %d"
+	fallback_name = "HNoMS Tung Kryśseren %d"
 
 	unique = {
 		"Harald Haarfagre" "Tordenskjold"
@@ -70,7 +70,7 @@ NOR_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HNoMS "
-	fallback_name = "Ubåt %d"
+	fallback_name = "HNoMS Ubåt %d"
 	
 	unique = {
 		"Uredd" "Ula"

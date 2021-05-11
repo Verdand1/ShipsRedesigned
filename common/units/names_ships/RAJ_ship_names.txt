@@ -9,7 +9,7 @@ RAJ_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HMIS "							
-	fallback_name = "Destroyer %s"					
+	fallback_name = "HMIS Destroyer %s"					
 
 	unique = {											
 		"Cornwallis"
@@ -35,7 +35,7 @@ RAJ_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HMIS "							
-	fallback_name = "Light Cruiser %s"
+	fallback_name = "HMIS Light Cruiser %s"
 
 	unique = {
 	   "Delhi"
@@ -53,7 +53,7 @@ RAJ_CV_LHISTORICAL = {
 	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "HMIS "							
-	fallback_name = "Light Carrier %s"		
+	fallback_name = "HMIS Light Carrier %s"		
 
 	unique = {
  		"Vikrant"
@@ -71,7 +71,7 @@ RAJ_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HMIS "							
-	fallback_name = "Submarine %s"
+	fallback_name = "HMIS Submarine %s"
 	
 	unique = {
 		"Kursura" "Karanj" "Kandhera" "Kalvari" "Vela" "Vagir" "Vagli" "Vagsheer"

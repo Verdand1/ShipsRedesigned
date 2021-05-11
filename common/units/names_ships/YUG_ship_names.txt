@@ -9,7 +9,7 @@ YUG_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "KB "
-	fallback_name = "Razarac %d"					
+	fallback_name = "KB Razarac %d"					
 
 	unique = {											
 		"Beograd" "Zagreb" "Ljubljana"
@@ -31,7 +31,7 @@ YUG_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "KB "
-	fallback_name = "Podmornica %d"
+	fallback_name = "KB Podmornica %d"
 	
 	unique = {
 		"Sava"

@@ -9,7 +9,7 @@ POR_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "NRP "
-	fallback_name = "Contratorpedeiro %d"					
+	fallback_name = "NRP Contratorpedeiro %d"					
 
 	unique = {											
 		"Dão" "Douro" "Lima" "Tejo" "Vouga"
@@ -32,7 +32,7 @@ POR_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "NRP "
-	fallback_name = "Cruzador Ligeiro %d"
+	fallback_name = "NRP Cruzador Ligeiro %d"
 
 	unique = {
 		"Rainha Dona Amélia"
@@ -52,7 +52,7 @@ POR_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "NRP "
-	fallback_name = "Submarino %d"
+	fallback_name = "NRP Submarino %d"
 	
 	unique = {
 		"Narval" "Nautilo" "Neptuno"

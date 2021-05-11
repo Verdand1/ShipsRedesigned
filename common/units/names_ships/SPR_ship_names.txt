@@ -9,7 +9,7 @@ SPR_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ARE "
-	fallback_name = "Destructor %d"					
+	fallback_name = "ARE Destructor %d"					
 
 	unique = {											
 		"Churucca" "Alcalá Galiano" "Sánchez Barcáiztegui" "Almirante Ferrándiz" "José Luis Díez" "Lepanto" "Almirante Valdés" "Almirante Antequera" "Almirante Miranda" "Gravina" "Escaño" "Císcar" "Jorge Juan" "Ulloa"
@@ -35,7 +35,7 @@ SPR_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "ARE "
-	fallback_name = "Crucero Ligero %d"
+	fallback_name = "ARE Crucero Ligero %d"
 
 	unique = {
 		"Río de La Plata"
@@ -60,7 +60,7 @@ SPR_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "ARE "
-	fallback_name = "Crucero Pesado %d"
+	fallback_name = "ARE Crucero Pesado %d"
 
 	unique = {
 		"Canarias" "Baleares"
@@ -80,7 +80,7 @@ SPR_BB_HISTORICAL = {
 	ship_types = { ship_hull_heavy }
 	
 	prefix = "ARE "
-	fallback_name = "Acorazado %d"		
+	fallback_name = "ARE Acorazado %d"		
 
 	unique = {
 		"España" "Alfonso XIII" "Jaime I"
@@ -97,7 +97,7 @@ SPR_CVL_HISTORICAL = {
 	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "ARE "
-	fallback_name = "Portaaviones Ligero %d"	
+	fallback_name = "ARE Portaaviones Ligero %d"	
 
 	unique = {
 		"Dédalo"
@@ -114,7 +114,7 @@ SPR_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "ARE "
-	fallback_name = "S-%d"
+	fallback_name = "ARE S-%d"
 	
 	unique = {
 		"Isaac Peral"

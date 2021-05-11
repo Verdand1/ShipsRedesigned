@@ -168,7 +168,7 @@ HUN_DD_IMPERIAL = {
 	ship_types = { ship_hull_light }	
 
 	prefix = "SMS "
-	fallback_name = "Romboló %d"					
+	fallback_name = "SMS Romboló %d"					
 
 	unique = {											
 		 "Huszár" "Ulan" "Streiter" "Wildfang" "Scharfschütze" "Uskoke" "Turul" "Pandur" "Csikós" "Réka" "Dinara" "Velebit"
@@ -192,7 +192,7 @@ HUN_CL_IMPERIAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Könnyűcirkáló %d"
+	fallback_name = "SMS Könnyűcirkáló %d"
 
 	unique = {
 		"Zenta" "Aspern" "Szigetvár"
@@ -215,7 +215,7 @@ HUN_CA_IMPERIAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "SMS "
-	fallback_name = "Nehézcirkálo %d"
+	fallback_name = "SMS Nehézcirkálo %d"
 
 	unique = {
 		"Kaiserin und Königin Maria Theresia"
@@ -239,7 +239,7 @@ HUN_BB_IMPERIAL = {
 	ship_types = { ship_hull_heavy }
 	
 	prefix = "SMS "
-	fallback_name = "Csatahajó %d"		
+	fallback_name = "SMS Csatahajó %d"		
 
 	unique = {
 		"Monarch" "Wien" "Budapest"
@@ -263,7 +263,7 @@ HUN_CV_IMPERIAL = {
 	ship_types = { ship_hull_carrier }
 	
 	prefix = "SMS "
-	fallback_name = "Repülögép-hordozó %d"	
+	fallback_name = "SMS Repülögép-hordozó %d"	
 
 }
 
@@ -281,7 +281,7 @@ HUN_CVL_IMPERIAL = {
 	ship_types = { ship_hull_light_carrier }
 	
 	prefix = "SMS "
-	fallback_name = "Könnyű Repülögép-hordozó %d"	
+	fallback_name = "SMS Könnyű Repülögép-hordozó %d"	
 
 }
 
@@ -299,7 +299,7 @@ HUN_SS_IMPERIAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "SM "
-	fallback_name = "U-%d"
+	fallback_name = "SMS U-%d"
 	
 }
 

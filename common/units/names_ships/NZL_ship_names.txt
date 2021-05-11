@@ -9,7 +9,7 @@ NZL_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HMNZS "							
-	fallback_name = "Destroyer %s"					
+	fallback_name = "HMNZS Destroyer %s"					
 
 	unique = {											
 		"Echuca" "Inverell" "Kiama" "Stawell"
@@ -32,7 +32,7 @@ NZL_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HMNZS "							
-	fallback_name = "Light Cruiser %s"
+	fallback_name = "HMNZS Light Cruiser %s"
 
 	unique = {
 		"Achilles" "Leander"

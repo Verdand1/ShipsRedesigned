@@ -9,7 +9,7 @@ INS_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "KRI "							
-	fallback_name = "Destroyer %d"					
+	fallback_name = "KRI Destroyer %d"					
 
 	unique = {											
 		"Gadjah Mada"
@@ -29,7 +29,7 @@ INS_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "KRI "							
-	fallback_name = "Light Cruiser %d"
+	fallback_name = "KRI Light Cruiser %d"
 
 	unique = {
 		"Irian"
@@ -46,7 +46,7 @@ INS_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "KRI "							
-	fallback_name = "Submarine %d"
+	fallback_name = "KRI Submarine %d"
 	
 	unique = {
 		"Tjakra " "Nanggala" "Nagabanda" "Trisula" "Nagarangsang" "Tjandrasa " "Alugoro" "Tjundamani" "Wijajadanu" "Pasopati" "Hendradjala" "Bramastra"

@@ -9,7 +9,7 @@ GRE_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "RHS "
-	fallback_name = "Metafero %s"					
+	fallback_name = "RHS Metafero %s"					
 
 	unique = {											
 		"Vasilefs Georgios I" "Vasilissa Olga"
@@ -33,7 +33,7 @@ GRE_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "RHS "
-	fallback_name = "Elafri Katadromiko %s"
+	fallback_name = "RHS Elafri Katadromiko %s"
 
 	unique = {
 		"Elli"
@@ -51,7 +51,7 @@ GRE_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "RHS "
-	fallback_name = "Vari Katadromiko %s"
+	fallback_name = "RHS Vari Katadromiko %s"
 
 	unique = {
 		"Averof"
@@ -69,7 +69,7 @@ GRE_BB_HISTORICAL = {
 	ship_types = { ship_hull_heavy }
 	
 	prefix = "RHS "
-	fallback_name = "Thorikto %s"		
+	fallback_name = "RHS Thorikto %s"		
 
 	unique = {
 		"Kilkis" "Limnos"
@@ -88,7 +88,7 @@ GRE_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "RHS "
-	fallback_name = "Ypobrychio %s"
+	fallback_name = "RHS Ypobrychio %s"
 	
 	unique = {
 		"Katsonis" "Papanikolis"

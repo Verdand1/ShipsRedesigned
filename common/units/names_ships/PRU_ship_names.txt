@@ -9,7 +9,7 @@ PRU_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "BAP "
-	fallback_name = "Destructor %d"					
+	fallback_name = "BAP Destructor %d"					
 
 	unique = {											
 		"Villar" "Almirante Guise"
@@ -30,7 +30,7 @@ PRU_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "BAP "
-	fallback_name = "Crucero Ligero %d"
+	fallback_name = "BAP Crucero Ligero %d"
 
 	unique = {
 		"Almirante Grau" "Coronel Bolognesi"
@@ -48,7 +48,7 @@ PRU_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "BAP "
-	fallback_name = "Submarino %d"
+	fallback_name = "BAP Submarino %d"
 	
 	unique = {
 		"Pacocha" "La Pedrera"

@@ -9,7 +9,7 @@ SIA_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HTMS "
-	fallback_name = "Reux phikhat %d"					
+	fallback_name = "HTMS Reux phikhat %d"					
 
 	unique = {											
 		"Trad" "Puket" "Patani" "Surasdra" "Chanrdaburi" "Rayong" "Chunphorn" "Chonburi" "Songhkla"
@@ -33,7 +33,7 @@ SIA_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "HTMS "
-	fallback_name = "Fi Reuxrb %d"
+	fallback_name = "HTMS Fi Reuxrb %d"
 
 	unique = {
 		"Taksin" "Naresuan"
@@ -51,7 +51,7 @@ SIA_CA_HISTORICAL = {
 	ship_types = { ship_hull_heavy_cruiser }
 	
 	prefix = "HTMS "
-	fallback_name = "Reux Ladtrawen Hnak %d"
+	fallback_name = "HTMS Reux Ladtrawen Hnak %d"
 
 	unique = {
 		"Sri Ayuthia" "Dhonburi"
@@ -68,7 +68,7 @@ SIA_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HTMS "
-	fallback_name = "Reux da na %d"
+	fallback_name = "HTMS Reux da na %d"
 	
 	unique = {
 		"Vilun" "Machanu" "Sinsamudar" "Blajunbol" 

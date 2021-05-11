@@ -9,7 +9,7 @@ URG_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "ROU "
-	fallback_name = "Destructor %d"					
+	fallback_name = "ROU Destructor %d"					
 
 	unique = {											
 		"Uruguay" "General Artigas" "Montevideo"
@@ -27,7 +27,7 @@ URG_CL_HISTORICAL = {
 	ship_types = { ship_hull_light_cruiser }
 	
 	prefix = "ROU "
-	fallback_name = "Crucero Ligero %d"
+	fallback_name = "ROU Crucero Ligero %d"
 
 	unique = {
 		"Montevideo"

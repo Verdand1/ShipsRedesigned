@@ -9,7 +9,7 @@ MAL_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "KD "							
-	fallback_name = "Destroyer %d"					
+	fallback_name = "KD Destroyer %d"					
 
 	unique = {											
 		"Hang Tuah"

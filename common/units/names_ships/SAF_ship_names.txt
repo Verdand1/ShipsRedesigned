@@ -9,7 +9,7 @@ SAF_DD_HISTORICAL = {
 	ship_types = { ship_hull_light }			
 
 	prefix = "HMSAS "							
-	fallback_name = "Destroyer %s"					
+	fallback_name = "HMSAS Destroyer %s"					
 
 	unique = {											
 		"Swale" "Teviot"
