@@ -2378,6 +2378,7 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 500
 
+	}
 	badly_shaped_hull = {
 		category = hidden
 		
@@ -2387,6 +2388,5 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 200
 
-	}
 	}
 }
