@@ -261,13 +261,10 @@ create_equipment_variant = {
 	name = "La Plata Class"
 	type = ship_hull_light_1
 	name_group = ARG_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 1
 	role_icon_index = 2
 	modules = {
 		fixed_engine = light_ship_perf_engine_1
-		rear_1 = empty
-		rear_2 = empty
-		mid_1 = ship_torpedo_2
 	}
 	obsolete = yes
 }
@@ -286,7 +283,7 @@ create_equipment_variant = {
 	name = "M6 Class"
 	type = ship_hull_light_1
 	name_group = ARG_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 3
 	role_icon_index = 4
 	modules = {
 		rear_1 = ship_mine_layer
@@ -312,45 +309,24 @@ create_equipment_variant = {
 	name = "Mendoza Class"	
 	type = ship_hull_light_1
 	name_group = ARG_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 5
 	role_icon_index = 1
 	modules = {
-		fixed_engine = light_ship_perf_engine_2
 		rear_1 = empty
-		rear_2 = ship_light_battery_1
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
-		front_2 = empty
 	}
 }
 create_equipment_variant = {
 	name = "Bouchard Class"
 	type = ship_hull_light_1
 	name_group = ARG_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 3
 	role_icon_index = 5
 	modules = {
 		fixed_engine = light_ship_range_engine_1
-		rear_1 = ship_mine_sweeper
 	}
 }
 
 # Heavy Cruisers #
-create_equipment_variant = {
-	name = "Garibaldi Class"				
-	type = ship_hull_cruiser_2
-	name_group = ARG_CA_HISTORICAL
-	parent_version = 0
-	role_icon_index = 2
-	modules = {
-		fixed_outer_hull_1 = ship_medium_armor_2
-		fixed_outer_hull_2 = ship_light_armor
-		rear_1 = empty
-		mid_1 = ship_light_battery_2
-		front_2 = empty
-	}
-	obsolete = yes
-}
 create_equipment_variant = {
 	name = "Nueve de Julio Class"				
 	type = ship_hull_cruiser_2
@@ -361,6 +337,21 @@ create_equipment_variant = {
 		fixed_outer_hull_1 = ship_medium_armor_1
 		fixed_outer_hull_2 = ship_medium_armor_1
 		mid_1 = ship_light_battery_1
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Garibaldi Class"				
+	type = ship_hull_cruiser_2
+	name_group = ARG_CA_HISTORICAL
+	parent_version = 1
+	role_icon_index = 2
+	modules = {
+		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_outer_hull_2 = ship_light_armor
+		rear_1 = empty
+		mid_1 = ship_light_battery_2
+		front_2 = empty
 	}
 	obsolete = yes
 }
