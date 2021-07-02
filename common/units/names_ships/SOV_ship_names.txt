@@ -234,6 +234,39 @@ SOV_SS_LENINETS = {
 	fallback_name = "L-%d"
 }
 
+SOV_SS_DEKABRIST = {
+	name = NAME_THEME_HISTORICAL_LENINETS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_submarine }
+	
+	fallback_name = "D-%d"
+}
+
+SOV_SS_PRAVDA = {
+	name = NAME_THEME_HISTORICAL_LENINETS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_submarine }
+	
+	fallback_name = "P-%d"
+}
+
+SOV_SS_AG = {
+	name = NAME_THEME_HISTORICAL_LENINETS
+
+	for_countries = { SOV }
+
+	type = ship
+	ship_types = { ship_hull_submarine }
+	
+	fallback_name = "AG-%d"
+}
+
 ### THEME: SOVIET REGIONS ###
 SOV_STATES = {
 	name = NAME_THEME_STATES

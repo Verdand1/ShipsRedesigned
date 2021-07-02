@@ -41,6 +41,7 @@ JAP_DE_HISTORICAL = {
 	fallback_name = "Kaiboukan %d-go"
 
 	unique = {
+		"Tomozuru" "Chidori" "Manazuru" "Hatsukari"
 		"Otori" "Kasasagi" "Kiyodori" "Hayabusa" "Hato" "Sagi" "Kari" "Kiji"
 		"Shimushu" "Hachijo" "Kunashiri" "Ishigaki"
 		"Etorofu" "Oki" "Sado" "Matsuwa" "Fukue" "Tsushima" "Mutsure" "Wakamiya" "Kanju" "Hirado" "Amakusa" "Manju" "Kasado" "Iki"
