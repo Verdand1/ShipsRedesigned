@@ -28,7 +28,6 @@ set_technology = {
 	
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
-	ship_hull_heavy = 1
 	ship_hull_submarine = 1
 }
 
@@ -39,37 +38,6 @@ if = {
 	set_technology = { bicycle_infantry = 1 }
 }
 
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_destroyer = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		coastal_defense_ships = 1
-		mtg_transport = 1
-	}
-}
 
 # DIPLOMACY
 if = {
@@ -392,18 +360,6 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "K XI Class"				
-	type = ship_hull_submarine_1
-	name_group = HOL_SS_KCLASS
-	parent_version = 3
-	role_icon_index = 6
-	modules = {
-		fixed_front_1 = ship_torpedo_sub_2
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
 	name = "O9 Class"				
 	type = ship_hull_submarine_1
 	name_group = HOL_SS_OCLASS
@@ -417,10 +373,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "K XI Class"				
+	type = ship_hull_submarine_1
+	name_group = HOL_SS_KCLASS
+	parent_version = 3
+	role_icon_index = 6
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "O12 Class"				
 	type = ship_hull_submarine_1
 	name_group = HOL_SS_OCLASS
-	parent_version = 5
+	parent_version = 4
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_1
@@ -432,7 +400,7 @@ create_equipment_variant = {
 	name = "K XIV Class"				
 	type = ship_hull_submarine_1
 	name_group = HOL_SS_KCLASS
-	parent_version = 4
+	parent_version = 5
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_2
@@ -454,6 +422,18 @@ create_equipment_variant = {
 }
 
 # DD
+
+create_equipment_variant = {
+	name = "Van Meerlant Superclass"
+	type = ship_hull_light_1
+	name_group = HOL_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		rear_1 = ship_mine_layer
+	}
+	obsolete = yes
+}
 
 create_equipment_variant = {
 	name = "Van Ghent Class"
@@ -487,37 +467,24 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Johan Maurits van Nassau Class"
-	type = ship_hull_light_1
-	name_group = HOL_DD_HISTORICAL
-	parent_version = 2
-	role_icon_index = 1
-	modules = {
-		front_2 = empty
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Van Meerlant Superclass"
-	type = ship_hull_light_1
-	name_group = HOL_DD_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		rear_1 = ship_mine_layer
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
 	name = "Krakatau Superclass"
 	type = ship_hull_light_1
 	name_group = HOL_DD_HISTORICAL
-	parent_version = 4
+	parent_version = 1
 	role_icon_index = 4
 	modules = {
 		rear_2 = ship_mine_layer
+	}
+}
+
+create_equipment_variant = {
+	name = "Johan Maurits van Nassau Class"
+	type = ship_hull_light_1
+	name_group = HOL_DD_HISTORICAL
+	parent_version = 3
+	role_icon_index = 1
+	modules = {
+		front_2 = empty
 	}
 }
 

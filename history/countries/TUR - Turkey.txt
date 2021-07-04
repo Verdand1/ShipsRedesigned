@@ -42,35 +42,6 @@ set_technology = {
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_torpedo = 1
-		coastal_defense_ships = 1
-		mtg_transport = 1
-	}
-}
 
 1936.1.1 = {
 	if = { 
@@ -761,6 +732,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Gur Class"				
+	type = ship_hull_submarine_1
+	name_group = TUR_SS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 6
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_1
+		rear_1 = ship_torpedo_sub_2
+		mid_2 = ship_unavailable_space
+		front_2 = ship_torpedo_sub_2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "Dumlupinar Class"				
 	type = ship_hull_submarine_1
 	name_group = TUR_SS_HISTORICAL
@@ -780,7 +767,7 @@ create_equipment_variant = {
 	name = "Sakarya Class"				
 	type = ship_hull_submarine_1
 	name_group = TUR_SS_HISTORICAL
-	parent_version = 0
+	parent_version = 2
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
@@ -789,18 +776,7 @@ create_equipment_variant = {
 		mid_2 = empty
 		front_2 = ship_torpedo_sub_2
 	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Gur Class"				
-	type = ship_hull_submarine_1
-	name_group = TUR_SS_HISTORICAL
-	parent_version = 3
-	role_icon_index = 6
-	modules = {
-		mid_2 = ship_unavailable_space
-	}
+		mid_2 = empty
 }
 
 # DD

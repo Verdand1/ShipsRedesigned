@@ -36,38 +36,7 @@ set_technology = {
 	
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
-	ship_hull_heavy = 1
 	ship_hull_submarine = 1
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		coastal_defense_ships = 1
-		mtg_transport = 1
-	}
 }
 
 1939.1.1 = {
@@ -264,7 +233,7 @@ create_navy_leader = {
 # 1936 Start #
 
 create_equipment_variant = {
-	name = "Super Fiat-Laurenti Type"				
+	name = "Bävern Superclass"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
 	parent_version = 0
@@ -382,38 +351,6 @@ create_equipment_variant = {
 # CL
 
 create_equipment_variant = {
-	name = "Clas Flemming Class"
-	type = ship_hull_cruiser_1
-	name_group = SWE_CL_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		rear_1 = ship_mine_layer
-		mid_1 = empty
-	}
-}
-
-create_equipment_variant = {
-	name = "Gotland Class"
-	type = ship_hull_cruiser_1
-	name_group = SWE_CL_HISTORICAL
-	parent_version = 0
-	role_icon_index = 7
-	modules = {
-		fixed_front_1 = ship_light_medium_battery_2
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_airplane_launcher
-		rear_2 = ship_airplane_launcher
-		mid_1 = ship_mine_layer
-		mid_2 = ship_torpedo_2
-		front_2 = ship_light_medium_battery_2
-	}
-}
-
-create_equipment_variant = {
 	name = "Dristigheten Class"
 	type = ship_hull_cruiser_1
 	name_group = SWE_CL_HISTORICAL
@@ -445,6 +382,38 @@ create_equipment_variant = {
 		front_2 = empty
 	}
 	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Clas Flemming Class"
+	type = ship_hull_cruiser_1
+	name_group = SWE_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		rear_1 = ship_mine_layer
+		mid_1 = empty
+	}
+}
+
+create_equipment_variant = {
+	name = "Gotland Class"
+	type = ship_hull_cruiser_1
+	name_group = SWE_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 7
+	modules = {
+		fixed_front_1 = ship_light_medium_battery_2
+		fixed_target_acquisition = ship_fire_control_system_1
+		fixed_engine = medium_ship_range_engine_2
+		fixed_outer_hull_1 = ship_medium_armor_1
+		rear_1 = ship_airplane_launcher
+		rear_2 = ship_airplane_launcher
+		mid_1 = ship_mine_layer
+		mid_2 = ship_torpedo_2
+		front_2 = ship_light_medium_battery_2
+	}
 }
 
 # CA

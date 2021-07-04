@@ -371,6 +371,22 @@ create_equipment_variant = {
 	obsolete = yes
 }
 create_equipment_variant = {
+	name = "Albatross Class"
+	type = ship_hull_cruiser_1
+	name_group = AST_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 7
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_outer_hull_1 = ship_light_armor
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = ship_airplane_launcher
+		mid_2 = ship_airplane_launcher
+		front_2 = empty
+	}
+}
+create_equipment_variant = {
 	name = "Sydney Class"
 	type = ship_hull_cruiser_1
 	name_group = AST_CL_HISTORICAL
@@ -387,22 +403,6 @@ create_equipment_variant = {
 		mid_2 = ship_airplane_launcher
 		mid_3 = empty
 		front_2 = ship_light_medium_battery_2
-	}
-}
-create_equipment_variant = {
-	name = "Albatross Class"
-	type = ship_hull_cruiser_1
-	name_group = AST_CL_HISTORICAL
-	parent_version = 0
-	role_icon_index = 7
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		fixed_outer_hull_1 = ship_light_armor
-		rear_1 = empty
-		rear_2 = empty
-		mid_1 = ship_airplane_launcher
-		mid_2 = ship_airplane_launcher
-		front_2 = empty
 	}
 }
 

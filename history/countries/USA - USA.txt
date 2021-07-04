@@ -54,52 +54,7 @@ set_technology = {
 	ship_hull_submarine = 1
 }
 
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		basic_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		basic_carrier = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-		basic_torpedo = 1
-		sonar = 1
-		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_armor_scheme = 1
-		mtg_transport = 1
-		improved_airplane_launcher = 1
-	}
-	add_ideas = MTG_naval_treaty_adherent
-}
+add_ideas = MTG_naval_treaty_adherent
 
 #Monroe Doctrine
 give_guarantee = CAN
@@ -734,6 +689,60 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Barracuda Class"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 6
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank
+		rear_1 = ship_torpedo_sub_2
+		rear_2 = empty
+		mid_2 = empty
+		front_2 = ship_torpedo_sub_2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Argonaut Class"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank
+		rear_1 = ship_mine_layer_sub
+		rear_2 = ship_mine_layer_sub
+		mid_1 = empty
+		mid_2 = empty
+		front_2 = ship_torpedo_sub_2
+	}
+}
+
+create_equipment_variant = {
+	name = "Narwhal Class"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 6
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank
+		rear_1 = ship_torpedo_sub_2
+		rear_2 = empty
+		mid_1 = empty
+		mid_2 = empty
+		front_2 = ship_torpedo_sub_2
+	}
+}
+
+create_equipment_variant = {
 	name = "Dolphin Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
@@ -777,60 +786,6 @@ create_equipment_variant = {
 		fixed_engine = sub_ship_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank
 		rear_1 = ship_torpedo_sub_2
-		mid_2 = empty
-		front_2 = ship_torpedo_sub_2
-	}
-}
-
-create_equipment_variant = {
-	name = "Barracuda Class"				
-	type = ship_hull_submarine_1
-	name_group = USA_SS_HISTORICAL
-	parent_version = 0
-	role_icon_index = 6
-	modules = {
-		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank
-		rear_1 = ship_torpedo_sub_2
-		rear_2 = empty
-		mid_2 = empty
-		front_2 = ship_torpedo_sub_2
-	}
-	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "Argonaut"				
-	type = ship_hull_submarine_1
-	name_group = USA_SS_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank
-		rear_1 = ship_mine_layer_sub
-		rear_2 = ship_mine_layer_sub
-		mid_1 = empty
-		mid_2 = empty
-		front_2 = ship_torpedo_sub_2
-	}
-}
-
-create_equipment_variant = {
-	name = "Narwhal Class"				
-	type = ship_hull_submarine_1
-	name_group = USA_SS_HISTORICAL
-	parent_version = 0
-	role_icon_index = 6
-	modules = {
-		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank
-		rear_1 = ship_torpedo_sub_2
-		rear_2 = empty
-		mid_1 = empty
 		mid_2 = empty
 		front_2 = ship_torpedo_sub_2
 	}
@@ -1022,6 +977,21 @@ create_equipment_variant = {
 # CL
 
 create_equipment_variant = {
+	name = "Oglala Class"
+	type = ship_hull_cruiser_1
+	name_group = USA_MINELAYERS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		rear_1 = ship_mine_layer
+		rear_2 = ship_mine_layer
+		mid_1 = ship_mine_layer
+		front_2 = empty
+	}
+}
+
+create_equipment_variant = {
 	name = "Omaha Class"
 	type = ship_hull_cruiser_1
 	name_group = USA_CL_HISTORICAL
@@ -1060,21 +1030,6 @@ create_equipment_variant = {
 		mid_3 = ship_airplane_launcher
 		mid_4 = empty
 		front_2 = ship_light_medium_battery_2
-	}
-}
-
-create_equipment_variant = {
-	name = "Oglala Class"
-	type = ship_hull_cruiser_1
-	name_group = USA_MINELAYERS_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_layer
-		mid_1 = ship_mine_layer
-		front_2 = empty
 	}
 }
 
@@ -1275,7 +1230,7 @@ create_equipment_variant = {
 # CVL
 
 create_equipment_variant = {
-	name = "Langley"	
+	name = "Langley Class"	
 	type = ship_hull_carrier_2
 	name_group = USA_CVL_HISTORICAL
 	parent_version = 0
@@ -1352,25 +1307,6 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Hornet Subclass"	
-	type = ship_hull_carrier_1
-	name_group = USA_CV_HISTORICAL
-	parent_version = 3
-	role_icon_index = 7
-	modules = {
-		fixed_front_1 = ship_large_deck_space
-		fixed_engine = heavy_ship_perf_engine_3
-		fixed_outer_hull_1 = ship_medium_armor_2
-		fixed_outer_hull_2 = ship_extra_fuel_tank
-		rear_1 = ship_large_deck_space
-		rear_2 = ship_large_deck_space
-		mid_1 = ship_light_battery_2
-		mid_2 = ship_anti_air_2
-		front_2 = empty
-	}
-}
-
-create_equipment_variant = {
 	name = "Wasp Class"	
 	type = ship_hull_carrier_1
 	name_group = USA_CV_HISTORICAL
@@ -1387,6 +1323,24 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "Hornet Class"	
+	type = ship_hull_carrier_1
+	name_group = USA_CV_HISTORICAL
+	parent_version = 3
+	role_icon_index = 7
+	modules = {
+		fixed_front_1 = ship_large_deck_space
+		fixed_engine = heavy_ship_perf_engine_3
+		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_outer_hull_2 = ship_extra_fuel_tank
+		rear_1 = ship_large_deck_space
+		rear_2 = ship_large_deck_space
+		mid_1 = ship_light_battery_2
+		mid_2 = ship_anti_air_2
+		front_2 = empty
+	}
+}
 
 # 1939 Start #
 1939.1.1 = {

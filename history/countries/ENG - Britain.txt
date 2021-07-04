@@ -62,56 +62,10 @@ if = {
 	}
 	set_technology = { camelry = 1 }
 }
-if = {
-	limit = {
-		not = { has_dlc = "Man the Guns" }
-	}
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		basic_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		early_carrier = 1
-		transport = 1
-	}
-}
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		early_ship_hull_carrier = 1
-		basic_ship_hull_carrier = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_medium_battery = 1
-		basic_heavy_battery = 1
-		basic_torpedo = 1
-		sonar = 1
-		smoke_generator = 1
-		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_armor_scheme = 1
-		mtg_transport = 1
-		improved_secondary_battery = 1
-		basic_fire_control_system = 1
-	}
-	add_ideas = MTG_naval_treaty_adherent
-	set_global_flag = MTG_second_london_conference
-	set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
-}
+
+add_ideas = MTG_naval_treaty_adherent
+set_global_flag = MTG_second_london_conference
+set_global_flag = { flag = MTG_naval_treaty_signatories value = 5 }
 
 if = {
 	limit = {
@@ -1035,7 +989,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Shakespeare/Scott Classes"
+	name = "Shakespeare & Scott Classes"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 3
@@ -1100,7 +1054,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "A&B Types"
+	name = "A & B Types"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 7
@@ -1111,17 +1065,6 @@ create_equipment_variant = {
 		mid_2 = ship_torpedo_2
 	}
 	obsolete = yes
-}
-
-create_equipment_variant = {
-	name = "C&D Types"
-	type = ship_hull_light_1
-	name_group = ENG_DD_HISTORICAL
-	parent_version = 9
-	role_icon_index = 1
-	modules = {
-		rear_2 = ship_mine_sweeper
-	}
 }
 
 create_equipment_variant = {
@@ -1139,10 +1082,21 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "E&F Types"
+	name = "C & D Types"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
-	parent_version = 10
+	parent_version = 9
+	role_icon_index = 1
+	modules = {
+		rear_2 = ship_mine_sweeper
+	}
+}
+
+create_equipment_variant = {
+	name = "E & F Types"
+	type = ship_hull_light_1
+	name_group = ENG_DD_HISTORICAL
+	parent_version = 11
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -1151,7 +1105,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "E&F Leaders"
+	name = "E & F Leaders"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 12
@@ -1177,7 +1131,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "G,H&I Types"
+	name = "G,H & I Types"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 12
@@ -1188,7 +1142,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "G,H&I Leaders"
+	name = "G,H & I Leaders"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 15
@@ -1246,6 +1200,24 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Adventure Class"
+	type = ship_hull_cruiser_1
+	name_group = ENG_MINELAYERS_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = medium_ship_range_engine_2
+		fixed_outer_hull_1 = ship_medium_armor_1
+		rear_1 = ship_mine_layer
+		rear_2 = ship_mine_layer
+		mid_1 = ship_mine_layer
+		mid_2 = empty
+		front_2 = ship_light_battery_1
+	}
+}
+
+create_equipment_variant = {
 	name = "Leander Class"
 	type = ship_hull_cruiser_1
 	name_group = ENG_CL_HISTORICAL
@@ -1268,7 +1240,7 @@ create_equipment_variant = {
 	name = "Arethusa Class"
 	type = ship_hull_cruiser_1
 	name_group = ENG_CL_HISTORICAL
-	parent_version = 4
+	parent_version = 5
 	role_icon_index = 2
 	modules = {
 		fixed_outer_hull_1 = ship_medium_armor_1
@@ -1282,7 +1254,7 @@ create_equipment_variant = {
 	name = "Town Type - First Group"
 	type = ship_hull_cruiser_1
 	name_group = ENG_CL_HISTORICAL
-	parent_version = 5
+	parent_version = 6
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_2
@@ -1292,24 +1264,6 @@ create_equipment_variant = {
 		rear_2 = ship_light_medium_battery_2
 		mid_3 = ship_anti_air_1
 		mid_4 = ship_light_battery_1
-	}
-}
-
-create_equipment_variant = {
-	name = "Adventure Class"
-	type = ship_hull_cruiser_1
-	name_group = ENG_MINELAYERS_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_layer
-		mid_1 = ship_mine_layer
-		mid_2 = empty
-		front_2 = ship_light_battery_1
 	}
 }
 
@@ -1414,7 +1368,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Queen Elizabeth - Remodel"	
+	name = "Queen Elizabeth Class - Remodel"	
 	type = ship_hull_heavy_1
 	name_group = ENG_BB_HISTORICAL
 	parent_version = 1
@@ -1460,7 +1414,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Hood"	
+	name = "Hood Class"	
 	type = ship_hull_heavy_1
 	name_group = ENG_BC_HISTORICAL
 	parent_version = 4
@@ -1531,7 +1485,7 @@ create_equipment_variant = {
 # CV
 
 create_equipment_variant = {
-	name = "Courageous"	
+	name = "Courageous Class"	
 	type = ship_hull_carrier_1
 	name_group = ENG_CV_HISTORICAL
 	parent_version = 0
@@ -1549,7 +1503,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Furious"	
+	name = "Furious Class"	
 	type = ship_hull_carrier_1
 	name_group = ENG_CV_HISTORICAL
 	parent_version = 0

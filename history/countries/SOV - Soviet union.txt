@@ -44,38 +44,6 @@ set_technology = {
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_battery = 1
-		basic_light_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		basic_secondary_battery = 1
-		mtg_transport = 1
-	}
-}
 
 if = {
 	limit = {
@@ -891,7 +859,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Shch Type - Series III&V"				
+	name = "Shch Type - Series III & V"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_SHCHUKA
 	parent_version = 2
@@ -915,7 +883,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Shch Type - Series IX&X"				
+	name = "Shch Type - Series IX & X"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_SHCHUKA
 	parent_version = 4
@@ -1014,6 +982,17 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Minsk Class"
+	type = ship_hull_light_1
+	name_group = SOV_DD_HISTORICAL
+	parent_version = 5
+	role_icon_index = 1
+	modules = {
+		mid_3 = ship_anti_air_1
+	}
+}
+
+create_equipment_variant = {
 	name = "Gnevny Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
@@ -1031,21 +1010,10 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Minsk Class"
-	type = ship_hull_light_1
-	name_group = SOV_DD_HISTORICAL
-	parent_version = 5
-	role_icon_index = 1
-	modules = {
-		mid_3 = ship_anti_air_1
-	}
-}
-
-create_equipment_variant = {
 	name = "Opytnyy Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 6
+	parent_version = 7
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_battery_2
@@ -1091,26 +1059,6 @@ create_equipment_variant = {
 # CA
 
 create_equipment_variant = {
-	name = "Kirov Class"				
-	type = ship_hull_cruiser_2
-	name_group = SOV_CA_HISTORICAL
-	parent_version = 0
-	role_icon_index = 2
-	modules = {
-		fixed_front_1 = ship_heavy_medium_battery_1
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_engine = medium_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_depth_charge_1
-		rear_2 = ship_mine_layer
-		mid_1 = ship_torpedo_2
-		mid_2 = ship_airplane_launcher
-		mid_3 = empty
-		front_2 = ship_heavy_medium_battery_1
-	}
-}
-
-create_equipment_variant = {
 	name = "Krasnyy Kavkaz Class"				
 	type = ship_hull_cruiser_2
 	name_group = SOV_CA_HISTORICAL
@@ -1128,6 +1076,26 @@ create_equipment_variant = {
 		front_2 = empty
 	}
 	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Kirov Class"				
+	type = ship_hull_cruiser_2
+	name_group = SOV_CA_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_front_1 = ship_heavy_medium_battery_1
+		fixed_target_acquisition = ship_fire_control_system_1
+		fixed_engine = medium_ship_perf_engine_1
+		fixed_outer_hull_1 = ship_medium_armor_1
+		rear_1 = ship_depth_charge_1
+		rear_2 = ship_mine_layer
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_airplane_launcher
+		mid_3 = empty
+		front_2 = ship_heavy_medium_battery_1
+	}
 }
 
 # BB

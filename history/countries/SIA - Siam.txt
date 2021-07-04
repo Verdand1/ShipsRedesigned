@@ -19,28 +19,9 @@ set_technology = {
 	
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
-	ship_hull_heavy = 1
 	ship_hull_submarine = 1
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		early_ship_hull_light = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		coastal_defense_ships = 1
-	}
-}
+
 set_convoys = 15
 
 1939.1.1 = {
@@ -210,18 +191,6 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Trad Class"
-	type = ship_hull_light_1
-	name_group = SIA_DD_HISTORICAL
-	parent_version = 0
-	role_icon_index = 2
-	modules = {
-		fixed_engine = light_ship_range_engine_2
-		mid_1 = ship_torpedo_1
-	}
-}
-
-create_equipment_variant = {
 	name = "Chao Phraya Class"
 	type = ship_hull_light_1
 	name_group = SIA_DD_HISTORICAL
@@ -260,6 +229,18 @@ create_equipment_variant = {
 		rear_2 = empty
 	}
 	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Trad Class"
+	type = ship_hull_light_1
+	name_group = SIA_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_engine = light_ship_range_engine_2
+		mid_1 = ship_torpedo_1
+	}
 }
 
 # CA

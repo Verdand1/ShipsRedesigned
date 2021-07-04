@@ -23,33 +23,7 @@ set_technology = {
 	CAS1 = 1
 	
 	ship_light_hull = 1
-	ship_cruiser_hull = 1
-	ship_hull_heavy = 1
 	ship_hull_submarine = 1
-}
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-	set_technology = {
-		early_submarine = 1
-		basic_submarine = 1
-		early_destroyer = 1
-		transport = 1
-	}
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		basic_battery = 1
-		basic_torpedo = 1
-		basic_depth_charges = 1
-		mtg_transport = 1
-	}
 }
 
 if = {
@@ -414,7 +388,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Goncalo Velho / Pedro Nunes Classes"
+	name = "Goncalo Velho & Pedro Nunes Classes"
 	type = ship_hull_light_1
 	name_group = POR_DD_HISTORICAL
 	parent_version = 0

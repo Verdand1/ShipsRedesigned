@@ -14,9 +14,6 @@ set_technology = {
 	early_fighter = 1
 	
 	ship_light_hull = 1
-	ship_cruiser_hull = 1
-	ship_hull_heavy = 1
-	ship_hull_submarine = 1
 }
 
 set_convoys = 10

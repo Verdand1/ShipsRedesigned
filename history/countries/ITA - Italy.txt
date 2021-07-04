@@ -62,49 +62,7 @@ if = {
 	}
 	set_technology = { camelry = 1 }
 }
-if = {
-	limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-		early_submarine = 1
-		early_destroyer = 1
-		early_light_cruiser = 1
-		early_heavy_cruiser = 1
-		early_battleship = 1
-		basic_battleship = 1
-		early_battlecruiser = 1
-		transport = 1
-	}
-	set_naval_oob = "ITA_1936_naval_legacy"
-}
-if = {
-	limit = { has_dlc = "Man the Guns" }
-	set_technology = {
-		basic_naval_mines = 1
-		submarine_mine_laying = 1
-		basic_depth_charges = 1
-		basic_torpedo = 1
-		basic_battery = 1
-		basic_secondary_battery = 1
-		basic_cruiser_armor_scheme = 1
-		basic_heavy_battery = 1
-		basic_medium_battery = 1
-		basic_light_battery = 1
-		improved_secondary_battery = 1
-		basic_heavy_armor_scheme = 1
-		early_ship_hull_submarine = 1
-		basic_ship_hull_submarine = 1
-		early_ship_hull_light = 1
-		basic_ship_hull_light = 1
-		early_ship_hull_cruiser = 1
-		basic_ship_hull_cruiser = 1
-		early_ship_hull_heavy = 1
-		basic_ship_hull_heavy = 1
-		mtg_transport = 1
-		coastal_defense_ships = 1
-		improved_airplane_launcher = 1
-	}
-	set_naval_oob = "ITA_1936_naval_mtg"
-}
+
 if = {
 	limit = {
 		has_dlc = "Man the Guns"
@@ -512,34 +470,13 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Argo Class"				
+	name = "Balilla Class"				
 	type = ship_hull_submarine_1
 	name_group = ITA_SS_HISTORICAL
 	parent_version = 1 #4
 	role_icon_index = 6
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank
-	}
-}
-
-create_equipment_variant = {
-	name = "Glauco Class"				
-	type = ship_hull_submarine_1
-	name_group = ITA_SS_HISTORICAL
-	parent_version = 2 #5
-	role_icon_index = 6
-	modules = {
-		fixed_engine = sub_ship_engine_2
-	}
-}
-
-create_equipment_variant = {
-	name = "Balilla Class"				
-	type = ship_hull_submarine_1
-	name_group = ITA_SS_HISTORICAL
-	parent_version = 4 #6
-	role_icon_index = 6
-	modules = {
 		mid_2 = empty
 	}
 	obsolete = yes
@@ -549,7 +486,7 @@ create_equipment_variant = {
 	name = "Ettore Fieramosca Class"				
 	type = ship_hull_submarine_1
 	name_group = ITA_SS_HISTORICAL
-	parent_version = 6 #7
+	parent_version = 4 #5
 	role_icon_index = 7
 	modules = {
 		fixed_outer_hull_1 = ship_airplane_launcher
@@ -558,14 +495,36 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Argo Class"				
+	type = ship_hull_submarine_1
+	name_group = ITA_SS_HISTORICAL
+	parent_version = 1 #6
+	role_icon_index = 6
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank
+	}
+}
+
+create_equipment_variant = {
 	name = "Pietro Micca Class"				
 	type = ship_hull_submarine_1
 	name_group = ITA_SS_HISTORICAL
-	parent_version = 3 #8
+	parent_version = 3 #7
 	role_icon_index = 4
 	modules = {
 		fixed_engine = sub_ship_engine_2
 		mid_2 = ship_torpedo_sub_2
+	}
+}
+
+create_equipment_variant = {
+	name = "Glauco Class"				
+	type = ship_hull_submarine_1
+	name_group = ITA_SS_HISTORICAL
+	parent_version = 2 #8
+	role_icon_index = 6
+	modules = {
+		fixed_engine = sub_ship_engine_2
 	}
 }
 
@@ -769,14 +728,14 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Freccia Superclass"
+	name = "Ostia Class"
 	type = ship_hull_light_1
-	name_group = ITA_DD_HISTORICAL
-	parent_version = 12 #14
-	role_icon_index = 2
+	name_group = ITA_MINELAYERS_HISTORICAL
+	parent_version = 0 #14
+	role_icon_index = 4
 	modules = {
-		fixed_target_acquisition = ship_sonar_1
-		mid_2 = empty
+		rear_1 = empty
+		rear_2 = ship_mine_layer
 	}
 }
 
@@ -796,10 +755,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Freccia Superclass"
+	type = ship_hull_light_1
+	name_group = ITA_DD_HISTORICAL
+	parent_version = 12 #16
+	role_icon_index = 2
+	modules = {
+		fixed_target_acquisition = ship_sonar_1
+		mid_2 = empty
+	}
+}
+
+create_equipment_variant = {
 	name = "Maestrale Class"
 	type = ship_hull_light_1
 	name_group = ITA_DD_HISTORICAL
-	parent_version = 14 #16
+	parent_version = 16 #17
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -808,41 +779,29 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Spica Class"
+	type = ship_hull_light_1
+	name_group = ITA_DE_HISTORICAL
+	parent_version = 0 #18
+	role_icon_index = 2
+	modules = {
+		fixed_engine = light_ship_range_engine_1
+		rear_1 = ship_depth_charge_1
+		mid_1 = ship_torpedo_1
+	}
+}
+
+create_equipment_variant = {
 	name = "Poeti Type"
 	type = ship_hull_light_1
 	name_group = ITA_DD_HISTORICAL
-	parent_version = 16 #17
+	parent_version = 17 #19
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_2
 		fixed_engine = light_ship_perf_engine_2
 		fixed_inner_hull = empty
 		mid_3 = empty
-	}
-}
-
-create_equipment_variant = {
-	name = "Ostia Class"
-	type = ship_hull_light_1
-	name_group = ITA_MINELAYERS_HISTORICAL
-	parent_version = 0 #18
-	role_icon_index = 4
-	modules = {
-		rear_1 = empty
-		rear_2 = ship_mine_layer
-	}
-}
-
-create_equipment_variant = {
-	name = "Spica Class"
-	type = ship_hull_light_1
-	name_group = ITA_DE_HISTORICAL
-	parent_version = 0 #19
-	role_icon_index = 2
-	modules = {
-		fixed_engine = light_ship_range_engine_1
-		rear_1 = ship_depth_charge_1
-		mid_1 = ship_torpedo_1
 	}
 }
 
@@ -909,10 +868,25 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Condottieri Type - First Group"
+	name = "Giuseppe Miraglia Class"
 	type = ship_hull_cruiser_1
 	name_group = ITA_CL_HISTORICAL
 	parent_version = 0 #5
+	role_icon_index = 7
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		rear_1 = ship_airplane_launcher
+		rear_2 = ship_airplane_launcher
+		mid_1 = ship_airplane_launcher
+		front_2 = empty
+	}
+}
+
+create_equipment_variant = {
+	name = "Condottieri Type - First Group"
+	type = ship_hull_cruiser_1
+	name_group = ITA_CL_HISTORICAL
+	parent_version = 0 #6
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -932,7 +906,7 @@ create_equipment_variant = {
 	name = "Condottieri Type - Second Group"
 	type = ship_hull_cruiser_1
 	name_group = ITA_CL_HISTORICAL
-	parent_version = 5 #6
+	parent_version = 6 #7
 	role_icon_index = 1
 	modules = {
 		fixed_outer_hull_1 = ship_medium_armor_1
@@ -944,7 +918,7 @@ create_equipment_variant = {
 	name = "Condottieri Type - Third Group"
 	type = ship_hull_cruiser_1
 	name_group = ITA_CL_HISTORICAL
-	parent_version = 6 #7
+	parent_version = 7 #8
 	role_icon_index = 1
 	modules = {
 		fixed_outer_hull_1 = ship_medium_armor_2
@@ -959,7 +933,7 @@ create_equipment_variant = {
 	name = "Condottieri Type - Fourth Group"
 	type = ship_hull_cruiser_1
 	name_group = ITA_CL_HISTORICAL
-	parent_version = 7 #8
+	parent_version = 8 #9
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_2
@@ -973,28 +947,13 @@ create_equipment_variant = {
 	name = "Condottieri Type - Fifth Group"
 	type = ship_hull_cruiser_1
 	name_group = ITA_CL_HISTORICAL
-	parent_version = 8 #9
+	parent_version = 9 #10
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_2
 		fixed_outer_hull_1 = ship_medium_armor_2
 		rear_1 = ship_light_medium_battery_2
 		front_2 = ship_light_medium_battery_2
-	}
-}
-
-create_equipment_variant = {
-	name = "Giuseppe Miraglia Class"
-	type = ship_hull_cruiser_1
-	name_group = ITA_CL_HISTORICAL
-	parent_version = 0
-	role_icon_index = 7
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		rear_1 = ship_airplane_launcher
-		rear_2 = ship_airplane_launcher
-		mid_1 = ship_airplane_launcher
-		front_2 = empty
 	}
 }
 
@@ -1085,7 +1044,7 @@ create_equipment_variant = {
 # BB
 
 create_equipment_variant = {
-	name = "Giulio Cesare Class - Ricostruzione"	
+	name = "Giulio Cesare Class"	
 	type = ship_hull_heavy_1
 	name_group = ITA_BB_HISTORICAL
 	parent_version = 0 #1
@@ -1122,7 +1081,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Caio Dulio Class - Ricostruzione"	
+	name = "Caio Dulio Class - Remodel"	
 	type = ship_hull_heavy_1
 	name_group = ITA_BB_HISTORICAL
 	parent_version = 2 #3
