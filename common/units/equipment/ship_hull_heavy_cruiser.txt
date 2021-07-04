@@ -17,7 +17,7 @@ equipments = {
 		type = capital_ship
 		interface_category = interface_category_capital_ships
 		priority = 1800
-		can_convert_from = { ship_hull_light_cruiser ship_hull_light_carrier }
+		can_convert_from = { ship_hull_cruiser_1 ship_hull_carrier_2 }
 
 		naval_range = 3500
 		max_strength = 100

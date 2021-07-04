@@ -17,7 +17,7 @@ equipments = {
 		type = screen_ship
 		interface_category = interface_category_screen_ships
 		priority = 1900
-		can_convert_from = { ship_hull_heavy_cruiser ship_hull_light_carrier }
+		can_convert_from = { ship_hull_cruiser_2 ship_hull_carrier_2 }
 
 		naval_range = 3500
 		max_strength = 100

@@ -19,7 +19,7 @@ equipments = {
 		group_by = archetype
 		interface_category = interface_category_capital_ships
 		priority = 1700
-		can_convert_from = { ship_hull_heavy_cruiser ship_hull_light_cruiser }
+		can_convert_from = { ship_hull_cruiser_1 ship_hull_cruiser_2 }
 				
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
