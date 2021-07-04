@@ -180,7 +180,7 @@ JAP_BC_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { battle_cruiser }
+	ship_types = { ship_hull_heavy }
 	
 	fallback_name = "Jun'yosenkan %d-go"		
 
