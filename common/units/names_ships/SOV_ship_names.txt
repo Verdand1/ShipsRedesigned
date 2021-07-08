@@ -133,6 +133,7 @@ SOV_BB_HISTORICAL = {
 	fallback_name = "Linkor %d"		
 
 	unique = {
+		"Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Belorussiya" "Sovyetskaya Rossiya"
 		"Peresvet" "Osliabia" "Pobeda"
 		"Retvizan"
 		"Grazhdanin"
@@ -144,10 +145,6 @@ SOV_BB_HISTORICAL = {
 		"Svobodnaya Rossiya" "General Alekseyev"
 		"Arkhangelsk"
 		"Demokratiya"
-		"Sovyetskiy Soyuz" "Sovyetskaya Ukraina" "Sovyetskaya Belorussiya" "Sovyetskaya Rossiya"
-		"Oktyabrskaya Revolutsiya" "Marat" "Frunze" "Parizhskaya Kommuna" 											
-		# Fictional names start here
-		"Murmansk" "Vladivostok" "Karl Marx" "Vladamir Lenin" "Iosef Stalin" "Volya" "Engels" "Aleksandr Nevskiy" "Admiral Kuznetsov"  
 	}
 }
 
@@ -210,7 +207,6 @@ SOV_SS_SHCHUKA = {
 	
 	fallback_name = "Shch-%d"
 	}
-}
 
 SOV_SS_STALINETS = {
 	name = NAME_THEME_HISTORICAL_STALINETS
@@ -235,7 +231,7 @@ SOV_SS_LENINETS = {
 }
 
 SOV_SS_DEKABRIST = {
-	name = NAME_THEME_HISTORICAL_LENINETS
+	name = NAME_THEME_HISTORICAL_DEKABRIST
 
 	for_countries = { SOV }
 
@@ -246,7 +242,7 @@ SOV_SS_DEKABRIST = {
 }
 
 SOV_SS_PRAVDA = {
-	name = NAME_THEME_HISTORICAL_LENINETS
+	name = NAME_THEME_HISTORICAL_PRAVDA
 
 	for_countries = { SOV }
 
@@ -257,7 +253,7 @@ SOV_SS_PRAVDA = {
 }
 
 SOV_SS_AG = {
-	name = NAME_THEME_HISTORICAL_LENINETS
+	name = NAME_THEME_HISTORICAL_AG
 
 	for_countries = { SOV }
 

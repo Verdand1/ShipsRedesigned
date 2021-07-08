@@ -846,9 +846,9 @@ create_equipment_variant = {
 # BB
 
 create_equipment_variant = {
-	name = "Yavuz Sultan Selim Class"	
+	name = "Yavuz Class"	
 	type = ship_hull_heavy_1
-	name_group = _BB_HISTORICAL
+	name_group = TUR_BB_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
