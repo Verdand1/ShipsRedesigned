@@ -1022,6 +1022,27 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "Tashkent Class"
+	type = ship_hull_light_1
+	name_group = SOV_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 1
+	modules = {
+		fixed_front_1 = ship_light_battery_2
+		fixed_target_acquisition = ship_fire_control_system_1
+		fixed_engine = light_ship_perf_engine_3
+		fixed_inner_hull = reinforced_structure
+		fixed_outer_hull_1 = ship_extra_fuel_tank
+		rear_1 = ship_depth_charge_1
+		rear_2 = ship_mine_layer
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_torpedo_2
+		mid_3 = empty
+		front_2 = ship_light_battery_1
+	}
+}
+
 # CL
 
 create_equipment_variant = {

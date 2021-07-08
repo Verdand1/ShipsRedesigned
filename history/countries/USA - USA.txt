@@ -974,6 +974,17 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "Benham Class"
+	type = ship_hull_light_1
+	name_group = USA_DD_HISTORICAL
+	parent_version = 9
+	role_icon_index = 1
+	modules = {
+		fixed_target_acquisition = ship_sonar_2
+	}
+}
+
 # CL
 
 create_equipment_variant = {

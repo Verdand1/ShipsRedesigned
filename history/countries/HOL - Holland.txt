@@ -421,6 +421,23 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "O19 Class"				
+	type = ship_hull_submarine_1
+	name_group = HOL_SS_OCLASS
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank
+		rear_1 = ship_mine_layer_sub
+		rear_2 = ship_torpedo_sub_2
+		mid_2 = ship_torpedo_sub_2
+		front_2 = ship_torpedo_sub_2
+	}
+}
+
 # DD
 
 create_equipment_variant = {
