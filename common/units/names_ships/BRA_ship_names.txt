@@ -6,7 +6,7 @@ BRA_DD_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "NRB "
 	fallback_name = "NRB Contratorpedeiro %d"					
@@ -28,7 +28,7 @@ BRA_CL_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "NRB "
 	fallback_name = "NRB Cruzador Ligeiro %d"

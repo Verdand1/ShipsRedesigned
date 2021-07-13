@@ -10,7 +10,7 @@ AST_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "HMAS "							
 	fallback_name = "HMAS Destroyer %s"					
@@ -37,7 +37,7 @@ AST_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "HMAS "							
 	fallback_name = "HMAS Corvette %s"					
@@ -61,7 +61,7 @@ AST_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Light Cruiser %s"
@@ -86,7 +86,7 @@ AST_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Heavy Cruiser %s"
@@ -307,7 +307,7 @@ AST_DD_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "RNS "							
 	fallback_name = "RNS Destroyer %s"					
@@ -333,7 +333,7 @@ AST_DE_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "RNS "							
 	fallback_name = "RNS Corvette %s"					
@@ -357,7 +357,7 @@ AST_CL_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Light Cruiser %s"

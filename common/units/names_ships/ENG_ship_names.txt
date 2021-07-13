@@ -10,7 +10,7 @@ ENG_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { ship_hull_escort }
 
 	prefix = "HMS "							
 	fallback_name = "HMS Destroyer %s"					
@@ -65,7 +65,7 @@ ENG_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { ship_hull_escort }
 
 	prefix = "HMS "							
 	fallback_name = "HMS Escort Destroyer %s"					
@@ -94,7 +94,7 @@ ENG_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Light Cruiser %s"
@@ -128,7 +128,7 @@ ENG_CLAA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Light Cruiser (AA) %s"
@@ -150,7 +150,7 @@ ENG_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Heavy Cruiser %s"
@@ -184,7 +184,7 @@ ENG_MINELAYERS_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_light }
+	ship_types = { ship_hull_light_cruiser ship_hull_escort }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Miner %s"
@@ -553,7 +553,7 @@ ENG_DD_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "WLNS "							
 	fallback_name = "WLNS Destroyer %s"					
@@ -608,7 +608,7 @@ ENG_DE_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "WLNS "							
 	fallback_name = "WLNS Escort Destroyer %s"					
@@ -637,7 +637,7 @@ ENG_CL_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Light Cruiser %s"
@@ -671,7 +671,7 @@ ENG_CLAA_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Light Cruiser (AA) %s"
@@ -727,7 +727,7 @@ ENG_MINELAYERS_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_light }
+	ship_types = { ship_hull_light_cruiser ship_hull_escort }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Miner %s"

@@ -2,6 +2,7 @@ equipments = {
 
 	ship_hull_submarine = {
 		is_archetype = yes
+		type = submarine
 	}
 
 	ship_hull_submarine_1 = {
@@ -14,7 +15,6 @@ equipments = {
 		}
 
 		archetype = ship_hull_submarine
-		type = submarine
 		group_by = archetype
 		interface_category = interface_category_other_ships
 		priority = 2500

@@ -6,7 +6,7 @@ ECU_DD_HISTORICAL = {
 	for_countries = { ECU }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "BAE "
 	fallback_name = "BAE Destructor %d"					

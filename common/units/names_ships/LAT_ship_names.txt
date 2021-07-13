@@ -6,7 +6,7 @@ LAT_DD_HISTORICAL = {
 	for_countries = { LAT }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	fallback_name = "Iznicinatajs %d"					
 

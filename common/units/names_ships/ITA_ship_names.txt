@@ -6,7 +6,7 @@ ITA_DD_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { ship_hull_escort }
 
 	prefix = "RCT " # Regio Cacciatorpediniere
 	fallback_name = "RCT Cacciatorpediniere %s"
@@ -51,7 +51,7 @@ ITA_DE_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "RT " # Regio Torpediniere
 	fallback_name = "RT Torpediniere %d"					
@@ -72,7 +72,7 @@ ITA_CL_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "RI Incrociatore leggero %s"
@@ -99,7 +99,7 @@ ITA_CA_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "RI Incrociatore pesante %s"
@@ -123,7 +123,7 @@ ITA_MINELAYERS_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_light }
+	ship_types = { ship_hull_light_cruiser ship_hull_escort }
 
 	prefix = "RN "
 	fallback_name = "RN Posamine %s"

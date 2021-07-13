@@ -6,7 +6,7 @@ MAL_DD_HISTORICAL = {
 	for_countries = { MAL }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "KD "							
 	fallback_name = "KD Destroyer %d"					

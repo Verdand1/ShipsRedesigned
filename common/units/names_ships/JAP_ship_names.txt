@@ -6,7 +6,7 @@ JAP_DD_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	fallback_name = "Kuchikukan %d-go"					
 
@@ -36,7 +36,7 @@ JAP_DE_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { ship_hull_escort }
 	
 	fallback_name = "Kaiboukan %d-go"
 
@@ -63,7 +63,7 @@ JAP_CL_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	fallback_name = "Keijun'yokan %d-go"
 
@@ -93,7 +93,7 @@ JAP_CA_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	fallback_name = "Jujun'yokan %d-go"
 
@@ -122,7 +122,7 @@ JAP_MINELAYERS_HISTORICAL = {
 	for_countries = { JAP }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_light }
+	ship_types = { ship_hull_light_cruiser ship_hull_escort }
 	
 	fallback_name = "Fusetsukan %d-go"
 

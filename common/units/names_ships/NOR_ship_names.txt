@@ -6,7 +6,7 @@ NOR_DD_HISTORICAL = {
 	for_countries = { NOR }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "HNoMS "
 	fallback_name = "HNoMS Ødeleggeren %d"					
@@ -30,7 +30,7 @@ NOR_CL_HISTORICAL = {
 	for_countries = { NOR }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "HNoMS "
 	fallback_name = "HNoMS Lys Kryśseren %d"
@@ -48,7 +48,7 @@ NOR_CA_HISTORICAL = {
 	for_countries = { NOR }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	prefix = "HNoMS "
 	fallback_name = "HNoMS Tung Kryśseren %d"

@@ -6,7 +6,7 @@ FIN_DD_HISTORICAL = {
 	for_countries = { FIN }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	fallback_name = "Hävittäjä %d"					
 
@@ -24,7 +24,7 @@ FIN_CA_HISTORICAL = {
 	for_countries = { FIN }
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	fallback_name = "Raskas Risteilijä %d"
 

@@ -2,6 +2,7 @@ equipments = {
 
 	ship_hull_light_carrier = {
 		is_archetype = yes
+		type = carrier
 	}
 
 	ship_hull_carrier_2 = {
@@ -14,7 +15,6 @@ equipments = {
 		}
 
 		archetype = ship_hull_light_carrier
-		type = carrier
 		sprite = carrier
 		group_by = archetype
 		interface_category = interface_category_capital_ships

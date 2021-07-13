@@ -10,7 +10,7 @@ HUN_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { ship_hull_escort }
 
 	fallback_name = "Romboló %d"					
 
@@ -33,7 +33,7 @@ HUN_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	fallback_name = "Könnyűcirkáló %d"
 
@@ -55,7 +55,7 @@ HUN_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { ship_hull_cruiser }
 	
 	fallback_name = "Nehézcirkálo %d"
 
@@ -165,7 +165,7 @@ HUN_DD_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }	
+	ship_types = { ship_hull_escort }	
 
 	prefix = "SMS "
 	fallback_name = "SMS Romboló %d"					
@@ -189,7 +189,7 @@ HUN_CL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser }
+	ship_types = { ship_hull_light }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Könnyűcirkáló %d"

@@ -6,7 +6,7 @@ LIT_DD_HISTORICAL = {
 	for_countries = { LIT }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	fallback_name = "Nakintojas %d"					
 

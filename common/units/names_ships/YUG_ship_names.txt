@@ -6,7 +6,7 @@ YUG_DD_HISTORICAL = {
 	for_countries = { YUG }
 
 	type = ship
-	ship_types = { ship_hull_light }			
+	ship_types = { ship_hull_escort }			
 
 	prefix = "KB "
 	fallback_name = "KB Razarac %d"					
