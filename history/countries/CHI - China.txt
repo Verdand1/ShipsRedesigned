@@ -364,7 +364,6 @@ create_equipment_variant = {
 	modules = {
 		rear_1 = empty
 		mid_1 = empty
-		front_2 = empty
 	}
 	obsolete = yes
 }
@@ -377,6 +376,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_outer_hull_1 = ship_light_armor
 		mid_1 = ship_light_battery_1
+		front_2 = empty
 	}
 	obsolete = yes
 }

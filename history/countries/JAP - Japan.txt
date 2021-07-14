@@ -1174,7 +1174,6 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = ship_torpedo_1
 		mid_2 = empty
-		mid_3 = empty
 		front_2 = empty
 	}
 	obsolete = yes
@@ -1193,7 +1192,6 @@ create_equipment_variant = {
 		rear_2 = ship_mine_layer
 		mid_1 = ship_torpedo_2
 		mid_2 = empty
-		front_2 = empty
 	}
 	obsolete = yes
 }
@@ -1207,7 +1205,6 @@ create_equipment_variant = {
 	modules = {
 		mid_3 = ship_airplane_launcher
 		mid_4 = empty
-		front_2 = ship_unavailable_space
 	}
 	obsolete = yes
 }
@@ -1254,7 +1251,6 @@ create_equipment_variant = {
 		rear_2 = ship_mine_layer
 		mid_1 = ship_torpedo_2
 		mid_2 = empty
-		front_2 = empty
 	}
 	obsolete = yes
 }
@@ -1270,7 +1266,6 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher
 		mid_2 = ship_airplane_launcher
-		mid_3 = empty
 		front_2 = empty
 	}
 	obsolete = yes
@@ -1334,7 +1329,6 @@ create_equipment_variant = {
 		mid_2 = ship_airplane_launcher
 		mid_3 = ship_airplane_launcher
 		mid_4 = empty
-		front_2 = empty
 	}
 }
 

@@ -383,7 +383,6 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher
 		mid_2 = ship_airplane_launcher
-		front_2 = empty
 	}
 }
 create_equipment_variant = {
@@ -401,7 +400,6 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_airplane_launcher
-		mid_3 = empty
 		front_2 = ship_light_medium_battery_2
 	}
 }

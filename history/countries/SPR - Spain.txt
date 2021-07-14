@@ -831,6 +831,7 @@ create_equipment_variant = {
 		mid_1 = empty
 		mid_2 = empty
 		mid_3 = ship_light_battery_1
+		mid_4 = empty
 		front_2 = ship_heavy_medium_battery_1
 	}
 }
@@ -840,7 +841,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 	name = "España Class"	
 	type = ship_hull_heavy_1
-	name_group = _BB_HISTORICAL
+	name_group = SPR_BB_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1
 	modules = {

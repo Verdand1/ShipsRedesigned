@@ -245,6 +245,7 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_heavy_medium_battery_2
+		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_outer_hull_1 = ship_medium_armor_2
 		rear_1 = empty
 		mid_1 = ship_light_battery_1

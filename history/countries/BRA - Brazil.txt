@@ -248,7 +248,6 @@ create_equipment_variant = {
 		rear_1 = ship_light_battery_1
 		rear_2 = empty
 		mid_1 = empty
-		front_2 = empty
 	}
 }
 

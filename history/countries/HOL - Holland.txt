@@ -519,8 +519,7 @@ create_equipment_variant = {
 		rear_1 = ship_light_medium_battery_1
 		rear_2 = ship_mine_layer
 		mid_1 = empty
-		mid_2 = empty
-		mid_3 = ship_anti_air_2
+		mid_2 = ship_anti_air_2
 		front_2 = empty
 	}
 	obsolete = yes
@@ -539,7 +538,7 @@ create_equipment_variant = {
 		rear_1 = ship_light_medium_battery_2
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher
-		mid_4 = empty
+		mid_3 = empty
 	}
 }
 
@@ -554,25 +553,32 @@ create_equipment_variant = {
 	modules = {
 		fixed_outer_hull_1 = ship_medium_armor_2
 		fixed_outer_hull_2 = ship_light_armor
-		rear_1 = empty
-		rear_2 = empty
-		mid_1 = ship_airplane_launcher
-		mid_2 = ship_light_battery_2
-		mid_3 = empty
-		mid_4 = empty
-		front_2 = empty
+		rear_1 = ship_airplane_launcher
+		mid_1 = ship_light_battery_2
 	}
 	obsolete = yes
 }
 
 create_equipment_variant = {
-	name = "Jacob van Heemskerck Superclass"				
+	name = "Jacob van Heemskerck Class"				
 	type = ship_hull_cruiser_2
-	name_group = _CA_HISTORICAL
+	name_group = HOL_CA_HISTORICAL
 	parent_version = 1
 	role_icon_index = 2
 	modules = {
-		mid_1 = empty
+		rear_1 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "De Zeven Provincien Class"				
+	type = ship_hull_cruiser_2
+	name_group = HOL_CA_HISTORICAL
+	parent_version = 2
+	role_icon_index = 2
+	modules = {
+		rear_2 = empty
 	}
 	obsolete = yes
 }
