@@ -692,15 +692,12 @@ create_equipment_variant = {
 	name = "Barracuda Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 0 #3
+	parent_version = 2 #3
 	role_icon_index = 6
 	modules = {
-		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank
-		rear_1 = ship_torpedo_sub_2
 		rear_2 = empty
-		mid_2 = empty
 		front_2 = ship_torpedo_sub_2
 	}
 	obsolete = yes
@@ -889,7 +886,8 @@ create_equipment_variant = {
 	parent_version = 5 #7
 	role_icon_index = 1
 	modules = {
-		rear_1 = ship_depth_charge_2
+		rear_1 = ship_depth_charge_1
+		mid_3 = empty
 	}
 	obsolete = yes
 }
@@ -902,8 +900,6 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		fixed_engine = light_ship_perf_engine_2
-		rear_1 = ship_depth_charge_1
-		mid_3 = empty
 	}
 }
 
