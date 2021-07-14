@@ -2373,8 +2373,10 @@ equipment_modules = {
 		category = hidden
 		
 		multiply_stats = {
-			max_strength = -0.05
-			surface_visibility = 0.1
+			lg_attack = -0.05
+			hg_attack = -0.05
+			max_strength = -0.1
+			naval_speed = 0.1
 		}
 		
 		dismantle_cost_ic = 500
@@ -2384,7 +2386,7 @@ equipment_modules = {
 		category = hidden
 		
 		multiply_stats = {
-			naval_range = -0.5
+			naval_speed = -0.15
 		}
 		
 		dismantle_cost_ic = 200
