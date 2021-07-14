@@ -846,14 +846,14 @@ create_equipment_variant = {
 	parent_version = 0 #5
 	role_icon_index = 1
 	modules = {
-		fixed_front_1 = ship_light_battery_1
+		fixed_front_1 = ship_light_battery_3
 		fixed_target_acquisition = ship_sonar_1
 		fixed_engine = light_ship_perf_engine_1
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_torpedo_2
-		front_2 = ship_anti_air_2
+		front_2 = empty
 	}
 	obsolete = yes
 }
@@ -1060,8 +1060,8 @@ create_equipment_variant = {
 		rear_1 = ship_heavy_medium_battery_2
 		rear_2 = ship_airplane_launcher
 		mid_1 = empty
-		mid_2 = ship_light_battery_1
-		mid_3 = ship_anti_air_2
+		mid_2 = ship_light_battery_3
+		mid_3 = ship_anti_air_1
 		mid_4 = empty
 		front_2 = ship_heavy_medium_battery_2
 	}
@@ -1222,7 +1222,7 @@ create_equipment_variant = {
 		fixed_outer_hull_2 = ship_extra_fuel_tank
 		rear_1 = ship_large_deck_space
 		rear_2 = ship_deck_space
-		mid_1 = ship_light_battery_2
+		mid_1 = ship_light_battery_3
 		mid_2 = ship_anti_air_2
 		front_2 = ship_deck_space
 	}
@@ -1239,7 +1239,7 @@ create_equipment_variant = {
 		fixed_engine = heavy_ship_perf_engine_2
 		rear_1 = ship_large_deck_space
 		rear_2 = ship_deck_space
-		mid_1 = ship_light_battery_2
+		mid_1 = ship_light_battery_3
 		mid_2 = ship_anti_air_2
 		front_2 = empty
 	}
