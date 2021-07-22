@@ -20,6 +20,8 @@ set_technology = {
 	
 	ship_light_hull = 1
 	ship_hull_submarine = 1
+	basic_range_engines = 1	
+	basic_naval_mines = 1
 }
 
 set_research_slots = 3

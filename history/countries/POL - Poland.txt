@@ -27,9 +27,19 @@ set_technology = {
 	CAS1 = 1
 	trench_warfare = 1
 	
+	electronic_mechanical_engineering = 1
+	basic_fire_control_system = 1
+	
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
 	ship_hull_submarine = 1
+	improved_torpedo_launcher = 1
+	basic_depth_charges = 1
+	basic_range_engines = 1	
+	improved_range_engines = 1
+	basic_perf_engines = 1
+	improved_perf_engines = 1
+	basic_naval_mines = 1
 }
 
 1939.1.1 = {

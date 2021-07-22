@@ -128,6 +128,14 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
+	improved_torpedo_launcher = 1
+	basic_depth_charges = 1
+	basic_range_engines = 1	
+	improved_range_engines = 1
+	basic_perf_engines = 1
+	basic_armor_scheme = 1
+	improved_armor_scheme = 1
+	basic_naval_mines = 1
 }
 
 set_politics = {

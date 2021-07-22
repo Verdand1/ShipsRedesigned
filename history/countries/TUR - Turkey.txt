@@ -30,7 +30,6 @@ set_technology = {
 	tech_recon = 1
 	tech_support = 1
 	gw_artillery = 1
-	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
@@ -41,6 +40,14 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
+	improved_torpedo_launcher = 1
+	basic_range_engines = 1	
+	improved_range_engines = 1
+	basic_perf_engines = 1
+	basic_armor_scheme = 1
+	improved_armor_scheme = 1
+	basic_naval_mines = 1
+	submarine_mine_laying = 1
 }
 
 1936.1.1 = {
@@ -855,7 +862,7 @@ create_equipment_variant = {
 		fixed_outer_hull_1 = ship_heavy_armor_2
 		rear_1 = empty
 		rear_2 = empty
-		mid_1 = ship_light_battery_2
+		mid_1 = ship_light_medium_battery_1
 		front_2 = empty
 	}
 }
