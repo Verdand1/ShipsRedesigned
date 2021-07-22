@@ -1142,7 +1142,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "G,H & I Types"
+	name = "G & H Types"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 12
@@ -1153,7 +1153,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "G,H & I Leaders"
+	name = "G & H Leaders"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 15
@@ -1497,9 +1497,9 @@ create_equipment_variant = {
 		fixed_front_1 = ship_deck_space
 		fixed_inner_hull = reinforced_structure
 		fixed_outer_hull_1 = ship_unarmored_hangar
-		fixed_outer_hull_2 = ship_unarmored_hangar
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_1
+		mid_2 = empty
 	}
 	obsolete = yes
 }
@@ -1513,9 +1513,10 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_deck_space
 		fixed_engine = medium_ship_range_engine_1
-		fixed_outer_hull_1 = ship_medium_armor
+		fixed_outer_hull_1 = ship_medium_armor_1
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_2
+		mid_2 = empty
 	}
 }
 
@@ -1531,10 +1532,10 @@ create_equipment_variant = {
 		fixed_front_1 = ship_large_deck_space
 		fixed_engine = heavy_ship_perf_engine_1
 		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_deck_space
-		rear_2 = ship_deck_space
-		mid_1 = empty
-		mid_2 = ship_light_battery_1
+		mid_1 = ship_light_battery_1
+		mid_2 = empty
+		mid_3 = empty
+		mid_4 = ship_deck_space
 	}
 	obsolete = yes
 }
@@ -1543,16 +1544,11 @@ create_equipment_variant = {
 	name = "Furious Class"	
 	type = ship_hull_carrier_1
 	name_group = ENG_CV_HISTORICAL
-	parent_version = 0
+	parent_version = 1
 	role_icon_index = 7
 	modules = {
-		fixed_front_1 = ship_large_deck_space
-		fixed_engine = heavy_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_deck_space
-		rear_2 = empty
 		mid_1 = ship_light_medium_battery_1
-		mid_2 = empty
+		mid_4 = empty
 	}
 	obsolete = yes
 }
@@ -1568,9 +1564,9 @@ create_equipment_variant = {
 		fixed_engine = heavy_ship_range_engine_2
 		fixed_outer_hull_1 = ship_medium_armor_2
 		rear_1 = ship_deck_space
-		rear_2 = ship_deck_space
 		mid_1 = ship_light_medium_battery_1
 		mid_2 = ship_light_battery_1
+		mid_4 = ship_deck_space
 	}
 	obsolete = yes
 }
@@ -1583,13 +1579,13 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_large_deck_space
-		fixed_engine = heavy_ship_perf_engine_1
+		fixed_engine = heavy_ship_perf_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank
 		fixed_outer_hull_1 = ship_medium_armor_2
-		rear_1 = ship_large_deck_space
-		rear_2 = empty
+		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_2
-		mid_2 = ship_anti_air_2
+		mid_2 = ship_anti_air_1
+		mid_4 = ship_deck_space
 	}
 }
 
