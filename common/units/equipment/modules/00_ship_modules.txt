@@ -17,6 +17,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 2
+			reliability = 0.03
 			build_cost_ic = 50
 		}
 		manpower = 40 #outside the add_stats section for code reasons
@@ -45,6 +46,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 3
+			reliability = 0.03
 			build_cost_ic = 100
 		}
 		manpower = 40 #outside the add_stats section for code reasons
@@ -74,6 +76,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 4
+			reliability = 0.03
 			build_cost_ic = 150
 		}
 		manpower = 40 #outside the add_stats section for code reasons
@@ -103,6 +106,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 5
+			reliability = 0.03
 			build_cost_ic = 200
 		}
 		manpower = 40 #outside the add_stats section for code reasons
@@ -140,6 +144,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.02
 			max_strength = 10
+			reliability = 0.03
 			build_cost_ic = 200
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -175,6 +180,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.03
 			max_strength = 15
+			reliability = 0.03
 			build_cost_ic = 300
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -210,6 +216,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.04
 			max_strength = 20
+			reliability = 0.03
 			build_cost_ic = 400
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -245,6 +252,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.05
 			max_strength = 25
+			reliability = 0.03
 			build_cost_ic = 500
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -280,6 +288,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.02
 			max_strength = 10
+			reliability = 0.03
 			build_cost_ic = 200
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -315,6 +324,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.03
 			max_strength = 15
+			reliability = 0.03
 			build_cost_ic = 300
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -350,6 +360,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.04
 			max_strength = 20
+			reliability = 0.03
 			build_cost_ic = 400
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -385,6 +396,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.05
 			max_strength = 25
+			reliability = 0.03
 			build_cost_ic = 500
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -429,6 +441,7 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.06
 			max_strength = 20
+			reliability = 0.03
 			build_cost_ic = 400
 		}
 		manpower = 160 #outside the add_stats section for code reasons
@@ -460,6 +473,7 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.08
 			max_strength = 30
+			reliability = 0.03
 			build_cost_ic = 600
 		}
 		manpower = 160 #outside the add_stats section for code reasons
@@ -491,6 +505,7 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.1
 			max_strength = 40
+			reliability = 0.03
 			build_cost_ic = 800
 		}
 		manpower = 160 #outside the add_stats section for code reasons
@@ -522,6 +537,7 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.12
 			max_strength = 50
+			reliability = 0.03
 			build_cost_ic = 1000
 		}
 		manpower = 160 #outside the add_stats section for code reasons
@@ -828,6 +844,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 28
 			fuel_consumption = 6
+			reliability = 0.02
 			build_cost_ic = 200
 		}		
 		manpower = 40 #outside the add_stats section for code reasons
@@ -859,6 +876,7 @@ equipment_modules = {
 			naval_speed = 30
 			fuel_consumption = 7
 			max_strength = 5
+			reliability = 0.02
 			build_cost_ic = 300
 		}		
 		manpower = 40 #outside the add_stats section for code reasons
@@ -890,6 +908,7 @@ equipment_modules = {
 			naval_speed = 32
 			fuel_consumption = 8
 			max_strength = 10
+			reliability = 0.02
 			build_cost_ic = 400
 		}		
 		manpower = 40 #outside the add_stats section for code reasons
@@ -917,6 +936,7 @@ equipment_modules = {
 			naval_speed = 34
 			fuel_consumption = 9
 			max_strength = 15
+			reliability = 0.02
 			build_cost_ic = 500
 		}		
 		manpower = 40 #outside the add_stats section for code reasons
@@ -1064,6 +1084,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 29
 			fuel_consumption = 18
+			reliability = 0.02
 			build_cost_ic = 600
 		}		
 		manpower = 60 #outside the add_stats section for code reasons
@@ -1095,6 +1116,7 @@ equipment_modules = {
 			naval_speed = 31
 			fuel_consumption = 21
 			max_strength = 10
+			reliability = 0.02
 			build_cost_ic = 800
 		}		
 		manpower = 60 #outside the add_stats section for code reasons
@@ -1126,6 +1148,7 @@ equipment_modules = {
 			naval_speed = 33
 			fuel_consumption = 24
 			max_strength = 20
+			reliability = 0.02
 			build_cost_ic = 1000
 		}		
 		manpower = 60 #outside the add_stats section for code reasons
@@ -1153,6 +1176,7 @@ equipment_modules = {
 			naval_speed = 35
 			fuel_consumption = 27
 			max_strength = 30
+			reliability = 0.02
 			build_cost_ic = 1200
 		}		
 		manpower = 60 #outside the add_stats section for code reasons
@@ -1300,6 +1324,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 26
 			fuel_consumption = 54
+			reliability = 0.02
 			build_cost_ic = 1400
 		}		
 		manpower = 80 #outside the add_stats section for code reasons
@@ -1331,6 +1356,7 @@ equipment_modules = {
 			naval_speed = 29
 			fuel_consumption = 63
 			max_strength = 20
+			reliability = 0.02
 			build_cost_ic = 1700
 		}		
 		manpower = 80 #outside the add_stats section for code reasons
@@ -1362,6 +1388,7 @@ equipment_modules = {
 			naval_speed = 32
 			fuel_consumption = 72
 			max_strength = 40
+			reliability = 0.02
 			build_cost_ic = 2000
 		}		
 		manpower = 80 #outside the add_stats section for code reasons
@@ -1389,6 +1416,7 @@ equipment_modules = {
 			naval_speed = 35
 			fuel_consumption = 81
 			max_strength = 60
+			reliability = 0.02
 			build_cost_ic = 2300
 		}		
 		manpower = 80 #outside the add_stats section for code reasons
@@ -1536,6 +1564,7 @@ equipment_modules = {
 		add_stats = {
 			naval_speed = 14
 			fuel_consumption = 2
+			reliability = 0.02
 			build_cost_ic = 70
 		}		
 		multiply_stats = {
@@ -1567,6 +1596,7 @@ equipment_modules = {
 			naval_speed = 16
 			fuel_consumption = 3
 			max_strength = 5
+			reliability = 0.02
 			build_cost_ic = 80
 		}		
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1599,6 +1629,7 @@ equipment_modules = {
 			naval_speed = 18
 			fuel_consumption = 4
 			max_strength = 10
+			reliability = 0.02
 			build_cost_ic = 90
 		}		
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1627,6 +1658,7 @@ equipment_modules = {
 			naval_speed = 20
 			fuel_consumption = 5
 			max_strength = 15
+			reliability = 0.02
 			build_cost_ic = 100
 		}		
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1656,7 +1688,7 @@ equipment_modules = {
 		category = ship_layout
 		
 		multiply_stats = {
-			reliability = 0.2
+			reliability = 0.1
 			build_cost_ic = 0.05
 		}
 		
@@ -1667,7 +1699,7 @@ equipment_modules = {
 		category = ship_layout
 		
 		multiply_stats = {
-			reliability = 0.4
+			reliability = 0.2
 			build_cost_ic = 0.1
 		}
 		
@@ -1678,7 +1710,7 @@ equipment_modules = {
 		category = ship_layout
 		
 		multiply_stats = {
-			reliability = 0.6
+			reliability = 0.3
 			build_cost_ic = 0.15
 		}
 		
@@ -1717,6 +1749,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 2
+			reliability = 0.03
 			build_cost_ic = 100
 		}
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1743,6 +1776,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 2
+			reliability = 0.03
 			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1768,6 +1802,7 @@ equipment_modules = {
 			torpedo_attack = 10
 			sub_visibility = 1.2
 			supply_consumption = 0.01
+			reliability = 0.03
 			build_cost_ic = 70
 		}
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1786,6 +1821,7 @@ equipment_modules = {
 			torpedo_attack = 14
 			sub_visibility = 2
 			supply_consumption = 0.01
+			reliability = 0.03
 			build_cost_ic = 100
 		}
 		manpower = 10 #outside the add_stats section for code reasons
