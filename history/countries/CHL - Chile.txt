@@ -193,7 +193,7 @@ create_equipment_variant = {
 	obsolete = yes
 }
 create_equipment_variant = {
-	name = "Capitan O'Brien Class"				
+	name = "Capitán O'Brien Class"				
 	type = ship_hull_submarine_1
 	name_group = CHL_SS_HISTORICAL
 	parent_version = 0

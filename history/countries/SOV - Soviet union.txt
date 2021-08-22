@@ -858,7 +858,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "L Type - First Group"				
+	name = "L Type - Serie II"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_LENINETS
 	parent_version = 2
@@ -905,7 +905,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "L Type - Second Group"				
+	name = "L Type - Series XI & XIII"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_LENINETS
 	parent_version = 3
@@ -934,7 +934,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Frunze Class"
+	name = "Schastlivyy Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
 	parent_version = 1
@@ -1133,7 +1133,7 @@ create_equipment_variant = {
 # BB
 
 create_equipment_variant = {
-	name = "Oktyabr'skaya Revoliutsiya Class"	
+	name = "Sevastopol Class"	
 	type = ship_hull_heavy_1
 	name_group = SOV_BB_HISTORICAL
 	parent_version = 0

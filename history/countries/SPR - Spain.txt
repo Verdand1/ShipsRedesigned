@@ -742,7 +742,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Jupiter Class"
+	name = "Júpiter Class"
 	type = ship_hull_light_1
 	name_group = SPR_DD_HISTORICAL
 	parent_version = 0
@@ -773,7 +773,7 @@ create_equipment_variant = {
 # CL
 
 create_equipment_variant = {
-	name = "Republica Class"
+	name = "Reina Victoria Eugenia Class"
 	type = ship_hull_cruiser_1
 	name_group = SPR_CL_HISTORICAL
 	parent_version = 0
@@ -790,7 +790,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Mendez Nunes Class"
+	name = "Méndez Núñes Class"
 	type = ship_hull_cruiser_1
 	name_group = SPR_CL_HISTORICAL
 	parent_version = 1

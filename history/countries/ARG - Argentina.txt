@@ -302,7 +302,7 @@ create_equipment_variant = {
 	obsolete = yes
 }
 create_equipment_variant = {
-	name = "Cervantès Class"	
+	name = "Cervantes Class"	
 	type = ship_hull_light_1
 	name_group = ARG_DD_HISTORICAL
 	parent_version = 0

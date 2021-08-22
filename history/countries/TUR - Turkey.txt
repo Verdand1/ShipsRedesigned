@@ -726,7 +726,7 @@ if = {
 # SS
 
 create_equipment_variant = {
-	name = "Birinci Inonu Class"				
+	name = "Birinci İnönü Class"				
 	type = ship_hull_submarine_1
 	name_group = TUR_SS_HISTORICAL
 	parent_version = 0
@@ -739,7 +739,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Gur Class"				
+	name = "Gür Class"				
 	type = ship_hull_submarine_1
 	name_group = TUR_SS_HISTORICAL
 	parent_version = 0
@@ -789,7 +789,7 @@ create_equipment_variant = {
 # DD
 
 create_equipment_variant = {
-	name = "Peyk-i Sevket Class"
+	name = "Peyk-i Şevket Class"
 	type = ship_hull_light_1
 	name_group = TUR_DD_HISTORICAL
 	parent_version = 0
@@ -802,7 +802,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Kocatepe Class"
+	name = "Kocatepe & Zafer Classes"
 	type = ship_hull_light_1
 	name_group = TUR_DD_HISTORICAL
 	parent_version = 0
@@ -852,7 +852,7 @@ create_equipment_variant = {
 # BB
 
 create_equipment_variant = {
-	name = "Yavuz Class"	
+	name = "Yavuz Sultan Selim Class"	
 	type = ship_hull_heavy_1
 	name_group = TUR_BB_HISTORICAL
 	parent_version = 0

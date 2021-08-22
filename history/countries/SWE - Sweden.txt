@@ -431,7 +431,7 @@ create_equipment_variant = {
 # CA
 
 create_equipment_variant = {
-	name = "Aran Class"				
+	name = "Äran Class"				
 	type = ship_hull_cruiser_2
 	name_group = SWE_CA_HISTORICAL
 	parent_version = 0

@@ -93,5 +93,6 @@ CHL_SS_HISTORICAL = {
 	unique = {
 	"Simpson" "Thomson"
 	"O'Brien" "Hyatt"
+	"Guacolda" "Tegualda" "Rucumilla" "Quidora" "Fresia" "Guale"
 	}
 }

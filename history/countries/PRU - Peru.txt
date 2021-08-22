@@ -145,7 +145,7 @@ create_equipment_variant = {
 # DD
 
 create_equipment_variant = {
-	name = "Teniente Rodriguez Class"
+	name = "Teniente Rodríguez Class"
 	type = ship_hull_light_1
 	name_group = PRU_DD_HISTORICAL
 	parent_version = 0

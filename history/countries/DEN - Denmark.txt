@@ -212,21 +212,6 @@ create_equipment_variant = {
 
 # Light Cruisers #
 create_equipment_variant = {
-	name = "Marti Class"
-	type = ship_hull_cruiser_1
-	name_group = DEN_CL_HISTORICAL
-	parent_version = 0
-	role_icon_index = 4
-	modules = {
-		fixed_front_1 = ship_light_battery_1
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_layer
-		mid_1 = ship_mine_layer
-		front_2 = empty
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
 	name = "Niels Iuel Class"
 	type = ship_hull_cruiser_1
 	name_group = DEN_CL_HISTORICAL

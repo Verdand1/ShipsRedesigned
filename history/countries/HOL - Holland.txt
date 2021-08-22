@@ -466,7 +466,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Van Ghent Class"
+	name = "Admiralen Type"
 	type = ship_hull_light_1
 	name_group = HOL_DD_HISTORICAL
 	parent_version = 0

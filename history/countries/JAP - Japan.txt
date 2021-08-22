@@ -936,7 +936,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Kaidai Type - Group 1 ~ 5 "				
+	name = "Kaidai Type - Group 1 ~ 5"				
 	type = ship_hull_submarine_1
 	name_group = JAP_SS_HISTORICAL
 	parent_version = 0 #7
@@ -1031,7 +1031,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Momi Class"
+	name = "Momi Superclass"
 	type = ship_hull_light_1
 	name_group = JAP_DD_HISTORICAL
 	parent_version = 1 #2
@@ -1085,7 +1085,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Fubuki Class"
+	name = "Fubuki Superclass"
 	type = ship_hull_light_1
 	name_group = JAP_DD_HISTORICAL
 	parent_version = 0 #6
@@ -1375,7 +1375,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Myoko Class"				
+	name = "Nachi Class"				
 	type = ship_hull_cruiser_2
 	name_group = JAP_CA_HISTORICAL
 	parent_version = 1 #2

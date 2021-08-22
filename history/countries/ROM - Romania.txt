@@ -395,7 +395,7 @@ create_equipment_variant = {
 # DD
 
 create_equipment_variant = {
-	name = "Marasti Class"
+	name = "Mărăsti Class"
 	type = ship_hull_light_1
 	name_group = ROM_DD_HISTORICAL
 	parent_version = 0

@@ -891,7 +891,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Oberon Class"				
+	name = "O Class"				
 	type = ship_hull_submarine_1
 	name_group = ENG_SS_HISTORICAL
 	parent_version = 3
@@ -904,7 +904,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Odin Class"				
+	name = "Super-O Class"				
 	type = ship_hull_submarine_1
 	name_group = ENG_SS_HISTORICAL
 	parent_version = 4
@@ -916,7 +916,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Thames Class"				
+	name = "Thames & XI Classes"				
 	type = ship_hull_submarine_1
 	name_group = ENG_SS_HISTORICAL
 	parent_version = 0
@@ -933,7 +933,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Swordfish Class"				
+	name = "S Class"				
 	type = ship_hull_submarine_1
 	name_group = ENG_SS_HISTORICAL
 	parent_version = 0
@@ -946,7 +946,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Porpoise Class"				
+	name = "Porpoise Superclass"				
 	type = ship_hull_submarine_1
 	name_group = ENG_SS_HISTORICAL
 	parent_version = 0
@@ -1266,7 +1266,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Leander Class"
+	name = "Leander Superclass"
 	type = ship_hull_cruiser_1
 	name_group = ENG_CL_HISTORICAL
 	parent_version = 0
@@ -1385,7 +1385,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "York Class"				
+	name = "York Superclass"				
 	type = ship_hull_cruiser_2
 	name_group = ENG_CA_HISTORICAL
 	parent_version = 4

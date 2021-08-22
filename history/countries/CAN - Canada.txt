@@ -303,6 +303,20 @@ create_navy_leader = {
 
 # Destroyers #
 create_equipment_variant = {
+	name = "Vancouver Class"
+	type = ship_hull_light_1
+	name_group = CAN_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_engine = light_ship_perf_engine_1
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+		mid_1 = ship_torpedo_2
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
 	name = "Saguenay Class"
 	type = ship_hull_light_1
 	name_group = CAN_DD_HISTORICAL

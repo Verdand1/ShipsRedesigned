@@ -359,7 +359,7 @@ create_field_marshal = {
 
 # Light Cruisers #
 create_equipment_variant = {
-	name = "Ying Swei Class"
+	name = "Ying Swei & Chao Ho Classes"
 	type = ship_hull_cruiser_1
 	name_group = CHI_CL_HISTORICAL
 	parent_version = 0
@@ -400,7 +400,7 @@ create_equipment_variant = {
 
 # Heavy Cruisers #
 create_equipment_variant = {
-	name = "Hai Shi Class"
+	name = "Hai Chi Class"
 	type = ship_hull_cruiser_2
 	name_group = CHI_CL_HISTORICAL
 	parent_version = 0
