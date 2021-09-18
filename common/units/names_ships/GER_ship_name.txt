@@ -45,6 +45,28 @@ GER_DD_HISTORICAL = {
 	}
 }
 
+### DESTROYER ESCORT NAMES###
+GER_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_the_monarchy_compromise
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_escort }
+
+	fallback_name = "F%d"
+
+}
+
 ### TORPEDO BOAT NAMES###
 GER_TB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_TB
@@ -160,7 +182,7 @@ GER_BB_HISTORICAL = {
 	fallback_name = "Schlachtschiff %d"
 
 	unique = {
-		"Scharnhorst" "Gneisenau"
+		"Gneisenau" "Scharnhorst"
 		"Bismarck" "Tirpitz"
 		"Nassau" "Westfalen" "Rheinland" "Posen"
 		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"
@@ -272,6 +294,16 @@ GER_SS_HISTORICAL = {
 	
 	fallback_name = "U-%d"
 	
+	ordered = {
+		21 = {"U-25"}
+		22 = {"U-27"}
+		23 = {"U-28"}
+		24 = {"U-26"}
+		25 = {"U-21"}
+		26 = {"U-22"}
+		27 = {"U-23"}
+		28 = {"U-24"}
+	}
 }
 
 GER_THEME_FISH = {
@@ -675,7 +707,7 @@ GER_BB_IMPERIAL = {
 	fallback_name = "SMS Schlachtschiff %d"
 
 	unique = {
-		"Scharnhorst" "Gneisenau"
+		"Gneisenau" "Scharnhorst"
 		"Bismarck" "Tirpitz"
 		"Nassau" "Westfalen" "Rheinland" "Posen"
 		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"

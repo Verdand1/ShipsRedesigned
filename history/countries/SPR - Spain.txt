@@ -1,13 +1,7 @@
 ﻿capital = 41
 
 oob = "SPR_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SPR_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SPR_1936_naval_legacy"
-	}
-}
+set_naval_oob = "SPR_1936_naval"
 
 if = {
 	limit = {
@@ -666,7 +660,7 @@ if = {
 # 1936 Start #
 
 create_equipment_variant = {
-	name = "B1 Class"				
+	name = "B Class"				
 	type = ship_hull_submarine_1
 	name_group = SPR_SS_HISTORICAL
 	parent_version = 0
@@ -680,7 +674,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "C1 Class"				
+	name = "C Class"				
 	type = ship_hull_submarine_1
 	name_group = SPR_SS_HISTORICAL
 	parent_version = 1
@@ -695,7 +689,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "D1 Class"				
+	name = "D Class"				
 	type = ship_hull_submarine_1
 	name_group = SPR_SS_HISTORICAL
 	parent_version = 2
@@ -731,8 +725,8 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = light_ship_perf_engine_1
-		fixed_inner_hull = empty
-		fixed_outer_hull_1 = empty
+		fixed_inner_hull = ship_unavailable_internal_space
+		fixed_outer_hull_1 = ship_unavailable_internal_space
 		rear_1 = ship_depth_charge_1
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
@@ -749,8 +743,8 @@ create_equipment_variant = {
 	role_icon_index = 4
 	modules = {
 		fixed_engine = light_ship_range_engine_1
-		fixed_inner_hull = empty
-		fixed_outer_hull_1 = empty
+		fixed_inner_hull = ship_unavailable_internal_space
+		fixed_outer_hull_1 = ship_unavailable_internal_space
 		rear_1 = ship_mine_layer
 		rear_2 = ship_mine_layer
 		mid_1 = empty

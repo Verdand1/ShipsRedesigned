@@ -22,7 +22,7 @@ FRA_DD_HISTORICAL = {
 }
 
 ### LIGHT DESTROYER/TORPEDO BOAT NAMES###
-FRA_DE_HISTORICAL = {
+FRA_TB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_LIGHT_DDS
 
 	for_countries = { FRA }
@@ -36,6 +36,21 @@ FRA_DE_HISTORICAL = {
 		"Le Hardi" "Fleuret" "Le Foudroyant" "Epée" "L'Adroit" "Casque" "Lansquenet" "Mameluk" "Le Corsaire" "Sirocco" "Le Flibustier" "Bison" "L'Intrépide" "Le Téméraire" "L'Aventurier" "L'Opiniâtre"
 		"Bourrasque" "Cyclone" "Orage" "Tramontane" "Mistral" "Ouragan" "Simoun" "Tempête" "Tornade" "Trombe" "Typhon"
 		"L'Adroit" "Basque" "Bordelais" "Boulonnais" "Brestois" "Forbin" "Frondeur" "L'Alcyon" "La Palme" "La Railleuse" "Le Fortuné" "Le Mars" "Le Foudroyant" "Fougueux"
+	}
+}
+
+### DESTROYER ESCORT NAMES###
+FRA_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
+
+	for_countries = { FRA }
+
+	type = ship
+	ship_types = { ship_hull_escort }			
+
+	fallback_name = "Escorteur %d"					
+
+	unique = {											
 		"La Melpomène" "La Pomone" "La Flore" "L'Iphigénie" "La Bayonnaise" "La Cordelière" "L'Incomprise" "La Poursuivante" "Bombarde" "Branlebas" "Bouclier" "Baliste"
 		"Le Fier" "L'Agile" "L'Entreprenant" "Le Farouche" "L'Alsacien" "Le Corse" "Le Breton"
 	}
@@ -208,7 +223,7 @@ FRA_SS_HISTORICAL = {
 	fallback_name = "Sous-Marin %d"
 	
 	unique = {
-		"Redoutable" "Vengeur" "Pascal" "Pasteur" "Henri Poincaré" "Poncelet" "Archimède" "Fresnel" "Monge" "Achille" "Ajax" "Actéon" "Achéron" "Argo" "Prométhée" "Persée" "Protée" "Pégase"
+		"Redoutable" "Vengeur" "Pascal" "Pasteur" "Henri Poincaré" "Poncelet" "Archimède" "Fresnel" "Monge" "Achille" "Ajax" "Actéon" "Achéron" "Argo" "Persée" "Protée" "Pégase" "Phénix" "L'Espoir" "Le Glorieux" "Le Centaure" "Le Héros" "Le Conquérant" "Le Tonnant" "Agosta" "Bévéziers" "Ouessant" "Sidi-Ferruch" "Sfax" "Casabianca"
 		"Saphir" "Turquoise" "Diamant" "Nautilus" "Rubis" "Perle"
 		"Argonaute" "Aréthuse" "Atalante" "La Vestale" "La Sultane"
 		"Diane" "Méduse" "Antiope" "Amphitrite" "Amazone" "Orphée" "Oréade" "La Sibylle" "La Psyché"
@@ -222,6 +237,7 @@ FRA_SS_HISTORICAL = {
 		"Sirène" "Naïade" "Galathée" "Nymphe"
 		"Ariane" "Eurydice" "Danaé"
 		"Circé" "Calypso" "Thétis" "Doris"
+		"Prométhée" # Manage to sink before all Redoutable finish building
 	}
 }
 

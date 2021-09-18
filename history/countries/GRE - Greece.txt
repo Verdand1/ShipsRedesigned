@@ -1,13 +1,7 @@
 ﻿capital = 47
 
 oob = "GRE_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "GRE_1936_naval_mtg"
-	else = {
-		set_naval_oob = "GRE_1936_naval_legacy"
-	}
-}
+set_naval_oob = "GRE_1936_naval"
 
 ###################
 #### 3D MODELS ####
@@ -510,6 +504,20 @@ create_equipment_variant = {
 }
 
 # DD
+
+create_equipment_variant = {
+	name = "Aetos Class"
+	type = ship_hull_light_1
+	name_group = GRE_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_engine = light_ship_perf_engine_1
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = ship_torpedo_2
+	}
+}
 
 create_equipment_variant = {
 	name = "Hydra Class"

@@ -98,7 +98,6 @@ JAP_CA_HISTORICAL = {
 	fallback_name = "Jujun'yokan %d-go"
 
 	unique = {
-		"Suzuya" "Kumano"
 		"Tone" "Chikuma"
 		"Asama" "Tokiwa"
 		"Yakumo"
@@ -111,6 +110,7 @@ JAP_CA_HISTORICAL = {
 		"Myoko" "Nachi" "Haguro" "Ashigara"
 		"Takao" "Atago" "Maya" "Chokai"
 		"Mogami" "Mikuma"
+		"Suzuya" "Kumano"
 	}
 }
 
@@ -127,12 +127,6 @@ JAP_MINELAYERS_HISTORICAL = {
 	fallback_name = "Fusetsukan %d-go"
 
 	unique = {
-		"Okinoshima"
-		"Sokuten" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" "Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro"
-		"Hatsutaka" "Aotaka" "Wakataka"
-		"Tsugaru"
-		"Kamishima" "Awashima"
-		"Eijo" "Mino"
 		"Natsushima" "Toshima" "Kuroshima" "Ashizaki" "Katoku" "Kurokami" "Katashima" "Ento" "Enoshima" "Kurosaki" "Ninoshima" "Washizaki"
 		"Katsuriki"
 		"Shirataka"
@@ -141,6 +135,12 @@ JAP_MINELAYERS_HISTORICAL = {
 		"Yaeyama"
 		"Nasami"
 		"Sarushima"
+		"Okinoshima"
+		"Sokuten" "Shirakami" "Naryu" "Kyosai" "Ukishima" "Hirashima" "Hoko" "Ishizaki" "Takashima" "Saishu" "Niizaki" "Yurijima" "Nuwashima" "Maeshima" "Ajiro"
+		"Hatsutaka" "Aotaka" "Wakataka"
+		"Tsugaru"
+		"Kamishima" "Awashima"
+		"Eijo" "Mino"
 	}
 }
 
@@ -185,8 +185,8 @@ JAP_BC_HISTORICAL = {
 	fallback_name = "Jun'yosenkan %d-go"		
 
 	unique = {
-		"Kongo" "Hiei" "Kirishima" "Haruna"
 		"Amagi" "Akagi" "Atago" "Takao" "Ashitaka"
+		"Kongo" "Hiei" "Kirishima" "Haruna"
 	}
 }
 

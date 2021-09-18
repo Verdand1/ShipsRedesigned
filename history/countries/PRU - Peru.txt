@@ -1,13 +1,7 @@
 ﻿capital = 303
 
 oob = "PRU_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "PRU_1936_naval_mtg"
-	else = {
-		set_naval_oob = "PRU_1936_naval_legacy"
-	}
-}
+set_naval_oob = "PRU_1936_naval"
 
 # Starting tech
 set_technology = {
@@ -130,7 +124,7 @@ create_country_leader = {
 # 1936 Start #
 
 create_equipment_variant = {
-	name = "R1 Class"				
+	name = "R Class"				
 	type = ship_hull_submarine_1
 	name_group = PRU_SS_HISTORICAL
 	parent_version = 0

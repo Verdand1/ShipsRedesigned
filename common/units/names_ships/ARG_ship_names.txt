@@ -12,7 +12,7 @@ ARG_DD_HISTORICAL = {
 	fallback_name = "ARA Destructor %d"					
 
 	unique = {											
-		"Entre Ríos" "Corrientes" "San Juan" "San Luis" "Misiones" "Santa Cruz" "Buenos Aires"
+		"Buenos Aires" "Entre Ríos" "Corrientes" "San Juan" "San Luis" "Misiones" "Santa Cruz"
 		"Espora" "Rosales" "Almirante Brown" "Domecq García" "Almirante Storni"
 		"Seguí" "Bouchard" "Piedra Buena"
 		"Py"

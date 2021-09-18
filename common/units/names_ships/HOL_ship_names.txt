@@ -91,7 +91,7 @@ HOL_SS_OCLASS = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
-	fallback_name = "HrMs O-%d"
+	fallback_name = "HrMs O%d"
 	
 }
 HOL_SS_KCLASS = {
@@ -103,7 +103,7 @@ HOL_SS_KCLASS = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "HrMs "
-	fallback_name = "HrMs K-%s"
+	fallback_name = "HrMs K %s"
 	
 }
 

@@ -78,7 +78,6 @@ ITA_CL_HISTORICAL = {
 	fallback_name = "RI Incrociatore leggero %s"
 
 	unique = {
-		"Emanuele Filiberto Duca d'Aosta" "Eugenio di Savoia"
 		"Giuseppe Garibaldi" "Luigi di Savoia Duca degli Abruzzi"
 		"Attilio Regolo" "Scipione Africano" "Giulio Germanico" "Pompeo Magno" "Caio Mario" "Ottaviano Augusto" "Ulpio Traiano" "Claudio Druso" "Claudio Tiberio" "Lucio Cornelio Silla" "Vipsanio Agrippa" "Paolo Emilio" "San Marco" "San Giorgio"
 		"Etna" "Vesuvio"
@@ -86,9 +85,10 @@ ITA_CL_HISTORICAL = {
 		"Brindisi" "Venezia"
 		"Ancona"
 		"Bari"
-		"Alberto da Giussano" "Alberico da Barbiano" "Bartolomeo Colleoni" "Giovanni dalle Bande Nere"
+		"Alberto di Giussano" "Alberico da Barbiano" "Bartolomeo Colleoni" "Giovanni delle Bande Nere"
 		"Luigi Cadorna" "Armando Diaz"
 		"Raimondo Montecuccoli" "Muzio Attendolo"
+		"Emanuele Filiberto Duca d'Aosta" "Eugenio di Savoia"
 	}
 }
 
@@ -204,11 +204,10 @@ ITA_SS_HISTORICAL = {
 	fallback_name = "RSmg Sommergibile %s"
 
 	unique = {
-		"Pietro Calvi" "Giuseppe Finzi" "Enrico Tazzoli"
 		"Ambra" "Berillo" "Corallo" "Diaspro" "Gemma" "Iride" "Malachite" "Onice" "Perla" "Turchese"
+		"Argo" "Velella"
 		"Adua" "Alagi" "Aradam" "Ascianghi" "Axum" "Beilul" "Dagabur" "Dessiè" "Durbo" "Gondar" "Lafolè" "Macallè" "Neghelli" "Scirè" "Tembien" "Uarsciek" "Uebi Scebeli"
 		"Atropo" "Foca" "Zoea"
-		"Argo" "Velella"
 		"Barbarigo" "Dandolo" "Emo" "Marcello" "Mocenigo" "Morosini" "Nani" "Provana" "Veniero" "Comandante Cappellini" "Comandante Faà di Bruno"
 		"Archimede" "Brin" "Galvani" "Guglielmotti" "Torricelli"
 		"Alpino Bagnolini" "Reginaldo Giuliani" "Console Generale Liuzzi" "Capitano Tarantini"
@@ -231,6 +230,7 @@ ITA_SS_HISTORICAL = {
 		"Ametista" "Anfitrite" "Diamante" "Galatea" "Naiade" "Nereide" "Ondina" "Rubino" "Sirena" "Smeraldo" "Topazio" "Zaffiro"
 		"Galileo Ferraris" "Galileo Galilei" "Evangelista Torricelli"
 		"Glauco" "Otaria"
+		"Pietro Calvi" "Giuseppe Finzi" "Enrico Tazzoli"
 	}
 }
 

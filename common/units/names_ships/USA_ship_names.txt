@@ -13,7 +13,7 @@ USA_DD_HISTORICAL = {
 
 	unique = {
 		"Porter" "Phelps" "Clark" "Moffett" "Balch" "Selfridge" "McDougal" "Winslow"
-		"Mahan" "Cummings" "Case" "Conyngham" "Cassin" "Shaw" "Cushing" "Perkins" "Flusser" "Reid" "Tucker" "Smith" "Drayton" "Downes" "Preston" "Dunlap" "Lamson" "Fanning"
+		"Mahan" "Cummings" "Flusser" "Case" "Conyngham" "Cassin" "Shaw" "Cushing" "Perkins" "Reid" "Drayton" "Lamson" "Tucker" "Smith" "Downes" "Preston" "Dunlap" "Fanning"
 		"Gridley" "Craven" "McCall" "Maury" 
 		"Bagley" "Mugford" "Ralph Talbot" "Henley" "Blue" "Helm" "Patterson" "Jarvis"
 		"Somers" "Sampson" "Warrington" "Davis" "Jouett"
@@ -108,7 +108,7 @@ USA_CL_HISTORICAL = {
 	fallback_name = "USS CL%d"
 
 	unique = {
-		"Brooklyn" "Philadelphia" "Savannah" "Nashville" "Phoenix" "Boise" "Honolulu" "St. Louis" "Helena" 
+		"Brooklyn" "Philadelphia" "Savannah" "Honolulu" "Nashville" "Boise" "Phoenix" "St. Louis" "Helena" 
 		"Cleveland" "Columbia" "Montpelier" "Denver" "Amsterdam" "Santa Fe" "Tallahassee" "Birmingham" "Mobile" "Vincennes" "Pasadena" "Springfield" "Topeka" "New Haven" "Huntington" "Dayton" "Wilmington" "Biloxi" "Houston" "Providence" "Manchester" "Buffalo"
 		"Fargo" "Vicksburg" "Duluth" "Newark" "Miami" "Astoria" "Oklahoma City" "Little Rock" "Galveston" "Youngstown" "Portsmouth" "Wilkes-Barre" "Atlanta" 
 		"Vallejo" "Roanoke" "Cheyenne" "Chattanooga"
@@ -238,8 +238,9 @@ USA_CV_HISTORICAL = {
 	fallback_name = "USS CV%d"	
 
 	unique = {
-		"Yorktown" "Enterprise" "Hornet"
+		"Yorktown" "Enterprise"
 		"Wasp"
+		"Hornet"
 		"Essex" "Intrepid" "Franklin" "Ticonderoga" "Randolph" "Lexington" "Bunker Hill" "Hancock" "Bennington" "Boxer" "Bon Homme Richard" "Leyte" "Kearsarge" "Oriskany" "Reprisal" "Antietam" "Princeton" "Shangri-la" "Lake Champlain" "Tarawa" "Valley Forge"
 		"Iwo Jima" "Philippine Sea"
 		"Midway" "Franklin D Roosevelt" "Coral Sea" 

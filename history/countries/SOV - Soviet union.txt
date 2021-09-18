@@ -1,13 +1,7 @@
 ﻿capital = 219
 
 oob = "SOV_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SOV_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SOV_1936_naval_legacy"
-	}
-}
+set_naval_oob = "SOV_1936_naval"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -842,7 +836,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "D Type"				
+	name = "D Type - Serie I"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_DEKABRIST
 	parent_version = 0
@@ -882,7 +876,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "P Type"				
+	name = "P Type - Serie IV"				
 	type = ship_hull_submarine_1
 	name_group = SOV_SS_PRAVDA
 	parent_version = 2

@@ -1,7 +1,7 @@
 ﻿capital = 500
 
-
 oob = "BRA_1936"
+set_naval_oob = "BRA_1936_naval"
 
 # Starting tech
 set_technology = {
@@ -200,7 +200,7 @@ create_navy_leader = {
 
 # Submarines #
 create_equipment_variant = {
-	name = "Humaita Class"
+	name = "Humaitá Class"
 	type = ship_hull_submarine_1
 	name_group = BRA_SS_HISTORICAL
 	parent_version = 0
@@ -217,7 +217,7 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
-	name = "Para Class"
+	name = "Pará Class"
 	type = ship_hull_light_1
 	name_group = BRA_DD_HISTORICAL
 	parent_version = 0

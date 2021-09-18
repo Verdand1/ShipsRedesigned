@@ -1,15 +1,7 @@
 ﻿capital = 126
 
 set_oob = "ENG_1936"
-if = {
-	limit = {
-		has_dlc = "Man the Guns"
-	}
-	set_naval_oob = "ENG_1936_Naval"
-	else = {
-		set_naval_oob = "ENG_1936_Naval_Legacy"
-	}
-}
+set_naval_oob = "ENG_1936_naval"
 
 load_oob = "ENG_Motorized"
 
@@ -990,7 +982,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "V Type"
+	name = "V & W Types"
 	type = ship_hull_light_1
 	name_group = ENG_DD_HISTORICAL
 	parent_version = 1
@@ -1457,7 +1449,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = heavy_ship_perf_engine_1
 		fixed_outer_hull_1 = ship_heavy_armor_2
-		fixed_outer_hull_2 = empty
+		fixed_outer_hull_2 = ship_unavailable_internal_space
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher
 		mid_2 = empty

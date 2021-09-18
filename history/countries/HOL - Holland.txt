@@ -1,13 +1,7 @@
 ﻿capital = 7
 
 oob = "HOL_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "HOL_1936_naval_mtg"
-	else = {
-		set_naval_oob = "HOL_1936_naval_legacy"
-	}
-}
+set_naval_oob = "HOL_1936_naval"
 
 set_research_slots = 3
 set_stability = 0.75
@@ -350,7 +344,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 	name = "Super-Holland Type"				
 	type = ship_hull_submarine_1
-	name_group = HOL_SS_OCLASS
+	name_group = HOL_SS_KCLASS
 	parent_version = 1
 	role_icon_index = 6
 	modules = {
@@ -586,7 +580,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "De Zeven Provincien Class"				
+	name = "De Zeven Provinciën Class"				
 	type = ship_hull_cruiser_2
 	name_group = HOL_CA_HISTORICAL
 	parent_version = 2

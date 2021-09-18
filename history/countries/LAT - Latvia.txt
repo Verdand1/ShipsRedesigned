@@ -1,13 +1,7 @@
 ﻿capital = 12
 
 oob = "LAT_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "LAT_1936_naval_mtg"
-	else = {
-		set_naval_oob = "LAT_1936_naval_legacy"
-	}
-}
+set_naval_oob = "LAT_1936_naval"
 
 add_ideas = {
 	limited_conscription

@@ -1,6 +1,7 @@
 ﻿capital = 64
 
 oob = "GER_1936"
+set_naval_oob = "GER_1936_naval"
 
 set_fuel_ratio = 0.8
 
@@ -836,7 +837,7 @@ create_equipment_variant = {
 create_equipment_variant = {
 	name = "Types 1923 & 1924"
 	type = ship_hull_light_1
-	name_group = GER_TB_HISTORICAL
+	name_group = GER_THEME_ANIMALS
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
@@ -849,9 +850,9 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Type F1"
+	name = "Type F"
 	type = ship_hull_light_1
-	name_group = GER_TB_HISTORICAL
+	name_group = GER_DE_HISTORICAL
 	parent_version = 0
 	role_icon_index = 4
 	modules = {

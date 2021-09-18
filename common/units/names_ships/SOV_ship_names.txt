@@ -206,7 +206,7 @@ SOV_SS_SHCHUKA = {
 	ship_types = { ship_hull_submarine }
 	
 	fallback_name = "Shch-%d"
-	}
+}
 
 SOV_SS_STALINETS = {
 	name = NAME_THEME_HISTORICAL_STALINETS
@@ -260,7 +260,7 @@ SOV_SS_AG = {
 	type = ship
 	ship_types = { ship_hull_submarine }
 	
-	fallback_name = "AG-%d"
+	fallback_name = "A-%d"
 }
 
 ### THEME: SOVIET REGIONS ###

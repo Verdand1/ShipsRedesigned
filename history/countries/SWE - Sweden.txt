@@ -1,13 +1,7 @@
 ﻿capital = 141	
 
 oob = "SWE_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "SWE_1936_naval_mtg"
-	else = {
-		set_naval_oob = "SWE_1936_naval_legacy"
-	}
-}
+set_naval_oob = "SWE_1936_naval"
 
 set_research_slots = 3
 
@@ -397,7 +391,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Clas Flemming Class"
+	name = "Clas Fleming Class"
 	type = ship_hull_cruiser_1
 	name_group = SWE_CL_HISTORICAL
 	parent_version = 0

@@ -1,13 +1,7 @@
 ﻿capital = 49
 
 oob = "TUR_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "TUR_1936_naval_mtg"
-	else = {
-		set_naval_oob = "TUR_1936_naval_legacy"
-	}
-}
+set_naval_oob = "TUR_1936_naval"
 
 ###################
 #### 3D MODELS ####
@@ -842,7 +836,7 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_outer_hull_1 = ship_light_armor
-		fixed_outer_hull_2 = empty
+		fixed_outer_hull_2 = ship_unavailable_internal_space
 		rear_1 = ship_mine_layer
 		rear_2 = empty
 		mid_1 = empty

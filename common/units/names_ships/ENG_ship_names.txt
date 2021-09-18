@@ -16,7 +16,7 @@ ENG_DD_HISTORICAL = {
 	fallback_name = "HMS Destroyer %s"					
 
 	unique = {											
-		"Gallant" "Garland" "Gipsy" "Glowworm" "Grafton" "Grenade" "Grenville" "Greyhound" "Griffin" "Hardy" "Hasty" "Havock" "Hereward" "Hero" "Hostile" "Hotspur" "Hunter" "Hyperion" "Icarus" "Ilex" "Imogen" "Imperial" "Impulsive" "Inglefield" "Intrepid" "Isis" "Ivanhoe"
+		"Gallant" "Garland" "Gipsy" "Glowworm" "Grafton" "Grenade" "Grenville" "Greyhound" "Griffin" "Hardy" "Hostile" "Hunter" "Hero" "Hotspur" "Hasty" "Havock" "Hereward" "Hyperion" "Icarus" "Ilex" "Imogen" "Imperial" "Impulsive" "Inglefield" "Intrepid" "Isis" "Ivanhoe"
 		"Afridi" "Ashanti" "Bedouin" "Cossack" "Eskimo" "Gurkha" "Maori" "Mashona" "Matabele" "Mohawk" "Nubian" "Punjabi" "Sikh" "Somali" "Tartar" "Zulu"
 		"Harvester" "Havant" "Havelock" "Hesperus" "Highlander" "Hurricane"
 		"Jervis" "Jackal" "Jaguar" "Juno" "Janus" "Javelin" "Jersey" "Jupiter" "Kelly" "Kandahar" "Kashmir" "Kelvin" "Khartoum" "Kimberley" "Kingston" "Kipling" "Napier" "Nestor" "Nizam" "Norman" "Nepal" "Noble" "Nerissa" "Nonpareil"
@@ -100,9 +100,8 @@ ENG_CL_HISTORICAL = {
 	fallback_name = "HMS Light Cruiser %s"
 
 	unique = {
-		"Apollo" "Amphion" "Phaeton"
 		"Arethusa" "Aurora" "Galatea" "Penelope"
-		"Birmingham" "Glasgow" "Newcastle" "Sheffield" "Southampton"
+		"Newcastle" "Southampton" "Sheffield" "Glasgow" "Birmingham"
 		"Gloucester" "Edinburgh"
 		"Belfast" "Liverpool" "Manchester" 
 		"Fiji" "Kenya" "Bermuda" "Mauritius" "Gambia" "Jamaica" "Nigeria" "Trinidad" "Ceylon" "Newfoundland" "Uganda"
@@ -114,6 +113,7 @@ ENG_CL_HISTORICAL = {
 		"Dragon" "Danae" "Dauntless" "Delhi" "Dunedin" "Diomede" "Durban" "Despatch" "Daedalus" "Daring" "Desperate" "Dryad"
 		"Enterprise" "Emerald" "Euphrates"
 		"Achilles" "Ajax" "Leander" "Neptune" "Orion"
+		"Apollo" "Amphion" "Phaeton"
 	}
 }
 
@@ -559,7 +559,7 @@ ENG_DD_COMMUNIST = {
 	fallback_name = "WLNS Destroyer %s"					
 
 	unique = {											
-		"Gallant" "Garland" "Gipsy" "Glowworm" "Grafton" "Grenade" "Grenville" "Greyhound" "Griffin" "Hardy" "Hasty" "Havock" "Hereward" "Hero" "Hostile" "Hotspur" "Hunter" "Hyperion" "Icarus" "Ilex" "Imogen" "Imperial" "Impulsive" "Inglefield" "Intrepid" "Isis" "Ivanhoe"
+		"Gallant" "Garland" "Gipsy" "Glowworm" "Grafton" "Grenade" "Grenville" "Greyhound" "Griffin" "Hardy" "Hostile" "Hunter" "Hero" "Hotspur" "Hasty" "Havock" "Hereward" "Hyperion" "Icarus" "Ilex" "Imogen" "Imperial" "Impulsive" "Inglefield" "Intrepid" "Isis" "Ivanhoe"
 		"Afridi" "Ashanti" "Bedouin" "Cossack" "Eskimo" "Gurkha" "Maori" "Mashona" "Matabele" "Mohawk" "Nubian" "Punjabi" "Sikh" "Somali" "Tartar" "Zulu"
 		"Harvester" "Havant" "Havelock" "Hesperus" "Highlander" "Hurricane"
 		"Jervis" "Jackal" "Jaguar" "Juno" "Janus" "Javelin" "Jersey" "Jupiter" "Kelly" "Kandahar" "Kashmir" "Kelvin" "Khartoum" "Kimberley" "Kingston" "Kipling" "Napier" "Nestor" "Nizam" "Norman" "Nepal" "Noble" "Nerissa" "Nonpareil"
@@ -643,9 +643,8 @@ ENG_CL_COMMUNISM = {
 	fallback_name = "WLNS Light Cruiser %s"
 
 	unique = {
-		"Apollo" "Amphion" "Phaeton"
 		"Arethusa" "Aurora" "Galatea" "Penelope"
-		"Birmingham" "Glasgow" "Newcastle" "Sheffield" "Southampton"
+		"Newcastle" "Southampton" "Sheffield" "Glasgow" "Birmingham"
 		"Gloucester" "Edinburgh"
 		"Belfast" "Liverpool" "Manchester" 
 		"Fiji" "Kenya" "Bermuda" "Mauritius" "Gambia" "Jamaica" "Nigeria" "Trinidad" "Ceylon" "Newfoundland" "Uganda"
@@ -657,6 +656,7 @@ ENG_CL_COMMUNISM = {
 		"Dragon" "Danae" "Dauntless" "Delhi" "Dunedin" "Diomede" "Durban" "Despatch" "Daedalus" "Daring" "Desperate" "Dryad"
 		"Enterprise" "Emerald" "Euphrates"
 		"Achilles" "Ajax" "Leander" "Neptune" "Orion"
+		"Apollo" "Amphion" "Phaeton"
 	}
 }
 

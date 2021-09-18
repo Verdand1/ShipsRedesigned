@@ -1,6 +1,7 @@
 ﻿capital = 2
 
 oob = "ITA_1936"
+set_naval_oob = "ITA_1936_naval"
 
 set_research_slots = 4
 set_stability = 0.6
@@ -575,7 +576,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Allessandro Poerio Class"
+	name = "Alessandro Poerio Class"
 	type = ship_hull_light_1
 	name_group = ITA_DD_HISTORICAL
 	parent_version = 1 #2
@@ -677,7 +678,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Ardimento Class"
+	name = "Ardimentoso Class"
 	type = ship_hull_light_1
 	name_group = ITA_DD_HISTORICAL
 	parent_version = 8 #9
@@ -709,7 +710,7 @@ create_equipment_variant = {
 	parent_version = 4 #11
 	role_icon_index = 1
 	modules = {
-		fixed_inner_hull = empty
+		fixed_inner_hull = ship_unavailable_internal_space
 		mid_1 = ship_torpedo_2
 	}
 	obsolete = yes
@@ -818,7 +819,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_2
 		fixed_engine = light_ship_perf_engine_2
-		fixed_inner_hull = empty
+		fixed_inner_hull = ship_unavailable_internal_space
 		mid_3 = empty
 	}
 }
@@ -1051,9 +1052,9 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_2
 		fixed_engine = medium_ship_perf_engine_2
-		fixed_inner_hull = empty
+		fixed_inner_hull = ship_unavailable_internal_space
 		fixed_outer_hull_1 = ship_medium_armor_2
-		fixed_outer_hull_2 = empty
+		fixed_outer_hull_2 = ship_unavailable_internal_space
 		mid_2 = ship_torpedo_2
 		mid_4 = empty
 	}

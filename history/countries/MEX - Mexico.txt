@@ -1,13 +1,7 @@
 ﻿capital = 277
 
 oob = "MEX_1936"
-if = {
-	limit = { has_dlc = "Man the Guns" }
-		set_naval_oob = "MEX_1936_naval_mtg"
-	else = {
-		set_naval_oob = "MEX_1936_naval_legacy"
-	}
-}
+set_naval_oob = "MEX_1936_naval"
 
 # Starting tech
 set_technology = {
@@ -350,7 +344,7 @@ create_navy_leader = {
 # 1936 Start #
 
 create_equipment_variant = {
-	name = "Nicholas Bravos Class"
+	name = "Nicholas Bravo Class"
 	type = ship_hull_light_1
 	name_group = MEX_DD_HISTORICAL
 	parent_version = 0
@@ -388,7 +382,7 @@ create_equipment_variant = {
 # CA
 
 create_equipment_variant = {
-	name = "Anahuac Class"				
+	name = "Anáhuac Class"				
 	type = ship_hull_cruiser_2
 	name_group = MEX_CA_HISTORICAL
 	parent_version = 0

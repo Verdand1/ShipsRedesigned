@@ -51,6 +51,11 @@ PRU_SS_HISTORICAL = {
 	fallback_name = "BAP Submarino %d"
 	
 	unique = {
+		"Lobo" "Tiburón" "Atún" "Merlín"
+		"Islay" "La Casma" "Pacocha" "Arica" "Dos de Mayo" "Abtao" "Angamos" "Iquique"
+		"Pabelon da Pica" "La Pedrera"
+		"Ferré" "Palacios"
+		
 		"Pacocha" "La Pedrera"
 		"Dos de Mayo" "Abtao" "Angamos" "Iquique"
 		"Islay" "Arica"
