@@ -1,0 +1,14 @@
+﻿##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Submarines
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "EST" 
+			version_name = "Kalev Class"
+		}
+		requested_factories = 1
+		progress = 0.5
+		amount = 2
+	}
+}

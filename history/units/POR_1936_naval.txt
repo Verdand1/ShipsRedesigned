@@ -1,0 +1,54 @@
+﻿##### NAVAL UNITS #####
+units= {
+	fleet = {
+		name = "Marinha de Portugal"
+		naval_base = 11805 # Lisbon
+		task_force = {
+			name = "Flotilha 'Viana do Castelo'"
+			location = 11805 # Lisbon
+			ship = { name = "NRP Dão" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Lima" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Vouga" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Tejo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Douro Class" } } }
+			ship = { name = "NRP Afonso de Albuquerque" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+			ship = { name = "NRP Bartolomeu Dias" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Alfonso de Albuquerque Class" } } }
+			ship = { name = "NRP Pedro Nunes" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Goncalo Velho & Pedro Nunes Classes" } } }
+			ship = { name = "NRP Gonçalo Velho" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Goncalo Velho & Pedro Nunes Classes" } } }
+			ship = { name = "NRP Gonçalves Zarco" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Goncalo Velho & Pedro Nunes Classes" } } }
+			ship = { name = "NRP Tâmega" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+		}
+		task_force = {
+			name = "Flotilha Delfim"
+			location = 11805 # Lisbon
+			ship = { name = "NRP Delfim" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
+			ship = { name = "NRP Espadarte" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
+			ship = { name = "NRP Golfinho" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Delfim Class" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "POR"
+			version_name = "Douro Class"
+		}
+		requested_factories = 1
+		progress = 0.92
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "POR"
+			version_name = "Goncalo Velho & Pedro Nunes Classes"
+		}
+		name = "NRP João de Lisboa"
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+	}
+}

@@ -1,0 +1,21 @@
+﻿##### NAVAL UNITS #####
+units= {
+	fleet = {
+		name = "Kraljevska Mornarica"
+		naval_base = 3924 # Split
+		task_force = {
+			name = "Kraljevska Mornarica"
+			location = 3924 # Split
+			ship = { name = "KB Dalmacija" definition = light_cruiser start_experience_factor = 0.1 start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YUG version_name = "Dalmacija Class" } } }
+			ship = { name = "KB Dubrovnik" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Dubrovnik Class" } } }
+		}
+		task_force = {
+			name = "Podmornica Divizija"
+			location = 3924 # Split
+			ship = { name = "KB Hrabri" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Hrabri Class" } } }
+			ship = { name = "KB Nebojša" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Hrabri Class" } } }
+			ship = { name = "KB Smeli" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Smeli Class" } } }
+			ship = { name = "KB Osvetnik" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = YUG version_name = "Smeli Class" } } }
+		}
+	}
+}

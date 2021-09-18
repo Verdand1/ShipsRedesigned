@@ -1,0 +1,444 @@
+﻿##### NAVAL UNITS #####
+units= {
+	### Escadre de l'Atlantique ###
+	fleet = {
+		name = "Escadre de l'Atlantique"
+		naval_base = 3552 # Brest
+		task_force = {
+			name = "2e Division de Ligne"
+			location = 3552 # Brest
+			ship = { name = "Provence" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } pride_of_the_fleet = yes }
+			ship = { name = "Lorraine" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }
+			ship = { name = "Bretagne" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Bretagne Class" } } }
+		}
+		task_force = {
+			name = "2e Escadre Légère"
+			location = 3552 # Brest
+			ship = { name = "Émile Bertin" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Émile Bertin Class" } } }
+			ship = { name = "Le Fantasque" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "L'Audacieux" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "Le Terrible" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "L'Indomptable" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "Le Malin" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "Le Triomphant" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Le Fantasque Class" } } }
+			ship = { name = "Gerfaut" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+			ship = { name = "Vautour" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+		}
+		task_force = {
+			name = "2e Division Légère"
+			location = 3552 # Brest
+			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+			ship = { name = "Cyclone" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Orage" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "4e Division Légère"
+			location = 3552 # Brest
+			ship = { name = "Bison" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+			ship = { name = "Vauban" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+			ship = { name = "Ouragan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+	}
+
+	### Escadre de la Méditerranée ###
+	fleet = {
+		name = "Escadre de la Méditerranée"
+		naval_base = 911 # Toulon
+		task_force = {
+			name = "Porte-avions"
+			location = 911 # Toulon
+			ship = { name = "Béarn" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = FRA version_name = "Béarn Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "FRA" amount = 11 }
+					cv_nav_bomber_equipment_1 = { owner = "FRA" amount = 24 }
+				}
+			}
+			ship = { name = "Commandant Teste" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
+		}
+		task_force = {
+			name = "1re Division Légère"
+			location = 911 # Toulon
+			ship = { name = "Algérie" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }
+			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+		}
+		task_force = {
+			name = "3e Division Légère"
+			location = 911 # Toulon
+			ship = { name = "Suffren" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Duquesne" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
+			ship = { name = "Tourville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
+		}
+		task_force = {
+			name = "1re Escadre Légère"
+			location = 911 # Toulon
+			ship = { name = "La Galissonnière" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "La Galissonnière Class" } } }
+			ship = { name = "Tartu" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Vauquelin" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Chevalier Paul" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Maillé Brézé" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Cassard" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Kersaint" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Vauquelin Class" } } }
+			ship = { name = "Guépard" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+			ship = { name = "Valmy" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+			ship = { name = "Verdun" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+		}
+		task_force = {
+			name = "13e Division Légère"
+			location = 911 # Toulon
+			ship = { name = "Milan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+			ship = { name = "Épervier" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+			ship = { name = "Le Mars" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "15e Division Légère"
+			location = 911 # Toulon
+			ship = { name = "Aigle" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aigle Class" } } }
+			ship = { name = "La Palme" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "La Railleuse" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+	}
+
+	### 1re Région Maritime ###
+	fleet = {
+		name = "1re Région Maritime"
+		naval_base = 6449 # Cherbourg
+		task_force = {
+			name = "14e Division Légère"
+			location = 6449 # Cherbourg
+			ship = { name = "Fougueux" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Frondeur" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "L'Adroit" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "16e Division de Sous-marins"
+			location = 6449 # Cherbourg
+			ship = { name = "Orphée" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Amazone" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "La Sibylle" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Antiope" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+		}
+	}
+
+	### 2e Région Maritime ###
+	fleet = {
+		name = "2e Région Maritime"
+		naval_base = 3552 # Brest
+		task_force = {
+			name = "Ecole Navale"
+			location = 3552 # Brest
+			ship = { name = "Jeanne d'Arc" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Jeanne d'Arc Class" } } }
+			ship = { name = "Chacal" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+			ship = { name = "Léopard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+		}
+		task_force = {
+			name = "12e Division Légère"
+			location = 3552 # Brest
+			ship = { name = "Brestois" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Le Foudroyant" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Boulonnais" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "16e Division Légère"
+			location = 3552 # Brest
+			ship = { name = "Bourrasque" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Siroco" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Mistral" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "18e Division Légère"
+			location = 3552 # Brest
+			ship = { name = "Forbin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Basque" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Simoun" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "4e Escadre de Sous-marins"
+			location = 3552 # Brest
+			ship = { name = "Surcouf" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Surcouf Class" } } }
+			ship = { name = "Casabianca" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Sfax" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Pasteur" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Achille" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Le Centaure" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Argo" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Pascal" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Henri Poincaré" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Persée" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Poncelet" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Ajax" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Archimède" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Agosta" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Bévéziers" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		}
+	}
+
+	### 3e Région Maritime ###
+	fleet = {
+		name = "3e Région Maritime"
+		naval_base = 911 # Toulon
+		task_force = {
+			name = "Ecole de tir à la mer"
+			location = 911 # Toulon	
+			ship = { name = "Courbet" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
+			ship = { name = "Paris" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
+			ship = { name = "Jean Bart" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = FRA version_name = "Courbet Class" } } }
+			ship = { name = "Pluton" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Pluton Class" } } }
+			ship = { name = "Duguay Trouin" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
+		}
+		task_force = {
+			name = "11e Division Légère"
+			location = 911 # Toulon
+			ship = { name = "Lynx" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+			ship = { name = "Tigre" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+			ship = { name = "Panthère" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Chacal Class" } } }
+			ship = { name = "Lion" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Guépard Class" } } }
+			ship = { name = "Le Fortuné" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Tempête" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "3e Escadre de Sous-marins"
+			location = 911 # Toulon
+			ship = { name = "Le Héros" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Le Glorieux" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Le Tonnant" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Le Conquérant" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Protée" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Actéon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Fresnel" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Achéron" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Phénix" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "L'Espoir" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Pégase" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Monge" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Redoutable" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+			ship = { name = "Vengeur" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Redoutable Class" } } }
+		}
+		task_force = {
+			name = "5e Escadre de Sous-marins"
+			location = 911 # Toulon
+			ship = { name = "Doris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Thétis" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Calypso" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Circé" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Iris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Vénus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Argonaute" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Galathée" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Sirène" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Naïade" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Nymphe" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Diamant" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+			ship = { name = "Perle" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+		}
+	}
+
+	### 4e Région Maritime ###
+	fleet = {
+		name = "4e Région Maritime"
+		naval_base = 9994 # Bizerte
+		task_force = {
+			name = "15e Division Légère"
+			location = 7132 # Oran
+			ship = { name = "Le Bordelais" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "L'Alcyon" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Trombe" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "17e Division Légère"
+			location = 7132 # Oran
+			ship = { name = "Tramontane" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Typhon" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+			ship = { name = "Tornade" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Bourrasque Superclass" } } }
+		}
+		task_force = {
+			name = "6e Escadre de Sous-marins"
+			location = 9994 # Bizerte
+			ship = { name = "Caïman" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Morse" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Souffleur" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Phoque" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Espadon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Dauphin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Marsouin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Requin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "Narval" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Requin Class" } } }
+			ship = { name = "La Vestale" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Atalante" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Aréthuse" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "La Sultane" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Turquoise" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+			ship = { name = "Saphir" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+			ship = { name = "Nautilus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+			ship = { name = "Rubis" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Saphir Class" } } }
+		}
+		task_force = {
+			name = "2e Escadre de Sous-marins"
+			location = 7132 # Oran
+			ship = { name = "Minerve" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Orion" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Ondine" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Junon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Diane" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Ariane" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Eurydice" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "Danaé" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
+			ship = { name = "La Psyché" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Méduse" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Amphitrite" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Oréade" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+		}
+	}
+
+	### Forces Navales en Extrème-Orient ###
+	fleet = {
+		name = "Forces Navales en Extrème-Orient"
+		naval_base = 4401 # Saigon
+		task_force = {
+			name = "Division navale d'Extrême-Orient"
+			location = 4401 # Saigon
+			ship = { name = "Lamotte-Picquet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
+			ship = { name = "Primauguet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Battleship
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "FRA"
+			version_name = "Dunkerque Class"
+		}
+		requested_factories = 1
+		progress = 0.81
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "FRA"
+			version_name = "Strasbourg Class"
+		}
+		requested_factories = 1
+		progress = 0.22
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_heavy_1
+			creator = "FRA"
+			version_name = "Richelieu Class"
+		}
+		requested_factories = 1
+		progress = 0.21
+		amount = 1
+	}
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "Mogador Class"
+		}
+		requested_factories = 1
+		progress = 0.48
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "La Melpomène Class"
+		}
+		requested_factories = 1
+		progress = 0.35
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "La Melpomène Class"
+		}
+		requested_factories = 1
+		progress = 0.25
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "FRA"
+			version_name = "La Melpomène Class"
+		}
+		requested_factories = 1
+		progress = 0.15
+		amount = 4
+	}
+	# Submarine
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "FRA"
+			version_name = "Redoutable Class"
+		}
+		requested_factories = 1
+		progress = 0
+		amount = 2
+	}
+	# Light Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "FRA"
+			version_name = "La Galissonnière Class"
+		}
+		requested_factories = 1
+		progress = 0.94
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "FRA"
+			version_name = "La Galissonnière Class"
+		}
+		requested_factories = 1
+		progress = 0.81
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "FRA"
+			version_name = "La Galissonnière Class"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "FRA"
+			version_name = "La Galissonnière Class"
+		}
+		requested_factories = 1
+		progress = 0.80
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "FRA"
+			version_name = "La Galissonnière Class"
+		}
+		requested_factories = 1
+		progress = 0.81
+		amount = 1
+	}
+}

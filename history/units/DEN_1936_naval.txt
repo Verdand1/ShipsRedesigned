@@ -1,0 +1,20 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Den Danske Flåde"			
+		naval_base = 6287 # Copenhagen
+		task_force = {
+			name = "Den Danske Flåde"
+			location = 6287 # Copenhagen			
+			ship = { name = "HDMS Peder Skram" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } pride_of_the_fleet = yes }
+			ship = { name = "HDMS Olfert Fischer" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = DEN version_name = "Herluf Trolle Class" } } }
+			ship = { name = "HDMS Niels Iuel" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = DEN version_name = "Niels Iuel Class" } } }
+			ship = { name = "HDMS Lossen" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = DEN version_name = "Lossen Class" } } }			
+			ship = { name = "HDMS Rota" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Holland Type" } } }			
+			ship = { name = "HDMS Bellona" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Holland Type" } } }		
+			ship = { name = "HDMS Flora" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Holland Type" } } }
+			ship = { name = "HDMS Daphne" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Holland Type" } } }
+			ship = { name = "HDMS Dryaden" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = DEN version_name = "Holland Type" } } }
+		}				
+	}
+}

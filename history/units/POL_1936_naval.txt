@@ -1,0 +1,36 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Polska Flota Niszczycieli"
+		naval_base = 362 # Danzig
+		task_force = {
+			name = "Polska Flota Niszczycieli"
+			location = 362 # Danzig
+			ship = { name = "ORP Burza" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "Wicher Class" } } }
+			ship = { name = "ORP Wicher" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POL version_name = "Wicher Class" } } }
+		}
+		task_force = {
+			name = "Dywizjon Okretów Podwodnych"
+			location = 362 # Danzig
+			ship = { name = "ORP Ryś" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "Wilk Class" } } }
+			ship = { name = "ORP Wilk" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "Wilk Class" } } }
+			ship = { name = "ORP Żbik" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = POL version_name = "Wilk Class" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Light Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "POL"
+			version_name = "Gryf Class"
+		}
+		name = "ORP Gryf"
+		requested_factories = 1
+		progress = 0.53
+		amount = 1
+	}
+}

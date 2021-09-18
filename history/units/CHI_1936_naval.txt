@@ -1,0 +1,33 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Di 1 Jiandui"
+		naval_base = 7014 #Shanghai
+		task_force = {
+			name = "Di 1 Jiandui"
+			location = 7014 #Shanghai
+			ship = { name = "Hai Chi" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = CHI version_name = "Hai Chi Class" } } pride_of_the_fleet = yes }
+			ship = { name = "Ning Hai" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ning Hai Class" } } }
+			ship = { name = "Hai Yung" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
+			ship = { name = "Hai Chen" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
+			ship = { name = "Hai Chou" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
+			ship = { name = "Chao Ho" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ying Swei & Chao Ho Classes" } } }
+			ship = { name = "Ying Swei" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ying Swei & Chao Ho Classes" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Light Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "CHI" 
+			version_name = "Ning Hai Class"
+		}
+		requested_factories = 1
+		progress = 0.60
+		amount = 1
+	}
+}

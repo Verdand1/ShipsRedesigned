@@ -1,0 +1,53 @@
+﻿##### NAVAL UNITS #####
+units= {
+	fleet = {
+		name = "Armada de Chile"			
+		naval_base = 8222 # Valparaiso
+		task_force = {
+			name = "Armada de Chile"
+			location = 8222 # Valparaiso
+			ship = { name = "BACH Almirante Latorre" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Almirante Latorre Class" } } pride_of_the_fleet = yes }
+			ship = { name = "BACH Chacabuco" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
+		}				
+		task_force = {
+			name = "Flotilla de Destructores nro. 1"			
+			location = 8222 # Valparaiso
+			ship = { name = "BACH Almirante Lynch" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
+			ship = { name = "BACH Almirante Condell" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Almirante Lynch Class" } } }
+			ship = { name = "BACH Sargento Aldea" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Ingeniero Hyatt" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+		}				
+		task_force = {
+			name = "Flotilla de Destructores nro. 2"			
+			location = 8222 # Valparaiso
+			ship = { name = "BACH Capitán Orella" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Guardiamarina Riquelme" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Teniente Serrano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+			ship = { name = "BACH Cirujano Videla" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Serrano Class" } } }
+		}				
+		task_force = {
+			name = "Flotilla de Minadores"			
+			location = 8222 # Valparaiso
+			ship = { name = "BACH Elicura" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
+			ship = { name = "BACH Leucotón" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
+			ship = { name = "BACH Orompello" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
+		}				
+		task_force = {				
+			name = "Flotilla de Submarinos nro. 1"			
+			location = 8222 # Valparaiso
+			ship = { name = "BACH Gualcolda" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+			ship = { name = "BACH Tegualda" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+			ship = { name = "BACH Rucumilla" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+			ship = { name = "BACH Quidora" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+			ship = { name = "BACH Fresia" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+			ship = { name = "BACH Guale" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Holland Type" } } }
+		}				
+		task_force = {				
+			name = "Flotilla de Submarinos nro. 2"			
+			location = 5228 # Coquimbo
+			ship = { name = "BACH Capitán O`Brien" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+			ship = { name = "BACH Almirante Simpson" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+			ship = { name = "BACH Capitán Thomson" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = CHL version_name = "Capitán O'Brien Class" } } }
+		}				
+	}
+}

@@ -1,0 +1,50 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Kongelige Norske Marine"
+		naval_base = 6115 # Oslo
+		task_force = {
+			name = "1. Sjøforsvarsdistrikt"
+			location = 6115 # Oslo
+			ship = { name = "KNM Norge" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NOR version_name = "Norge Class" } } pride_of_the_fleet = yes }
+			ship = { name = "KNM Eidsvold" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NOR version_name = "Norge Class" } } }
+			ship = { name = "KNM Olaf Tryggvason" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "Olaf Tryggvason Class" } } }
+			ship = { name = "KNM Frøya" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Frøya Class" } } }
+			# 1st Submarine Detachment
+			ship = { name = "KNM A2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - First Group" } } }
+			ship = { name = "KNM A3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - First Group" } } }
+			ship = { name = "KNM A4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - First Group" } } }
+			# 2nd Submarine Detachment
+			ship = { name = "KNM B2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+			ship = { name = "KNM B4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+			ship = { name = "KNM B5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+		}
+		task_force = {
+			name = "2. Sjøforsvarsdistrikt"
+			location = 122 # Bergen
+			# 1st Destroyer Detachment
+			ship = { name = "KNM Draug" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			ship = { name = "KNM Troll" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			ship = { name = "KNM Garm" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			# Submarine Detachment
+			ship = { name = "KNM B1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+			ship = { name = "KNM B3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+			ship = { name = "KNM B6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "Holland Type - Second Group" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "NOR"
+			version_name = "Sleipner Class"
+		}
+		requested_factories = 1
+		progress = 0.78
+		amount = 2
+	}
+}

@@ -1,0 +1,13 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Royal New Zealand Navy"
+		naval_base = 4543 # Auckland
+		task_force = {
+			name = "New Zealand Division"
+			location = 4543 # Auckland
+			ship = { name = "HMNZS Dunedin" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NZL version_name = "Dunedin Class" } } }
+			ship = { name = "HMNZS Diomede" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NZL version_name = "Dunedin Class" } } }
+		}
+	}
+}

@@ -1,0 +1,34 @@
+﻿##### NAVAL UNITS #####
+units= {
+	fleet = {
+		name = "Royal Siamese Navy"
+		naval_base = 7408 # Bangkok
+		task_force = {
+			name = "Royal Siamese Navy"
+			location = 7408 # Bangkok
+			ship = { name = "HTMS Ratanakosindra" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Sukothai" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Ratanakosindra Class" } } }
+			ship = { name = "HTMS Phra Ruang" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Phra Ruang Class" } } }
+			ship = { name = "HTMS Chao Phraya" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Chao Phraya Class" } } }
+			ship = { name = "HTMS Trad" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Puket" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Trad Class" } } }
+			ship = { name = "HTMS Sua Tayanchon" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
+			ship = { name = "HTMS Sua Khamronsin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Sua Tayanchon Class" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SIA"
+			version_name = "Trad Class"
+		}
+		requested_factories = 1
+		progress = 0.5
+		amount = 2
+	}
+}

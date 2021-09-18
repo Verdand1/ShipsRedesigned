@@ -1,0 +1,30 @@
+﻿##### NAVAL UNITS #####
+units= {
+	fleet = {
+		name = "Flota Romania de Mare"
+		naval_base = 657 # Constanta
+		task_force = {
+			name = "Flota Romania de Mare"
+			location = 657 # Constanta
+			ship = { name = "NMS Mărăsti" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Mărăsti Class" } } }
+			ship = { name = "NMS Mărăsesti" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Mărăsti Class" } } }
+			ship = { name = "NMS Regele Ferdinand" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
+			ship = { name = "NMS Regina Maria" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ROM version_name = "Regele Ferdinand Class" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Submarine
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "ROM"
+			version_name = "Delfinul Class"
+		}
+		requested_factories = 1
+		progress = 0.32
+		amount = 1
+	}
+}

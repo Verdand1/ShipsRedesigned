@@ -1,0 +1,34 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Royal Australian Navy"			
+		naval_base = 12406 # Sydney
+		task_force = {
+			name = "Cruiser Squadron"
+			location = 12406 # Sydney
+			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Australia Class" } } pride_of_the_fleet = yes }
+			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Australia Class" } } }
+			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
+		}				
+		task_force = {
+			name = "Scrap Iron Flotilla"			
+			location = 12406 # Sydney
+			ship = { name = "HMAS Stuart" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stuart Class" } } }
+			ship = { name = "HMAS Vendetta" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Vendetta & Voyager Classes" } } }
+			ship = { name = "HMAS Waterhen" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Vendetta & Voyager Classes" } } }
+		}				
+		task_force = {
+			name = "Reserve Flotilla"			
+			location = 12406 # Sydney
+			ship = { name = "HMAS Adelaide" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Adelaide Class" } } }
+			ship = { name = "HMAS Albatross" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Albatross Class" } } }
+			ship = { name = "HMAS Vampire" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Vampire Class" } } }
+			ship = { name = "HMAS Voyager" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Vendetta & Voyager Classes" } } }
+			ship = { name = "HMAS Success" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+			ship = { name = "HMAS Swordsman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+			ship = { name = "HMAS Stalwart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+			ship = { name = "HMAS Tasmania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+			ship = { name = "HMAS Tattoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+		}				
+	}
+}

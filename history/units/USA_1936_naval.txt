@@ -1,0 +1,804 @@
+﻿##### NAVAL UNITS #####
+units= {
+	### Battle Force ###
+	fleet = {
+		name = "Battle Force"
+		naval_base = 1562 # San Diego
+		task_force = {
+			name = "Battleship Division 1"
+			location = 9814 # Los Angeles
+			ship = { name = "USS New York" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
+			ship = { name = "USS Texas" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "New York Class" } } }
+			ship = { name = "USS Oklahoma" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
+		}
+		task_force = {
+			name = "Battleship Division 2"
+			location = 9814 # Los Angeles
+			ship = { name = "USS Pennsylvania" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } pride_of_the_fleet = yes }
+			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
+		}
+		task_force = {
+			name = "Battleship Division 3"
+			location = 9814 # Los Angeles
+			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+		}
+		task_force = {
+			name = "Battleship Division 4"
+			location = 9814 # Los Angeles
+			ship = { name = "USS California" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS Colorado" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
+		}
+		task_force = {
+			name = "Carrier Division 1"
+			location = 1562 # San Diego
+			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "USA" amount = 24 }
+					cv_CAS_equipment_1 = { owner = "USA" amount = 30 }
+				}
+			}
+			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "USA" amount = 24 }
+					cv_CAS_equipment_1 = { owner = "USA" amount = 30 }
+				}
+			}
+			ship = { name = "USS Ranger" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "USA" amount = 37 }
+					cv_CAS_equipment_1 = { owner = "USA" amount = 28 }
+				}
+			}
+		}				
+		task_force = {
+			name = "Cruiser Division 2"
+			location = 1562 # San Diego
+			ship = { name = "USS Marblehead" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Memphis" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Richmond" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Trenton" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+		}
+		task_force = {
+			name = "Cruiser Division 3"
+			location = 1562 # San Diego
+			ship = { name = "USS Cincinnati" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Concord" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Milwaukee" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Flotilla 2"
+			location = 1562 # San Diego
+			ship = { name = "USS Detroit" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Rathburne" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Talbot" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Waters" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Dent" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 2"
+			location = 1562 # San Diego
+			ship = { name = "USS Twiggs" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Buchanan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Aaron Ward" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Hale" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Crowninshield" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 4"
+			location = 1562 # San Diego
+			ship = { name = "USS Borie" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Broome" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Dallas" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Pruitt" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Sicard" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Perry" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Trever" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Wasmuth" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Zane" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS McCormick" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS MacLeish" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Simpson" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Truxtun" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 6"
+			location = 1562 # San Diego
+			ship = { name = "USS Litchfield" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Dahlgren" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Overton" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Preble" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Tracy" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Bainbridge" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Goff" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Reuben James" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Sturtevant" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Chandler" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Hovey" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Long" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Southard" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+		task_force = {
+			name = "Mine Squadron 1"
+			location = 4180 # Pearl Harbor
+			ship = { name = "USS Oglala" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Shawmut Class" } } }
+			ship = { name = "USS Montgomery" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Breese" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Gamble" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Ramsay" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+		}
+	}
+
+	### Scouting Force ###
+	fleet = {
+		name = "Scouting Force"			
+		naval_base = 9814 # Los Angeles
+		task_force = {
+			name = "Cruiser Division 4"
+			location = 9814 # Los Angeles
+			ship = { name = "USS Northampton" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Pensacola" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Salt Lake City" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+		}
+		task_force = {
+			name = "Cruiser Division 5"
+			location = 9814 # Los Angeles
+			ship = { name = "USS Chicago" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Houston" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+		}
+		task_force = {
+			name = "Cruiser Division 6"
+			location = 9814 # Los Angeles
+			ship = { name = "USS Louisville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+		}
+		task_force = {
+			name = "Cruiser Division 7"
+			location = 1562 # San Diego
+			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+		}
+		task_force = {
+			name = "Cruiser Division 8"
+			location = 9814 # Los Angeles
+			ship = { name = "USS San Francisco" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS Quincy" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Flotilla 1"
+			location = 1562 # San Diego
+			ship = { name = "USS Raleigh" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 3"
+			location = 1562 # San Diego
+			ship = { name = "USS Brooks" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Fox" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Hatfield" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Kane" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Barry" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Childs" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Gilmer" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Williamson" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Humphreys" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS King" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Lawrence" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Sands" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Hopkins" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS McFarland" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 20"
+			location = 1562 # San Diego
+			ship = { name = "USS Dewey" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Hull" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS MacDonough" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Worden" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Farragut" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Dale" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Monaghan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Aylwin" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Farragut Class" } } }
+			ship = { name = "USS Flusser" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Mahan" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 21"
+			location = 4180 # Pearl Harbor
+			ship = { name = "USS Case" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Cassin" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Cushing" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Reid" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Conyngham" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Perkins" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Cummings" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+			ship = { name = "USS Shaw" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Mahan Class" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 30"
+			location = 788 # Norfolk
+			ship = { name = "USS Moffett" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Porter Class" } } }
+			ship = { name = "USS Porter" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Porter Class" } } }
+			ship = { name = "USS Clark" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Porter Class" } } }
+			ship = { name = "USS Phelps" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Porter Class" } } }
+		}
+		task_force = {
+			name = "Training Squadron Flagship"
+			location = 1440 # New York
+			ship = { name = "USS Arkansas" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Wyoming Class" } } }
+		}
+		task_force = {
+			name = "Training Squadron"
+			location = 3878 # New York
+			ship = { name = "USS Decatur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Jacob Jones" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Dickerson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Herbert" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Leary" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Schenck" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Badger" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS J Fred Talbott" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Tattnall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Tillman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Babbitt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Claxton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Fairfax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Hamilton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Taylor" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Roper" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Bernadou" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Cole" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Greer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Tarbell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Yarnall" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Blakeley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Breckinridge" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Manley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell Class" } } }
+		}
+	}
+
+	### Base Force ###
+	fleet = {
+		name = "Base Force"
+		naval_base = 9671 # San Francisco
+		task_force = {
+			name = "Mobile Target Division 1"
+			location = 9671 # San Francisco
+			ship = { name = "USS Dorsey" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Elliot" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Boggs" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Lamberton" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+		}
+		task_force = {
+			name = "Aircraft Force"
+			location = 9671 # San Francisco
+			ship = { name = "USS Langley" definition = light_carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = USA version_name = "Langley Class" } }
+				air_wings = {
+					cv_fighter_equipment_0 = { owner = "USA" amount = 10 }
+					cv_CAS_equipment_1 = { owner = "USA" amount = 10 }
+				}
+			}
+		}
+	}
+
+	### Asiatic Fleet ###
+	fleet = {
+		name = "Asiatic Fleet"
+		naval_base = 10265 # Manilla
+		task_force = {
+			name = "Flagship"
+			location = 10265 # Manilla
+			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+		}
+		task_force = {
+			name = "Destroyer Squadron 5"
+			location = 10265 # Manilla
+			ship = { name = "USS Paul Jones" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Alden" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Barker" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS John D Edwards" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Whipple" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Bulmer" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Edsall" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Parrott" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Stewart" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS John D Ford" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Peary" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Pillsbury" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Pope" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Smith Thompson" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+		}
+		task_force = {
+			name = "Submarine Squadron 5"
+			location = 10265 # Manilla
+			ship = { name = "USS S36" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S37" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S38" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S39" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S40" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S41" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+	}
+
+	### Submarine Force ###
+	fleet = {
+		name = "Submarine Force"
+		naval_base = 1562 # San Diego
+		task_force = {
+			name = "Submarine Division 4"
+			location = 9832 # Providence
+			ship = { name = "USS R2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R10" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R11" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R13" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R14" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS S20" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+		task_force = {
+			name = "Experimental Division 1"
+			location = 7617 # Canal Zone
+			ship = { name = "USS Semmes" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS S42" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S43" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S44" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S45" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S46" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S47" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+		task_force = {
+			name = "Submarine Squadron 4"
+			location = 4180 # Pearl Harbor
+			ship = { name = "USS Argonaut" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V4 Class" } } }
+			ship = { name = "USS S1" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S18" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S21" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S22" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S23" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S24" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S25" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S26" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S27" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S28" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S29" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S30" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S31" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S32" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S33" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S34" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S35" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+		task_force = {
+			name = "Submarine Squadron 6"
+			location = 1562 # San Diego
+			ship = { name = "USS Nautilus" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V5 Class" } } }
+			ship = { name = "USS Narwhal" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V5 Class" } } }
+			ship = { name = "USS Barracuda" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V1 Class" } } }
+			ship = { name = "USS Bass" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V1 Class" } } }
+			ship = { name = "USS Bonita" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "V1 Class" } } }
+			ship = { name = "USS Dolphin" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Dolphin Class" } } }
+			ship = { name = "USS Cachalot" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Cachalot Class" } } }
+			ship = { name = "USS Cuttlefish" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Cachalot Class" } } }
+			ship = { name = "USS Porpoise" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Porpoise & Shark Classes" } } }
+			ship = { name = "USS Pike" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Porpoise & Shark Classes" } } }
+			ship = { name = "USS Shark" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Porpoise & Shark Classes" } } }
+			ship = { name = "USS Tarpon" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Porpoise & Shark Classes" } } }
+		}
+	}
+	
+	### Reserve Fleet ###
+	fleet = {
+		name = "Reserve Fleet"
+		naval_base = 6845 # Philadelphia
+		task_force = {
+			name = "Atlantic Reserve Fleet"
+			location = 6845 # Philadelphia
+			ship = { name = "USS Allen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Sampson Class" } } }
+			ship = { name = "USS Craven" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell Class" } } }
+			ship = { name = "USS Gwin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell Class" } } }
+			ship = { name = "USS Conner" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell Class" } } }
+			ship = { name = "USS Stockton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Caldwell Class" } } }
+			ship = { name = "USS Little" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Kimberly" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Sigourney" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Gregory" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Stringham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Colhoun" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Robinson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Ringgold" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS McKean" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Charles V Gridley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Stribling" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Israel" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Lansdale" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Schley" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Bell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Upshur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Biddle" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Cowell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Maddox" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Foote" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Kalk" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Hopewell" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Thomas" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Haraden" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Abbot" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS DD-185" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Clemson" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Goldsborough" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Satterlee" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Mason" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Abel P Upshur" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Hunt" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Welborn C Wood" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS George E Badger" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Branch" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Herndon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS James K Paulding" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Belknap" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS McCook" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Rodgers" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Osmond Ingram" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Bancroft" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Hulbert" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Noa" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS William B Preston" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS McCalla" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS O2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O10" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R18" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS R20" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS S3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S7" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S9" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S14" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S15" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S16" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S17" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S48" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+		task_force = {
+			name = "Pacific Reserve Fleet"
+			location = 1562 # San Diego
+			ship = { name = "USS Wickes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Philip" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Evans" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Champlin" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS James Mugford" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Chew" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Williams" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Crane" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Radford" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Kilty" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Kennison" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Ward" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Palmer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Thatcher" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Walker" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Crosby" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Mackenzie" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Renshaw" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS O'Bannon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Hogan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Howard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Stansbury" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Lea" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Welles" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Turner" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Gillis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Laub" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS McLanahan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Edwards" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Ballard" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Shubrick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Bailey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Thornton" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Morris" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Tingey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Swasey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Meade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Aulick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
+			ship = { name = "USS Greene" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
+		}
+		task_force = {
+			name = "Pearl Harbor Reserve Fleet"
+			location = 4180 # Pearl Harbor
+			ship = { name = "USS Ingraham" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Anthony" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Sproston" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS S19" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+		task_force = {
+			name = "Training Fleet"
+			location = 1562 # San Diego
+			ship = { name = "USS Omaha" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Omaha Class" } } }
+			ship = { name = "USS Barney" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Du Pont" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+			ship = { name = "USS Ellis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
+		}
+		task_force = {
+			name = "Experimental Vessels"
+			location = 9832 # Providence
+			ship = { name = "USS O1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+			ship = { name = "USS O4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "Super-Holland Type" } } }
+		}
+		task_force = {
+			name = "Coco Solo Temporary Reserve"
+			location = 7617 # Canal Zone
+			ship = { name = "USS S11" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+			ship = { name = "USS S13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
+		}
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Aircraft Carrier
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "USA"
+			version_name = "Yorktown Class"
+		}
+		requested_factories = 1
+		progress = 0.84
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_carrier_1
+			creator = "USA"
+			version_name = "Yorktown Class"
+		}
+		requested_factories = 1
+		progress = 0.78
+		amount = 1
+	}
+	# Heavy Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_2
+			creator = "USA"
+			version_name = "New Orleans Class"
+		}
+		requested_factories = 1
+		progress = 0.77
+		amount = 1
+	}
+	# Light Cruiser
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.52
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.52
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.51
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.49
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.44
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.39
+		amount = 1
+	}
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Porter Class"
+		}
+		requested_factories = 1
+		progress = 0.58
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Porter Class"
+		}
+		requested_factories = 1
+		progress = 0.54
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Porter Class"
+		}
+		requested_factories = 1
+		progress = 0.49
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Porter Class"
+		}
+		requested_factories = 1
+		progress = 0.39
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Mahan Class"
+		}
+		requested_factories = 1
+		progress = 0.95
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Mahan Class"
+		}
+		requested_factories = 1
+		progress = 0.89
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Mahan Class"
+		}
+		requested_factories = 1
+		progress = 0.83
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Mahan Class"
+		}
+		requested_factories = 1
+		progress = 0.77
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Gridley Class"
+		}
+		name = "USS Gridley"
+		requested_factories = 1
+		progress = 0.88
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Bagley Class"
+		}
+		name = "USS Bagley"
+		requested_factories = 1
+		progress = 0.87
+		amount = 2
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Bagley Class"
+		}
+		name = "USS Patterson"
+		requested_factories = 1
+		progress = 0.77
+		amount = 2
+	}
+	# Submarine
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "USA"
+			version_name = "Porpoise & Shark Classes"
+		}
+		requested_factories = 1
+		progress = 0.98
+		amount = 4
+	}
+	# On hold
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "USA"
+			version_name = "Somers Class"
+		}
+		name = "USS Somers"
+		requested_factories = 1
+		progress = 0.42
+		amount = 1
+	}
+}
