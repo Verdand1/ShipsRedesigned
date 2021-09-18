@@ -718,6 +718,10 @@ spriteTypes = {
 		name = "GFX_SMI_ship_unavailable_space"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/unavailable_icn.dds"
 	}
+	spriteType = {
+		name = "GFX_SMI_ship_unavailable_internal_space"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/unavailable_icn.dds"
+	}
 
 
 ######## Specific modules

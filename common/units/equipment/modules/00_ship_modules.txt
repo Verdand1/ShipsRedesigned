@@ -811,6 +811,12 @@ equipment_modules = {
 		dismantle_cost_ic = 1000
 		
 	}
+	ship_unavailable_internal_space = {
+		category = ship_extra_fuel_tank
+		
+		dismantle_cost_ic = 200
+		
+	}
 
 
 ### #  #  ##  ### #  # ### 
