@@ -1129,6 +1129,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			ss_tech
 		}
 	}
 
@@ -1183,6 +1184,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			ss_tech
 		}
 	}
 
@@ -1237,6 +1239,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			ss_tech
 		}
 	}
 
@@ -1286,6 +1289,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			ss_tech
 		}
 	}
 
@@ -1337,6 +1341,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 			asw_tech
 		}
 	}
@@ -1380,6 +1385,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 			asw_tech
 		}
 	}
@@ -1423,6 +1429,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			dd_tech
 			asw_tech
 		}
 	}
@@ -1765,6 +1772,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			bb_tech
 		}
 	}
 
@@ -1808,6 +1816,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			bb_tech
 		}
 	}
 	
@@ -1851,6 +1860,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			bb_tech
 		}
 	}
 
@@ -1889,6 +1899,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			bb_tech
 		}
 	}
 
