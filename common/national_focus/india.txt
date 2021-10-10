@@ -1362,77 +1362,67 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			if = {
-				limit = {
-					has_tech = ship_light_hull
-					has_tech = basic_depth_charges
-					has_tech = basic_naval_mines
-					has_tech = basic_sonar
-				}
-				create_equipment_variant = {
-					name = "Indus Class"
-					type = ship_hull_light_1
-					name_group = RAJ_DD_HISTORICAL
-					parent_version = 0
-					modules = {
-						fixed_target_acquisition = ship_sonar_2
-						fixed_inner_hull = empty
-						fixed_outer_hull_1 = ship_extra_fuel_tank
-						rear_1 = ship_depth_charge_1
-						rear_2 = ship_mine_sweeper
-						mid_1 = empty
-						front_2 = empty
-					}
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_light_1
-						creator = "RAJ"
-						version_name = "Indus Class"
-					}
-					requested_factories = 1
-					progress = 0.99
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_light_1
-						creator = "RAJ"
-						version_name = "Indus Class"
-					}
-					requested_factories = 1
-					progress = 0.99
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_light_1
-						creator = "RAJ"
-						version_name = "Indus Class"
-					}
-					requested_factories = 1
-					progress = 0.99
-					amount = 1
-				}
-				add_equipment_production = {
-					equipment = {
-						type = ship_hull_light_1
-						creator = "RAJ"
-						version_name = "Indus Class"
-					}
-					requested_factories = 1
-					progress = 0.99
-					amount = 1
+			set_technology = { 
+				ship_light_hull = 1 
+				basic_depth_charges = 1
+				basic_naval_mines = 1
+				basic_sonar = 1
+			}
+			navy_experience = 20
+			create_equipment_variant = {
+				name = "Indus Class"
+				type = ship_hull_light_1
+				name_group = RAJ_DD_HISTORICAL
+				parent_version = 0
+				modules = {
+					fixed_target_acquisition = ship_sonar_2
+					fixed_inner_hull = empty
+					fixed_outer_hull_1 = ship_extra_fuel_tank
+					rear_1 = ship_depth_charge_1
+					rear_2 = ship_mine_sweeper
+					mid_1 = empty
+					front_2 = empty
 				}
 			}
-			else = {
-				set_technology = { 
-					ship_light_hull = 1 
-					basic_depth_charges = 1
-					basic_naval_mines = 1
-					basic_sonar = 1
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_light_1
+					creator = "RAJ"
+					version_name = "Indus Class"
 				}
-				navy_experience = 20
+				requested_factories = 1
+				progress = 0.99
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_light_1
+					creator = "RAJ"
+					version_name = "Indus Class"
+				}
+				requested_factories = 1
+				progress = 0.99
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_light_1
+					creator = "RAJ"
+					version_name = "Indus Class"
+				}
+				requested_factories = 1
+				progress = 0.99
+				amount = 1
+			}
+			add_equipment_production = {
+				equipment = {
+					type = ship_hull_light_1
+					creator = "RAJ"
+					version_name = "Indus Class"
+				}
+				requested_factories = 1
+				progress = 0.99
+				amount = 1
 			}
 		}
 	}
