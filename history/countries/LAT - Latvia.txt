@@ -165,7 +165,6 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 6
 	modules = {
-		fixed_front_1 = ship_torpedo_sub_1
 		fixed_engine = sub_ship_engine_1
 		rear_1 = empty
 	}

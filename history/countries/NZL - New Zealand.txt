@@ -285,7 +285,6 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_light_medium_battery_1
 		fixed_engine = medium_ship_range_engine_2
 		fixed_outer_hull_1 = ship_medium_armor_2
 		rear_1 = empty

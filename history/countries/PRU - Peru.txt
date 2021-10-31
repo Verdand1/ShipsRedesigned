@@ -145,7 +145,6 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_light_battery_1
 		fixed_engine = light_ship_range_engine_1
 	}
 	obsolete = yes
@@ -158,7 +157,6 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_light_battery_1
 		fixed_engine = light_ship_perf_engine_1
 		rear_1 = empty
 		mid_1 = ship_torpedo_1
