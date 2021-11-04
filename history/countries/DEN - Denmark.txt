@@ -17,11 +17,11 @@ set_technology = {
 	early_fighter = 1
 	cv_early_fighter = 1
 
+	basic_armor_scheme = 1
+	basic_naval_mines = 1
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
 	ship_hull_submarine = 1
-	basic_armor_scheme = 1
-	basic_naval_mines = 1
 }
 
 

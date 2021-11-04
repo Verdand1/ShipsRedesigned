@@ -15,13 +15,13 @@ set_technology = {
 	early_bomber = 1
 	CAS1 = 1
 	
-	ship_light_hull = 1
-	ship_hull_submarine = 1
 	improved_torpedo_launcher = 1
 	basic_depth_charges = 1
 	basic_range_engines = 1	
 	basic_perf_engines = 1
 	basic_naval_mines = 1
+	ship_light_hull = 1
+	ship_hull_submarine = 1
 }
 
 if = {
