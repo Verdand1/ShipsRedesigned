@@ -2093,7 +2093,6 @@ equipment_modules = {
 		multiply_stats = {
 			max_strength = -0.2
 			carrier_size = 0.1
-			convert_cost_ic = 0.1
 			build_cost_ic = 0.2
 		}
 		
