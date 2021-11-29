@@ -4,4 +4,4 @@ tags={
 	"Technologies"
 }
 name="Ships redesigned"
-supported_version="1.10.*"
+supported_version="1.11.*"

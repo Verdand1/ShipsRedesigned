@@ -2,7 +2,7 @@
 	fleet_names_template = FLEET_NAME_SOV
 	submarine = {
 		prefix = ""
-		generic = { "Submarina" }
+		generic = { "Podvodnaya Lodka" }
 	}
 	destroyer = {
 		prefix = ""
@@ -162,7 +162,7 @@ air_wing_names_template = AIR_WING_NAME_SOV_FALLBACK
 	}
 	cavalry = {
 		prefix = ""
-		generic = { "Kavaleriyskaya Diviziya" }
+		generic = { "Kavaleryskaya Diviziya" }
 		generic_pattern = "UNIT_GENERIC_NAME_SOV"
 		unique = {}
 	}

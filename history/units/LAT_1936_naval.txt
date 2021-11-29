@@ -1,10 +1,10 @@
 ﻿##### NAVAL UNITS #####
 units = {
 	fleet = {
-		name = "Latvijas Juras Speki"
+		name = "Latvijas Kara Flote"		
 		naval_base = 9340 # Riga
 		task_force = {
-			name = "Latvijas Juras Speki"
+			name = "Latvijas Kara Flote"
 			location = 9340 # Riga
 			ship = { name = "Virsaitis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = LAT version_name = "Virsaitis Class" } } }
 			ship = { name = "Ronis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = LAT version_name = "Ronis Class" } } }
