@@ -198,6 +198,7 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			ship_fire_control_radar_1
+			tank_radio_3
 		}
 
 		path = {
@@ -247,7 +248,6 @@ technologies = {
 		
 		enable_equipment_modules = { 
 			ship_surveillance_radar_3
-			tank_radio_3
 		}
 
 		static_anti_air_hit_chance_factor = 0.2
