@@ -1,7 +1,5 @@
 ﻿capital = 282
 
-set_naval_oob = "JAP_1936_naval"
-
 set_stability = 0.2 #baseline, THE EMPEROR PROTECTS
 set_war_support = 0.8
 
@@ -151,6 +149,8 @@ if = {
 	}
 	set_oob = "JAP_1936_nsb"
 }
+
+set_naval_oob = "JAP_1936_naval"
 
 if = {
 	limit = {
