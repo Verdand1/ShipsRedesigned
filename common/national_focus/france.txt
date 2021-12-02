@@ -8194,12 +8194,9 @@
 		available_if_capitulated = yes
 
 		completion_reward = {
-			add_tech_bonus = {
-				name = FRA_carrier_focus
-				bonus = 1.0
-				uses = 2
-				category = cv_tech
-			}
+			navy_experience = 25
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = jeanpierre_esteva
 		}
 	}
 

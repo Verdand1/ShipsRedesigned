@@ -1569,16 +1569,10 @@ focus_tree = {
 		}
 
 		available_if_capitulated = yes
-		search_filters = {FOCUS_FILTER_RESEARCH}
 		completion_reward = {
 			navy_experience = 25
-			add_tech_bonus = {
-				name = uk_carrier_focus
-				bonus = 1.0
-				uses = 2
-				category = cv_tech
-			}
-			
+			custom_effect_tooltip = available_military_high_command
+			show_ideas_tooltip = bruce_fraser
 		}
 	}
 	focus = {
