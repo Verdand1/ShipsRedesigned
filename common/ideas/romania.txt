@@ -858,7 +858,7 @@ ideas = {
 				naval_equipment = 0.15
 			}
 			
-			traits = { coastal_defence_naval_manufacturer }
+			traits = { black_sea_naval_manufacturer }
 			
 		}
 
