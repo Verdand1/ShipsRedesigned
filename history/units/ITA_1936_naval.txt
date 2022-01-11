@@ -123,8 +123,8 @@ units= {
 			ship = { name = "RSmg Giuseppe Finzi" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Pietro Calvi Class" } } } 
 			ship = { name = "RSmg Ettore Fieramosca" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Ettore Fieramosca Class" } } } 
 			# XII Squadriglia Sommergibili
-			ship = { name = "RSmg Glauco" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Glauco Class" } } } 
-			ship = { name = "RSmg Otaria" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Glauco Class" } } } 
+			ship = { name = "RSmg Glauco" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } } 
+			ship = { name = "RSmg Otaria" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } } 
 			ship = { name = "RSmg Enrico Tazzoli" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Pietro Calvi Class" } } } 
 			# XIII Squadriglia Sommergibili
 			ship = { name = "RSmg Diamante" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
@@ -437,7 +437,7 @@ instant_effect = {
 			equipment = {
 				type = ship_hull_submarine_1
 				creator = "ITA"
-				version_name = "600t & 800t Types"
+				version_name = "Perla Class"
 			}
 			requested_factories = 1
 			progress = 0.93
@@ -447,7 +447,7 @@ instant_effect = {
 			equipment = {
 				type = ship_hull_submarine_1
 				creator = "ITA"
-				version_name = "600t & 800t Types"
+				version_name = "Perla Class"
 			}
 			requested_factories = 1
 			progress = 0.88
@@ -457,7 +457,7 @@ instant_effect = {
 			equipment = {
 				type = ship_hull_submarine_1
 				creator = "ITA"
-				version_name = "600t & 800t Types"
+				version_name = "Perla Class"
 			}
 			requested_factories = 1
 			progress = 0.83
@@ -467,7 +467,7 @@ instant_effect = {
 			equipment = {
 				type = ship_hull_submarine_1
 				creator = "ITA"
-				version_name = "600t & 800t Types"
+				version_name = "Perla Class"
 			}
 			requested_factories = 1
 			progress = 0.78
@@ -477,7 +477,7 @@ instant_effect = {
 			equipment = {
 				type = ship_hull_submarine_1
 				creator = "ITA"
-				version_name = "600t & 800t Types"
+				version_name = "Perla Class"
 			}
 			requested_factories = 1
 			progress = 0.73

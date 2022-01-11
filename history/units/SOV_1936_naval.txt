@@ -21,13 +21,13 @@ units= {
 		task_force = {
 			name = "3iy Podvodniy Flot"
 			location = 3134 # Murmansk
-			ship = { name = "Shch-401" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-402" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-403" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-404" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-421" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-422" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "Shch-424" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { name = "Shch-401" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-402" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-403" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-404" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-421" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-422" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { name = "Shch-424" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
 		}
 	}
 
@@ -63,8 +63,8 @@ units= {
 		task_force = {
 			name = "1iy Podvodniy Flot"
 			location = 3151 # Leningrad
-			ship = { name = "N-1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { name = "N-2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { name = "N-1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "N Type - Series IX" } } }
+			ship = { name = "N-2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "N Type - Series IX" } } }
 		}
 		task_force = {
 			name = "3iy Podvodniy Flot"
@@ -85,13 +85,13 @@ units= {
 		task_force = {
 			name = "7iy Podvodniy Flot"
 			location = 3151 # Leningrad
-			ship = { ordered_name = 317 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 318 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 319 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 320 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 322 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 323 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 324 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { ordered_name = 317 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 318 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 319 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 320 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 322 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 323 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 324 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
 		}
 		task_force = {
 			name = "Otdel'nogo Diviziona Eskadrennykh Podvodnaya"
@@ -224,24 +224,24 @@ units= {
 			ship = { ordered_name = 123 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series III & V" } } }
 			ship = { ordered_name = 124 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series III & V" } } }
 			ship = { ordered_name = 125 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series III & V" } } }
-			ship = { ordered_name = 126 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { ordered_name = 126 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
 		}
 		task_force = {
 			name = "12iy Podvodniy Flot"
 			location = 957 # Vladivostok
-			ship = { ordered_name = 127 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 128 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 129 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 130 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 131 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 132 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { ordered_name = 127 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 128 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 129 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 130 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 131 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 132 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
 		}
 		task_force = {
 			name = "Otdel'nogo Diviziona Eskadrennykh Podvodnaya"
 			location = 957 # Vladivostok
 			ship = { ordered_name = 116 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series III & V" } } }
-			ship = { ordered_name = 133 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
-			ship = { ordered_name = 134 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Series IX & X" } } }
+			ship = { ordered_name = 133 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
+			ship = { ordered_name = 134 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "Shch Type - Serie X" } } }
 		}
 	}
 }
@@ -265,34 +265,34 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "SOV"
-			version_name = "Shch Type - Series IX & X"
-		}
-		name = "N-3"
-		requested_factories = 1
-		progress = 0.84
-		amount = 3
-	}
-	add_equipment_production = {
-		equipment = {
-			type = ship_hull_submarine_1
-			creator = "SOV"
-			version_name = "Shch Type - Series IX & X"
+			version_name = "Shch Type - Serie X"
 		}
 		name = "Shch-208"
 		requested_factories = 1
-		progress = 0.74
-		amount = 3
+		progress = 0.94
+		amount = 4
 	}
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "SOV"
-			version_name = "Shch Type - Series IX & X"
+			version_name = "Shch Type - Serie X"
 		}
 		name = "Shch-209"
 		requested_factories = 1
-		progress = 0.64
-		amount = 3
+		progress = 0.84
+		amount = 4
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_submarine_1
+			creator = "SOV"
+			version_name = "N Type - Series IX"
+		}
+		name = "N-3"
+		requested_factories = 1
+		progress = 0.6
+		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {

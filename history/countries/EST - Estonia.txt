@@ -63,6 +63,7 @@ set_technology = {
 	tech_support = 1
 	basic_train = 1
 	improved_torpedo_launcher = 1
+	improved_range_engines = 1
 	basic_range_engines = 1
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
@@ -196,8 +197,11 @@ create_equipment_variant = {
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_1
+		fixed_engine = sub_ship_engine_2
 		rear_1 = ship_mine_layer_sub
 		front_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 1
 	}
 }

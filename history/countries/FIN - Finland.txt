@@ -44,9 +44,9 @@ set_technology = {
 	basic_train = 1
 	basic_heavy_medium_battery = 1
 	improved_torpedo_launcher = 1
+	improved_range_engines = 1
 	basic_range_engines = 1
-	improved_armor_scheme = 1
-	basic_armor_scheme = 1
+	basic_perf_engines = 1
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
 	ship_light_hull = 1
@@ -164,6 +164,9 @@ create_equipment_variant = {
 		rear_1 = ship_mine_layer_sub
 		front_2 = ship_torpedo_sub_2
 	}
+	upgrades = {
+		sub_engine_upgrade = 2
+	}
 }
 create_equipment_variant = {
 	name = "Vesikko Class"								
@@ -171,6 +174,9 @@ create_equipment_variant = {
 	name_group = FIN_SS_HISTORICAL
 	parent_version = 0
 	role_icon_index = 6
+	modules = {
+		fixed_engine = sub_ship_engine_2
+	}
 }
 
 # Destroyers #
@@ -181,7 +187,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 4
 	modules = {
-		rear_1 = ship_mine_layer
+		rear_1 = ship_mine_layer_1
 	}
 }
 
@@ -193,10 +199,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_heavy_medium_battery_2
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_front_1 = ship_medium_battery_2
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_engine = ship_perf_engine_1
 		rear_1 = empty
 		mid_1 = ship_light_battery_1
+	}
+	upgrades = {
+		ship_medium_armor_upgrade = 1
 	}
 }

@@ -39,8 +39,6 @@ set_technology = {
 	improved_torpedo_launcher = 1
 	improved_range_engines = 1
 	basic_range_engines = 1	
-	basic_perf_engines = 1
-	improved_armor_scheme = 1
 	basic_armor_scheme = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
@@ -165,7 +163,11 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
 		rear_1 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 2
 	}
 }
 
@@ -176,8 +178,8 @@ create_equipment_variant = {
 	name_group = SIA_DD_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
-	modules = {
-		fixed_engine = light_ship_range_engine_1
+	upgrades = {
+		ship_light_engine_upgrade = 4
 	}
 	obsolete = yes
 }
@@ -189,10 +191,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_perf_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -217,8 +222,10 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 4
 	modules = {
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_sweeper
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_sweeper_1
 		mid_1 = ship_torpedo_1
 	}
 }
@@ -231,9 +238,12 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_light_battery_2
-		fixed_outer_hull_1 = ship_light_armor
+		fixed_engine = ship_range_engine_1
 		rear_1 = empty
 		rear_2 = empty
+	}
+	upgrades = {
+		ship_light_armor_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -245,8 +255,11 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_range_engine_2
+		fixed_engine = ship_range_engine_2
 		mid_1 = ship_torpedo_1
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 6
 	}
 }
 
@@ -258,9 +271,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_heavy_medium_battery_2
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_front_1 = ship_medium_battery_2
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		mid_1 = empty
+	}
+	upgrades = {
+		ship_medium_armor_upgrade = 2
 	}
 }
 

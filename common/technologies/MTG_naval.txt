@@ -13,11 +13,13 @@ technologies = {
 			ship_hull_light_1
 		}
 		enable_equipment_modules = { 
-			light_ship_deprecated_engine
+			ship_deprecated_engine
 			ship_light_battery_1
 			ship_torpedo_1
-			ship_extra_fuel_tank
-			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_extra_fuel_tank_1
+			ship_extra_fuel_tank_2
+			ship_extra_fuel_tank_3
 		}
 		
 		path = {
@@ -199,9 +201,8 @@ technologies = {
 			ship_hull_carrier_2
 		}
 		enable_equipment_modules = { 
-			medium_ship_deprecated_engine
 			ship_light_medium_battery_1
-			ship_heavy_medium_battery_1
+			ship_medium_battery_1
 		}
 		
 		path = {
@@ -375,7 +376,7 @@ technologies = {
 	basic_heavy_medium_battery = {
 
 		enable_equipment_modules = { 
-			ship_heavy_medium_battery_2
+			ship_medium_battery_2
 		}
 		
 		on_research_complete = {
@@ -419,7 +420,7 @@ technologies = {
 	improved_heavy_medium_battery = {
 
 		enable_equipment_modules = { 
-			ship_heavy_medium_battery_3
+			ship_medium_battery_3
 		}
 		
 		on_research_complete = {
@@ -463,7 +464,7 @@ technologies = {
 	advanced_heavy_medium_battery = {
 
 		enable_equipment_modules = { 
-			ship_heavy_medium_battery_4
+			ship_medium_battery_4
 		}
 		
 		on_research_complete = {
@@ -514,7 +515,6 @@ technologies = {
 			ship_hull_carrier_1
 		}
 		enable_equipment_modules = { 
-			heavy_ship_deprecated_engine
 			ship_heavy_battery_1
 		}
 		
@@ -977,7 +977,9 @@ technologies = {
 		enable_equipment_modules = { 
 			sub_ship_deprecated_engine
 			ship_torpedo_sub_1
-			ship_extra_fuel_tank
+			ship_extra_fuel_tank_1
+			ship_extra_fuel_tank_2
+			ship_extra_fuel_tank_3
 		}
 		
 		path = {
@@ -1512,9 +1514,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_range_engine_1
-			medium_ship_range_engine_1
-			heavy_ship_range_engine_1
+			ship_range_engine_1
 			sub_ship_engine_1
 		}
 
@@ -1545,9 +1545,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_range_engine_2
-			medium_ship_range_engine_2
-			heavy_ship_range_engine_2
+			ship_range_engine_2
 			sub_ship_engine_2
 		}
 
@@ -1578,9 +1576,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_range_engine_3
-			medium_ship_range_engine_3
-			heavy_ship_range_engine_3
+			ship_range_engine_3
 			sub_ship_engine_3
 		}
 
@@ -1606,9 +1602,7 @@ technologies = {
 		start_year = 1944
 
 		enable_equipment_modules = { 
-			light_ship_range_engine_4
-			medium_ship_range_engine_4
-			heavy_ship_range_engine_4
+			ship_range_engine_4
 			sub_ship_engine_4
 		}
 
@@ -1639,9 +1633,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_perf_engine_1
-			medium_ship_perf_engine_1
-			heavy_ship_perf_engine_1
+			ship_perf_engine_1
 		}
 
 		folder = {
@@ -1671,9 +1663,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_perf_engine_2
-			medium_ship_perf_engine_2
-			heavy_ship_perf_engine_2
+			ship_perf_engine_2
 		}
 
 		folder = {
@@ -1703,9 +1693,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			light_ship_perf_engine_3
-			medium_ship_perf_engine_3
-			heavy_ship_perf_engine_3
+			ship_perf_engine_3
 		}
 
 		folder = {
@@ -1730,9 +1718,7 @@ technologies = {
 		start_year = 1944
 
 		enable_equipment_modules = { 
-			light_ship_perf_engine_4
-			medium_ship_perf_engine_4
-			heavy_ship_perf_engine_4
+			ship_perf_engine_4
 		}
 
 		folder = {
@@ -1761,9 +1747,6 @@ technologies = {
 	basic_armor_scheme = {
 
 		enable_equipment_modules = { 
-			ship_heavy_armor_1
-			ship_medium_armor_1
-			ship_light_armor
 			reinforced_structure
 		}
 		
@@ -1807,11 +1790,6 @@ technologies = {
 
 	improved_armor_scheme = {
 
-		enable_equipment_modules = { 
-			ship_heavy_armor_2
-			ship_medium_armor_2
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
 		}
@@ -1852,11 +1830,6 @@ technologies = {
 	
 	advanced_armor_scheme = {
 
-		enable_equipment_modules = { 
-			ship_heavy_armor_3
-			ship_medium_armor_3
-		}
-
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
 		}
@@ -1896,11 +1869,6 @@ technologies = {
 	}
 
 	modern_armor_scheme = {
-
-		enable_equipment_modules = { 
-			ship_heavy_armor_4
-			ship_medium_armor_4
-		}
 
 		on_research_complete = {
 			custom_effect_tooltip = cruiser_armor_advice_tt
@@ -2078,7 +2046,7 @@ technologies = {
 	airplane_launcher = {
 		
 		enable_equipment_modules = { 
-			ship_airplane_launcher
+			ship_airplane_launcher_1
 		}
 		
 		on_research_complete = {
@@ -2124,7 +2092,7 @@ technologies = {
 		enable_equipment_modules = { 
 			ship_deck_space
 			ship_large_deck_space
-			ship_unarmored_hangar
+			ship_unprotected_hangar
 		}
 		
 		research_cost = 3
@@ -2365,11 +2333,11 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			ship_mine_layer
+			ship_mine_layer_1
 		}
 
 		enable_equipment_modules = { 
-			ship_mine_sweeper
+			ship_mine_sweeper_1
 		}
 
 		folder = {

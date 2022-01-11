@@ -13,8 +13,8 @@ set_technology = {
 	CAS1 = 1
 	improved_torpedo_launcher = 1
 	basic_range_engines = 1	
+	improved_perf_engines = 1
 	basic_perf_engines = 1
-	basic_armor_scheme = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
@@ -142,7 +142,11 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 2
 	}
 }
 
@@ -153,8 +157,8 @@ create_equipment_variant = {
 	name_group = PRU_DD_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
-	modules = {
-		fixed_engine = light_ship_range_engine_1
+	upgrades = {
+		ship_light_engine_upgrade = 4
 	}
 	obsolete = yes
 }
@@ -166,11 +170,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_perf_engine_1
 		rear_1 = empty
 		mid_1 = ship_torpedo_1
 		mid_2 = ship_torpedo_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 7
 	}
 	obsolete = yes
 }
@@ -182,7 +188,10 @@ create_equipment_variant = {
 	parent_version = 2
 	role_icon_index = 2
 	modules = {
-		rear_1 = ship_mine_layer
+		rear_1 = ship_mine_layer_1
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 }
 
@@ -195,10 +204,13 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_1
-		fixed_engine = medium_ship_range_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_engine = ship_perf_engine_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 2
+		ship_medium_armor_upgrade = 1
 	}
 }
