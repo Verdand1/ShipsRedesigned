@@ -20,6 +20,7 @@ SRD_naval_treaties = {
 				has_idea = SRD_naval_treaty_adherent_7_cheat
 				has_idea = SRD_naval_treaty_adherent_7_escalator
 				has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_7_temp
 			}
 			OR = {
 				has_navy_size = { size > 250 unit = destroyer }
@@ -104,6 +105,7 @@ SRD_naval_treaties = {
 				has_idea = SRD_naval_treaty_adherent_5_cheat
 				has_idea = SRD_naval_treaty_adherent_5_escalator
 				has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_5_temp
 			}
 			OR = {
 				has_navy_size = { size > 180 unit = destroyer }
@@ -188,6 +190,7 @@ SRD_naval_treaties = {
 				has_idea = SRD_naval_treaty_adherent_3_cheat
 				has_idea = SRD_naval_treaty_adherent_3_escalator
 				has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_3_temp
 			}
 			OR = {
 				has_navy_size = { size > 120 unit = destroyer }
@@ -270,6 +273,7 @@ SRD_naval_treaties = {
 			OR = {
 				has_idea = SRD_commonwealth_naval_agreement
 				has_idea = SRD_commonwealth_naval_agreement_escalator
+				has_idea = SRD_commonwealth_naval_agreement_temp
 			}
 			OR = {
 				has_navy_size = { size > 50 unit = destroyer }

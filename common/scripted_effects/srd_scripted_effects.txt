@@ -82,6 +82,30 @@ cheat_on_treaty_idea = {
 			add_idea = SRD_naval_treaty_adherent_3_escalator_cheat
 		}
 	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7_temp }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7_temp
+			add_idea = SRD_naval_treaty_adherent_7_temp_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5_temp }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5_temp
+			add_idea = SRD_naval_treaty_adherent_5_temp_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3_temp }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3_temp
+			add_idea = SRD_naval_treaty_adherent_3_temp_cheat
+		}
+	}
 }
 
 escalate_on_treaty_idea = {

@@ -56,7 +56,19 @@ SRD_naval_treaties = {
 		cost = 25
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			base = 1
+			modifier = { 
+				tag = ENG 
+				add = 1 
+			}
+			modifier = { 
+				NOT = { has_government = democratic } 
+				factor = 0 
+			}
+			modifier = { 
+				has_political_power > 225 
+				factor = 40 
+			}
 		}
 		
 		visible = {
@@ -93,10 +105,12 @@ SRD_naval_treaties = {
 			NOT = { has_idea = SRD_commonwealth_naval_agreement_escalator }
 			NOT = { has_idea = SRD_anglo_german_naval_agreement }
 			NOT = { has_idea = SRD_anglo_german_naval_agreement_cheat }
-			NOT = { has_idea = SRD_anglo_soviet_naval_agreement }
-			NOT = { has_idea = SRD_anglo_soviet_naval_agreement_cheat }
-			NOT = { has_idea = SRD_anglo_soviet_naval_agreement_escalator }
-			NOT = { has_idea = SRD_anglo_soviet_naval_agreement_escalator_cheat }
+			NOT = { has_idea = SRD_naval_treaty_adherent_3_temp }
+			NOT = { has_idea = SRD_naval_treaty_adherent_3_temp_cheat }
+			NOT = { has_idea = SRD_naval_treaty_adherent_5_temp }
+			NOT = { has_idea = SRD_naval_treaty_adherent_5_temp_cheat }
+			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp }
+			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp_cheat }
 			has_navy_size = { size > 0 }
 			NOT = { has_war = yes }
 		}
@@ -104,7 +118,12 @@ SRD_naval_treaties = {
 		cost = 0
 		fire_only_once = no
 		ai_will_do = {
-			factor = 0
+			base = 0
+			modifier = { 
+				has_government = democratic 
+				has_navy_size = { size > 49 } 
+				add = 1 
+			}
 		}
 		
 		complete_effect = {
@@ -155,7 +174,30 @@ SRD_naval_treaties = {
 			has_government = democratic
 		}
 		
+		available = {
+			OR = {
+				date > 1936.12.30
+				AND = {
+					NOT = { tag = ENG }
+					NOT = { tag = FRA }
+					NOT = { tag = USA }
+					NOT = { tag = ITA }
+					NOT = { tag = JAP }
+				}
+			}
+		}
+		
 		cost = 150
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				tag = FRA 
+				NOT = { has_idea = FRA_disjointed_government } 
+				ITA = { NOT = { SRD_has_naval_treaty_trigger = yes } }
+				has_stability > 0.55
+				add = 40
+			}
+		}
 		
 		complete_effect = {
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
@@ -227,7 +269,42 @@ SRD_naval_treaties = {
 			NOT = { has_government = democratic }
 		}
 		
+		available = {
+			OR = {
+				date > 1936.12.30
+				AND = {
+					NOT = { tag = ENG }
+					NOT = { tag = FRA }
+					NOT = { tag = USA }
+					NOT = { tag = ITA }
+					NOT = { tag = JAP }
+				}
+			}
+		}
+		
 		cost = 150
+		ai_will_do = {
+			base = 0
+			modifier = { 
+				tag = JAP 
+				NOT = { has_government = democratic }
+				NOT = { has_completed_focus = JAP_join_the_london_naval_treaty } 
+				OR = {
+					USA = { NOT = { SRD_has_naval_treaty_trigger = yes } }
+					ENG = { NOT = { SRD_has_naval_treaty_trigger = yes } }
+				}
+				add = 160
+			}
+			modifier = { 
+				tag = ITA 
+				NOT = { has_government = democratic }
+				OR = {
+					FRA = { NOT = { SRD_has_naval_treaty_trigger = yes } }
+					ENG = { NOT = { SRD_has_naval_treaty_trigger = yes } }
+				}
+				add = 160
+			}
+		}
 		
 		complete_effect = {
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
@@ -293,6 +370,9 @@ SRD_naval_treaties = {
 		}
 		
 		cost = 150
+		ai_will_do = {
+			base = 0
+		}
 		
 		complete_effect = {
 			ENG = {
@@ -308,11 +388,22 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			SRD_has_naval_treaty_trigger = yes
+			OR = {
+				SRD_has_naval_treaty_trigger = yes
+				has_idea = SRD_naval_treaty_adherent_3_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_3_temp
+				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_5_temp
+				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_7_temp
+			}
 			NOT = { has_government = democratic }
 		}
 		
 		cost = 200
+		ai_will_do = {
+			base = 160
+		}
 		
 		complete_effect = {
 			cheat_on_treaty_idea = yes
@@ -331,6 +422,9 @@ SRD_naval_treaties = {
 		}
 		
 		cost = 200
+		ai_will_do = {
+			base = 160
+		}
 		
 		complete_effect = {
 			swap_ideas = {
@@ -361,9 +455,22 @@ SRD_naval_treaties = {
 					FRA = { NOT = { SRD_has_naval_treaty_trigger = yes } }
 				}
 			}
+			OR = {
+				date > 1936.12.30
+				AND = {
+					NOT = { tag = ENG }
+					NOT = { tag = FRA }
+					NOT = { tag = USA }
+					NOT = { tag = ITA }
+					NOT = { tag = JAP }
+				}
+			}
 		}
 		
 		cost = 25
+		ai_will_do = {
+			base = 320
+		}
 		
 		complete_effect = {
 			escalate_on_treaty_idea = yes
@@ -398,7 +505,18 @@ SRD_naval_treaties = {
 			}
 		}
 		
+		available = {
+			date > 1936.12.30
+		}
+		
 		cost = 100
+		ai_will_do = {
+			base = 0
+			modifier = {
+				NOT = { has_government = democratic }
+				add = 320
+			}
+		}
 		
 		complete_effect = {
 			remove_ideas = SRD_commonwealth_naval_agreement

@@ -47,6 +47,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_7_temp
+				days = 360
+			}
 		}
 		
 		add_stability = -0.15
@@ -111,6 +117,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_7_temp
+				days = 360
+			}
 		}
 		
 		add_stability = -0.15
@@ -193,6 +205,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_3_temp
+				days = 360
+			}
 		}
 		
 		add_stability = -0.15
@@ -320,6 +338,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_5_temp
+				days = 360
+			}
 		}
 		
 		IF = {
@@ -575,6 +599,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_3_temp
+				days = 360
+			}
 		}
 		
 		IF = {
@@ -663,7 +693,7 @@ country_event = {
 		name = SRD_naval_conference.110.a 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
 		}
 		
 		IF = {
@@ -709,7 +739,7 @@ country_event = {
 		name = SRD_naval_conference.210.a 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
 		}
 		
 		JAP = {
@@ -781,6 +811,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_5_temp
+				days = 360
+			}
 		}
 		
 		IF = {
@@ -854,6 +890,12 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			add_timed_idea = {
+				idea = SRD_naval_treaty_adherent_5_temp
+				days = 360
+			}
 		}
 		
 		IF = {
@@ -905,6 +947,33 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
+			set_temp_variable = { ndt1938 = 360 }
+			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			IF = { 
+				limit = { tag = JAP }
+				add_timed_idea = {
+					idea = SRD_naval_treaty_adherent_5_temp
+					days = 360
+				}
+			}
+			ELSE_IF = {
+				limit = { 
+					OR = {
+						tag = ENG
+						tag = USA
+					}					
+				}
+				add_timed_idea = {
+					idea = SRD_naval_treaty_adherent_7_temp
+					days = 360
+				}
+			}
+			ELSE = {
+				add_timed_idea = {
+					idea = SRD_naval_treaty_adherent_3_temp
+					days = 360
+				}
+			}
 		}
 		add_to_variable = {
 			var = global.london_treaty_member_count

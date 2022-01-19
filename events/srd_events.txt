@@ -12,14 +12,17 @@ country_event = {
 		name = SRD_naval_treaty.1.a 
 		
 		ai_chance = {
-			factor = 70
+			factor = 100
 			modifier = {
 				has_government = democratic
-				factor = 5
+				factor = 2.5
 			}
 			modifier = {
-				has_government = fascism
-				factor = 0.25
+				OR = {
+					has_government = fascism
+					has_government = communism
+				}
+				factor = 0.05
 			}
 		}
 		
@@ -52,7 +55,7 @@ country_event = {
 		name = SRD_naval_treaty.1.b 
 		
 		ai_chance = {
-			factor = 30
+			factor = 50
 		}
 
 		every_other_country = {
@@ -344,13 +347,27 @@ country_event = {
 
 	option = { #rally the french
 		name = SRD_naval_treaty.900.a 
+		ai_chance = {
+			factor = 100
+		}
+		
 		add_political_power = -25
 		add_stability = -0.02
 		FRA = {	country_event = { id = SRD_naval_treaty.901 } }
 	}
 	
-	option = { #offer a position in the london naval treaty
+	option = { #offer a position in the london naval treat
 		name = SRD_naval_treaty.900.b 
+		ai_chance = {
+			factor = 50
+			modifier = {
+				OR = {
+					has_completed_focus = ENG_global_defense
+					has_completed_focus = ENG_organize_the_blackshirts
+				}
+				factor = 0
+			}
+		}
 		GER = {	country_event = { id = SRD_naval_treaty.901 } }
 	}
 }
@@ -366,7 +383,15 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { #lets go
-		name = SRD_naval_treaty.901.a 
+		name = SRD_naval_treaty.901.a
+		ai_chance = {
+			factor = 75
+			modifier = {
+				has_stability < 0.30
+				factor = 0
+			}
+		}
+		
 		add_political_power = -25
 		add_stability = -0.02
 		
@@ -402,6 +427,13 @@ country_event = {
 	
 	option = { #this agreement was a betrayal anyway
 		name = SRD_naval_treaty.901.b 
+		ai_chance = {
+			factor = 75
+			modifier = {
+				has_stability > 0.60
+				factor = 0.33
+			}
+		}
 		GER = {	country_event = { id = SRD_naval_treaty.903 } }
 	}
 }
@@ -418,6 +450,9 @@ country_event = {
 
 	option = { #well, to war then
 		name = SRD_naval_treaty.903.a 
+		ai_chance = {
+			factor = 50
+		}
 		
 		IF = {
 			limit = {
@@ -465,7 +500,10 @@ country_event = {
 	}
 	
 	option = { #nevermind
-		name = SRD_naval_treaty.902.b 
+		name = SRD_naval_treaty.902.b
+		ai_chance = {
+			factor = 250
+		}
 		set_global_flag = german_naval_limitations_challenge_met
 	}
 }
@@ -481,7 +519,10 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { #well, to war then
-		name = SRD_naval_treaty.903.a 
+		name = SRD_naval_treaty.903.a
+		ai_chance = {
+			factor = 50
+		}
 		
 		ENG = {
 			declare_war_on = {
@@ -493,7 +534,10 @@ country_event = {
 	}
 	
 	option = { #nevermind
-		name = SRD_naval_treaty.903.b 
+		name = SRD_naval_treaty.903.b
+		ai_chance = {
+			factor = 100
+		}
 		set_global_flag = german_naval_limitations_challenge_met
 	}
 }
@@ -510,6 +554,10 @@ country_event = {
 
 	option = { #cool
 		name = SRD_naval_treaty.904.a 
+		ai_chance = {
+			factor = 500
+		}
+		
 		IF = {
 			limit = { 
 				FRA = { SRD_has_naval_treaty_trigger = yes  }
@@ -543,6 +591,9 @@ country_event = {
 	
 	option = { #yeah naaah
 		name = SRD_naval_treaty.904.b 
+		ai_chance = {
+			factor = 50
+		}
 		set_global_flag = german_naval_limitations_challenge_met
 		ENG = {
 			create_wargoal = {
@@ -594,12 +645,18 @@ country_event = {
 	is_triggered_only = yes
 
 	option = { #cool
-		name = SRD_naval_treaty.905.a 
+		name = SRD_naval_treaty.905.a
+		ai_chance = {
+			factor = 50
+		}
 		
 	}
 	
 	option = { #WTF ARE THE BRITISH DOING
 		name = SRD_naval_treaty.905.b 
+		ai_chance = {
+			factor = 100
+		}
 		set_global_flag = german_naval_limitations_challenge_met
 		treaty_credibility_change_3 = yes
 		add_to_variable = {
@@ -640,6 +697,7 @@ country_event = {
 	trigger = {
 		ENG = {
 			NOT = { SRD_has_naval_treaty_trigger = yes }
+			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp }
 		}
 	}
 

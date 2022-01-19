@@ -21,6 +21,12 @@ on_actions = {
 					OR = {
 						SRD_has_naval_treaty_trigger = yes
 						has_idea = SRD_commonwealth_naval_agreement
+						has_idea = SRD_naval_treaty_adherent_3_temp
+						has_idea = SRD_naval_treaty_adherent_3_temp_cheat
+						has_idea = SRD_naval_treaty_adherent_5_temp
+						has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+						has_idea = SRD_naval_treaty_adherent_7_temp
+						has_idea = SRD_naval_treaty_adherent_7_temp_cheat
 					} 	
 				}
 				every_country = {
@@ -28,6 +34,12 @@ on_actions = {
 						OR = {
 							SRD_has_naval_treaty_trigger = yes
 							has_idea = SRD_commonwealth_naval_agreement
+							has_idea = SRD_naval_treaty_adherent_3_temp
+							has_idea = SRD_naval_treaty_adherent_3_temp_cheat
+							has_idea = SRD_naval_treaty_adherent_5_temp
+							has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+							has_idea = SRD_naval_treaty_adherent_7_temp
+							has_idea = SRD_naval_treaty_adherent_7_temp_cheat
 						}						
 					}
 					add_intel = {
