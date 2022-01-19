@@ -20,9 +20,6 @@ set_technology = {
 	fleet_in_being = 1
 	improved_torpedo_launcher = 1
 	basic_torpedo = 1
-	improved_range_engines = 1
-	basic_range_engines = 1	
-	improved_armor_scheme = 1
 	basic_armor_scheme = 1
 	mtg_transport = 1
 	ship_light_hull = 1
@@ -247,13 +244,16 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_torpedo_2
 		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 6
+		ship_medium_armor_upgrade = 2
 	}
 }
 

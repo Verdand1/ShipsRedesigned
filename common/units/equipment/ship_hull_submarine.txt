@@ -19,14 +19,16 @@ equipments = {
 		interface_category = interface_category_other_ships
 		priority = 2500
 		
-		naval_range = 4000
-		max_strength = 30
+		naval_speed = 12
+		naval_range = 3000
+		max_strength = 40
 		reliability = 0.5
 		supply_consumption = 0.01
 		manpower = 50
+		fuel_consumption = 1.5
 		surface_visibility = 1
 		surface_detection = 10
-		sub_visibility = 15
+		sub_visibility = 10
 		build_cost_ic = 300
 		
 		resources = { steel = 2	}
@@ -36,30 +38,27 @@ equipments = {
 				required = yes
 				allowed_module_categories = { ship_torpedo_sub }
 			}
+			fixed_deck = {
+				required = no
+				allowed_module_categories = {
+					ship_airplane_launcher
+					ship_sub_snorkel
+				}
+			}
 			fixed_radar = {
 				required = no
 				allowed_module_categories = { ship_surveillance_radar }
 			}
 			fixed_engine = {
 				required = yes
-				allowed_module_categories = {
-					sub_ship_deprecated_engine
-					sub_ship_engine
-				}
+				allowed_module_categories = { sub_ship_engine }
 			}
 			fixed_inner_hull = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_layout
-				}
-			}
-			fixed_outer_hull_1 = {
-				required = no
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_sub_snorkel
-					ship_airplane_launcher
+					ship_structure
+					ship_damage_control
 				}
 			}
 			rear_1 = {
@@ -82,12 +81,16 @@ equipments = {
 			front_2 = mid_1
 		}
 		
+		upgrades = {
+			sub_engine_upgrade
+		}
+
 		default_modules = {
 			fixed_front_1 = ship_torpedo_sub_1
+			fixed_deck = empty
 			fixed_radar = empty
 			fixed_engine = sub_ship_deprecated_engine
-			fixed_inner_hull = ship_unavailable_internal_space
-			fixed_outer_hull_1 = ship_unavailable_internal_space
+			fixed_inner_hull = empty
 			rear_1 = ship_unavailable_space
 			rear_2 = ship_unavailable_space
 			mid_1 = ship_unavailable_space

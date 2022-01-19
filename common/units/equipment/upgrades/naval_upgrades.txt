@@ -1,0 +1,187 @@
+upgrades = {
+
+	sub_engine_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_speed = 1
+			max_strength = 0.5
+			fuel_consumption = 0.5
+		}		
+
+		multiply_stats = {
+			naval_range = -0.03
+			sub_visibility = 0.02
+			build_cost_ic = 0.02
+		}
+	}
+	ship_light_engine_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_speed = 2.5
+			max_strength = 2
+			fuel_consumption = 1
+		}		
+
+		multiply_stats = {
+			naval_range = -0.03
+			build_cost_ic = 0.02
+		}
+	}
+	ship_medium_engine_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_speed = 2.5
+			max_strength = 4
+			fuel_consumption = 2
+		}		
+
+		multiply_stats = {
+			naval_range = -0.03
+			build_cost_ic = 0.02
+		}
+	}
+	ship_heavy_engine_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_speed = 2.5
+			max_strength = 8
+			fuel_consumption = 3
+		}		
+
+		multiply_stats = {
+			naval_range = -0.03
+			build_cost_ic = 0.02
+		}
+	}
+
+	ship_light_armor_upgrade = {
+		max_level = 3
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			armor_value = 1
+		}
+
+		multiply_stats = {
+			naval_speed = -0.005
+			build_cost_ic = 0.02
+		}
+	}
+	ship_medium_armor_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		level_requirements = {
+			2 = {
+				has_tech = basic_armor_scheme
+			}
+			4 = {
+				has_tech = improved_armor_scheme
+			}
+			6 = {
+				has_tech = advanced_armor_scheme
+			}
+			8 = { 
+				has_tech = modern_armor_scheme
+			}
+		}
+
+		resource_cost_thresholds = {
+			3 = {
+				chromium = 1
+			}
+			6 = {
+				chromium = 2
+			}
+		}
+
+		add_stats = {
+			armor_value = 3
+		}
+
+		multiply_stats = {
+			naval_speed = -0.015
+			build_cost_ic = 0.06
+		}
+	}
+	ship_heavy_armor_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		resource_cost_thresholds = {
+			3 = {
+				chromium = 1
+			}
+			6 = {
+				chromium = 2
+			}
+		}
+
+		level_requirements = {
+			2 = {
+				has_tech = basic_armor_scheme
+			}
+			4 = {
+				has_tech = improved_armor_scheme
+			}
+			6 = {
+				has_tech = advanced_armor_scheme
+			}
+			8 = { 
+				has_tech = modern_armor_scheme
+			}
+		}
+
+		add_stats = {
+			armor_value = 4
+		}
+
+		multiply_stats = {
+			naval_speed = -0.02
+			build_cost_ic = 0.08
+		}
+	}
+}

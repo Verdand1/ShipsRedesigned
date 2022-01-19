@@ -551,7 +551,7 @@ technologies = {
 		}
 
 		enable_equipment_modules = { 
-			ship_fire_control_system_2
+			ship_fire_control_system_1
 		}
 		
 		research_cost = 1.25
@@ -592,7 +592,7 @@ technologies = {
 	improved_fire_control_system = {
 
 		enable_equipment_modules = { 
-			ship_fire_control_system_3
+			ship_fire_control_system_2
 		}
 		
 		research_cost = 1.25
@@ -636,7 +636,7 @@ technologies = {
 	advanced_fire_control_system = {
 
 		enable_equipment_modules = { 
-			ship_fire_control_system_4
+			ship_fire_control_system_3
 		}
 		allow_branch = {
 			has_dlc = "Man the Guns"

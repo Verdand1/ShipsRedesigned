@@ -24,14 +24,17 @@ equipments = {
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
 
+		naval_speed = 18
 		naval_range = 4000
-		max_strength = 300
+		max_strength = 350
 		reliability = 0.5
 		supply_consumption = 0.5
 		manpower = 3000
+		armor_value = 4
+		fuel_consumption = 72
 		surface_visibility = 25
 		surface_detection = 20
-		build_cost_ic = 3000
+		build_cost_ic = 4000
 		
 		resources = { steel = 4	}
 
@@ -57,33 +60,18 @@ equipments = {
 			fixed_engine = {
 				required = yes
 				allowed_module_categories = {
-					heavy_ship_deprecated_engine
-					heavy_ship_range_engine
-					heavy_ship_perf_engine
+					ship_deprecated_engine
+					ship_range_engine
+					ship_perf_engine
 				}
 			}
 			fixed_inner_hull = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_layout
-				}
-			}
-			fixed_outer_hull_1 = {
-				required = no
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_medium_armor
-					ship_heavy_armor
-					ship_unarmored_hangar
-				}
-			}
-			fixed_outer_hull_2 = {
-				required = no
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_medium_armor
-					ship_heavy_armor
+					ship_unprotected_hangar
+					ship_structure
+					ship_damage_control
 				}
 			}
 			rear_1 = {
@@ -122,14 +110,17 @@ equipments = {
 			front_2 = rear_1
 		}
 		
+		upgrades = {
+			ship_heavy_engine_upgrade
+			ship_heavy_armor_upgrade
+		}
+
 		default_modules = {
 			fixed_front_1 = empty
 			fixed_target_acquisition = empty
 			fixed_radar = empty
-			fixed_engine = heavy_ship_deprecated_engine
-			fixed_inner_hull = ship_unavailable_internal_space
-			fixed_outer_hull_1 = ship_unavailable_internal_space
-			fixed_outer_hull_2 = ship_unavailable_internal_space
+			fixed_engine = ship_deprecated_engine
+			fixed_inner_hull = empty
 			rear_1 = ship_unavailable_space
 			rear_2 = ship_unavailable_space
 			mid_1 = ship_unavailable_space

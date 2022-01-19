@@ -170,7 +170,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 4
 	modules = {
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_sweeper
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_sweeper_1
 	}
 }

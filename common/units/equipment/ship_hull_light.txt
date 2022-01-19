@@ -18,11 +18,13 @@ equipments = {
 		interface_category = interface_category_screen_ships
 		priority = 2000
 
-		naval_range = 2500
+		naval_speed = 18
+		naval_range = 2000
 		max_strength = 50
 		reliability = 0.5
 		supply_consumption = 0.02
 		manpower = 100
+		fuel_consumption = 4
 		surface_visibility = 10
 		surface_detection = 15
 		build_cost_ic = 600
@@ -51,23 +53,17 @@ equipments = {
 			fixed_engine = {
 				required = yes
 				allowed_module_categories = {
-					light_ship_deprecated_engine
-					light_ship_range_engine
-					light_ship_perf_engine
+					ship_deprecated_engine
+					ship_range_engine
+					ship_perf_engine
 				}
 			}
 			fixed_inner_hull = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_layout
-				}
-			}
-			fixed_outer_hull_1 = {
-				required = no
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_light_armor
+					ship_structure
+					ship_damage_control
 				}
 			}
 			rear_1 = {
@@ -78,7 +74,7 @@ equipments = {
 					ship_light_battery
 					ship_depth_charge
 					ship_mine_layer
-					ship_mine_sweeper
+					ship_mine_warfare
 				}
 			}
 			rear_2 = rear_1
@@ -102,13 +98,17 @@ equipments = {
 			}
 		}
 		
+		upgrades = {
+			ship_light_engine_upgrade
+			ship_light_armor_upgrade
+		}
+
 		default_modules = {
 			fixed_front_1 = ship_light_battery_1
 			fixed_target_acquisition = empty
 			fixed_radar = empty
-			fixed_engine = light_ship_deprecated_engine
-			fixed_inner_hull = ship_unavailable_internal_space
-			fixed_outer_hull_1 = ship_unavailable_internal_space
+			fixed_engine = ship_deprecated_engine
+			fixed_inner_hull = empty
 			rear_1 = ship_unavailable_space
 			rear_2 = ship_unavailable_space
 			mid_1 = ship_unavailable_space

@@ -12,11 +12,9 @@ set_technology = {
 	early_bomber = 1
 	improved_torpedo_launcher = 1
 	basic_depth_charges = 1
-	improved_range_engines = 1
 	basic_range_engines = 1
+	improved_perf_engines = 1
 	basic_perf_engines = 1
-	improved_armor_scheme = 1
-	basic_armor_scheme = 1
 	airplane_launcher = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
@@ -158,6 +156,12 @@ create_equipment_variant = {
 	name_group = CHL_SS_HISTORICAL
 	parent_version = 0
 	role_icon_index = 6
+	modules = {
+		fixed_inner_hull = cramped
+	}
+	upgrades = {
+		sub_engine_upgrade = 1
+	}
 	obsolete = yes
 }
 create_equipment_variant = {
@@ -169,10 +173,14 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_torpedo_sub_2
 		rear_2 = empty
 		mid_2 = ship_torpedo_sub_2
 		front_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 3
 	}
 }
 
@@ -184,12 +192,14 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_range_engine_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_1
 		mid_2 = empty
 		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 6
 	}
 	obsolete = yes
 }
@@ -200,7 +210,8 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 4
 	modules = {
-		rear_1 = ship_mine_layer
+		fixed_inner_hull = cramped
+		rear_1 = ship_mine_layer_1
 	}
 }
 create_equipment_variant = {
@@ -210,11 +221,14 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_perf_engine_1
+		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_depth_charge_1
-		rear_2 = ship_mine_sweeper
+		rear_2 = ship_mine_sweeper_1
 		mid_1 = ship_torpedo_2
 		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 7
 	}
 }
 
@@ -226,9 +240,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = empty
 		mid_1 = ship_light_battery_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 2
 	}
 }
 
@@ -240,12 +258,14 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
-		fixed_engine = heavy_ship_range_engine_1
-		fixed_outer_hull_1 = ship_heavy_armor_2
+		fixed_engine = ship_perf_engine_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_light_medium_battery_1
-		mid_2 = ship_airplane_launcher
+		mid_2 = ship_airplane_launcher_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 1
 	}
 }

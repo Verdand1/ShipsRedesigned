@@ -8308,15 +8308,17 @@
 						parent_version = 0
 						modules = {
 							fixed_front_1 = ship_large_deck_space
-							fixed_engine = heavy_ship_perf_engine_2
-							fixed_inner_hull = empty
-							fixed_outer_hull_1 = ship_medium_armor_2
-							fixed_outer_hull_2 = empty
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_extra_fuel_tank_1
 							rear_1 = ship_deck_space
 							mid_1 = ship_light_battery_2
 							mid_2 = ship_anti_air_2
 							mid_3 = empty
 							mid_4 = empty
+						}
+						upgrades = {
+							ship_heavy_engine_upgrade = 9
+							ship_heavy_armor_upgrade = 1
 						}
 					}
 					add_equipment_production = {

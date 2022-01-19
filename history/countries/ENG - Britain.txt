@@ -59,7 +59,6 @@ set_technology = {
 	basic_depth_charges = 1
 	improved_range_engines = 1
 	basic_range_engines = 1
-	improved_perf_engines = 1
 	basic_perf_engines = 1
 	improved_armor_scheme = 1
 	basic_armor_scheme = 1
@@ -542,6 +541,7 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
+		fixed_inner_hull = cramped
 		rear_1 = ship_torpedo_sub_2
 	}
 	obsolete = yes
@@ -557,6 +557,9 @@ create_equipment_variant = {
 		fixed_front_1 = ship_torpedo_sub_2
 		rear_1 = ship_torpedo_sub_1
 		front_2 = empty
+	}
+	upgrades = {
+		sub_engine_upgrade = 6
 	}
 	obsolete = yes
 }
@@ -585,6 +588,9 @@ create_equipment_variant = {
 		fixed_engine = sub_ship_engine_1
 		mid_2 = ship_torpedo_sub_2
 	}
+	upgrades = {
+		sub_engine_upgrade = 3
+	}
 	obsolete = yes
 }
 
@@ -597,6 +603,9 @@ create_equipment_variant = {
 	modules = {
 		rear_2 = empty
 	}
+	upgrades = {
+		sub_engine_upgrade = 6
+	}
 	obsolete = yes
 }
 
@@ -608,12 +617,16 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_2
+		fixed_engine = sub_ship_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_torpedo_sub_2
 		rear_2 = empty
 		mid_1 = empty
 		mid_2 = empty
 		front_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 9
 	}
 }
 
@@ -625,8 +638,13 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = cramped
 		rear_1 = ship_torpedo_sub_2
 		front_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 1
 	}
 }
 
@@ -638,11 +656,14 @@ create_equipment_variant = {
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
-		fixed_engine = sub_ship_engine_1
+		fixed_engine = sub_ship_engine_2
 		rear_1 = ship_mine_layer_sub
 		rear_2 = ship_mine_layer_sub
 		mid_2 = ship_torpedo_sub_2
 		front_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 3
 	}
 }
 
@@ -653,7 +674,12 @@ create_equipment_variant = {
 	parent_version = 5
 	role_icon_index = 6
 	modules = {
+		fixed_engine = sub_ship_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_2 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 3
 	}
 }
 
@@ -665,10 +691,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = light_ship_perf_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -681,8 +710,12 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
+		fixed_inner_hull = empty
 		rear_1 = ship_depth_charge_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 7
 	}
 	obsolete = yes
 }
@@ -706,8 +739,12 @@ create_equipment_variant = {
 	parent_version = 3
 	role_icon_index = 2
 	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		mid_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -720,6 +757,7 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_depth_charge_1
 	}
 	obsolete = yes
@@ -732,6 +770,7 @@ create_equipment_variant = {
 	parent_version = 2
 	role_icon_index = 2
 	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		fixed_target_acquisition = empty
 	}
 	obsolete = yes
@@ -745,7 +784,12 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_target_acquisition = empty
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -758,8 +802,13 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_target_acquisition = empty
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		mid_2 = ship_unavailable_space
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -772,6 +821,7 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_depth_charge_1
 		mid_2 = ship_torpedo_2
 	}
@@ -785,8 +835,8 @@ create_equipment_variant = {
 	parent_version = 9
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_inner_hull = reinforced_structure
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_2 = ship_light_battery_1
 	}
 	obsolete = yes
@@ -799,7 +849,8 @@ create_equipment_variant = {
 	parent_version = 9
 	role_icon_index = 1
 	modules = {
-		rear_2 = ship_mine_sweeper
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_2 = ship_mine_sweeper_1
 	}
 }
 
@@ -810,7 +861,8 @@ create_equipment_variant = {
 	parent_version = 11
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_engine = ship_range_engine_2
 	}
 	obsolete = yes
 }
@@ -822,8 +874,10 @@ create_equipment_variant = {
 	parent_version = 12
 	role_icon_index = 1
 	modules = {
-		fixed_inner_hull = reinforced_structure
 		rear_2 = ship_light_battery_1
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 9
 	}
 	obsolete = yes
 }
@@ -837,7 +891,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
 		rear_1 = empty
-		rear_2 = ship_mine_layer
+		rear_2 = ship_mine_layer_1
 	}
 }
 
@@ -848,7 +902,7 @@ create_equipment_variant = {
 	parent_version = 12
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_2
+		fixed_target_acquisition = ship_fire_control_system_1
 	}
 }
 
@@ -859,9 +913,10 @@ create_equipment_variant = {
 	parent_version = 15
 	role_icon_index = 1
 	modules = {
-		fixed_engine = light_ship_perf_engine_2
-		fixed_inner_hull = reinforced_structure
 		rear_2 = ship_light_battery_1
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 9
 	}
 }
 
@@ -873,15 +928,18 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
-		fixed_engine = light_ship_perf_engine_2
-		fixed_inner_hull = reinforced_structure
-		fixed_outer_hull_1 = ship_extra_fuel_tank
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_light_battery_1
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_anti_air_1
 		mid_3 = empty
 		front_2 = ship_light_battery_1
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
+		ship_light_armor_upgrade = 2
 	}
 }
 
@@ -893,12 +951,15 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
 		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 5
+		ship_medium_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -912,6 +973,9 @@ create_equipment_variant = {
 	modules = {
 		mid_2 = ship_torpedo_2
 	}
+	upgrades = {
+		ship_medium_engine_upgrade = 6
+	}
 	obsolete = yes
 }
 
@@ -922,10 +986,13 @@ create_equipment_variant = {
 	parent_version = 2
 	role_icon_index = 2
 	modules = {
-		fixed_engine = medium_ship_perf_engine_1
-		mid_3 = ship_airplane_launcher
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		mid_3 = ship_airplane_launcher_1
 		mid_4 = ship_torpedo_2
 		front_2 = ship_unavailable_space
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 8
 	}
 	obsolete = yes
 }
@@ -938,13 +1005,16 @@ create_equipment_variant = {
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_light_battery_1
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_1
-		rear_1 = ship_mine_layer
-		rear_2 = ship_mine_layer
-		mid_1 = ship_mine_layer
+		fixed_engine = ship_perf_engine_1
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_layer_1
+		mid_1 = ship_mine_layer_1
 		mid_2 = empty
 		front_2 = ship_light_battery_1
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 4
+		ship_medium_armor_upgrade = 1
 	}
 }
 
@@ -956,16 +1026,20 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_2
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_engine = medium_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_light_medium_battery_2
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
-		mid_2 = ship_airplane_launcher
+		mid_2 = ship_airplane_launcher_1
 		mid_3 = ship_anti_air_1
 		mid_4 = ship_unavailable_space
 		front_2 = ship_light_medium_battery_2
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 8
+		ship_medium_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -977,10 +1051,15 @@ create_equipment_variant = {
 	parent_version = 5
 	role_icon_index = 2
 	modules = {
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = ship_light_battery_1
 		mid_3 = ship_unavailable_space
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 7
+		ship_medium_armor_upgrade = 1
 	}
 }
 
@@ -988,16 +1067,17 @@ create_equipment_variant = {
 	name = "Town Type - First Group"
 	type = ship_hull_cruiser_1
 	name_group = ENG_CL_HISTORICAL
-	parent_version = 6
+	parent_version = 5
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_2
-		fixed_engine = medium_ship_perf_engine_2
-		fixed_outer_hull_2 = ship_light_armor
-		rear_1 = ship_light_medium_battery_2
-		rear_2 = ship_light_medium_battery_2
-		mid_3 = ship_anti_air_1
-		mid_4 = ship_light_battery_1
+		fixed_target_acquisition = ship_fire_control_system_1
+		rear_2 = ship_light_medium_battery_1
+		mid_4 = ship_light_battery_2
+		front_2 = ship_light_medium_battery_1
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 9
+		ship_medium_armor_upgrade = 3
 	}
 }
 
@@ -1009,14 +1089,18 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = medium_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = empty
 		mid_2 = empty
 		mid_3 = empty
 		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 5
+		ship_medium_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -1028,14 +1112,18 @@ create_equipment_variant = {
 	parent_version = 1
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_outer_hull_1 = ship_light_armor
-		rear_1 = ship_heavy_medium_battery_1
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_medium_battery_1
 		mid_1 = ship_torpedo_2
-		mid_2 = ship_airplane_launcher
+		mid_2 = ship_airplane_launcher_1
 		mid_3 = ship_anti_air_1
 		mid_4 = empty
-		front_2 = ship_heavy_medium_battery_1
+		front_2 = ship_medium_battery_1
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 7
+		ship_medium_armor_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -1047,8 +1135,6 @@ create_equipment_variant = {
 	parent_version = 2
 	role_icon_index = 1
 	modules = {
-		fixed_engine = medium_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
 		mid_3 = empty
 	}
 	obsolete = yes
@@ -1072,10 +1158,12 @@ create_equipment_variant = {
 	parent_version = 4
 	role_icon_index = 2
 	modules = {
-		fixed_outer_hull_1 = ship_medium_armor_2
 		mid_3 = empty
 		mid_4 = ship_unavailable_space
 		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_armor_upgrade = 2
 	}
 }
 
@@ -1087,14 +1175,16 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
-		fixed_engine = heavy_ship_range_engine_2
-		fixed_outer_hull_1 = ship_heavy_armor_1
-		fixed_outer_hull_2 = ship_heavy_armor_1
+		fixed_inner_hull = cramped
 		rear_1 = ship_heavy_battery_1
 		rear_2 = empty
 		mid_1 = empty
 		mid_2 = ship_light_medium_battery_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 3
+		ship_heavy_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -1106,10 +1196,14 @@ create_equipment_variant = {
 	parent_version = 1
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_inner_hull = ship_extra_fuel_tank
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_2 = ship_anti_air_1
-		mid_1 = ship_airplane_launcher
+		mid_1 = ship_airplane_launcher_1
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 4
 	}
 }
 
@@ -1120,8 +1214,8 @@ create_equipment_variant = {
 	parent_version = 1
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
-		rear_2 = ship_airplane_launcher
+		fixed_target_acquisition = ship_fire_control_system_0
+		rear_2 = ship_airplane_launcher_1
 		mid_1 = ship_anti_air_1
 	}
 	obsolete = yes
@@ -1134,13 +1228,14 @@ create_equipment_variant = {
 	parent_version = 3
 	role_icon_index = 1
 	modules = {
-		fixed_engine = heavy_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_heavy_armor_2
-		fixed_outer_hull_2 = ship_unavailable_internal_space
 		rear_2 = empty
-		mid_1 = ship_airplane_launcher
+		mid_1 = ship_airplane_launcher_1
 		mid_2 = empty
 		mid_3 = ship_anti_air_1
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 6
+		ship_heavy_armor_upgrade = 0
 	}
 	obsolete = yes
 }
@@ -1152,9 +1247,14 @@ create_equipment_variant = {
 	parent_version = 4
 	role_icon_index = 1
 	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		mid_1 = empty
 		mid_2 = ship_light_medium_battery_1
 		mid_4 = empty
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 7
+		ship_heavy_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -1167,16 +1267,18 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_heavy_battery_2
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_engine = heavy_ship_range_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank
-		fixed_outer_hull_1 = ship_heavy_armor_2
-		fixed_outer_hull_2 = ship_heavy_armor_1
+		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = empty
 		rear_2 = ship_light_medium_battery_1
 		mid_1 = empty
 		mid_2 = ship_light_battery_1
 		front_2 = ship_heavy_battery_1
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 4
+		ship_heavy_armor_upgrade = 4
 	}
 }
 
@@ -1189,11 +1291,13 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_deck_space
-		fixed_inner_hull = reinforced_structure
-		fixed_outer_hull_1 = ship_unarmored_hangar
+		fixed_inner_hull = ship_unprotected_hangar
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_1
 		mid_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -1206,11 +1310,14 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_deck_space
-		fixed_engine = medium_ship_range_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_2
 		mid_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 5
+		ship_medium_armor_upgrade = 2
 	}
 }
 
@@ -1223,12 +1330,15 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_large_deck_space
-		fixed_engine = heavy_ship_perf_engine_1
-		fixed_outer_hull_1 = ship_medium_armor_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		mid_1 = ship_light_battery_1
 		mid_2 = empty
 		mid_3 = empty
 		mid_4 = ship_deck_space
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 7
+		ship_heavy_armor_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -1240,6 +1350,8 @@ create_equipment_variant = {
 	parent_version = 1
 	role_icon_index = 7
 	modules = {
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = empty
 		mid_1 = ship_light_medium_battery_1
 		mid_4 = empty
 	}
@@ -1254,12 +1366,15 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_deck_space
-		fixed_engine = heavy_ship_range_engine_2
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_medium_battery_1
 		mid_2 = ship_light_battery_1
 		mid_4 = ship_deck_space
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 4
+		ship_heavy_armor_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -1272,13 +1387,16 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_large_deck_space
-		fixed_engine = heavy_ship_perf_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank
-		fixed_outer_hull_1 = ship_medium_armor_2
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_deck_space
 		mid_1 = ship_light_battery_2
 		mid_2 = ship_anti_air_1
 		mid_4 = ship_deck_space
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 9
+		ship_heavy_armor_upgrade = 1
 	}
 }
 
@@ -1438,7 +1556,7 @@ if = {
 			modules = {
 				fixed_ship_battery_slot = dp_light_battery
 				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_1
@@ -1456,7 +1574,7 @@ if = {
 			modules = {
 				fixed_ship_battery_slot = ship_light_medium_battery_2
 				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = cruiser_ship_engine_2
 				fixed_ship_armor_slot = ship_armor_cruiser_2
@@ -1506,7 +1624,7 @@ if = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_2
 				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = dp_ship_secondaries
@@ -1525,7 +1643,7 @@ if = {
 			modules = {
 				fixed_ship_battery_slot = ship_heavy_battery_3
 				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_2
+				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
 				fixed_ship_radar_slot = empty
 				fixed_ship_engine_slot = heavy_ship_engine_2
 				fixed_ship_secondaries_slot = dp_ship_secondaries
