@@ -1239,7 +1239,7 @@ equipment_modules = {
 			steel = 1
 		}
 		
-		dismantle_cost_ic = 500
+		dismantle_cost_ic = 200
 		
 		can_convert_from = {
 			module_category = ship_large_deck_space
@@ -1272,7 +1272,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_deck_space
-			convert_cost_ic = 1200
+			convert_cost_ic = 1000
 		}
 		
 	}
