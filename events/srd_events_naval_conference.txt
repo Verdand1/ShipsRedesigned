@@ -1,0 +1,1014 @@
+add_namespace = SRD_naval_conference
+
+
+#EVENT FOR UK
+
+country_event = {
+	id = SRD_naval_conference.100
+	title = SRD_naval_conference.100.t
+	desc = SRD_naval_conference.100.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	trigger = {
+		date > 1936.1.2
+		tag = ENG
+	}
+
+	option = { #accept
+		name = SRD_naval_conference.100.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		USA = {
+			country_event = { id = SRD_naval_conference.200 }
+		}
+	}
+	option = { #refuse
+		name = SRD_naval_conference.100.b 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -3
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = ENG_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		add_stability = -0.15
+		
+		USA = {
+			country_event = { id = SRD_naval_conference.200 }
+		}
+	}
+}
+
+#EVENT FOR USA
+
+country_event = {
+	id = SRD_naval_conference.200
+	title = SRD_naval_conference.200.t
+	desc = {
+		text = SRD_naval_conference.200.desc
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.200.desc_noeng
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+		}
+	}
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.200.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		FRA = {
+			country_event = { id = SRD_naval_conference.300 }
+		}
+	}
+	option = { #refuse
+		name = SRD_naval_conference.200.b 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -3
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = USA_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		add_stability = -0.15
+		
+		FRA = {
+			country_event = { id = SRD_naval_conference.300 }
+		}
+		
+	}
+}
+
+#EVENT FOR FRA
+
+country_event = {
+	id = SRD_naval_conference.300
+	title = SRD_naval_conference.300.t
+	desc = {
+		text = SRD_naval_conference.300.desc
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.300.desc_noeng
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.300.desc_nousa
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.300.desc_noeng_nousa
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+		}
+	}
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.300.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		JAP = {
+			country_event = { id = SRD_naval_conference.400 }
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.300.b 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -2
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = FRA_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		add_stability = -0.15
+		
+		IF = {
+			limit = {
+				OR = {
+					NOT = { has_global_flag = ENG_refused_treaty }
+					NOT = { has_global_flag = USA_refused_treaty }
+				}
+			}
+			
+			JAP = {
+				country_event = { id = SRD_naval_conference.400 }
+			}
+		}
+		ELSE = {
+			ITA = {
+				country_event = { id = SRD_naval_conference.600 }
+			}
+			JAP = {
+				country_event = { id = SRD_naval_conference.600 }
+			}
+		}
+	}
+}
+
+#EVENT FOR JAP IF THE TREATY HASNT COLLAPSED
+
+country_event = {
+	id = SRD_naval_conference.400
+	title = SRD_naval_conference.400.t
+	
+	desc = {
+		text = SRD_naval_conference.400.desc
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_noeng
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_nousa
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_nofra
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_noeng_nousa
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_noeng_nofra
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.400.desc_nousa_nofra
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+		}
+	}
+	
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.400.a 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+	}
+	option = { #refuse
+		name = SRD_naval_conference.400.b 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -3
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = JAP_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		IF = {
+			limit = {
+				NOT = { has_global_flag = ENG_refused_treaty }
+				NOT = { has_global_flag = USA_refused_treaty }
+			}
+			add_threat = 4
+		}
+		ELSE_IF = {
+			limit = {
+				OR = {
+					NOT = { has_global_flag = ENG_refused_treaty }
+					NOT = { has_global_flag = USA_refused_treaty }
+				}
+			}
+			add_threat = 2
+		}
+		ELSE_IF = {
+			add_threat = 1
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+	}
+	option = { #demand parity with the USA and UK
+		name = SRD_naval_conference.400.c
+		
+		trigger = {
+			OR = {
+				NOT = { has_global_flag = ENG_refused_treaty }
+				NOT = { has_global_flag = USA_refused_treaty }
+			}
+		}
+	
+		ai_chance = {
+			factor = 0
+		}
+		
+		IF = {
+			limit = { NOT = { has_global_flag = ENG_refused_treaty } }
+			ENG = {
+				country_event = { id = SRD_naval_conference.110 }
+			}
+		}
+		ELSE = {
+			USA = {
+				country_event = { id = SRD_naval_conference.210 }
+			}
+		}
+	}
+}
+
+#EVENT FOR ITALY IF THE TREATY HAS NOT COLLAPSED
+
+country_event = {
+	id = SRD_naval_conference.500
+	title = SRD_naval_conference.500.t
+	
+	###
+	desc = {
+		text = SRD_naval_conference.500.desc
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	###
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nousa
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nofra
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nojap
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	###
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng_nousa
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng_nofra
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng_nojap
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nousa_nofra
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nousa_nojap
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nofra_nojap
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	###
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng_nousa_nojap
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_noeng_nofra_nojap
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	desc = {
+		text = SRD_naval_conference.500.desc_nousa_nofra_nojap
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+		}
+	}
+	###
+	
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.500.a 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		clr_global_flag = SRD_naval_conference_underway
+		
+		every_country = {
+			news_event = {
+				id = SRD_naval_conference.601
+			}
+			
+			IF = {
+				limit = { 
+					OR = {
+						SRD_has_naval_treaty_trigger = yes
+						has_idea = SRD_commonwealth_naval_agreement
+					} 	
+				}
+				every_country = {
+					limit = { 
+						OR = {
+							SRD_has_naval_treaty_trigger = yes
+							has_idea = SRD_commonwealth_naval_agreement
+						}						
+					}
+					add_intel = {
+						target = PREV
+						navy_intel = 85
+					}
+				}
+			}
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.500.b 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -2
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = ITA_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		IF = {
+			limit = { 
+				OR = {
+					has_global_flag = JAP_refused_treaty 
+					has_global_flag = FRA_refused_treaty 
+				}
+			}
+			add_threat = 1
+		}
+		ELSE = {
+			add_threat = 3
+		}
+		
+		IF = {
+			limit = {
+				has_global_flag = JAP_refused_treaty
+				has_global_flag = USA_refused_treaty
+				has_global_flag = ENG_refused_treaty
+			}
+			FRA = { country_event = { id = SRD_naval_conference.600 } }
+		}
+		ELSE_IF = {
+			limit = {
+				has_global_flag = JAP_refused_treaty
+				has_global_flag = FRA_refused_treaty
+				has_global_flag = ENG_refused_treaty
+			}
+			USA = { country_event = { id = SRD_naval_conference.600 } }
+		}
+		ELSE_IF = {
+			limit = {
+				has_global_flag = JAP_refused_treaty
+				has_global_flag = FRA_refused_treaty
+				has_global_flag = USA_refused_treaty
+			}
+			ENG = { country_event = { id = SRD_naval_conference.600 } }
+		}
+		ELSE = {
+			every_country = {
+				news_event = {
+					id = SRD_naval_conference.601
+				}
+				IF = {
+					limit = { 
+						OR = {
+							SRD_has_naval_treaty_trigger = yes
+							has_idea = SRD_commonwealth_naval_agreement
+						} 	
+					}
+					every_country = {
+						limit = { 
+							OR = {
+								SRD_has_naval_treaty_trigger = yes
+								has_idea = SRD_commonwealth_naval_agreement
+							}						
+						}
+						add_intel = {
+							target = PREV
+							navy_intel = 85
+						}
+					}
+				}
+			}
+		}
+		
+		clr_global_flag = SRD_naval_conference_underway
+		
+	}
+}
+
+#EVENT FOR ENG IF JAPAN DEMANDS PARITY
+
+country_event = {
+	id = SRD_naval_conference.110
+	title = SRD_naval_conference.110.t
+	desc = SRD_naval_conference.110.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.110.a 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		IF = {
+			limit = { NOT = { has_global_flag = USA_refused_treaty } }
+			USA = {
+				country_event = { id = SRD_naval_conference.210 }
+			}
+		}
+		ELSE = {
+			JAP = {
+				country_event = { id = SRD_naval_conference.410 }
+			}
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.110.b 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		JAP = {
+			country_event = { id = SRD_naval_conference.411 }
+		}
+		
+	}
+}
+
+#EVENT FOR USA IF JAPAN DEMANDS PARITY
+
+country_event = {
+	id = SRD_naval_conference.210
+	title = SRD_naval_conference.210.t
+	desc = SRD_naval_conference.210.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.210.a 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		JAP = {
+			country_event = { id = SRD_naval_conference.410 }
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.210.b 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		JAP = {
+			country_event = { id = SRD_naval_conference.411 }
+		}
+		
+	}
+}
+
+#EVENT FOR JAPAN IF PARITY WAS ACCEPTED
+
+country_event = {
+	id = SRD_naval_conference.410
+	title = SRD_naval_conference.410.t
+	desc = SRD_naval_conference.410.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.410.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		set_global_flag = JAP_got_parity
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5
+			add_idea = SRD_naval_treaty_adherent_7
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.410.b 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -3
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = JAP_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		IF = {
+			limit = {
+				NOT = { has_global_flag = ENG_refused_treaty }
+				NOT = { has_global_flag = USA_refused_treaty }
+			}
+			add_threat = 4
+		}
+		ELSE_IF = {
+			limit = {
+				OR = {
+					NOT = { has_global_flag = ENG_refused_treaty }
+					NOT = { has_global_flag = USA_refused_treaty }
+				}
+			}
+			add_threat = 2
+		}
+		ELSE_IF = {
+			add_threat = 1
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+		
+	}
+}
+
+#EVENT FOR JAPAN IF PARITY WAS REFUSED
+
+country_event = {
+	id = SRD_naval_conference.411
+	title = SRD_naval_conference.411.t
+	desc = SRD_naval_conference.411.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.411.a 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+		
+	}
+	option = { #refuse
+		name = SRD_naval_conference.411.b 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -3
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		
+		set_global_flag = JAP_refused_treaty
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		
+		IF = {
+			limit = {
+				NOT = { has_global_flag = ENG_refused_treaty }
+				NOT = { has_global_flag = USA_refused_treaty }
+			}
+			add_threat = 4
+		}
+		ELSE_IF = {
+			limit = {
+				OR = {
+					NOT = { has_global_flag = ENG_refused_treaty }
+					NOT = { has_global_flag = USA_refused_treaty }
+				}
+			}
+			add_threat = 2
+		}
+		ELSE_IF = {
+			add_threat = 1
+		}
+		
+		ITA = {
+			country_event = { id = SRD_naval_conference.500 }
+		}
+		
+	}
+}
+
+#EVENT FOR TREATY COLLAPSE
+
+country_event = {
+	id = SRD_naval_conference.600
+	title = SRD_naval_conference.600.t
+	desc = SRD_naval_conference.600.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.600.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+		hidden_effect = {
+			remove_regular_treaty_idea = yes
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+	}
+}
+
+#NEWS FOR TREATY COMPLETE
+
+news_event = {
+	id = SRD_naval_conference.601
+	title = SRD_naval_conference.601.t
+	desc = SRD_naval_conference.601.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+	
+	is_triggered_only = yes
+
+	option = { #ok
+		name = SRD_naval_conference.601.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+# BRITISH EVENT FOR ANGLO SOVIET DISCUSSION
+
+country_event = {
+	id = SRD_naval_conference.120
+	title = SRD_naval_conference.120.t
+	desc = SRD_naval_conference.120.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ENG
+		SRD_has_naval_treaty_trigger = yes
+		date > 1936.4.1
+		NOT = { has_global_flag = SRD_naval_conference_underway }
+	}
+
+	option = { #lets ask them
+		name = SRD_naval_conference.120.a 
+		
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		SOV = {
+			country_event = { id = SRD_naval_conference.720 }
+		}
+		
+	}
+	
+	option = { #not now
+		name = SRD_naval_conference.120.b 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		set_global_flag = anglo_soviet_naval_treaty_over
+		
+	}
+}
+
+# SOVIET EVENT FOR ANGLO SOVIET DISCUSSION
+
+country_event = {
+	id = SRD_naval_conference.720
+	title = SRD_naval_conference.720.t
+	desc = SRD_naval_conference.720.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_conference.720.a
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_ideas = SRD_naval_treaty_adherent_3
+		
+		set_global_flag = anglo_soviet_naval_treaty_over
+		
+	}
+	
+	option = { #refuse
+		name = SRD_naval_conference.720.c 
+		
+		ai_chance = {
+			factor = 0
+		}
+		
+		set_global_flag = anglo_soviet_naval_treaty_over
+		
+	}
+}

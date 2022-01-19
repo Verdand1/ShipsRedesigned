@@ -1,0 +1,233 @@
+#	Example:
+#
+#	example_effect = {
+#		add_political_power = 66
+#		add_popularity = {
+#			ideology = fascism
+#			popularity = 0.33
+#		}
+#	}
+#
+#
+#	In a script file:
+#
+#	effect = {
+#		example_effect = yes
+#	}
+#
+
+remove_regular_treaty_idea = {
+	remove_ideas = {
+		SRD_naval_treaty_adherent_7 
+		SRD_naval_treaty_adherent_5 
+		SRD_naval_treaty_adherent_3 
+		SRD_naval_treaty_adherent_7_cheat
+		SRD_naval_treaty_adherent_5_cheat
+		SRD_naval_treaty_adherent_3_cheat 
+		SRD_naval_treaty_adherent_7_escalator
+		SRD_naval_treaty_adherent_5_escalator
+		SRD_naval_treaty_adherent_3_escalator
+		SRD_naval_treaty_adherent_7_escalator_cheat
+		SRD_naval_treaty_adherent_5_escalator_cheat
+		SRD_naval_treaty_adherent_3_escalator_cheat
+	}
+}
+
+cheat_on_treaty_idea = {
+
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7
+			add_idea = SRD_naval_treaty_adherent_7_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5
+			add_idea = SRD_naval_treaty_adherent_5_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3
+			add_idea = SRD_naval_treaty_adherent_3_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7_escalator
+			add_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5_escalator
+			add_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3_escalator
+			add_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+		}
+	}
+}
+
+escalate_on_treaty_idea = {
+
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7
+			add_idea = SRD_naval_treaty_adherent_7_escalator
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5
+			add_idea = SRD_naval_treaty_adherent_5_escalator
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3 }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3
+			add_idea = SRD_naval_treaty_adherent_3_escalator
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7_cheat
+			add_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5_cheat
+			add_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3_cheat
+			add_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+		}
+	}
+}
+
+treaty_credibility_change_7 = {
+	add_to_variable = {
+		var = global.london_treaty_credibility
+		value = -4
+	}
+	clamp_variable = {
+		var = global.london_treaty_credibility
+		min = 0
+		max = 5
+	}
+}
+
+treaty_credibility_change_5 = {
+	add_to_variable = {
+		var = global.london_treaty_credibility
+		value = -3
+	}
+	clamp_variable = {
+		var = global.london_treaty_credibility
+		min = 0
+		max = 5
+	}
+}
+
+treaty_credibility_change_3 = {
+	IF = {
+		limit = { 
+			OR = {
+				tag = FRA
+				tag = ITA
+			} 
+		}
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -2
+		}
+	}
+	ELSE = {
+		add_to_variable = {
+			var = global.london_treaty_credibility
+			value = -1
+		}
+	}
+	clamp_variable = {
+		var = global.london_treaty_credibility
+		min = 0
+		max = 5
+	}
+}
+
+treaty_deescalation_change = {
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7_escalator
+			add_idea = SRD_naval_treaty_adherent_7
+		}
+	}
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+			add_idea = SRD_naval_treaty_adherent_7_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5_escalator
+			add_idea = SRD_naval_treaty_adherent_5
+		}
+	}
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+			add_idea = SRD_naval_treaty_adherent_5_cheat
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3_escalator
+			add_idea = SRD_naval_treaty_adherent_3
+		}
+	}
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+			add_idea = SRD_naval_treaty_adherent_3_cheat
+		}
+	}
+}

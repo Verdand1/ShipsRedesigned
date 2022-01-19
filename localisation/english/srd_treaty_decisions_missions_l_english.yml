@@ -1,0 +1,16 @@
+﻿l_english:
+ SRD_invite_other_nation:0 "Invite [From.GetName] to the treaty"
+ SRD_ask_for_invitation:0 "Join the naval treaty"
+ SRD_leave_treaty_good:0 "Leave the naval treaty"
+ SRD_leave_treaty_evil:0 "Leave the naval treaty"
+ SRD_leave_treaty_german:0 "Repudiate the Anglo-German Naval Agreement"
+ SRD_cheat_on_treaty:0 "Cheat on the naval treaty"
+ SRD_cheat_on_treaty_german:0 "Cheat on the Anglo-German Naval Agreement"
+ SRD_escalate_on_treaty:0 "Invoke the naval treaty escalator clause"
+ SRD_leave_treaty_commonwealth:0 "Dissociate ourselves from the naval treaty"
+ 
+ SRD_mission_treaty_breech_7:0 "Reduce our navy to comply with the naval treaty"
+ SRD_mission_treaty_breech_5:0 "Reduce our navy to comply with the naval treaty"
+ SRD_mission_treaty_breech_3:0 "Reduce our navy to comply with the naval treaty"
+ SRD_mission_treaty_breech_commonwealth:0 "Reduce our navy to comply with the naval treaty"
+ SRD_mission_treaty_breech_ger:0 "Reduce our navy to comply with the naval agreement"

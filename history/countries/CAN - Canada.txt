@@ -116,6 +116,8 @@ if = {
 	add_to_tech_sharing_group = commonwealth_research
 }
 
+add_ideas = SRD_commonwealth_naval_agreement
+
 1939.1.1 = {
 	add_political_power = 1198
 	add_command_power = 100

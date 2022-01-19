@@ -1,0 +1,102 @@
+SRD_has_naval_treaty_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_7 
+		has_idea = SRD_naval_treaty_adherent_5 
+		has_idea = SRD_naval_treaty_adherent_3 
+		has_idea = SRD_naval_treaty_adherent_7_cheat
+		has_idea = SRD_naval_treaty_adherent_5_cheat
+		has_idea = SRD_naval_treaty_adherent_3_cheat 
+		has_idea = SRD_naval_treaty_adherent_7_escalator
+		has_idea = SRD_naval_treaty_adherent_5_escalator
+		has_idea = SRD_naval_treaty_adherent_3_escalator
+		has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+	}
+}
+
+SRD_has_naval_treaty_7_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_7 
+		has_idea = SRD_naval_treaty_adherent_7_cheat
+		has_idea = SRD_naval_treaty_adherent_7_escalator
+		has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+	}
+}
+
+SRD_has_naval_treaty_5_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_5 
+		has_idea = SRD_naval_treaty_adherent_5_cheat
+		has_idea = SRD_naval_treaty_adherent_5_escalator
+		has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+	}
+}
+
+SRD_has_naval_treaty_3_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_3 
+		has_idea = SRD_naval_treaty_adherent_3_cheat
+		has_idea = SRD_naval_treaty_adherent_3_escalator
+		has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+	}
+}
+
+SRD_has_naval_treaty_escalated = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_7_escalator
+		has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_5_escalator
+		has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_3_escalator
+		has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+	}
+}
+
+SRD_treaty_breech_level_7 = {
+	OR = {
+		has_navy_size = { size > 250 unit = destroyer }
+		has_navy_size = { size > 50 unit = light_cruiser }
+		has_navy_size = { size > 21 unit = heavy_cruiser }
+		has_navy_size = { size > 15 unit = battleship }
+		has_navy_size = { size > 6 unit = carrier }
+		has_navy_size = { size > 6 unit = light_carrier }
+		has_navy_size = { size > 150 unit = submarine }
+	}
+}
+
+SRD_treaty_breech_level_5 = {
+	OR = {
+		has_navy_size = { size > 180 unit = destroyer }
+		has_navy_size = { size > 35 unit = light_cruiser }
+		has_navy_size = { size > 15 unit = heavy_cruiser }
+		has_navy_size = { size > 10 unit = battleship }
+		has_navy_size = { size > 4 unit = carrier }
+		has_navy_size = { size > 4 unit = light_carrier }
+		has_navy_size = { size > 125 unit = submarine }
+	}
+}
+
+SRD_treaty_breech_level_3 = {
+	OR = {
+		has_navy_size = { size > 120 unit = destroyer }
+		has_navy_size = { size > 25 unit = light_cruiser }
+		has_navy_size = { size > 9 unit = heavy_cruiser }
+		has_navy_size = { size > 7 unit = battleship }
+		has_navy_size = { size > 2 unit = carrier }
+		has_navy_size = { size > 2 unit = light_carrier }
+		has_navy_size = { size > 100 unit = submarine }
+	}
+}
+
+SRD_treaty_breech_level_AG = {
+	AND = {
+		has_navy_size = { size < 84 unit = destroyer }
+		has_navy_size = { size < 17 unit = light_cruiser }
+		has_navy_size = { size < 8 unit = heavy_cruiser }
+		has_navy_size = { size < 6 unit = battleship }
+		has_navy_size = { size < 1 unit = carrier }
+		has_navy_size = { size < 3 unit = light_carrier }
+		has_navy_size = { size < 81 unit = submarine }
+	}
+}

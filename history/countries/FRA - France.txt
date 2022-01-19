@@ -106,7 +106,7 @@ if = {
 	set_technology = { camelry = 1 }
 }
 
-add_ideas = MTG_naval_treaty_adherent
+add_ideas = SRD_naval_treaty_adherent_3
 
 if = {
 	limit = {

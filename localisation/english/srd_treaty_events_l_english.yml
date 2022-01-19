@@ -1,0 +1,171 @@
+﻿l_english:
+ SRD_naval_treaty.1.t:0 "[From.GetName] invites us to join the naval treaty"
+ SRD_naval_treaty.1.desc:0 "On the initiative of the [From.GetAdjective] delegation, the members of the second london naval treaty have extended to us an invitation in the name of world peace and international disarmament. Joining would restrict the size and number of our ships, but it would also provide us an insight on the navy of other members."
+ SRD_naval_treaty.1.a:0 "We gladly accept"
+ SRD_naval_treaty.1.b:0 "We are not interested"
+ 
+ SRD_naval_treaty.101.t:0 "[From.GetName] joins the naval treaty"
+ SRD_naval_treaty.101.desc:0 "The [From.GetAdjective] has accepted our invitation to join the naval treaty."
+ SRD_naval_treaty.101.a:0 "Wonderful"
+ 
+ SRD_naval_treaty.102.t:0 "[From.GetName] denies to join the naval treaty"
+ SRD_naval_treaty.102.desc:0 "The [From.GetAdjective] has rejected our invitation to join the naval treaty."
+ SRD_naval_treaty.102.a:0 "A shame"
+ 
+ SRD_naval_treaty.2.t:0 "[From.GetName] joins the naval treaty"
+ SRD_naval_treaty.2.desc:0 "A delegation from [From.GetName] has recently contacted the second london naval treaty signatory enquiring of its will to join us in our struggle for disarmament and peace. The necessary paperwork has been dealth with, and they are now a full member of the treaty."
+ SRD_naval_treaty.2.a:0 "Wonderful"
+ 
+ SRD_naval_treaty.3.t:0 "[From.GetName] leaves the naval treaty"
+ SRD_naval_treaty.3.desc:0 "The [From.GetAdjective] government has just notified its withdrawal from the second london naval treaty. It formal withdrawal has been completed in accordance with the treaty and [From.GetName] is, as such, no longer a member from this day onwards."
+ SRD_naval_treaty.3.a:0 "So much for disarmament"
+ 
+ SRD_naval_treaty.4.t:0 "Second london naval treaty collapses"
+ SRD_naval_treaty.4.desc:0 "With only two members remaining, it was only a question of time before the second naval treaty completely collapsed. The remaining signatories met recently and agreed on the futility of the endeavour ; they have then announced the final and permanant dissolution of the second london naval treaty, effective immediately."
+ SRD_naval_treaty.4.a:0 "There was an attempt"
+ 
+ SRD_naval_treaty.5.t:0 "[From.GetName] breeched the naval treaty"
+ SRD_naval_treaty.5.desc:0 "Evidence came proving that [From.GetName] has been disregarding treaty limitations for months now. Upon the news becoming public, other treaty members met immediately and agreed on the need to contain the treaty breechers."
+ SRD_naval_treaty.5.a:0 "They will regret their dishonesty"
+ 
+ SRD_naval_treaty.6.t:0 "The escalator clause comes to an end"
+ SRD_naval_treaty.6.desc:0 "The naval treaty's escalator clause was designated to counteract a possible withdrawal of the treaty from a major naval power, and has been activated for this very reason. However, with the recent re-entry in the treaty of the very nation that cause the activation of the escalator clause, its existence is void, and signatories are now asked to return to regular treaty rules."
+ SRD_naval_treaty.6.a:0 "An unexpected development"
+ 
+ SRD_naval_treaty.7.t:0 "Naval treaty wartime exception"
+ SRD_naval_treaty.7.desc:0 "The naval treaty contains a clause allowing signatories to ignore it entirely in case of a war or threat to their national integrity. Our current situation puts us in a position to activate such a clause and be free of restrictions."
+ SRD_naval_treaty.7.a:0 "We cannot abide by it anymore"
+ 
+ SRD_naval_treaty.701.t:0 "[From.GetName] invokes the naval treaty wartime exception"
+ SRD_naval_treaty.701.desc:0 "The naval treaty contains a clause allowing signatories to ignore it entirely in case of a war or threat to their national integrity. It is under that very clause that the government of [From.GetName] has just announced its withdrawal from the treaty."
+ SRD_naval_treaty.701.a:0 "They have a legal reason"
+ 
+ SRD_naval_treaty.8.t:0 "Naval treaty respect questionned in the British Commonwealth"
+ SRD_naval_treaty.8.desc:0 "Recently, the British have been accused of utilizing loopholes in the treaty to exceed their amount of authorized navy by placing a number of new vessels under the ownership of their dominions. Although nothing illegal has been proven as far as the treaty is concerned, and even if the fault appears to be entirely upon the dominions, the accusation has cenrtainly undermined the treaty's value in the eyes of many."
+ SRD_naval_treaty.8.a:0 "What in the world are they doing ?"
+ 
+ SRD_naval_treaty.900.t:0 "Germany challenges the anglo-german naval agreement"
+ SRD_naval_treaty.900.desc:0 "[GetLeader] has recently made a firey speech denouncing the opression of the anglo-german naval agreement as a tool of evil designed to subjugate [From.GetName]. In the same speech, he announced his intention to no longer abide by the agreement, and mentionned that a new and massive naval budget was being discussed by the [From.GetAdjective] government."
+ SRD_naval_treaty.900.a:0 "They're going too far. We will make them obey !"
+ SRD_naval_treaty.900.b:0 "Maybe they should be allowed in the London treaty ?"
+ 
+ SRD_naval_treaty.901.t:0 "Britain stands against the Germany's challenge of the naval agreement"
+ SRD_naval_treaty.901.desc:0 "Following Germany's recent repudiation of their naval agreement, Britain has announced its intention to go to war shall the German breech the agreement in any way. In private, a british envoy has asked us to back their claim."
+ SRD_naval_treaty.901.a:0 "Germany is going to far. We back the British"
+ SRD_naval_treaty.901.b:0 "Ha ! This agreement was a british betrayal anyway"
+ 
+ SRD_naval_treaty.902.t:0 "France and Britain stand against us"
+ SRD_naval_treaty.902.desc:0 "Envoys from Britain and France have made it clear that, shall we go ahead with out repudiation of the anglo-german naval agreement, they would be fully ready to go to war."
+ SRD_naval_treaty.902.a:0 "Let them come if they dare !"
+ SRD_naval_treaty.902.b:0 "We can't afford war"
+ 
+ SRD_naval_treaty.903.t:0 "Britain stand against us"
+ SRD_naval_treaty.903.desc:0 "Envoys from Britain has made it clear that, shall we go ahead with out repudiation of the anglo-german naval agreement, they would be fully ready to go to war."
+ SRD_naval_treaty.903.a:0 "Let them come if they dare !"
+ SRD_naval_treaty.903.b:0 "We can't afford war"
+ 
+ SRD_naval_treaty.904.t:0 "Britain offers an alternative"
+ SRD_naval_treaty.904.desc:0 "Following our announcement, the British government took an unexpected step : they have brought the matter in the front of the second london naval treaty signatory, backing our membership at the same level as was offered to France and Italy. Now that the treaty members have been involved, refusing is likely to anger every major signatories in Europe..."
+ SRD_naval_treaty.904.a:0 "It's a reasonnable deal for now"
+ SRD_naval_treaty.904.b:0 "We will not accept any restriction !"
+ 
+ SRD_naval_treaty.905.t:0 "Germany joins the London Naval Treaty"
+ SRD_naval_treaty.905.desc:0 "The British delegation has made a shock announcement today : they back Germany's full membership in the London naval Treaty, disregarding once again the treaty of Versailles. What's more, germany is now allowed a fleet just as large as ours !"
+ SRD_naval_treaty.905.a:0 "The British must know what they're doing"
+ SRD_naval_treaty.905.b:0 "This treaty is now worthless to our eyes"
+ 
+ SRD_naval_treaty.906.t:0 "Germany joins the London Naval Treaty"
+ SRD_naval_treaty.906.desc:0 "The British delegation has made a shock announcement today : they back Germany's full membership in the London naval Treaty. While the change has already been acted, many await the reaction of the other members of the treaty, particularly European powers..."
+ SRD_naval_treaty.906.a:0 "Germany rearms a bit more"
+ 
+ SRD_naval_treaty.11.t:0 "Voiding of the naval agreement"
+ SRD_naval_treaty.11.desc:0 "Our naval agreement has always been pegged on the British membership to the second london naval treaty. Now, with Britain no longer a member, our naval agreement is void."
+ SRD_naval_treaty.11.a:0 "Should we rejoin as a proper member ?"
+ 
+ 
+ SRD_naval_conference.100.t:0 "Second London Naval Conference continues"
+ SRD_naval_conference.100.desc:0 "The second london naval conference is coming to an end. Signatories of the first london naval agreement have been discussing the modalities of a new treaty which now needs to be signed."
+ SRD_naval_conference.100.a:0 "Obviously, we will sign"
+ SRD_naval_conference.100.b:0 "We shall not partake this time"
+ 
+ SRD_naval_conference.200.t:0 "Second London Naval Conference continues"
+ SRD_naval_conference.200.desc:0 "The second london naval conference is coming to an end. Signatories of the first london naval agreement have been discussing the modalities of a new treaty. The British delegation has already signed it, and now it is our turn."
+ SRD_naval_conference.200.desc_noeng:0 "The second london naval conference is coming to an end. In an unexpected turn of event, the British delegation has denied signing the agreement. Its is now our turn to make a choice."
+ SRD_naval_conference.200.a:0 "We will sign it"
+ SRD_naval_conference.200.b:0 "Restrictions have lasted long enough"
+ 
+ SRD_naval_conference.300.t:0 "Second London Naval Conference continues"
+ SRD_naval_conference.300.desc:0 "The second london naval conference is coming to an end. Signatories of the first london naval agreement have been discussing the modalities of a new treaty. After both the british and american signing, it is our turn to make a choice."
+ SRD_naval_conference.300.desc_noeng:0 "The second london naval conference is coming to an end. In an unexpected turn of event, the British delegation has denied signing the agreement ; however, the USA have decided to support the agreement. What should we do ?"
+ SRD_naval_conference.300.desc_nousa:0 "The second london naval conference is coming to an end. In spite of the British delegation's best effort at negociating, the americans have refused to sign yet another disaramament treaty. It is out turn to decide what to do."
+ SRD_naval_conference.300.desc_noeng_nousa:0 "The second london naval conference is coming to a fairly catastrophic end, as in the end, both the British and American delegations have decided not to sign the new treaty. Shall we also abstain, it's likely the treaty would collapse entirely."
+ SRD_naval_conference.300.a:0 "France supports peace"
+ SRD_naval_conference.300.b:0 "We will not sign it"
+ 
+ SRD_naval_conference.400.t:0 "Second London Naval Conference continues"
+ SRD_naval_conference.400.desc:0 "The second london naval conference is coming to an end. Signatories of the first london naval agreement have been discussing the modalities of a new treaty. The delagations of France, Great Britain and the United States have all signed the treaty and are pressing us to do so aswell."
+ SRD_naval_conference.400.desc_noeng:0 "The second london naval conference is coming to an end. In an unexpected turn of event, the British delegation decided not to sign the new treaty ; however, the American and French government have vowed to keep it alive. We must now either sign it or walk away."
+ SRD_naval_conference.400.desc_nousa:0 "The second london naval conference is coming to an end. Despite the British delegation's best effort, the United States of America walked out of the conference without signing the treaty. This seriously puts into question whether we will sign it or not."
+ SRD_naval_conference.400.desc_nofra:0 "The second london naval conference is coming to an end. To everyone's surprise, France decided not to sign the treaty this time. Yet, the British and American delegations keep defending the treaty and are now asking us to sign it."
+ SRD_naval_conference.400.desc_noeng_nousa:0 "The second london naval conference is coming to a disastrous end. With both the British and American refusing to sign the treaty, it would have collapsed entirely had France not vowed to keep it alive at all cost. The French delegation is now asking us to participate."
+ SRD_naval_conference.400.desc_noeng_nofra:0 "The second london naval conference is coming to a disastrous end. With both France and Britain refusing the participate, the treaty is now only defended by the United States of America. They, however, have made it clear that our participation was crucial for the power balance in the pacific."
+ SRD_naval_conference.400.desc_nousa_nofra:0 "The second london naval conference is coming to a disastrous end. The British delegation was unable to convince France and the United States, both of which have decided not to sign the treaty. Nevertheless, the British are now looking at us expectently."
+ SRD_naval_conference.400.a:0 "We will participate"
+ SRD_naval_conference.400.b:0 "We'll be restricted no more"
+ SRD_naval_conference.400.c:0 "Ask for parity with the USA and UK"
+ 
+ SRD_naval_conference.500.t:0 "Second London Naval Conference continues"
+ SRD_naval_conference.500.desc:0 "The second london naval conference is coming to an end. After successful negociations, Great Britain, the United States, France have Japan have signed the treaty. We must now make a choice to end the conference."
+ SRD_naval_conference.500.desc_noeng:0 "The second london naval conference is coming to an end. To everyone’s surprise, the British delegation has denied signing the treaty ; but, more surprising, every other delegation vowed to keep it alive. What should we do ?"
+ SRD_naval_conference.500.desc_nousa:0 "The second london naval conference is coming to an end. Unexpectedly, the United States of America decided not to take part, but Japan sign the treaty regardless. It is now our turn."
+ SRD_naval_conference.500.desc_nofra:0 "The second london naval conference is coming to an end. The sudden withdrawal of France is certainly putting in question our own participation. conditioned by parity between them and us. What should we do ?"
+ SRD_naval_conference.500.desc_nojap:0 "The second london naval conference is coming to an end. The Japanese delegation just informed other members of its withdrawal from the conference. Perhaps we should do the same…"
+ SRD_naval_conference.500.desc_noeng_nousa:0 "The second london naval conference is coming to an bizarre end. Some, in spite of British and American refusal to sign the treaty, France kept it alive and convinced Japan to sign it aswell. What should we do ?"
+ SRD_naval_conference.500.desc_noeng_nofra:0 "The second london naval conference is coming to an end. It is now, however, mostly a Pacific agreement since only the United States and Japan have signed it. Do we even have a place there ?"
+ SRD_naval_conference.500.desc_noeng_nojap:0 "The second london naval conference is coming to an end. Only France and the United States have signed the treaty, while Japan and Britain have opted against it. We now have to choose."
+ SRD_naval_conference.500.desc_nousa_nofra:0 "The second london naval conference is coming to an end. It would appear disagreements exist within major democracies, as France and the United States decided not to participate. Should we join Japan and the UK ?"
+ SRD_naval_conference.500.desc_nousa_nojap:0 "The second london naval conference is coming to an end. Its current status is purely European, as both Japan and the United States have refused to sign it ; however, our parity with France is guaranteed. Shall we sign ?"
+ SRD_naval_conference.500.desc_nofra_nojap:0 "The second london naval conference is coming to an end. With Japan and France’s withdrawal, our participation is put into question more than ever. What should we answer ?"
+ SRD_naval_conference.500.desc_noeng_nousa_nojap:0 "The second london naval conference is coming to a disastrous end. So far, only France has decided to sign the new treaty. Their delegation is now asking is to uphold peace in the Mediterranean."
+ SRD_naval_conference.500.desc_noeng_nofra_nojap:0 "The second london naval conference is coming to a disastrous end. Only the United States of America have signed the new treaty. Without our participation, they will be its sole signatory."
+ SRD_naval_conference.500.desc_nousa_nofra_nojap:0 "The second london naval conference is coming to a disastrous end. The British obession with disarmament made them the sole signatory of their new treaty. Nevertheless, they excpect us to join in, in the name of peace."
+ SRD_naval_conference.500.a:0 "Italy will be there"
+ SRD_naval_conference.500.b:0 "The treaty ends without us"
+ 
+ SRD_naval_conference.110.t:0 "Japan requests parity with us"
+ SRD_naval_conference.110.desc:0 "The Japan delegation has informed signatories of the treaty that it could no longer accept lack of parity between their navy and ours. They are threatening to be granted this parity, lest they would refuse to sign the treaty at all."
+ SRD_naval_conference.110.a:0 "If we must"
+ SRD_naval_conference.110.b:0 "Unacceptable"
+ 
+ SRD_naval_conference.210.t:0 "Japan requests parity with us"
+ SRD_naval_conference.210.desc:0 "The Japan delegation has informed signatories of the treaty that it could no longer accept lack of parity between their navy and ours. They are threatening to be granted this parity, lest they would refuse to sign the treaty at all."
+ SRD_naval_conference.210.a:0 "If we must"
+ SRD_naval_conference.210.b:0 "Unacceptable"
+ 
+ SRD_naval_conference.410.t:0 "Parity was accepted"
+ SRD_naval_conference.410.desc:0 "We have received news that, shall we sign the treaty, it would be amended so that our treaty limitations would be raised to the same imposed on the British and Americans by the first london treaty."
+ SRD_naval_conference.410.a:0 "This is a good deal"
+ SRD_naval_conference.410.b:0 "Nevermind"
+ 
+ SRD_naval_conference.411.t:0 "Parity was refused"
+ SRD_naval_conference.411.desc:0 "Citing the massive size of the British empire and the two coastlines of the United States, great powers have refused to grant us naval parity with them."
+ SRD_naval_conference.411.a:0 "We must bow our head"
+ SRD_naval_conference.411.b:0 "We have an empire too !"
+ 
+ SRD_naval_conference.600.t:0 "The Second London Naval Treaty collapsed"
+ SRD_naval_conference.600.desc:0 "The second london naval conference ended in a disaster, with most previous signatories decided not to ratify the new treaty. There will be no second london naval treaty at all, and the world is ripe for a naval arm race between the great powers."
+ SRD_naval_conference.600.a:0 "That went sour"
+ 
+ SRD_naval_conference.601.t:0 "The Second London Naval Treaty"
+ SRD_naval_conference.601.desc:0 "The Second London Naval Treaty was signed yesterday between great naval powers, continuying the first london naval treaty in the name of disaramement and peace."
+ SRD_naval_conference.601.a:0 "More money for the army, then"
+ 
+ SRD_naval_conference.120.t:0 "The Anglo-Soviet Conference"
+ SRD_naval_conference.120.desc:0 "With the second london naval treaty signed, perhaps we shall extend a hand to the Soviet Union and offer them an invitation aswell."
+ SRD_naval_conference.120.a:0 "Let us contact them"
+ SRD_naval_conference.120.b:0 "Now is not the time"
+ 
+ SRD_naval_conference.720.t:0 "The Anglo-Soviet Conference"
+ SRD_naval_conference.720.desc:0 "The British have contacted us today, asking us to join the Second London Naval Treaty in the name of world peace and disarmament."
+ SRD_naval_conference.720.a:0 "And join it we will"
+ SRD_naval_conference.720.b:0 "What is the point"

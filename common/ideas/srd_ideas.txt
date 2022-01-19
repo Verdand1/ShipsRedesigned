@@ -1,0 +1,391 @@
+ideas = {
+
+	country = {
+	
+		SRD_naval_treaty_adherent_7 = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 800
+			}
+		}
+		
+		SRD_naval_treaty_adherent_7_cheat = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 12000
+				production_cost_max_ship_hull_carrier = 12000
+				production_cost_max_ship_hull_cruiser = 6000
+				production_cost_max_ship_hull_light = 6000
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_7_escalator = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_7_escalator_cheat = {
+			
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_5 = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 800
+			}
+		}
+		
+		SRD_naval_treaty_adherent_5_cheat = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_5_escalator = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_5_escalator_cheat = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_3 = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 800
+			}
+		}
+		
+		SRD_naval_treaty_adherent_3_cheat = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_3_escalator = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_naval_treaty_adherent_3_escalator_cheat = {
+		
+			name = SRD_naval_treaty_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 13000
+				production_cost_max_ship_hull_carrier = 13000
+				production_cost_max_ship_hull_cruiser = 6200
+				production_cost_max_ship_hull_light = 6200
+				production_cost_max_ship_hull_submarine = 1200
+			}
+		}
+		
+		SRD_anglo_german_naval_agreement = {
+		
+			name = SRD_anglo_german_naval_agreement_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 800
+			}
+		}
+		
+		SRD_anglo_german_naval_agreement_cheat = {
+		
+			name = SRD_anglo_german_naval_agreement_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+		SRD_commonwealth_naval_agreement = {
+		
+			name = SRD_commonwealth_naval_agreement_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 800
+			}
+		}
+		
+		SRD_commonwealth_naval_agreement_escalator = {
+		
+			name = SRD_commonwealth_naval_agreement_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1000
+			}
+		}
+		
+	}
+		
+}

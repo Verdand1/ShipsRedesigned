@@ -79,7 +79,7 @@ if = {
 	}
 }
 
-add_ideas = MTG_naval_treaty_adherent
+add_ideas = SRD_naval_treaty_adherent_5
 
 set_technology = {
 	infantry_weapons = 1

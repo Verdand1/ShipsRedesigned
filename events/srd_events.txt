@@ -1,0 +1,704 @@
+add_namespace = SRD_naval_treaty
+
+country_event = {
+	id = SRD_naval_treaty.1
+	title = SRD_naval_treaty.1.t
+	desc = SRD_naval_treaty.1.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #accept
+		name = SRD_naval_treaty.1.a 
+		
+		ai_chance = {
+			factor = 70
+			modifier = {
+				has_government = democratic
+				factor = 5
+			}
+			modifier = {
+				has_government = fascism
+				factor = 0.25
+			}
+		}
+		
+		add_ideas = SRD_naval_treaty_adherent_3
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+				has_government = democratic
+			}
+			add_ai_strategy = {
+				type = protect
+				id = PREV
+				value = 100
+			}
+			add_stability = 0.02
+		}
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+			}
+			country_event = { id = SRD_naval_treaty.101 days = 3 }
+		}
+		
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = 1
+		}
+	}
+	option = { #refuse
+		name = SRD_naval_treaty.1.b 
+		
+		ai_chance = {
+			factor = 30
+		}
+
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+				has_government = democratic
+			}
+			add_ai_strategy = {
+				type = contain
+				id = PREV
+				value = 100
+			}
+		}
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+			}
+			country_event = { id = SRD_naval_treaty.102 days = 3 }
+		}
+	}
+}
+
+#Country accepted
+
+country_event = {
+	id = SRD_naval_treaty.101
+	title = SRD_naval_treaty.101.t
+	desc = SRD_naval_treaty.101.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = SRD_naval_treaty.101.a 
+	}
+}
+
+#Country refused
+
+country_event = {
+	id = SRD_naval_treaty.102
+	title = SRD_naval_treaty.102.t
+	desc = SRD_naval_treaty.102.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #ok
+		name = SRD_naval_treaty.101.a 
+	}
+}
+
+#
+#
+#
+
+#Country joins on its own
+
+country_event = {
+	id = SRD_naval_treaty.2
+	title = SRD_naval_treaty.2.t
+	desc = SRD_naval_treaty.2.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #cool
+		name = SRD_naval_treaty.2.a 
+		
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+				has_government = democratic
+			}
+			add_ai_strategy = {
+				type = protect
+				id = PREV
+				value = 100
+			}
+		}
+	}
+}
+
+#Country leaves on its own
+
+country_event = {
+	id = SRD_naval_treaty.3
+	title = SRD_naval_treaty.3.t
+	desc = SRD_naval_treaty.3.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #uncoll
+		name = SRD_naval_treaty.3.a 
+		
+		every_other_country = {
+			limit = {
+				has_naval_treaty_trigger = yes
+				has_government = democratic
+			}
+			add_ai_strategy = {
+				type = contain
+				id = PREV
+				value = 100
+			}
+		}
+	}
+}
+
+#treaty collapses entirely
+
+country_event = {
+	id = SRD_naval_treaty.4
+	title = SRD_naval_treaty.4.t
+	desc = SRD_naval_treaty.4.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+	
+	fire_only_once = yes
+	
+	trigger = {
+		SRD_has_naval_treaty_trigger = yes
+		check_variable = {
+			var = global.london_treaty_member_count
+			value = 1
+			compare = equals
+		}
+	}
+
+	option = { #welp, we tryied
+		name = SRD_naval_treaty.4.a 
+		
+		remove_regular_treaty_idea = yes
+	}
+}
+
+#cheater !
+
+country_event = {
+	id = SRD_naval_treaty.5
+	title = SRD_naval_treaty.5.t
+	desc = SRD_naval_treaty.5.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #it's on !
+		name = SRD_naval_treaty.5.a 
+		
+		create_wargoal = {
+			type = puppet_wargoal_focus
+			target = FROM
+		}
+	}
+}
+
+#de-escalation
+
+country_event = {
+	id = SRD_naval_treaty.6
+	title = SRD_naval_treaty.6.t
+	desc = SRD_naval_treaty.6.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	trigger = {
+		SRD_has_naval_treaty_escalated = yes
+		AND = {
+			USA = { SRD_has_naval_treaty_trigger = yes }
+			JAP = { SRD_has_naval_treaty_trigger = yes }
+			ITA = { SRD_has_naval_treaty_trigger = yes }
+			ENG = { SRD_has_naval_treaty_trigger = yes }
+			FRA = { SRD_has_naval_treaty_trigger = yes }
+		}
+	}
+	
+	immediate = {
+		treaty_deescalation_change = yes
+	}
+
+	option = { #welp
+		name = SRD_naval_treaty.6.a 
+		
+	}
+}
+
+#wartime treaty exception
+
+country_event = {
+	id = SRD_naval_treaty.7
+	title = SRD_naval_treaty.7.t
+	desc = SRD_naval_treaty.7.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	trigger = {
+		SRD_has_naval_treaty_trigger = yes
+		has_war = yes
+		OR = {
+			NOT = { tag = ITA }
+			any_other_country = {
+				NOT = { tag = ETH }
+				has_war_with = ITA
+			}
+		}
+	}
+	
+	immediate = {
+		clr_country_flag = SRD_no_more_treaty_flag
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+	}
+
+	option = { #welp
+		name = SRD_naval_treaty.7.a 
+		
+		IF = {
+			limit = { 
+				NOT = {
+					has_idea = SRD_commonwealth_naval_agreement
+					has_idea = SRD_commonwealth_naval_agreement_escalator
+					has_idea = SRD_anglo_german_naval_agreement
+					has_idea = SRD_anglo_german_naval_agreement_cheat
+				}
+			}
+			every_other_country = {
+				limit = {
+					has_naval_treaty_trigger = yes
+				}
+				country_event = { id = SRD_naval_treaty.701 }
+			}
+		}
+		ELSE = {
+			ENG = {
+				country_event = { id = SRD_naval_treaty.701 }
+			}
+		}
+		remove_regular_treaty_idea = yes
+		remove_ideas = SRD_commonwealth_naval_agreement
+		remove_ideas = SRD_commonwealth_naval_agreement_escalator
+		remove_ideas = SRD_anglo_german_naval_agreement
+		remove_ideas = SRD_anglo_german_naval_agreement_cheat
+	}
+}
+
+country_event = {
+	id = SRD_naval_treaty.701
+	title = SRD_naval_treaty.701.t
+	desc = SRD_naval_treaty.701.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #welp
+		name = SRD_naval_treaty.701.a 
+		
+	}
+}
+
+#NEWS EVENT FOR COMMONWEALTH MEMBERS BREECH ON TREATY
+
+news_event = {
+	id = SRD_naval_treaty.8
+	title = SRD_naval_treaty.8.t
+	desc = SRD_naval_treaty.8.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #those imbeciles
+		name = SRD_naval_treaty.8.a 
+		
+	}
+}
+
+
+##################################################################################
+##################################################################################  EVENT FOR ENG ABOUT GERMAN REFUSING THE NAVAL TREATY
+##################################################################################
+
+
+country_event = {
+	id = SRD_naval_treaty.900
+	title = SRD_naval_treaty.900.t
+	desc = SRD_naval_treaty.900.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #rally the french
+		name = SRD_naval_treaty.900.a 
+		add_political_power = -25
+		add_stability = -0.02
+		FRA = {	country_event = { id = SRD_naval_treaty.901 } }
+	}
+	
+	option = { #offer a position in the london naval treaty
+		name = SRD_naval_treaty.900.b 
+		GER = {	country_event = { id = SRD_naval_treaty.901 } }
+	}
+}
+
+#BRITISH WANTS TO GO
+
+country_event = {
+	id = SRD_naval_treaty.901
+	title = SRD_naval_treaty.901.t
+	desc = SRD_naval_treaty.901.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #lets go
+		name = SRD_naval_treaty.901.a 
+		add_political_power = -25
+		add_stability = -0.02
+		
+		if = {
+			limit = {
+				has_idea = FRA_disjointed_government
+				NOT = { has_government = communism }
+			}
+			custom_effect_tooltip = germany.60.a.tt
+			effect_tooltip = {
+				start_civil_war = {
+					ideology = communism
+					size = 0.2
+				}
+			}
+		}
+		if = { #you're not getting around that, comrade
+			limit = {
+				has_idea = FRA_disjointed_government
+				has_government = communism
+			}
+			custom_effect_tooltip = germany.60.a.tt
+			effect_tooltip = {
+				start_civil_war = {
+					ideology = democratic
+					size = 0.3
+				}
+			}
+		}
+		
+		GER = {	country_event = { id = SRD_naval_treaty.902 } }
+	}
+	
+	option = { #this agreement was a betrayal anyway
+		name = SRD_naval_treaty.901.b 
+		GER = {	country_event = { id = SRD_naval_treaty.903 } }
+	}
+}
+
+#FRANCE AND BRITAIN STAND
+
+country_event = {
+	id = SRD_naval_treaty.902
+	title = SRD_naval_treaty.902.t
+	desc = SRD_naval_treaty.902.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #well, to war then
+		name = SRD_naval_treaty.903.a 
+		
+		IF = {
+			limit = {
+				FRA = { is_faction_leader = yes }
+			}
+			every_other_country = {
+				limit = { is_in_faction_with = FRA NOT = { has_war_with = ENG } }
+				ENG = { add_to_faction = PREV }
+				add_ai_strategy = {
+					type = alliance
+					id = "ENG"
+					value = 200
+				}
+			}
+		}
+		ENG = { add_to_faction = FRA }
+		
+		FRA = {
+			declare_war_on = {
+				target = GER
+				type = take_state_focus
+				generator = { 42 51 }
+			}
+			if = {
+				limit = {
+					has_idea = FRA_disjointed_government
+					NOT = { has_government = communism }
+				}
+				start_civil_war = {
+					ideology = communism
+					size = 0.2
+				}
+			}
+			if = {
+				limit = {
+					has_idea = FRA_disjointed_government
+					has_government = communism
+				}
+				start_civil_war = {
+					ideology = democratic
+					size = 0.3
+				}
+			}
+		}
+	}
+	
+	option = { #nevermind
+		name = SRD_naval_treaty.902.b 
+		set_global_flag = german_naval_limitations_challenge_met
+	}
+}
+
+#BRITAIN STANDS ALONE
+
+country_event = {
+	id = SRD_naval_treaty.903
+	title = SRD_naval_treaty.903.t
+	desc = SRD_naval_treaty.903.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #well, to war then
+		name = SRD_naval_treaty.903.a 
+		
+		ENG = {
+			declare_war_on = {
+				target = GER
+				type = take_state_focus
+				generator = { 42 51 }
+			}
+		}
+	}
+	
+	option = { #nevermind
+		name = SRD_naval_treaty.903.b 
+		set_global_flag = german_naval_limitations_challenge_met
+	}
+}
+
+#BRITAIN OFFERS ACCESSION TO LNT
+
+country_event = {
+	id = SRD_naval_treaty.904
+	title = SRD_naval_treaty.904.t
+	desc = SRD_naval_treaty.904.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #cool
+		name = SRD_naval_treaty.904.a 
+		IF = {
+			limit = { 
+				FRA = { SRD_has_naval_treaty_trigger = yes  }
+				NOT = { is_in_faction_with = GER }
+				NOT = { has_non_aggression_pact_with = GER }
+			}
+			FRA = {	country_event = { id = SRD_naval_treaty.905 } }
+		}
+		IF = {
+			limit = { 
+				ITA = { SRD_has_naval_treaty_trigger = yes  }
+				NOT = { is_in_faction_with = GER }
+				NOT = { has_non_aggression_pact_with = GER }
+			}
+			ITA = {	country_event = { id = SRD_naval_treaty.905 } }
+		}
+		every_other_country = {
+			limit = {
+				OR = {
+					NOT = { ITA = { SRD_has_naval_treaty_trigger = yes  } }
+					NOT = { tag = ITA }
+				}
+				OR = {
+					NOT = { FRA = { SRD_has_naval_treaty_trigger = yes  } }
+					NOT = { tag = FRA }
+				}
+			}
+			news_event = { id = SRD_naval_treaty.906 }
+		}
+	}
+	
+	option = { #yeah naaah
+		name = SRD_naval_treaty.904.b 
+		set_global_flag = german_naval_limitations_challenge_met
+		ENG = {
+			create_wargoal = {
+				type = puppet_wargoal_focus
+				target = GER
+			}
+		}
+		IF = {
+			limit = { 
+				FRA = { 
+					SRD_has_naval_treaty_trigger = yes 
+					NOT = { is_in_faction_with = GER }
+					NOT = { has_non_aggression_pact_with = GER }
+				}
+			}
+			FRA = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = GER
+				}
+			}
+		}
+		IF = {
+			limit = { 
+				ITA = { 
+					SRD_has_naval_treaty_trigger = yes 
+					NOT = { is_in_faction_with = GER }
+					NOT = { has_non_aggression_pact_with = GER }
+				} 
+			}
+			ITA = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = GER
+				}
+			}
+		}
+	}
+}
+
+#GERMANY IN LNT ?
+
+country_event = {
+	id = SRD_naval_treaty.905
+	title = SRD_naval_treaty.905.t
+	desc = SRD_naval_treaty.905.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #cool
+		name = SRD_naval_treaty.905.a 
+		
+	}
+	
+	option = { #WTF ARE THE BRITISH DOING
+		name = SRD_naval_treaty.905.b 
+		set_global_flag = german_naval_limitations_challenge_met
+		treaty_credibility_change_3 = yes
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = -1
+		}
+		remove_regular_treaty_idea = yes
+		set_global_flag = treaty_escalation_possible
+	}
+}
+
+#NEW EVENT GERMANY IN LNT
+
+news_event = {
+	id = SRD_naval_treaty.906
+	title = SRD_naval_treaty.906.t
+	desc = SRD_naval_treaty.906.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #wow
+		name = SRD_naval_treaty.906.a 
+		
+	}
+}
+
+#
+
+country_event = {
+	id = SRD_naval_treaty.10
+	title = SRD_naval_treaty.10.t
+	desc = SRD_naval_treaty.10.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	fire_only_once = yes
+	hidden = yes
+	trigger = {
+		ENG = {
+			NOT = { SRD_has_naval_treaty_trigger = yes }
+		}
+	}
+
+	option = { #cool
+		name = SRD_naval_treaty.10.a 
+		every_country = {
+			limit = {
+				OR = {
+					has_idea = SRD_anglo_german_naval_agreement_cheat
+					has_idea = SRD_anglo_german_naval_agreement
+					has_idea = SRD_commonwealth_naval_agreement
+					has_idea = SRD_commonwealth_naval_agreement_escalator
+				}
+			}
+			country_event = { id = SRD_naval_treaty.11 }
+		}
+	}
+}
+
+#
+
+country_event = {
+	id = SRD_naval_treaty.11
+	title = SRD_naval_treaty.11.t
+	desc = SRD_naval_treaty.11.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #cool
+		name = SRD_naval_treaty.11.a 
+		remove_ideas = SRD_anglo_german_naval_agreement_cheat
+		remove_ideas = SRD_anglo_german_naval_agreement
+		remove_ideas = SRD_commonwealth_naval_agreement
+		remove_ideas = SRD_commonwealth_naval_agreement_escalator
+	}
+}
+
+#
+
+country_event = {
+	id = SRD_naval_treaty.12
+	title = SRD_naval_treaty.12.t
+	desc = SRD_naval_treaty.12.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	hidden = yes
+	trigger = {
+		OR = {
+			has_idea = SRD_commonwealth_naval_agreement
+			has_idea = SRD_commonwealth_naval_agreement_escalator
+		}
+		NOT = {
+			is_puppet_of = ENG
+		}
+	}
+
+	option = { #cool
+		name = SRD_naval_treaty.12.a 
+		country_event = { id = SRD_naval_treaty.11 }
+	}
+}

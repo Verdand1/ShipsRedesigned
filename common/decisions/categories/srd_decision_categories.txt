@@ -1,0 +1,13 @@
+SRD_naval_treaties = {
+	picture = GFX_decision_cat_picture_naval_treaties
+	
+	visible = {
+		OR = {
+			SRD_has_naval_treaty_trigger = yes
+			has_idea = SRD_anglo_german_naval_agreement
+			has_idea = SRD_anglo_german_naval_agreement_cheat
+			has_idea = SRD_commonwealth_naval_agreement
+		}
+	}
+	priority = 10
+}

@@ -1,0 +1,47 @@
+﻿l_english:
+ SRD_naval_treaties:0 "Naval Treaties"
+ SRD_naval_treaties_desc:1 "Naval Treaties have been signed to limit naval rearmament of the great powers.\n\n [SRDGetTreatyText]"
+ SRD_loc_not_in_treaty:0 "We are not currently member of a naval treaty."
+ SRD_loc_in_treaty:0 "We are currently a member of a naval treaty. The limitations are as follow :\nNo more than [SRDGetMaxCarriersAllowed] carriers\nNo more than [SRDGetMaxLightCarriersAllowed] light carriers\nNo more than [SRDGetMaxBattleshipsAllowed] battleships\nNo more than [SRDGetMaxHeavyCruisersAllowed] heavy cruisers\nNo more than [SRDGetMaxLightCruisersAllowed] light cruisers\nNo more than [SRDGetMaxDestroyersAllowed] destroyers\nNo more than [SRDGetMaxSubmarinesAllowed] submarines."
+ 
+ SRD_loc_lvl_7_ss:0 "150"
+ SRD_loc_lvl_5_ss:0 "125"
+ SRD_loc_lvl_3_ss:0 "100"
+ SRD_loc_lvl_ger_ss:0 "80"
+ SRD_loc_lvl_com_ss:0 "50"
+ 
+ SRD_loc_lvl_7_dd:0 "250"
+ SRD_loc_lvl_5_dd:0 "180"
+ SRD_loc_lvl_3_dd:0 "120"
+ SRD_loc_lvl_ger_dd:0 "83"
+ SRD_loc_lvl_com_dd:0 "50"
+ 
+ SRD_loc_lvl_7_cl:0 "50"
+ SRD_loc_lvl_5_cl:0 "35"
+ SRD_loc_lvl_3_cl:0 "25"
+ SRD_loc_lvl_ger_cl:0 "16"
+ SRD_loc_lvl_com_cl:0 "7"
+ 
+ SRD_loc_lvl_7_ca:0 "21"
+ SRD_loc_lvl_5_ca:0 "15"
+ SRD_loc_lvl_3_ca:0 "9"
+ SRD_loc_lvl_ger_ca:0 "7"
+ SRD_loc_lvl_com_ca:0 "3"
+ 
+ SRD_loc_lvl_7_bb:0 "15"
+ SRD_loc_lvl_5_bb:0 "10"
+ SRD_loc_lvl_3_bb:0 "7"
+ SRD_loc_lvl_ger_bb:0 "5"
+ SRD_loc_lvl_com_bb:0 "1"
+ 
+ SRD_loc_lvl_7_cvl:0 "6"
+ SRD_loc_lvl_5_cvl:0 "4"
+ SRD_loc_lvl_3_cvl:0 "2"
+ SRD_loc_lvl_ger_cvl:0 "0"
+ SRD_loc_lvl_com_cvl:0 "1"
+ 
+ SRD_loc_lvl_7_cv:0 "6"
+ SRD_loc_lvl_5_cv:0 "4"
+ SRD_loc_lvl_3_cv:0 "2"
+ SRD_loc_lvl_ger_cv:0 "0"
+ SRD_loc_lvl_com_cv:0 "0"

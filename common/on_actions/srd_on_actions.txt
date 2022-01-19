@@ -1,0 +1,67 @@
+on_actions = {
+
+	on_startup = {
+		effect = {
+			set_variable = {
+				var = global.london_treaty_credibility
+				value = 7
+			}
+			set_variable = {
+				var = global.london_treaty_member_count
+				value = 5
+			}
+			set_global_flag = SRD_naval_conference_underway
+		}
+	}
+
+	on_monthly = {
+		effect = {
+			IF = {
+				limit = { 
+					OR = {
+						SRD_has_naval_treaty_trigger = yes
+						has_idea = SRD_commonwealth_naval_agreement
+					} 	
+				}
+				every_country = {
+					limit = { 
+						OR = {
+							SRD_has_naval_treaty_trigger = yes
+							has_idea = SRD_commonwealth_naval_agreement
+						}						
+					}
+					add_intel = {
+						target = PREV
+						navy_intel = 85
+					}
+				}
+			}
+		}
+	}
+	
+	on_monthly_ENG = {
+		effect = {
+			IF = {
+				limit = {
+					GER = {
+						OR = {
+							has_idea = SRD_anglo_german_naval_agreement
+							has_idea = SRD_anglo_german_naval_agreement_cheat
+						}
+					}
+				}
+				add_intel = {
+					target = GER
+					navy_intel = 85
+				}
+				GER = {
+					add_intel = {
+						target = ENG
+						navy_intel = 85
+					}
+				}
+			}
+		}
+	}
+	
+}
