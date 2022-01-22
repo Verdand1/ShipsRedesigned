@@ -22,7 +22,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -42,11 +42,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 12000
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_light = 6000
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -70,7 +70,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -90,11 +90,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 11500
-				production_cost_max_ship_hull_carrier = 11500
-				production_cost_max_ship_hull_cruiser = 5800
-				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 13000
+				production_cost_max_ship_hull_carrier = 13000
+				production_cost_max_ship_hull_cruiser = 6200
+				production_cost_max_ship_hull_light = 6200
+				production_cost_max_ship_hull_submarine = 1800
 			}
 		}
 		
@@ -118,7 +118,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -142,7 +142,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -166,7 +166,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -186,11 +186,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 11500
-				production_cost_max_ship_hull_carrier = 11500
-				production_cost_max_ship_hull_cruiser = 5800
-				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 13000
+				production_cost_max_ship_hull_carrier = 13000
+				production_cost_max_ship_hull_cruiser = 6200
+				production_cost_max_ship_hull_light = 6200
+				production_cost_max_ship_hull_submarine = 1800
 			}
 		}
 		
@@ -214,7 +214,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -238,7 +238,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -262,7 +262,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -286,7 +286,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 13000
 				production_cost_max_ship_hull_cruiser = 6200
 				production_cost_max_ship_hull_light = 6200
-				production_cost_max_ship_hull_submarine = 1200
+				production_cost_max_ship_hull_submarine = 1800
 			}
 		}
 		
@@ -310,7 +310,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -334,7 +334,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -358,7 +358,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -382,7 +382,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 11500
 				production_cost_max_ship_hull_cruiser = 5800
 				production_cost_max_ship_hull_light = 5800
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -408,7 +408,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -428,11 +428,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 12000
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_light = 6000
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -456,7 +456,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -476,11 +476,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 12000
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_light = 6000
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -504,7 +504,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
@@ -524,11 +524,11 @@ ideas = {
 			picture = MTG_naval_treaty_adherent
 			
 			modifier = {
-				production_cost_max_ship_hull_heavy = 12000
-				production_cost_max_ship_hull_carrier = 12000
-				production_cost_max_ship_hull_cruiser = 6000
-				production_cost_max_ship_hull_light = 6000
-				production_cost_max_ship_hull_submarine = 1000
+				production_cost_max_ship_hull_heavy = 11500
+				production_cost_max_ship_hull_carrier = 11500
+				production_cost_max_ship_hull_cruiser = 5800
+				production_cost_max_ship_hull_light = 5800
+				production_cost_max_ship_hull_submarine = 1500
 			}
 		}
 		
@@ -552,7 +552,7 @@ ideas = {
 				production_cost_max_ship_hull_carrier = 10000
 				production_cost_max_ship_hull_cruiser = 5400
 				production_cost_max_ship_hull_light = 5400
-				production_cost_max_ship_hull_submarine = 800
+				production_cost_max_ship_hull_submarine = 1200
 			}
 		}
 		
