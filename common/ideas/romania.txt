@@ -143,7 +143,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}			
 			}
 
 			modifier = {
@@ -162,7 +172,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}
 			}
 
 			modifier = {
@@ -181,7 +201,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}
 			}
 
 			modifier = {
@@ -200,7 +230,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}			
 			}
 
 			modifier = {
@@ -219,7 +259,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}
 			}
 
 			modifier = {
@@ -238,7 +288,17 @@ ideas = {
 			}
 
 			allowed_civil_war = {
-				has_government = neutrality
+				OR = {
+					AND = {
+						POL = { has_country_flag = attempted_royal_takeover_in_ROM }
+						NOT = { has_government = neutrality }
+						has_country_flag = POL_non_michael_romania
+					}
+					AND = {
+						POL = { NOT = { has_country_flag = attempted_royal_takeover_in_ROM } }
+						has_government = neutrality
+					}
+				}
 			}
 			
 			modifier = {
@@ -404,8 +464,9 @@ ideas = {
 			}
 
 			allowed_civil_war = {
+				has_government = democratic 
+			}				
 
-			}
 			
 			modifier = {
 				guarantee_tension = -1.0

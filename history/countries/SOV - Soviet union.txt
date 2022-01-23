@@ -499,7 +499,7 @@ set_variable = { SOV_fyp_factory_requirement_tier_5 = 200 }
 #THIRD FIVE YEAR PLAN NATIONAL SPIRIT VARS
 set_variable = { SOV_fyp_production_factory_efficiency_gain_factor = -0.15 }
 set_variable = { SOV_fyp_production_factory_max_efficiency_factor = 0.05 }
-set_variable = { SOV_fyp_consumer_goods_factor = 0.1 }
+set_variable = { SOV_fyp_consumer_goods_factor = 0.05 }
 set_variable = { SOV_fyp_production_speed_industrial_complex_factor = 0.05 }
 
 set_variable = { SOV_fyp_industrial_concern_cost_factor = -0.15 } #-> Third Five Year Plan
@@ -1042,8 +1042,15 @@ add_ideas = {
 	complete_national_focus = SOV_expand_the_red_fleet #35
 	complete_national_focus = SOV_pc_of_the_ussr_navy #35
 
+	#1939
+	complete_national_focus = SOV_support_the_kuomintang #35
+	complete_national_focus = SOV_develop_the_urals #35
+	complete_national_focus = SOV_the_ussr_academy_of_sciences
+	complete_national_focus = SOV_baltic_security #35 -> 1939
+
 	#FYP NS
 	add_to_variable = { SOV_fyp_production_factory_efficiency_gain_factor = 0.05 }
+	add_to_variable = { SOV_fyp_consumer_goods_factor = 0.05 }
 	remove_dynamic_modifier = { modifier = SOV_second_five_year_plan_dynamic_modifier }
 	add_dynamic_modifier = { modifier = SOV_third_five_year_plan_dynamic_modifier }
 

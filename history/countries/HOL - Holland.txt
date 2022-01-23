@@ -6,6 +6,7 @@ set_naval_oob = "HOL_1936_naval"
 set_research_slots = 3
 set_stability = 0.75
 set_war_support = 0
+add_command_power = 10
 
 set_technology = {
 	infantry_weapons = 1

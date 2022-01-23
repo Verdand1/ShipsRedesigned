@@ -2202,7 +2202,7 @@ characters={
 		name=ENG_corgis_1
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_3"
+				small="GFX_idea_ENG_corgis_1"
 			}
 		}
 		advisor={
@@ -2239,7 +2239,7 @@ characters={
 		name=ENG_corgis_2
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_5"
+				small="GFX_idea_ENG_corgis_2"
 			}
 		}
 		advisor={
@@ -2276,7 +2276,7 @@ characters={
 		name=ENG_corgis_3
 		portraits={
 			army={
-				small="GFX_idea_generic_political_advisor_europe_4"
+				small="GFX_idea_ENG_corgis_3"
 			}
 		}
 		advisor={

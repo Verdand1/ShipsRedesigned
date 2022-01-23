@@ -473,6 +473,7 @@ if = {
 	recruit_character = TUR_hassan_saka
 	recruit_character = TUR_kazim_ozalp
 	recruit_character = TUR_mumtaz_okmen
+	recruit_character = TUR_kazim_orbay
 }
 
 if = {

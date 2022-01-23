@@ -25,6 +25,7 @@ set_research_slots = 4
 
 set_stability = 0.6
 set_war_support = 0.1
+add_command_power = 20
 
 # Starting tech
 set_technology = {
@@ -1429,7 +1430,7 @@ if = {
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
 			turret_type_slot = tank_light_two_man_tank_turret
-			suspension_type_slot = tank_christie_suspension
+			suspension_type_slot = tank_bogie_suspension
 			armor_type_slot = tank_riveted_armor
 			engine_type_slot = tank_gasoline_engine
 			special_type_slot_1 = tank_radio_1
@@ -1438,7 +1439,7 @@ if = {
 		icon = "gfx/interface/technologies/ENG_basic_light_tank.dds"
 		upgrades = {
 			tank_nsb_engine_upgrade = 2
-			tank_nsb_armor_upgrade = 1
+			tank_nsb_armor_upgrade = 2
 		}
 	}
 
@@ -1463,8 +1464,8 @@ if = {
 
 	create_equipment_variant = {
 		name = "Vickers 6 ton A"
-		type = light_tank_chassis_1
-		parent_version = 2
+		type = light_tank_chassis_0
+		parent_version = 0
 		modules = {
 			main_armament_slot = tank_heavy_machine_gun
 			turret_type_slot = tank_light_one_man_tank_turret
@@ -1483,8 +1484,8 @@ if = {
 
 	create_equipment_variant = {
 		name = "Vickers 6 ton B"
-		type = light_tank_chassis_1
-		parent_version = 3
+		type = light_tank_chassis_0
+		parent_version = 1
 		modules = {
 			main_armament_slot = tank_small_cannon
 			turret_type_slot = tank_light_two_man_tank_turret

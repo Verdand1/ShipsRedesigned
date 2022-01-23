@@ -17,10 +17,19 @@ if = {
 
 starting_train_buffer = 2
 
+if = {
+	limit = { has_dlc = "Man the Guns" }
+		set_war_support = 0.1
+	else = {
+		set_war_support = 0.15
+	}
+}
+
 set_naval_oob = "FRA_1936_naval"
 
 set_research_slots = 3
 set_stability = 0.5
+add_command_power = 20
 
 
 # Starting tech

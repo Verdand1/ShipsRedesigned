@@ -239,17 +239,6 @@
 			}
 			remove_ideas = JAP_the_unthinkable_option
 			set_capital = { state = 532 }
-			start_civil_war = {
-				ruling_party = communism
-				ideology = ROOT
-				size = 0.5	#This was too much for AI
-				capital = 282
-				states = { 282 533 536 555 529 530 528 526 524 645 648 646 647 684 633 609 745 527 525 }
-				keep_unit_leaders = {
-					750 751 752
-				}
-			}
-			custom_effect_tooltip = cast_the_die_TT
 			if = {
 				limit = {
 					MEN = { is_subject_of = ROOT }
@@ -271,6 +260,18 @@
 				}
 				MAN = { remove_ideas = MAN_kwantung_veto }
 			}
+			start_civil_war = {
+				ruling_party = communism
+				ideology = ROOT
+				size = 0.5	#This was too much for AI
+				capital = 282
+				states = { 282 533 536 555 529 530 528 526 524 645 648 646 647 684 633 609 745 527 525 }
+				keep_unit_leaders = {
+					750 751 752
+				}
+			}
+			custom_effect_tooltip = cast_the_die_TT
+			
 			hidden_effect = {
 				division_template = { name = "Japanese People's Regiment" division_names_group = JAP_INF_01 is_locked = yes regiments = { infantry = { x = 0 y = 0 } infantry = { x = 1 y = 0 } infantry = { x = 2 y = 0 } } }
 				532 = {

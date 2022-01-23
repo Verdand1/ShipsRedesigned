@@ -134,12 +134,22 @@ if = {
 	complete_national_focus = construction_effort
 	complete_national_focus = production_effort
 
+
 	add_ideas = {
 		#laws
 		limited_conscription
 		partial_economic_mobilisation
-		limited_exports
 	}
+	if = {
+		limit = {
+			NOT = { has_dlc = "Poland: United and Ready" }
+		}
+		add_ideas = {
+			#laws
+			limited_exports
+		}
+	}
+
 
 	
 	if = {
@@ -310,7 +320,6 @@ recruit_character = POL_eugeniusz_kwiatkowiski
 recruit_character = POL_marian_rejewski
 recruit_character = POL_jerzy_rutkowski
 recruit_character = POL_karl_albrecht
-recruit_character = POL_sejmik_regency
 recruit_character = POL_pavel_bermondt_avalov
 recruit_character = POL_anna_andersson
 recruit_character = POL_friedrich_christian
@@ -337,6 +346,7 @@ if = {
 		has_dlc = "No Step Back"
 	}
 	recruit_character = POL_henryk_floyar_rajchman
+	recruit_character = POL_sejmik_regency
 }
 
 if = {

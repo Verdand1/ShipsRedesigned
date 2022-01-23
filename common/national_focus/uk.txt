@@ -2465,7 +2465,7 @@ focus_tree = {
 				OR = {
 					has_completed_focus = ENG_global_defense
 					has_country_leader = {
-					    name = "Winston Churchill"
+					    character = ENG_winston_churchill
 					    ruling_only = yes
 					}
 				}
@@ -7296,14 +7296,14 @@ focus_tree = {
 		prerequisite = { focus = ENG_global_defense }
 		available = { 
 			has_country_leader =  {
-				name = "Neville Chamberlain"
+				character = ENG_neville_chamberlain
 				ruling_only = yes
 			}
 		}
 		bypass = {
 			OR = {
 				has_country_leader =  {
-					name = "Winston Churchill"
+					character = ENG_winston_churchill
 					ruling_only = yes
 				}
 				has_country_leader =  {
@@ -9533,7 +9533,7 @@ focus_tree = {
 			NOT = { is_in_faction_with = SOV }
 			SOV = { has_government = communism }
 		}
-		will_lead_to_war_with = SOV
+		will_lead_to_war_with = SOU
 		icon = GFX_focus_attack_soviet
 		x = -1
 		y = 1
@@ -10264,7 +10264,7 @@ focus_tree = {
 			hidden_effect = { news_event = { id = mtg_news.36 days = 1 } }
 			if = {
 				limit = {
-					has_country_leader = { name = "Harry Pollitt" ruling_only = yes }
+					has_country_leader = { character = ENG_harry_pollitt ruling_only = yes }
 				}
 				retire_country_leader = yes
 				create_country_leader = {
@@ -10896,7 +10896,7 @@ focus_tree = {
 		bypass = {
 			has_war_with = SOU
 		}
-		will_lead_to_war_with = SOV
+		will_lead_to_war_with = SOU
 		icon = GFX_focus_attack_soviet
 		x = 0
 		y = 1

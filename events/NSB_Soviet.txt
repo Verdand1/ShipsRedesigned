@@ -88,13 +88,21 @@ country_event = {
 		ai_chance = {
 			base = 10
 		}
+		hidden_effect = {
+			every_character = {
+				limit = {
+					is_character_slot = political_advisor
+					has_character_flag = SOV_targeted_for_purge_flag
+				}
+				SOV_purge_character_effect = yes
+			}
+		}
 
-		every_character = {
+		custom_effect_tooltip = SOV_characters_will_be_purged_tt
+		character_list_tooltip = {
 			limit = {
-				is_character_slot = political_advisor
 				has_character_flag = SOV_targeted_for_purge_flag
 			}
-			SOV_purge_character_effect = yes
 		}
 
 		#Update purged portraits in UI
@@ -245,18 +253,37 @@ country_event = {
 			limit = {
 				has_idea = SOV_genrikh_yagoda
 			}
-			SOV_genrikh_yagoda = {
-				SOV_purge_character_effect = yes
+			hidden_effect = {
+				SOV_genrikh_yagoda = {
+					SOV_purge_character_effect = yes
+				}
 			}
+
+			custom_effect_tooltip = SOV_characters_will_be_purged_tt
+			character_list_tooltip = {
+				limit = {
+					is_character = SOV_genrikh_yagoda
+				}
+			}
+
 			activate_advisor = SOV_nikolay_yezhov
 		}
 		else_if = {
 			limit = {
 				has_idea = SOV_nikolay_yezhov
 			}
-			SOV_nikolay_yezhov = {
-				SOV_purge_character_effect = yes
+			hidden_effect = {
+				SOV_nikolay_yezhov = {
+					SOV_purge_character_effect = yes
+				}
 			}
+			custom_effect_tooltip = SOV_characters_will_be_purged_tt
+			character_list_tooltip = {
+				limit = {
+					is_character = SOV_nikolay_yezhov
+				}
+			}
+
 			activate_advisor = SOV_lavrenty_beriya
 		}
 
@@ -459,7 +486,14 @@ unit_leader_event = {
 				SOV_purge_character_effect = yes
 			}
 		}
-		custom_effect_tooltip = SOV_retire_purged_character_tt
+		#custom_effect_tooltip = SOV_retire_purged_character_tt
+
+		custom_effect_tooltip = SOV_characters_will_be_purged_tt
+		character_list_tooltip = {
+			limit = {
+				has_character_flag = SOV_targeted_for_purge_flag
+			}
+		}
 
 		#Update purged portraits in UI
 		hidden_effect = {
@@ -682,7 +716,13 @@ unit_leader_event = {
 				SOV_purge_character_effect = yes
 			}
 		}
-		custom_effect_tooltip = SOV_retire_accused_character_tt
+		#custom_effect_tooltip = SOV_retire_accused_character_tt
+		custom_effect_tooltip = SOV_characters_will_be_purged_tt
+		character_list_tooltip = {
+			limit = {
+				has_character_flag = SOV_purge_accused_flag
+			}
+		}
 
 		#Update purged portraits in UI
 		hidden_effect = {
@@ -739,7 +779,13 @@ unit_leader_event = {
 				SOV_purge_character_effect = yes
 			}
 		}
-		custom_effect_tooltip = SOV_retire_accuser_character_tt
+		#custom_effect_tooltip = SOV_retire_accuser_character_tt
+		custom_effect_tooltip = SOV_characters_will_be_purged_tt
+		character_list_tooltip = {
+			limit = {
+				has_character_flag = SOV_purge_accuser_flag
+			}
+		}
 
 		#RANDOM GENERALS COWED
 		SOV_paranoia_daunt_generals_minor_effect = yes
@@ -1081,7 +1127,13 @@ unit_leader_event = {
 				SOV_purge_character_effect = yes
 			}
 		}
-		custom_effect_tooltip = SOV_retire_purged_character_tt
+		#custom_effect_tooltip = SOV_retire_purged_character_tt
+		custom_effect_tooltip = SOV_characters_will_be_purged_tt
+		character_list_tooltip = {
+			limit = {
+				has_character_flag = SOV_targeted_for_purge_flag
+			}
+		}
 
 		#Update purged portraits in UI
 		hidden_effect = {
@@ -8906,7 +8958,7 @@ country_event = {
 		# Set capital 
 		country_event = {
 			id = NSB_soviet_civil_war_common.002
-			days = 1
+			days = 7
 			random_days = 5
 		}
 		# De-stalinization 
@@ -8945,7 +8997,10 @@ country_event = {
 			}
 		}
 		trigger = {
-			219 = { is_owned_by = ROOT }
+			219 = { 
+				is_owned_by = ROOT 
+				is_controlled_by = ROOT
+			}
 		}
 		set_capital = { state = 219 }
 
@@ -8961,7 +9016,10 @@ country_event = {
 			}
 		}
 		trigger = {
-			195 = { is_owned_by = ROOT }
+			195 = { 
+				is_owned_by = ROOT 
+				is_controlled_by = ROOT
+			}
 			NOT = { SOV_is_exiles = yes }
 		}
 		set_capital = { state = 195 }
@@ -8977,7 +9035,10 @@ country_event = {
 			}
 		}
 		trigger = {
-			195 = { is_owned_by = ROOT }
+			195 = { 
+				is_owned_by = ROOT 
+				is_controlled_by = ROOT
+			}
 			NOT = { SOV_is_exiles = yes }
 		}
 		195 = { set_state_name = SOV_petrograd }
@@ -9005,7 +9066,10 @@ country_event = {
 			base = 2
 		}
 		trigger = {
-			408 = { is_owned_by = ROOT }
+			408 = { 
+				is_owned_by = ROOT 
+				is_controlled_by = ROOT
+			}
 			SOV_is_exiles = yes
 		}
 		set_capital = { state = 408 }
@@ -9017,7 +9081,10 @@ country_event = {
 			base = 10
 		}
 		trigger = {
-			195 = { is_owned_by = ROOT }
+			195 = { 
+				is_owned_by = ROOT 
+				is_controlled_by = ROOT
+			}
 			SOV_is_exiles = yes
 		}
 		195 = { set_state_name = SOV_StPetersburg }
@@ -10908,6 +10975,11 @@ country_event = {
 
 	option = {
 		name = NSB_soviet_civil_war_common.122.a
+		# Get Ideology Support
+		set_variable = { SOV_communist_support_before_puppet = party_popularity_100@communism }
+		set_variable = { SOV_democratic_support_before_puppet = party_popularity_100@democratic }
+		set_variable = { SOV_fascist_support_before_puppet = party_popularity_100@fascism }
+		set_variable = { SOV_neutrality_support_before_puppet = party_popularity_100@neutrality }
 		JAP = {
 			add_to_war = { 
 			    targeted_alliance = ROOT 
@@ -10959,6 +11031,17 @@ country_event = {
 					ruling_party = neutrality
 				}
 			}
+			# Reset popluarities to what they were before puppeting 
+			set_popularities = {
+				communism = SOV.SOV_communist_support_before_puppet
+				democratic = SOV.SOV_democratic_support_before_puppet
+				fascism = SOV.SOV_fascist_support_before_puppet
+				neutrality = SOV.SOV_neutrality_support_before_puppet
+			}
+			clear_variable = SOV.SOV_communist_support_before_puppet
+			clear_variable = SOV.SOV_democratic_support_before_puppet
+			clear_variable = SOV.SOV_fascist_support_before_puppet
+			clear_variable = SOV.SOV_neutrality_support_before_puppet
 		}	
 	}
 }

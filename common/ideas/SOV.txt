@@ -25,7 +25,7 @@ ideas = {
 			modifier = {
 				production_factory_efficiency_gain_factor = -0.15
 				production_factory_max_efficiency_factor = 0.05
-				consumer_goods_factor = 0.1
+				consumer_goods_factor = 0.05
 				production_speed_industrial_complex_factor = 0.05
 			}
 		}
@@ -42,9 +42,9 @@ ideas = {
 			}
 
 			modifier = {
-				production_factory_efficiency_gain_factor = -0.05 #-0.1
+				production_factory_efficiency_gain_factor = -0.1 #-0.1
 				production_factory_max_efficiency_factor = 0.05 #0.05
-				consumer_goods_factor = 0.15 #0.1
+				consumer_goods_factor = 0.1 #0.1
 				production_speed_industrial_complex_factor = 0.05 #0.05
 				industrial_concern_cost_factor = -0.15 #-0.15
 			}
@@ -861,7 +861,7 @@ ideas = {
 
 			modifier = {
 				stability_factor = 0.05
-				consumer_goods_factor = -0.05
+				consumer_goods_factor = -0.03
 				global_building_slots = 0.1
 			}
 		}
@@ -1148,8 +1148,9 @@ ideas = {
 			}
 
 			modifier = {
-				mobilization_speed = 0.15
-				minimum_training_level = -0.15
+				mobilization_speed = 0.25
+				minimum_training_level = -0.05
+				training_time_factor = -0.1
 			}
 		}
 
@@ -2265,6 +2266,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -2285,6 +2287,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -2305,6 +2308,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -2326,6 +2330,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -2337,7 +2342,7 @@ ideas = {
 		} 
 		
 		SOV_rebuild_the_savior_cathedral = {
-			picture = SOV_third_five_year_plan_civilian
+			picture = generic_exploit_mines
 	
 			removal_cost = -1
 			
@@ -2347,6 +2352,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {
@@ -2386,6 +2392,7 @@ ideas = {
 	
 			allowed_civil_war = {
 				original_tag = SOV
+				NOT = { has_government = communism }
 			}
 			
 			modifier = {

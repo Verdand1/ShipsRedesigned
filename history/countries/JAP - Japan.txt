@@ -161,9 +161,9 @@ if = {
 }
 
 create_import = {
-	resource = oil
-	factories = 2
-	exporter = USA
+		resource = oil
+		factories = 2
+		exporter = USA
 }
 
 create_import = {
