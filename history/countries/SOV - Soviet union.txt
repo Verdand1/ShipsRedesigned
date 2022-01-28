@@ -1626,7 +1626,7 @@ if = {
 			tank_nsb_armor_upgrade = 1
 		}
 		obsolete = yes
-		icon = "gfx/interface/technologies/gwtank.dds"
+		icon = "GFX_gwtank_medium"
 	}
 
 	create_equipment_variant = {
@@ -1645,7 +1645,7 @@ if = {
 			tank_nsb_engine_upgrade = 2
 			tank_nsb_armor_upgrade = 2
 		}
-		icon = "gfx/interface/technologies/SOV_basic_light_tank.dds"
+		icon = "GFX_SOV_basic_light_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "BT-5"
@@ -1662,7 +1662,7 @@ if = {
 			tank_nsb_engine_upgrade = 8
 			tank_nsb_armor_upgrade = 1
 		}
-		icon = "gfx/interface/technologies/SOV_imp_light_tank.dds"
+		icon = "GFX_SOV_improved_light_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "BT-7"
@@ -1679,7 +1679,7 @@ if = {
 			tank_nsb_engine_upgrade = 10
 			tank_nsb_armor_upgrade = 2
 		}
-		icon = "gfx/interface/technologies/SOV_imp_light_tank.dds"
+		icon = "GFX_SOV_improved_light_tank_medium"
 	}
 
 	create_equipment_variant = {
@@ -1700,7 +1700,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 10
 		}
-		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+		icon = "GFX_SOV_basic_heavy_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "T-35"
@@ -1721,7 +1721,7 @@ if = {
 			tank_nsb_armor_upgrade = 3
 			tank_nsb_engine_upgrade = 10
 		}
-		icon = "gfx/interface/technologies/SOV_basic_heavy_tank.dds"
+		icon = "GFX_SOV_basic_heavy_tank_medium"
 	}
 }
 
@@ -1850,7 +1850,7 @@ if = {
 				tank_nsb_engine_upgrade = 8
 				tank_nsb_armor_upgrade = 2
 			}
-			icon = "gfx/interface/technologies/SOV_basic_main_tank.dds"
+			icon = "GFX_SOV_basic_medium_tank_medium"
 		}
 		create_equipment_variant = {
 			name = "KV-1"
@@ -1867,7 +1867,7 @@ if = {
 				tank_nsb_engine_upgrade = 10
 				tank_nsb_armor_upgrade = 9
 			}
-			icon = "gfx/interface/technologies/SOV_imp_heavy_tank.dds"
+			icon = "GFX_SOV_improved_heavy_tank_medium"
 		}
 	}
 }

@@ -4051,7 +4051,7 @@ focus_tree = {
 			}
 			create_corps_commander = {
 				name = "José Mendes dos Reis"
-				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+				portrait_path = GFX_portrait_Jose_Mendes_dos_Reis
 				traits = { war_hero infantry_officer }
 				skill = 3
 				attack_skill = 3
@@ -4061,7 +4061,7 @@ focus_tree = {
 			}
 			create_navy_leader = {
 				name = "Armando Pereira de Castro Agatão Lança"
-				portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+				portrait_path = GFX_portrait_Armando_Pereira_de_Castro_Agatao_Lanca
 				traits = { spotter bold }
 				skill = 3
 				attack_skill = 2
@@ -6225,7 +6225,7 @@ focus_tree = {
 			create_country_leader = {
 				name = "Dom Duarte Nuno"
 				desc = "POLITICS_DOM_DUARTE_NUNO_DESC"
-				picture = "gfx/leaders/POR/portrait_por_duarte_nuno.dds"
+				picture = GFX_portrait_Dom_Duarte_Nuno
 				expire = "1976.12.24"
 				ideology = despotism
 				traits = { 

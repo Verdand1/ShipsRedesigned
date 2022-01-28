@@ -2381,7 +2381,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 3
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 						create_equipment_variant = {
 							name = "Panzer IV Ausf. A"
@@ -2400,7 +2400,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 2
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 					}
 				}
@@ -2424,7 +2424,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 3
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}
 						create_equipment_variant = {
 							name = "Panzer IV Ausf. A"
@@ -2443,7 +2443,7 @@ focus_tree = {
 								tank_nsb_engine_upgrade = 6
 								tank_nsb_armor_upgrade = 2
 							}
-							icon = "gfx/interface/technologies/ger_basic_main_tank.dds"
+							icon = "GFX_GER_basic_medium_tank_medium"
 						}	
 					}
 				}
@@ -7972,21 +7972,19 @@ focus_tree = {
 		}
 		bypass = {
 			OR = {
-				OR = {
-					NOT = { country_exists = AUS }
-					AUS = { is_subject = yes }
-					is_in_faction_with = AUS
-				}
-				OR = {
-					NOT = { country_exists = CZE }
-					CZE = { is_subject = yes }
-					is_in_faction_with = HUN
-				}
-				OR = {
-					NOT = { country_exists = HUN }
-					HUN = { is_subject = yes }
-					is_in_faction_with = HUN
-				}
+				NOT = { country_exists = AUS }
+				AUS = { is_subject = yes }
+				is_in_faction_with = AUS
+			}
+			OR = {
+				NOT = { country_exists = CZE }
+				CZE = { is_subject = yes }
+				is_in_faction_with = HUN
+			}
+			OR = {
+				NOT = { country_exists = HUN }
+				HUN = { is_subject = yes }
+				is_in_faction_with = HUN
 			}
 		}
 		cancel_if_invalid = yes

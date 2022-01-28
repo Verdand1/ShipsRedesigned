@@ -1072,7 +1072,7 @@ if = {
 			tank_nsb_armor_upgrade = 2
 			tank_nsb_engine_upgrade = 5
 		}
-		icon = "gfx/interface/technologies/USA_basic_light_tank.dds"
+		icon = "GFX_USA_basic_light_tank_medium"
 	}
 	create_equipment_variant = {
 		name = "M2A2"
@@ -1091,7 +1091,7 @@ if = {
 			tank_nsb_armor_upgrade = 2
 			tank_nsb_engine_upgrade = 5
 		}
-		icon = "gfx/interface/technologies/USA_basic_light_tank.dds"
+		icon = "GFX_USA_basic_light_tank_medium"
 	}
 }
 
