@@ -1,0 +1,13 @@
+﻿#NZL squadron transfert
+units = {
+	fleet = {
+		name = "Former New Zealand Squadron"			
+		naval_base = 9458 # Portsmouth
+		task_force = {
+			name = "Former New Zealand Squadron"
+			location = 9458 # Portsmouth
+			ship = { name = "HMS Dunedin" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "D Type" } } }
+			ship = { name = "HMS Diomede" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "D Type" } } }
+		}
+	}
+}

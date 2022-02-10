@@ -1,0 +1,13 @@
+﻿#NZL squadron transfert
+units = {
+	fleet = {
+		name = "New Zealand Squadron"
+		naval_base = 4543 # Auckland
+		task_force = {
+			name = "New Zealand Squadron"
+			location = 4543 # Auckland
+			ship = { name = "HMNZS Leander" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NZL version_name = "Leander Class" } } }
+			ship = { name = "HMNZS Achilles" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NZL version_name = "Leander Class" } } }
+		}
+	}
+}

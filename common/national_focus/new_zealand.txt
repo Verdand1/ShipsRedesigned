@@ -88,29 +88,69 @@
 		available_if_capitulated = no
 
 		completion_reward = {
+			set_technology = { 
+				basic_light_medium_battery = 1 
+				basic_range_engines = 1
+				improved_range_engines = 1
+				airplane_launcher = 1
+			}
+			create_equipment_variant = {
+				name = "Leander Class"
+				type = ship_hull_cruiser_1
+				parent_version = 0
+				modules = {
+					fixed_front_1 = ship_light_medium_battery_2
+					fixed_target_acquisition = ship_fire_control_system_0
+					fixed_engine = ship_range_engine_2
+					fixed_inner_hull = ship_extra_fuel_tank_3
+					rear_1 = ship_light_medium_battery_2
+					rear_2 = empty
+					mid_1 = ship_torpedo_2
+					mid_2 = ship_airplane_launcher_1
+					mid_3 = ship_anti_air_1
+					mid_4 = ship_unavailable_space
+					front_2 = ship_light_medium_battery_2
+				}
+				upgrades = {
+					ship_medium_engine_upgrade = 8
+					ship_medium_armor_upgrade = 2
+				}
+			}
 			custom_effect_tooltip = NZL_transfer_ships_tt
 			ENG = {
-			    transfer_ship = {
-			        prefer_name = "HMS Achilles"
-			        type = light_cruiser
-			        target = NZL
-			    }
-			    transfer_ship = {
-			        prefer_name = "HMS Leander"
-			        type = light_cruiser
-			        target = NZL
-			    }
+				transfer_ship = {
+					prefer_name = "HMS Achilles"
+					type = light_cruiser
+					target = D50
+				}
+				transfer_ship = {
+					prefer_name = "HMS Leander"
+					type = light_cruiser
+					target = D50
+				}
+				hidden_effect = {
+					load_oob = "ENG_from_NZL"
+				}
 			}
 			NZL = {
-			    transfer_ship = {
-			        prefer_name = "HMNZS Dunedin"
+				transfer_ship = {
+					prefer_name = "HMNZS Dunedin"
+					type = light_cruiser
+					target = D50
+				}
+				transfer_ship = {
+					prefer_name = "HMNZS Diomede"
+					type = light_cruiser
+					target = D50
+				}
+				hidden_effect = {
+					load_oob = "NZL_from_ENG"
+				}
+			}
+			D50 = {
+			    destroy_ships = {
 			        type = light_cruiser
-			        target = ENG
-			    }
-			    transfer_ship = {
-			        prefer_name = "HMNZS Diomede"
-			        type = light_cruiser
-			        target = ENG
+			        count = 4
 			    }
 			}
 		}
