@@ -1374,13 +1374,13 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 6
-			build_cost_ic = 25
+			build_cost_ic = 30
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
 			module_category = ship_sonar
-			convert_cost_ic = 16
+			convert_cost_ic = 24
 		}
 		
 	}
@@ -1390,13 +1390,13 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 12
-			build_cost_ic = 50
+			build_cost_ic = 70
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
 			module_category = ship_sonar
-			convert_cost_ic = 40
+			convert_cost_ic = 56
 		}
 		
 	}
@@ -1406,13 +1406,13 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 18
-			build_cost_ic = 100
+			build_cost_ic = 110
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
 			module_category = ship_sonar
-			convert_cost_ic = 84
+			convert_cost_ic = 88
 		}
 		
 	}
@@ -1422,7 +1422,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 24
-			build_cost_ic = 200
+			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
@@ -1457,7 +1457,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_fire_control_system
-			convert_cost_ic = 32
+			convert_cost_ic = 40
 		}
 		
 	}
@@ -1487,7 +1487,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 200
+			build_cost_ic = 150
 		}	
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1499,7 +1499,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_fire_control_system
-			convert_cost_ic = 168
+			convert_cost_ic = 120
 		}
 		
 	}
@@ -1508,7 +1508,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 400
+			build_cost_ic = 200
 		}	
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1520,7 +1520,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_fire_control_system
-			convert_cost_ic = 240
+			convert_cost_ic = 160
 		}
 		
 	}
@@ -1547,7 +1547,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
-			convert_cost_ic = 32
+			convert_cost_ic = 40
 		}
 		
 	}
@@ -1574,7 +1574,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 200
+			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1583,7 +1583,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
-			convert_cost_ic = 168
+			convert_cost_ic = 120
 		}
 		
 	}
@@ -1592,7 +1592,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 400
+			build_cost_ic = 200
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1601,7 +1601,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
-			convert_cost_ic = 240
+			convert_cost_ic = 160
 		}
 		
 	}
@@ -1630,7 +1630,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 400
+			build_cost_ic = 300
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1641,7 +1641,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module = ship_fire_control_radar
-			convert_cost_ic = 320
+			convert_cost_ic = 240
 		}
 		
 	}
