@@ -1013,6 +1013,25 @@ ideas = {
 			}
 		}
 
+		USA_navy_low_funding = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				
+			}
+			
+			removal_cost = -1
+
+			picture = chi_hyper_inflation
+			
+			modifier = {
+				industrial_capacity_dockyard = -0.2
+			}
+		}
+
 		# idea for the protect Amercians focus - USA democratic
 		american_influence_defence_democratic = {
 			allowed = { always = no	}

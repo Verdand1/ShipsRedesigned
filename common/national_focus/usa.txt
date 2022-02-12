@@ -5712,6 +5712,7 @@ focus_tree = {
 					}
 				}
 			}
+			remove_ideas = USA_navy_low_funding
 		}
 	}
 	focus = {

@@ -1553,6 +1553,7 @@ focus_tree = {
 				uses = 3
 				category = naval_doctrine
 			}
+			remove_ideas = ENG_battleship_primacy
 		}
 	}
 	focus = {
