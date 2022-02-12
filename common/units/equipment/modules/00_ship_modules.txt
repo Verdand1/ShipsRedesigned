@@ -1374,7 +1374,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 6
-			build_cost_ic = 20
+			build_cost_ic = 25
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
@@ -1406,7 +1406,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 18
-			build_cost_ic = 105
+			build_cost_ic = 100
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
@@ -1422,7 +1422,7 @@ equipment_modules = {
 		
 		add_stats = {
 			sub_detection = 24
-			build_cost_ic = 150
+			build_cost_ic = 200
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		
@@ -1446,7 +1446,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 40
+			build_cost_ic = 50
 		}	
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1487,7 +1487,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 210
+			build_cost_ic = 200
 		}	
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1508,7 +1508,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 400
 		}	
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1538,7 +1538,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 40
+			build_cost_ic = 50
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1574,7 +1574,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 210
+			build_cost_ic = 200
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1592,7 +1592,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
-			build_cost_ic = 300
+			build_cost_ic = 400
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
