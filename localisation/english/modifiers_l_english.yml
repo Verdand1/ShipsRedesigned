@@ -1172,6 +1172,7 @@
  cv_fighter_design_cost_factor:0 "Carrier Fighter Design Cost"
  heavy_fighter_equipment_design_cost_factor:0 "Heavy Fighter Design Cost"
  jet_fighter_design_cost_factor:0 "Jet Fighter Design Cost"
+ ship_hull_escort_design_cost_factor:0 "Light Ship Design Cost"
  ship_hull_light_design_cost_factor:0 "Light Cruiser Design Cost"
  ship_hull_heavy_design_cost_factor:0 "Heavy Ship Design Cost"
  ship_hull_carrier_design_cost_factor:0 "Carrier Design Cost"
