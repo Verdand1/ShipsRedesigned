@@ -993,7 +993,7 @@ equipment_modules = {
 		
 		add_stats = {
 			torpedo_attack = 10
-			sub_visibility = 1.2
+			sub_visibility = 1.5
 			supply_consumption = 0.01
 			reliability = 0.03
 			build_cost_ic = 70
