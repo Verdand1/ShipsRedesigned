@@ -111,7 +111,14 @@ SRD_naval_treaties = {
 			NOT = { has_idea = SRD_naval_treaty_adherent_5_temp_cheat }
 			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp }
 			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp_cheat }
-			has_navy_size = { size > 0 }
+			OR = {
+				has_navy_size = { size > 49 }
+				has_navy_size = { size > 9 unit = light_cruiser }
+				has_navy_size = { size > 3 unit = heavy_cruiser }
+				has_navy_size = { size > 1 unit = battleship }
+				has_navy_size = { size > 0 unit = carrier }
+				has_navy_size = { size > 1 unit = light_carrier }
+			}
 			NOT = { has_war = yes }
 		}
 		
