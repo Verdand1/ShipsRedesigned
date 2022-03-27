@@ -250,7 +250,7 @@ country_event = {
 	picture = GFX_report_event_usa_heavy_cruiser
 
 	trigger = {
-		SRD_has_naval_treaty_trigger = yes
+		SRD_any_naval_treaty_trigger = yes
 		has_war = yes
 		OR = {
 			NOT = { tag = ITA }
