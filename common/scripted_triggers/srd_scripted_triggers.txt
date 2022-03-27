@@ -27,6 +27,54 @@ SRD_any_naval_treaty_trigger = {
 	}
 }
 
+SRD_any_naval_treaty_ag_trigger = {
+	OR = {
+		has_idea = SRD_anglo_german_naval_agreement
+		has_idea = SRD_anglo_german_naval_agreement_cheat
+	}
+}
+
+SRD_any_naval_treaty_commonwealth_trigger = {
+	OR = {
+		has_idea = SRD_commonwealth_naval_agreement
+		has_idea = SRD_commonwealth_naval_agreement_escalator
+		has_idea = SRD_commonwealth_naval_agreement_temp
+	}
+}
+
+SRD_any_naval_treaty_7_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_7 
+		has_idea = SRD_naval_treaty_adherent_7_cheat
+		has_idea = SRD_naval_treaty_adherent_7_escalator
+		has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_7_temp
+		has_idea = SRD_naval_treaty_adherent_7_temp_cheat
+	}
+}
+
+SRD_any_naval_treaty_5_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_5 
+		has_idea = SRD_naval_treaty_adherent_5_cheat
+		has_idea = SRD_naval_treaty_adherent_5_escalator
+		has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_5_temp
+		has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+	}
+}
+
+SRD_any_naval_treaty_3_trigger = {
+	OR = {
+		has_idea = SRD_naval_treaty_adherent_3 
+		has_idea = SRD_naval_treaty_adherent_3_cheat
+		has_idea = SRD_naval_treaty_adherent_3_escalator
+		has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+		has_idea = SRD_naval_treaty_adherent_3_temp
+		has_idea = SRD_naval_treaty_adherent_3_temp_cheat
+	}
+}
+
 SRD_has_naval_treaty_trigger = {
 	OR = {
 		has_idea = SRD_naval_treaty_adherent_7 
