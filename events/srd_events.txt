@@ -250,13 +250,26 @@ country_event = {
 	picture = GFX_report_event_usa_heavy_cruiser
 
 	trigger = {
-		SRD_has_naval_treaty_trigger = yes
+		SRD_any_naval_treaty_trigger = yes
 		has_war = yes
 		OR = {
 			NOT = { tag = ITA }
 			any_other_country = {
 				NOT = { tag = ETH }
 				has_war_with = ITA
+			}
+		}
+		OR = {
+			NOT = { tag = JAP }
+			any_other_country = {
+				NOT = { tag = CHI }
+				NOT = { tag = PRC }
+				NOT = { tag = GXC }
+				NOT = { tag = YUN }
+				NOT = { tag = SHX }
+				NOT = { tag = SIK }
+				NOT = { tag = XSM }
+				has_war_with = JAP
 			}
 		}
 	}
@@ -298,6 +311,13 @@ country_event = {
 		remove_ideas = SRD_commonwealth_naval_agreement_escalator
 		remove_ideas = SRD_anglo_german_naval_agreement
 		remove_ideas = SRD_anglo_german_naval_agreement_cheat
+		remove_ideas = SRD_naval_treaty_adherent_7_temp
+		remove_ideas = SRD_naval_treaty_adherent_7_temp_cheat
+		remove_ideas = SRD_naval_treaty_adherent_5_temp
+		remove_ideas = SRD_naval_treaty_adherent_5_temp_cheat
+		remove_ideas = SRD_naval_treaty_adherent_3_temp
+		remove_ideas = SRD_naval_treaty_adherent_3_temp_cheat
+		remove_ideas = SRD_commonwealth_naval_agreement_temp
 	}
 }
 
