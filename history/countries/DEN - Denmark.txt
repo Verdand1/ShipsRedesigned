@@ -152,7 +152,7 @@ set_convoys = 40
 
 # Submarines #
 create_equipment_variant = {
-	name = "Holland Type"
+	name = "Rota Class"
 	type = ship_hull_submarine_1
 	name_group = DEN_DD_HISTORICAL
 	parent_version = 0
@@ -162,6 +162,23 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 2
+		sub_depth_upgrade = 2
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Daphne Class"
+	type = ship_hull_submarine_1
+	name_group = DEN_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 6
+	modules = {
+		fixed_engine = sub_ship_engine_1
+	}
+	upgrades = {
+		sub_engine_upgrade = 2
+		sub_depth_upgrade = 3
 	}
 }
 

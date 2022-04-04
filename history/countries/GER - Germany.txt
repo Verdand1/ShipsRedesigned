@@ -483,6 +483,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 6
+		sub_depth_upgrade = 7
 	}
 }
 
@@ -496,6 +497,9 @@ create_equipment_variant = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_2
 		fixed_inner_hull = cramped
+	}
+	upgrades = {
+		sub_depth_upgrade = 5
 	}
 }
 
@@ -514,6 +518,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
+		sub_depth_upgrade = 7
 	}
 }
 
@@ -579,7 +584,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Types 1936"
+	name = "Type 1936"
 	type = ship_hull_light_1
 	name_group = GER_DD_HISTORICAL
 	parent_version = 3

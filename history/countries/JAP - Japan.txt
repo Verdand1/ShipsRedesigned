@@ -486,6 +486,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 6
+		sub_depth_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -518,6 +519,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 6
+		sub_depth_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -535,6 +537,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 1
+		sub_depth_upgrade = 4
 	}
 	obsolete = yes
 }
@@ -572,6 +575,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 3
+		sub_depth_upgrade = 4
 	}
 }
 
@@ -592,6 +596,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 9
+		sub_depth_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -606,6 +611,9 @@ create_equipment_variant = {
 		fixed_engine = sub_ship_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_2 = empty
+	}
+	upgrades = {
+		sub_depth_upgrade = 4
 	}
 }
 
@@ -626,6 +634,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 6
+		sub_depth_upgrade = 5
 	}
 }
 
@@ -649,10 +658,13 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = sub_ship_engine_2
 	}
+	upgrades = {
+		sub_depth_upgrade = 5
+	}
 }
 
 create_equipment_variant = {
-	name = "Junsen Type - Group 2 & 3"				
+	name = "Junsen Type - Group 2"				
 	type = ship_hull_submarine_1
 	name_group = JAP_SS_HISTORICAL
 	parent_version = 10 #12
@@ -663,6 +675,18 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 9
+		sub_depth_upgrade = 5
+	}
+}
+
+create_equipment_variant = {
+	name = "Junsen Type - Group 3"				
+	type = ship_hull_submarine_1
+	name_group = JAP_SS_HISTORICAL
+	parent_version = 12 #13
+	role_icon_index = 7
+	upgrades = {
+		sub_depth_upgrade = 7
 	}
 }
 

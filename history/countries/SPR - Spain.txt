@@ -479,6 +479,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 5
+		sub_depth_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -497,6 +498,9 @@ create_equipment_variant = {
 		mid_2 = empty
 		front_2 = ship_torpedo_sub_2
 	}
+	upgrades = {
+		sub_depth_upgrade = 6
+	}
 	obsolete = yes
 }
 
@@ -512,6 +516,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 8
+		sub_depth_upgrade = 3
 	}
 }
 

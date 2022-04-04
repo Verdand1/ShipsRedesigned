@@ -185,6 +185,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 7
+		sub_depth_upgrade = 7
 	}
 }
 

@@ -82,6 +82,20 @@ upgrades = {
 		}
 	}
 
+	sub_depth_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		multiply_stats = {
+			sub_visibility = -0.04
+			build_cost_ic = 0.03
+		}
+	}
 	ship_light_armor_upgrade = {
 		max_level = 3
 		cost = naval

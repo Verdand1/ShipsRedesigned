@@ -793,7 +793,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.05
-			sub_visibility = -0.05
+			fuel_consumption = -0.05
 			naval_range = 0.05
 			build_cost_ic = 0.05
 		}
@@ -807,7 +807,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.1
-			sub_visibility = -0.1
+			fuel_consumption = -0.1
 			naval_range = 0.1
 			build_cost_ic = 0.1
 		}
@@ -821,7 +821,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.15
-			sub_visibility = -0.15
+			fuel_consumption = -0.15
 			naval_range = 0.15
 			build_cost_ic = 0.15
 		}
@@ -835,7 +835,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.2
-			sub_visibility = -0.2
+			fuel_consumption = -0.2
 			naval_range = 0.2
 			build_cost_ic = 0.2
 		}
@@ -996,7 +996,7 @@ equipment_modules = {
 			sub_visibility = 1.5
 			supply_consumption = 0.01
 			reliability = 0.03
-			build_cost_ic = 70
+			build_cost_ic = 50
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1015,7 +1015,7 @@ equipment_modules = {
 			sub_visibility = 2
 			supply_consumption = 0.01
 			reliability = 0.03
-			build_cost_ic = 100
+			build_cost_ic = 80
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {

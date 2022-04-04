@@ -3658,6 +3658,7 @@
  ship_light_engine_upgrade:0 "Engine"
  ship_medium_engine_upgrade:0 "Engine"
  ship_heavy_engine_upgrade:0 "Engine"
+ sub_depth_upgrade:0 "Depth"
  ship_light_armor_upgrade:0 "Armor"
  ship_medium_armor_upgrade:0 "Armor"
  ship_heavy_armor_upgrade:0 "Armor"

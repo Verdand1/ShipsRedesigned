@@ -25,11 +25,11 @@ equipments = {
 		reliability = 0.5
 		supply_consumption = 0.01
 		manpower = 50
-		fuel_consumption = 1.5
+		fuel_consumption = 2.5
 		surface_visibility = 1
 		surface_detection = 10
 		sub_visibility = 10
-		build_cost_ic = 300
+		build_cost_ic = 200
 		
 		resources = { steel = 2	}
 
@@ -83,6 +83,7 @@ equipments = {
 		
 		upgrades = {
 			sub_engine_upgrade
+			sub_depth_upgrade
 		}
 
 		default_modules = {

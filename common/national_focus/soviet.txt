@@ -3443,6 +3443,7 @@ focus_tree = {
 					}
 					upgrades = {
 						sub_engine_upgrade = 9
+						sub_depth_upgrade = 5
 					}
 				}
 				#Line Production

@@ -127,29 +127,29 @@ units= {
 			ship = { name = "RSmg Otaria" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } } 
 			ship = { name = "RSmg Enrico Tazzoli" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Pietro Calvi Class" } } } 
 			# XIII Squadriglia Sommergibili
-			ship = { name = "RSmg Diamante" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
-			ship = { name = "RSmg Topazio" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
-			ship = { name = "RSmg Nereide" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
-			ship = { name = "RSmg Naiade" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
+			ship = { name = "RSmg Diamante" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } } 
+			ship = { name = "RSmg Topazio" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } } 
+			ship = { name = "RSmg Nereide" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } } 
+			ship = { name = "RSmg Naiade" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } } 
 		}
 		task_force = {
 			name = "III Gruppo Sommergibili"
 			location = 4159 # Messina
 			# XXXI Squadriglia Sommergibili
-			ship = { name = "RSmg Vettor Pisani" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Giovanni Bausan" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Marcantonio Colonna" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Des Geneys" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Vettor Pisani" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Giovanni Bausan" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Marcantonio Colonna" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Des Geneys" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
 			# XXXII Squadriglia Sommergibili
-			ship = { name = "RSmg Fratelli Bandiera" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Luciano Manara" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Ciro Menotti" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Santorre Santarosa" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Fratelli Bandiera" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Luciano Manara" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Ciro Menotti" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Santorre Santarosa" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
 			# XXXIII Squadriglia Sommergibili
-			ship = { name = "RSmg Goffredo Mameli" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Pier Capponi" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Tito Speri" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Giovanni da Procida" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Goffredo Mameli" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Pier Capponi" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Tito Speri" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
+			ship = { name = "RSmg Giovanni da Procida" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "800t Type" } } }
 			ship = { name = "RSmg Pietro Micca" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Pietro Micca Class" } } }
 		}
 		task_force = {
@@ -163,22 +163,22 @@ units= {
 			# XLII Squadriglia Sommergibili
 			ship = { name = "RSmg Luigi Settembrini" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
 			ship = { name = "RSmg Ruggiero Settimo" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
-			ship = { name = "RSmg Salpa" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Serpente " definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Salpa" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Serpente " definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
 			# XLIII Squadriglia Sommergibili
-			ship = { name = "RSmg Rubino" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Ondina" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Anfitrite" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Rubino" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Ondina" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Anfitrite" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
 			ship = { name = "RSmg Filippo Corridoni" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Marcantonio Bragadin Class" } } }
 		}
 		task_force = {
 			name = "V Gruppo Sommergibili"
 			location = 11773 # Cagliari
 			# LI Squadriglia Sommergibili
-			ship = { name = "RSmg Jalea" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Jantina" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Ametista" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Medusa" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Jalea" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Jantina" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Ametista" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Medusa" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
 			ship = { name = "RSmg Delfino" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
 		}
 	}
@@ -281,7 +281,7 @@ units= {
 			ship = { name = "RSmg Narvalo" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
 			ship = { name = "RSmg Squalo" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
 			ship = { name = "RSmg Tricheco" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
-			ship = { name = "RSmg Zaffiro" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
+			ship = { name = "RSmg Zaffiro" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
 		}
 		task_force = {
 			name = "Settore Libia - Tripoli"
@@ -300,11 +300,11 @@ units= {
 			ship = { name = "RCT Nembo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Turbine Class" } } }
 			ship = { name = "RCT Turbine" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Turbine Class" } } }
 			# LXI Squadriglia Sommergibili
-			ship = { name = "RSmg Sirena" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Argonauta" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Fisalia" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Smeraldo" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } }
-			ship = { name = "RSmg Galatea" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t & 800t Types" } } } 
+			ship = { name = "RSmg Sirena" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Argonauta" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Fisalia" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Smeraldo" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } }
+			ship = { name = "RSmg Galatea" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "600t Type" } } } 
 			ship = { name = "RSmg Marcantonio Bragadin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Marcantonio Bragadin Class" } } }
 		}
 		task_force = {

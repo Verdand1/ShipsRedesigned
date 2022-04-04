@@ -512,6 +512,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 1
+		sub_depth_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -532,6 +533,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 8
+		sub_depth_upgrade = 7
 	}
 	obsolete = yes
 }
@@ -552,6 +554,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 5
+		sub_depth_upgrade = 7
 	}
 }
 

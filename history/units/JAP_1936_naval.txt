@@ -86,8 +86,8 @@ units = {
 			ship = { ordered_name = 3 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
 			ship = { ordered_name = 4 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
 			ship = { ordered_name = 5 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1M"} } }
-			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 2 & 3"} } }
-			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 2 & 3"} } }
+			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 2"} } }
+			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 3"} } }
 		}
 	}
 
@@ -537,7 +537,7 @@ instant_effect =
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "JAP"
-			version_name = "Junsen Type - Group 2 & 3"
+			version_name = "Junsen Type - Group 3"
 		}
 		name = "I8"
 		requested_factories = 1
