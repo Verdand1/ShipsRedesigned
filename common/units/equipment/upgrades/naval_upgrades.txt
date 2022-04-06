@@ -17,6 +17,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_range = -0.03
+			surface_detection = 0.05
 			sub_visibility = 0.02
 			build_cost_ic = 0.02
 		}
@@ -92,17 +93,33 @@ upgrades = {
 		}
 
 		multiply_stats = {
+			surface_detection = -0.05
 			sub_visibility = -0.04
 			build_cost_ic = 0.03
 		}
 	}
 	ship_light_armor_upgrade = {
-		max_level = 3
+		max_level = 5
 		cost = naval
 
 		linear_cost = {
 			cost_by_level = 1
 			cost_by_level_for_licensed_equipment = 2
+		}
+
+		level_requirements = {
+			2 = {
+				has_tech = basic_armor_scheme
+			}
+			3 = {
+				has_tech = improved_armor_scheme
+			}
+			4 = {
+				has_tech = advanced_armor_scheme
+			}
+			5 = { 
+				has_tech = modern_armor_scheme
+			}
 		}
 
 		add_stats = {

@@ -116,6 +116,7 @@ set_technology = {
 	basic_range_engines = 1	
 	improved_perf_engines = 1
 	basic_perf_engines = 1
+	improved_armor_scheme = 1
 	basic_armor_scheme = 1
 	airplane_launcher = 1
 	flight_deck = 1
