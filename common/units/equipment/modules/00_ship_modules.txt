@@ -1393,6 +1393,9 @@ equipment_modules = {
 			build_cost_ic = 70
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.1
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar
@@ -1409,6 +1412,9 @@ equipment_modules = {
 			build_cost_ic = 110
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.2
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar
@@ -1425,6 +1431,9 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.3
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar
