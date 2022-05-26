@@ -215,4 +215,8 @@ upgrades = {
 			build_cost_ic = 0.08
 		}
 	}
+
+	ship_ai_priority = {
+		max_level = 13
+	}
 }

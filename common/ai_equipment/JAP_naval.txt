@@ -1,0 +1,1702 @@
+# AI Ship Designs for GLORIOUS NIPPON STEEL FOLDED 1000 TIMES
+
+JAP_DD = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_screen }
+	
+	priority = {
+		factor = 200
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_DD = yes
+				SRD_treaty_limit_level_5_DD = yes
+			}
+		}
+	}
+	
+	DD = {
+	
+		role_icon_index = 2
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_light_1
+			modules = {
+				rear_1 = { any_of = { ship_depth_charge_4 ship_depth_charge_3 ship_depth_charge_2 ship_depth_charge_1 } }
+			}
+			upgrades = {
+				ship_light_engine_upgrade = 9
+				ship_light_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_surveillance_radar_4
+			ship_surveillance_radar_3
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_extra_fuel_tank_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+			ship_torpedo_2
+		}
+	}
+}
+
+JAP_ASW = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_escort }
+	
+	priority = {
+		factor = 10
+		modifier = {
+			factor = 200
+			anti_submarine_strategy_required_trigger = yes
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_DD = yes
+				SRD_treaty_limit_level_5_DD = yes
+			}
+		}
+	}
+	
+	ASW = {
+	
+		role_icon_index = 2
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_light_1
+			modules = {
+				mid_1 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_light_engine_upgrade = 9
+				ship_light_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_sonar_4
+			ship_sonar_3
+			ship_sonar_2
+			ship_sonar_1
+			ship_surveillance_radar_4
+			ship_surveillance_radar_3
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_extra_fuel_tank_3
+			ship_depth_charge_4
+			ship_depth_charge_3
+			ship_depth_charge_2
+			ship_depth_charge_1
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+			ship_light_battery_1
+		}
+	}
+}
+
+JAP_MS = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_mine_sweeper }
+	
+	priority = {
+		factor = 10
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_DD = yes
+				SRD_treaty_limit_level_5_DD = yes
+			}
+		}
+	}
+	
+	MS = {
+	
+		role_icon_index = 5
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_light_1
+			modules = {
+				mid_1 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_light_engine_upgrade = 9
+				ship_light_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_sonar_4
+			ship_sonar_3
+			ship_sonar_2
+			ship_sonar_1
+			ship_fire_control_radar_1
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_extra_fuel_tank_1
+			ship_mine_sweeper_1
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+			ship_light_battery_1
+		}
+	}
+}
+
+JAP_ML = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_mine_layer }
+	
+	priority = {
+		factor = 10
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_DD = yes
+				SRD_treaty_limit_level_5_DD = yes
+			}
+		}
+	}
+	
+	ML = {
+	
+		role_icon_index = 5
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_light_1
+			modules = {
+				mid_1 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_light_engine_upgrade = 9
+				ship_light_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_0
+			ship_fire_control_radar_1
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_extra_fuel_tank_1
+			ship_mine_layer_1
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+			ship_light_battery_1
+		}
+	}
+}
+
+JAP_CL = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_cruiser_light }
+	
+	priority = {
+		factor = 20
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_CL = yes
+				SRD_treaty_limit_level_5_CL = yes
+			}
+		}
+	}
+	
+	CL_treaty = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5
+				has_idea = SRD_naval_treaty_adherent_5_temp
+				has_idea = SRD_naval_treaty_adherent_7
+				has_idea = SRD_naval_treaty_adherent_7_temp
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_2
+			ship_light_medium_battery_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_breach_1 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5_cheat
+				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_5_escalator
+				has_idea = SRD_naval_treaty_adherent_7_cheat
+				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_7_escalator
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_light_medium_battery_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_breach_2 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_light_medium_battery_2
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_2 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_light_medium_battery_2
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_3 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_extra_fuel_tank_3
+			ship_light_medium_battery_3
+			ship_light_medium_battery_2
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_4 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_extra_fuel_tank_3
+			ship_light_medium_battery_4
+			ship_light_medium_battery_3
+			ship_light_medium_battery_2
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+}
+
+JAP_CA = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_cruiser_heavy }
+	
+	priority = {
+		factor = 40
+		modifier = {
+			factor = 2
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_CA = yes
+				SRD_treaty_limit_level_5_CA = yes
+			}
+		}
+	}
+
+	CA_treaty = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5
+				has_idea = SRD_naval_treaty_adherent_5_temp
+				has_idea = SRD_naval_treaty_adherent_7
+				has_idea = SRD_naval_treaty_adherent_7_temp
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+				mid_3 = ship_light_battery_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_2
+			ship_medium_battery_2
+		}
+	}
+	
+	CA_breach_1 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5_cheat
+				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_5_escalator
+				has_idea = SRD_naval_treaty_adherent_7_cheat
+				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
+				has_idea = SRD_naval_treaty_adherent_7_escalator
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
+				mid_3 = ship_light_battery_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_medium_battery_2
+		}
+	}
+	
+	CA_breach_2 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
+			}
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_4 = { any_of = { ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_medium_battery_2
+			ship_torpedo_2
+		}
+	}
+	
+	CA_2 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_extra_fuel_tank_3
+			ship_medium_battery_2
+			ship_torpedo_2
+		}
+	}
+	
+	CA_3 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_extra_fuel_tank_3
+			ship_medium_battery_3
+			ship_medium_battery_2
+			ship_torpedo_2
+		}
+	}
+	
+	CA_4 = {
+	
+		role_icon_index = 2
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_2
+			modules = {
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_extra_fuel_tank_3
+			ship_medium_battery_4
+			ship_medium_battery_3
+			ship_medium_battery_2
+			ship_torpedo_2
+		}
+	}
+}
+
+JAP_BB = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_capital_bb }
+	
+	priority = {
+		factor = 20
+		modifier = {
+			factor = 2
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_BB = yes
+				SRD_treaty_limit_level_5_BB = yes
+			}
+		}
+	}
+
+	BB_support_2 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			has_completed_focus = JAP_carrier_warfare_experiments
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 8
+				ship_heavy_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
+	BB_support_3 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 6
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_3
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
+	BB_support_4 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 6
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_4
+			ship_heavy_battery_3
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
+	BB_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			OR = {
+				has_idea = SRD_naval_treaty_adherent_5
+				has_idea = SRD_naval_treaty_adherent_5_temp
+				has_idea = SRD_naval_treaty_adherent_7
+				has_idea = SRD_naval_treaty_adherent_7_temp
+			}
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = ship_light_medium_battery_2
+				mid_2 = ship_anti_air_1
+				mid_3 = ship_anti_air_1
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 7
+				ship_heavy_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			reinforced_structure
+			ship_heavy_battery_2
+		}
+	}
+	
+	BB_2 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			not = { has_idea = SRD_naval_treaty_adherent_5 }
+			not = { has_idea = SRD_naval_treaty_adherent_5_temp }
+			not = { has_idea = SRD_naval_treaty_adherent_7 }
+			not = { has_idea = SRD_naval_treaty_adherent_7_temp }
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_unavailable_space } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 7
+				ship_heavy_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	BB_3 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 8
+				ship_heavy_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_3
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
+	BB_4 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 6
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			damage_control_system_3
+			damage_control_system_2
+			damage_control_system_1
+			reinforced_structure
+			ship_heavy_battery_4
+			ship_heavy_battery_3
+			ship_heavy_battery_2
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+}
+
+JAP_CV = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_carrier }
+	
+	priority = {
+		factor = 20
+		modifier = {
+			factor = 2
+			has_completed_focus = JAP_carrier_warfare_experiments
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_CV = yes
+				SRD_treaty_limit_level_5_CV = yes
+			}
+		}
+	}
+
+	CV_treaty = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = yes
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				fixed_front_1 = ship_large_deck_space
+				mid_1 = ship_light_battery_2
+				mid_2 = { any_of = { ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
+				mid_4 = { any_of = { ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 8
+				ship_heavy_armor_upgrade = 1
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_unprotected_hangar
+		}
+	}
+
+	CV_support_2 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				rear_2 = ship_deck_space
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CV_support_3 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CV_support_4 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = ship_deck_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CV_2 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_completed_focus = JAP_carrier_warfare_experiments
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CV_3 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				rear_2 = ship_deck_space
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CV_4 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			SRD_any_naval_treaty_trigger = no
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_unprotected_hangar
+			ship_large_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+}
+
+JAP_CVL = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_carrier_light }
+	
+	priority = {
+		factor = 20
+		modifier = {
+			factor = 2
+			has_completed_focus = JAP_carrier_warfare_experiments
+		}
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_CVL = yes
+				SRD_treaty_limit_level_5_CVL = yes
+			}
+		}
+	}
+
+	CVL_support_2 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_armor_upgrade = 1
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CVL_support_3 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_armor_upgrade = 1
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CVL_support_4 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_armor_upgrade = 1
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CVL_2 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			has_completed_focus = JAP_carrier_warfare_experiments
+			not = { has_tech = advanced_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CVL_3 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = advanced_perf_engines
+			not = { has_tech = modern_perf_engines }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_3
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+
+	CVL_4 = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			has_completed_focus = JAP_carrier_warfare_experiments
+			has_tech = modern_perf_engines
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_4
+			ship_unprotected_hangar
+			ship_deck_space
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+}
+
+JAP_SS = {
+
+	category = naval
+	
+	available_for = { JAP }
+	
+	roles = { naval_submarine }
+	
+	priority = {
+		factor = 80
+		modifier = {
+			factor = 0
+			OR = {
+				SRD_treaty_limit_level_7_SS = yes
+				SRD_treaty_limit_level_5_SS = yes
+			}
+		}
+	}
+
+	SS = {
+	
+		role_icon_index = 6
+
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_submarine_1
+			modules = {
+				mid_1 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				sub_engine_upgrade = 9
+				sub_depth_upgrade = 6
+			}
+		}
+		
+		allowed_modules = {
+			ship_airplane_launcher_1
+			ship_surveillance_radar_4
+			ship_surveillance_radar_3
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			sub_ship_engine_4
+			sub_ship_engine_3
+			sub_ship_engine_2
+			ship_extra_fuel_tank_3
+			ship_torpedo_sub_2
+		}
+	}
+}

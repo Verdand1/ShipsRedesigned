@@ -298,6 +298,7 @@ create_equipment_variant = {
 	upgrades = {
 		sub_engine_upgrade = 1
 		sub_depth_upgrade = 3
+		ship_ai_priority = 11
 	}
 	obsolete = yes
 }
@@ -331,6 +332,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
+		ship_ai_priority = 0
 	}
 }
 
@@ -435,6 +437,9 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = empty
 	}
+	upgrades = {
+		ship_ai_priority = 11
+	}
 	obsolete = yes
 }
 
@@ -460,6 +465,9 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_ai_priority = 0
 	}
 }
 
@@ -504,6 +512,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_engine_upgrade = 7
 		ship_medium_armor_upgrade = 1
+		ship_ai_priority = 1
 	}
 }
 
@@ -535,6 +544,9 @@ create_equipment_variant = {
 		fixed_inner_hull = empty
 		rear_1 = empty
 	}
+	upgrades = {
+		ship_ai_priority = 3
+	}
 	obsolete = yes
 }
 
@@ -546,6 +558,9 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		rear_2 = empty
+	}
+	upgrades = {
+		ship_ai_priority = 0
 	}
 	obsolete = yes
 }

@@ -677,6 +677,7 @@ create_equipment_variant = {
 	upgrades = {
 		sub_engine_upgrade = 9
 		sub_depth_upgrade = 5
+		ship_ai_priority = 2
 	}
 }
 
@@ -688,6 +689,7 @@ create_equipment_variant = {
 	role_icon_index = 7
 	upgrades = {
 		sub_depth_upgrade = 7
+		ship_ai_priority = 0
 	}
 }
 
@@ -1236,6 +1238,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_armor_upgrade = 3
+		ship_ai_priority = 10
 	}
 }
 
@@ -1372,6 +1375,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 8
+		ship_ai_priority = 4
 	}
 }
 

@@ -218,6 +218,7 @@ create_equipment_variant = {
 	role_icon_index = 2
 	upgrades = {
 		ship_light_engine_upgrade = 7
+		ship_ai_priority = 2
 	}
 	obsolete = yes
 }
@@ -362,6 +363,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_engine_upgrade = 1
 		ship_medium_armor_upgrade = 3
+		ship_ai_priority = 6
 	}
 	obsolete = yes
 }

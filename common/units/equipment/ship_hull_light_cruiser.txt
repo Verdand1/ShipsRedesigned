@@ -121,6 +121,7 @@ equipments = {
 		upgrades = {
 			ship_medium_engine_upgrade
 			ship_medium_armor_upgrade
+			ship_ai_priority
 		}
 
 		default_modules = {

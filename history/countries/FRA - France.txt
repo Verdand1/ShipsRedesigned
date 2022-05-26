@@ -533,6 +533,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_depth_upgrade = 7
+		ship_ai_priority = 6
 	}
 }
 
@@ -657,6 +658,9 @@ create_equipment_variant = {
 		rear_1 = ship_depth_charge_1
 		mid_2 = ship_torpedo_2
 	}
+	upgrades = {
+		ship_ai_priority = 1
+	}
 }
 
 create_equipment_variant = {
@@ -672,6 +676,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 6
+		ship_ai_priority = 1
 	}
 }
 
@@ -688,6 +693,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_engine_upgrade = 9
 		ship_light_armor_upgrade = 2
+		ship_ai_priority = 0
 	}
 }
 
@@ -933,6 +939,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 2
+		ship_ai_priority = 13
 	}
 	obsolete = yes
 }
@@ -1018,6 +1025,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_heavy_engine_upgrade = 2
 		ship_heavy_armor_upgrade = 1
+		ship_ai_priority = 7
 	}
 }
 

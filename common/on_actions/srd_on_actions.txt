@@ -11,6 +11,44 @@ on_actions = {
 				value = 5
 			}
 			set_global_flag = SRD_naval_conference_underway
+			if = {
+				limit = { 
+					SOV = { is_ai = yes	}
+				}
+				SOV = {
+					transfer_ship = {
+						prefer_name = "A-1"
+						type = submarine
+						target = D50
+					}
+					transfer_ship = {
+						prefer_name = "A-2"
+						type = submarine
+						target = D50
+					}
+					transfer_ship = {
+						prefer_name = "A-3"
+						type = submarine
+						target = D50
+					}
+					transfer_ship = {
+						prefer_name = "A-4"
+						type = submarine
+						target = D50
+					}
+					transfer_ship = {
+						prefer_name = "A-5"
+						type = submarine
+						target = D50
+					}
+				}
+				D50 = {
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 5
+					}
+				}
+			}
 		}
 	}
 

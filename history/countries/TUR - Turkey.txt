@@ -571,6 +571,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
+		ship_ai_priority = 7
 	}
 }
 
@@ -588,6 +589,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 1
+		ship_ai_priority = 5
 	}
 	obsolete = yes
 }
@@ -629,6 +631,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_engine_upgrade = 1
 		ship_medium_armor_upgrade = 1
+		ship_ai_priority = 2
 	}
 	obsolete = yes
 }
