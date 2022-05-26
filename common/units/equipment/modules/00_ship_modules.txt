@@ -1224,7 +1224,6 @@ equipment_modules = {
 	ship_deck_space = {
 		category = ship_deck_space
 		gfx = ship_deck_space_1
-		add_equipment_type = capital_ship
 
 		add_stats = {
 			surface_visibility = 1
@@ -1253,7 +1252,6 @@ equipment_modules = {
 		category = ship_large_deck_space
 		gui_category = ship_deck_space
 		gfx = ship_deck_space_2
-		add_equipment_type = capital_ship
 
 		add_stats = {
 			surface_visibility = 2

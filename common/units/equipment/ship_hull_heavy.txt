@@ -3,6 +3,7 @@ equipments = {
 	ship_hull_heavy = {
 		is_archetype = yes
 		type = capital_ship
+		interface_category = interface_category_capital_ships
 	}
 
 	ship_hull_heavy_1 = {
@@ -15,7 +16,6 @@ equipments = {
 		}
 
 		archetype = ship_hull_heavy
-		interface_category = interface_category_capital_ships
 		priority = 1500
 		can_convert_from = { ship_hull_carrier_1 }
 

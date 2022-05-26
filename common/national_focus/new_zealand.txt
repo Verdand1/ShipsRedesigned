@@ -148,10 +148,12 @@
 				}
 			}
 			D50 = {
-			    destroy_ships = {
-			        type = light_cruiser
-			        count = 4
-			    }
+				hidden_effect = {
+					destroy_ships = {
+						type = ship_hull_light
+						count = 4
+					}
+				}
 			}
 		}
 	}

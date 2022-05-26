@@ -117,7 +117,7 @@ upgrades = {
 			4 = {
 				has_tech = advanced_armor_scheme
 			}
-			5 = { 
+			5 = {
 				has_tech = modern_armor_scheme
 			}
 		}
@@ -150,7 +150,7 @@ upgrades = {
 			6 = {
 				has_tech = advanced_armor_scheme
 			}
-			8 = { 
+			8 = {
 				has_tech = modern_armor_scheme
 			}
 		}
@@ -201,7 +201,7 @@ upgrades = {
 			6 = {
 				has_tech = advanced_armor_scheme
 			}
-			8 = { 
+			8 = {
 				has_tech = modern_armor_scheme
 			}
 		}

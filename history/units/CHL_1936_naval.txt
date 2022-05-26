@@ -28,9 +28,9 @@ units= {
 		task_force = {
 			name = "Flotilla de Minadores"			
 			location = 8222 # Valparaiso
-			ship = { name = "BACH Elicura" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
-			ship = { name = "BACH Leucotón" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
-			ship = { name = "BACH Orompello" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ARG version_name = "Elicura Class" } } }
+			ship = { name = "BACH Elicura" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Elicura Class" } } }
+			ship = { name = "BACH Leucotón" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Elicura Class" } } }
+			ship = { name = "BACH Orompello" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = CHL version_name = "Elicura Class" } } }
 		}				
 		task_force = {				
 			name = "Flotilla de Submarinos nro. 1"			

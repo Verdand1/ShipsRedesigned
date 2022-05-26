@@ -826,8 +826,8 @@ create_equipment_variant = {
 	parent_version = 5
 	role_icon_index = 1
 	modules = {
-		fixed_engine = ship_range_engine_2
-		fixed_inner_hull = empty
+		fixed_engine = ship_perf_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_2 = ship_airplane_launcher_1
 		mid_1 = ship_torpedo_2
 		mid_2 = empty
@@ -835,7 +835,7 @@ create_equipment_variant = {
 		mid_4 = ship_unavailable_space
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 8
+		ship_medium_engine_upgrade = 6
 		ship_medium_armor_upgrade = 3
 	}
 }

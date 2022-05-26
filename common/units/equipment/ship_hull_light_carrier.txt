@@ -3,6 +3,7 @@ equipments = {
 	ship_hull_light_carrier = {
 		is_archetype = yes
 		type = carrier
+		interface_category = interface_category_capital_ships
 	}
 
 	ship_hull_carrier_2 = {
@@ -17,7 +18,6 @@ equipments = {
 		archetype = ship_hull_light_carrier
 		sprite = carrier
 		group_by = archetype
-		interface_category = interface_category_capital_ships
 		priority = 1700
 		can_convert_from = { ship_hull_cruiser_1 ship_hull_cruiser_2 }
 				

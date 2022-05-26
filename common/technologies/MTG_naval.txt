@@ -12,7 +12,7 @@ technologies = {
 		enable_equipments = {
 			ship_hull_light_1
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_deprecated_engine
 			ship_light_battery_1
 			ship_torpedo_1
@@ -23,11 +23,11 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = basic_light_battery 
+			leads_to_tech = basic_light_battery
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = ship_cruiser_hull 
+			leads_to_tech = ship_cruiser_hull
 			research_cost_coeff = 1
 		}
 
@@ -57,7 +57,7 @@ technologies = {
 	
 	basic_light_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_battery_2
 		}
 		
@@ -66,7 +66,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = improved_light_battery 
+			leads_to_tech = improved_light_battery
 			research_cost_coeff = 1
 		}
 		
@@ -104,7 +104,7 @@ technologies = {
 	
 	improved_light_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_battery_3
 		}
 		
@@ -113,7 +113,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = advanced_light_battery 
+			leads_to_tech = advanced_light_battery
 			research_cost_coeff = 1
 		}
 		
@@ -148,7 +148,7 @@ technologies = {
 	
 	advanced_light_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_battery_4
 		}
 		
@@ -200,7 +200,7 @@ technologies = {
 			ship_hull_cruiser_2
 			ship_hull_carrier_2
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_medium_battery_1
 			ship_medium_battery_1
 		}
@@ -249,7 +249,7 @@ technologies = {
 
 	basic_light_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_medium_battery_2
 		}
 		
@@ -293,7 +293,7 @@ technologies = {
 
 	improved_light_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_medium_battery_3
 		}
 		
@@ -337,7 +337,7 @@ technologies = {
 
 	advanced_light_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_light_medium_battery_4
 		}
 
@@ -375,7 +375,7 @@ technologies = {
 
 	basic_heavy_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_medium_battery_2
 		}
 		
@@ -419,7 +419,7 @@ technologies = {
 
 	improved_heavy_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_medium_battery_3
 		}
 		
@@ -463,7 +463,7 @@ technologies = {
 
 	advanced_heavy_medium_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_medium_battery_4
 		}
 		
@@ -514,7 +514,7 @@ technologies = {
 			ship_hull_heavy_1
 			ship_hull_carrier_1
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_battery_1
 		}
 		
@@ -561,7 +561,7 @@ technologies = {
 
 	basic_heavy_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_battery_2
 		}
 		
@@ -613,7 +613,7 @@ technologies = {
 
 	improved_heavy_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_battery_3
 		}
 		
@@ -657,7 +657,7 @@ technologies = {
 
 	advanced_heavy_battery = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_heavy_battery_4
 		}
 		
@@ -974,7 +974,7 @@ technologies = {
 		enable_equipments = {
 			ship_hull_submarine_1
 		}
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			sub_ship_deprecated_engine
 			ship_torpedo_sub_1
 			ship_extra_fuel_tank_1
@@ -1016,7 +1016,7 @@ technologies = {
 
 	basic_submarine_snorkel = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sub_snorkel_1
 		}
 		
@@ -1066,7 +1066,7 @@ technologies = {
 
 	improved_submarine_snorkel = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_sub_snorkel_2
 		}
 
@@ -1125,7 +1125,7 @@ technologies = {
 			custom_effect_tooltip = torpedo_advice_tt
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_torpedo_2
 			ship_torpedo_sub_2
 		}
@@ -1320,7 +1320,7 @@ technologies = {
 
 	basic_depth_charges = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_depth_charge_1
 			ship_sonar_1
 		}
@@ -1366,7 +1366,7 @@ technologies = {
 	
 	improved_depth_charges = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_depth_charge_2
 		}
 		
@@ -1411,7 +1411,7 @@ technologies = {
 	
 	advanced_depth_charges = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_depth_charge_3
 		}
 		
@@ -1456,7 +1456,7 @@ technologies = {
 	
 	modern_depth_charges = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_depth_charge_4
 		}
 		
@@ -1513,7 +1513,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_range_engine_1
 			sub_ship_engine_1
 		}
@@ -1544,7 +1544,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_range_engine_2
 			sub_ship_engine_2
 		}
@@ -1575,7 +1575,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_range_engine_3
 			sub_ship_engine_3
 		}
@@ -1601,7 +1601,7 @@ technologies = {
 
 		start_year = 1944
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_range_engine_4
 			sub_ship_engine_4
 		}
@@ -1632,7 +1632,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_perf_engine_1
 		}
 
@@ -1662,7 +1662,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_perf_engine_2
 		}
 
@@ -1692,7 +1692,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_perf_engine_3
 		}
 
@@ -1717,7 +1717,7 @@ technologies = {
 
 		start_year = 1944
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_perf_engine_4
 		}
 
@@ -1746,7 +1746,7 @@ technologies = {
 
 	basic_armor_scheme = {
 
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			reinforced_structure
 		}
 		
@@ -1913,7 +1913,7 @@ technologies = {
 
 	damage_control_1 = {
 		
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			damage_control_system_1
 		}
 
@@ -1956,7 +1956,7 @@ technologies = {
 
 	damage_control_2 = {
 		
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			damage_control_system_2
 		}
 
@@ -1999,7 +1999,7 @@ technologies = {
 
 	damage_control_3 = {
 		
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			damage_control_system_3
 		}
 
@@ -2045,7 +2045,7 @@ technologies = {
 
 	airplane_launcher = {
 		
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_airplane_launcher_1
 		}
 		
@@ -2089,7 +2089,7 @@ technologies = {
 
 	flight_deck = {
 		
-		enable_equipment_modules = { 
+		enable_equipment_modules = {
 			ship_deck_space
 			ship_large_deck_space
 			ship_unprotected_hangar

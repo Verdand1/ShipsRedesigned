@@ -1329,8 +1329,10 @@ create_equipment_variant = {
 	name_group = SOV_SS_SHCHUKA
 	parent_version = 6
 	role_icon_index = 6
-	upgrades = {
+	modules = {
 		fixed_inner_hull = empty
+	}
+	upgrades = {
 		sub_engine_upgrade = 2
 	}
 }
