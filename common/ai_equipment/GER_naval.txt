@@ -58,7 +58,7 @@ GER_DD = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_torpedo_2
 			ship_light_battery_4
 			ship_light_battery_3
@@ -119,7 +119,7 @@ GER_ASW = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_depth_charge_4
 			ship_depth_charge_3
 			ship_depth_charge_2
@@ -182,7 +182,7 @@ GER_MS = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_mine_sweeper_1
 			ship_anti_air_4
 			ship_anti_air_3
@@ -239,7 +239,7 @@ GER_ML = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_mine_layer_1
 			ship_anti_air_4
 			ship_anti_air_3
@@ -302,7 +302,7 @@ GER_CL = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_light_medium_battery_2
 			ship_torpedo_2
 		}
@@ -339,7 +339,7 @@ GER_CL = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			reinforced_structure
+			ship_reinforced_structure
 			ship_light_medium_battery_3
 			ship_light_medium_battery_2
 			ship_torpedo_2
@@ -376,7 +376,7 @@ GER_CL = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			reinforced_structure
+			ship_reinforced_structure
 			ship_light_medium_battery_4
 			ship_light_medium_battery_3
 			ship_light_medium_battery_2
@@ -436,7 +436,7 @@ GER_CA = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_medium_battery_2
 			ship_light_battery_4
 			ship_light_battery_3
@@ -476,7 +476,7 @@ GER_CA = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			reinforced_structure
+			ship_reinforced_structure
 			ship_medium_battery_3
 			ship_medium_battery_2
 			ship_light_battery_4
@@ -516,7 +516,7 @@ GER_CA = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			reinforced_structure
+			ship_reinforced_structure
 			ship_medium_battery_4
 			ship_medium_battery_3
 			ship_medium_battery_2
@@ -577,10 +577,10 @@ GER_BB = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			damage_control_system_3
-			damage_control_system_2
-			damage_control_system_1
-			reinforced_structure
+			ship_damage_control_system_3
+			ship_damage_control_system_2
+			ship_damage_control_system_1
+			ship_reinforced_structure
 			ship_heavy_battery_2
 			ship_light_battery_4
 			ship_light_battery_3
@@ -621,10 +621,10 @@ GER_BB = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			damage_control_system_3
-			damage_control_system_2
-			damage_control_system_1
-			reinforced_structure
+			ship_damage_control_system_3
+			ship_damage_control_system_2
+			ship_damage_control_system_1
+			ship_reinforced_structure
 			ship_heavy_battery_3
 			ship_heavy_battery_2
 			ship_light_battery_4
@@ -665,10 +665,10 @@ GER_BB = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			damage_control_system_3
-			damage_control_system_2
-			damage_control_system_1
-			reinforced_structure
+			ship_damage_control_system_3
+			ship_damage_control_system_2
+			ship_damage_control_system_1
+			ship_reinforced_structure
 			ship_heavy_battery_4
 			ship_heavy_battery_3
 			ship_heavy_battery_2
@@ -730,7 +730,7 @@ GER_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			reinforced_structure
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_light_battery_4
 			ship_light_battery_3
@@ -770,7 +770,7 @@ GER_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			reinforced_structure
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_light_battery_4
 			ship_light_battery_3
@@ -808,7 +808,7 @@ GER_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			reinforced_structure
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_light_battery_4
 			ship_light_battery_3

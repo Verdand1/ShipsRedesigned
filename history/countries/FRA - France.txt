@@ -564,7 +564,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_light_battery_2
 		fixed_engine = ship_perf_engine_1
-		fixed_inner_hull = reinforced_structure
+		fixed_inner_hull = ship_reinforced_structure
 		rear_1 = ship_depth_charge_2
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
@@ -654,7 +654,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = ship_perf_engine_2
-		fixed_inner_hull = reinforced_structure
+		fixed_inner_hull = ship_reinforced_structure
 		rear_1 = ship_depth_charge_1
 		mid_2 = ship_torpedo_2
 	}

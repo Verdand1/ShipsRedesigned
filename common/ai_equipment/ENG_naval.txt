@@ -719,10 +719,10 @@ ENG_BB = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			damage_control_system_3
-			damage_control_system_2
-			damage_control_system_1
-			reinforced_structure
+			ship_damage_control_system_3
+			ship_damage_control_system_2
+			ship_damage_control_system_1
+			ship_reinforced_structure
 			ship_heavy_battery_2
 			ship_unavailable_space
 		}

@@ -852,7 +852,7 @@ equipment_modules = {
 ###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###     ##    #   ##   #  ### #   # 
 
 
-	damage_control_system_1 = {
+	ship_damage_control_system_1 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -867,7 +867,7 @@ equipment_modules = {
 		dismantle_cost_ic = 200
 
 	}
-	damage_control_system_2 = {
+	ship_damage_control_system_2 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -882,7 +882,7 @@ equipment_modules = {
 		dismantle_cost_ic = 200
 
 	}
-	damage_control_system_3 = {
+	ship_damage_control_system_3 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -906,8 +906,8 @@ equipment_modules = {
 #  # ### ### #  # #    ##  #  #  ##  ### ###      ##   #  #  #  ##   ##   #   ##  #  # ### 
 
 
-	reinforced_structure = {
-		category = ship_structure
+	ship_reinforced_structure = {
+		category = ship_reinforced_structure
 		
 		add_stats = {
 			build_cost_ic = 100
