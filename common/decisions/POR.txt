@@ -518,6 +518,7 @@ POR_arms_purchases = {
 						upgrades = {
 							sub_engine_upgrade = 1
 							sub_depth_upgrade = 3
+							ship_ai_priority = 6
 						}
 					}
 				}
@@ -553,6 +554,7 @@ POR_arms_purchases = {
 						upgrades = {
 							sub_engine_upgrade = 1
 							sub_depth_upgrade = 3
+							ship_ai_priority = 6
 						}
 					}
 				}
@@ -588,6 +590,7 @@ POR_arms_purchases = {
 						upgrades = {
 							sub_engine_upgrade = 1
 							sub_depth_upgrade = 3
+							ship_ai_priority = 6
 						}
 					}
 				}
@@ -620,6 +623,7 @@ POR_arms_purchases = {
 						upgrades = {
 							sub_engine_upgrade = 1
 							sub_depth_upgrade = 3
+							ship_ai_priority = 6
 						}
 					}
 				}
@@ -647,6 +651,7 @@ POR_arms_purchases = {
 						upgrades = {
 							sub_engine_upgrade = 1
 							sub_depth_upgrade = 3
+							ship_ai_priority = 6
 						}
 					}
 				}
@@ -761,7 +766,7 @@ POR_arms_purchases = {
 							fixed_radar = ship_surveillance_radar_4
 							fixed_engine = sub_ship_engine_4
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -795,7 +800,7 @@ POR_arms_purchases = {
 							fixed_radar = ship_surveillance_radar_3
 							fixed_engine = sub_ship_engine_3
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -829,7 +834,7 @@ POR_arms_purchases = {
 							fixed_radar = ship_surveillance_radar_2
 							fixed_engine = sub_ship_engine_3
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -860,7 +865,7 @@ POR_arms_purchases = {
 							fixed_radar = ship_surveillance_radar_2
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -891,7 +896,7 @@ POR_arms_purchases = {
 							fixed_radar = ship_surveillance_radar_1
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -916,7 +921,7 @@ POR_arms_purchases = {
 							fixed_front_1 = ship_torpedo_sub_2
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
+							rear_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
 							sub_engine_upgrade = 4
@@ -1045,6 +1050,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1084,6 +1090,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1123,6 +1130,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1159,6 +1167,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1194,6 +1203,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1223,6 +1233,7 @@ POR_arms_purchases = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
 						}
 					}
 				}
@@ -1891,8 +1902,8 @@ POR_arms_purchases = {
 							rear_1 = ship_light_medium_battery_4
 							rear_2 = ship_anti_air_4
 							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							mid_3 = ship_anti_air_4
+							mid_3 = ship_torpedo_2
+							mid_4 = ship_anti_air_4
 							front_2 = ship_light_medium_battery_4
 						}
 						upgrades = {
@@ -1930,8 +1941,8 @@ POR_arms_purchases = {
 							rear_1 = ship_light_medium_battery_4
 							rear_2 = ship_anti_air_4
 							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							mid_3 = ship_anti_air_4
+							mid_3 = ship_torpedo_2
+							mid_4 = ship_anti_air_4
 							front_2 = ship_light_medium_battery_4
 						}
 						upgrades = {
@@ -1969,8 +1980,8 @@ POR_arms_purchases = {
 							rear_1 = ship_light_medium_battery_3
 							rear_2 = ship_anti_air_3
 							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							mid_3 = ship_anti_air_3
+							mid_3 = ship_torpedo_2
+							mid_4 = ship_anti_air_4
 							front_2 = ship_light_medium_battery_3
 						}
 						upgrades = {
@@ -1998,8 +2009,8 @@ POR_arms_purchases = {
 							rear_1 = ship_light_medium_battery_2
 							rear_2 = ship_anti_air_2
 							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							mid_3 = ship_anti_air_2
+							mid_3 = ship_torpedo_2
+							mid_4 = ship_anti_air_4
 							front_2 = ship_light_medium_battery_2
 						}
 						upgrades = {

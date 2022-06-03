@@ -5598,6 +5598,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
@@ -5636,6 +5637,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
@@ -5674,6 +5676,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
@@ -5710,6 +5713,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
@@ -5746,6 +5750,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
@@ -5773,6 +5778,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_light_engine_upgrade = 8
+						ship_ai_priority = 3
 					}
 				}
 			}
