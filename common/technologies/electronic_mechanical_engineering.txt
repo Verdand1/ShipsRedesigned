@@ -579,6 +579,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
@@ -586,15 +587,15 @@ technologies = {
 					tag = FRA
 					tag = ITA
 				}
-				factor = 3
 			}
 			modifier = {
+				factor = 0
 				OR = {
 					can_research = improved_fire_control_system
 					has_tech = improved_fire_control_system
 					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
 				}
-				factor = 0
 			}
 		}
 		
@@ -629,6 +630,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
@@ -636,15 +638,15 @@ technologies = {
 					tag = FRA
 					tag = ITA
 				}
-				factor = 3
 			}
 			modifier = {
+				factor = 0
 				OR = {
 					can_research = advanced_fire_control_system
 					has_tech = advanced_fire_control_system
 					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
 				}
-				factor = 0
 			}
 		}
 		
@@ -679,6 +681,7 @@ technologies = {
 		ai_will_do = {
 			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
@@ -686,11 +689,11 @@ technologies = {
 					tag = FRA
 					tag = ITA
 				}
-				factor = 3
 			}
 			modifier = {
-				not = { has_tech = ship_cruiser_hull }
 				factor = 0
+				not = { has_tech = ship_cruiser_hull }
+				num_of_naval_factories < 5
 			}			
 		}
 		

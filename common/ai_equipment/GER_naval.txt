@@ -12,11 +12,11 @@ GER_DD = {
 		factor = 20
 		modifier = {
 			factor = 6
-			GER_naval_interest_trigger = yes
+			  has_completed_focus = GER_plan_z
 		}
 		modifier = {
 			factor = 3
-			GER_naval_interest_trigger = yes
+			  has_completed_focus = GER_plan_z
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
@@ -80,7 +80,7 @@ GER_ASW = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = no
+				not = { has_completed_focus = GER_plan_z }
 				anti_submarine_strategy_required_trigger = no
 				SRD_treaty_limit_level_3_DD = yes
 				SRD_treaty_limit_level_AG_DD = yes
@@ -145,7 +145,7 @@ GER_MS = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = no
+				not = { has_completed_focus = GER_plan_z }
 				SRD_treaty_limit_level_3_DD = yes
 				SRD_treaty_limit_level_AG_DD = yes
 			}
@@ -205,7 +205,7 @@ GER_ML = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = no
+				not = { has_completed_focus = GER_plan_z }
 				SRD_treaty_limit_level_3_DD = yes
 				SRD_treaty_limit_level_AG_DD = yes
 			}
@@ -261,7 +261,7 @@ GER_CL = {
 		factor = 10
 		modifier = {
 			factor = 4
-			GER_naval_interest_trigger = yes
+			  has_completed_focus = GER_plan_z
 		}
 		modifier = {
 			factor = 0
@@ -398,7 +398,7 @@ GER_CA = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = yes
+				  has_completed_focus = GER_plan_z
 				SRD_treaty_limit_level_3_CA = yes
 				SRD_treaty_limit_level_AG_CA = yes
 			}
@@ -540,7 +540,7 @@ GER_BB = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = no
+				not = { has_completed_focus = GER_plan_z }
 				SRD_treaty_limit_level_3_BB = yes
 				SRD_treaty_limit_level_AG_BB = yes
 			}
@@ -694,7 +694,7 @@ GER_CV = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = no
+				not = { has_completed_focus = GER_plan_z }
 				SRD_any_naval_treaty_3_trigger = yes
 				SRD_any_naval_treaty_ag_trigger = yes
 			}
@@ -831,7 +831,7 @@ GER_SS = {
 		factor = 40
 		modifier = {
 			factor = 3
-			GER_naval_interest_trigger = no
+			not = { has_completed_focus = GER_plan_z }
 		}
 		modifier = {
 			factor = 0
@@ -889,7 +889,7 @@ GER_SM = {
 		modifier = {
 			factor = 0
 			OR = {
-				GER_naval_interest_trigger = yes
+				  has_completed_focus = GER_plan_z
 				SRD_treaty_limit_level_3_SS = yes
 				SRD_treaty_limit_level_AG_SS = yes
 			}
