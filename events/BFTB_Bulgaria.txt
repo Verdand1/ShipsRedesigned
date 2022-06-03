@@ -5390,7 +5390,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 270 # 3 x 90MP/SS
+			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
@@ -5424,7 +5424,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 270 # 3 x 90MP/SS
+			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
@@ -5458,7 +5458,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 270 # 3 x 90MP/SS
+			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
@@ -5489,7 +5489,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 270 # 3 x 90MP/SS
+			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
@@ -5520,7 +5520,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 270 # 3 x 90MP/SS
+			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
@@ -5545,7 +5545,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 240 # 3 x 80MP/SS
+			hidden_effect = { add_manpower = 240 } # 3 x 80MP/SS
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
@@ -5602,7 +5602,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 420 # 2 x 210MP/DD
+			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1944 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1944 Class" creator = FROM.FROM }
 		}
@@ -5641,7 +5641,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 420 # 2 x 210MP/DD
+			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1942 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1942 Class" creator = FROM.FROM }
 		}
@@ -5680,7 +5680,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 420 # 2 x 210MP/DD
+			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1940 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1940 Class" creator = FROM.FROM }
 		}
@@ -5717,7 +5717,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 420 # 2 x 210MP/DD
+			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1938 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1938 Class" creator = FROM.FROM }
 		}
@@ -5754,7 +5754,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 420 # 2 x 210MP/DD
+			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1936 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1936 Class" creator = FROM.FROM }
 		}
@@ -5782,7 +5782,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 400 # 2 x 200MP/DD
+			hidden_effect = { add_manpower = 400 } # 2 x 200MP/DD
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1934 Class" creator = FROM.FROM }
 			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1934 Class" creator = FROM.FROM }
 		}
@@ -5836,7 +5836,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 1060
+			hidden_effect = { add_manpower = 1060 }
 			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1946 Class" creator = FROM.FROM }
 		}
 		else_if = { #1944
@@ -5872,7 +5872,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 1060
+			hidden_effect = { add_manpower = 1060 }
 			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1944 Class" creator = FROM.FROM }
 		}
 		else_if = { #1940
@@ -5908,7 +5908,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 1060
+			hidden_effect = { add_manpower = 1060 }
 			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1940 Class" creator = FROM.FROM }
 		}
 		else_if = { #1936
@@ -5941,7 +5941,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 1050
+			hidden_effect = { add_manpower = 1050 }
 			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1936 Class" creator = FROM.FROM }
 		}
 		else = { #Fallback
@@ -5967,7 +5967,7 @@ country_event = {
 					}
 				}
 			}
-			add_manpower = 1050
+			hidden_effect = { add_manpower = 1050 }
 			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1934 Class" creator = FROM.FROM }
 		}
 	}
