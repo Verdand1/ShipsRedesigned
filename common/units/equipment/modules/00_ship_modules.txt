@@ -583,6 +583,9 @@ equipment_modules = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.01
 		}
+		can_convert_from = {
+			module_category = ship_anti_air
+		}
 	}
 	ship_anti_air_2 = {
 		category = ship_anti_air
@@ -597,6 +600,9 @@ equipment_modules = {
 			naval_speed = -0.01
 			anti_air_attack = 0.15
 			build_cost_ic = 0.02
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
 		}
 	}
 	ship_anti_air_3 = {
@@ -613,6 +619,9 @@ equipment_modules = {
 			anti_air_attack = 0.2
 			build_cost_ic = 0.03
 		}
+		can_convert_from = {
+			module_category = ship_anti_air
+		}
 	}
 	ship_anti_air_4 = {
 		category = ship_anti_air
@@ -627,6 +636,9 @@ equipment_modules = {
 			naval_speed = -0.02
 			anti_air_attack = 0.25
 			build_cost_ic = 0.04
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
 		}
 	}
 
@@ -1105,6 +1117,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+		}
 	}
 	ship_depth_charge_2 = {
 		category = ship_depth_charge
@@ -1118,6 +1133,9 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.01
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
 		}
 	}
 	ship_depth_charge_3 = {
@@ -1133,6 +1151,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+		}
 	}
 	ship_depth_charge_4 = {
 		category = ship_depth_charge
@@ -1146,6 +1167,9 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.01
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
 		}
 	}
 
@@ -1166,6 +1190,11 @@ equipment_modules = {
 		multiply_stats = {
 			surface_visibility = 1
 			sub_visibility = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = ship_sub_snorkel
+			convert_cost_ic = 20
 		}
 		
 	}
