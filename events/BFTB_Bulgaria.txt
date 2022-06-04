@@ -5369,31 +5369,38 @@ country_event = {
 					has_tech = modern_range_engines
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1944 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_deck = ship_sub_snorkel_2
-						fixed_radar = ship_surveillance_radar_4
-						fixed_engine = sub_ship_engine_4
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1944_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1944_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Lin Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_deck = ship_sub_snorkel_2
+							fixed_radar = ship_surveillance_radar_4
+							fixed_engine = sub_ship_engine_4
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1944 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lin Class" creator = FROM.FROM name = "Lin" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lin Class" creator = FROM.FROM name = "Shtuka" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lin Class" creator = FROM.FROM name = "Kalkan" }
 		}
 		else_if = { #1942
 			limit = {
@@ -5403,31 +5410,38 @@ country_event = {
 					has_tech = advanced_range_engines
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1942 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_deck = ship_sub_snorkel_1
-						fixed_radar = ship_surveillance_radar_3
-						fixed_engine = sub_ship_engine_3
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1942_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1942_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Sepija Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_deck = ship_sub_snorkel_1
+							fixed_radar = ship_surveillance_radar_3
+							fixed_engine = sub_ship_engine_3
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1942 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Sepija Class" creator = FROM.FROM name = "Sepija" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Sepija Class" creator = FROM.FROM name = "Delfin" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Sepija Class" creator = FROM.FROM name = "Morzh" }
 		}
 		else_if = { #1940
 			limit = {
@@ -5437,31 +5451,38 @@ country_event = {
 					has_tech = advanced_range_engines
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1940 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_deck = ship_sub_snorkel_1
-						fixed_radar = ship_surveillance_radar_2
-						fixed_engine = sub_ship_engine_3
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1940_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1940_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Zmiorka Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_deck = ship_sub_snorkel_1
+							fixed_radar = ship_surveillance_radar_2
+							fixed_engine = sub_ship_engine_3
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1940 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Zmiorka Class" creator = FROM.FROM name = "Zmiorka" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Zmiorka Class" creator = FROM.FROM name = "Sharan" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Zmiorka Class" creator = FROM.FROM name = "Kostur" }
 		}
 		else_if = { #1938
 			limit = {
@@ -5469,30 +5490,37 @@ country_event = {
 					has_tech = decimetric_radar
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1938 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_radar = ship_surveillance_radar_2
-						fixed_engine = sub_ship_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1938_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1938_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Akula Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_radar = ship_surveillance_radar_2
+							fixed_engine = sub_ship_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1938 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Akula Class" creator = FROM.FROM name = "Akula" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Akula Class" creator = FROM.FROM name = "Razreshitelno" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Akula Class" creator = FROM.FROM name = "Syomga" }
 		}
 		else_if = { #1936
 			limit = {
@@ -5500,55 +5528,69 @@ country_event = {
 					has_tech = radio_detection
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1936 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_radar = ship_surveillance_radar_1
-						fixed_engine = sub_ship_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1936_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1936_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Tjulen Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_radar = ship_surveillance_radar_1
+							fixed_engine = sub_ship_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1936 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tjulen Class" creator = FROM.FROM name = "Tjulen" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tjulen Class" creator = FROM.FROM name = "Riba" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tjulen Class" creator = FROM.FROM name = "Skat" }
 		}
 		else = { #Fallback
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Podvodnitsa 1934 Class"				
-					type = ship_hull_submarine_1
-					name_group = BUL_SS_HISTORICAL
-					parent_version = 0
-					role_icon_index = 6
-					modules = {
-						fixed_front_1 = ship_torpedo_sub_2
-						fixed_engine = sub_ship_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_torpedo_sub_2
-						front_2 = ship_torpedo_sub_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1934_submarine_purchased_flag }
 					}
-					upgrades = {
-						sub_depth_upgrade = 9
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1934_submarine_purchased_flag
+					create_equipment_variant = {
+						name = "Esetra Class"
+						type = ship_hull_submarine_1
+						parent_version = 0
+						role_icon_index = 6
+						modules = {
+							fixed_front_1 = ship_torpedo_sub_2
+							fixed_engine = sub_ship_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_torpedo_sub_2
+							front_2 = ship_torpedo_sub_2
+						}
+						upgrades = {
+							sub_depth_upgrade = 9
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 240 } # 3 x 80MP/SS
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Podvodnitsa 1934 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esetra Class" creator = FROM.FROM name = "Esetra" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esetra Class" creator = FROM.FROM name = "Skumrija" }
+			create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esetra Class" creator = FROM.FROM name = "Kit" }
 		}
 	}
 }
@@ -5578,33 +5620,40 @@ country_event = {
 					has_tech = antiair5
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1944 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_4
-						fixed_target_acquisition = ship_sonar_4
-						fixed_radar = ship_surveillance_radar_4
-						fixed_engine = ship_range_engine_4
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_4
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_4
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1944_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1944_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Vit Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_4
+							fixed_target_acquisition = ship_sonar_4
+							fixed_radar = ship_surveillance_radar_4
+							fixed_engine = ship_range_engine_4
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_4
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_4
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1944 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1944 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Vit Class" creator = FROM.FROM name = "Vit" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Vit Class" creator = FROM.FROM name = "Yantra" }
 		}
 		else_if = { #1942
 			limit = {
@@ -5617,33 +5666,40 @@ country_event = {
 					has_tech = antiair2
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1942 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_3
-						fixed_target_acquisition = ship_sonar_3
-						fixed_radar = ship_surveillance_radar_3
-						fixed_engine = ship_range_engine_3
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_3
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_3
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1942_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1942_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Iskar Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_3
+							fixed_target_acquisition = ship_sonar_3
+							fixed_radar = ship_surveillance_radar_3
+							fixed_engine = ship_range_engine_3
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_3
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_3
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1942 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1942 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Iskar Class" creator = FROM.FROM name = "Iskar" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Iskar Class" creator = FROM.FROM name = "Osam" }
 		}
 		else_if = { #1940
 			limit = {
@@ -5656,33 +5712,40 @@ country_event = {
 					has_tech = antiair2
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1940 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_3
-						fixed_target_acquisition = ship_sonar_3
-						fixed_radar = ship_surveillance_radar_2
-						fixed_engine = ship_range_engine_3
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_3
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_3
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1940_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1940_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Maritsa Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_3
+							fixed_target_acquisition = ship_sonar_3
+							fixed_radar = ship_surveillance_radar_2
+							fixed_engine = ship_range_engine_3
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_3
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_3
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1940 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1940 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Maritsa Class" creator = FROM.FROM name = "Maritsa" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Maritsa Class" creator = FROM.FROM name = "Struma" }
 		}
 		else_if = { #1938
 			limit = {
@@ -5693,33 +5756,40 @@ country_event = {
 					has_tech = interwar_antiair
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1938 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_2
-						fixed_target_acquisition = ship_sonar_2
-						fixed_radar = ship_surveillance_radar_2
-						fixed_engine = ship_range_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_2
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1938_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1938_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Mesta Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_2
+							fixed_target_acquisition = ship_sonar_2
+							fixed_radar = ship_surveillance_radar_2
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_2
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_2
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1938 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1938 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Mesta Class" creator = FROM.FROM name = "Mesta" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Mesta Class" creator = FROM.FROM name = "Rezovo" }
 		}
 		else_if = { #1936
 			limit = {
@@ -5730,61 +5800,75 @@ country_event = {
 					has_tech = interwar_antiair
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1936 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_2
-						fixed_target_acquisition = ship_sonar_2
-						fixed_radar = ship_surveillance_radar_1
-						fixed_engine = ship_range_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_2
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1936_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1936_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Batova Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_2
+							fixed_target_acquisition = ship_sonar_2
+							fixed_radar = ship_surveillance_radar_1
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_2
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_2
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 420 } # 2 x 210MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1936 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1936 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Batova Class" creator = FROM.FROM name = "Batova" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Batova Class" creator = FROM.FROM name = "Topolnitsa" }
 		}
 		else = { #Fallback
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Razrushitel 1934 Class"				
-					type = ship_hull_light_1
-					name_group = BUL_DD_HISTORICAL
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_battery_2
-						fixed_target_acquisition = ship_sonar_1
-						fixed_engine = ship_range_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_depth_charge_1
-						mid_1 = ship_torpedo_2
-						mid_2 = ship_torpedo_2
-						front_2 = ship_anti_air_1
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1934_destroyer_purchased_flag }
 					}
-					upgrades = {
-						ship_light_engine_upgrade = 8
-						ship_ai_priority = 3
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1934_destroyer_purchased_flag
+					create_equipment_variant = {
+						name = "Stryama Class"
+						type = ship_hull_light_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_battery_2
+							fixed_target_acquisition = ship_sonar_1
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_depth_charge_1
+							mid_1 = ship_torpedo_2
+							mid_2 = ship_torpedo_2
+							front_2 = ship_anti_air_1
+						}
+						upgrades = {
+							ship_light_engine_upgrade = 8
+							ship_ai_priority = 3
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 400 } # 2 x 200MP/DD
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1934 Class" creator = FROM.FROM }
-			create_ship = { type = ship_hull_light_1 equipment_variant = "Razrushitel 1934 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Stryama Class" creator = FROM.FROM name = "Stryama" }
+			create_ship = { type = ship_hull_light_1 equipment_variant = "Stryama Class" creator = FROM.FROM name = "Luda Yana" }
 		}
 	}
 }
@@ -5813,31 +5897,38 @@ country_event = {
 					has_tech = antiair5
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Svetlina Kraitser 1946 Class"				
-					type = ship_hull_cruiser_1
-					name_group = BUL_PROVINCES
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_medium_battery_4
-						fixed_target_acquisition = ship_fire_control_system_3
-						fixed_radar = ship_fire_control_radar_2
-						fixed_engine = ship_range_engine_4
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_light_medium_battery_4
-						mid_1 = ship_anti_air_4
-						mid_2 = ship_anti_air_4
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1946_cruiser_purchased_flag }
 					}
-					upgrades = {
-						ship_medium_engine_upgrade = 9
-						ship_medium_armor_upgrade = 2
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1946_cruiser_purchased_flag
+					create_equipment_variant = {
+						name = "Musala Class"
+						type = ship_hull_cruiser_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_medium_battery_4
+							fixed_target_acquisition = ship_fire_control_system_3
+							fixed_radar = ship_fire_control_radar_2
+							fixed_engine = ship_range_engine_4
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_light_medium_battery_4
+							mid_1 = ship_anti_air_4
+							mid_2 = ship_anti_air_4
+						}
+						upgrades = {
+							ship_medium_engine_upgrade = 9
+							ship_medium_armor_upgrade = 2
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 1060 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1946 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Musala Class" creator = FROM.FROM name = "Musala" }
 		}
 		else_if = { #1944
 			limit = {
@@ -5849,31 +5940,38 @@ country_event = {
 					has_tech = antiair5
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Svetlina Kraitser 1944 Class"				
-					type = ship_hull_cruiser_1
-					name_group = BUL_PROVINCES
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_medium_battery_4
-						fixed_target_acquisition = ship_fire_control_system_3
-						fixed_radar = ship_fire_control_radar_1
-						fixed_engine = ship_range_engine_4
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_light_medium_battery_4
-						mid_1 = ship_anti_air_4
-						mid_2 = ship_anti_air_4
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1944_cruiser_purchased_flag }
 					}
-					upgrades = {
-						ship_medium_engine_upgrade = 9
-						ship_medium_armor_upgrade = 2
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1944_cruiser_purchased_flag
+					create_equipment_variant = {
+						name = "Vihren Class"
+						type = ship_hull_cruiser_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_medium_battery_4
+							fixed_target_acquisition = ship_fire_control_system_3
+							fixed_radar = ship_fire_control_radar_1
+							fixed_engine = ship_range_engine_4
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_light_medium_battery_4
+							mid_1 = ship_anti_air_4
+							mid_2 = ship_anti_air_4
+						}
+						upgrades = {
+							ship_medium_engine_upgrade = 9
+							ship_medium_armor_upgrade = 2
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 1060 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1944 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Vihren Class" creator = FROM.FROM name = "Vihren" }
 		}
 		else_if = { #1940
 			limit = {
@@ -5885,31 +5983,38 @@ country_event = {
 					has_tech = antiair2
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Svetlina Kraitser 1940 Class"				
-					type = ship_hull_cruiser_1
-					name_group = BUL_PROVINCES
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_medium_battery_3
-						fixed_target_acquisition = ship_fire_control_system_2
-						fixed_radar = ship_fire_control_radar_1
-						fixed_engine = ship_range_engine_3
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_light_medium_battery_3
-						mid_1 = ship_anti_air_3
-						mid_2 = ship_anti_air_3
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1940_cruiser_purchased_flag }
 					}
-					upgrades = {
-						ship_medium_engine_upgrade = 8
-						ship_medium_armor_upgrade = 2
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1940_cruiser_purchased_flag
+					create_equipment_variant = {
+						name = "Kutelo Class"
+						type = ship_hull_cruiser_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_medium_battery_3
+							fixed_target_acquisition = ship_fire_control_system_2
+							fixed_radar = ship_fire_control_radar_1
+							fixed_engine = ship_range_engine_3
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_light_medium_battery_3
+							mid_1 = ship_anti_air_3
+							mid_2 = ship_anti_air_3
+						}
+						upgrades = {
+							ship_medium_engine_upgrade = 8
+							ship_medium_armor_upgrade = 2
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 1060 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1940 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Kutelo Class" creator = FROM.FROM name = "Kutelo" }
 		}
 		else_if = { #1936
 			limit = {
@@ -5919,56 +6024,70 @@ country_event = {
 					has_tech = interwar_antiair
 				}
 			}
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Svetlina Kraitser 1936 Class"				
-					type = ship_hull_cruiser_1
-					name_group = BUL_PROVINCES
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_medium_battery_2
-						fixed_target_acquisition = ship_fire_control_system_1
-						fixed_engine = ship_range_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_light_medium_battery_2
-						mid_1 = ship_anti_air_2
-						mid_2 = ship_anti_air_2
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1936_cruiser_purchased_flag }
 					}
-					upgrades = {
-						ship_medium_engine_upgrade = 7
-						ship_medium_armor_upgrade = 2
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1936_cruiser_purchased_flag
+					create_equipment_variant = {
+						name = "Banski Suhodol Class"
+						type = ship_hull_cruiser_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_medium_battery_2
+							fixed_target_acquisition = ship_fire_control_system_1
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_light_medium_battery_2
+							mid_1 = ship_anti_air_2
+							mid_2 = ship_anti_air_2
+						}
+						upgrades = {
+							ship_medium_engine_upgrade = 7
+							ship_medium_armor_upgrade = 2
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 1050 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1936 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Banski Suhodol Class" creator = FROM.FROM name = "Banski Suhodol" }
 		}
 		else = { #Fallback
-			FROM.FROM = {
-				create_equipment_variant = {
-					name = "Svetlina Kraitser 1934 Class"				
-					type = ship_hull_cruiser_1
-					name_group = BUL_PROVINCES
-					parent_version = 0
-					role_icon_index = 1
-					modules = {
-						fixed_front_1 = ship_light_medium_battery_1
-						fixed_target_acquisition = ship_fire_control_system_0
-						fixed_engine = ship_range_engine_2
-						fixed_inner_hull = ship_reinforced_structure
-						rear_1 = ship_light_medium_battery_1
-						mid_1 = ship_anti_air_1
-						mid_2 = ship_anti_air_1
+			if = {
+				limit = {
+					FROM.FROM = {
+						NOT = { has_country_flag = BUL_1934_cruiser_purchased_flag }
 					}
-					upgrades = {
-						ship_medium_engine_upgrade = 7
-						ship_medium_armor_upgrade = 2
+				}
+				FROM.FROM = {
+					set_country_flag = BUL_1934_cruiser_purchased_flag
+					create_equipment_variant = {
+						name = "Musala Class"
+						type = ship_hull_cruiser_1
+						parent_version = 0
+						role_icon_index = 1
+						modules = {
+							fixed_front_1 = ship_light_medium_battery_1
+							fixed_target_acquisition = ship_fire_control_system_0
+							fixed_engine = ship_range_engine_2
+							fixed_inner_hull = ship_reinforced_structure
+							rear_1 = ship_light_medium_battery_1
+							mid_1 = ship_anti_air_1
+							mid_2 = ship_anti_air_1
+						}
+						upgrades = {
+							ship_medium_engine_upgrade = 7
+							ship_medium_armor_upgrade = 2
+						}
 					}
 				}
 			}
 			hidden_effect = { add_manpower = 1050 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Svetlina Kraitser 1934 Class" creator = FROM.FROM }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Musala Class" creator = FROM.FROM name = "Musala" }
 		}
 	}
 }

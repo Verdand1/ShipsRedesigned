@@ -499,33 +499,39 @@ POR_arms_purchases = {
 						has_tech = modern_range_engines
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Submarino 1944 (ru) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_2
-							fixed_radar = ship_surveillance_radar_4
-							fixed_engine = sub_ship_engine_4
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 1
-							sub_depth_upgrade = 3
-							ship_ai_priority = 6
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ENG_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1944_ENG_submarine_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Tubarão Class"
+							type = ship_hull_submarine_1
+							name_group = ENG_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_2
+								fixed_radar = ship_surveillance_radar_4
+								fixed_engine = sub_ship_engine_4
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_torpedo_sub_2
+								front_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 3
+								ship_ai_priority = 6
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Tubarão" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Morsa" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Focenídeos" }
 			}
 			else_if = { #1942
 				limit = {
@@ -535,33 +541,39 @@ POR_arms_purchases = {
 						has_tech = advanced_range_engines
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Submarino 1942 (ru) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_1
-							fixed_radar = ship_surveillance_radar_3
-							fixed_engine = sub_ship_engine_3
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 1
-							sub_depth_upgrade = 3
-							ship_ai_priority = 6
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1942_ENG_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1942_ENG_submarine_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Perca Class"
+							type = ship_hull_submarine_1
+							name_group = ENG_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_1
+								fixed_radar = ship_surveillance_radar_3
+								fixed_engine = sub_ship_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_torpedo_sub_2
+								front_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 3
+								ship_ai_priority = 6
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Perca" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Sernambiguara" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Escamudo" }
 			}
 			else_if = { #1940
 				limit = {
@@ -571,33 +583,39 @@ POR_arms_purchases = {
 						has_tech = advanced_range_engines
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Submarino 1940 (ru) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_1
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = sub_ship_engine_3
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 1
-							sub_depth_upgrade = 3
-							ship_ai_priority = 6
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ENG_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1940_ENG_submarine_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Salmão Class"
+							type = ship_hull_submarine_1
+							name_group = ENG_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_1
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = sub_ship_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_torpedo_sub_2
+								front_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 3
+								ship_ai_priority = 6
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Salmão" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Bonito" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Caranha" }
 			}
 			else_if = { #1938
 				limit = {
@@ -605,60 +623,72 @@ POR_arms_purchases = {
 						has_tech = decimetric_radar
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Submarino 1938 (ru) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = sub_ship_engine_2
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 1
-							sub_depth_upgrade = 3
-							ship_ai_priority = 6
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1938_ENG_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1938_ENG_submarine_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Esturjão Class"
+							type = ship_hull_submarine_1
+							name_group = ENG_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = sub_ship_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_torpedo_sub_2
+								front_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 3
+								ship_ai_priority = 6
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Esturjão" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Sargo" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Dragão-marinho" }
 			}
 			else = { #Fallback
-				ENG = {
-					create_equipment_variant = {
-						name = "Submarino 1936 (ru) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_radar = ship_surveillance_radar_1
-							fixed_engine = sub_ship_engine_2
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_torpedo_sub_2
-							front_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 1
-							sub_depth_upgrade = 3
-							ship_ai_priority = 6
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ENG_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1936_ENG_submarine_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Tautog Class"
+							type = ship_hull_submarine_1
+							name_group = ENG_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = sub_ship_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_torpedo_sub_2
+								front_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 3
+								ship_ai_priority = 6
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Tautog" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Truta" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Atum" }
 			}
 
 			ENG = {
@@ -753,31 +783,37 @@ POR_arms_purchases = {
 						has_tech = modern_range_engines
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1944 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_2
-							fixed_radar = ship_surveillance_radar_4
-							fixed_engine = sub_ship_engine_4
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1944_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Cavalinha Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_2
+								fixed_radar = ship_surveillance_radar_4
+								fixed_engine = sub_ship_engine_4
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1944 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Cavalinha" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Marlim" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Leão-marinho" }
 			}
 			else_if = { #1942
 				limit = {
@@ -787,31 +823,37 @@ POR_arms_purchases = {
 						has_tech = advanced_range_engines
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1942 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_1
-							fixed_radar = ship_surveillance_radar_3
-							fixed_engine = sub_ship_engine_3
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1942_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1942_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Garoupa Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_1
+								fixed_radar = ship_surveillance_radar_3
+								fixed_engine = sub_ship_engine_3
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1942 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Garoupa" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Exocetídeos" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Cienídeos" }
 			}
 			else_if = { #1940
 				limit = {
@@ -821,31 +863,37 @@ POR_arms_purchases = {
 						has_tech = advanced_range_engines
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1940 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_deck = ship_sub_snorkel_1
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = sub_ship_engine_3
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1940_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Eglefim Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_deck = ship_sub_snorkel_1
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = sub_ship_engine_3
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1940 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Eglefim" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Halibute" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Papa-terra" }
 			}
 			else_if = { #1938
 				limit = {
@@ -853,30 +901,36 @@ POR_arms_purchases = {
 						has_tech = decimetric_radar
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1938 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = sub_ship_engine_2
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1938_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1938_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Misticetos Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = sub_ship_engine_2
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1938 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Misticetos" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Sarda" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Cavalla" }
 			}
 			else_if = { #1936
 				limit = {
@@ -884,55 +938,67 @@ POR_arms_purchases = {
 						has_tech = radio_detection
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1936 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_radar = ship_surveillance_radar_1
-							fixed_engine = sub_ship_engine_2
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1936_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Lúcio Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = sub_ship_engine_2
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1936 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Lúcio" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Choco" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Barracuda" }
 			}
 			else = { #Fallback
-				ITA = {
-					create_equipment_variant = {
-						name = "Submarino 1934 (i) Class"				
-						type = ship_hull_submarine_1
-						name_group = POR_SS_HISTORICAL
-						parent_version = 0
-						role_icon_index = 6
-						modules = {
-							fixed_front_1 = ship_torpedo_sub_2
-							fixed_engine = sub_ship_engine_2
-							rear_1 = ship_torpedo_sub_2
-							rear_2 = ship_torpedo_sub_2
-						}
-						upgrades = {
-							sub_engine_upgrade = 4
-							sub_depth_upgrade = 7
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1934_ITA_submarine_purchased_flag }
+					}
+					set_country_flag = POR_1934_ITA_submarine_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Robalo Class"
+							type = ship_hull_submarine_1
+							name_group = ITA_SS_HISTORICAL
+							parent_version = 0
+							role_icon_index = 6
+							modules = {
+								fixed_front_1 = ship_torpedo_sub_2
+								fixed_engine = sub_ship_engine_2
+								rear_1 = ship_torpedo_sub_2
+								rear_2 = ship_torpedo_sub_2
+							}
+							upgrades = {
+								sub_engine_upgrade = 4
+								sub_depth_upgrade = 7
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 240 } # 3 x 80MP/SS
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1934 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1934 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Submarino 1934 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Robalo" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Cisco" }
+				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Peixe-lua" }
 			}
 
 			ITA = {
@@ -1029,34 +1095,40 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1944 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_4
-							fixed_target_acquisition = ship_sonar_4
-							fixed_radar = ship_surveillance_radar_4
-							fixed_engine = ship_range_engine_4
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_4
-							rear_2 = ship_anti_air_4
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_4
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1944_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Oeiras Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_4
+								fixed_target_acquisition = ship_sonar_4
+								fixed_radar = ship_surveillance_radar_4
+								fixed_engine = ship_range_engine_4
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_4
+								rear_2 = ship_anti_air_4
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_4
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1944 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1944 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Oeiras Class" creator = ENG name = "NRP Oeiras" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Oeiras Class" creator = ENG name = "NRP Gondomar" }
 			}
 			else_if = { #1942
 				limit = {
@@ -1069,34 +1141,40 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1942 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_3
-							fixed_target_acquisition = ship_sonar_3
-							fixed_radar = ship_surveillance_radar_3
-							fixed_engine = ship_range_engine_3
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_3
-							rear_2 = ship_anti_air_3
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_3
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1942_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1942_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Guimarães Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_3
+								fixed_target_acquisition = ship_sonar_3
+								fixed_radar = ship_surveillance_radar_3
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_3
+								rear_2 = ship_anti_air_3
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_3
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1942 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1942 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Guimarães Class" creator = ENG name = "NRP Guimarães" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Guimarães Class" creator = ENG name = "NRP Santa Maria Da Feira" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1109,34 +1187,40 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1940 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_3
-							fixed_target_acquisition = ship_sonar_3
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = ship_range_engine_3
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_3
-							rear_2 = ship_anti_air_3
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_3
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1940_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Maia Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_3
+								fixed_target_acquisition = ship_sonar_3
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_3
+								rear_2 = ship_anti_air_3
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_3
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1940 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1940 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Maia Class" creator = ENG name = "NRP Maia" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Maia Class" creator = ENG name = "NRP Famalicão" }
 			}
 			else_if = { #1938
 				limit = {
@@ -1146,34 +1230,40 @@ POR_arms_purchases = {
 						has_tech = interwar_antiair
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1938 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_2
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_2
-							rear_2 = ship_anti_air_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_2
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1938_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1938_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Setúbal Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_2
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_2
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1938 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1938 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Setúbal Class" creator = ENG name = "NRP Setúbal" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Setúbal Class" creator = ENG name = "NRP Valongo" }
 			}
 			else_if = { #1936
 				limit = {
@@ -1182,64 +1272,76 @@ POR_arms_purchases = {
 						has_tech = interwar_antiair
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1936 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_2
-							fixed_radar = ship_surveillance_radar_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_2
-							rear_2 = ship_anti_air_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_2
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1936_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Paredes Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_2
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_2
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1936 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1936 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Paredes Class" creator = ENG name = "NRP Paredes" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Paredes Class" creator = ENG name = "NRP Aveiro" }
 			}
 			else = { #Fallback
-				ENG = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1934 (ru) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_2
-							fixed_radar = ship_surveillance_radar_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_extra_fuel_tank_1
-							rear_1 = ship_depth_charge_1
-							rear_2 = ship_anti_air_1
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_1
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 8
-							ship_ai_priority = 3
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1934_ENG_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1934_ENG_destroyer_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Viseu Class"
+							type = ship_hull_light_1
+							name_group = ENG_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_2
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_1
+								rear_1 = ship_depth_charge_1
+								rear_2 = ship_anti_air_1
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_1
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 8
+								ship_ai_priority = 3
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1934 (ru) Class" creator = ENG }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1934 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Viseu Class" creator = ENG name = "NRP Viseu" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Viseu Class" creator = ENG name = "NRP Portimão" }
 			}
 
 			ENG = {
@@ -1337,33 +1439,39 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1944 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_4
-							fixed_target_acquisition = ship_sonar_4
-							fixed_radar = ship_surveillance_radar_4
-							fixed_engine = ship_range_engine_4
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_4
-							rear_2 = ship_light_battery_4
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_4
-							front_2 = ship_light_battery_4
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1944_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Almada Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_4
+								fixed_target_acquisition = ship_sonar_4
+								fixed_radar = ship_surveillance_radar_4
+								fixed_engine = ship_range_engine_4
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_4
+								rear_2 = ship_light_battery_4
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_4
+								front_2 = ship_light_battery_4
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1944 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1944 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Almada" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Seixal" }
 			}
 			else_if = { #1942
 				limit = {
@@ -1376,33 +1484,39 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1942 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_3
-							fixed_target_acquisition = ship_sonar_3
-							fixed_radar = ship_surveillance_radar_3
-							fixed_engine = ship_range_engine_3
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_3
-							rear_2 = ship_light_battery_3
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_3
-							front_2 = ship_light_battery_3
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1942_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1942_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Odivelas Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_3
+								fixed_target_acquisition = ship_sonar_3
+								fixed_radar = ship_surveillance_radar_3
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_3
+								rear_2 = ship_light_battery_3
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_3
+								front_2 = ship_light_battery_3
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1942 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1942 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Odivelas" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Vila Franca De Xira" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1415,33 +1529,39 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1940 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_3
-							fixed_target_acquisition = ship_sonar_3
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = ship_range_engine_3
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_3
-							rear_2 = ship_light_battery_3
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_3
-							front_2 = ship_light_battery_3
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1940_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Coimbra Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_3
+								fixed_target_acquisition = ship_sonar_3
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_3
+								rear_2 = ship_light_battery_3
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_3
+								front_2 = ship_light_battery_3
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1940 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1940 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Coimbra" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Leiria" }
 			}
 			else_if = { #1938
 				limit = {
@@ -1451,33 +1571,39 @@ POR_arms_purchases = {
 						has_tech = improved_depth_charges
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1938 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_2
-							fixed_radar = ship_surveillance_radar_2
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_2
-							rear_2 = ship_light_battery_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_2
-							front_2 = ship_light_battery_2
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1938_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1938_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Funchal Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_2
+								fixed_radar = ship_surveillance_radar_2
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_2
+								rear_2 = ship_light_battery_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_2
+								front_2 = ship_light_battery_2
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1938 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1938 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Funchal" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Viana do Castelo" }
 			}
 			else_if = { #1936
 				limit = {
@@ -1487,61 +1613,73 @@ POR_arms_purchases = {
 						has_tech = improved_depth_charges
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1936 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_2
-							fixed_radar = ship_surveillance_radar_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_2
-							rear_2 = ship_light_battery_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_2
-							front_2 = ship_light_battery_2
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1936_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Vila Do Conde Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_2
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_2
+								rear_2 = ship_light_battery_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_2
+								front_2 = ship_light_battery_2
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1936 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1936 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Vila Do Conde" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Mafra" }
 			}
 			else = { #Fallback
-				ITA = {
-					create_equipment_variant = {
-						name = "Contratorpedeiro 1934 (i) Class"				
-						type = ship_hull_light_1
-						name_group = POR_DD_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_battery_2
-							fixed_target_acquisition = ship_sonar_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_depth_charge_1
-							rear_2 = ship_light_battery_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_anti_air_2
-							front_2 = ship_light_battery_2
-						}
-						upgrades = {
-							ship_light_engine_upgrade = 9
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1934_ITA_destroyer_purchased_flag }
+					}
+					set_country_flag = POR_1934_ITA_destroyer_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Faro Class"
+							type = ship_hull_light_1
+							name_group = ITA_DD_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_battery_2
+								fixed_target_acquisition = ship_sonar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_depth_charge_1
+								rear_2 = ship_light_battery_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_2
+								front_2 = ship_light_battery_2
+							}
+							upgrades = {
+								ship_light_engine_upgrade = 9
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 540 } # 2 x 270MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1934 (i) Class" creator = ITA }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Contratorpedeiro 1934 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Faro" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Évora" }
 			}
 
 			ITA = {
@@ -1627,33 +1765,39 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1946 (ru) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_4
-							fixed_target_acquisition = ship_fire_control_system_3
-							fixed_radar = ship_fire_control_radar_2
-							fixed_engine = ship_range_engine_4
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_4
-							rear_2 = ship_anti_air_4
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_4
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 9
-							ship_medium_armor_upgrade = 2
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1946_ENG_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1946_ENG_cruiser_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Lisboa Class"
+							type = ship_hull_cruiser_1
+							name_group = ENG_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_4
+								fixed_target_acquisition = ship_fire_control_system_3
+								fixed_radar = ship_fire_control_radar_2
+								fixed_engine = ship_range_engine_4
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_4
+								rear_2 = ship_anti_air_4
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_4
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 2
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1080 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1946 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Lisboa Class" creator = ENG name = "NRP Lisboa" }
 			}
 			else_if = { #1944
 				limit = {
@@ -1665,33 +1809,39 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1944 (ru) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_4
-							fixed_target_acquisition = ship_fire_control_system_3
-							fixed_radar = ship_fire_control_radar_1
-							fixed_engine = ship_range_engine_4
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_4
-							rear_2 = ship_anti_air_4
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_4
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 9
-							ship_medium_armor_upgrade = 2
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ENG_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1944_ENG_cruiser_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Vila Nova de Gaia Class"
+							type = ship_hull_cruiser_1
+							name_group = ENG_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_4
+								fixed_target_acquisition = ship_fire_control_system_3
+								fixed_radar = ship_fire_control_radar_1
+								fixed_engine = ship_range_engine_4
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_4
+								rear_2 = ship_anti_air_4
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_4
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 2
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1080 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1944 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Vila Nova de Gaia Class" creator = ENG name = "NRP Vila Nova de Gaia" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1703,33 +1853,39 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1940 (ru) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_3
-							fixed_target_acquisition = ship_fire_control_system_2
-							fixed_radar = ship_fire_control_radar_1
-							fixed_engine = ship_range_engine_3
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_3
-							rear_2 = ship_anti_air_3
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_3
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 8
-							ship_medium_armor_upgrade = 2
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ENG_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1940_ENG_cruiser_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Cascais Class"
+							type = ship_hull_cruiser_1
+							name_group = ENG_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_2
+								fixed_radar = ship_fire_control_radar_1
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_3
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_3
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 8
+								ship_medium_armor_upgrade = 2
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1080 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1940 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Cascais" }
 			}
 			else_if = { #1936
 				limit = {
@@ -1737,60 +1893,72 @@ POR_arms_purchases = {
 						has_tech = interwar_antiair
 					}
 				}
-				ENG = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1936 (ru) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_2
-							fixed_target_acquisition = ship_fire_control_system_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_2
-							rear_2 = ship_anti_air_2
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_2
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 7
-							ship_medium_armor_upgrade = 2
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ENG_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1936_ENG_cruiser_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Braga Class"
+							type = ship_hull_cruiser_1
+							name_group = ENG_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_2
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 7
+								ship_medium_armor_upgrade = 2
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1070 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1936 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Braga Class" creator = ENG name = "NRP Braga" }
 			}
 			else = { #Fallback
-				ENG = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1934 (ru) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_2
-							fixed_target_acquisition = ship_fire_control_system_1
-							fixed_engine = ship_range_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_2
-							rear_2 = ship_anti_air_1
-							mid_1 = ship_torpedo_2
-							mid_2 = ship_torpedo_2
-							front_2 = ship_anti_air_1
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 7
-							ship_medium_armor_upgrade = 2
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1934_ENG_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1934_ENG_cruiser_purchased_flag
+					ENG = {
+						create_equipment_variant = {
+							name = "Matosinhos Class"
+							type = ship_hull_cruiser_1
+							name_group = ENG_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_1
+								mid_1 = ship_torpedo_2
+								mid_2 = ship_torpedo_2
+								front_2 = ship_anti_air_1
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 7
+								ship_medium_armor_upgrade = 2
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1070 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1934 (ru) Class" creator = ENG }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Matosinhos Class" creator = ENG name = "NRP Matosinhos" }
 			}
 
 			ENG = {
@@ -1886,34 +2054,40 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1946 (i) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_4
-							fixed_target_acquisition = ship_fire_control_system_3
-							fixed_radar = ship_fire_control_radar_2
-							fixed_engine = ship_perf_engine_4
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_4
-							rear_2 = ship_anti_air_4
-							mid_1 = ship_torpedo_2
-							mid_3 = ship_torpedo_2
-							mid_4 = ship_anti_air_4
-							front_2 = ship_light_medium_battery_4
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 8
-							ship_medium_armor_upgrade = 4
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1946_ITA_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1946_ITA_cruiser_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Sintra Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_4
+								fixed_target_acquisition = ship_fire_control_system_3
+								fixed_radar = ship_fire_control_radar_2
+								fixed_engine = ship_perf_engine_4
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_4
+								rear_2 = ship_anti_air_4
+								mid_1 = ship_torpedo_2
+								mid_3 = ship_torpedo_2
+								mid_4 = ship_anti_air_4
+								front_2 = ship_light_medium_battery_4
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 8
+								ship_medium_armor_upgrade = 4
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1180 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1946 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Sintra Class" creator = ITA name = "NRP Sintra" }
 			}
 			else_if = { #1944
 				limit = {
@@ -1925,34 +2099,40 @@ POR_arms_purchases = {
 						has_tech = antiair5
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1944 (i) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_4
-							fixed_target_acquisition = ship_fire_control_system_3
-							fixed_radar = ship_fire_control_radar_1
-							fixed_engine = ship_perf_engine_4
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_4
-							rear_2 = ship_anti_air_4
-							mid_1 = ship_torpedo_2
-							mid_3 = ship_torpedo_2
-							mid_4 = ship_anti_air_4
-							front_2 = ship_light_medium_battery_4
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 8
-							ship_medium_armor_upgrade = 4
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1944_ITA_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1944_ITA_cruiser_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Porto Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_4
+								fixed_target_acquisition = ship_fire_control_system_3
+								fixed_radar = ship_fire_control_radar_1
+								fixed_engine = ship_perf_engine_4
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_4
+								rear_2 = ship_anti_air_4
+								mid_1 = ship_torpedo_2
+								mid_3 = ship_torpedo_2
+								mid_4 = ship_anti_air_4
+								front_2 = ship_light_medium_battery_4
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 8
+								ship_medium_armor_upgrade = 4
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1180 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1944 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Porto Class" creator = ITA name = "NRP Porto" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1964,63 +2144,75 @@ POR_arms_purchases = {
 						has_tech = antiair2
 					}
 				}
-				ITA = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1940 (i) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_3
-							fixed_target_acquisition = ship_fire_control_system_2
-							fixed_radar = ship_fire_control_radar_1
-							fixed_engine = ship_perf_engine_3
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_3
-							rear_2 = ship_anti_air_3
-							mid_1 = ship_torpedo_2
-							mid_3 = ship_torpedo_2
-							mid_4 = ship_anti_air_4
-							front_2 = ship_light_medium_battery_3
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 8
-							ship_medium_armor_upgrade = 4
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1940_ITA_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1940_ITA_cruiser_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Loures Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_2
+								fixed_radar = ship_fire_control_radar_1
+								fixed_engine = ship_perf_engine_3
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_3
+								mid_1 = ship_torpedo_2
+								mid_3 = ship_torpedo_2
+								mid_4 = ship_anti_air_4
+								front_2 = ship_light_medium_battery_3
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 8
+								ship_medium_armor_upgrade = 4
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1180 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1940 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Loures Class" creator = ITA name = "NRP Loures" }
 			}
 			else = { #Fallback
-				ITA = {
-					create_equipment_variant = {
-						name = "Cruzador Ligeiro 1936 (i) Class"				
-						type = ship_hull_cruiser_1
-						name_group = POR_CL_HISTORICAL
-						parent_version = 0
-						role_icon_index = 1
-						modules = {
-							fixed_front_1 = ship_light_medium_battery_2
-							fixed_target_acquisition = ship_fire_control_system_1
-							fixed_engine = ship_perf_engine_2
-							fixed_inner_hull = ship_reinforced_structure
-							rear_1 = ship_light_medium_battery_2
-							rear_2 = ship_anti_air_2
-							mid_1 = ship_torpedo_2
-							mid_3 = ship_torpedo_2
-							mid_4 = ship_anti_air_4
-							front_2 = ship_light_medium_battery_2
-						}
-						upgrades = {
-							ship_medium_engine_upgrade = 8
-							ship_medium_armor_upgrade = 4
+				if = {
+					limit = {
+						NOT = { has_country_flag = POR_1936_ITA_cruiser_purchased_flag }
+					}
+					set_country_flag = POR_1936_ITA_cruiser_purchased_flag
+					ITA = {
+						create_equipment_variant = {
+							name = "Amadora Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							role_icon_index = 1
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_perf_engine_2
+								fixed_inner_hull = ship_reinforced_structure
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_torpedo_2
+								mid_3 = ship_torpedo_2
+								mid_4 = ship_anti_air_4
+								front_2 = ship_light_medium_battery_2
+							}
+							upgrades = {
+								ship_medium_engine_upgrade = 8
+								ship_medium_armor_upgrade = 4
+							}
 						}
 					}
 				}
 				hidden_effect = { add_manpower = 1170 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cruzador Ligeiro 1936 (i) Class" creator = ITA }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Amadora Class" creator = ITA name = "NRP Amadora" }
 			}
 
 			ITA = {
