@@ -6066,7 +6066,7 @@ country_event = {
 				FROM.FROM = {
 					set_country_flag = BUL_1934_cruiser_purchased_flag
 					create_equipment_variant = {
-						name = "Musala Class"
+						name = "Bayuvi Dupki Class"
 						type = ship_hull_cruiser_1
 						parent_version = 0
 						role_icon_index = 1
@@ -6087,7 +6087,7 @@ country_event = {
 				}
 			}
 			hidden_effect = { add_manpower = 1050 }
-			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Musala Class" creator = FROM.FROM name = "Musala" }
+			create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Bayuvi Dupki Class" creator = FROM.FROM name = "Bayuvi Dupki" }
 		}
 	}
 }
