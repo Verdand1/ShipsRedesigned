@@ -20,6 +20,20 @@ GER_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_DD = yes
+				SRD_treaty_reduced_level_AG_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_DD = yes
+				SRD_treaty_slow_level_AG_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_3_DD = yes
@@ -143,6 +157,20 @@ GER_MS = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_DD = yes
+				SRD_treaty_reduced_level_AG_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_DD = yes
+				SRD_treaty_slow_level_AG_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = GER_plan_z }
@@ -203,6 +231,20 @@ GER_ML = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_DD = yes
+				SRD_treaty_reduced_level_AG_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_DD = yes
+				SRD_treaty_slow_level_AG_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = GER_plan_z }
@@ -261,7 +303,21 @@ GER_CL = {
 		factor = 10
 		modifier = {
 			factor = 4
-			  has_completed_focus = GER_plan_z
+				has_completed_focus = GER_plan_z
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_CL = yes
+				SRD_treaty_reduced_level_AG_CL = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_CL = yes
+				SRD_treaty_slow_level_AG_CL = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -396,9 +452,23 @@ GER_CA = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_CA = yes
+				SRD_treaty_reduced_level_AG_CA = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_CA = yes
+				SRD_treaty_slow_level_AG_CA = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
-				  has_completed_focus = GER_plan_z
+				has_completed_focus = GER_plan_z
 				SRD_treaty_limit_level_3_CA = yes
 				SRD_treaty_limit_level_AG_CA = yes
 			}
@@ -537,6 +607,20 @@ GER_BB = {
 	
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_BB = yes
+				SRD_treaty_reduced_level_AG_BB = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_BB = yes
+				SRD_treaty_slow_level_AG_BB = yes
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -834,6 +918,20 @@ GER_SS = {
 			not = { has_completed_focus = GER_plan_z }
 		}
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_SS = yes
+				SRD_treaty_reduced_level_AG_SS = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_SS = yes
+				SRD_treaty_slow_level_AG_SS = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_3_SS = yes
@@ -887,9 +985,23 @@ GER_SM = {
 	priority = {
 		factor = 40
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_3_SS = yes
+				SRD_treaty_reduced_level_AG_SS = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_3_SS = yes
+				SRD_treaty_slow_level_AG_SS = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
-				  has_completed_focus = GER_plan_z
+				has_completed_focus = GER_plan_z
 				SRD_treaty_limit_level_3_SS = yes
 				SRD_treaty_limit_level_AG_SS = yes
 			}

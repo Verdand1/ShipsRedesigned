@@ -15,6 +15,14 @@ ENG_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
 		}
@@ -75,6 +83,14 @@ ENG_ASW = {
 		modifier = {
 			factor = 2
 			has_completed_focus = uk_carrier_focus
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
 		}
 		modifier = {
 			factor = 40
@@ -140,6 +156,14 @@ ENG_MS = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
 		}
@@ -194,6 +218,14 @@ ENG_ML = {
 	
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
@@ -250,6 +282,14 @@ ENG_CL = {
 		modifier = {
 			factor = 2
 			not = { has_completed_focus = uk_carrier_focus }
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CL = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CL = yes
 		}
 		modifier = {
 			factor = 0
@@ -498,6 +538,14 @@ ENG_CA = {
 	priority = {
 		factor = 40
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CA = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CA = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = uk_carrier_focus }
@@ -682,6 +730,14 @@ ENG_BB = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_BB = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_BB = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				has_completed_focus = uk_carrier_focus
@@ -742,6 +798,14 @@ ENG_CV = {
 		modifier = {
 			factor = 4
 			has_completed_focus = uk_carrier_focus
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CV = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CV = yes
 		}
 		modifier = {
 			factor = 0
@@ -1015,6 +1079,14 @@ ENG_SS = {
 	
 	priority = {
 		factor = 60
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_SS = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_SS = yes

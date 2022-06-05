@@ -147,9 +147,29 @@ SRD_treaty_limit_level_7_DD = {
 	has_navy_size = { size > 249 unit = destroyer }
 }
 
+SRD_treaty_slow_level_7_DD = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 187 unit = destroyer }
+}
+
+SRD_treaty_reduced_level_7_DD = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 124 unit = destroyer }
+}
+
 SRD_treaty_limit_level_7_CL = {
 	SRD_any_naval_treaty_7_trigger = yes
 	has_navy_size = { size > 49 unit = light_cruiser }
+}
+
+SRD_treaty_slow_level_7_CL = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 37 unit = light_cruiser }
+}
+
+SRD_treaty_reduced_level_7_CL = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 24 unit = light_cruiser }
 }
 
 SRD_treaty_limit_level_7_CA = {
@@ -157,9 +177,29 @@ SRD_treaty_limit_level_7_CA = {
 	has_navy_size = { size > 20 unit = heavy_cruiser }
 }
 
+SRD_treaty_slow_level_7_CA = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 15 unit = heavy_cruiser }
+}
+
+SRD_treaty_reduced_level_7_CA = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 10 unit = heavy_cruiser }
+}
+
 SRD_treaty_limit_level_7_BB = {
 	SRD_any_naval_treaty_7_trigger = yes
 	has_navy_size = { size > 14 unit = battleship }
+}
+
+SRD_treaty_slow_level_7_BB = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 11 unit = battleship }
+}
+
+SRD_treaty_reduced_level_7_BB = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 7 unit = battleship }
 }
 
 SRD_treaty_limit_level_7_CV = {
@@ -167,14 +207,44 @@ SRD_treaty_limit_level_7_CV = {
 	has_navy_size = { size > 5 unit = carrier }
 }
 
+SRD_treaty_slow_level_7_CV = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 4 unit = carrier }
+}
+
+SRD_treaty_reduced_level_7_CV = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 2 unit = carrier }
+}
+
 SRD_treaty_limit_level_7_CVL = {
 	SRD_any_naval_treaty_7_trigger = yes
 	has_navy_size = { size > 5 unit = light_carrier }
 }
 
+SRD_treaty_slow_level_7_CVL = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 4 unit = light_carrier }
+}
+
+SRD_treaty_reduced_level_7_CVL = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 2 unit = light_carrier }
+}
+
 SRD_treaty_limit_level_7_SS = {
 	SRD_any_naval_treaty_7_trigger = yes
 	has_navy_size = { size > 149 unit = submarine }
+}
+
+SRD_treaty_slow_level_7_SS = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 112 unit = submarine }
+}
+
+SRD_treaty_reduced_level_7_SS = {
+	SRD_any_naval_treaty_7_trigger = yes
+	has_navy_size = { size > 74 unit = submarine }
 }
 
 SRD_treaty_breech_level_5 = {
@@ -194,9 +264,29 @@ SRD_treaty_limit_level_5_DD = {
 	has_navy_size = { size > 179 unit = destroyer }
 }
 
+SRD_treaty_slow_level_5_DD = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 134 unit = destroyer }
+}
+
+SRD_treaty_reduced_level_5_DD = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 89 unit = destroyer }
+}
+
 SRD_treaty_limit_level_5_CL = {
 	SRD_any_naval_treaty_5_trigger = yes
 	has_navy_size = { size > 34 unit = light_cruiser }
+}
+
+SRD_treaty_slow_level_5_CL = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 26 unit = light_cruiser }
+}
+
+SRD_treaty_reduced_level_5_CL = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 17 unit = light_cruiser }
 }
 
 SRD_treaty_limit_level_5_CA = {
@@ -204,9 +294,29 @@ SRD_treaty_limit_level_5_CA = {
 	has_navy_size = { size > 14 unit = heavy_cruiser }
 }
 
+SRD_treaty_slow_level_5_CA = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 11 unit = heavy_cruiser }
+}
+
+SRD_treaty_reduced_level_5_CA = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 7 unit = heavy_cruiser }
+}
+
 SRD_treaty_limit_level_5_BB = {
 	SRD_any_naval_treaty_5_trigger = yes
 	has_navy_size = { size > 9 unit = battleship }
+}
+
+SRD_treaty_slow_level_5_BB = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 7 unit = battleship }
+}
+
+SRD_treaty_reduced_level_5_BB = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 4 unit = battleship }
 }
 
 SRD_treaty_limit_level_5_CV = {
@@ -214,14 +324,44 @@ SRD_treaty_limit_level_5_CV = {
 	has_navy_size = { size > 3 unit = carrier }
 }
 
+SRD_treaty_slow_level_5_CV = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 2 unit = carrier }
+}
+
+SRD_treaty_reduced_level_5_CV = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 1 unit = carrier }
+}
+
 SRD_treaty_limit_level_5_CVL = {
 	SRD_any_naval_treaty_5_trigger = yes
 	has_navy_size = { size > 3 unit = light_carrier }
 }
 
+SRD_treaty_slow_level_5_CVL = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 2 unit = light_carrier }
+}
+
+SRD_treaty_reduced_level_5_CVL = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 1 unit = light_carrier }
+}
+
 SRD_treaty_limit_level_5_SS = {
 	SRD_any_naval_treaty_5_trigger = yes
 	has_navy_size = { size > 124 unit = submarine }
+}
+
+SRD_treaty_slow_level_5_SS = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 93 unit = submarine }
+}
+
+SRD_treaty_reduced_level_5_SS = {
+	SRD_any_naval_treaty_5_trigger = yes
+	has_navy_size = { size > 62 unit = submarine }
 }
 
 SRD_treaty_breech_level_3 = {
@@ -241,9 +381,29 @@ SRD_treaty_limit_level_3_DD = {
 	has_navy_size = { size > 119 unit = destroyer }
 }
 
+SRD_treaty_slow_level_3_DD = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 89 unit = destroyer }
+}
+
+SRD_treaty_reduced_level_3_DD = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 59 unit = destroyer }
+}
+
 SRD_treaty_limit_level_3_CL = {
 	SRD_any_naval_treaty_3_trigger = yes
 	has_navy_size = { size > 24 unit = light_cruiser }
+}
+
+SRD_treaty_slow_level_3_CL = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 18 unit = light_cruiser }
+}
+
+SRD_treaty_reduced_level_3_CL = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 12 unit = light_cruiser }
 }
 
 SRD_treaty_limit_level_3_CA = {
@@ -251,9 +411,29 @@ SRD_treaty_limit_level_3_CA = {
 	has_navy_size = { size > 8 unit = heavy_cruiser }
 }
 
+SRD_treaty_slow_level_3_CA = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 6 unit = heavy_cruiser }
+}
+
+SRD_treaty_reduced_level_3_CA = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 4 unit = heavy_cruiser }
+}
+
 SRD_treaty_limit_level_3_BB = {
 	SRD_any_naval_treaty_3_trigger = yes
 	has_navy_size = { size > 6 unit = battleship }
+}
+
+SRD_treaty_slow_level_3_BB = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 5 unit = battleship }
+}
+
+SRD_treaty_reduced_level_3_BB = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 3 unit = battleship }
 }
 
 SRD_treaty_limit_level_3_CV = {
@@ -261,9 +441,24 @@ SRD_treaty_limit_level_3_CV = {
 	has_navy_size = { size > 1 unit = carrier }
 }
 
+SRD_treaty_slow_level_3_CV = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 0 unit = carrier }
+}
+
 SRD_treaty_limit_level_3_SS = {
 	SRD_any_naval_treaty_3_trigger = yes
 	has_navy_size = { size > 99 unit = submarine }
+}
+
+SRD_treaty_slow_level_3_SS = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 74 unit = submarine }
+}
+
+SRD_treaty_reduced_level_3_SS = {
+	SRD_any_naval_treaty_3_trigger = yes
+	has_navy_size = { size > 49 unit = submarine }
 }
 
 SRD_treaty_breech_level_AG = {
@@ -283,9 +478,29 @@ SRD_treaty_limit_level_AG_DD = {
 	has_navy_size = { size > 82 unit = destroyer }
 }
 
+SRD_treaty_slow_level_AG_DD = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 62 unit = destroyer }
+}
+
+SRD_treaty_reduced_level_AG_DD = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 41 unit = destroyer }
+}
+
 SRD_treaty_limit_level_AG_CL = {
 	SRD_any_naval_treaty_AG_trigger = yes
 	has_navy_size = { size > 15 unit = light_cruiser }
+}
+
+SRD_treaty_slow_level_AG_CL = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 11 unit = light_cruiser }
+}
+
+SRD_treaty_reduced_level_AG_CL = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 7 unit = light_cruiser }
 }
 
 SRD_treaty_limit_level_AG_CA = {
@@ -293,14 +508,44 @@ SRD_treaty_limit_level_AG_CA = {
 	has_navy_size = { size > 6 unit = heavy_cruiser }
 }
 
+SRD_treaty_slow_level_AG_CA = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 5 unit = heavy_cruiser }
+}
+
+SRD_treaty_reduced_level_AG_CA = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 3 unit = heavy_cruiser }
+}
+
 SRD_treaty_limit_level_AG_BB = {
 	SRD_any_naval_treaty_AG_trigger = yes
 	has_navy_size = { size > 4 unit = battleship }
 }
 
+SRD_treaty_slow_level_AG_BB = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 3 unit = battleship }
+}
+
+SRD_treaty_reduced_level_AG_BB = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 2 unit = battleship }
+}
+
 SRD_treaty_limit_level_AG_SS = {
 	SRD_any_naval_treaty_AG_trigger = yes
 	has_navy_size = { size > 79 unit = submarine }
+}
+
+SRD_treaty_slow_level_AG_SS = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 59 unit = submarine }
+}
+
+SRD_treaty_reduced_level_AG_SS = {
+	SRD_any_naval_treaty_AG_trigger = yes
+	has_navy_size = { size > 39 unit = submarine }
 }
 
 SRD_treaty_breech_level_commonwealth = {

@@ -15,6 +15,14 @@ USA_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
 		}
@@ -70,6 +78,14 @@ USA_ASW = {
 		modifier = {
 			factor = 40
 			anti_submarine_strategy_required_trigger = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
 		}
 		modifier = {
 			factor = 0
@@ -130,6 +146,14 @@ USA_MS = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
 		}
@@ -185,6 +209,14 @@ USA_ML = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_DD = yes
 		}
@@ -236,6 +268,14 @@ USA_CL = {
 	
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CL = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CL = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_CL = yes
@@ -391,6 +431,14 @@ USA_CA = {
 	
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CA = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CA = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_CL = yes
@@ -560,6 +608,14 @@ USA_BB = {
 		modifier = {
 			factor = 2
 			not = { has_completed_focus = USA_carrier_primacy }
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_BB = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_BB = yes
 		}
 		modifier = {
 			factor = 0
@@ -882,6 +938,14 @@ USA_CV = {
 			has_completed_focus = USA_carrier_primacy
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CV = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CV = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_CV = yes
 		}
@@ -1174,6 +1238,14 @@ USA_CVL = {
 	priority = {
 		factor = 40
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_CVL = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_CVL = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = USA_carrier_primacy }
@@ -1223,6 +1295,14 @@ USA_SS = {
 	
 	priority = {
 		factor = 70
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_7_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_7_SS = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_7_SS = yes

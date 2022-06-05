@@ -19,6 +19,14 @@ SOV_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_DD = yes
 		}
@@ -75,6 +83,14 @@ SOV_ASW = {
 		modifier = {
 			factor = 30
 			anti_submarine_strategy_required_trigger = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
 			factor = 0
@@ -138,6 +154,14 @@ SOV_MS = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = SOV_an_oceangoing_navy }
@@ -191,6 +215,14 @@ SOV_ML = {
 	
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -248,6 +280,14 @@ SOV_CL = {
 		modifier = {
 			factor = 4
 			has_completed_focus = SOV_an_oceangoing_navy
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_CL = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_CL = yes
 		}
 		modifier = {
 			factor = 0
@@ -389,6 +429,14 @@ SOV_BB = {
 	
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_BB = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_BB = yes
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -761,6 +809,14 @@ SOV_SS = {
 			not = { has_completed_focus = SOV_an_oceangoing_navy }
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_SS = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_global_flag = anglo_soviet_naval_treaty_over }
@@ -812,6 +868,14 @@ SOV_SM = {
 
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_SS = yes
+		}
 		modifier = {
 			factor = 0
 			OR = {

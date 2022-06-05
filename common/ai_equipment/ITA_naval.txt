@@ -15,6 +15,14 @@ ITA_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_DD = yes
 		}
@@ -76,6 +84,14 @@ ITA_ASW = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_DD = yes
 		}
@@ -135,6 +151,14 @@ ITA_MS = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_DD = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_DD = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_DD = yes
 		}
@@ -186,6 +210,14 @@ ITA_CL = {
 	
 	priority = {
 		factor = 60
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_CL = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_CL = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_CL = yes
@@ -321,6 +353,14 @@ ITA_CA = {
 	
 	priority = {
 		factor = 10
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_CA = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_CA = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_CA = yes
@@ -459,6 +499,14 @@ ITA_BB = {
 	
 	priority = {
 		factor = 40
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_BB = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_BB = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_BB = yes
@@ -647,6 +695,14 @@ ITA_SS = {
 	priority = {
 		factor = 60
 		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_SS = yes
+		}
+		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_SS = yes
 		}
@@ -696,6 +752,14 @@ ITA_SM = {
 
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.1
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.1
+			SRD_treaty_slow_level_3_SS = yes
+		}
 		modifier = {
 			factor = 0
 			SRD_treaty_limit_level_3_SS = yes

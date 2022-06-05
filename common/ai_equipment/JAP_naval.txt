@@ -11,6 +11,20 @@ JAP_DD = {
 	priority = {
 		factor = 200
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_DD = yes
+				SRD_treaty_reduced_level_5_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_DD = yes
+				SRD_treaty_slow_level_5_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_DD = yes
@@ -70,6 +84,20 @@ JAP_ASW = {
 		modifier = {
 			factor = 200
 			anti_submarine_strategy_required_trigger = yes
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_DD = yes
+				SRD_treaty_reduced_level_5_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_DD = yes
+				SRD_treaty_slow_level_5_DD = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -136,6 +164,20 @@ JAP_MS = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_DD = yes
+				SRD_treaty_reduced_level_5_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_DD = yes
+				SRD_treaty_slow_level_5_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_DD = yes
@@ -196,6 +238,20 @@ JAP_ML = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_DD = yes
+				SRD_treaty_reduced_level_5_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_DD = yes
+				SRD_treaty_slow_level_5_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_DD = yes
@@ -252,6 +308,20 @@ JAP_CL = {
 	
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_CL = yes
+				SRD_treaty_reduced_level_5_CL = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_CL = yes
+				SRD_treaty_slow_level_5_CL = yes
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -515,6 +585,20 @@ JAP_CA = {
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 		}
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_CA = yes
+				SRD_treaty_reduced_level_5_CA = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_CA = yes
+				SRD_treaty_slow_level_5_CA = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_CA = yes
@@ -752,6 +836,20 @@ JAP_BB = {
 		modifier = {
 			factor = 2
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_BB = yes
+				SRD_treaty_reduced_level_5_BB = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_BB = yes
+				SRD_treaty_slow_level_5_BB = yes
+			}
 		}
 		modifier = {
 			factor = 0
@@ -1095,6 +1193,20 @@ JAP_CV = {
 			has_completed_focus = JAP_carrier_warfare_experiments
 		}
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_CV = yes
+				SRD_treaty_reduced_level_5_CV = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_CV = yes
+				SRD_treaty_slow_level_5_CV = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_CV = yes
@@ -1401,6 +1513,20 @@ JAP_CVL = {
 			has_completed_focus = JAP_carrier_warfare_experiments
 		}
 		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_CVL = yes
+				SRD_treaty_reduced_level_5_CVL = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_CVL = yes
+				SRD_treaty_slow_level_5_CVL = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_7_CVL = yes
@@ -1658,6 +1784,20 @@ JAP_SS = {
 	
 	priority = {
 		factor = 80
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_reduced_level_7_SS = yes
+				SRD_treaty_reduced_level_5_SS = yes
+			}
+		}
+		modifier = {
+			factor = 0.1
+			OR = {
+				SRD_treaty_slow_level_7_SS = yes
+				SRD_treaty_slow_level_5_SS = yes
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
