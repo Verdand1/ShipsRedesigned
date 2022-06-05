@@ -297,19 +297,23 @@ USA_CL = {
 			match_value = 1.0
 			
 			type = ship_hull_cruiser_1
+			modules = {
+				mid_1 = ship_anti_air_1
+				mid_2 = ship_anti_air_2
+				mid_3 = ship_anti_air_2
+				mid_4 = ship_anti_air_1
+			}
 			upgrades = {
-				ship_medium_engine_upgrade = 7
+				ship_medium_engine_upgrade = 9
 				ship_medium_armor_upgrade = 3
 			}
 		}
 		
 		allowed_modules = {
-			ship_fire_control_system_2
-			ship_fire_control_system_1
-			ship_perf_engine_2
-			ship_extra_fuel_tank_2
+			ship_fire_control_system_0
+			ship_range_engine_2
+			ship_extra_fuel_tank_3
 			ship_light_medium_battery_2
-			ship_anti_air_2
 		}
 	}
 	
@@ -328,7 +332,7 @@ USA_CL = {
 			
 			type = ship_hull_cruiser_1
 			upgrades = {
-				ship_medium_engine_upgrade = 7
+				ship_medium_engine_upgrade = 9
 				ship_medium_armor_upgrade = 3
 			}
 		}
@@ -339,7 +343,7 @@ USA_CL = {
 			ship_fire_control_system_1
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
-			ship_perf_engine_2
+			ship_range_engine_2
 			ship_extra_fuel_tank_3
 			ship_light_medium_battery_2
 			ship_anti_air_4
@@ -363,8 +367,8 @@ USA_CL = {
 			
 			type = ship_hull_cruiser_1
 			upgrades = {
-				ship_medium_engine_upgrade = 8
-				ship_medium_armor_upgrade = 4
+				ship_medium_engine_upgrade = 9
+				ship_medium_armor_upgrade = 5
 			}
 		}
 		

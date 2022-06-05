@@ -530,6 +530,7 @@ create_equipment_variant = {
 	role_icon_index = 6
 	upgrades = {
 		sub_engine_upgrade = 7
+		ship_ai_priority = 1
 	}
 }
 
@@ -721,7 +722,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
-		ship_ai_priority = 13
 	}
 }
 
