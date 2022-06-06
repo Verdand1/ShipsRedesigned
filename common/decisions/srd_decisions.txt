@@ -397,6 +397,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_country_flag = cheat_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			OR = {
 				SRD_has_naval_treaty_trigger = yes
@@ -416,6 +417,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			set_country_flag = cheat_on_treaty_flag
 			cheat_on_treaty_idea = yes
 		}
 	}
@@ -450,6 +452,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_country_flag = escalate_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			SRD_has_naval_treaty_trigger = yes
 		}
@@ -483,6 +486,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			set_country_flag = escalate_on_treaty_flag
 			escalate_on_treaty_idea = yes
 			IF = {
 				limit = {
