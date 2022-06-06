@@ -373,7 +373,10 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			has_idea = SRD_anglo_german_naval_agreement
+			OR = {
+				has_idea = SRD_anglo_german_naval_agreement
+				has_idea = SRD_anglo_german_naval_agreement_cheat
+			}
 		}
 		
 		cost = 150
