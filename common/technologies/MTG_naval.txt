@@ -2461,6 +2461,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			ship_modules_tech
 		}
 	}
 
@@ -2496,6 +2497,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			ship_modules_tech
 		}
 	}
 
