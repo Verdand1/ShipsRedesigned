@@ -739,6 +739,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}
@@ -782,6 +783,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}
@@ -821,6 +823,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}
