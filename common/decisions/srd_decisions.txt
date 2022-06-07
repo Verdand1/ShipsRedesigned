@@ -274,6 +274,7 @@ SRD_naval_treaties = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			SRD_has_naval_treaty_trigger = yes
 			NOT = { has_government = democratic }
+			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
 		
 		available = {
@@ -409,6 +410,7 @@ SRD_naval_treaties = {
 				has_idea = SRD_naval_treaty_adherent_7_temp
 			}
 			NOT = { has_government = democratic }
+			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
 		
 		cost = 200
