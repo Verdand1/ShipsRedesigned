@@ -583,6 +583,9 @@ equipment_modules = {
 			anti_air_attack = 0.1
 			build_cost_ic = 0.01
 		}
+		can_convert_from = {
+			module_category = ship_anti_air
+		}
 	}
 	ship_anti_air_2 = {
 		category = ship_anti_air
@@ -597,6 +600,9 @@ equipment_modules = {
 			naval_speed = -0.01
 			anti_air_attack = 0.15
 			build_cost_ic = 0.02
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
 		}
 	}
 	ship_anti_air_3 = {
@@ -613,6 +619,9 @@ equipment_modules = {
 			anti_air_attack = 0.2
 			build_cost_ic = 0.03
 		}
+		can_convert_from = {
+			module_category = ship_anti_air
+		}
 	}
 	ship_anti_air_4 = {
 		category = ship_anti_air
@@ -627,6 +636,9 @@ equipment_modules = {
 			naval_speed = -0.02
 			anti_air_attack = 0.25
 			build_cost_ic = 0.04
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
 		}
 	}
 
@@ -852,7 +864,7 @@ equipment_modules = {
 ###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###     ##    #   ##   #  ### #   # 
 
 
-	damage_control_system_1 = {
+	ship_damage_control_system_1 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -867,7 +879,7 @@ equipment_modules = {
 		dismantle_cost_ic = 200
 
 	}
-	damage_control_system_2 = {
+	ship_damage_control_system_2 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -882,7 +894,7 @@ equipment_modules = {
 		dismantle_cost_ic = 200
 
 	}
-	damage_control_system_3 = {
+	ship_damage_control_system_3 = {
 		category = ship_damage_control
 		
 		add_stats = {
@@ -906,8 +918,8 @@ equipment_modules = {
 #  # ### ### #  # #    ##  #  #  ##  ### ###      ##   #  #  #  ##   ##   #   ##  #  # ### 
 
 
-	reinforced_structure = {
-		category = ship_structure
+	ship_reinforced_structure = {
+		category = ship_reinforced_structure
 		
 		add_stats = {
 			build_cost_ic = 100
@@ -1105,6 +1117,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+		}
 	}
 	ship_depth_charge_2 = {
 		category = ship_depth_charge
@@ -1118,6 +1133,9 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.01
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
 		}
 	}
 	ship_depth_charge_3 = {
@@ -1133,6 +1151,9 @@ equipment_modules = {
 		multiply_stats = {
 			naval_speed = -0.01
 		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+		}
 	}
 	ship_depth_charge_4 = {
 		category = ship_depth_charge
@@ -1146,6 +1167,9 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
 			naval_speed = -0.01
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
 		}
 	}
 
@@ -1166,6 +1190,11 @@ equipment_modules = {
 		multiply_stats = {
 			surface_visibility = 1
 			sub_visibility = -0.1
+		}
+		
+		can_convert_from = {
+			module_category = ship_sub_snorkel
+			convert_cost_ic = 20
 		}
 		
 	}
@@ -1224,7 +1253,6 @@ equipment_modules = {
 	ship_deck_space = {
 		category = ship_deck_space
 		gfx = ship_deck_space_1
-		add_equipment_type = capital_ship
 
 		add_stats = {
 			surface_visibility = 1
@@ -1253,7 +1281,6 @@ equipment_modules = {
 		category = ship_large_deck_space
 		gui_category = ship_deck_space
 		gfx = ship_deck_space_2
-		add_equipment_type = capital_ship
 
 		add_stats = {
 			surface_visibility = 2
@@ -1393,6 +1420,9 @@ equipment_modules = {
 			build_cost_ic = 70
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.1
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar
@@ -1409,6 +1439,9 @@ equipment_modules = {
 			build_cost_ic = 110
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.2
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar
@@ -1425,6 +1458,9 @@ equipment_modules = {
 			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
+		multiply_stats = {
+			mines_sweeping = 0.3
+		}
 		
 		can_convert_from = {
 			module_category = ship_sonar

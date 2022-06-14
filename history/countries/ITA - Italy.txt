@@ -398,6 +398,9 @@ create_equipment_variant = {
 		fixed_inner_hull = empty
 		mid_2 = ship_torpedo_sub_2
 	}
+	upgrades = {
+		sub_depth_upgrade = 5
+	}
 	obsolete = yes
 }
 
@@ -497,6 +500,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 3
+		ship_ai_priority = 2
 	}
 }
 
@@ -828,6 +832,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 7
+		ship_ai_priority = 3
 	}
 }
 
@@ -1008,6 +1013,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 8
+		ship_ai_priority = 2
 	}
 }
 
@@ -1104,6 +1110,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_engine_upgrade = 9
 		ship_medium_armor_upgrade = 2
+		ship_ai_priority = 2
 	}
 }
 
@@ -1164,6 +1171,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 5
+		ship_ai_priority = 9
 	}
 }
 

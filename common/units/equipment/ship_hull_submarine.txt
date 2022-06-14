@@ -3,6 +3,7 @@ equipments = {
 	ship_hull_submarine = {
 		is_archetype = yes
 		type = submarine
+		interface_category = interface_category_other_ships
 	}
 
 	ship_hull_submarine_1 = {
@@ -16,7 +17,6 @@ equipments = {
 
 		archetype = ship_hull_submarine
 		group_by = archetype
-		interface_category = interface_category_other_ships
 		priority = 2500
 		
 		naval_speed = 12
@@ -57,7 +57,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_structure
+					ship_reinforced_structure
 					ship_damage_control
 				}
 			}
@@ -84,6 +84,7 @@ equipments = {
 		upgrades = {
 			sub_engine_upgrade
 			sub_depth_upgrade
+			ship_ai_priority
 		}
 
 		default_modules = {

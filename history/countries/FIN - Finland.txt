@@ -180,6 +180,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_depth_upgrade = 6
+		ship_ai_priority = 1
 	}
 }
 

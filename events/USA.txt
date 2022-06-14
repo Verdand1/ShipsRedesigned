@@ -361,7 +361,7 @@ country_event = {
 			}
 			D50 = {
 			    destroy_ships = {
-			        type = destroyer
+			        type = ship_hull_escort
 			        count = 50
 			    }
 			}

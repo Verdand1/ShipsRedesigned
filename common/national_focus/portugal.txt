@@ -1857,6 +1857,11 @@ focus_tree = {
 
 	focus = {
 		id = POR_carrier_effort
+
+		ai_will_do = {
+			factor = 0
+		}
+
 		available = {			
 		}
 

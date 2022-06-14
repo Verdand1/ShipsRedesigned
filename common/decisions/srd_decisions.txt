@@ -274,6 +274,7 @@ SRD_naval_treaties = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			SRD_has_naval_treaty_trigger = yes
 			NOT = { has_government = democratic }
+			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
 		
 		available = {
@@ -373,7 +374,10 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			has_idea = SRD_anglo_german_naval_agreement
+			OR = {
+				has_idea = SRD_anglo_german_naval_agreement
+				has_idea = SRD_anglo_german_naval_agreement_cheat
+			}
 		}
 		
 		cost = 150
@@ -394,6 +398,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_country_flag = cheat_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			OR = {
 				SRD_has_naval_treaty_trigger = yes
@@ -405,6 +410,7 @@ SRD_naval_treaties = {
 				has_idea = SRD_naval_treaty_adherent_7_temp
 			}
 			NOT = { has_government = democratic }
+			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
 		
 		cost = 200
@@ -413,6 +419,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			set_country_flag = cheat_on_treaty_flag
 			cheat_on_treaty_idea = yes
 		}
 	}
@@ -447,6 +454,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_country_flag = escalate_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			SRD_has_naval_treaty_trigger = yes
 		}
@@ -480,6 +488,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			set_country_flag = escalate_on_treaty_flag
 			escalate_on_treaty_idea = yes
 			IF = {
 				limit = {

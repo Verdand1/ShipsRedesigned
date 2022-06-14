@@ -3217,6 +3217,11 @@ focus_tree = {
 
 	focus = {
 		id = HOL_air_cover_for_the_new_fleet
+
+		ai_will_do = {
+			factor = 0
+		}
+
 		prerequisite = { focus = HOL_the_battlecruiser_plan }
 		mutually_exclusive = { focus = HOL_unsinkable_aircraft_carriers }
 		icon = GFX_goal_generic_navy_carrier

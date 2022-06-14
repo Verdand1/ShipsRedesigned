@@ -399,7 +399,17 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 7
+			factor = 6
+			
+			modifier = {
+				factor = 3
+				date > "1938.1.6"
+			}
+			
+			modifier = {
+				factor = 3
+				date > "1939.1.1"
+			}
 		}
 		
 		categories = {
@@ -440,12 +450,12 @@ technologies = {
 			
 			modifier = {
 				factor = 3
-				date > "1938.1.6"
+				date > "1940.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1939.1.1"
+				date > "1941.1.1"
 			}
 		}
 		
@@ -477,16 +487,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			
 			modifier = {
 				factor = 3
-				date > "1940.1.6"
+				date > "1942.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1941.1.1"
+				date > "1943.1.1"
 			}
 
 			modifier = {
@@ -523,16 +533,16 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			
 			modifier = {
 				factor = 3
-				date > "1942.1.6"
+				date > "1944.1.6"
 			}
 			
 			modifier = {
 				factor = 3
-				date > "1943.1.1"
+				date > "1945.1.1"
 			}
 		}
 		
@@ -546,6 +556,9 @@ technologies = {
 	
 	basic_fire_control_system = {
 
+		dependencies = {
+			ship_light_hull = 1
+		}
 		allow_branch = {
 			has_dlc = "Man the Guns"
 		}
@@ -564,21 +577,25 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.75
+			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
 					tag = JAP
+					tag = FRA
+					tag = ITA
 				}
-				factor = 3
 			}
 			modifier = {
+				factor = 0
 				OR = {
 					can_research = improved_fire_control_system
 					has_tech = improved_fire_control_system
+					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
 				}
-				factor = 0
 			}
 		}
 		
@@ -591,6 +608,9 @@ technologies = {
 
 	improved_fire_control_system = {
 
+		dependencies = {
+			ship_light_hull = 1
+		}
 		enable_equipment_modules = { 
 			ship_fire_control_system_2
 		}
@@ -608,21 +628,25 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.75
+			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
 					tag = JAP
+					tag = FRA
+					tag = ITA
 				}
-				factor = 3
 			}
 			modifier = {
+				factor = 0
 				OR = {
 					can_research = advanced_fire_control_system
 					has_tech = advanced_fire_control_system
+					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
 				}
-				factor = 0
 			}
 		}
 		
@@ -635,6 +659,9 @@ technologies = {
 
 	advanced_fire_control_system = {
 
+		dependencies = {
+			ship_light_hull = 1
+		}
 		enable_equipment_modules = { 
 			ship_fire_control_system_3
 		}
@@ -652,16 +679,22 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0.75
+			factor = 1
 			modifier = {
+				factor = 3
 				OR = {
 					tag = ENG
 					tag = USA
 					tag = JAP
+					tag = FRA
+					tag = ITA
 				}
-				factor = 3
 			}
-			
+			modifier = {
+				factor = 0
+				not = { has_tech = ship_cruiser_hull }
+				num_of_naval_factories < 5
+			}			
 		}
 		
 		categories = {
@@ -682,6 +715,9 @@ technologies = {
 			leads_to_tech = improved_sonar
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			basic_depth_charges = 1
+		}
 
 		research_cost = 1.25
 
@@ -696,10 +732,6 @@ technologies = {
 			factor = 2
 			
 			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
 			}
@@ -707,6 +739,7 @@ technologies = {
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}
@@ -736,17 +769,21 @@ technologies = {
 			factor = 2
 			
 			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					tag = ENG
+					tag = USA
+				}
 			}
 		}
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}
@@ -772,17 +809,21 @@ technologies = {
 			factor = 2
 			
 			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
 				factor = 2
 				anti_submarine_strategy_required_trigger = yes
+			}
+			modifier = {
+				factor = 5
+				OR = {
+					tag = ENG
+					tag = USA
+				}
 			}
 		}
 		
 		categories = {
 			electronics
+			naval_equipment
 			asw_tech
 		}
 	}

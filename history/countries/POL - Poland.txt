@@ -405,6 +405,7 @@ create_equipment_variant = {
 	upgrades = {
 		sub_engine_upgrade = 2
 		sub_depth_upgrade = 5
+		ship_ai_priority = 7
 	}
 }
 
@@ -422,6 +423,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 7
+		ship_ai_priority = 0
 	}
 }
 
@@ -444,6 +446,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 6
+		ship_ai_priority = 5
 	}
 }
 
@@ -463,6 +466,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_engine_upgrade = 8
 		ship_light_armor_upgrade = 1
+		ship_ai_priority = 0
 	}
 }
 

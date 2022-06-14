@@ -3,6 +3,7 @@ equipments = {
 	ship_hull_escort = {
 		is_archetype = yes
 		type = screen_ship
+		interface_category = interface_category_screen_ships
 	}
 
 	ship_hull_light_1 = {
@@ -15,7 +16,6 @@ equipments = {
 		}
 
 		archetype = ship_hull_escort
-		interface_category = interface_category_screen_ships
 		priority = 2000
 
 		naval_speed = 18
@@ -62,7 +62,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_structure
+					ship_reinforced_structure
 					ship_damage_control
 				}
 			}
@@ -101,6 +101,7 @@ equipments = {
 		upgrades = {
 			ship_light_engine_upgrade
 			ship_light_armor_upgrade
+			ship_ai_priority
 		}
 
 		default_modules = {

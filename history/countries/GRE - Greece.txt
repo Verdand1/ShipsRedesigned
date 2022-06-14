@@ -418,6 +418,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 6
+		ship_ai_priority = 3
 	}
 }
 

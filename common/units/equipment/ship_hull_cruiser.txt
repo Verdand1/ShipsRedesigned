@@ -3,6 +3,7 @@ equipments = {
 	ship_hull_cruiser = {
 		is_archetype = yes
 		type = capital_ship
+		interface_category = interface_category_capital_ships
 	}
 
 	ship_hull_cruiser_2 = {
@@ -15,7 +16,6 @@ equipments = {
 		}
 
 		archetype = ship_hull_cruiser
-		interface_category = interface_category_capital_ships
 		priority = 1800
 		can_convert_from = { ship_hull_cruiser_1 ship_hull_carrier_2 }
 
@@ -64,7 +64,7 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_structure
+					ship_reinforced_structure
 					ship_damage_control
 				}
 			}
@@ -118,6 +118,7 @@ equipments = {
 		upgrades = {
 			ship_medium_engine_upgrade
 			ship_medium_armor_upgrade
+			ship_ai_priority
 		}
 
 		default_modules = {

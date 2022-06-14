@@ -8,7 +8,7 @@ units= {
 			location = 12997 # Lima
 			ship = { name = "BAP Almirante Grau" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PRU version_name = "Almirante Grau Class" } } }
 			ship = { name = "BAP Coronel Bolognesi" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = PRU version_name = "Almirante Grau Class" } } }
-			ship = { name = "BAP Almirante Guise" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Almirante Guise" } } }
+			ship = { name = "BAP Almirante Guise" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Almirante Guise Class" } } }
 			ship = { name = "BAP Almirante Villar" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Almirante Villar Class" } } }
 			ship = { name = "BAP Teniente Rodríguez" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = PRU version_name = "Teniente Rodríguez Class" } } }
 		}
