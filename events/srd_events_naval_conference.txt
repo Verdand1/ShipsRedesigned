@@ -21,6 +21,22 @@ country_event = {
 		
 		ai_chance = {
 			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = ENG_AI_RANDOM_COMMUNIST
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = ENG_AI_RANDOM_DEMOCRATIC_ALTERNATE
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = ENG_AI_RANDOM_FASCIST
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = ENG_AI_RANDOM_NEUTRALITY
+			}
 		}
 		
 		USA = {
@@ -31,7 +47,15 @@ country_event = {
 		name = SRD_naval_conference.100.b 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = ENG_AI_DEMOCRATIC_HISTORICAL
+			}
 		}
 		
 		add_to_variable = {
