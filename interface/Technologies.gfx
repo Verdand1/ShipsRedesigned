@@ -1736,7 +1736,17 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_advanced_equipment_conversion_medium"
 		texturefile = "gfx/interface/technologies/equipment_conversion2.dds"
-	}	
+	}
+
+	SpriteType = {
+		name = "GFX_improved_factory_conversion_medium"
+		texturefile = "gfx/interface/technologies/factory_conversion.dds"
+	}
+
+	SpriteType = {
+		name = "GFX_advanced_factory_conversion_medium"
+		texturefile = "gfx/interface/technologies/factory_conversion2.dds"
+	}
 
 	SpriteType = {
 		name = "GFX_concentrated_industry_medium"
