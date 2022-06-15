@@ -292,10 +292,6 @@ SRD_naval_treaties = {
 			
 			remove_ideas = SRD_commonwealth_naval_agreement
 			remove_ideas = SRD_commonwealth_naval_agreement_escalator
-			add_to_variable = {
-				var = global.london_treaty_credibility
-				value = -1
-			}
 			
 			add_stability = -0.05
 			

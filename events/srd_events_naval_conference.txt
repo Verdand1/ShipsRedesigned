@@ -114,7 +114,19 @@ country_event = {
 		name = SRD_naval_conference.200.a 
 		
 		ai_chance = {
-			factor = 100
+			factor = 50
+			modifier = {
+				factor = 4
+				has_country_flag = USA_AI_RANDOM_COMMUNIST
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = USA_AI_RANDOM_DEMOCRATIC_ALTERNATE
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = USA_AI_RANDOM_FASCIST
+			}
 		}
 		
 		FRA = {
@@ -125,7 +137,15 @@ country_event = {
 		name = SRD_naval_conference.200.b 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = USA_AI_DEMOCRATIC_HISTORICAL
+			}
 		}
 		
 		add_to_variable = {
@@ -202,6 +222,22 @@ country_event = {
 		
 		ai_chance = {
 			factor = 100
+			modifier = {
+				factor = 0.5
+				has_country_flag = FRA_AI_COMMUNIST
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = FRA_AI_FASCIST
+			}
+			modifier = {
+				factor = 2
+				has_country_flag = FRA_AI_ORLEANIST 
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FRA_AI_BONAPARTIST
+			}
 		}
 		
 		JAP = {
@@ -213,7 +249,15 @@ country_event = {
 		name = SRD_naval_conference.300.b 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = FRA_AI_DEMOCRATIC_HISTORICAL
+			}
 		}
 		
 		add_to_variable = {
@@ -335,7 +379,19 @@ country_event = {
 		name = SRD_naval_conference.400.a 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = JAP_AI_RANDOM_FASCIST
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = USA_refused_treaty
+			}
 		}
 		
 		ITA = {
@@ -347,6 +403,14 @@ country_event = {
 		
 		ai_chance = {
 			factor = 100
+			modifier = {
+				factor = 0
+				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+			}
 		}
 		
 		add_to_variable = {
@@ -405,7 +469,23 @@ country_event = {
 		}
 	
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				add = -49
+				has_global_flag = USA_refused_treaty
+			}
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = JAP_AI_RANDOM_FASCIST
+			}
+			modifier = {
+				factor = 3
+				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+			}
 		}
 		
 		IF = {
@@ -570,7 +650,19 @@ country_event = {
 		name = SRD_naval_conference.500.a 
 		
 		ai_chance = {
-			factor = 0
+			factor = 50
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+			modifier = {
+				factor = 0.1
+				has_country_flag = ITA_AI_RANDOM_FASCIST_HISTORICAL
+			}
+			modifier = {
+				factor = 0
+				has_global_flag = FRA_refused_treaty
+			}
 		}
 		
 		clr_global_flag = SRD_naval_conference_underway
@@ -608,6 +700,10 @@ country_event = {
 		
 		ai_chance = {
 			factor = 100
+			modifier = {
+				factor = 0.5
+				has_country_flag = ITA_AI_RANDOM_FASCIST_ALTERNATE
+			}
 		}
 		
 		add_to_variable = {
@@ -717,7 +813,23 @@ country_event = {
 		name = SRD_naval_conference.110.a 
 		
 		ai_chance = {
-			factor = 50
+			factor = 100
+			modifier = {
+				factor = 4
+				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = ENG_AI_RANDOM_FASCIST
+			}
+			modifier = {
+				factor = 0.5
+				has_country_flag = ENG_AI_RANDOM_NEUTRALITY
+			}
+			modifier = {
+				factor = 0.25
+				has_country_flag = ENG_AI_RANDOM_DEMOCRATIC_ALTERNATE
+			}
 		}
 		
 		IF = {
@@ -764,6 +876,20 @@ country_event = {
 		
 		ai_chance = {
 			factor = 50
+			modifier = {
+				factor = 6
+				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+			}
+			modifier = {
+				factor = 3
+				has_country_flag = USA_AI_RANDOM_COMMUNIST
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = USA_AI_RANDOM_FASCIST
+			}
+			
+			
 		}
 		
 		JAP = {
@@ -887,6 +1013,22 @@ country_event = {
 		
 		ai_chance = {
 			factor = 0
+			modifier = {
+				add = 100
+				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+			}
+			modifier = {
+				add = 100
+				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+			}
+			modifier = {
+				factor = 0
+				AND = {
+					has_global_flag = USA_refused_treaty
+					has_country_flag = USA_AI_RANDOM_FASCIST
+					has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+				}
+			}
 		}
 		
 		ITA = {
@@ -899,6 +1041,10 @@ country_event = {
 		
 		ai_chance = {
 			factor = 100
+			modifier = {
+				add = -99
+				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
+			}
 		}
 		
 		add_to_variable = {
@@ -1048,7 +1194,7 @@ country_event = {
 		
 		
 		ai_chance = {
-			factor = 100
+			factor = 80
 		}
 		
 		SOV = {
@@ -1061,7 +1207,11 @@ country_event = {
 		name = SRD_naval_conference.120.b 
 		
 		ai_chance = {
-			factor = 0
+			factor = 20
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		
 		set_global_flag = anglo_soviet_naval_treaty_over
@@ -1090,6 +1240,11 @@ country_event = {
 		
 		add_ideas = SRD_naval_treaty_adherent_3
 		
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = 1
+		}
+		
 		set_global_flag = anglo_soviet_naval_treaty_over
 		
 	}
@@ -1098,7 +1253,11 @@ country_event = {
 		name = SRD_naval_conference.720.c 
 		
 		ai_chance = {
-			factor = 0
+			factor = 100
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
 		}
 		
 		set_global_flag = anglo_soviet_naval_treaty_over

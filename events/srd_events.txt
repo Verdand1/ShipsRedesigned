@@ -771,7 +771,7 @@ country_event = {
 			has_idea = SRD_commonwealth_naval_agreement_escalator
 		}
 		NOT = {
-			is_puppet_of = ENG
+			is_subject_of = ENG
 		}
 	}
 
