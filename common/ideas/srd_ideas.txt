@@ -534,7 +534,31 @@ ideas = {
 		
 		SRD_commonwealth_naval_agreement_temp = {
 		
-			name = SSRD_commonwealth_naval_agreement_adherent
+			name = SRD_commonwealth_naval_agreement_adherent
+	
+			allowed = {
+				always = no
+			}
+	
+			allowed_civil_war = {
+				always = no
+			}
+		
+			removal_cost = -1
+			picture = MTG_naval_treaty_adherent
+			
+			modifier = {
+				production_cost_max_ship_hull_heavy = 10000
+				production_cost_max_ship_hull_carrier = 10000
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_light = 5400
+				production_cost_max_ship_hull_submarine = 1200
+			}
+		}
+		
+		SRD_british_enforcement = {
+		
+			name = SRD_commonwealth_naval_agreement_adherent
 	
 			allowed = {
 				always = no

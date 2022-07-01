@@ -127,6 +127,7 @@ SRD_has_naval_treaty_escalated = {
 		has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
 		has_idea = SRD_naval_treaty_adherent_3_escalator
 		has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+		has_idea = SRD_commonwealth_naval_agreement_escalator
 	}
 }
 

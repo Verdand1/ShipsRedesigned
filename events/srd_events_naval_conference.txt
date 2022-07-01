@@ -20,7 +20,7 @@ country_event = {
 		name = SRD_naval_conference.100.a 
 		
 		ai_chance = {
-			factor = 100
+			factor = 250
 			modifier = {
 				factor = 0
 				has_country_flag = ENG_AI_RANDOM_COMMUNIST
@@ -80,6 +80,7 @@ country_event = {
 		}
 		
 		add_stability = -0.15
+		set_country_flag = SRD_no_more_treaty_flag
 		
 		USA = {
 			country_event = { id = SRD_naval_conference.200 }
@@ -114,7 +115,7 @@ country_event = {
 		name = SRD_naval_conference.200.a 
 		
 		ai_chance = {
-			factor = 50
+			factor = 100
 			modifier = {
 				factor = 4
 				has_country_flag = USA_AI_RANDOM_COMMUNIST
@@ -170,6 +171,7 @@ country_event = {
 		}
 		
 		add_stability = -0.15
+		set_country_flag = SRD_no_more_treaty_flag
 		
 		FRA = {
 			country_event = { id = SRD_naval_conference.300 }
@@ -221,7 +223,7 @@ country_event = {
 		name = SRD_naval_conference.300.a 
 		
 		ai_chance = {
-			factor = 100
+			factor = 150
 			modifier = {
 				factor = 0.5
 				has_country_flag = FRA_AI_COMMUNIST
@@ -282,6 +284,7 @@ country_event = {
 		}
 		
 		add_stability = -0.15
+		set_country_flag = SRD_no_more_treaty_flag
 		
 		IF = {
 			limit = {
@@ -453,6 +456,8 @@ country_event = {
 		ELSE_IF = {
 			add_threat = 1
 		}
+		
+		set_country_flag = SRD_no_more_treaty_flag
 		
 		ITA = {
 			country_event = { id = SRD_naval_conference.500 }
@@ -792,6 +797,8 @@ country_event = {
 			}
 		}
 		
+		set_country_flag = SRD_no_more_treaty_flag
+		
 		clr_global_flag = SRD_naval_conference_underway
 		
 	}
@@ -989,6 +996,8 @@ country_event = {
 			add_threat = 1
 		}
 		
+		set_country_flag = SRD_no_more_treaty_flag
+		
 		ITA = {
 			country_event = { id = SRD_naval_conference.500 }
 		}
@@ -1087,6 +1096,8 @@ country_event = {
 		ELSE_IF = {
 			add_threat = 1
 		}
+		
+		set_country_flag = SRD_no_more_treaty_flag
 		
 		ITA = {
 			country_event = { id = SRD_naval_conference.500 }

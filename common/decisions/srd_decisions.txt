@@ -10,7 +10,18 @@ SRD_naval_treaties = {
 	#NATIONS AT WAR CANNOT BE INVITED
 					NOT = { has_war = yes }
 	#NATIONS CANNOT BE INVITED IF THEY REFUSED THE TREATY, LEFT IT? OR WERE KICKED
-					NOT = { has_country_flag = SRD_no_more_treaty_flag }
+					OR = {
+						NOT = { has_country_flag = SRD_no_more_treaty_flag }
+						AND = {
+							NOT = { has_country_flag = SRD_british_enforced }
+							ROOT = {
+								AND = {
+									tag = ENG
+									has_completed_focus = ENG_enforce_the_naval_treaties
+								}
+							}
+						}
+					}
 	#NATIONS ALREADY IN THE TREATY CANNOT GET INVITED
 					NOT = { 
 						SRD_has_naval_treaty_trigger = yes 
@@ -79,6 +90,15 @@ SRD_naval_treaties = {
 		
 		complete_effect = {
 			FROM = { set_country_flag = SRD_no_more_treaty_flag }
+			IF = {
+				limit = { 
+					AND = {
+						tag = ENG
+						has_completed_focus = ENG_enforce_the_naval_treaties
+					}
+				}
+				FROM = { set_country_flag = SRD_british_enforced }
+			}
 			FROM = { country_event = { id = SRD_naval_treaty.1 } }
 		}
 	
