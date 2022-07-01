@@ -121,7 +121,7 @@ country_event = {
 				has_country_flag = USA_AI_RANDOM_COMMUNIST
 			}
 			modifier = {
-				factor = 0.5
+				factor = 1
 				has_country_flag = USA_AI_RANDOM_DEMOCRATIC_ALTERNATE
 			}
 			modifier = {
@@ -223,7 +223,7 @@ country_event = {
 		name = SRD_naval_conference.300.a 
 		
 		ai_chance = {
-			factor = 150
+			factor = 200
 			modifier = {
 				factor = 0.5
 				has_country_flag = FRA_AI_COMMUNIST
@@ -414,6 +414,10 @@ country_event = {
 				factor = 0.1
 				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
 			}
+			modifier = {
+				factor = 0
+				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+			}
 		}
 		
 		add_to_variable = {
@@ -488,7 +492,7 @@ country_event = {
 				has_country_flag = JAP_AI_RANDOM_FASCIST
 			}
 			modifier = {
-				factor = 3
+				factor = 0
 				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
 			}
 		}
@@ -1205,7 +1209,7 @@ country_event = {
 		
 		
 		ai_chance = {
-			factor = 80
+			factor = 100
 		}
 		
 		SOV = {
@@ -1218,11 +1222,7 @@ country_event = {
 		name = SRD_naval_conference.120.b 
 		
 		ai_chance = {
-			factor = 20
-			modifier = {
-				factor = 0
-				is_historical_focus_on = yes
-			}
+			factor = 0
 		}
 		
 		set_global_flag = anglo_soviet_naval_treaty_over
