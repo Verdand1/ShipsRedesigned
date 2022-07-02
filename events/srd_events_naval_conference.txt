@@ -71,11 +71,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_7_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -115,14 +117,10 @@ country_event = {
 		name = SRD_naval_conference.200.a 
 		
 		ai_chance = {
-			factor = 100
+			factor = 150
 			modifier = {
 				factor = 4
 				has_country_flag = USA_AI_RANDOM_COMMUNIST
-			}
-			modifier = {
-				factor = 1
-				has_country_flag = USA_AI_RANDOM_DEMOCRATIC_ALTERNATE
 			}
 			modifier = {
 				factor = 0
@@ -162,11 +160,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_7_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -223,13 +223,13 @@ country_event = {
 		name = SRD_naval_conference.300.a 
 		
 		ai_chance = {
-			factor = 200
+			factor = 300
 			modifier = {
 				factor = 0.5
 				has_country_flag = FRA_AI_COMMUNIST
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0.05
 				has_country_flag = FRA_AI_FASCIST
 			}
 			modifier = {
@@ -275,11 +275,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_3_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -411,12 +413,12 @@ country_event = {
 				has_country_flag = JAP_AI_RANDOM_DEMOCRATIC
 			}
 			modifier = {
-				factor = 0.1
+				factor = 0
 				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
 			}
 			modifier = {
-				factor = 0
-				has_country_flag = JAP_AI_RANDOM_NEUTRALITY
+				add = 50
+				has_global_flag = USA_refused_treaty
 			}
 		}
 		
@@ -433,11 +435,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_5_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -486,10 +490,6 @@ country_event = {
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
-			}
-			modifier = {
-				factor = 0.5
-				has_country_flag = JAP_AI_RANDOM_FASCIST
 			}
 			modifier = {
 				factor = 0
@@ -728,11 +728,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_3_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -972,11 +974,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_5_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -1073,11 +1077,13 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
+			
 			add_timed_idea = {
 				idea = SRD_naval_treaty_adherent_5_temp
-				days = 360
+				days = ndt1937
 			}
 		}
 		
@@ -1132,13 +1138,14 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 			remove_regular_treaty_idea = yes
-			set_temp_variable = { ndt1938 = 360 }
-			subtract_from_temp_variable = { ndt1938 = global.num_days  }
+			set_temp_variable = { ndt1937 = 707005 }
+			
+			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			IF = { 
 				limit = { tag = JAP }
 				add_timed_idea = {
 					idea = SRD_naval_treaty_adherent_5_temp
-					days = 360
+					days = ndt1937
 				}
 			}
 			ELSE_IF = {
@@ -1150,19 +1157,25 @@ country_event = {
 				}
 				add_timed_idea = {
 					idea = SRD_naval_treaty_adherent_7_temp
-					days = 360
+					days = ndt1937
 				}
 			}
 			ELSE = {
 				add_timed_idea = {
 					idea = SRD_naval_treaty_adherent_3_temp
-					days = 360
+					days = ndt1937
 				}
 			}
 		}
 		add_to_variable = {
 			var = global.london_treaty_member_count
 			value = -1
+		}
+		
+		every_country = {
+			news_event = {
+				id = SRD_naval_conference.602
+			}
 		}
 	}
 }
@@ -1179,6 +1192,26 @@ news_event = {
 
 	option = { #ok
 		name = SRD_naval_conference.601.a 
+		
+		ai_chance = {
+			factor = 100
+		}
+		
+	}
+}
+
+#NEWS FOR TREATY COLLAPSE
+
+news_event = {
+	id = SRD_naval_conference.602
+	title = SRD_naval_conference.602.t
+	desc = SRD_naval_conference.602.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+	
+	is_triggered_only = yes
+
+	option = { #ok
+		name = SRD_naval_conference.602.a 
 		
 		ai_chance = {
 			factor = 100
