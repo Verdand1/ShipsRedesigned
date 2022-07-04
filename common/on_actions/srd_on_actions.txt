@@ -116,7 +116,7 @@ on_actions = {
 	
 	on_civil_war_end = {
 		effect = {
-			ROOT = {
+			THIS = {
 				clr_country_flag = SRD_no_more_treaty_flag
 			}
 		}

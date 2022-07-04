@@ -190,12 +190,62 @@ country_event = {
 			value = 1
 			compare = equals
 		}
+		threat < 1
 	}
 
 	option = { #welp, we tryied
 		name = SRD_naval_treaty.4.a 
 		
 		remove_regular_treaty_idea = yes
+	}
+}
+
+country_event = {
+	id = SRD_naval_treaty.13
+	title = SRD_naval_treaty.13.t
+	desc = SRD_naval_treaty.13.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+	
+	is_triggered_only = yes
+
+	option = { #welp, we tryied
+		name = SRD_naval_treaty.13.a 
+		
+		remove_regular_treaty_idea = yes
+	}
+}
+
+country_event = {
+	id = SRD_naval_treaty.14
+	title = SRD_naval_treaty.14.t
+	desc = SRD_naval_treaty.14.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	hidden = yes
+	trigger = {
+		threat > 0.99
+		ENG = { NOT = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+		ENG = { NOT = { has_country_flag = threat_treaty_cleanse_temporized } }
+	}
+
+	immediate = {
+		ENG = {
+			set_country_flag = {
+				flag = threat_treaty_cleanse_temporized
+				days = 30
+				value = 1
+			}
+		}
+		any_country = {
+			limit = {
+				SRD_has_naval_treaty_trigger = yes
+			}
+			country_event = { id = SRD_naval_treaty.13 }
+		}
+	}
+	
+	option = { #cool
+		name = SRD_naval_treaty.14.a
 	}
 }
 
