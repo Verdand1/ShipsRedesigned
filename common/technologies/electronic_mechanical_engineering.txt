@@ -577,7 +577,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 3
 				OR = {
@@ -628,7 +628,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 3
 				OR = {
@@ -679,7 +679,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 3
 				OR = {
@@ -729,7 +729,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			
 			modifier = {
 				factor = 2
@@ -766,7 +766,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			
 			modifier = {
 				factor = 2
@@ -806,7 +806,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			
 			modifier = {
 				factor = 2

@@ -45,7 +45,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 8
 		}
 		
 		categories = {
@@ -79,7 +79,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 		}
 		
 		categories = {
@@ -114,7 +114,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 10
 				has_completed_focus = uk_carrier_focus
@@ -148,7 +148,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 10
 				has_completed_focus = uk_carrier_focus
@@ -205,7 +205,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 8
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 5
@@ -244,7 +244,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 5
@@ -290,7 +290,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 0
 				OR = {
@@ -345,7 +345,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0
 				OR = {
@@ -405,7 +405,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				OR = {
@@ -461,7 +461,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 0
 				OR = {
@@ -516,7 +516,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0
 				OR = {
@@ -618,7 +618,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				OR = {
@@ -671,7 +671,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 0
 				OR = {
@@ -729,7 +729,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0
 				OR = {
@@ -814,7 +814,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -864,7 +864,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 3
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -909,7 +909,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -950,7 +950,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -994,7 +994,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 3
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -1033,7 +1033,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -1093,7 +1093,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 8
 			modifier = {
 				factor = 0
 				is_subject_of = ENG
@@ -1131,7 +1131,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 7
 				OR = {
@@ -1180,7 +1180,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 7
 				OR = {
@@ -1239,7 +1239,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 8
 		}
 		
 		categories = {
@@ -1280,7 +1280,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -1329,7 +1329,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1.5
+			factor = 3
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -1373,7 +1373,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 10
 				has_war = yes
@@ -1433,7 +1433,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3.5
+			factor = 7
 			modifier = {
 				factor = 2
 				OR = {
@@ -1480,7 +1480,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 2
 				OR = {
@@ -1527,7 +1527,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 2
 				OR = {
@@ -1569,7 +1569,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 4
 				has_war_with = GER
@@ -1618,7 +1618,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3.5
+			factor = 7
 			modifier = {
 				factor = 0
 				not = { has_tech = ship_hull_submarine }
@@ -1654,7 +1654,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 		}
 		
 		categories = {
@@ -1685,7 +1685,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 		}
 		
 		categories = {
@@ -1711,7 +1711,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 		}
 		
 		categories = {
@@ -1771,7 +1771,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 10
 			modifier = {
 				factor = 0
 				not = { has_completed_focus = uk_carrier_focus }
@@ -1805,7 +1805,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 8
 			modifier = {
 				factor = 0
 				not = { tag = GER }
@@ -1840,7 +1840,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 6
 		}
 		
 		categories = {
@@ -1883,7 +1883,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3.5
+			factor = 7
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 5
@@ -1920,7 +1920,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				OR = {
@@ -1961,7 +1961,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 0
 				not = { tag = JAP }
@@ -1998,7 +1998,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0
 				not = { tag = JAP }
@@ -2047,7 +2047,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 3
+			factor = 6
 			modifier = {
 				factor = 0
 				OR = {
@@ -2095,7 +2095,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 			modifier = {
 				factor = 0
 				is_subject_of = ENG
@@ -2133,7 +2133,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2
+			factor = 4
 			modifier = {
 				factor = 0
 				is_subject_of = ENG
@@ -2219,7 +2219,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 4
+			factor = 8
 			modifier = {
 				factor = 0
 				not = { has_completed_focus = GER_plan_z }
@@ -2260,7 +2260,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0.5
 				has_war = no
@@ -2306,7 +2306,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
+			factor = 2
 			modifier = {
 				factor = 0.5
 				has_war = no
@@ -2370,7 +2370,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1		
+			factor = 2	
 			modifier = {
 				factor = 0.5
 				has_war = no
@@ -2525,7 +2525,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 2.5
+			factor = 5
 		}
 		
 		categories = {
