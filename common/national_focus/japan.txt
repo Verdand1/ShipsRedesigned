@@ -2734,9 +2734,7 @@
 		}
 
 		available = {			
-			NOT = { has_war_with = FRA }
-			NOT = { has_war_with = ENG }
-			NOT = { has_war_with = USA }
+			has_War = no
 		}
 
 		bypass = {
@@ -2751,12 +2749,12 @@
 
 		completion_reward = {
 			add_ideas = SRD_naval_treaty_adherent_5
-			FRA = { add_opinion_modifier = { target = ROOT modifier = JAP_join_the_london_naval_treaty } }
-			USA = { add_opinion_modifier = { target = ROOT modifier = JAP_join_the_london_naval_treaty } }
-			ENG = { add_opinion_modifier = { target = ROOT modifier = JAP_join_the_london_naval_treaty } }
-			add_opinion_modifier = { target = FRA modifier = JAP_join_the_london_naval_treaty }
-			add_opinion_modifier = { target = USA modifier = JAP_join_the_london_naval_treaty }
-			add_opinion_modifier = { target = ENG modifier = JAP_join_the_london_naval_treaty }
+			every_other_country = {
+				limit = { 
+					SRD_any_naval_treaty_trigger = yes
+				}
+				add_opinion_modifier = { target = ROOT modifier = JAP_join_the_london_naval_treaty }
+			}
 		}
 	}
 
