@@ -79,6 +79,10 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				has_country_flag = USA_AI_RANDOM_FASCIST
+			}
 		}
 
 		available = {
@@ -1452,9 +1456,16 @@ focus_tree = {
 		y = 1
 		relative_position_id = USA_continue_the_new_deal
 		cost = 10
-		#ai_will_do = {
-		#	factor = 1
-		#}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = USA_AI_RANDOM_FASCIST
+					has_country_flag = USA_AI_RANDOM_COMMUNIST
+				}
+			}
+		}
 
 		available_if_capitulated = no
 		cancel_if_invalid = no
@@ -1791,6 +1802,13 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 1
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = USA_AI_RANDOM_FASCIST
+					has_country_flag = USA_AI_RANDOM_COMMUNIST
+				}
+			}
 		}
 
 		available = {
