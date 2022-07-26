@@ -316,7 +316,7 @@ SRD_naval_treaties = {
 			modifier = { 
 				tag = JAP 
 				NOT = { has_government = democratic }
-				NOT = { has_completed_focus = JAP_join_the_london_naval_treaty } 
+				NOT = { has_country_flag = JAP_AI_RANDOM_NEUTRALITY } 
 				OR = {
 					USA = { NOT = { SRD_has_naval_treaty_trigger = yes } }
 					ENG = { NOT = { SRD_has_naval_treaty_trigger = yes } }
