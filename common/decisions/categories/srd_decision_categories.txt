@@ -1,6 +1,8 @@
 SRD_naval_treaties = {
 	picture = GFX_decision_cat_picture_naval_treaties
 	
+	scripted_gui = naval_treaty_decisions_ui
+	
 	visible_when_empty = yes
 	
 	visible = {

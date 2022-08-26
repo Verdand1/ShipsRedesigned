@@ -1,0 +1,27 @@
+﻿l_english:
+ SRD_CV_name:0 "Aircraft Carrier"
+ SRD_CVL_name:0 "Light Aircraft Carrier"
+ SRD_BB_name:0 "Battleship"
+ SRD_CA_name:0 "Heavy Cruiser"
+ SRD_CL_name:0 "Light Cruiser"
+ SRD_DD_name:0 "Destroyer"
+ SRD_SS_name:0 "Submarine"
+ 
+ SRD_owned_header:0 "Owned"
+ SRD_CV_owned:0 "[?THIS.num_ships_with_type@carrier]"
+ SRD_CVL_owned:0 "[?THIS.num_ships_with_type@light_carrier]"
+ SRD_BB_owned:0 "[?THIS.num_ships_with_type@battleship]"
+ SRD_CA_owned:0 "[?THIS.num_ships_with_type@heavy_cruiser]"
+ SRD_CL_owned:0 "[?THIS.num_ships_with_type@light_cruiser]"
+ SRD_DD_owned:0 "[?THIS.num_ships_with_type@destroyer]"
+ SRD_SS_owned:0 "[?THIS.num_ships_with_type@submarine]"
+ 
+ SRD_allowed_header:0 "Allowed"
+ SRD_CV_allowed:0 "[SRDGetMaxCarriersAllowed]"
+ SRD_CVL_allowed:0 "[SRDGetMaxLightCarriersAllowed]"
+ SRD_BB_allowed:0 "[SRDGetMaxBattleshipsAllowed]"
+ SRD_CA_allowed:0 "[SRDGetMaxHeavyCruisersAllowed]"
+ SRD_CL_allowed:0 "[SRDGetMaxLightCruisersAllowed]"
+ SRD_DD_allowed:0 "[SRDGetMaxDestroyersAllowed]"
+ SRD_SS_allowed:0 "[SRDGetMaxSubmarinesAllowed]"
+ 

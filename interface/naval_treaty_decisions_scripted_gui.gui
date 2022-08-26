@@ -1,0 +1,233 @@
+@SHIP_NAMES_X = 55
+@OWNED_X = 200
+@ALLOWED_X= 300
+
+guiTypes = {
+
+	containerWindowType = {
+		name = "naval_treaty_decisions_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height= 220 }
+		
+		##############################################################
+		#SHIP NAMES
+		##############################################################
+		
+		instantTextBoxType = {
+			name ="CV_name_text"
+			position = { x = @SHIP_NAMES_X y = 40 }
+			font = "hoi_18mbs"
+			text = "SRD_CV_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CVL_name_text"
+			position = { x = @SHIP_NAMES_X y = 60 }
+			font = "hoi_18mbs"
+			text = "SRD_CVL_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="BB_name_text"
+			position = { x = @SHIP_NAMES_X y = 80 }
+			font = "hoi_18mbs"
+			text = "SRD_BB_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CA_name_text"
+			position = { x = @SHIP_NAMES_X y = 100 }
+			font = "hoi_18mbs"
+			text = "SRD_CA_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CL_name_text"
+			position = { x = @SHIP_NAMES_X y = 120 }
+			font = "hoi_18mbs"
+			text = "SRD_CL_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="DD_name_text"
+			position = { x = @SHIP_NAMES_X y = 140 }
+			font = "hoi_18mbs"
+			text = "SRD_DD_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="SS_name_text"
+			position = { x = @SHIP_NAMES_X y = 160 }
+			font = "hoi_18mbs"
+			text = "SRD_SS_name"
+			format = left
+			maxHeight = 24
+		}
+		
+		##############################################################
+		#OWNED
+		##############################################################
+		
+		instantTextBoxType = {
+			name ="owned_header_text"
+			position = { x = @OWNED_X y = 20 }
+			font = "hoi_18mbs"
+			text = "SRD_owned_header"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CV_owned_text"
+			position = { x = @OWNED_X y = 40 }
+			font = "hoi_18mbs"
+			text = "SRD_CV_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CVL_owned_text"
+			position = { x = @OWNED_X y = 60 }
+			font = "hoi_18mbs"
+			text = "SRD_CVL_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="BB_owned_text"
+			position = { x = @OWNED_X y = 80 }
+			font = "hoi_18mbs"
+			text = "SRD_BB_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CA_owned_text"
+			position = { x = @OWNED_X y = 100 }
+			font = "hoi_18mbs"
+			text = "SRD_CA_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CL_owned_text"
+			position = { x = @OWNED_X y = 120 }
+			font = "hoi_18mbs"
+			text = "SRD_CL_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="DD_owned_text"
+			position = { x = @OWNED_X y = 140 }
+			font = "hoi_18mbs"
+			text = "SRD_DD_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="SS_owned_text"
+			position = { x = @OWNED_X y = 160 }
+			font = "hoi_18mbs"
+			text = "SRD_SS_owned"
+			format = center
+			maxHeight = 24
+		}
+		
+		##############################################################
+		#ALLOWED
+		##############################################################
+		
+		instantTextBoxType = {
+			name ="allowed_header_text"
+			position = { x = @ALLOWED_X y = 20 }
+			font = "hoi_18mbs"
+			text = "SRD_allowed_header"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CV_allowed_text"
+			position = { x = @ALLOWED_X y = 40 }
+			font = "hoi_18mbs"
+			text = "SRD_CV_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CVL_allowed_text"
+			position = { x = @ALLOWED_X y = 60 }
+			font = "hoi_18mbs"
+			text = "SRD_CVL_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="BB_allowed_text"
+			position = { x = @ALLOWED_X y = 80 }
+			font = "hoi_18mbs"
+			text = "SRD_BB_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CA_allowed_text"
+			position = { x = @ALLOWED_X y = 100 }
+			font = "hoi_18mbs"
+			text = "SRD_CA_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="CL_allowed_text"
+			position = { x = @ALLOWED_X y = 120 }
+			font = "hoi_18mbs"
+			text = "SRD_CL_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="DD_allowed_text"
+			position = { x = @ALLOWED_X y = 140 }
+			font = "hoi_18mbs"
+			text = "SRD_DD_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="SS_allowed_text"
+			position = { x = @ALLOWED_X y = 160 }
+			font = "hoi_18mbs"
+			text = "SRD_SS_allowed"
+			format = center
+			maxHeight = 24
+		}
+		
+	}
+
+}

@@ -1,0 +1,9 @@
+scripted_gui = {
+
+	naval_treaty_decisions_ui = {
+		context_type = decision_category
+		window_name = "naval_treaty_decisions_ui_window"
+	}
+	
+}
+
