@@ -26,6 +26,8 @@ country_event = {
 			}
 		}
 		
+		set_country_flag = srd_treaty_members
+		
 		add_ideas = SRD_naval_treaty_adherent_3
 		every_other_country = {
 			limit = {
@@ -156,7 +158,7 @@ country_event = {
 
 	is_triggered_only = yes
 
-	option = { #uncoll
+	option = { #uncool
 		name = SRD_naval_treaty.3.a 
 		
 		every_other_country = {
@@ -307,7 +309,7 @@ country_event = {
 	picture = GFX_report_event_usa_heavy_cruiser
 
 	trigger = {
-		SRD_any_naval_treaty_trigger = yes
+		has_country_flag = srd_treaty_members
 		has_war = yes
 		OR = {
 			NOT = { tag = ITA }
@@ -332,6 +334,9 @@ country_event = {
 	}
 	
 	immediate = {
+		clr_country_flag = srd_treaty_members
+		clr_country_flag = srd_treaty_commonwealth_members
+		clr_country_flag = srd_treaty_anglogerman_member
 		clr_country_flag = SRD_no_more_treaty_flag
 		add_to_variable = {
 			var = global.london_treaty_member_count

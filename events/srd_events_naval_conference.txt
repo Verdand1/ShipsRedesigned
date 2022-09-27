@@ -70,14 +70,14 @@ country_event = {
 		set_global_flag = ENG_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_7_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -159,14 +159,14 @@ country_event = {
 		set_global_flag = USA_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_7_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -274,14 +274,14 @@ country_event = {
 		set_global_flag = FRA_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_3_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -434,14 +434,14 @@ country_event = {
 		set_global_flag = JAP_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_5_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -727,14 +727,14 @@ country_event = {
 		set_global_flag = ITA_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_3_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -973,14 +973,14 @@ country_event = {
 		set_global_flag = JAP_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_5_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -1076,14 +1076,14 @@ country_event = {
 		set_global_flag = JAP_refused_treaty
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
-			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
 			
-			add_timed_idea = {
-				idea = SRD_naval_treaty_adherent_5_temp
+			set_country_flag = {
+				flag = srd_temporary_treaty
 				days = ndt1937
+				value = 1
 			}
 		}
 		
@@ -1137,6 +1137,14 @@ country_event = {
 		
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
+		
+			every_country = {
+				limit = {
+					has_country_flag = srd_treaty_members
+				}
+				clr_country_flag = srd_treaty_members
+			}
+		
 			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
@@ -1282,6 +1290,7 @@ country_event = {
 			factor = 100
 		}
 		
+		set_country_flag = srd_treaty_members
 		add_ideas = SRD_naval_treaty_adherent_3
 		
 		add_to_variable = {

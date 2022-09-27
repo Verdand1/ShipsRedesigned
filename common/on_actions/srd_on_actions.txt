@@ -51,6 +51,24 @@ on_actions = {
 			}
 		}
 	}
+	
+	on_startup = {
+		effect = {
+		
+			USA = { set_country_flag = srd_treaty_members }
+			ENG = { set_country_flag = srd_treaty_members }
+			FRA = { set_country_flag = srd_treaty_members }
+			JAP = { set_country_flag = srd_treaty_members }
+			ITA = { set_country_flag = srd_treaty_members }
+			
+			AST = { set_country_flag = srd_treaty_commonwealth_members }
+			CAN = { set_country_flag = srd_treaty_commonwealth_members }
+			NZL = { set_country_flag = srd_treaty_commonwealth_members }
+			
+			GER = { set_country_flag = srd_treaty_anglogerman_member }
+			
+		}
+	}
 
 	on_monthly = {
 		effect = {

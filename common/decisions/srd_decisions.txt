@@ -24,23 +24,14 @@ SRD_naval_treaties = {
 					}
 	#NATIONS ALREADY IN THE TREATY CANNOT GET INVITED
 					NOT = { 
-						SRD_has_naval_treaty_trigger = yes 
-						has_idea = SRD_commonwealth_naval_agreement
-						has_idea = SRD_commonwealth_naval_agreement_escalator
+						has_country_flag = srd_treaty_members
+						has_country_flag = srd_treaty_commonwealth_members
+						has_country_flag = srd_treaty_anglogerman_member
 					}
 	#SOVIETS CANNOT BE INVITED UNTIL THE ANGLO SOVIET NAVAL AGREEMENT HAS BEEN RAISED
 					OR = {
 						NOT = { tag = SOV }
 						has_global_flag = anglo_soviet_naval_treaty_over
-					}
-	#GERMANS CANNOT GET INVITED IF THE ANGLO-GERMAN NAVAL AGREEMENT IS ACTIVE
-					OR = {
-						NOT = { tag = GER }
-						AND = {
-							tag = GER
-							NOT = { has_idea = SRD_anglo_german_naval_agreement }
-							NOT = { has_idea = SRD_anglo_german_naval_agreement_cheat }
-						}
 					}
 	#SPAIN CAN ONLY BE INVITED IF THE SPANISH CIVIL WAR IS OVER
 					OR = {
@@ -85,7 +76,7 @@ SRD_naval_treaties = {
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 	#ONLY NATIONS WHO ARE PART OF THE TREATY CAN INVITE OTHER NATIONS
-			SRD_has_naval_treaty_trigger = yes
+			has_country_flag = srd_treaty_members
 		}
 		
 		complete_effect = {
@@ -119,18 +110,11 @@ SRD_naval_treaties = {
 				has_global_flag = scw_over
 			}
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			any_country = { SRD_has_naval_treaty_trigger = yes }
-			NOT = { SRD_has_naval_treaty_trigger = yes }
-			NOT = { has_idea = SRD_commonwealth_naval_agreement }
-			NOT = { has_idea = SRD_commonwealth_naval_agreement_escalator }
-			NOT = { has_idea = SRD_anglo_german_naval_agreement }
-			NOT = { has_idea = SRD_anglo_german_naval_agreement_cheat }
-			NOT = { has_idea = SRD_naval_treaty_adherent_3_temp }
-			NOT = { has_idea = SRD_naval_treaty_adherent_3_temp_cheat }
-			NOT = { has_idea = SRD_naval_treaty_adherent_5_temp }
-			NOT = { has_idea = SRD_naval_treaty_adherent_5_temp_cheat }
-			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp }
-			NOT = { has_idea = SRD_naval_treaty_adherent_7_temp_cheat }
+			NOT = {
+				has_country_flag = srd_treaty_members
+				has_country_flag = srd_treaty_commonwealth_members
+				has_country_flag = srd_treaty_anglogerman_member
+			}
 			OR = {
 				has_navy_size = { size > 49 }
 				has_navy_size = { size > 9 unit = light_cruiser }
@@ -187,6 +171,7 @@ SRD_naval_treaties = {
 				var = global.london_treaty_member_count
 				value = 1
 			}
+			set_country_flag = srd_treaty_members
 		}
 	}
 	
@@ -197,7 +182,7 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			SRD_has_naval_treaty_trigger = yes
+			has_country_flag = srd_treaty_members
 			has_government = democratic
 		}
 		
@@ -227,6 +212,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			clr_country_flag = srd_treaty_members
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 			hidden_effect = {
 				remove_regular_treaty_idea = yes
@@ -292,7 +278,7 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			SRD_has_naval_treaty_trigger = yes
+			has_country_flag = srd_treaty_members
 			NOT = { has_government = democratic }
 			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
@@ -335,6 +321,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			clr_country_flag = srd_treaty_members
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 			hidden_effect = {
 				remove_regular_treaty_idea = yes
@@ -394,10 +381,7 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			OR = {
-				has_idea = SRD_anglo_german_naval_agreement
-				has_idea = SRD_anglo_german_naval_agreement_cheat
-			}
+			has_country_flag = srd_treaty_anglogerman_member
 		}
 		
 		cost = 150
@@ -420,15 +404,7 @@ SRD_naval_treaties = {
 		visible = {
 			NOT = { has_country_flag = cheat_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			OR = {
-				SRD_has_naval_treaty_trigger = yes
-				has_idea = SRD_naval_treaty_adherent_3_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_3_temp
-				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_5_temp
-				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_7_temp
-			}
+			has_country_flag = srd_treaty_members
 			NOT = { has_government = democratic }
 			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
 		}
@@ -451,7 +427,7 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			has_idea = SRD_anglo_german_naval_agreement
+			has_country_flag = srd_treaty_anglogerman_member
 			NOT = { has_government = democratic }
 		}
 		
@@ -476,7 +452,7 @@ SRD_naval_treaties = {
 		visible = {
 			NOT = { has_country_flag = escalate_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			SRD_has_naval_treaty_trigger = yes
+			has_country_flag = srd_treaty_members
 		}
 		
 		available = {
@@ -535,10 +511,7 @@ SRD_naval_treaties = {
 		
 		visible = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-			OR = {
-				has_idea = SRD_commonwealth_naval_agreement
-				has_idea = SRD_commonwealth_naval_agreement_escalator
-			}
+			has_country_flag = srd_treaty_commonwealth_members
 		}
 		
 		available = {
@@ -557,6 +530,7 @@ SRD_naval_treaties = {
 		complete_effect = {
 			remove_ideas = SRD_commonwealth_naval_agreement
 			remove_ideas = SRD_commonwealth_naval_agreement_escalator
+			clr_country_flag = srd_treaty_commonwealth_members
 			add_stability = -0.01
 		}
 	}
