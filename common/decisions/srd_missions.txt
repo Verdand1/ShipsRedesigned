@@ -291,8 +291,8 @@ SRD_naval_treaties = {
 		timeout_effect = {
 			clr_country_flag = srd_treaty_commonwealth_members
 			
-			remove_ideas = SRD_commonwealth_naval_agreement
-			remove_ideas = SRD_commonwealth_naval_agreement_escalator
+			remove_ideas = SRD_naval_treaty_adherent
+			remove_ideas = SRD_naval_treaty_adherent_escalator
 			
 			add_stability = -0.05
 			
@@ -336,8 +336,8 @@ SRD_naval_treaties = {
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_anglogerman_member
-			remove_ideas = SRD_anglo_german_naval_agreement
-			remove_ideas = SRD_anglo_german_naval_agreement_cheat
+			remove_ideas = SRD_naval_treaty_adherent
+			remove_ideas = SRD_naval_treaty_adherent_cheat
 			
 			every_other_country = {
 				limit = {

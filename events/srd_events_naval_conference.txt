@@ -76,7 +76,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -165,7 +165,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -280,7 +280,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -440,7 +440,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -733,7 +733,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -944,10 +944,6 @@ country_event = {
 		}
 		
 		set_global_flag = JAP_got_parity
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5
-			add_idea = SRD_naval_treaty_adherent_7
-		}
 		
 		ITA = {
 			country_event = { id = SRD_naval_conference.500 }
@@ -979,7 +975,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -1082,7 +1078,7 @@ country_event = {
 			
 			set_country_flag = {
 				flag = srd_temporary_treaty
-				days = ndt1937
+				#days = ndt1937
 				value = 1
 			}
 		}
@@ -1138,42 +1134,23 @@ country_event = {
 		custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 		hidden_effect = {
 		
-			every_country = {
-				limit = {
-					has_country_flag = srd_treaty_members
-				}
-				clr_country_flag = srd_treaty_members
-			}
-		
 			remove_regular_treaty_idea = yes
 			set_temp_variable = { ndt1937 = 707005 }
 			
 			subtract_from_temp_variable = { ndt1937 = global.num_days  }
-			IF = { 
-				limit = { tag = JAP }
-				add_timed_idea = {
-					idea = SRD_naval_treaty_adherent_5_temp
-					days = ndt1937
+			
+			every_country = {
+				limit = {
+					has_country_flag = srd_treaty_members
 				}
+				set_country_flag = {
+				flag = srd_temporary_treaty
+				#days = ndt1937
+				value = 1
 			}
-			ELSE_IF = {
-				limit = { 
-					OR = {
-						tag = ENG
-						tag = USA
-					}					
-				}
-				add_timed_idea = {
-					idea = SRD_naval_treaty_adherent_7_temp
-					days = ndt1937
-				}
+				clr_country_flag = srd_treaty_members
 			}
-			ELSE = {
-				add_timed_idea = {
-					idea = SRD_naval_treaty_adherent_3_temp
-					days = ndt1937
-				}
-			}
+			
 		}
 		add_to_variable = {
 			var = global.london_treaty_member_count
@@ -1291,7 +1268,7 @@ country_event = {
 		}
 		
 		set_country_flag = srd_treaty_members
-		add_ideas = SRD_naval_treaty_adherent_3
+		add_ideas = SRD_naval_treaty_adherent
 		
 		add_to_variable = {
 			var = global.london_treaty_member_count

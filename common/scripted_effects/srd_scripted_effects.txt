@@ -18,146 +18,54 @@
 
 remove_regular_treaty_idea = {
 	remove_ideas = {
-		SRD_naval_treaty_adherent_7 
-		SRD_naval_treaty_adherent_5 
-		SRD_naval_treaty_adherent_3 
-		SRD_naval_treaty_adherent_7_cheat
-		SRD_naval_treaty_adherent_5_cheat
-		SRD_naval_treaty_adherent_3_cheat 
-		SRD_naval_treaty_adherent_7_escalator
-		SRD_naval_treaty_adherent_5_escalator
-		SRD_naval_treaty_adherent_3_escalator
-		SRD_naval_treaty_adherent_7_escalator_cheat
-		SRD_naval_treaty_adherent_5_escalator_cheat
-		SRD_naval_treaty_adherent_3_escalator_cheat
+		SRD_naval_treaty_adherent
+		SRD_naval_treaty_adherent_cheat
+		SRD_naval_treaty_adherent_escalator
+		SRD_naval_treaty_adherent_escalator_cheat
 	}
 }
 
 cheat_on_treaty_idea = {
 
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7 }
+		limit = { has_idea = SRD_naval_treaty_adherent }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7
-			add_idea = SRD_naval_treaty_adherent_7_cheat
+			remove_idea = SRD_naval_treaty_adherent
+			add_idea = SRD_naval_treaty_adherent_cheat
 		}
 	}
 	
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5 }
+		limit = { has_idea = SRD_naval_treaty_adherent_escalator }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5
-			add_idea = SRD_naval_treaty_adherent_5_cheat
+			remove_idea = SRD_naval_treaty_adherent_escalator
+			add_idea = SRD_naval_treaty_adherent_escalator_cheat
 		}
 	}
 	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3 }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3
-			add_idea = SRD_naval_treaty_adherent_3_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7_escalator
-			add_idea = SRD_naval_treaty_adherent_7_escalator_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5_escalator
-			add_idea = SRD_naval_treaty_adherent_5_escalator_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3_escalator
-			add_idea = SRD_naval_treaty_adherent_3_escalator_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7_temp }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7_temp
-			add_idea = SRD_naval_treaty_adherent_7_temp_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5_temp }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5_temp
-			add_idea = SRD_naval_treaty_adherent_5_temp_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3_temp }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3_temp
-			add_idea = SRD_naval_treaty_adherent_3_temp_cheat
-		}
-	}
 }
 
 escalate_on_treaty_idea = {
 
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7 }
+		limit = { has_idea = SRD_naval_treaty_adherent }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7
-			add_idea = SRD_naval_treaty_adherent_7_escalator
+			remove_idea = SRD_naval_treaty_adherent
+			add_idea = SRD_naval_treaty_adherent_escalator
 		}
 	}
 	
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5 }
+		limit = { has_idea = SRD_naval_treaty_adherent_cheat }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5
-			add_idea = SRD_naval_treaty_adherent_5_escalator
+			remove_idea = SRD_naval_treaty_adherent_cheat
+			add_idea = SRD_naval_treaty_adherent_escalator_cheat
 		}
 	}
 	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3 }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3
-			add_idea = SRD_naval_treaty_adherent_3_escalator
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7_cheat }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7_cheat
-			add_idea = SRD_naval_treaty_adherent_7_escalator_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5_cheat }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5_cheat
-			add_idea = SRD_naval_treaty_adherent_5_escalator_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3_cheat }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3_cheat
-			add_idea = SRD_naval_treaty_adherent_3_escalator_cheat
-		}
-	}
 }
+
+#REMOVE THESE IMBECILES ASWELLS
 
 treaty_credibility_change_7 = {
 	add_to_variable = {
@@ -209,49 +117,21 @@ treaty_credibility_change_3 = {
 	}
 }
 
+#END OF IMBECILES
+
 treaty_deescalation_change = {
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator }
+		limit = { has_idea = SRD_naval_treaty_adherent_escalator }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7_escalator
-			add_idea = SRD_naval_treaty_adherent_7
+			remove_idea = SRD_naval_treaty_adherent_escalator
+			add_idea = SRD_naval_treaty_adherent
 		}
 	}
 	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_7_escalator_cheat }
+		limit = { has_idea = SRD_naval_treaty_adherent_escalator_cheat }
 		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_7_escalator_cheat
-			add_idea = SRD_naval_treaty_adherent_7_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5_escalator
-			add_idea = SRD_naval_treaty_adherent_5
-		}
-	}
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_5_escalator_cheat }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_5_escalator_cheat
-			add_idea = SRD_naval_treaty_adherent_5_cheat
-		}
-	}
-	
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3_escalator
-			add_idea = SRD_naval_treaty_adherent_3
-		}
-	}
-	IF = {
-		limit = { has_idea = SRD_naval_treaty_adherent_3_escalator_cheat }
-		swap_ideas = {
-			remove_idea = SRD_naval_treaty_adherent_3_escalator_cheat
-			add_idea = SRD_naval_treaty_adherent_3_cheat
+			remove_idea = SRD_naval_treaty_adherent_escalator_cheat
+			add_idea = SRD_naval_treaty_adherent_cheat
 		}
 	}
 }

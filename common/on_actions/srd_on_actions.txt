@@ -1,5 +1,8 @@
 on_actions = {
 
+	#Setting initial variables for the london naval treaty
+	#Transfering soviet subs if SOV is AI to avoid SOV having too many subs
+	
 	on_startup = {
 		effect = {
 			set_variable = {
@@ -52,6 +55,9 @@ on_actions = {
 		}
 	}
 	
+	
+	#Setting country flags related to treaty membership
+	
 	on_startup = {
 		effect = {
 		
@@ -70,33 +76,18 @@ on_actions = {
 		}
 	}
 
+	
+	#Every month, members of the London Naval Treaty share naval intel
+	
 	on_monthly = {
 		effect = {
 			IF = {
 				limit = { 
-					OR = {
-						SRD_has_naval_treaty_trigger = yes
-						has_idea = SRD_commonwealth_naval_agreement
-						has_idea = SRD_naval_treaty_adherent_3_temp
-						has_idea = SRD_naval_treaty_adherent_3_temp_cheat
-						has_idea = SRD_naval_treaty_adherent_5_temp
-						has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-						has_idea = SRD_naval_treaty_adherent_7_temp
-						has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-					} 	
+					SRD_has_naval_treaty_trigger = yes
 				}
 				every_country = {
 					limit = { 
-						OR = {
-							SRD_has_naval_treaty_trigger = yes
-							has_idea = SRD_commonwealth_naval_agreement
-							has_idea = SRD_naval_treaty_adherent_3_temp
-							has_idea = SRD_naval_treaty_adherent_3_temp_cheat
-							has_idea = SRD_naval_treaty_adherent_5_temp
-							has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-							has_idea = SRD_naval_treaty_adherent_7_temp
-							has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-						}						
+						SRD_has_naval_treaty_trigger = yes					
 					}
 					add_intel = {
 						target = PREV
@@ -107,15 +98,15 @@ on_actions = {
 		}
 	}
 	
+	
+	#Every month, ENG and GER share naval intel if the anglogerman treaty is active
+	
 	on_monthly_ENG = {
 		effect = {
 			IF = {
 				limit = {
 					GER = {
-						OR = {
-							has_idea = SRD_anglo_german_naval_agreement
-							has_idea = SRD_anglo_german_naval_agreement_cheat
-						}
+						has_country_flag = srd_treaty_anglogerman_member
 					}
 				}
 				add_intel = {
@@ -131,6 +122,9 @@ on_actions = {
 			}
 		}
 	}
+	
+	
+	#If a country gets out of a civil war, remove the flag preventing it from being invited in the treaty
 	
 	on_civil_war_end = {
 		effect = {

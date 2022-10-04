@@ -1,5 +1,8 @@
 SRD_naval_treaties = {
 
+
+	# DECISION TO INVITE OTHER NATIONS IN THE TREATY
+
 	SRD_invite_other_nation = {
 	
 		icon = generic
@@ -9,7 +12,7 @@ SRD_naval_treaties = {
 				AND = {
 	#NATIONS AT WAR CANNOT BE INVITED
 					NOT = { has_war = yes }
-	#NATIONS CANNOT BE INVITED IF THEY REFUSED THE TREATY, LEFT IT? OR WERE KICKED
+	#NATIONS CANNOT BE INVITED IF THEY REFUSED THE TREATY, LEFT IT, OR WERE KICKED
 					OR = {
 						NOT = { has_country_flag = SRD_no_more_treaty_flag }
 						AND = {
@@ -57,39 +60,35 @@ SRD_naval_treaties = {
 		
 		cost = 25
 		fire_only_once = no
+		
 		ai_will_do = {
 			base = 1
+	# ENG is more likely to expand the treaty
 			modifier = { 
 				tag = ENG 
 				add = 1 
 			}
+	# Non-democracies don't care about the treaty
 			modifier = { 
 				NOT = { has_government = democratic } 
 				factor = 0 
 			}
+	# If you have nothing to do with your PP, expand the treaty a bit
 			modifier = { 
-				has_political_power > 225 
+				has_political_power > 300 
 				factor = 40 
 			}
 		}
 		
 		visible = {
+	# The conference must have ended before invites are sent
 			NOT = { has_global_flag = SRD_naval_conference_underway }
-	#ONLY NATIONS WHO ARE PART OF THE TREATY CAN INVITE OTHER NATIONS
+	# ONLY NATIONS WHO ARE PART OF THE TREATY CAN INVITE OTHER NATIONS
 			has_country_flag = srd_treaty_members
 		}
 		
 		complete_effect = {
 			FROM = { set_country_flag = SRD_no_more_treaty_flag }
-			IF = {
-				limit = { 
-					AND = {
-						tag = ENG
-						has_completed_focus = ENG_enforce_the_naval_treaties
-					}
-				}
-				FROM = { set_country_flag = SRD_british_enforced }
-			}
 			FROM = { country_event = { id = SRD_naval_treaty.1 } }
 		}
 	
@@ -101,6 +100,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+	# Spain cannot join the treaties before the civil war has ended
 			OR = {
 				NOT = { original_tag = SPR }
 				has_global_flag = scw_over
@@ -109,12 +109,15 @@ SRD_naval_treaties = {
 				NOT = { original_tag = SPA }
 				has_global_flag = scw_over
 			}
+	# Nobody can join until the conference is over
 			NOT = { has_global_flag = SRD_naval_conference_underway }
+	# Countries already in the treaty or another treaty cannot join
 			NOT = {
 				has_country_flag = srd_treaty_members
 				has_country_flag = srd_treaty_commonwealth_members
 				has_country_flag = srd_treaty_anglogerman_member
 			}
+	# irish logic
 			OR = {
 				has_navy_size = { size > 49 }
 				has_navy_size = { size > 9 unit = light_cruiser }
@@ -123,6 +126,7 @@ SRD_naval_treaties = {
 				has_navy_size = { size > 0 unit = carrier }
 				has_navy_size = { size > 1 unit = light_carrier }
 			}
+	# can't join the treaties if at war
 			NOT = { has_war = yes }
 		}
 		
@@ -138,29 +142,7 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
-			IF = {
-				limit = {
-					OR = {
-						tag = USA
-						tag = ENG
-						AND = {
-							tag = JAP
-							has_global_flag = JAP_got_parity
-						}
-					}
-				}
-				add_ideas = SRD_naval_treaty_adherent_7
-			}
-			IF = {
-				limit = {
-					tag = JAP
-					NOT = { has_global_flag = JAP_got_parity }
-				}
-				add_ideas = SRD_naval_treaty_adherent_5
-			}
-			ELSE = {
-				add_ideas = SRD_naval_treaty_adherent_3
-			}
+			add_ideas = SRD_naval_treaty_adherent
 			every_other_country = {
 				limit = {
 					SRD_has_naval_treaty_trigger = yes
@@ -187,6 +169,7 @@ SRD_naval_treaties = {
 		}
 		
 		available = {
+	# the five starter nations cannot leave the first treaty before the second starts
 			OR = {
 				date > 1936.12.30
 				AND = {
@@ -197,6 +180,8 @@ SRD_naval_treaties = {
 					NOT = { tag = JAP }
 				}
 			}
+	# the british have forced this on you. Now you cannot leave
+			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 150
@@ -294,6 +279,8 @@ SRD_naval_treaties = {
 					NOT = { tag = JAP }
 				}
 			}
+	# the british have forced this on you. Now you cannot leave
+			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 150
@@ -407,6 +394,8 @@ SRD_naval_treaties = {
 			has_country_flag = srd_treaty_members
 			NOT = { has_government = democratic }
 			NOT = {	has_completed_focus = JAP_join_the_london_naval_treaty }
+	# the british have forced this on you. Now you cannot cheat
+			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 200
@@ -438,8 +427,8 @@ SRD_naval_treaties = {
 		
 		complete_effect = {
 			swap_ideas = {
-				remove_idea = SRD_anglo_german_naval_agreement
-				add_idea = SRD_anglo_german_naval_agreement_cheat
+				remove_idea = SRD_naval_treaty_adherent
+				add_idea = SRD_naval_treaty_adherent_cheat
 			}
 		}
 	}
@@ -490,14 +479,14 @@ SRD_naval_treaties = {
 				limit = {
 					tag = ENG
 					any_country = {
-						has_idea = SRD_commonwealth_naval_agreement
+						has_country_flag = srd_treaty_commonwealth_members
 					}
 				}
 				every_other_country = {
-					limit = { has_idea = SRD_commonwealth_naval_agreement }
+					limit = { has_country_flag = srd_treaty_commonwealth_members }
 					swap_ideas = {
-						remove_idea = SRD_commonwealth_naval_agreement
-						add_idea = SRD_commonwealth_naval_agreement_escalator
+						remove_idea = SRD_naval_treaty_adherent
+						add_idea = SRD_naval_treaty_adherent_escalator
 					}
 				}
 			}
@@ -528,8 +517,8 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
-			remove_ideas = SRD_commonwealth_naval_agreement
-			remove_ideas = SRD_commonwealth_naval_agreement_escalator
+			remove_ideas = SRD_naval_treaty_adherent
+			remove_ideas = SRD_naval_treaty_adherent_escalator
 			clr_country_flag = srd_treaty_commonwealth_members
 			add_stability = -0.01
 		}
