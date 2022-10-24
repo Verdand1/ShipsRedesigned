@@ -222,12 +222,24 @@ SRD_naval_treaties = {
 			}
 			
 			IF = {
-				limit = { SRD_has_naval_treaty_7_trigger = yes }
+				limit = {
+					OR = {
+						tag = USA
+						tag = ENG
+						AND = {
+							tag = JAP
+							has_global_flag = JAP_got_parity
+						}
+					}
+				}
 				add_threat = global.london_treaty_credibility
 				treaty_credibility_change_7 = yes
 			}
 			ELSE_IF = {
-				limit = { SRD_has_naval_treaty_5_trigger = yes }
+				limit = {
+					tag = JAP
+					not = { has_global_flag = JAP_got_parity }
+				}
 				add_threat = global.london_treaty_credibility
 				treaty_credibility_change_5 = yes
 			}
@@ -327,12 +339,24 @@ SRD_naval_treaties = {
 			}
 			
 			IF = {
-				limit = { SRD_has_naval_treaty_7_trigger = yes }
+				limit = {
+					OR = {
+						tag = USA
+						tag = ENG
+						AND = {
+							tag = JAP
+							has_global_flag = JAP_got_parity
+						}
+					}
+				}
 				add_threat = global.london_treaty_credibility
 				treaty_credibility_change_7 = yes
 			}
 			ELSE_IF = {
-				limit = { SRD_has_naval_treaty_5_trigger = yes }
+				limit = {
+					tag = JAP
+					not = { has_global_flag = JAP_got_parity }
+				}
 				add_threat = global.london_treaty_credibility
 				treaty_credibility_change_5 = yes
 			}

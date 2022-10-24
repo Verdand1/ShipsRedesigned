@@ -2738,8 +2738,11 @@
 		}
 
 		bypass = {
-			check_variable = {
-				global.london_treaty_member_count < 2
+			OR = {
+				has_country_flag = srd_treaty_members
+				check_variable = {
+					global.london_treaty_member_count < 2
+				}
 			}
 		}
 
@@ -2748,10 +2751,11 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = SRD_naval_treaty_adherent_5
+			add_ideas = SRD_naval_treaty_adherent
+			set_country_flag = srd_treaty_members
 			every_other_country = {
 				limit = { 
-					SRD_any_naval_treaty_trigger = yes
+					has_country_flag = srd_treaty_members
 				}
 				add_opinion_modifier = { target = ROOT modifier = JAP_join_the_london_naval_treaty }
 			}

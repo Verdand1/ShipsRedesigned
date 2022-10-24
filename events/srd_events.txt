@@ -296,7 +296,10 @@ country_event = {
 	picture = GFX_report_event_usa_heavy_cruiser
 
 	trigger = {
-		SRD_has_naval_treaty_escalated = yes
+		OR = {
+			has_idea = SRD_naval_treaty_adherent_escalator
+			has_idea = SRD_naval_treaty_adherent_escalator_cheat
+		}
 		AND = {
 			USA = { SRD_has_naval_treaty_trigger = yes }
 			JAP = { SRD_has_naval_treaty_trigger = yes }
@@ -367,10 +370,8 @@ country_event = {
 		IF = {
 			limit = { 
 				NOT = {
-					has_idea = SRD_commonwealth_naval_agreement
-					has_idea = SRD_commonwealth_naval_agreement_escalator
-					has_idea = SRD_anglo_german_naval_agreement
-					has_idea = SRD_anglo_german_naval_agreement_cheat
+					has_country_flag = srd_treaty_commonwealth_members
+					has_country_flag = srd_treaty_anglogerman_members
 				}
 			}
 			every_other_country = {
@@ -793,10 +794,8 @@ country_event = {
 		every_country = {
 			limit = {
 				OR = {
-					has_idea = SRD_anglo_german_naval_agreement_cheat
-					has_idea = SRD_anglo_german_naval_agreement
-					has_idea = SRD_commonwealth_naval_agreement
-					has_idea = SRD_commonwealth_naval_agreement_escalator
+					has_country_flag = srd_treaty_commonwealth_members
+					has_country_flag = srd_treaty_anglogerman_members
 				}
 			}
 			country_event = { id = SRD_naval_treaty.11 }
@@ -816,10 +815,11 @@ country_event = {
 
 	option = { #cool
 		name = SRD_naval_treaty.11.a 
-		remove_ideas = SRD_anglo_german_naval_agreement_cheat
-		remove_ideas = SRD_anglo_german_naval_agreement
-		remove_ideas = SRD_commonwealth_naval_agreement
-		remove_ideas = SRD_commonwealth_naval_agreement_escalator
+		remove_ideas = SRD_naval_treaty_adherent
+		remove_ideas = SRD_naval_treaty_adherent_cheat
+		remove_ideas = SRD_naval_treaty_adherent_escalator
+		clr_country_flag = srd_treaty_commonwealth_members
+		clr_country_flag = srd_treaty_anglogerman_members
 	}
 }
 
@@ -833,10 +833,7 @@ country_event = {
 
 	hidden = yes
 	trigger = {
-		OR = {
-			has_idea = SRD_commonwealth_naval_agreement
-			has_idea = SRD_commonwealth_naval_agreement_escalator
-		}
+		has_country_flag = srd_treaty_commonwealth_members
 		NOT = {
 			is_subject_of = ENG
 		}

@@ -100,7 +100,7 @@ if = {
 	set_technology = { camelry = 1 }
 }
 
-add_ideas = SRD_naval_treaty_adherent_7
+add_ideas = SRD_naval_treaty_adherent
 
 if = {
 	limit = {

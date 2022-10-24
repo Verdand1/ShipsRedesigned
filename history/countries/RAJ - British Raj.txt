@@ -130,7 +130,7 @@ set_convoys = 20
 
 set_cosmetic_tag = RAJ_UK # British Raj
 
-add_ideas = SRD_commonwealth_naval_agreement
+add_ideas = SRD_naval_treaty_adherent
 
 1939.1.1 = {
 	

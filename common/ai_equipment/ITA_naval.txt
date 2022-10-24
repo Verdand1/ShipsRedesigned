@@ -518,10 +518,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_3
-				has_idea = SRD_naval_treaty_adherent_3_temp
-			}
+			has_idea = SRD_naval_treaty_adherent
 		}
 		
 		target_variant = {
@@ -555,7 +552,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -598,7 +595,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -643,7 +640,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		

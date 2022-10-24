@@ -6,18 +6,7 @@ SRD_naval_treaties = {
 	visible_when_empty = yes
 	
 	visible = {
-		OR = {
-			SRD_has_naval_treaty_trigger = yes
-			has_idea = SRD_anglo_german_naval_agreement
-			has_idea = SRD_anglo_german_naval_agreement_cheat
-			has_idea = SRD_commonwealth_naval_agreement
-			has_idea = SRD_naval_treaty_adherent_3_temp_cheat
-			has_idea = SRD_naval_treaty_adherent_3_temp
-			has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-			has_idea = SRD_naval_treaty_adherent_5_temp
-			has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-			has_idea = SRD_naval_treaty_adherent_7_temp
-		}
+		SRD_has_naval_treaty_trigger = yes
 	}
 	priority = 10
 }

@@ -451,10 +451,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_3
-				has_idea = SRD_naval_treaty_adherent_3_temp
-			}
+			has_idea = SRD_naval_treaty_adherent
 		}
 		
 		target_variant = {
@@ -487,10 +484,8 @@ SOV_BB = {
 		
 		enable = {
 			OR = {
-				has_idea = SRD_naval_treaty_adherent_3_cheat
-				has_idea = SRD_naval_treaty_adherent_3_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_3_escalator
-				has_idea = SRD_naval_treaty_adherent_3_escalator_cheat
+				has_idea = SRD_naval_treaty_adherent_cheat
+				has_idea = SRD_naval_treaty_adherent_escalator
 			}
 		}
 		
@@ -526,7 +521,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -570,7 +565,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -616,7 +611,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -671,7 +666,7 @@ SOV_CV = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = SOV_an_oceangoing_navy }
-				SRD_any_naval_treaty_3_trigger = yes
+				has_country_flag = srd_treaty_members
 			}
 		}
 	}

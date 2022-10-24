@@ -92,7 +92,7 @@ if = {
 	add_ideas = bureau_of_ordnance_spirit
 }
 
-add_ideas = SRD_naval_treaty_adherent_7
+add_ideas = SRD_naval_treaty_adherent
 
 #Monroe Doctrine
 give_guarantee = CAN

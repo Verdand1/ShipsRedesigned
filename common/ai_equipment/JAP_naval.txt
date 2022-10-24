@@ -336,12 +336,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_5
-				has_idea = SRD_naval_treaty_adherent_5_temp
-				has_idea = SRD_naval_treaty_adherent_7
-				has_idea = SRD_naval_treaty_adherent_7_temp
-			}
+			has_idea = SRD_naval_treaty_adherent
 		}
 		
 		target_variant = {
@@ -374,12 +369,8 @@ JAP_CL = {
 		
 		enable = {
 			OR = {
-				has_idea = SRD_naval_treaty_adherent_5_cheat
-				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_5_escalator
-				has_idea = SRD_naval_treaty_adherent_7_cheat
-				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_7_escalator
+				has_idea = SRD_naval_treaty_adherent_cheat
+				has_idea = SRD_naval_treaty_adherent_escalator
 			}
 		}
 		
@@ -412,10 +403,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
-				has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
-			}
+			has_idea = SRD_naval_treaty_adherent_escalator_cheat
 		}
 		
 		target_variant = {
@@ -450,7 +438,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -490,7 +478,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -532,7 +520,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -612,12 +600,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_5
-				has_idea = SRD_naval_treaty_adherent_5_temp
-				has_idea = SRD_naval_treaty_adherent_7
-				has_idea = SRD_naval_treaty_adherent_7_temp
-			}
+			has_idea = SRD_naval_treaty_adherent
 		}
 		
 		target_variant = {
@@ -649,12 +632,8 @@ JAP_CA = {
 		
 		enable = {
 			OR = {
-				has_idea = SRD_naval_treaty_adherent_5_cheat
-				has_idea = SRD_naval_treaty_adherent_5_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_5_escalator
-				has_idea = SRD_naval_treaty_adherent_7_cheat
-				has_idea = SRD_naval_treaty_adherent_7_temp_cheat
-				has_idea = SRD_naval_treaty_adherent_7_escalator
+				has_idea = SRD_naval_treaty_adherent_cheat
+				has_idea = SRD_naval_treaty_adherent_escalator
 			}
 		}
 		
@@ -687,10 +666,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_5_escalator_cheat
-				has_idea = SRD_naval_treaty_adherent_7_escalator_cheat
-			}
+			has_idea = SRD_naval_treaty_adherent_escalator_cheat
 		}
 		
 		target_variant = {
@@ -724,7 +700,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -757,7 +733,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -792,7 +768,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -909,7 +885,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = JAP_carrier_warfare_experiments
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -956,7 +932,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = JAP_carrier_warfare_experiments
 			has_tech = modern_perf_engines
 		}
@@ -1003,12 +979,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			OR = {
-				has_idea = SRD_naval_treaty_adherent_5
-				has_idea = SRD_naval_treaty_adherent_5_temp
-				has_idea = SRD_naval_treaty_adherent_7
-				has_idea = SRD_naval_treaty_adherent_7_temp
-			}
+			has_idea = SRD_naval_treaty_adherent
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 		}
 		
@@ -1042,10 +1013,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent_5 }
-			not = { has_idea = SRD_naval_treaty_adherent_5_temp }
-			not = { has_idea = SRD_naval_treaty_adherent_7 }
-			not = { has_idea = SRD_naval_treaty_adherent_7_temp }
+			not = { has_idea = SRD_naval_treaty_adherent }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -1092,7 +1060,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -1137,7 +1105,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			has_tech = modern_perf_engines
 		}
@@ -1220,7 +1188,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = yes
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -1254,7 +1222,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -1295,7 +1263,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -1336,7 +1304,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			has_tech = modern_perf_engines
 		}
@@ -1376,7 +1344,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = JAP_carrier_warfare_experiments
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -1418,7 +1386,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = JAP_carrier_warfare_experiments
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -1461,7 +1429,7 @@ JAP_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			SRD_any_naval_treaty_trigger = no
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = JAP_carrier_warfare_experiments
 			has_tech = modern_perf_engines
 		}
