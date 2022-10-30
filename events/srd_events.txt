@@ -371,7 +371,7 @@ country_event = {
 			limit = { 
 				NOT = {
 					has_country_flag = srd_treaty_commonwealth_members
-					has_country_flag = srd_treaty_anglogerman_members
+					has_country_flag = srd_treaty_anglogerman_member
 				}
 			}
 			every_other_country = {
@@ -795,7 +795,7 @@ country_event = {
 			limit = {
 				OR = {
 					has_country_flag = srd_treaty_commonwealth_members
-					has_country_flag = srd_treaty_anglogerman_members
+					has_country_flag = srd_treaty_anglogerman_member
 				}
 			}
 			country_event = { id = SRD_naval_treaty.11 }
@@ -819,7 +819,7 @@ country_event = {
 		remove_ideas = SRD_naval_treaty_adherent_cheat
 		remove_ideas = SRD_naval_treaty_adherent_escalator
 		clr_country_flag = srd_treaty_commonwealth_members
-		clr_country_flag = srd_treaty_anglogerman_members
+		clr_country_flag = srd_treaty_anglogerman_member
 	}
 }
 
