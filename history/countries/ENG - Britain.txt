@@ -44,7 +44,6 @@ set_technology = {
 	CAS1 = 1
 	basic_train = 1
 	trench_warfare = 1
-	fleet_in_being = 1
 	electronic_mechanical_engineering = 1
 	radio = 1
 	radio_detection = 1
@@ -72,6 +71,10 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
+	blue_water_navy = 1
+	individual_superiority = 1
+	escort_patrols = 1
+	submarine_operations = 1
 }
 
 if = {

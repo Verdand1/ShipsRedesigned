@@ -2751,7 +2751,12 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			add_ideas = SRD_naval_treaty_adherent
+			if  = {
+				limit  = {
+					not = { has_tech = brown_water_navy }
+				}
+				add_ideas = SRD_naval_treaty_adherent
+			}
 			set_country_flag = srd_treaty_members
 			every_other_country = {
 				limit = { 
@@ -5188,7 +5193,7 @@
 				name = JAP_carrier_warfare_experiments
 				cost_reduction = 0.25
 				uses = 2
-				category = cat_base_strike
+				category = cat_carrier
 			}
 		}
 	}
@@ -5363,7 +5368,7 @@
 		}
 
 		available = {
-
+			not = { has_tech = brown_water_navy }
 		}
 
 		bypass = {

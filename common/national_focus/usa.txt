@@ -5851,7 +5851,7 @@ focus_tree = {
 				name = USA_advanced_mahanian_doctrine
 				cost_reduction = 0.5
 				uses = 1
-				category = cat_base_strike
+				category = blue_water_tree
 			}
 		}
 	}
@@ -6036,7 +6036,7 @@ focus_tree = {
 				name = USA_convoy_tactics
 				cost_reduction = 0.35
 				uses = 2
-				category = convoy_defense_tree
+				category = defensive_screen_tree
 			}
 		}
 	}

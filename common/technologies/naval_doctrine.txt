@@ -1,0 +1,1659 @@
+technologies = {
+
+	blue_water_navy = {
+		#Strategic doctrine for power projection
+		
+		# EFFECT #############
+		naval_invasion_capacity = 10
+		convoy_escort_efficiency = 0.2
+		mines_sweeping_by_fleets_factor = 0.2
+		on_research_complete = {
+			hidden_effect = {
+				remove_ideas = {
+					brown_water_navy_1936
+					brown_water_navy_1937
+					brown_water_navy_1938
+					brown_water_navy_1939
+					brown_water_navy_1940
+					brown_water_navy_1941
+					brown_water_navy_1942
+					brown_water_navy_1943
+					brown_water_navy_1944
+					brown_water_navy_1945
+					brown_water_navy_1946
+				}
+				if  = {
+					limit  = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					add_ideas = SRD_naval_treaty_adherent
+				}
+			}
+		}
+		#####
+
+		xor = { green_water_navy brown_water_navy } 
+		
+		path = {
+			leads_to_tech = convoy_sailing
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			blue_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	convoy_sailing = {
+		
+		# EFFECT #############
+		destroyer = {
+			sub_detection = 0.1
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+		}
+		convoy_escort_efficiency = 0.15
+		#####
+		
+		path = {
+			leads_to_tech = convoy_escorts
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			blue_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+	}
+	
+	convoy_escorts = {
+		
+		# EFFECT #############
+		destroyer = {
+			sub_detection = 0.1
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+		}
+		convoy_escort_efficiency = 0.15
+		#####
+
+		path = {
+			leads_to_tech = large_scale_amphibious_operations
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			blue_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+	}
+	
+	large_scale_amphibious_operations = {
+		
+		# EFFECT #############
+		destroyer = {
+			sub_detection = 0.1
+		}
+		light_cruiser = {
+			sub_detection = 0.1
+		}
+		naval_invasion_capacity = 20
+		#####
+
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			blue_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -2 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = ENG
+			}
+		}
+	}
+	
+	green_water_navy = {
+		#Strategic doctrine for sea defense from invasion
+		
+		# EFFECT #############
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+		convoy_raiding_efficiency_factor = 0.2
+		on_research_complete = {
+			hidden_effect = {
+				remove_ideas = {
+					brown_water_navy_1936
+					brown_water_navy_1937
+					brown_water_navy_1938
+					brown_water_navy_1939
+					brown_water_navy_1940
+					brown_water_navy_1941
+					brown_water_navy_1942
+					brown_water_navy_1943
+					brown_water_navy_1944
+					brown_water_navy_1945
+					brown_water_navy_1946
+				}
+				if  = {
+					limit  = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					add_ideas = SRD_naval_treaty_adherent
+				}
+			}
+		}
+		#####
+
+		xor = { blue_water_navy brown_water_navy } 
+		
+		path = {
+			leads_to_tech = raider_patrols
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 200
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			green_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	raider_patrols = {
+		
+		# EFFECT ##############		
+		light_cruiser = {
+			surface_detection = 0.2
+		}
+		convoy_raiding_efficiency_factor = 0.2
+		#######
+
+		
+		path = {
+			leads_to_tech = capital_ship_raiders
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			green_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+	}
+	
+	capital_ship_raiders = {
+
+		# EFFECT ##############		
+		battleship = {
+			surface_detection = 0.2
+		}
+		heavy_cruiser = {
+			surface_detection = 0.2
+		}
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+		#######
+		
+		path = {
+			leads_to_tech = trade_interdiction
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			green_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+	}
+	
+	trade_interdiction = {
+		
+		# EFFECT ##############
+		destroyer = {
+			surface_detection = 0.3
+		}
+		convoy_raiding_efficiency_factor = 0.2
+		#######
+		
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+			green_water_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 0 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = GER
+			}
+		}
+	}
+	
+	brown_water_navy = {
+		#Strategic doctrine for sea defense from invasion
+		
+		# EFFECT #############
+		naval_doctrine_cost_factor = -0.25
+		naval_equipment_upgrade_xp_cost = -0.5
+		mines_planting_by_fleets_factor = 0.2
+		on_research_complete = {
+			hidden_effect = {
+				remove_ideas = {
+					SRD_naval_treaty_adherent
+					SRD_naval_treaty_adherent_cheat
+					SRD_naval_treaty_adherent_escalator
+					SRD_naval_treaty_adherent_escalator_cheat
+				}
+				if  = {
+					limit  = {
+						date > 1946.01.01
+					}
+					add_ideas = brown_water_navy_1946
+				}
+				else_if  = {
+					limit  = {
+						date > 1945.01.01
+					}
+					set_temp_variable = { ndt1946 = 710290 }
+					subtract_from_temp_variable = { ndt1946 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1945
+						days = ndt1946
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1944.01.01
+					}
+					set_temp_variable = { ndt1945 = 709925 }
+					subtract_from_temp_variable = { ndt1945 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1944
+						days = ndt1945
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1943.01.01
+					}
+					set_temp_variable = { ndt1944 = 709560 }
+					subtract_from_temp_variable = { ndt1944 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1943
+						days = ndt1944
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1942.01.01
+					}
+					set_temp_variable = { ndt1943 = 709195 }
+					subtract_from_temp_variable = { ndt1943 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1942
+						days = ndt1943
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1941.01.01
+					}
+					set_temp_variable = { ndt1942 = 708830 }
+					subtract_from_temp_variable = { ndt1942 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1941
+						days = ndt1942
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1940.01.01
+					}
+					set_temp_variable = { ndt1941 = 708465 }
+					subtract_from_temp_variable = { ndt1941 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1940
+						days = ndt1941
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1939.01.01
+					}
+					set_temp_variable = { ndt1940 = 708100 }
+					subtract_from_temp_variable = { ndt1940 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1939
+						days = ndt1940
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1938.01.01
+					}
+					set_temp_variable = { ndt1939 = 707735 }
+					subtract_from_temp_variable = { ndt1939 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1938
+						days = ndt1939
+					}
+				}
+				else_if  = {
+					limit  = {
+						date > 1937.01.01
+					}
+					set_temp_variable = { ndt1938 = 707370 }
+					subtract_from_temp_variable = { ndt1938 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1937
+						days = ndt1938
+					}
+				}
+				else = {
+					set_temp_variable = { ndt1937 = 707005 }
+					subtract_from_temp_variable = { ndt1937 = global.num_days  }
+					add_timed_idea = {
+						idea = brown_water_navy_1936
+						days = ndt1937
+					}
+				}
+			}
+			custom_effect_tooltip = brown_water_navy_tt
+		}
+		#####
+
+		xor = { blue_water_navy green_water_navy individual_superiority naval_air_operations } 
+		
+		xp_research_type = navy
+		xp_unlock_cost = 10
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			naval_strategy_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 2 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				not = { has_tech = ship_hull_submarine }
+				not = { has_tech = ship_light_hull }
+			}
+		}
+	}
+	
+	individual_superiority = {
+		#Focus on better ships
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 10
+			armor_value = 0.1
+		}
+		carrier = {
+			max_organisation = 10
+			armor_value = 0.1
+		}
+		########
+
+		xor = { victory_through_number brown_water_navy } 
+		
+		path = {
+			leads_to_tech = defeat_in_detail
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 0.1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0
+				not = { has_completed_focus = SOV_an_oceangoing_navy }
+			}
+		}
+	}
+	
+	defeat_in_detail = {
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 10
+		}
+		carrier = {
+			max_organisation = 10
+		}
+		naval_enemy_fleet_size_ratio_penalty_factor = 0.1
+		########
+
+		path = {
+			leads_to_tech = floating_fortress
+		}
+		
+		path = {
+			leads_to_tech = naval_air_operations
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0.1
+				tag = SOV
+				not = { has_completed_focus = SOV_an_oceangoing_navy }
+			}
+			modifier = {
+				factor = 2
+				tag = ITA
+			}
+		}
+	}
+	
+	victory_through_number = {
+		#Try to gain advantage of number
+		
+		# EFFECT #############
+		heavy_cruiser = {
+			max_organisation = 10
+			max_strength = 0.1
+		}
+		light_carrier = {
+			max_organisation = 10
+			max_strength = 0.1
+		}
+		########
+
+		xor = { individual_superiority } 
+		
+		path = {
+			leads_to_tech = battlefleet_concentration
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 0 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					num_of_naval_factories < 10
+					not = { has_tech = ship_cruiser_hull }
+					has_tech = individual_superiority
+					AND = {
+						not = { tag = TUR }
+						has_tech = ship_hull_heavy
+					}
+				}
+			}
+		}
+	}
+	
+	battlefleet_concentration = {
+		
+		# EFFECT #############
+		heavy_cruiser = {
+			max_organisation = 10
+		}
+		light_carrier = {
+			max_organisation = 10
+		}
+		ships_at_battle_start = 0.2
+		########
+
+		path = {
+			leads_to_tech = floating_fortress
+		}
+		
+		path = {
+			leads_to_tech = naval_air_operations
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+		}
+	}
+	
+	floating_fortress = {
+		#Large, powerful gun armed ships are clearly the best ships
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 10
+			max_strength = 0.1
+		}
+		heavy_cruiser = {
+			max_organisation = 10
+			max_strength = 0.1
+		}
+		########
+
+		xor = { naval_air_operations } 
+		
+		path = {
+			leads_to_tech = grand_battlefleet
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_surface
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0.1
+				tag = SOV
+				not = { has_completed_focus = SOV_an_oceangoing_navy }
+			}
+			modifier = {
+				factor = 2
+				tag = ITA
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_completed_focus = uk_carrier_focus
+					AND = {
+						tag = USA
+						not = { has_completed_focus = USA_battleship_primacy }
+					}
+					AND = {
+						tag = JAP
+						not = { has_completed_focus = JAP_supremacy_of_the_battlefleet }
+					}
+				}
+			}
+		}
+	}
+	
+	grand_battlefleet = {
+		
+		# EFFECT #############
+		battleship = {
+			max_organisation = 10
+			hg_attack = 0.1
+			lg_attack = 0.1
+		}
+		heavy_cruiser = {
+			max_organisation = 10
+			hg_attack = 0.1
+			lg_attack = 0.1
+		}
+		########
+		
+		path = {
+			leads_to_tech = subsidiary_carrier_role
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_surface
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0.1
+				tag = SOV
+				not = { has_completed_focus = SOV_an_oceangoing_navy }
+			}
+			modifier = {
+				factor = 2
+				tag = ITA
+			}
+		}
+	}
+	
+	subsidiary_carrier_role = {
+		
+		# EFFECT #############
+		fighter_sortie_efficiency = 0.2
+		navy_carrier_air_agility_factor = 0.1
+		navy_anti_air_attack_factor = 0.1
+		########
+
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_surface
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0.1
+				tag = SOV
+				not = { has_completed_focus = SOV_an_oceangoing_navy }
+			}
+			modifier = {
+				factor = 2
+				tag = ITA
+			}
+		}
+	}
+	
+	naval_air_operations = {
+		#Task forces are based around carrier flagship
+
+		# EFFECT #############
+		carrier = {
+			max_organisation = 10
+		}
+		light_carrier = {
+			max_organisation = 10
+		}
+		sortie_efficiency = 0.1
+		########
+
+		xor = { floating_fortress brown_water_navy } 
+		
+		path = {
+			leads_to_tech = massed_strikes
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_carrier
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					AND = {
+						tag = ENG
+						not = { has_completed_focus = uk_carrier_focus }
+					}
+					has_completed_focus = USA_battleship_primacy
+					has_completed_focus = JAP_supremacy_of_the_battlefleet
+				}
+			}
+		}
+	}
+	
+	massed_strikes = {
+		
+		# EFFECT #############
+		carrier_capacity_penalty_reduction = -0.2
+		sortie_efficiency = 0.2
+		naval_strike_targetting_factor = 0.2
+		########
+		
+		path = {
+			leads_to_tech = carrier_battlegroups
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_carrier
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 6 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+		}
+	}
+	
+	carrier_battlegroups = {
+		
+		# EFFECT ##############
+		carrier = {
+			max_organisation = 10
+		}
+		light_carrier = {
+			max_organisation = 10
+		}
+		naval_strike_targetting_factor = 0.1
+		###########
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			capital_tree
+			cat_carrier
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 8 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0.5
+				num_of_naval_factories < 10
+			}
+		}	
+	}
+	
+	escort_patrols = {
+		#Escort ships are mainly used for auxiliary roles
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 10
+		}
+		destroyer = {
+			max_organisation = 10
+		}
+		screening_efficiency = 0.2
+		#############
+		
+		xor = { jeune_ecole } 
+		
+		path = {
+			leads_to_tech = ring_formation
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			defensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	ring_formation = {
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 5
+		}
+		destroyer = {
+			max_organisation = 5
+		}
+		navy_anti_air_attack_factor = 0.1
+		#############
+
+		path = {
+			leads_to_tech = radar_picket_ships
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			defensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+	}
+	
+	radar_picket_ships = {
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 5
+		}
+		destroyer = {
+			max_organisation = 5
+		}
+		positioning = 0.1
+		spotting_chance = 0.2
+		##########
+
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			defensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = USA
+			}
+		}
+	}
+	
+	jeune_ecole = {
+		#Screen will engage heavy surface combat
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 10
+			lg_attack = 0.1
+		}
+		destroyer = {
+			max_organisation = 10
+			lg_attack = 0.1
+		}
+		#############
+		
+		xor = { escort_patrols } 
+		
+		path = {
+			leads_to_tech = torpedo_squadrons
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			offensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					not = { has_tech = ship_light_hull }
+					has_tech = escort_patrols
+				}
+			}
+		}
+	}
+	
+	torpedo_squadrons = {
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 10
+		}
+		destroyer = {
+			max_organisation = 10
+		}
+		naval_torpedo_hit_chance_factor = 0.1
+		#############
+
+		path = {
+			leads_to_tech = night_fighting_training
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			offensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			modifier = {
+				has_completed_focus = FRA_the_young_school
+				factor = 10
+			}
+		}
+	}
+	
+	night_fighting_training = {
+		
+		# EFFECT ##############
+		light_cruiser = {
+			max_organisation = 10
+		}
+		destroyer = {
+			max_organisation = 10
+		}
+		night_spotting_chance = 0.1
+		naval_night_attack = 0.1
+		##########
+
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			screen_tree
+			offensive_screen_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = JAP
+			}
+			modifier = {
+				has_completed_focus = FRA_the_young_school
+				factor = 10
+			}
+		}
+	}
+	
+	submarine_operations = {
+		#Create powerful submarines for fleet operations
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 10
+			torpedo_attack = 0.1
+		}
+		#######
+
+		xor = { convoy_interdiction } 
+		
+		path = {
+			leads_to_tech = fleet_submarine
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			fleet_submarine_tree
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	fleet_submarine = {
+		
+		# EFFECT ##############
+		submarine = {
+			naval_speed = 0.2
+			max_strength = 0.2
+		}
+		
+		path = {
+			leads_to_tech = submarine_offensive
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			fleet_submarine_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+		}
+	}
+	
+	submarine_offensive = {
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 10
+			max_strength = 0.2
+		}
+		#######
+	
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			fleet_submarine_tree
+		}
+
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = -1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = FRA
+			}
+		}
+	}
+	
+	convoy_interdiction = {
+		#Submarine raiders to fight ennemy convoys
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 5
+			surface_detection = 0.1
+		}
+		#######				
+
+		xor = { submarine_operations } 
+		
+		path = {
+			leads_to_tech = undersea_blockade
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			raider_submarine_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					not = { has_tech = ship_hull_submarine }
+					has_tech = submarine_operations
+				}
+			}
+		}
+	}
+	
+	undersea_blockade = {
+		
+		# EFFECT ##############
+		submarine = {
+			max_organisation = 5
+			surface_detection = 0.1
+		}
+		naval_torpedo_reveal_chance_factor = -0.05
+		#######
+
+		
+		path = {
+			leads_to_tech = wolfpacks
+		}
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			raider_submarine_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = HOL
+			}
+		}
+	}
+	
+	wolfpacks = {
+		
+		# EFFECT ##############
+		submarine = {
+			surface_detection = 0.1
+		}
+		naval_torpedo_reveal_chance_factor = -0.05
+		#######
+		
+		xp_research_type = navy
+		xp_unlock_cost = 100
+		doctrine = yes	
+		
+		categories = {
+			naval_doctrine
+			cat_submarine
+			raider_submarine_tree
+		}
+		
+		folder = {
+			name = naval_doctrine_folder
+			position = { x = 1 y = 4 }
+		}
+		
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 2
+				tag = HOL
+			}
+		}
+	}
+}

@@ -5011,7 +5011,7 @@ focus_tree = {
 				name = GER_trade_interdiction
 				cost_reduction = 0.25
 				uses = 2
-				category = trade_interdiction_tree
+				category = raider_submarine_tree
 			}
 		}
 	}

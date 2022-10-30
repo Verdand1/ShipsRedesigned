@@ -148,7 +148,8 @@ ideas = {
 			picture = generic_coastal_defense_ships
 			
 			modifier = {
-				naval_doctrine_cost_factor = 0.5
+				naval_doctrine_cost_factor = 0.1
+				cat_carrier_cost_factor = 0.9
 			}
 		}
 

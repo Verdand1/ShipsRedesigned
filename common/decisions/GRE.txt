@@ -3545,6 +3545,7 @@ political_actions = {
 		available = {
 			NOT = { has_war_with = USA }
 			has_completed_focus = GRE_british_docking_rights
+			not = { has_tech = brown_water_navy }
 		}
 
 		cost = 0
@@ -3647,6 +3648,7 @@ political_actions = {
 
 		available = {
 			has_completed_focus = GRE_bolster_the_schachtplan
+			not = { has_tech = brown_water_navy }
 		}
 
 		cost = 0

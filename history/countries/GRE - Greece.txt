@@ -37,6 +37,9 @@ set_technology = {
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
 	ship_hull_submarine = 1
+	brown_water_navy = 1
+	jeune_ecole = 1
+	submarine_operations = 1
 }
 
 1936.1.1 = {
@@ -99,6 +102,11 @@ set_technology = {
 			limited_conscription
 			civilian_economy
 		}
+	}
+	
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
 	}
 }
 

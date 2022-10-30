@@ -1386,10 +1386,7 @@
 				name = con_def_bonus
 				cost_reduction = 0.5
 				uses = 1
-				category = convoy_defense_tree
-				#technology = convoy_sailing
-				#technology = convoy_sailing_ti
-				#technology = convoy_sailing_bs
+				category = screen_tree
 			}
 		}
 	}
@@ -1420,11 +1417,7 @@
 				name = ITA_escort_effort
 				cost_reduction = 0.5
 				uses = 2
-				category = convoy_defense_tree
-
-				#technology = convoy_escorts
-				#technology = convoy_escorts_bs
-				#technology = escort_carriers
+				category = defensive_screen_tree
 			}
 		}
 	}
@@ -1456,11 +1449,7 @@
 				name = sub_op_bonus
 				cost_reduction = 0.5
 				uses = 2
-				category = submarine_doctrine
-				#technology = submarine_operations
-				#technology = undersea_blockade
-				#technology = convoy_interdiction
-				#technology = submarine_offensive
+				category = cat_submarine
 			}
 		}
 	}
@@ -1496,7 +1485,7 @@
 				name = ITA_sea_wolves
 				cost_reduction = 0.5
 				uses = 2
-				category = submarine_doctrine
+				category = green_water_tree
 			}
 		}
 	}

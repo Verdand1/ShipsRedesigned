@@ -51,7 +51,6 @@ set_technology = {
 	early_fighter = 1
 	early_bomber = 1
 	mass_assault = 1
-	fleet_in_being = 1
 	basic_train = 1
 	improved_torpedo_launcher = 1
 	improved_range_engines = 1
@@ -60,6 +59,7 @@ set_technology = {
 	airplane_launcher = 1
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
+	brown_water_navy = 1
 }
 if = {
 	limit = {
@@ -107,6 +107,13 @@ if = {
 save_global_event_target_as = WTT_current_china_leader
 
 set_convoys = 40
+
+1936.1.1 = {
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
+	}
+}
 
 1939.1.1 = {
 

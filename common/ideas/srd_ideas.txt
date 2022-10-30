@@ -98,6 +98,211 @@ ideas = {
 			}
 		}
 		
-	}
+		brown_water_navy_1936 = {
 		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 3400
+				production_cost_max_ship_hull_submarine = 500
+			}
+			on_remove = {
+				set_temp_variable = { ndt1938 = 707370 }
+				subtract_from_temp_variable = { ndt1938 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1937
+					days = ndt1938
+				}
+			}
+		}
+		
+		brown_water_navy_1937 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 3600
+				production_cost_max_ship_hull_submarine = 520
+			}
+			on_remove = {
+				set_temp_variable = { ndt1939 = 707735 }
+				subtract_from_temp_variable = { ndt1939 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1938
+					days = ndt1939
+				}
+			}
+		}
+		
+		brown_water_navy_1938 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 3800
+				production_cost_max_ship_hull_submarine = 540
+			}
+			on_remove = {
+				set_temp_variable = { ndt1940 = 708100 }
+				subtract_from_temp_variable = { ndt1940 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1939
+					days = ndt1940
+				}
+			}
+		}
+		
+		brown_water_navy_1939 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 4000
+				production_cost_max_ship_hull_submarine = 560
+			}
+			on_remove = {
+				set_temp_variable = { ndt1941 = 708465 }
+				subtract_from_temp_variable = { ndt1941 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1940
+					days = ndt1941
+				}
+			}
+		}
+		
+		brown_water_navy_1940 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 4200
+				production_cost_max_ship_hull_submarine = 580
+			}
+			on_remove = {
+				set_temp_variable = { ndt1942 = 708830 }
+				subtract_from_temp_variable = { ndt1942 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1941
+					days = ndt1942
+				}
+			}
+		}
+		
+		brown_water_navy_1941 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 4400
+				production_cost_max_ship_hull_submarine = 600
+			}
+			on_remove = {
+				set_temp_variable = { ndt1943 = 709195 }
+				subtract_from_temp_variable = { ndt1943 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1942
+					days = ndt1943
+				}
+			}
+		}
+		
+		brown_water_navy_1942 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 4600
+				production_cost_max_ship_hull_submarine = 620
+			}
+			on_remove = {
+				set_temp_variable = { ndt1944 = 709560 }
+				subtract_from_temp_variable = { ndt1944 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1943
+					days = ndt1944
+				}
+			}
+		}
+		
+		brown_water_navy_1943 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 4800
+				production_cost_max_ship_hull_submarine = 640
+			}
+			on_remove = {
+				set_temp_variable = { ndt1945 = 709925 }
+				subtract_from_temp_variable = { ndt1945 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1944
+					days = ndt1945
+				}
+			}
+		}
+		
+		brown_water_navy_1944 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 5000
+				production_cost_max_ship_hull_submarine = 660
+			}
+			on_remove = {
+				set_temp_variable = { ndt1946 = 710290 }
+				subtract_from_temp_variable = { ndt1946 = global.num_days  }
+				add_timed_idea = {
+					idea = brown_water_navy_1945
+					days = ndt1946
+				}
+			}
+		}
+		
+		brown_water_navy_1945 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 5200
+				production_cost_max_ship_hull_submarine = 680
+			}
+			on_remove = {
+				add_ideas = brown_water_navy_1946
+			}
+		}
+		
+		brown_water_navy_1946 = {
+		
+			removal_cost = -1
+			picture = escort_effort_focus
+			name = brown_water_navy
+			
+			modifier = {
+				production_cost_max_ship_hull_cruiser = 5400
+				production_cost_max_ship_hull_submarine = 700
+			}
+		}
+	}
 }

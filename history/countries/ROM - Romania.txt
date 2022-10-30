@@ -64,6 +64,8 @@ set_technology = {
 	basic_naval_mines = 1
 	ship_light_hull = 1
 	ship_hull_submarine = 1
+	brown_water_navy = 1
+	jeune_ecole = 1
 }
 
 if = {
@@ -151,6 +153,14 @@ if = {
 }
 
 set_convoys = 10
+
+1936.1.1 = {
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
+	}
+}
+
 1939.1.1 = {
 	
 	remove_ideas = neutrality_idea

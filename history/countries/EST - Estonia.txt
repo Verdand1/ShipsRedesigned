@@ -73,9 +73,17 @@ set_technology = {
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
 	ship_hull_submarine = 1
+	brown_water_navy = 1
 }
 
 set_convoys = 5
+
+1936.1.1 = {
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
+	}
+}
 
 1939.1.1 = {
 

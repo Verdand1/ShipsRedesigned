@@ -34,7 +34,12 @@ country_event = {
 		
 		set_country_flag = srd_treaty_members
 		
-		add_ideas = SRD_naval_treaty_adherent
+		if  = {
+			limit  = {
+				not = { has_tech = brown_water_navy }
+			}
+			add_ideas = SRD_naval_treaty_adherent
+		}
 		every_other_country = {
 			limit = {
 				has_naval_treaty_trigger = yes

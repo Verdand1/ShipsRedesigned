@@ -8243,6 +8243,10 @@
 		relative_position_id = FRA_capital_ship_focus
 		cost = 10
 
+		available = {
+			not = { has_tech = brown_water_navy }
+		}
+
 		available_if_capitulated = no
 
 		completion_reward = {
@@ -8304,6 +8308,10 @@
 		cost = 10
 
 		available_if_capitulated = no
+
+		available = {
+			not = { has_tech = brown_water_navy }
+		}
 
 		completion_reward = {
 			if = {

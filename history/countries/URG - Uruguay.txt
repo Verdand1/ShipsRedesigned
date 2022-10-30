@@ -9,6 +9,7 @@ set_technology = {
 	gw_artillery = 1
 	early_fighter = 1
 	ship_light_hull = 1
+	brown_water_navy = 1
 }
 
 recruit_character = URG_gabriel_terra
@@ -38,6 +39,13 @@ recruit_character = URG_emilio_frugoni
 set_country_flag = monroe_doctrine
 
 set_convoys = 5
+
+1936.1.1 = {
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
+	}
+}
 
 1939.1.1 = {
 	set_politics = {

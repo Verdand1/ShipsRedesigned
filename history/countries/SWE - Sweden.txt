@@ -43,6 +43,10 @@ set_technology = {
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
 	ship_hull_submarine = 1
+	brown_water_navy = 1
+	victory_through_number = 1
+	escort_patrols = 1
+	convoy_interdiction = 1
 }
 
 if = {
@@ -61,6 +65,13 @@ if = {
 	set_technology = {
 		gwtank_chassis = 1
 		basic_light_tank_chassis = 1
+	}
+}
+
+1936.1.1 = {
+	add_timed_idea = {
+		idea = brown_water_navy_1936
+		days = 366
 	}
 }
 

@@ -21,6 +21,9 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
+	green_water_navy = 1
+	individual_superiority = 1
+	escort_patrols = 1
 }
 
 recruit_character = CHL_arturo_alessandri

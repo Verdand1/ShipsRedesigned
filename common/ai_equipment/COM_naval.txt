@@ -302,6 +302,7 @@ CA = {
 				num_of_naval_factories < 10
 				AND = {
 					has_tech = ship_hull_heavy
+					not = { has_tech = brown_water_navy }
 					not = { is_subject_of = ENG }
 				}
 				SRD_treaty_limit_level_3_CA = yes
@@ -513,6 +514,7 @@ BB = {
 			OR = {
 				num_of_naval_factories < 10
 				is_subject_of = ENG
+				has_tech = brown_water_navy
 				SRD_treaty_limit_level_3_BB = yes
 			}
 		}

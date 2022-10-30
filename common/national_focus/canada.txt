@@ -4402,7 +4402,7 @@
 				name = CAN_escort_fleet
 				cost_reduction = 0.25
 				uses = 2
-				category = convoy_defense_tree
+				category = defensive_screen_tree
 			}
 		}
 	}
@@ -4441,7 +4441,7 @@
 				name = CAN_fleet_in_being
 				cost_reduction = 0.25
 				uses = 2
-				category = cat_fleet_in_being
+				category = capital_tree
 			}			
 		}
 	}

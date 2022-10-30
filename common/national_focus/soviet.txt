@@ -3127,6 +3127,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
+			not = { has_tech = brown_water_navy }
 			if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -3252,6 +3253,7 @@ focus_tree = {
 
 		available = {
 			NOT = { has_country_flag = SOV_paranoia_system_active_flag }
+			not = { has_tech = brown_water_navy }
 			if = {
 				limit = {
 					has_dlc = "Man the Guns"
@@ -3565,7 +3567,7 @@ focus_tree = {
 		cost = 10
 
 		available = {
-
+			not = { has_tech = brown_water_navy }
 		}
 		
 		search_filters = {FOCUS_FILTER_RESEARCH FOCUS_FILTER_AIR_XP FOCUS_FILTER_NAVY_XP}
