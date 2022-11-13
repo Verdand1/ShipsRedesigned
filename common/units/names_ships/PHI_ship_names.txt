@@ -6,7 +6,7 @@ PHI_DD_HISTORICAL = {
 	for_countries = { PHI }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "RPS "							
 	fallback_name = "RPS Destroyer %d"					

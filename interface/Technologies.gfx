@@ -1950,7 +1950,7 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/light_cruiser.dds"
 	}
 	SpriteType = {
-		name = "GFX_ship_hull_cruiser_2_medium"
+		name = "GFX_ship_hull_cruiser_1_capital_medium"
 		texturefile = "gfx/interface/technologies/heavy_cruiser.dds"
 	}
 	SpriteType = {

@@ -696,7 +696,7 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Deutschland Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = GER_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1
@@ -720,7 +720,7 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Admiral Hipper Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = GER_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1

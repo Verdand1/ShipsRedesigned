@@ -150,7 +150,7 @@
 			D50 = {
 				hidden_effect = {
 					destroy_ships = {
-						type = ship_hull_light
+						type = ship_hull_cruiser
 						count = 4
 					}
 				}

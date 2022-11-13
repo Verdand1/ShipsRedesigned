@@ -8,11 +8,11 @@ units = {
 			location = 12364 # Buenos Aires
 			ship = { name = "ARA Rivadavia" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ARG version_name = "Rivadavia Class" } } pride_of_the_fleet = yes }
 			ship = { name = "ARA Moreno" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = ARG version_name = "Rivadavia Class" } } }
-			ship = { name = "ARA Veinticinco de Mayo" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ARG version_name = "Veinticinco de Mayo Class" } } }
-			ship = { name = "ARA Almirante Brown" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ARG version_name = "Veinticinco de Mayo Class" } } }
-			ship = { name = "ARA Pueyrredon" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ARG version_name = "Garibaldi Class" } } }
-			ship = { name = "ARA Libertad" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ARG version_name = "Nueve de Julio Class" } } }
-			ship = { name = "ARA Independencia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ARG version_name = "Nueve de Julio Class" } } }
+			ship = { name = "ARA Veinticinco de Mayo" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Veinticinco de Mayo Class" } } }
+			ship = { name = "ARA Almirante Brown" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Veinticinco de Mayo Class" } } }
+			ship = { name = "ARA Pueyrredon" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Garibaldi Class" } } }
+			ship = { name = "ARA Libertad" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Nueve de Julio Class" } } }
+			ship = { name = "ARA Independencia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ARG version_name = "Nueve de Julio Class" } } }
 		}				
 		task_force = {
 			name = "Flotilla de Destructores nro. 1"			

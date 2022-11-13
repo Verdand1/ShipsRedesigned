@@ -6,7 +6,7 @@ RAJ_DD_HISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HMIS "							
 	fallback_name = "HMIS Destroyer %s"					
@@ -32,7 +32,7 @@ RAJ_CL_HISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMIS "							
 	fallback_name = "HMIS Light Cruiser %s"
@@ -50,7 +50,7 @@ RAJ_CV_LHISTORICAL = {
 	for_countries = { RAJ }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "HMIS "							
 	fallback_name = "HMIS Light Carrier %s"		

@@ -6,9 +6,9 @@ units= {
 		task_force = {
 			name = "Linienschiffe"
 			location = 241 # Wilhemshaven
-			ship = { name = "Admiral Graf Spee" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Deutschland Class" } } pride_of_the_fleet = yes }
-			ship = { name = "Admiral Scheer" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
-			ship = { name = "Deutschland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "Admiral Graf Spee" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } pride_of_the_fleet = yes }
+			ship = { name = "Admiral Scheer" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
+			ship = { name = "Deutschland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Deutschland Class" } } }
 		}
 		task_force = {
 			name = "Aufklärungsstreitkräfte"
@@ -120,7 +120,7 @@ instant_effect = {
 	# Heavy Cruiser
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			creator = "GER"
 			version_name = "Admiral Hipper Class"
 		}

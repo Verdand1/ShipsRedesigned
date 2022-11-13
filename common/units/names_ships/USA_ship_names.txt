@@ -6,7 +6,7 @@ USA_DD_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "USS "							
 	fallback_name = "USS DD%d"					
@@ -60,7 +60,7 @@ USA_DE_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 	
 	prefix = "USS "							
 	fallback_name = "USS DE%d"
@@ -102,7 +102,7 @@ USA_CL_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "USS "							
 	fallback_name = "USS CL%d"
@@ -124,7 +124,7 @@ USA_CA_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "USS "							
 	fallback_name = "USS CA%d"
@@ -149,7 +149,7 @@ USA_CLAA_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "USS "							
 	fallback_name = "USS CLAA%d"
@@ -168,7 +168,7 @@ USA_MINELAYERS_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_escort }
+	ship_types = { light_cruiser destroyer }
 	
 	prefix = "USS "							
 	fallback_name = "USS CM%d"
@@ -188,7 +188,7 @@ USA_BB_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "USS "							
 	fallback_name = "USS BB%d"		
@@ -215,7 +215,7 @@ USA_BC_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "USS "							
 	fallback_name = "USS CC%d"		
@@ -232,7 +232,7 @@ USA_CV_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "USS "							
 	fallback_name = "USS CV%d"	
@@ -256,7 +256,7 @@ USA_CVL_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "USS "							
 	fallback_name = "USS CVL%d"	
@@ -274,7 +274,7 @@ USA_CVE_HISTORICAL = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "USS "							
 	fallback_name = "USS CVE%d"	
@@ -336,7 +336,7 @@ USA_STATES = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "USS "							
 
@@ -355,7 +355,7 @@ USA_CITIES = {
 	for_countries = { USA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser heavy_cruiser }
+	ship_types = { light_cruiser heavy_cruiser }
 	
 	prefix = "USS "							
 
@@ -463,7 +463,7 @@ CSA_DD_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "CSS "							
 	fallback_name = "CSS DD%d"					
@@ -497,7 +497,7 @@ CSA_CL_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "CSS "							
 	fallback_name = "CSS CL%d"					
@@ -528,7 +528,7 @@ CSA_CA_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "CSS "							
 	fallback_name = "CSS CA%d"
@@ -555,7 +555,7 @@ USA_BB_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "CSS "							
 	fallback_name = "CSS BB%d"		
@@ -578,7 +578,7 @@ USA_CV_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "CSS "							
 	fallback_name = "CSS CV%d"	
@@ -602,7 +602,7 @@ USA_CVL_CONFEDERATE = {
 		}
 	}
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "CSS "							
 	fallback_name = "CSS CVL%d"		

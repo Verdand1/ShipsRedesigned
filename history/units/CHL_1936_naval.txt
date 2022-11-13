@@ -7,7 +7,7 @@ units= {
 			name = "Armada de Chile"
 			location = 8222 # Valparaiso
 			ship = { name = "BACH Almirante Latorre" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = CHL version_name = "Almirante Latorre Class" } } pride_of_the_fleet = yes }
-			ship = { name = "BACH Chacabuco" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
+			ship = { name = "BACH Chacabuco" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = CHL version_name = "Chacabuco Class" } } }
 		}				
 		task_force = {
 			name = "Flotilla de Destructores nro. 1"			

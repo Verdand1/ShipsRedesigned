@@ -6,7 +6,7 @@ CAN_DD_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HMCS "							
 	fallback_name = "HMCS Destroyer %s"					
@@ -32,7 +32,7 @@ CAN_CL_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMCS "							
 	fallback_name = "HMCS Light Cruiser %s"
@@ -53,7 +53,7 @@ CAN_CV_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "HMCS "							
 	fallback_name = "HMCS Carrier %s"		
@@ -70,7 +70,7 @@ CAN_CVL_HISTORICAL = {
 	for_countries = { CAN }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "HMCS "							
 	fallback_name = "HMCS Light Carrier %s"		

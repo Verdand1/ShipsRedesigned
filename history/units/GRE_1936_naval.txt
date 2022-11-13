@@ -6,7 +6,7 @@ units= {
 		task_force = {
 			name = "Vasilikós Stólos"
 			location = 4109 # Athens
-			ship = { name = "RHS Averof" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = GRE version_name = "Averof Class" } } pride_of_the_fleet = yes }
+			ship = { name = "RHS Averof" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Averof Class" } } pride_of_the_fleet = yes }
 			ship = { name = "RHS Elli" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name = "Elli Class" } } }
 			# Destroyer Flotilla
 			ship = { name = "RHS Kountouriotis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name = "Hydra Class" } } }

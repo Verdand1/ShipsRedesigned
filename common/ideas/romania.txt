@@ -776,7 +776,7 @@ ideas = {
 					instant = yes
 				}
 			
-				ship_hull_escort = {
+				ship_hull_light = {
 					torpedo_attack = 0.2
 					instant = yes
 				}

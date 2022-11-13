@@ -6,7 +6,7 @@ POR_DD_HISTORICAL = {
 	for_countries = { POR }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "NRP "
 	fallback_name = "NRP Contratorpedeiro %d"					
@@ -29,7 +29,7 @@ POR_CL_HISTORICAL = {
 	for_countries = { POR }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "NRP "
 	fallback_name = "NRP Cruzador Ligeiro %d"

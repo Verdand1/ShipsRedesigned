@@ -15,7 +15,7 @@ GER_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 	
 	fallback_name = "Z%d"
 	
@@ -61,7 +61,7 @@ GER_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 
 	fallback_name = "F%d"
 
@@ -83,7 +83,7 @@ GER_TB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 	
 	fallback_name = "T%d"
 	
@@ -145,7 +145,7 @@ GER_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	fallback_name = "Schwerer Kreuzer %d"
 	
@@ -177,7 +177,7 @@ GER_BB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	fallback_name = "Schlachtschiff %d"
 
@@ -209,7 +209,7 @@ GER_BC_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	fallback_name = "Schlachtkreuzer %d"
 
@@ -239,7 +239,7 @@ GER_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Flugzeugträger %d"
 
@@ -264,7 +264,7 @@ GER_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	fallback_name = "Leichter Flugzeugträger %d"
 
@@ -571,7 +571,7 @@ GER_DD_IMPERIAL = {
 	}
 	
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Schiff %d"
@@ -670,7 +670,7 @@ GER_CA_IMPERIAL = {
 	}
 	
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Schwerer Kreuzer %d"
@@ -701,7 +701,7 @@ GER_BB_IMPERIAL = {
 	}
 	
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Schlachtschiff %d"
@@ -732,7 +732,7 @@ GER_BC_IMPERIAL = {
 	}
 	
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Schlachtkreuzer %d"
@@ -761,7 +761,7 @@ GER_CV_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Flugzeugträger %d"
@@ -785,7 +785,7 @@ GER_CVL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Leichter Flugzeugträger %d"

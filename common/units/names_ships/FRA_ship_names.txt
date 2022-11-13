@@ -6,7 +6,7 @@ FRA_DD_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	fallback_name = "Contre-Torpilleur %d"					
 
@@ -28,7 +28,7 @@ FRA_TB_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	fallback_name = "Torpilleur %d"					
 
@@ -46,7 +46,7 @@ FRA_DE_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	fallback_name = "Escorteur %d"					
 
@@ -63,7 +63,7 @@ FRA_CL_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	fallback_name = "Croiseur Léger %d"
 
@@ -91,7 +91,7 @@ FRA_CA_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	fallback_name = "Croiseur Lourd %d"
 
@@ -119,7 +119,7 @@ FRA_MINELAYERS_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_escort }
+	ship_types = { light_cruiser destroyer }
 	
 	fallback_name = "Mouilleur de Mines %d"
 
@@ -136,7 +136,7 @@ FRA_BB_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	fallback_name = "Cuirassé %d"		
 
@@ -166,7 +166,7 @@ FRA_BC_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	fallback_name = "Croiseur de Bataille %d"		
 
@@ -182,7 +182,7 @@ FRA_CV_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Porte-Avions %d"	
 
@@ -200,7 +200,7 @@ FRA_CVL_HISTORICAL = {
 	for_countries = { FRA }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	fallback_name = "Porte-Avions Léger %d"	
 

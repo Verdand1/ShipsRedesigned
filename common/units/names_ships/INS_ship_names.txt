@@ -6,7 +6,7 @@ INS_DD_HISTORICAL = {
 	for_countries = { INS }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "KRI "							
 	fallback_name = "KRI Destroyer %d"					
@@ -26,7 +26,7 @@ INS_CL_HISTORICAL = {
 	for_countries = { INS }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "KRI "							
 	fallback_name = "KRI Light Cruiser %d"

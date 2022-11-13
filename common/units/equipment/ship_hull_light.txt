@@ -1,6 +1,6 @@
 equipments = {
 
-	ship_hull_escort = {
+	ship_hull_light = {
 		is_archetype = yes
 		type = screen_ship
 		interface_category = interface_category_screen_ships
@@ -15,7 +15,7 @@ equipments = {
 			}
 		}
 
-		archetype = ship_hull_escort
+		archetype = ship_hull_light
 		priority = 2000
 
 		naval_speed = 18

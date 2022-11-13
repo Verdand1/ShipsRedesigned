@@ -478,11 +478,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Äran Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = SWE_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		rear_1 = empty
 		mid_1 = ship_light_battery_2
 	}
@@ -494,9 +495,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Oscar II Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = SWE_CA_HISTORICAL
-	parent_version = 1
+	parent_version = 5
 	role_icon_index = 2
 	upgrades = {
 		ship_medium_engine_upgrade = 1
@@ -507,9 +508,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Sverige Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = SWE_CA_HISTORICAL
-	parent_version = 1
+	parent_version = 5
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_medium_battery_2

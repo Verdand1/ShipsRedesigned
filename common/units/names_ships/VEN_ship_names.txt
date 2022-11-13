@@ -6,7 +6,7 @@ VEN_DD_HISTORICAL = {
 	for_countries = { VEN }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "ARV "
 	fallback_name = "ARV Destructor %d"					

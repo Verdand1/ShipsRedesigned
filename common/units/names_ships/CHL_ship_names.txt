@@ -6,7 +6,7 @@ CHL_DD_HISTORICAL = {
 	for_countries = { CHL }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "BACH "
 	fallback_name = "BACH Destructor %d"					
@@ -28,7 +28,7 @@ CHL_CL_HISTORICAL = {
 	for_countries = { CHL }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "BACH "
 	fallback_name = "BACH Crucero Ligero %d"
@@ -49,7 +49,7 @@ CHL_CA_HISTORICAL = {
 	for_countries = { CHL }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "BACH "
 	fallback_name = "BACH Crucero Pesado %d"
@@ -67,7 +67,7 @@ CHL_BB_HISTORICAL = {
 	for_countries = { CHL }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "BACH "
 	fallback_name = "BACH Acorazado %d"		

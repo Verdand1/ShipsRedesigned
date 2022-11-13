@@ -6,7 +6,7 @@ PRU_DD_HISTORICAL = {
 	for_countries = { PRU }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "BAP "
 	fallback_name = "BAP Destructor %d"					
@@ -27,7 +27,7 @@ PRU_CL_HISTORICAL = {
 	for_countries = { PRU }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "BAP "
 	fallback_name = "BAP Crucero Ligero %d"

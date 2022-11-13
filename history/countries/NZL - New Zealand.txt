@@ -286,7 +286,7 @@ create_equipment_variant = {
 		# Light Cruisers #
 		create_equipment_variant = {
 			name = "Leander Class"
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			name_group = NZL_CL_HISTORICAL
 			modules = {
 				fixed_ship_battery_slot = ship_light_medium_battery_1

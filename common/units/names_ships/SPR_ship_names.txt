@@ -6,7 +6,7 @@ SPR_DD_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "ARE "
 	fallback_name = "ARE Destructor %d"					
@@ -32,7 +32,7 @@ SPR_CL_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "ARE "
 	fallback_name = "ARE Crucero Ligero %d"
@@ -57,7 +57,7 @@ SPR_CA_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "ARE "
 	fallback_name = "ARE Crucero Pesado %d"
@@ -77,7 +77,7 @@ SPR_BB_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "ARE "
 	fallback_name = "ARE Acorazado %d"		
@@ -94,7 +94,7 @@ SPR_CVL_HISTORICAL = {
 	for_countries = { SPR }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "ARE "
 	fallback_name = "ARE Portaaviones Ligero %d"	

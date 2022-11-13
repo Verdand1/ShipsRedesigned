@@ -6,15 +6,15 @@ units = {
 		task_force = {
 			name = "Sjökrigshögskolan"
 			location = 6050 # Stockholm
-			ship = { name = "HMS Oscar II" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Oscar II Class" } } }
-			ship = { name = "HMS Manligheten" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
+			ship = { name = "HMS Oscar II" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Oscar II Class" } } }
+			ship = { name = "HMS Manligheten" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
 		}
 		task_force = {
 			name = "Kustflottan"
 			location = 6050 # Stockholm
-			ship = { name = "HMS Äran" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
-			ship = { name = "HMS Tapperheten" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
-			ship = { name = "HMS Wasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
+			ship = { name = "HMS Äran" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
+			ship = { name = "HMS Tapperheten" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
+			ship = { name = "HMS Wasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
 			ship = { name = "HMS Dristigheten" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Dristigheten Class" } } }
 			ship = { name = "HMS Flygia" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Flygia Class" } } }
 			ship = { name = "HMS Clas Fleming" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Clas Fleming Class" } } }
@@ -22,9 +22,9 @@ units = {
 		task_force = {
 			name = "1. Eskadern"
 			location = 11215 # Karlskrona
-			ship = { name = "HMS Gustaf V" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Sverige Class" } } pride_of_the_fleet = yes }
-			ship = { name = "HMS Sverige" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
-			ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
+			ship = { name = "HMS Gustaf V" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Sverige Class" } } pride_of_the_fleet = yes }
+			ship = { name = "HMS Sverige" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
+			ship = { name = "HMS Drottning Victoria" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Sverige Class" } } }
 			ship = { name = "HMS Gotland" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Gotland Class" } } }
 		}
 		task_force = {

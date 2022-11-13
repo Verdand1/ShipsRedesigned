@@ -2,11 +2,11 @@ equipments = {
 
 	ship_hull_cruiser = {
 		is_archetype = yes
-		type = capital_ship
-		interface_category = interface_category_capital_ships
+		type = screen_ship
+		interface_category = interface_category_screen_ships
 	}
 
-	ship_hull_cruiser_2 = {
+	ship_hull_cruiser_1 = {
 		year = 1922
 
 		can_be_produced = {
@@ -17,7 +17,7 @@ equipments = {
 
 		archetype = ship_hull_cruiser
 		priority = 1800
-		can_convert_from = { ship_hull_cruiser_1 ship_hull_carrier_2 }
+		can_convert_from = { ship_hull_carrier_2 }
 
 		naval_speed = 18
 		naval_range = 3500
@@ -38,7 +38,11 @@ equipments = {
 		module_slots = {
 			fixed_front_1 = {
 				required = yes
-				allowed_module_categories = { ship_medium_battery }
+				allowed_module_categories = {
+					ship_medium_battery
+					ship_light_medium_battery
+					ship_light_battery
+				}
 			}
 			fixed_target_acquisition = {
 				required = no
@@ -77,6 +81,7 @@ equipments = {
 					ship_anti_air
 					ship_light_battery
 					ship_medium_battery
+					ship_light_medium_battery
 					ship_airplane_launcher
 					ship_depth_charge
 					ship_mine_layer
@@ -113,6 +118,7 @@ equipments = {
 					ship_anti_air
 					ship_light_battery
 					ship_medium_battery 
+					ship_light_medium_battery
 				}
 			}
 		}
@@ -124,7 +130,7 @@ equipments = {
 		}
 
 		default_modules = {
-			fixed_front_1 = ship_medium_battery_1
+			fixed_front_1 = ship_light_medium_battery_1
 			fixed_target_acquisition = empty
 			fixed_radar = empty
 			fixed_engine = ship_deprecated_engine

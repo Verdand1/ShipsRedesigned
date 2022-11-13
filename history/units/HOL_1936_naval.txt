@@ -6,8 +6,8 @@ units = {
 		task_force = {
 			name = "Koninklijke Vloot"
 			location = 3314 # Amsterdam
-			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HOL version_name = "Koningin Regentes Class" } } }
-			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Koningin Regentes Class" } } }
+			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Jacob van Heemskerck Class" } } }
 		}
 		task_force = {
 			name = "Koninklijke Mijnenlegger Flottielje"
@@ -35,7 +35,7 @@ units = {
 		task_force = {
 			name = "Nederlands-Indië Eskader"
 			location = 7381 # Batavia
-			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = HOL version_name = "De Zeven Provinciën Class" } } pride_of_the_fleet = yes }
+			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Zeven Provinciën Class" } } pride_of_the_fleet = yes }
 			ship = { name = "HrMs Java" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
 			ship = { name = "HrMs Sumatra" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
 			ship = { name = "HrMs Flores" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Flores Class" } } }

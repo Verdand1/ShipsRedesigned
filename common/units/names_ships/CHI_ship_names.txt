@@ -6,7 +6,7 @@ CHI_DD_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	fallback_name = "%d Quzujian"					
 
@@ -29,7 +29,7 @@ CHI_CL_HISTORICAL = {
 	for_countries = { CHI PRC GXC XSM SIK MAN YUN SHX }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	fallback_name = "%d Qingxing Xunyangjian"
 

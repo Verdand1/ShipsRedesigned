@@ -6,8 +6,8 @@ units = {
 		task_force = {
 			name = "Cruiser Squadron"
 			location = 12406 # Sydney
-			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Australia Class" } } pride_of_the_fleet = yes }
-			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = AST version_name = "Australia Class" } } }
+			ship = { name = "HMAS Canberra" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Australia Class" } } pride_of_the_fleet = yes }
+			ship = { name = "HMAS Australia" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Australia Class" } } }
 			ship = { name = "HMAS Sydney" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = AST version_name = "Sydney Class" } } }
 		}				
 		task_force = {

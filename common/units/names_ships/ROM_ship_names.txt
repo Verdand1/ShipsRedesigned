@@ -6,7 +6,7 @@ ROM_DD_HISTORICAL = {
 	for_countries = { ROM }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "NMS "
 	fallback_name = "NMS Distrugator %d"					

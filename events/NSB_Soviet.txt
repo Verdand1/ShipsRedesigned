@@ -6300,7 +6300,7 @@ country_event = {
 				}
 				create_equipment_variant = {
 					name = "Admiral Hipper Class"
-					type = ship_hull_cruiser_2
+					type = ship_hull_cruiser_1
 					name_group = SOV_CA_HISTORICAL
 					parent_version = 0
 					modules = {
@@ -6325,7 +6325,7 @@ country_event = {
 				# CA: Lützow -> Petropavlovsk
 				add_equipment_production = {
 					equipment = {
-						type = ship_hull_cruiser_2
+						type = ship_hull_cruiser_1
 						creator = "SOV"
 						version_name = "Admiral Hipper Class"
 					}
@@ -6421,7 +6421,7 @@ country_event = {
 		}
 		create_equipment_variant = {
 			name = "Admiral Hipper Class"
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			name_group = SOV_CA_HISTORICAL
 			parent_version = 0
 			modules = {
@@ -6446,7 +6446,7 @@ country_event = {
 		# CA: Lützow -> Petropavlovsk
 		add_equipment_production = {
 			equipment = {
-				type = ship_hull_cruiser_2
+				type = ship_hull_cruiser_1
 				creator = "SOV"
 				version_name = "Admiral Hipper Class"
 			}

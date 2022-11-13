@@ -10,7 +10,7 @@ ENG_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 
 	prefix = "HMS "							
 	fallback_name = "HMS Destroyer %s"					
@@ -65,7 +65,7 @@ ENG_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 
 	prefix = "HMS "							
 	fallback_name = "HMS Escort Destroyer %s"					
@@ -94,7 +94,7 @@ ENG_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Light Cruiser %s"
@@ -128,7 +128,7 @@ ENG_CLAA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Light Cruiser (AA) %s"
@@ -150,7 +150,7 @@ ENG_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Heavy Cruiser %s"
@@ -184,7 +184,7 @@ ENG_MINELAYERS_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_escort }
+	ship_types = { light_cruiser destroyer }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Miner %s"
@@ -208,7 +208,7 @@ ENG_BB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Battleship %s"		
@@ -234,7 +234,7 @@ ENG_BC_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Battlecruiser %s"		
@@ -263,7 +263,7 @@ ENG_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 
 	prefix = "HMS "							
 	fallback_name = "HMS Carrier %d"
@@ -291,7 +291,7 @@ ENG_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Light Carrier %s"	
@@ -306,7 +306,7 @@ ENG_CVL_HISTORICAL = {
 }
 
 ### ESCORT CARRIER NAMES ###
-ENG_CVE_HISTORICAL = {
+ENG_CVV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVE
 
 	for_countries = { ENG }
@@ -316,7 +316,7 @@ ENG_CVE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "HMS "							
 	fallback_name = "HMS Escort Carrier %s"	
@@ -553,7 +553,7 @@ ENG_DD_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "WLNS "							
 	fallback_name = "WLNS Destroyer %s"					
@@ -608,7 +608,7 @@ ENG_DE_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "WLNS "							
 	fallback_name = "WLNS Escort Destroyer %s"					
@@ -637,7 +637,7 @@ ENG_CL_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Light Cruiser %s"
@@ -671,7 +671,7 @@ ENG_CLAA_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Light Cruiser (AA) %s"
@@ -693,7 +693,7 @@ ENG_CA_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Heavy Cruiser %s"
@@ -727,7 +727,7 @@ ENG_MINELAYERS_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_escort }
+	ship_types = { light_cruiser destroyer }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Miner %s"
@@ -751,7 +751,7 @@ ENG_BB_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Battleship %s"		
@@ -777,7 +777,7 @@ ENG_BC_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Battlecruiser %s"		
@@ -805,7 +805,7 @@ ENG_CV_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Carrier %s"		
@@ -833,7 +833,7 @@ ENG_CVL_COMMUNISM = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Light Carrier %s"	
@@ -848,7 +848,7 @@ ENG_CVL_COMMUNISM = {
 }
 
 ### ESCORT CARRIER NAMES ###
-ENG_CVE_HISTORICAL = {
+ENG_CVV_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_CVE
 
 	for_countries = { ENG }
@@ -858,7 +858,7 @@ ENG_CVE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "WLNS "							
 	fallback_name = "WLNS Escort Carrier %s"	

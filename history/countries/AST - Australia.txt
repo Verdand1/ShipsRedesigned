@@ -424,11 +424,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Australia Class"
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = AST_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_1
 		fixed_inner_hull = ship_extra_fuel_tank_3

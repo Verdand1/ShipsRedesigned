@@ -6,7 +6,7 @@ TUR_DD_HISTORICAL = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "TCG "
 	fallback_name = "TCG %d. Yok Edici"					
@@ -33,7 +33,7 @@ TUR_CL_HISTORICAL = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "TCG "
 	fallback_name = "TCG %d. Isik Kruvazör"
@@ -53,7 +53,7 @@ TUR_BB_HISTORICAL = {
 	for_countries = { TUR }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "TCG "
 	fallback_name = "TCG %d. Savas Gemisi"		

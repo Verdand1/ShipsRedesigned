@@ -6,7 +6,7 @@ NZL_DD_HISTORICAL = {
 	for_countries = { NZL }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HMNZS "							
 	fallback_name = "HMNZS Destroyer %s"					
@@ -29,7 +29,7 @@ NZL_CL_HISTORICAL = {
 	for_countries = { NZL }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMNZS "							
 	fallback_name = "HMNZS Light Cruiser %s"

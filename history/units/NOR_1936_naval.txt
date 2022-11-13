@@ -6,8 +6,8 @@ units = {
 		task_force = {
 			name = "1. Sjøforsvarsdistrikt"
 			location = 6115 # Oslo
-			ship = { name = "KNM Norge" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NOR version_name = "Norge Class" } } pride_of_the_fleet = yes }
-			ship = { name = "KNM Eidsvold" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = NOR version_name = "Norge Class" } } }
+			ship = { name = "KNM Norge" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "Norge Class" } } pride_of_the_fleet = yes }
+			ship = { name = "KNM Eidsvold" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "Norge Class" } } }
 			ship = { name = "KNM Olaf Tryggvason" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = NOR version_name = "Olaf Tryggvason Class" } } }
 			ship = { name = "KNM Frøya" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Frøya Class" } } }
 			# 1st Submarine Detachment

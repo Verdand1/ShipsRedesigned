@@ -55,17 +55,17 @@ units= {
 		task_force = {
 			name = "1re Division Légère"
 			location = 911 # Toulon
-			ship = { name = "Algérie" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }
-			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
-			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
-			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Algérie" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Algérie Class" } } }
+			ship = { name = "Foch" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Dupleix" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Colbert" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
 		}
 		task_force = {
 			name = "3e Division Légère"
 			location = 911 # Toulon
-			ship = { name = "Suffren" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
-			ship = { name = "Duquesne" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
-			ship = { name = "Tourville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
+			ship = { name = "Suffren" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Suffren Class" } } }
+			ship = { name = "Duquesne" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
+			ship = { name = "Tourville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duquesne Class" } } }
 		}
 		task_force = {
 			name = "1re Escadre Légère"

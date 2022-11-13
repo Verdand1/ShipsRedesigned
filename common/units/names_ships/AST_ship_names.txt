@@ -10,7 +10,7 @@ AST_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HMAS "							
 	fallback_name = "HMAS Destroyer %s"					
@@ -37,7 +37,7 @@ AST_DE_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HMAS "							
 	fallback_name = "HMAS Corvette %s"					
@@ -61,7 +61,7 @@ AST_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Light Cruiser %s"
@@ -86,7 +86,7 @@ AST_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Heavy Cruiser %s"
@@ -108,7 +108,7 @@ AST_BB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Battleship %s"		
@@ -126,7 +126,7 @@ AST_BC_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Battlecruiser %s"		
@@ -147,7 +147,7 @@ AST_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Carrier %s"		
@@ -165,7 +165,7 @@ AST_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "HMAS "							
 	fallback_name = "HMAS Light Carrier %s"		
@@ -307,7 +307,7 @@ AST_DD_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "RNS "							
 	fallback_name = "RNS Destroyer %s"					
@@ -333,7 +333,7 @@ AST_DE_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "RNS "							
 	fallback_name = "RNS Corvette %s"					
@@ -357,7 +357,7 @@ AST_CL_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Light Cruiser %s"
@@ -382,7 +382,7 @@ AST_CA_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Heavy Cruiser %s"
@@ -403,7 +403,7 @@ AST_BB_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Battleship %s"		
@@ -421,7 +421,7 @@ AST_BC_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Battlecruiser %s"		
@@ -442,7 +442,7 @@ AST_CV_COMMUNIST = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Carrier %s"		
@@ -460,7 +460,7 @@ AST_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "RNS "							
 	fallback_name = "RNS Light Carrier %s"		

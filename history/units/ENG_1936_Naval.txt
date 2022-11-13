@@ -131,10 +131,10 @@ units = {
 		task_force = {
 			name = "1st Cruiser Squadron"
 			location = 4076 # Alexandria
-			ship = { name = "HMS London" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
-			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
-			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
-			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }	
+			ship = { name = "HMS London" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
+			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
+			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }
+			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second Group" } } }	
 		}
 		task_force = {
 			name = "3rd Cruiser Squadron"
@@ -242,12 +242,12 @@ units = {
 		task_force = {
 			name = "5th Cruiser Squadron"
 			location = 10062 # Hong Kong
-			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Third Group" } } }
-			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
-			ship = { name = "HMS Cornwall" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
-			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
-			ship = { name = "HMS Suffolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
-			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Third Group" } } }
+			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Cornwall" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Suffolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
 			ship = { name = "HMS Capetown" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
 		}
 		task_force = {
@@ -296,7 +296,7 @@ units = {
 		task_force = {
 			name = "8th Cruiser Squadron"
 			location = 13010 # Bermuda
-			ship = { name = "HMS York" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "York Superclass" } } }
+			ship = { name = "HMS York" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "York Superclass" } } }
 			ship = { name = "HMS Apollo" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Leander Superclass" } } }
 			ship = { name = "HMS Dragon" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "D Type" } } }
 			ship = { name = "HMS Danae" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "D Type" } } }
@@ -304,7 +304,7 @@ units = {
 		task_force = {
 			name = "South American Division"
 			location = 13010 # Bermuda
-			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "York Superclass" } } }
+			ship = { name = "HMS Exeter" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "York Superclass" } } }
 			ship = { name = "HMS Ajax" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Leander Superclass" } } }
 		}
 	}
@@ -316,7 +316,7 @@ units = {
 		task_force = {
 			name = "4th Cruiser Squadron"
 			location = 5074 # Aden
-			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "County Type - Third Group" } } }
+			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Third Group" } } }
 			ship = { name = "HMS Emerald" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "E Type" } } }
 			ship = { name = "HMS Enterprise" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "E Type" } } }
 			ship = { name = "HMS Colombo" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
@@ -376,7 +376,7 @@ units = {
 		task_force = {
 			name = "Nore Command"
 			location = 11374 # Nore
-			ship = { name = "HMS Effingham" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
+			ship = { name = "HMS Effingham" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
 			ship = { name = "HMS Calcutta" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type"} } }
 			ship = { name = "HMS Caradoc" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
 			ship = { name = "HMS Cardiff" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
@@ -395,7 +395,7 @@ units = {
 		task_force = {
 			name = "Portsmouth Command"
 			location = 9458 # Portsmouth
-			ship = { name = "HMS Hawkins" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
+			ship = { name = "HMS Hawkins" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
 			ship = { name = "HMS Dauntless" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "D Type"} } }
 			ship = { name = "HMS Curacoa" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type"} } }
 			ship = { name = "HMS Bruce" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "Shakespeare & Scott Classes"} } }
@@ -412,7 +412,7 @@ units = {
 		task_force = {
 			name = "Plymouth Command"
 			location = 540 # Plymouth
-			ship = { name = "HMS Frobisher" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
+			ship = { name = "HMS Frobisher" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "Hawkins Class" } } }
 			ship = { name = "HMS Caledon" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
 			ship = { name = "HMS Calypso" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
 			ship = { name = "HMS Ceres" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }

@@ -6,7 +6,7 @@ ARG_DD_HISTORICAL = {
 	for_countries = { ARG }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "ARA "
 	fallback_name = "ARA Destructor %d"					
@@ -31,7 +31,7 @@ ARG_CL_HISTORICAL = {
 	for_countries = { ARG }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "ARA "
 	fallback_name = "ARA Crucero Ligero %d"
@@ -52,7 +52,7 @@ ARG_CA_HISTORICAL = {
 	for_countries = { ARG }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "ARA "
 	fallback_name = "ARA Crucero Pesado %d"
@@ -71,7 +71,7 @@ ARG_BB_HISTORICAL = {
 	for_countries = { ARG }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "ARA "
 	fallback_name = "ARA Acorazado %d"		
@@ -91,7 +91,7 @@ ARG_CVL_HISTORICAL = {
 	for_countries = { ARG }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "ARA "
 	fallback_name = "ARA Portaaviones Ligero %d"	

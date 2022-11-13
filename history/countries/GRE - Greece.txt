@@ -492,11 +492,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Averof Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = GRE_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_engine = ship_range_engine_1
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_medium_battery_1

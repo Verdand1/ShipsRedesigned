@@ -6,7 +6,7 @@ ITA_DD_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 
 	prefix = "RCT " # Regio Cacciatorpediniere
 	fallback_name = "RCT Cacciatorpediniere %s"
@@ -51,7 +51,7 @@ ITA_DE_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "RT " # Regio Torpediniere
 	fallback_name = "RT Torpediniere %d"					
@@ -72,7 +72,7 @@ ITA_CL_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "RI Incrociatore leggero %s"
@@ -99,7 +99,7 @@ ITA_CA_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 
 	prefix = "RI " # Regio Incrociatore
 	fallback_name = "RI Incrociatore pesante %s"
@@ -123,7 +123,7 @@ ITA_MINELAYERS_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light_cruiser ship_hull_escort }
+	ship_types = { light_cruiser destroyer }
 
 	prefix = "RN "
 	fallback_name = "RN Posamine %s"
@@ -141,7 +141,7 @@ ITA_BB_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 
 	prefix = "RN " # Regia Nave
 	fallback_name = "RN Corazzata %s"
@@ -164,7 +164,7 @@ ITA_CV_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 
 	prefix = "RN " # Regia Nave
 	fallback_name = "RN Portaerei %s"
@@ -181,7 +181,7 @@ ITA_CVL_HISTORICAL = {
 	for_countries = { ITA }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 
 	prefix = "RN " # Regia Nave
 	fallback_name = "RN Portaerei Leggero %s"

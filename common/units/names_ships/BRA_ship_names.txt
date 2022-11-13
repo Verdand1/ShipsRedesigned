@@ -6,7 +6,7 @@ BRA_DD_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "NRB "
 	fallback_name = "NRB Contratorpedeiro %d"					
@@ -28,7 +28,7 @@ BRA_CL_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "NRB "
 	fallback_name = "NRB Cruzador Ligeiro %d"
@@ -48,7 +48,7 @@ BRA_BB_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "NRB "
 	fallback_name = "NRB Couraçado %d"		
@@ -68,7 +68,7 @@ BRA_CV_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "NRB "
 	fallback_name = "NRB Porta-Aviões %d"	
@@ -85,7 +85,7 @@ BRA_CVL_HISTORICAL = {
 	for_countries = { BRA }
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "NRB "
 	fallback_name = "NRB Porta-Aviões Ligeiro %d"	

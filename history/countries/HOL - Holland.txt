@@ -580,11 +580,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Koningin Regentes Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = HOL_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_airplane_launcher_1
 		mid_1 = ship_light_battery_2
@@ -597,9 +598,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Jacob van Heemskerck Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = HOL_CA_HISTORICAL
-	parent_version = 1
+	parent_version = 3
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = empty
@@ -613,9 +614,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "De Zeven Provinciën Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = HOL_CA_HISTORICAL
-	parent_version = 2
+	parent_version = 4
 	role_icon_index = 2
 	modules = {
 		rear_2 = empty

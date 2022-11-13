@@ -887,11 +887,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Duquesne Class"
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = FRA_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_medium_battery_1
@@ -909,9 +910,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Suffren Class"
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = FRA_CA_HISTORICAL
-	parent_version = 1
+	parent_version = 7
 	role_icon_index = 1
 	modules = {
 		mid_2 = empty
@@ -925,9 +926,9 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Algérie Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = FRA_CA_HISTORICAL
-	parent_version = 2
+	parent_version = 8
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1

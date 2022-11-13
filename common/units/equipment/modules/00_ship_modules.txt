@@ -160,6 +160,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+			ship_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 80
@@ -195,6 +199,10 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 80
+		
+		forbid_module_categories = {
+			ship_medium_battery
+		}
 		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -232,6 +240,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+			ship_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 240
@@ -268,6 +280,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+			ship_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 320
@@ -282,6 +298,7 @@ equipment_modules = {
 	ship_medium_battery_1 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 			hg_attack = 8
@@ -304,6 +321,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+		    ship_light_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 80
@@ -318,6 +339,7 @@ equipment_modules = {
 	ship_medium_battery_2 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 			hg_attack = 10
@@ -340,6 +362,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+		    ship_light_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 160
@@ -354,6 +380,7 @@ equipment_modules = {
 	ship_medium_battery_3 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 			hg_attack = 12
@@ -376,6 +403,10 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
+		forbid_module_categories = {
+		    ship_light_medium_battery
+		}
+		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 240
@@ -390,6 +421,7 @@ equipment_modules = {
 	ship_medium_battery_4 = {
 		category = ship_medium_battery
 		sfx = sfx_ui_sd_module_turret
+		add_equipment_type = capital_ship
 
 		add_stats = {
 			hg_attack = 14
@@ -411,6 +443,10 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 80
+		
+		forbid_module_categories = {
+		    ship_light_medium_battery
+		}
 		
 		can_convert_from = {
 			module_category = ship_light_medium_battery

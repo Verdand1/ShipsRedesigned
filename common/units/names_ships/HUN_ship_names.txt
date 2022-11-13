@@ -10,7 +10,7 @@ HUN_DD_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }
+	ship_types = { destroyer }
 
 	fallback_name = "Romboló %d"					
 
@@ -33,7 +33,7 @@ HUN_CL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	fallback_name = "Könnyűcirkáló %d"
 
@@ -55,7 +55,7 @@ HUN_CA_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	fallback_name = "Nehézcirkálo %d"
 
@@ -76,7 +76,7 @@ HUN_BB_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	
 	fallback_name = "Csatahajó %d"		
@@ -98,7 +98,7 @@ HUN_CV_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	fallback_name = "Repülögép-hordozó %d"	
 
@@ -115,7 +115,7 @@ HUN_CVL_HISTORICAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	fallback_name = "Könnyű Repülögép-hordozó %d"	
 
@@ -165,7 +165,7 @@ HUN_DD_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_escort }	
+	ship_types = { destroyer }	
 
 	prefix = "SMS "
 	fallback_name = "SMS Romboló %d"					
@@ -189,7 +189,7 @@ HUN_CL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Könnyűcirkáló %d"
@@ -212,7 +212,7 @@ HUN_CA_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Nehézcirkálo %d"
@@ -236,7 +236,7 @@ HUN_BB_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_heavy }
+	ship_types = { battleship }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Csatahajó %d"		
@@ -260,7 +260,7 @@ HUN_CV_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_carrier }
+	ship_types = { carrier }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Repülögép-hordozó %d"	
@@ -278,7 +278,7 @@ HUN_CVL_IMPERIAL = {
 	}
 
 	type = ship
-	ship_types = { ship_hull_light_carrier }
+	ship_types = { light_carrier }
 	
 	prefix = "SMS "
 	fallback_name = "SMS Könnyű Repülögép-hordozó %d"	

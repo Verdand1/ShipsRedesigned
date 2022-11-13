@@ -1591,11 +1591,12 @@ create_equipment_variant = {
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Krasnyy Kavkaz Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = SOV_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_inner_hull = cramped
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_airplane_launcher_1
@@ -1613,11 +1614,12 @@ create_equipment_variant = {
 
 create_equipment_variant = {
 	name = "Kirov Class"				
-	type = ship_hull_cruiser_2
+	type = ship_hull_cruiser_1
 	name_group = SOV_CA_HISTORICAL
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_medium_battery_1
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_2
 		rear_1 = ship_depth_charge_1

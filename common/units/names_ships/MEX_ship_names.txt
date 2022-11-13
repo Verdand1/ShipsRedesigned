@@ -6,7 +6,7 @@ MEX_DD_HISTORICAL = {
 	for_countries = { MEX }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "ARM "
 	fallback_name = "ARM Destructor No.%d"					
@@ -25,7 +25,7 @@ MEX_CA_HISTORICAL = {
 	for_countries = { MEX }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "ARM "
 	fallback_name = "ARM Crucero Pesado No.%d"

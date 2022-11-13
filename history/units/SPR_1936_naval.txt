@@ -81,7 +81,7 @@ instant_effect = {
 	# Heavy Cruiser
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			creator = "SPR"
 			version_name = "Canarias Class"
 		}
@@ -91,7 +91,7 @@ instant_effect = {
 	}
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			creator = "SPR"
 			version_name = "Canarias Class"
 		}

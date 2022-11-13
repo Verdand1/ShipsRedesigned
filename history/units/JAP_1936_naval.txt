@@ -105,18 +105,18 @@ units = {
 		task_force = {
 			name = "Dai 4 Sentai"
 			location = 9950 #Sasebo
-			ship = { name = "Atago" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
-			ship = { name = "Takao" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
-			ship = { name = "Chokai" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
-			ship = { name = "Maya" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
+			ship = { name = "Atago" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
+			ship = { name = "Takao" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
+			ship = { name = "Chokai" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
+			ship = { name = "Maya" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Atago Class"} } }
 		}
 		task_force = {
 			name = "Dai 5 Sentai"
 			location = 9950 #Sasebo
-			ship = { name = "Haguro" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
-			ship = { name = "Nachi" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
-			ship = { name = "Myoko" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
-			ship = { name = "Ashigara" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
+			ship = { name = "Haguro" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
+			ship = { name = "Nachi" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
+			ship = { name = "Myoko" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
+			ship = { name = "Ashigara" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nachi Class"} } }
 		}
 		task_force = {
 			name = "Dai 2 Suirai Sentai"
@@ -194,9 +194,9 @@ units = {
 		task_force = {
 			name = "Kure Yobi Kantai"
 			location = 1092 # Hiroshima
-			ship = { name = "Aoba" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
-			ship = { name = "Kinugasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
-			ship = { name = "Furutaka" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
+			ship = { name = "Aoba" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
+			ship = { name = "Kinugasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
+			ship = { name = "Furutaka" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
 			ship = { name = "Tatsuta" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Tenryu Class"} } }
 			ship = { name = "Murakumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
 			ship = { name = "Usugumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }	
@@ -240,7 +240,7 @@ units = {
 		task_force = {
 			name = "Sasebo Yobi Kantai"
 			location = 9950 #Sasebo
-			ship = { name = "Kako" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_2 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
+			ship = { name = "Kako" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
 			ship = { name = "Yura" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }
 			ship = { name = "Kitakami" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 			ship = { name = "Satsuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Mutsuki Class"} } }
@@ -470,7 +470,7 @@ instant_effect =
 	# Heavy Cruiser
 	add_equipment_production = {
 		equipment = {
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			creator = "JAP"
 			version_name = "Tone Class"
 		}

@@ -6,7 +6,7 @@ DEN_DD_HISTORICAL = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_escort }			
+	ship_types = { destroyer }			
 
 	prefix = "HDMS "
 	fallback_name = "HDMS Destroyer %d"					
@@ -23,7 +23,7 @@ DEN_CL_HISTORICAL = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_light }
+	ship_types = { light_cruiser }
 	
 	prefix = "HDMS "
 	fallback_name = "HDMS Lys Cruiseren %d"
@@ -41,7 +41,7 @@ DEN_CA_HISTORICAL = {
 	for_countries = { DEN }
 
 	type = ship
-	ship_types = { ship_hull_cruiser }
+	ship_types = { heavy_cruiser }
 	
 	prefix = "HDMS "
 	fallback_name = "HDMS Tung Cruiseren %d"

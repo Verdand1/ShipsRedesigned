@@ -695,9 +695,6 @@ ideas = {
 				}
 				ship_hull_light = {
 					build_cost_ic = -0.05 instant = yes
-				}
-				ship_hull_escort = {
-					build_cost_ic = -0.05 instant = yes
 				}				
 				ship_hull_submarine = {
 					build_cost_ic = -0.05 instant = yes
@@ -985,7 +982,7 @@ ideas = {
 			removal_cost = -1
 			
 			equipment_bonus = {
-				ship_hull_escort = {
+				ship_hull_light = {
 					build_cost_ic = -0.1 instant = yes
 				}
 			}

@@ -357,7 +357,7 @@ CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
@@ -402,7 +402,7 @@ CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
@@ -447,7 +447,7 @@ CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
@@ -491,7 +491,7 @@ CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space

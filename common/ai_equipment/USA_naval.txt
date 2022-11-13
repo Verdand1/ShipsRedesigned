@@ -456,7 +456,7 @@ USA_CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				mid_2 = ship_light_battery_3
 			}
@@ -487,7 +487,7 @@ USA_CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
@@ -525,7 +525,7 @@ USA_CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
@@ -563,7 +563,7 @@ USA_CA = {
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_cruiser_2
+			type = ship_hull_cruiser_1
 			modules = {
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}

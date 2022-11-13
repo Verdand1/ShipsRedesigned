@@ -528,10 +528,6 @@ ideas = {
 			picture = generic_degauss_ship_hulls
 
 			equipment_bonus = {
-				ship_hull_escort = {
-					instant = yes
-					sub_detection = 0.1
-				}
 				ship_hull_light = {
 					instant = yes
 					sub_detection = 0.1
