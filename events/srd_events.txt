@@ -264,11 +264,9 @@ country_event = {
 				value = 1
 			}
 		}
-		if = {
+		every_country = {
 			limit = {
-				any_country = {
-					SRD_has_naval_treaty_trigger = yes
-				}
+				SRD_has_naval_treaty_trigger = yes
 			}
 			country_event = { id = SRD_naval_treaty.13 }
 		}
