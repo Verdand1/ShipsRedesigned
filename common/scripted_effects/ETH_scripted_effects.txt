@@ -1405,7 +1405,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 				name = "U-2"
 			}
 			transfer_ship={
-			  prefer_name = U-2"
+			  prefer_name = "U-2"
 			  type = submarine
 			  target = ROOT
 			  exclude_refitting = no

@@ -5827,7 +5827,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -5963,7 +5963,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -6001,7 +6001,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -6041,7 +6041,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -6152,7 +6152,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -6192,7 +6192,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -6266,7 +6266,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -6398,7 +6398,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -6435,7 +6435,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -6474,7 +6474,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -6582,7 +6582,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -6621,7 +6621,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -6695,7 +6695,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -6827,7 +6827,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -6861,7 +6861,7 @@ ideas = {
 			traits = { black_sea_naval_manufacturer }
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -6900,7 +6900,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -7008,7 +7008,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -7047,7 +7047,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -7129,7 +7129,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -7276,7 +7276,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -7317,7 +7317,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {
@@ -7359,7 +7359,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 			}
@@ -7476,7 +7476,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				destroyer = {
@@ -7518,7 +7518,7 @@ ideas = {
 			}
 
 			equipment_bonus = {
-				light_cruiser = {
+				ship_hull_cruiser = {
 					build_cost_ic = -0.1
 				}
 				submarine = {

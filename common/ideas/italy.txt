@@ -494,7 +494,7 @@ ideas = {
 			}
 					
 			equipment_bonus = { # WARNING!! Any changes here need to be applied in the Dynamic Modifier custom tooltip. Thanks for your attention.
-				ship_hull_heavy_1 = {
+				ship_hull_heavy = {
 					instant = yes
 					max_strength = 0.1
 					armor_value = 0.1
