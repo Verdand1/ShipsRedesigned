@@ -10,10 +10,6 @@ set_technology = {
 	tech_support = 1
 	tech_engineers = 1
 	tech_mountaineers = 1
-	early_fighter = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
-	CAS1 = 1
 }
 
 set_convoys = 20
@@ -53,13 +49,6 @@ recruit_character = OCC_ncs
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_fighter1 = 1
-		cv_CAS1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -73,7 +62,7 @@ recruit_character = OCC_ncs
 		low_echelon_support = 1
 		dispersed_fighting = 1
 		
-			grand_battle_plan = 1
+		grand_battle_plan = 1
 
 		trench_warfare = 1
 		prepared_defense = 1
@@ -105,6 +94,21 @@ recruit_character = OCC_ncs
 		dispersed_industry3 = 1
 	}
 	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+			fighter2 = 1
+			heavy_fighter1 = 1
+			tactical_bomber2 = 1
+			strategic_bomber1 = 1
+			cv_fighter1 = 1
+			cv_CAS1 = 1
+			
+		}
+	}
+	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 			basic_battleship = 1
@@ -120,7 +124,6 @@ recruit_character = OCC_ncs
 			improved_heavy_armor_scheme = 1
 			improved_light_battery = 1
 			basic_heavy_battery = 1
-			improved_secondary_battery = 1
 			improved_ship_torpedo_launcher = 1
 		}
 	}

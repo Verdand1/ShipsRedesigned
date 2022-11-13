@@ -1257,7 +1257,7 @@ equipment_modules = {
 		add_stats = {
 			surface_visibility = 1
 			supply_consumption = 0.05
-			carrier_size = 10
+			carrier_size = 1
 			max_strength = 10
 			build_cost_ic = 250
 		}
@@ -1285,7 +1285,7 @@ equipment_modules = {
 		add_stats = {
 			surface_visibility = 2
 			supply_consumption = 0.2
-			carrier_size = 40
+			carrier_size = 4
 			max_strength = 20
 			build_cost_ic = 1250
 		}
@@ -1309,14 +1309,14 @@ equipment_modules = {
 		category = ship_unprotected_hangar
 
 		add_stats = {
+			supply_consumption = 0.05
+			carrier_size = 1
 			build_cost_ic = 200
 		}
 		
-		manpower = 100 #outside the add_stats section for code reasons
+		manpower = 50 #outside the add_stats section for code reasons
 		multiply_stats = {
-			max_strength = -0.2
-			carrier_size = 0.1
-			build_cost_ic = 0.2
+			build_cost_ic = 0.1
 		}
 		
 		dismantle_cost_ic = 200

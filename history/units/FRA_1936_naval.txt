@@ -49,10 +49,6 @@ units= {
 			name = "Porte-avions"
 			location = 911 # Toulon
 			ship = { name = "Béarn" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = FRA version_name = "Béarn Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "FRA" amount = 11 }
-					cv_nav_bomber_equipment_1 = { owner = "FRA" amount = 24 }
-				}
 			}
 			ship = { name = "Commandant Teste" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Commandant Teste Class" } } }
 		}
@@ -300,6 +296,16 @@ units= {
 			ship = { name = "Lamotte-Picquet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
 			ship = { name = "Primauguet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
 		}
+	}
+}
+
+air_wings = {
+	"Béarn" = {
+		cv_small_plane_airframe_0 = { owner = "FRA" amount = 10 version_name = "D.371"}
+		cv_small_plane_airframe_0 = { owner = "FRA" amount = 1 version_name = "D.371"}
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "FRA" amount = 10 version_name = "PL.7"}
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "FRA" amount = 10 version_name = "PL.7"}
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "FRA" amount = 4 version_name = "PL.7"}
 	}
 }
 

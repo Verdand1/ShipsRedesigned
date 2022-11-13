@@ -261,6 +261,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			cl_tech
 		}
 	}
@@ -321,6 +322,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			cl_tech
 		}
 	}
@@ -376,6 +378,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			cl_tech
 		}
 	}
@@ -432,6 +435,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			ca_tech
 		}
 	}
@@ -492,6 +496,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			ca_tech
 		}
 	}
@@ -547,6 +552,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_medium_battery
 			ca_tech
 		}
 	}
@@ -643,6 +649,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_heavy_battery
 			bb_tech
 		}
 	}
@@ -707,6 +714,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_heavy_battery
 			bb_tech
 		}
 	}
@@ -766,6 +774,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_heavy_battery
 			bb_tech
 		}
 	}
@@ -1248,6 +1257,7 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_torpedoes
 			ss_tech
 			dd_tech
 		}
@@ -1297,6 +1307,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			cat_torpedoes
 			ss_tech
 			dd_tech
 		}
@@ -1346,6 +1357,7 @@ technologies = {
 		
 		categories = {
 			naval_equipment
+			cat_torpedoes
 			ss_tech
 			dd_tech
 		}

@@ -14,6 +14,19 @@ if = {
 	}
 	set_oob = "CAN_1936_nsb"
 }
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "CAN_1936_air_bba"
+		set_technology = {
+			aa_lmg = 1
+			engines_1 = 1
+			aircraft_construction = 1
+			iw_small_airframe = 1
+		}
+	else = {
+		set_air_oob = "CAN_1936_air_legacy"
+	}
+}
 set_naval_oob = "CAN_1936_naval"
 
 set_research_slots = 3
@@ -70,9 +83,6 @@ set_technology = {
 	tech_engineers = 1
 	tech_recon = 1
 	gw_artillery = 1
-	early_fighter = 1
-	naval_bomber1 = 1
-	early_bomber = 1
 	trench_warfare = 1
 	basic_train = 1
 	improved_torpedo_launcher = 1
@@ -83,6 +93,17 @@ set_technology = {
 	ship_light_hull = 1
 	blue_water_navy = 1
 	escort_patrols = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		naval_bomber1 = 1
+		early_bomber = 1
+		
+	}
 }
 
 if = {
@@ -165,8 +186,24 @@ add_ideas = SRD_naval_treaty_adherent
 			set_naval_oob = "CAN_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "CAN_1939_air_bba"
+			set_technology = {
+				iw_small_airframe = 1
+				iw_medium_airframe = 1
+				aa_lmg = 1
+				early_bombs = 1
+				engines_1 = 1
+			}
+		else = {
+			set_air_oob = "CAN_1939_air_legacy"
+			set_technology = {
+				fighter1 = 1
+			}
+		}
+	}
 	set_technology = {
-		fighter1 = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1

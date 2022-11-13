@@ -26,21 +26,10 @@ units = {
 			name = "Aircraft Carrier Squadron"
 			location = 9458 # Portsmouth
 			ship = { name = "HMS Courageous" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Courageous Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "ENG" amount = 12 }
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 36 }
-				}
 			}
 			ship = { name = "HMS Furious" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Furious Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "ENG" amount = 12 }
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 24 }
-				}
 			}
 			ship = { name = "HMS Argus" definition = light_carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_2 = { amount = 1 owner = ENG version_name = "Argus Class" } }
-				air_wings = {
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 14 }
-				}
 			}
 		}
 		task_force = {
@@ -135,16 +124,8 @@ units = {
 			name = "Aircraft Carriers"
 			location = 4076 # Alexandria
 			ship = { name = "HMS Glorious" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Courageous Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "ENG" amount = 16 }
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 30 }
-				}
 			}
 			ship = { name = "HMS Eagle" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = ENG version_name = "Eagle Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "ENG" amount = 9 }
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 12 }
-				}
 			}
 		}
 		task_force = {
@@ -256,10 +237,6 @@ units = {
 			name = "Aircraft Carrier"
 			location = 10062 # Hong Kong
 			ship = { name = "HMS Hermes" definition = light_carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = ENG version_name = "Hermes Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "ENG" amount = 6 }
-					cv_nav_bomber_equipment_1 = { owner = "ENG" amount = 9 }
-				}
 			}
 		}
 		task_force = {
@@ -504,6 +481,44 @@ units = {
 			ship = { name = "HMS Sable" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R Type" } } }
 			ship = { name = "HMS Thisbe" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "R Type" } } }
 		}
+	}
+}
+
+air_wings = {
+	"HMS Furious"  = {
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 2 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 4 version_name = "Blackburn Shark" }
+	}
+	"HMS Courageous"  = {
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 2 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 6 version_name = "Blackburn Shark" }
+	}
+	"HMS Argus"  = {
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 4 version_name = "Blackburn Shark" }
+	}
+	"HMS Glorious"  = {
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 10 version_name = "Hawker Nimrod" }
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 6 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+	}
+	"HMS Eagle"  = {
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 9 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 10 version_name = "Blackburn Shark" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 2 version_name = "Blackburn Shark" }
+	}
+	"HMS Hermes"  = {
+		cv_small_plane_airframe_0 = { owner = "ENG" amount = 6 version_name = "Hawker Nimrod" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "ENG" amount = 9 version_name = "Blackburn Shark" }
 	}
 }
 

@@ -247,8 +247,8 @@ units= {
 			ship = { name = "RCT Giuseppe Sirtori" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Rosolino Pilo Superclass" } } }
 		}
 		task_force = {
-			name = "Settore Iono e Basso Adriatico - Brindisi"
-			location = 11998 # Brindisi
+			name = "Settore Iono e Basso Adriatico - Bari"
+			location = 9784 # Brindisi
 			# Gruppo Esploratori Leggeri (Obsoleti)
 			ship = { name = "RCT Carlo Mirabello" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Carlo Mirabello Class" } } }
 			ship = { name = "RCT Augusto Riboty" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Carlo Mirabello Class" } } }

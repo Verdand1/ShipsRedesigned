@@ -38,22 +38,10 @@ units= {
 			name = "Carrier Division 1"
 			location = 1562 # San Diego
 			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "USA" amount = 24 }
-					cv_CAS_equipment_1 = { owner = "USA" amount = 30 }
-				}
 			}
 			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "USA" amount = 24 }
-					cv_CAS_equipment_1 = { owner = "USA" amount = 30 }
-				}
 			}
 			ship = { name = "USS Ranger" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "USA" amount = 37 }
-					cv_CAS_equipment_1 = { owner = "USA" amount = 28 }
-				}
 			}
 		}				
 		task_force = {
@@ -281,10 +269,6 @@ units= {
 			name = "Aircraft Force"
 			location = 9671 # San Francisco
 			ship = { name = "USS Langley" definition = light_carrier start_experience_factor = 0.1 equipment = { ship_hull_carrier_2 = { amount = 1 owner = USA version_name = "Langley Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "USA" amount = 10 }
-					cv_CAS_equipment_1 = { owner = "USA" amount = 10 }
-				}
 			}
 		}
 	}
@@ -556,6 +540,38 @@ units= {
 			ship = { name = "USS S12" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
 			ship = { name = "USS S13" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
 		}
+	}
+}
+
+air_wings = {
+	"USS Ranger" = {
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 7 version_name = "F4B"}
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 8 version_name = "SBU Corsair" }
+	}
+	"USS Lexington" = {
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 4 version_name = "F4B"}
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+	}
+	"USS Saratoga" = {
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 4 version_name = "F4B"}
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
+	}
+	"USS Langley" = {
+		cv_small_plane_airframe_0 = { owner = "USA" amount = 10 version_name = "F4B"}
+		cv_small_plane_cas_airframe_0 = { owner = "USA" amount = 10 version_name = "SBU Corsair" }
 	}
 }
 

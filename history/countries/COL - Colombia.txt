@@ -1,6 +1,17 @@
 ﻿capital = 306
 
 oob = "COL_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "COL_1936_air_bba"
+	else = {
+		set_air_oob = "COL_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+		}
+	}
+}
 set_naval_oob = "COL_1936_naval"
 
 # Starting tech
@@ -9,8 +20,6 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	gw_artillery = 1
-	early_fighter = 1
-	cv_early_fighter = 1
 	improved_torpedo_launcher = 1
 	basic_depth_charges = 1
 	improved_range_engines = 1
@@ -79,6 +88,13 @@ set_convoys = 10
 			set_naval_oob = "COL_1939_naval_mtg"
 		else = {
 			set_naval_oob = "COL_1939_naval_legacy"
+		}
+	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "COL_1939_air_bba"
+		else = {
+			set_air_oob = "COL_1939_air_legacy"
 		}
 	}
 

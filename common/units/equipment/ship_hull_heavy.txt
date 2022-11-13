@@ -34,6 +34,8 @@ equipments = {
 		
 		resources = { steel = 4	}
 
+		naval_supremacy_factor = 2.6
+
 		module_slots = {
 			fixed_front_1 = {
 				required = yes

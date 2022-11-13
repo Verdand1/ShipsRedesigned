@@ -49,16 +49,6 @@ recruit_character = BRI_awt
 	complete_national_focus = production_effort
 	
 	set_technology = {
-		fighter1 = 1
-		fighter2 = 1
-		heavy_fighter1 = 1
-		tactical_bomber2 = 1
-		strategic_bomber1 = 1
-		cv_fighter1 = 1
-		cv_CAS1 = 1
-		improved_light_tank = 1
-		basic_medium_tank = 1
-		basic_heavy_tank = 1
 		interwar_artillery = 1
 		interwar_antitank = 1
 		infantry_weapons2 = 1
@@ -104,6 +94,32 @@ recruit_character = BRI_awt
 		dispersed_industry3 = 1
 	}
 	if = {
+		limit = {
+			NOT = { has_dlc = "By Blood Alone" }
+		}
+		set_technology = {
+			fighter1 = 1
+			fighter2 = 1
+			heavy_fighter1 = 1
+			tactical_bomber2 = 1
+			strategic_bomber1 = 1
+			cv_fighter1 = 1
+			cv_CAS1 = 1
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				has_dlc = "No Step Back"
+			}
+		}
+		set_technology = {
+			improved_light_tank = 1
+			basic_medium_tank = 1
+			basic_heavy_tank = 1
+		}
+	}
+	if = {
 		limit = { not = { has_dlc = "Man the Guns" } }
 		set_technology = {
 			basic_battleship = 1
@@ -119,7 +135,6 @@ recruit_character = BRI_awt
 			improved_heavy_armor_scheme = 1
 			improved_light_battery = 1
 			basic_heavy_battery = 1
-			improved_secondary_battery = 1
 			improved_ship_torpedo_launcher = 1
 		}
 	}

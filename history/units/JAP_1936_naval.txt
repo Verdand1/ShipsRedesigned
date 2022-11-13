@@ -21,16 +21,8 @@ units = {
 			name = "Dai 1 Koku Sentai"
 			location = 9998 #Yokosuka
 			ship = { name = "Ryujo" definition = light_carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_2 = { amount = 1 owner = JAP version_name = "Ryujo Class" } }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "JAP" amount = 24 }
-					cv_CAS_equipment_1 = { owner = "JAP" amount = 12 }
-				}
 			}
 			ship = { name = "Hosho" definition = light_carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_2 = {amount = 1 owner = JAP version_name = "Hosho Class"} }
-				air_wings = {
-					cv_fighter_equipment_0 = { owner = "JAP" amount = 10 }
-					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 5 }
-				}
 			}
 			ship = { name = "Asakaze" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kamikaze Class"} } }
 			ship = { name = "Harukaze" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kamikaze Class"} } }
@@ -99,11 +91,6 @@ units = {
 			name = "Dai 2 Koku Sentai"
 			location = 9950 #Sasebo
 			ship = { name = "Kaga" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = {amount = 1 owner = JAP version_name = "Kaga Class"} }
-				air_wings = { 
-					cv_fighter_equipment_0 = { owner = "JAP" amount = 16 }
-					cv_CAS_equipment_1 = { owner = "JAP" amount = 16 }
-					cv_nav_bomber_equipment_1 = { owner = "JAP" amount = 28 }
-				}
 			}
 			ship = { name = "Oite" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kamikaze Class"} } }
 			ship = { name = "Hayate" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Kamikaze Class"} } }
@@ -373,6 +360,29 @@ units = {
 			location = 1092 # Hiroshima
 			ship = { name = "Yakaze" definition = destroyer equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
 		}
+	}
+}
+
+air_wings = {
+	"Kaga"  = { 
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 10 version_name = "A4N" }
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 6 version_name = "A4N" }
+		cv_small_plane_cas_airframe_0 = { owner = "JAP" amount = 10 version_name = "Aichi D1A2" }
+		cv_small_plane_cas_airframe_0 = { owner = "JAP" amount = 6 version_name = "Aichi D1A2" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "JAP" amount = 10 version_name = "B2M" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "JAP" amount = 10 version_name = "B2M" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "JAP" amount = 8 version_name = "B2M" }
+	}
+	"Ryujo"  = { 
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 10 version_name = "A4N" }
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 10 version_name = "A4N" }
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 4 version_name = "A4N" }
+		cv_small_plane_cas_airframe_0 = { owner = "JAP" amount = 10 version_name = "Aichi D1A2" }
+		cv_small_plane_cas_airframe_0 = { owner = "JAP" amount = 2 version_name = "Aichi D1A2" }
+	}
+	"Hosho"  = { 
+		cv_small_plane_airframe_0 = { owner = "JAP" amount = 10 version_name = "A4N" }
+		cv_small_plane_naval_bomber_airframe_0 = { owner = "JAP" amount = 5 version_name = "B2M" }
 	}
 }
 

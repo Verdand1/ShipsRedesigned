@@ -32,7 +32,7 @@
 	air_wing_names_template = AIR_WING_NAME_USA_FALLBACK
 
 	#Air wings can only be named through archetype
-	fighter_equipment = {
+	small_plane_airframe = {
 		prefix = ""
 		generic = { "Fighter Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
@@ -40,7 +40,7 @@
 		}	
 	}
 
-	scout_plane_equipment = {
+	medium_plane_scout_plane_airframe = {
 		prefix = ""
 		generic = { "Photo Reconnaissance Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
@@ -48,15 +48,15 @@
 		}	
 	}
 
-	jet_fighter_equipment = {
-		prefix = ""
-		generic = { "Fighter Group" "Combat Evaluation Group"}
-		generic_pattern = AIR_WING_NAME_USA_GENERIC
-		unique = {
-		}	
-	}
+	#jet_fighter_equipment = {
+	#	prefix = ""
+	#	generic = { "Fighter Group" "Combat Evaluation Group"}
+	#	generic_pattern = AIR_WING_NAME_USA_GENERIC
+	#	unique = {
+	#	}	
+	#}
 
-	heavy_fighter_equipment = {
+	medium_plane_fighter_airframe = {
 		prefix = ""
 		generic = { "Heavy Pursuit Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
@@ -64,7 +64,7 @@
 		}	
 	}
 
-	CAS_equipment = {
+	small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "Light Bombardment Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
@@ -72,7 +72,7 @@
 		}	
 	}
 
-	cv_fighter_equipment = {
+	cv_small_plane_airframe = {
 		prefix = ""
 		generic = { "VF" "VMF" }
 		generic_pattern = AIR_WING_NAME_USA_CARRIER
@@ -80,14 +80,14 @@
 		}	
 	}
 
-	cv_CAS_equipment = {
+	cv_small_plane_cas_airframe = {
 		prefix = ""
 		generic = { "VB" "VMB" "VS" "VMS" "VMSB" "VSB" }
 		generic_pattern = AIR_WING_NAME_USA_CARRIER
 		unique = {
 		}	
 	}
-	cv_nav_bomber_equipment = {
+	cv_small_plane_naval_bomber_airframe = {
 		prefix = ""
 		generic = { "VT" "VMTB" }
 		generic_pattern = AIR_WING_NAME_USA_CARRIER
@@ -95,7 +95,7 @@
 		}	
 	}
 
-	tac_bomber_equipment = {
+	medium_plane_airframe = {
 		prefix = ""
 		generic = { "Medium Bombardment Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
@@ -103,15 +103,31 @@
 		}	
 	}
 
-	jet_tac_bomber_equipment = {
+	#jet_tac_bomber_equipment = {
+	#	prefix = ""
+	#	generic = { "Medium Bombardment Group" "Fast Strike Group"}
+	#	generic_pattern = AIR_WING_NAME_USA_GENERIC
+	#	unique = {
+	#	}	
+	#}
+
+	small_plane_naval_bomber_airframe = {
 		prefix = ""
-		generic = { "Medium Bombardment Group" "Fast Strike Group"}
+		generic = { "Light Patrol Bomber Squadron" "VP(L)" "VT" }
+		generic_pattern = AIR_WING_NAME_USA_CARRIER
+		unique = {
+		}	
+	}
+
+	large_plane_airframe = {
+		prefix = ""
+		generic = { "Heavy Bombardment Group" }
 		generic_pattern = AIR_WING_NAME_USA_GENERIC
 		unique = {
 		}	
 	}
 
-	nav_bomber_equipment = {
+	large_plane_maritime_patrol_plane_airframe = {
 		prefix = ""
 		generic = { "Patrol Bomber Squadron" "VP" }
 		generic_pattern = AIR_WING_NAME_USA_CARRIER
@@ -119,21 +135,13 @@
 		}	
 	}
 
-	strat_bomber_equipment = {
-		prefix = ""
-		generic = { "Heavy Bombardment Group" }
-		generic_pattern = AIR_WING_NAME_USA_GENERIC
-		unique = {
-		}	
-	}
-
-	jet_strat_bomber_equipment = {
-		prefix = ""
-		generic = { "Heavy Bombardment Group" }
-		generic_pattern = AIR_WING_NAME_USA_GENERIC
-		unique = {
-		}	
-	}
+	#jet_strat_bomber_equipment = {
+	#	prefix = ""
+	#	generic = { "Heavy Bombardment Group" }
+	#	generic_pattern = AIR_WING_NAME_USA_GENERIC
+	#	unique = {
+	#	}	
+	#}
 
 	transport_plane_equipment = {
 		prefix = ""

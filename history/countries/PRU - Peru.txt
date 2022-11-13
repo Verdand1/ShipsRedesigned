@@ -1,16 +1,25 @@
 ﻿capital = 303
 
 oob = "PRU_1936"
+if = {
+	limit = { has_dlc = "By Blood Alone" }
+		set_air_oob = "PRU_1936_air_bba"
+	else = {
+		set_air_oob = "PRU_1936_air_legacy"
+		set_technology = {
+			early_fighter = 1
+			cv_early_fighter = 1
+			early_bomber = 1
+			CAS1 = 1
+		}
+	}
+}
 set_naval_oob = "PRU_1936_naval"
 
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
 	improved_torpedo_launcher = 1
 	basic_range_engines = 1	
 	improved_perf_engines = 1
@@ -84,9 +93,18 @@ set_convoys = 5
 			set_naval_oob = "PRU_1939_naval_legacy"
 		}
 	}
+	if = {
+		limit = { has_dlc = "By Blood Alone" }
+			set_air_oob = "PRU_1939_air_bba"
+		else = {
+			set_air_oob = "PRU_1939_air_legacy"
+			set_technology = {
+				tactical_bomber1 = 1
+			}
+		}
+	}
 
 	set_technology = {
-		tactical_bomber1 = 1
 		interwar_artillery = 1
 		infantry_weapons1 = 1
 		infantry_weapons2 = 1
