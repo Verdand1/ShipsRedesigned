@@ -1252,96 +1252,83 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			 	tag = ENG
 			 }
 		}
-		IF = {
-			limit = {
-				has_dlc = "Man the Guns"
+		ENG = {
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Simoom"
 			}
-			ENG = {
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Simoom"
-				}
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Sirdar"
-				}
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Sepoy"
-				}
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Shark"
-				}
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Sikh"
-				}
-				create_ship = {
-					type = ship_hull_light_1
-					equipment_variant = "S Type"
-					creator = ENG
-					name = "Sparrowhawk"
-				}
-				
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Sirdar"
+			}
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Sepoy"
+			}
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Shark"
+			}
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Sikh"
+			}
+			create_ship = {
+				type = ship_hull_light_1
+				equipment_variant = "S Type"
+				creator = ENG
+				name = "Sparrowhawk"
+			}
 			
-				#Transfer British Destroyers
-				transfer_ship={
-				  prefer_name = "Simoom"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
-				transfer_ship={
-				  prefer_name = "Sirdar"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
-				transfer_ship={
-				  prefer_name = "Sepoy"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
-				transfer_ship={
-				  prefer_name = "Shark"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
-				transfer_ship={
-				  prefer_name = "Sikh"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
-				transfer_ship={
-				  prefer_name = "Sparrowhawk"
-				  type = destroyer
-				  target = ROOT
-				  exclude_refitting = no
-				}
+		
+			#Transfer British Destroyers
+			transfer_ship={
+			  prefer_name = "Simoom"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
+			}
+			transfer_ship={
+			  prefer_name = "Sirdar"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
+			}
+			transfer_ship={
+			  prefer_name = "Sepoy"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
+			}
+			transfer_ship={
+			  prefer_name = "Shark"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
+			}
+			transfer_ship={
+			  prefer_name = "Sikh"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
+			}
+			transfer_ship={
+			  prefer_name = "Sparrowhawk"
+			  type = destroyer
+			  target = ROOT
+			  exclude_refitting = no
 			}
 		}
-		ELSE = {
-			ROOT = {
-				create_ship = {
-					type = destroyer_1
-					creator = "ENG"
-				}
-			}
-		}	
 		ENG = { set_country_flag = sold_ships_to_us@ROOT }
 	}
 	ELSE_IF = {
