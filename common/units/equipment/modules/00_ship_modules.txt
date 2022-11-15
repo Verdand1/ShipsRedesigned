@@ -160,10 +160,6 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
-		forbid_module_categories = {
-			ship_medium_battery
-		}
-		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 80
@@ -199,10 +195,6 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 80
-		
-		forbid_module_categories = {
-			ship_medium_battery
-		}
 		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
@@ -240,10 +232,6 @@ equipment_modules = {
 		
 		dismantle_cost_ic = 80
 		
-		forbid_module_categories = {
-			ship_medium_battery
-		}
-		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
 			convert_cost_ic = 240
@@ -279,10 +267,6 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 80
-		
-		forbid_module_categories = {
-			ship_medium_battery
-		}
 		
 		can_convert_from = {
 			module_category = ship_light_medium_battery
