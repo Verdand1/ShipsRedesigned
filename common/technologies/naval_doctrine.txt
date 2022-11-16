@@ -855,13 +855,13 @@ technologies = {
 		# EFFECT #############
 		battleship = {
 			max_organisation = 10
-			hg_attack = 0.1
-			lg_attack = 0.1
+			naval_light_gun_hit_chance_factor = 0.1
+			naval_heavy_gun_hit_chance_factor = 0.1
 		}
 		heavy_cruiser = {
 			max_organisation = 10
-			hg_attack = 0.1
-			lg_attack = 0.1
+			naval_light_gun_hit_chance_factor = 0.1
+			naval_heavy_gun_hit_chance_factor = 0.1
 		}
 		########
 		
@@ -1247,11 +1247,11 @@ technologies = {
 		# EFFECT ##############
 		light_cruiser = {
 			max_organisation = 10
-			lg_attack = 0.1
+			naval_light_gun_hit_chance_factor = 0.1
 		}
 		destroyer = {
 			max_organisation = 10
-			lg_attack = 0.1
+			naval_light_gun_hit_chance_factor = 0.1
 		}
 		#############
 		
@@ -1301,11 +1301,12 @@ technologies = {
 		# EFFECT ##############
 		light_cruiser = {
 			max_organisation = 10
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		destroyer = {
 			max_organisation = 10
+			naval_torpedo_hit_chance_factor = 0.1
 		}
-		naval_torpedo_hit_chance_factor = 0.1
 		#############
 
 		path = {
@@ -1403,7 +1404,7 @@ technologies = {
 		# EFFECT ##############
 		submarine = {
 			max_organisation = 10
-			torpedo_attack = 0.1
+			naval_torpedo_hit_chance_factor = 0.1
 		}
 		#######
 
@@ -1622,7 +1623,7 @@ technologies = {
 		submarine = {
 			surface_detection = 0.1
 		}
-		naval_torpedo_reveal_chance_factor = -0.05
+		naval_torpedo_reveal_chance_factor = -0.1
 		#######
 		
 		xp_research_type = navy

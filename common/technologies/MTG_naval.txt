@@ -1274,16 +1274,16 @@ technologies = {
 		}
 
 		destroyer = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		light_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		submarine = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}		
 
 		folder = {
@@ -1324,16 +1324,16 @@ technologies = {
 		}
 
 		destroyer = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		light_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		submarine = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}		
 
 		folder = {
@@ -1369,16 +1369,16 @@ technologies = {
 		start_year = 1944
 
 		destroyer = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		light_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		heavy_cruiser = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}
 		submarine = {
-			torpedo_attack = 0.3
+			torpedo_attack = 0.2
 		}		
 
 		folder = {
