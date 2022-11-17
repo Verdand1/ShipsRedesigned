@@ -150,29 +150,32 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = ETH_scavenging_tactics_idea
-			random_army_leader = {			
-				limit = {
-					NOT = {
-						has_trait = scavenger
+			custom_effect_tooltip = ETH_scavenger_random_generals_tt
+			hidden_effect = {
+				random_army_leader = {			
+					limit = {
+						NOT = {
+							has_trait = scavenger
+						}
 					}
+					add_trait = {trait = scavenger}
 				}
-				add_trait = {trait = scavenger}
-			}
-			random_army_leader = {			
-				limit = {
-					NOT = {
-						has_trait = scavenger
+				random_army_leader = {			
+					limit = {
+						NOT = {
+							has_trait = scavenger
+						}
 					}
+					add_trait = {trait = scavenger}
 				}
-				add_trait = {trait = scavenger}
-			}
-			random_army_leader = {			
-				limit = {
-					NOT = {
-						has_trait = scavenger
+				random_army_leader = {			
+					limit = {
+						NOT = {
+							has_trait = scavenger
+						}
 					}
+					add_trait = {trait = scavenger}
 				}
-				add_trait = {trait = scavenger}
 			}
 		}
 	}
