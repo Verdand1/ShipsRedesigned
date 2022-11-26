@@ -3654,7 +3654,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = ITA_redirect_alfa_romeo_production
-				bonus = 0.75
+				bonus = 0.50
 				uses = 2
 				category = motorized_equipment
 				category = light_air
@@ -3733,13 +3733,13 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ITA_thermojet_research
-				bonus = 0.75
-				uses = 2
+				bonus = 1
+				uses = 1
 				category = air_equipment
 			}
 			add_tech_bonus = {
 				name = ITA_thermojet_research
-				ahead_reduction = 2
+				ahead_reduction = 1
 				bonus = 1.0
 				category = jet_technology
 				category = rocketry
@@ -4920,7 +4920,7 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = ITA_air_innovations_bba #fighter_bonus
-				bonus = 0.75
+				bonus = 0.5
 				uses = 1
 				category = light_fighter
 			}
@@ -4952,8 +4952,8 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = ITA_citta_dell_aria
-				bonus = 0.5
-				uses = 3
+				bonus = 0.25
+				uses = 4
 				category = air_equipment
 			}
 
@@ -5092,8 +5092,8 @@ focus_tree = {
 
 			add_tech_bonus = {
 				name = ITA_reggianes_exports
-				bonus = 0.75
-				uses = 2
+				bonus = 0.50
+				uses = 1
 				category = air_equipment #Maybe more specific stuff? (Light/Medium bombers, fighters...)
 			}
 
@@ -5264,7 +5264,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ITA_standardization
 				bonus = 0.75
-				uses = 2
+				uses = 1
 				category = tactical_bomber
 				category = light_fighter
 				category = cat_strategic_bomber
@@ -5323,7 +5323,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ITA_specialization
 				bonus = 0.5
-				uses = 3
+				uses = 2
 				category = air_equipment
 			}
 
@@ -6653,12 +6653,6 @@ focus_tree = {
 				uses = 2
 				category = offensive_screen_tree
 			}
-			add_doctrine_cost_reduction = {
-				name = ITA_incrociatori_leggeri
-				cost_reduction = 0.75
-				uses = 1
-				category = green_water_tree
-			}
 
 			add_tech_bonus = {
 				name = ITA_incrociatori_leggeri
@@ -6703,12 +6697,6 @@ focus_tree = {
 				cost_reduction = 0.75
 				uses = 2
 				category = cat_surface
-			}
-			add_doctrine_cost_reduction = {
-				name = ITA_incrociatori_pesanti
-				cost_reduction = 0.75
-				uses = 1
-				category = green_water_tree
 			}
 
 			add_tech_bonus = {
@@ -6801,8 +6789,8 @@ focus_tree = {
 			navy_experience = 15
 			add_doctrine_cost_reduction = {
 				name = ITA_cruiser_submarines
-				cost_reduction = 0.75
-				uses = 2
+				cost_reduction = 0.5
+				uses = 1
 				category = fleet_submarine_tree
 			}
 
@@ -6891,8 +6879,8 @@ focus_tree = {
 			navy_experience = 15
 			add_doctrine_cost_reduction = {
 				name = ITA_midget_submarines
-				cost_reduction = 0.75
-				uses = 2
+				cost_reduction = 0.5
+				uses = 1
 				category = raider_submarine_tree
 			}
 
@@ -7004,9 +6992,9 @@ focus_tree = {
 			navy_experience = 15
 			add_doctrine_cost_reduction = {
 				name = ITA_cacciatorpediniere_di_scorta
-				cost_reduction = 0.75
+				cost_reduction = 0.50
 				uses = 2
-				category = defensive_screen_tree
+				category = blue_water_tree
 			}
 
 			add_tech_bonus = {
@@ -7189,14 +7177,8 @@ focus_tree = {
 			navy_experience = 15
 			add_doctrine_cost_reduction = {
 				name = ITA_navi_da_battaglia
-				cost_reduction = 0.75
-				uses = 1
-				category = cat_surface
-			}
-			add_doctrine_cost_reduction = {
-				name = ITA_navi_da_battaglia
-				cost_reduction = 0.75
-				uses = 1
+				cost_reduction = 0.50
+				uses = 2
 				category = green_water_tree
 			}
 
@@ -11202,7 +11184,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_ARMY_XP FOCUS_FILTER_INDUSTRY FOCUS_FILTER_BALANCE_OF_POWER}
 
 		completion_reward = {
-			custom_effect_tooltip = "Longer training?"
 			army_experience = 25
 			add_timed_idea = { 
 				idea = ITA_prioritizing_the_military 
@@ -15320,6 +15301,26 @@ focus_tree = {
 					id = BBA_italy_interaction_events.40
 				    days = 3
 				    random = 6
+				}
+			}
+			effect_tooltip = {
+				every_country = { #If Italy has any wargoal on other countries, remove them so they can join the faction
+					limit = {
+						OR = {
+							is_in_faction_with = FRA
+							tag = FRA
+						} 
+						ROOT = {
+							has_wargoal_against = PREV
+						}
+					}
+					custom_effect_tooltip = if_they_accept_tt
+					ROOT = {
+						remove_wargoal = {
+							type = all
+							target = PREV 
+						}
+					}
 				}
 			}
 		}

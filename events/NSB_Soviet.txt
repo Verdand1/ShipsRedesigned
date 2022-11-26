@@ -2923,22 +2923,29 @@ country_event = {
 
 		if = {
 			limit = {
-				OR = {
-					has_government = fascism
-					has_government = neutrality
+				NOT = {
+					is_in_faction_with = FROM
 				}
 			}
-			create_wargoal = {
-				type = annex_everything
-				target = FROM
+			if = {
+				limit = {
+					OR = {
+						has_government = fascism
+						has_government = neutrality
+					}
+				}
+				create_wargoal = {
+					type = annex_everything
+					target = FROM
+				}
 			}
+			else = {
+				create_wargoal = {
+					type = puppet_wargoal_focus
+					target = FROM
+				}
+			} 
 		}
-		else = {
-			create_wargoal = {
-				type = puppet_wargoal_focus
-				target = FROM
-			}
-		} 
 
 		effect_tooltip = {
 			FROM = {
@@ -3461,14 +3468,21 @@ country_event = {
 			effect_tooltip = {
 				if = {
 					limit = {
-						OR = {
-							has_government = fascism
-							has_government = neutrality
+						NOT = {
+							is_in_faction_with = ROOT
 						}
 					}
-					create_wargoal = {
-						type = annex_everything
-						target = ROOT
+					if = {
+						limit = {
+							OR = {
+								has_government = fascism
+								has_government = neutrality
+							}
+						}
+						create_wargoal = {
+							type = annex_everything
+							target = ROOT
+						}
 					}
 				}
 				else = {
