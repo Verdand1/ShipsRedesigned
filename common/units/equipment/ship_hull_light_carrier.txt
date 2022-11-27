@@ -69,7 +69,6 @@ equipments = {
 				required = no
 				allowed_module_categories = {
 					ship_extra_fuel_tank
-					ship_unprotected_hangar
 					ship_reinforced_structure
 					ship_damage_control
 				}

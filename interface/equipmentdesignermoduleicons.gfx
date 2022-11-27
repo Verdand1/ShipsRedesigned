@@ -551,16 +551,6 @@ spriteTypes = {
 	}
 
 
-######## Unarmored hangar	
-
-	### Category Icon & Module Icon
-	
-	spriteType = {
-		name = "GFX_SMI_ship_unprotected_hangar"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/hangar_icn.dds"
-	}
-
-
 ######## Mine Warfare
 
 	### Category Icon & Module Icon

@@ -955,9 +955,9 @@ USA_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_unavailable_space
 				mid_1 = ship_light_battery_3
-				mid_3 = ship_unavailable_space
+				mid_4 = ship_deck_space
 				front_2 = ship_unavailable_space
 			}
 			upgrades = {
@@ -971,7 +971,7 @@ USA_CV = {
 			ship_fire_control_system_2
 			ship_fire_control_system_1
 			ship_perf_engine_2
-			ship_extra_fuel_tank_2
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_anti_air_2
 		}
@@ -1009,7 +1009,7 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_anti_air_4
 			ship_anti_air_3
@@ -1049,7 +1049,7 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_anti_air_4
 			ship_anti_air_3
@@ -1087,7 +1087,7 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_deck_space
 			ship_anti_air_4
@@ -1112,9 +1112,8 @@ USA_CV = {
 			type = ship_hull_carrier_1
 			modules = {
 				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1129,10 +1128,11 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
-			ship_light_battery_4
-			ship_light_battery_3
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
 		}
 	}
 
@@ -1153,9 +1153,8 @@ USA_CV = {
 			type = ship_hull_carrier_1
 			modules = {
 				rear_2 = ship_deck_space
-				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1170,10 +1169,11 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_3
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
-			ship_light_battery_4
-			ship_light_battery_3
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
 		}
 	}
 
@@ -1192,9 +1192,8 @@ USA_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1209,11 +1208,12 @@ USA_CV = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_4
-			ship_unprotected_hangar
+			ship_reinforced_structure
 			ship_large_deck_space
 			ship_deck_space
-			ship_light_battery_4
-			ship_light_battery_3
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
 		}
 	}
 }
