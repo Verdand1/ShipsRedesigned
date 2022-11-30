@@ -166,6 +166,8 @@ upgrades = {
 
 		add_stats = {
 			armor_value = 3
+			naval_torpedo_damage_reduction_factor = 0.02
+			naval_torpedo_enemy_critical_chance_factor = -0.02
 		}
 
 		multiply_stats = {
@@ -208,6 +210,8 @@ upgrades = {
 
 		add_stats = {
 			armor_value = 4
+			naval_torpedo_damage_reduction_factor = 0.04
+			naval_torpedo_enemy_critical_chance_factor = -0.04
 		}
 
 		multiply_stats = {
