@@ -1464,7 +1464,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			dd_tech
 			asw_tech
 		}
 	}
@@ -1511,7 +1510,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			dd_tech
 			asw_tech
 		}
 	}
@@ -1558,7 +1556,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			dd_tech
 			asw_tech
 		}
 	}
@@ -1597,7 +1594,6 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			dd_tech
 			asw_tech
 		}
 	}
@@ -2519,6 +2515,7 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 			ship_modules_tech
+			ss_tech
 		}
 	}
 
@@ -2545,6 +2542,7 @@ technologies = {
 			naval_mines
 			naval_minelaying
 			naval_equipment
+			ss_tech
 		}
 	}
 
