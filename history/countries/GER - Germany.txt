@@ -251,9 +251,6 @@ add_ideas = SRD_naval_treaty_adherent
 		armored_spearhead = 1
 		schwerpunk = 1
 		blitzkrieg = 1
-		convoy_interdiction_ti = 1
-		unrestricted_submarine_warfare = 1
-		raider_patrols = 1
 		#air
 		formation_flying = 1		
 		dive_bombing = 1
@@ -266,8 +263,6 @@ add_ideas = SRD_naval_treaty_adherent
 		decimetric_radar = 1
 		mechanical_computing = 1
 		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -307,36 +302,6 @@ add_ideas = SRD_naval_treaty_adherent
 			basic_medium_tank_chassis = 1 
 		}
 		set_oob = "GER_1939_nsb"
-	}
-	if = {
-		limit = {
-			not = {
-				has_dlc = "Man the Guns"
-			}
-		}
-		set_technology = {
-			basic_heavy_cruiser = 1
-			improved_heavy_cruiser = 1
-			improved_battleship = 1
-			early_carrier = 1
-			basic_carrier = 1
-			improved_carrier = 1
-		}
-		set_naval_oob = "GER_1939_naval_legacy"
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			improved_ship_hull_cruiser = 1
-			basic_ship_hull_heavy = 1
-			early_ship_hull_carrier = 1
-			basic_ship_hull_carrier = 1
-			improved_heavy_battery = 1
-			basic_heavy_armor_scheme = 1
-		}
-		set_naval_oob = "GER_1939_naval_mtg"
 	}
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
@@ -1044,89 +1009,6 @@ if = {
 
 ## 1939 Start ##
 1939.1.1 = {
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		# Submarines #
-		create_equipment_variant = {
-			name = "Type VIIA"
-			type = submarine_2
-			parent_version = 0
-			upgrades = {
-				ship_reliability_upgrade = 1
-				sub_engine_upgrade = 1
-				sub_stealth_upgrade = 1
-				sub_torpedo_upgrade = 1
-			}
-		}
-		# Destroyer #
-		create_equipment_variant = {
-			name = "Zerstörer 1936"
-			type = destroyer_2
-			parent_version = 0
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 2
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Zerstörer 1936 Class"
-			type = ship_hull_light_2
-			name_group = GER_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				rear_1_custom_slot = ship_depth_charge_1
-			}
-		}
-		create_equipment_variant = {
-			name = "Bismarck Class"
-			type = ship_hull_heavy_2
-			name_group = GER_BB_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_heavy_battery_3
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = heavy_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_2
-				fixed_ship_armor_slot = ship_armor_bb_2
-				front_1_custom_slot = ship_anti_air_1
-				mid_1_custom_slot = ship_airplane_launcher_1
-				mid_2_custom_slot = ship_secondaries_2
-				rear_1_custom_slot = ship_heavy_battery_3
-			}
-		}
-		create_equipment_variant = {
-			name = "Graf Zeppelin Class"
-			type = ship_hull_carrier_1
-			name_group = GER_CV_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_deck_slot_1 = ship_deck_space
-				fixed_ship_deck_slot_2 = ship_deck_space
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = carrier_ship_engine_2
-				fixed_ship_secondaries_slot = ship_secondaries_1
-				front_1_custom_slot = ship_deck_space
-			}
-		}
-	}
 	if = {
 		limit = {
 			has_dlc = "No Step Back"

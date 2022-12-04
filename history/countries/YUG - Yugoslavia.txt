@@ -258,9 +258,6 @@ if = {
 
 		#doctrines
 		air_superiority = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
 		sup_delay = 1
 
 		#electronics
@@ -435,30 +432,6 @@ create_equipment_variant = {
 				fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_1x
 				engine_type_slot = engine_2_1x
 				special_type_slot_1 = empty
-			}
-		}
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Destroyers #
-		create_equipment_variant = {
-			name = "Beograd Class"	
-			type = ship_hull_light_2
-			name_group = YUG_DD_HISTORICAL
-			parent_version = 0
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_mine_layer_1
-				rear_1_custom_slot = ship_depth_charge_1
 			}
 		}
 	}

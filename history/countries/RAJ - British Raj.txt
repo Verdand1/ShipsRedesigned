@@ -238,8 +238,6 @@ add_ideas = SRD_naval_treaty_adherent
 		decimetric_radar = 1
 		mechanical_computing = 1
 		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1

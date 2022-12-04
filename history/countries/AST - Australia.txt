@@ -187,9 +187,6 @@ add_ideas = SRD_naval_treaty_adherent
 		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -233,30 +230,6 @@ add_ideas = SRD_naval_treaty_adherent
 			basic_medium_tank_chassis = 1
 			basic_heavy_tank_chassis = 1
 		}
-	}
-	if = {
-		limit = {
-			not = {
-				has_dlc = "Man the Guns"
-			}
-		}
-		set_technology = {
-			basic_destroyer = 1
-		}
-		set_naval_oob = "AST_1939_naval_legacy"
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		set_technology = {
-			basic_ship_hull_light = 1
-			basic_light_battery = 1
-			sonar = 1
-			improved_sonar = 1
-			improved_depth_charges = 1
-		}
-		set_naval_oob = "AST_1939_naval"
 	}
 }
 
@@ -447,39 +420,4 @@ create_equipment_variant = {
 }
 
 1939.1.1 = {
-	if = {
-		limit = {
-			not = { has_dlc = "Man the Guns" }
-		}
-		create_equipment_variant = {
-			name = "Arunta Class"
-			type = destroyer_1
-			upgrades = {
-				ship_torpedo_upgrade = 2
-				destroyer_engine_upgrade = 2
-				ship_ASW_upgrade = 2
-				ship_anti_air_upgrade = 2
-			}
-		}
-	}
-	if = {
-		limit = {
-			has_dlc = "Man the Guns"
-		}
-		create_equipment_variant = {
-			name = "Arunta Class"
-			type = ship_hull_light_2
-			name_group = AST_DD_HISTORICAL
-			modules = {
-				fixed_ship_battery_slot = ship_light_battery_2
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = ship_sonar_2
-				fixed_ship_engine_slot = light_ship_engine_2
-				fixed_ship_torpedo_slot = ship_torpedo_1
-				mid_1_custom_slot = ship_light_battery_2
-				rear_1_custom_slot = ship_depth_charge_2
-			}
-		}
-	}
 }

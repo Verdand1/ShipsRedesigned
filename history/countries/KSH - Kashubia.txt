@@ -64,8 +64,6 @@ set_convoys = 20
 		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -102,26 +100,6 @@ set_convoys = 20
 			improved_light_tank_chassis = 1
 			basic_medium_tank_chassis = 1
 			basic_heavy_tank_chassis = 1
-		}
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_battleship = 1
-			basic_battlecruiser = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			improved_ship_hull_light = 1
-			improved_ship_hull_heavy = 1
-			basic_ship_hull_carrier = 1
-			improved_heavy_armor_scheme = 1
-			improved_light_battery = 1
-			basic_heavy_battery = 1
-			improved_secondary_battery = 1
-			improved_ship_torpedo_launcher = 1
 		}
 	}
 }

@@ -112,9 +112,6 @@ set_stability = 0.75
 		armored_spearhead = 1
 		schwerpunk = 1
 		blitzkrieg = 1
-		convoy_interdiction_ti = 1
-		unrestricted_submarine_warfare = 1
-		raider_patrols = 1
 		#air
 		formation_flying = 1		
 		dive_bombing = 1
@@ -127,8 +124,6 @@ set_stability = 0.75
 		decimetric_radar = 1
 		mechanical_computing = 1
 		computing_machine = 1
-		basic_encryption = 1
-		basic_decryption = 1
 
 		#industry
 		basic_machine_tools = 1
@@ -223,69 +218,4 @@ create_country_leader = {
 
 ## 1939 Start ##
 1939.1.1 = {
-
-		if = {
-			limit = {
-				not = { has_dlc = "Man the Guns" }
-			}
-			# Submarines #
-			create_equipment_variant = {
-				name = "Type VIIA"
-				type = submarine_2
-				parent_version = 0
-				upgrades = {
-					ship_reliability_upgrade = 1
-					sub_engine_upgrade = 1
-					sub_stealth_upgrade = 1
-					sub_torpedo_upgrade = 1
-				}
-			}
-			# Destroyer #
-			create_equipment_variant = {
-				name = "Zerstörer 1936"
-				type = destroyer_2
-				parent_version = 0
-				upgrades = {
-					ship_torpedo_upgrade = 2
-					destroyer_engine_upgrade = 2
-					ship_ASW_upgrade = 2
-					ship_anti_air_upgrade = 2
-				}
-			}
-			# Heavy Cruisers #
-			#create_equipment_variant = {
-			#	name = "Deutschland Class"
-			#	type = heavy_cruiser_1
-			#	parent_version = 0
-			#	upgrades = {
-			#		ship_reliability_upgrade = 1
-			#		ship_engine_upgrade = 1
-			#		ship_armor_upgrade = 1
-			#		ship_gun_upgrade = 2
-			#	}
-			#	obsolete = yes
-			#}
-
-		}
-
-		if = {
-			limit = {
-				has_dlc = "Man the Guns"
-			}
-			create_equipment_variant = {
-				name = "Zerstörer 1936 Class"
-				type = ship_hull_light_2
-				name_group = GER_DD_HISTORICAL
-				parent_version = 0
-				modules = {
-					fixed_ship_battery_slot = ship_light_battery_2
-					fixed_ship_anti_air_slot = ship_anti_air_1
-					fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-					fixed_ship_radar_slot = empty
-					fixed_ship_engine_slot = light_ship_engine_2
-					fixed_ship_torpedo_slot = ship_torpedo_1
-					rear_1_custom_slot = ship_depth_charge_1
-				}
-			}
-		}
 }

@@ -160,9 +160,6 @@ add_ideas = SRD_naval_treaty_adherent
 		air_superiority = 1
 		grand_battle_plan = 1
 		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		submarine_operations = 1
 
 		#electronics
 		electronic_mechanical_engineering = 1
@@ -208,19 +205,6 @@ add_ideas = SRD_naval_treaty_adherent
 			improved_light_tank_chassis = 1
 			basic_medium_tank_chassis = 1
 			basic_heavy_tank_chassis = 1
-		}
-	}
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		set_technology = {
-			basic_destroyer = 1
-		}
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		set_technology = {
-			basic_ship_hull_light = 1
-			basic_ship_hull_cruiser = 1
 		}
 	}
 }
@@ -277,29 +261,4 @@ create_equipment_variant = {
 
 # 1939 Start #
 1939.1.1 = {
-	if = {
-		limit = { not = { has_dlc = "Man the Guns" } }
-		# Ship variants #
-	}
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-		# Light Cruisers #
-		create_equipment_variant = {
-			name = "Leander Class"
-			type = ship_hull_cruiser_1
-			name_group = NZL_CL_HISTORICAL
-			modules = {
-				fixed_ship_battery_slot = ship_light_medium_battery_1
-				fixed_ship_anti_air_slot = ship_anti_air_1
-				fixed_ship_fire_control_system_slot = ship_fire_control_system_0
-				fixed_ship_radar_slot = empty
-				fixed_ship_engine_slot = cruiser_ship_engine_2
-				fixed_ship_armor_slot = ship_armor_cruiser_1
-				front_1_custom_slot = ship_anti_air_1
-				mid_1_custom_slot = ship_torpedo_1
-				mid_2_custom_slot = ship_airplane_launcher_1
-				rear_1_custom_slot = ship_light_medium_battery_1
-			}
-		}
-	}
 }
