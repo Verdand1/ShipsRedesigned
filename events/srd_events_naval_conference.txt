@@ -1171,7 +1171,7 @@ news_event = {
 	id = SRD_naval_conference.601
 	title = SRD_naval_conference.601.t
 	desc = SRD_naval_conference.601.desc
-	picture = GFX_report_event_usa_heavy_cruiser
+	picture = GFX_news_event_ast_navy
 	
 	is_triggered_only = yes
 
@@ -1191,7 +1191,7 @@ news_event = {
 	id = SRD_naval_conference.602
 	title = SRD_naval_conference.602.t
 	desc = SRD_naval_conference.602.desc
-	picture = GFX_report_event_usa_heavy_cruiser
+	picture = GFX_news_event_ast_navy
 	
 	is_triggered_only = yes
 
