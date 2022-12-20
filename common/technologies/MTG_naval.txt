@@ -2526,7 +2526,7 @@ technologies = {
 		start_year = 1940
 		
 		submarine = {
-			mines_planting = 0.5
+			mines_planting = 0.2
 		}
 
 		folder = {
