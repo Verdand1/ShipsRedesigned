@@ -5646,6 +5646,7 @@ leader_traits = {
 			}
 			screen_ship = {
 				max_strength = 0.1
+				hg_attack = 0.1
 				lg_attack = 0.1
 			}
 			submarine = {
@@ -7737,5 +7738,45 @@ leader_traits = {
 		}
 	}
 
+	evans_deakin_trait = { #at end for save compat
+		random = no
+		equipment_bonus = {
+			carrier = {
+				naval_range = 0.2
+			}
+			capital_ship = {
+				naval_range = 0.2
+			}
+			screen_ship = {
+				naval_range = 0.2
+			}
+			submarine = {
+				naval_range = 0.2
+				build_cost_ic = -0.1
+			}
+			convoy = {
+				build_cost_ic = -0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	cockatoo_trait = { #at end for save compat
+		random = no
+		equipment_bonus = {
+			screen_ship = {
+				naval_range = 0.1
+				sub_detection = 0.2
+				build_cost_ic = -0.1
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
 
 }

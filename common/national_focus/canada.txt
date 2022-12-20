@@ -233,6 +233,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
+			add_ideas = CAN_dollar_a_year_men
 			add_tech_bonus = {
 				name = CAN_dollar_a_year_men
 				bonus = 1.0
@@ -360,14 +361,14 @@
 				limit = {
 					free_building_slots = {
 						building = industrial_complex
-						size > 0
+						size > 1
 						include_locked = yes
 					}
 				}
 
 				add_building_construction = {
 					type = industrial_complex
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -416,10 +417,10 @@
 				limit = {
 					has_state_flag = CAN_retool_angus_shops_AF
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 			}
@@ -431,14 +432,14 @@
 				limit = {
 					free_building_slots = {
 						building = arms_factory
-						size > 0
+						size > 1
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 1
+				add_extra_state_shared_building_slots = 2
 				add_building_construction = {
 					type = arms_factory
-					level = 1
+					level = 2
 					instant_build = yes
 				}
 				set_state_flag = CAN_retool_angus_shops_AF
@@ -515,7 +516,7 @@
 		x = 8
 		y = 0
 
-		cost = 10
+		cost = 5
 
 		ai_will_do = {
 			factor = 30
@@ -1690,7 +1691,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			army_experience = 20
+			army_experience = 50
 			add_doctrine_cost_reduction = {
 				name = CAN_independent_command
 				cost_reduction = 0.5
@@ -1924,7 +1925,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			army_experience = 10 
+			army_experience = 50 
 			add_doctrine_cost_reduction = {
 				name = CAN_army_modernization
 				cost_reduction = 0.5
@@ -2170,7 +2171,7 @@
 		search_filters = { FOCUS_FILTER_RESEARCH }
 
 		completion_reward = {
-			army_experience = 15
+			army_experience = 30
 			add_doctrine_cost_reduction = {
 				name = CAN_red_deer_training_camp
 				cost_reduction = 0.5
@@ -3283,7 +3284,7 @@
 		id = CAN_defence_scheme_no_1
 		icon = GFX_goal_generic_occupy_start_war
 		prerequisite = { focus = CAN_skewer_the_eagle focus = CAN_pinion_the_eagle }
-		x = -1
+		x = -2
 		y = 4
 		relative_position_id = CAN_swastika_clubs
 
@@ -3324,10 +3325,11 @@
 		id = CAN_demand_labrador_and_newfoundland
 		icon = GFX_goal_generic_territory_or_war
 		prerequisite = { focus = CAN_skewer_the_eagle focus = CAN_pinion_the_eagle }
-		x = 1
+		x = 2
 		y = 4
 		relative_position_id = CAN_swastika_clubs
-
+		mutually_exclusive = { focus = CAN_offer_concessions_for_labrador_and_newfoundland }
+		
 		cost = 10
 
 		ai_will_do = {
@@ -3348,12 +3350,58 @@
 		search_filters = { FOCUS_FILTER_ANNEXATION }
 
 		completion_reward = {
+			custom_effect_tooltip = CAN_demand_labrador_tooltip
 			ENG = {
 				country_event = { id = tfv_canada.60 }
 			}
 		}
 	}
 
+	focus = {
+		id = CAN_offer_concessions_for_labrador_and_newfoundland
+		icon = GFX_goal_tfv_strengthen_commonwealth_ties
+		prerequisite = { focus = CAN_skewer_the_eagle focus = CAN_pinion_the_eagle }
+		x = 0
+		y = 4
+		relative_position_id = CAN_swastika_clubs
+		mutually_exclusive = { focus = CAN_demand_labrador_and_newfoundland }
+		
+		cost = 10
+
+		ai_will_do = {
+			factor = 25
+		}
+
+		available = {
+			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			NOT = { has_war_with = ENG }
+			473 = {
+				is_owned_by = CAN
+				is_controlled_by = CAN
+			}
+		}
+		
+		bypass = {
+
+		}
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		search_filters = { FOCUS_FILTER_ANNEXATION }
+
+		completion_reward = {
+			custom_effect_tooltip = CAN_offer_concessions_for_labrador_tooltip
+			effect_tooltip = {
+				CAN = {
+					give_resource_rights = { receiver = ENG state = 473 }
+				}
+			}
+			ENG = {
+				country_event = { id = tfv_canada.63 }
+			}
+		}
+	}
 
 	############################
 	### GO COMMUNIST SECTION ###
@@ -4611,10 +4659,10 @@
 				limit = {
 					has_state_flag = CAN_united_shipyards_DY
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 			}
@@ -4627,14 +4675,14 @@
 					is_coastal = yes
 					free_building_slots = {
 						building = dockyard
-						size > 2
+						size > 3
 						include_locked = yes
 					}
 				}
-				add_extra_state_shared_building_slots = 3
+				add_extra_state_shared_building_slots = 4
 				add_building_construction = {
 					type = dockyard
-					level = 3
+					level = 4
 					instant_build = yes
 				}
 				set_state_flag = CAN_united_shipyards_DY
