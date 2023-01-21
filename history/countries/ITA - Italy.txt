@@ -426,10 +426,8 @@ if = {
 		}
 	}
 }
+
 set_naval_oob = "ITA_1936_naval"
-
-
-}
 
 # DIPLOMACY / WAR 36
 if = {
