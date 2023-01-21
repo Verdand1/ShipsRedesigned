@@ -778,30 +778,28 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			hidden_effect = {
-				create_equipment_variant = {
-					name = "CR.32" #
-					type = small_plane_airframe_0
-					modules = {
-						fixed_main_weapon_slot = light_mg_2x
-						engine_type_slot = engine_1_1x
-						special_type_slot_1 = empty
-					}
-				}
-				create_equipment_variant = {
-					name = "Ca.101" #
-					type = medium_plane_airframe_0
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						engine_type_slot = engine_1_3x
-						special_type_slot_1 = lmg_defense_turret
-					}
-					obsolete = yes
-					icon = "GFX_ITA_early_bomber_old_medium"
+			create_equipment_variant = {
+				name = "CR.32" #
+				type = small_plane_airframe_0
+				modules = {
+					fixed_main_weapon_slot = light_mg_2x
+					engine_type_slot = engine_1_1x
+					special_type_slot_1 = empty
 				}
 			}
-			custom_effect_tooltip = ETH_copy_light_plane_tt
-			custom_effect_tooltip = ETH_copy_medium_plane_tt
+			create_equipment_variant = {
+				name = "Ca.101" #
+				type = medium_plane_airframe_0
+				modules = {
+					fixed_main_weapon_slot = medium_bomb_bay
+					engine_type_slot = engine_1_3x
+					special_type_slot_1 = lmg_defense_turret
+				}
+				obsolete = yes
+				icon = "GFX_ITA_early_bomber_old_medium"
+			}
+			#custom_effect_tooltip = ETH_copy_light_plane_tt #Obsolete tt now
+			#custom_effect_tooltip = ETH_copy_medium_plane_tt #Obsolete tt now
 		}
 	}
 	focus = {
@@ -3871,49 +3869,45 @@ focus_tree = {
 				limit = {
 					has_dlc = "No Step Back"
 				}
-				custom_effect_tooltip = ETH_light_tank_tt
-				hidden_effect = {
-					create_equipment_variant = {
-						name = "L3/35"
-						type = light_tank_chassis_1
-						parent_version = 0
-						modules = {
-							main_armament_slot = tank_heavy_machine_gun
-							turret_type_slot = tank_light_fixed_superstructure_turret
-							suspension_type_slot = tank_bogie_suspension
-							armor_type_slot = tank_riveted_armor
-							engine_type_slot = tank_gasoline_engine
-						}
-						upgrades = {
-							tank_nsb_engine_upgrade = 1
-							tank_nsb_armor_upgrade = 1
-						}
-						icon = "GFX_ITA_basic_light_tank_medium"
+				#custom_effect_tooltip = ETH_light_tank_tt #Obsolete tt now
+				create_equipment_variant = {
+					name = "L3/35"
+					type = light_tank_chassis_1
+					parent_version = 0
+					modules = {
+						main_armament_slot = tank_heavy_machine_gun
+						turret_type_slot = tank_light_fixed_superstructure_turret
+						suspension_type_slot = tank_bogie_suspension
+						armor_type_slot = tank_riveted_armor
+						engine_type_slot = tank_gasoline_engine
 					}
+					upgrades = {
+						tank_nsb_engine_upgrade = 1
+						tank_nsb_armor_upgrade = 1
+					}
+					icon = "GFX_ITA_basic_light_tank_medium"
 				}
 			}
-			custom_effect_tooltip = ETH_aircraft_tt
-			hidden_effect = {
-				create_equipment_variant = {
-					name = "CR.32" #
-					type = small_plane_airframe_0
-					modules = {
-						fixed_main_weapon_slot = light_mg_2x
-						engine_type_slot = engine_1_1x
-						special_type_slot_1 = empty
-					}
+			#custom_effect_tooltip = ETH_aircraft_tt #Obsolete tt now
+			create_equipment_variant = {
+				name = "CR.32" #
+				type = small_plane_airframe_0
+				modules = {
+					fixed_main_weapon_slot = light_mg_2x
+					engine_type_slot = engine_1_1x
+					special_type_slot_1 = empty
 				}
-				create_equipment_variant = {
-					name = "Ca.101" #
-					type = medium_plane_airframe_0
-					modules = {
-						fixed_main_weapon_slot = medium_bomb_bay
-						engine_type_slot = engine_1_3x
-						special_type_slot_1 = lmg_defense_turret
-					}
-					obsolete = yes
-					icon = "GFX_ITA_early_bomber_old_medium"
+			}
+			create_equipment_variant = {
+				name = "Ca.101" #
+				type = medium_plane_airframe_0
+				modules = {
+					fixed_main_weapon_slot = medium_bomb_bay
+					engine_type_slot = engine_1_3x
+					special_type_slot_1 = lmg_defense_turret
 				}
+				obsolete = yes
+				icon = "GFX_ITA_early_bomber_old_medium"
 			}
 		}
 	}
@@ -5179,6 +5173,7 @@ focus_tree = {
 			create_equipment_variant = {
 				name = "He 51" #
 				type = small_plane_airframe_0
+				allow_without_tech = yes #Makes no difference since tech is granted above, but makes tooltip shorter and less confusing
 				modules = {
 					fixed_main_weapon_slot = light_mg_2x
 					engine_type_slot = engine_1_1x
@@ -5188,6 +5183,7 @@ focus_tree = {
 			create_equipment_variant = {
 				name = "DO 23" #
 				type = medium_plane_airframe_0
+				allow_without_tech = yes #Makes no difference since tech is granted above, but makes tooltip shorter and less confusing
 				modules = {
 					fixed_main_weapon_slot = medium_bomb_bay
 					fixed_auxiliary_weapon_slot_1 = empty
@@ -5254,6 +5250,7 @@ focus_tree = {
 					name = "Panzer I Ausf. A"
 					type = light_tank_chassis_1
 					parent_version = 0
+					allow_without_tech = yes #Makes no difference since tech is granted above, but makes tooltip shorter and less confusing
 					modules = {
 						main_armament_slot = tank_heavy_machine_gun
 						turret_type_slot = tank_light_one_man_tank_turret

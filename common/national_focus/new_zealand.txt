@@ -529,6 +529,7 @@
 				create_equipment_variant = {
 					name = "Bristol Blenheim"
 					type = medium_plane_airframe_1
+					allow_without_tech = yes #Allowing since it comes from the UK
 					modules = {
 						fixed_main_weapon_slot = medium_bomb_bay
 						fixed_auxiliary_weapon_slot_1 = torpedo_mounting

@@ -4965,6 +4965,7 @@
 					create_equipment_variant = {
 						name = "A6M Zero-Sen"
 						type = cv_small_plane_airframe_2
+						allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
 						modules = {
 							fixed_main_weapon_slot = light_mg_2x
 							fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
@@ -5474,6 +5475,7 @@
 				type = ship_hull_heavy_1
 				name_group = JAP_BB_HISTORICAL
 				parent_version = 0
+				allow_without_tech = yes #Makes no difference since focus grants appropriate tech (above), but it improves tooltip
 				modules = {
 					fixed_front_1 = ship_heavy_battery_3
 					fixed_target_acquisition = ship_fire_control_system_0

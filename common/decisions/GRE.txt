@@ -3597,6 +3597,7 @@ political_actions = {
 						name = "Kilkis Class"
 						type = ship_hull_heavy_1
 						name_group = GRE_BB_HISTORICAL
+						allow_without_tech = yes
 						parent_version = 0
 						modules = { 
 							fixed_engine = ship_range_engine_1
