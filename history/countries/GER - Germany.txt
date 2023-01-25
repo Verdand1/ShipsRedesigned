@@ -632,7 +632,7 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_light_medium_battery_1
 		mid_2 = ship_torpedo_2
-		mid_3 = empty
+		mid_3 = ship_airplane_launcher_1
 		front_2 = ship_light_medium_battery_1
 	}
 	upgrades = {
@@ -651,6 +651,7 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_2
 		fixed_inner_hull = cramped
 		rear_2 = empty
+		mid_3 = empty
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 6
