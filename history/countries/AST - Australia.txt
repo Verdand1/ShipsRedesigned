@@ -300,6 +300,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_engine_upgrade = 7
 	}
+	obsolete = yes
 }
 create_equipment_variant = {
 	name = "Vendetta & Voyager Classes"
