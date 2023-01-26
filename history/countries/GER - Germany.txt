@@ -641,6 +641,25 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Bremse Class"
+	type = ship_hull_cruiser_1
+	name_group = GER_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_layer_1
+		mid_1 = ship_mine_layer_1
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 5
+	}
+}
+
+create_equipment_variant = {
 	name = "Nürnberg Class"
 	type = ship_hull_cruiser_1
 	name_group = GER_CL_HISTORICAL
@@ -657,6 +676,48 @@ create_equipment_variant = {
 		ship_medium_engine_upgrade = 6
 		ship_ai_priority = 2
 	}
+}
+
+create_equipment_variant = {
+	name = "Grille Class"
+	type = ship_hull_cruiser_1
+	name_group = GER_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = empty
+		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 3
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Brummer Class"
+	type = ship_hull_cruiser_1
+	name_group = GER_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = ship_perf_engine_2
+		fixed_inner_hull = cramped
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_layer_1
+		mid_1 = ship_mine_layer_1
+		mid_2 = ship_anti_air_1
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 1
+	}
+	obsolete = yes
 }
 
 # Heavy Cruisers #

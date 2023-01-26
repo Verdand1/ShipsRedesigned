@@ -321,6 +321,21 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Republica Class"
+	type = ship_hull_light_1
+	name_group = POR_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "Douro Class"
 	type = ship_hull_light_1
 	name_group = POR_DD_HISTORICAL

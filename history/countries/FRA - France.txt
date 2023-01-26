@@ -572,6 +572,32 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
+	name = "Aldébaran Class"
+	type = ship_hull_light_1
+	name_group = FRA_DE_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_front_1 = ship_light_battery_2
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Andromédé Class"
+	type = ship_hull_light_1
+	name_group = FRA_DE_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+	}
+}
+
+create_equipment_variant = {
 	name = "Chacal Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
@@ -619,7 +645,7 @@ create_equipment_variant = {
 	name = "Guépard Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
-	parent_version = 1
+	parent_version = 3
 	role_icon_index = 2
 	modules = {
 		rear_1 = ship_depth_charge_1
@@ -634,7 +660,7 @@ create_equipment_variant = {
 	name = "Aigle Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
-	parent_version = 3
+	parent_version = 5
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_0
@@ -653,7 +679,7 @@ create_equipment_variant = {
 	name = "Vauquelin Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
-	parent_version = 4
+	parent_version = 6
 	role_icon_index = 1
 	modules = {
 		rear_2 = ship_mine_layer_1
@@ -665,7 +691,7 @@ create_equipment_variant = {
 	name = "Le Fantasque Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
-	parent_version = 5
+	parent_version = 7
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -699,7 +725,7 @@ create_equipment_variant = {
 	name = "Mogador Class"
 	type = ship_hull_light_1
 	name_group = FRA_DD_HISTORICAL
-	parent_version = 6
+	parent_version = 8
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = empty
@@ -797,6 +823,23 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Bougainville Class"
+	type = ship_hull_cruiser_1
+	name_group = FRA_CL_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		fixed_front_1 = ship_light_battery_2
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_mine_layer_1
+		mid_1 = ship_airplane_launcher_1
+		front_2 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "Jeanne d'Arc Class"
 	type = ship_hull_cruiser_1
 	name_group = FRA_CL_HISTORICAL
@@ -844,7 +887,7 @@ create_equipment_variant = {
 	name = "La Galissonnière Class"			
 	type = ship_hull_cruiser_1
 	name_group = FRA_CL_HISTORICAL
-	parent_version = 5
+	parent_version = 6
 	role_icon_index = 1
 	modules = {
 		fixed_engine = ship_perf_engine_2
@@ -889,7 +932,7 @@ create_equipment_variant = {
 	name = "Suffren Class"
 	type = ship_hull_cruiser_1
 	name_group = FRA_CA_HISTORICAL
-	parent_version = 7
+	parent_version = 8
 	role_icon_index = 1
 	modules = {
 		mid_2 = empty
@@ -905,7 +948,7 @@ create_equipment_variant = {
 	name = "Algérie Class"				
 	type = ship_hull_cruiser_1
 	name_group = FRA_CA_HISTORICAL
-	parent_version = 8
+	parent_version = 9
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1

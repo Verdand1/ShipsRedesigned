@@ -332,6 +332,35 @@ create_equipment_variant = {
 		ship_light_engine_upgrade = 8
 	}
 }
+create_equipment_variant = {
+	name = "Silvio Class"
+	type = ship_hull_light_1
+	name_group = AST_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 5
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_1
+		rear_1 = ship_depth_charge_1
+		rear_2 = ship_mine_sweeper_1
+		mid_1 = empty
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Yarra Class"
+	type = ship_hull_light_1
+	name_group = AST_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_target_acquisition = ship_sonar_2
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+		mid_1 = empty
+	}
+}
 
 # Light Cruisers #
 create_equipment_variant = {

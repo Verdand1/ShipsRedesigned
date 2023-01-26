@@ -584,6 +584,23 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Calvo Sotelo Class"
+	type = ship_hull_light_1
+	name_group = SPR_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_engine = ship_range_engine_2
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+		mid_1 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
 	name = "Júpiter Class"
 	type = ship_hull_light_1
 	name_group = SPR_DD_HISTORICAL
@@ -605,7 +622,7 @@ create_equipment_variant = {
 	name = "Marte Class"
 	type = ship_hull_light_1
 	name_group = SPR_DD_HISTORICAL
-	parent_version = 3
+	parent_version = 4
 	role_icon_index = 4
 	modules = {
 		rear_1 = ship_depth_charge_1

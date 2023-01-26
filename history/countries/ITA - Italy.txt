@@ -1698,12 +1698,32 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "Eritrea Class"
+	type = ship_hull_cruiser_1
+	name_group = ITA_CL_HISTORICAL
+	parent_version = 0 #11
+	role_icon_index = 2
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_1
+		rear_1 = empty
+		mid_1 = ship_anti_air_1
+		front_2 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 1
+	}
+	obsolete = yes
+}
+
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Pisa Class"				
 	type = ship_hull_cruiser_1
 	name_group = ITA_CA_HISTORICAL
-	parent_version = 0 #11
+	parent_version = 0 #12
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
@@ -1724,7 +1744,7 @@ create_equipment_variant = {
 	name = "San Giorgio Class"				
 	type = ship_hull_cruiser_1
 	name_group = ITA_CA_HISTORICAL
-	parent_version = 11 #12
+	parent_version = 12 #13
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_1
@@ -1737,7 +1757,7 @@ create_equipment_variant = {
 	name = "Trento Class"				
 	type = ship_hull_cruiser_1
 	name_group = ITA_CA_HISTORICAL
-	parent_version = 0 #13
+	parent_version = 0 #14
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
@@ -1761,7 +1781,7 @@ create_equipment_variant = {
 	name = "Zara Class"				
 	type = ship_hull_cruiser_1
 	name_group = ITA_CA_HISTORICAL
-	parent_version = 13 #14
+	parent_version = 14 #15
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_medium_battery_2
@@ -1782,7 +1802,7 @@ create_equipment_variant = {
 	name = "Bolzano Class"				
 	type = ship_hull_cruiser_1
 	name_group = ITA_CA_HISTORICAL
-	parent_version = 14
+	parent_version = 15 #16
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1

@@ -377,6 +377,18 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
+	name = "Galeb Class"
+	type = ship_hull_light_1
+	name_group = YUG_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 4
+	modules = {
+		rear_1 = ship_mine_layer_1
+		rear_2 = ship_mine_sweeper_1
+	}
+}
+
+create_equipment_variant = {
 	name = "Dubrovnik Class"
 	type = ship_hull_light_1
 	name_group = YUG_DD_HISTORICAL
@@ -415,6 +427,20 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_armor_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Zmaj Class"
+	type = ship_hull_cruiser_1
+	name_group = YUG_REGIONS
+	parent_version = 0
+	role_icon_index = 7
+	modules = {
+		fixed_front_1 = ship_light_battery_1
+		fixed_engine = ship_range_engine_1
+		fixed_inner_hull = ship_extra_fuel_tank_1
+		rear_1 = ship_airplane_launcher_1
 	}
 }
 
