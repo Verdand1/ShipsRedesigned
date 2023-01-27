@@ -6,8 +6,15 @@ units= {
 		task_force = {
 			name = "Kraljevska Mornarica"
 			location = 3924 # Split
-			ship = { name = "KB Dalmacija" definition = light_cruiser start_experience_factor = 0.1 start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YUG version_name = "Dalmacija Class" } } }
+			ship = { name = "KB Dalmacija" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YUG version_name = "Dalmacija Class" } } }
+			ship = { name = "KB Zmaj" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = YUG version_name = "Zmaj Class" } } }
 			ship = { name = "KB Dubrovnik" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Dubrovnik Class" } } }
+			ship = { name = "KB Orao" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
+			ship = { name = "KB Galeb" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
+			ship = { name = "KB Labud" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
+			ship = { name = "KB Jastreb" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
+			ship = { name = "KB Kobac" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
+			ship = { name = "KB Sokol" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = YUG version_name = "Galeb Class" } } }
 		}
 		task_force = {
 			name = "Podmornica Divizija"

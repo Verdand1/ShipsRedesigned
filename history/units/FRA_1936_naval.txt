@@ -295,6 +295,33 @@ units= {
 			location = 4401 # Saigon
 			ship = { name = "Lamotte-Picquet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
 			ship = { name = "Primauguet" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Duguay Trouin Class" } } }
+			ship = { name = "Savorgnan de Brazza" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Amiral Charner" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Dumont d'Urville" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Altair" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aldébaran Class" } } }
+			ship = { name = "Antarès" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Aldébaran Class" } } }
+		}
+	}
+	### Forces Navales d'Outre-mer ###
+	fleet = {
+		name = "Forces Navales d'Outre-mer"
+		naval_base = 792 # Beirut
+		task_force = {
+			name = "Division navale du Levant"
+			location = 792 # Beirut
+			ship = { name = "D'Iberville" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Bougainville" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+		}
+		task_force = {
+			name = "Division navale de Terre Neuve"
+			location = 373 # Saint Pierre
+			ship = { name = "D'Entrecasteaux" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
+			ship = { name = "Ville d'Ys" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = FRA version_name = "Andromédé Class" } } }
+		}
+		task_force = {
+			name = "Division navale de Nouvelle Calédonie"
+			location = 4268 # Noumea
+			ship = { name = "Rigault de Genouilly" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = FRA version_name = "Bougainville Class" } } }
 		}
 	}
 }

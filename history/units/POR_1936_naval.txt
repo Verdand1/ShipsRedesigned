@@ -16,6 +16,7 @@ units= {
 			ship = { name = "NRP Gonçalo Velho" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Goncalo Velho & Pedro Nunes Classes" } } }
 			ship = { name = "NRP Gonçalves Zarco" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Goncalo Velho & Pedro Nunes Classes" } } }
 			ship = { name = "NRP Tâmega" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+			ship = { name = "NRP Republica" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Republica Class" } } }
 		}
 		task_force = {
 			name = "Flotilha Delfim"

@@ -40,6 +40,7 @@ units= {
 			location = 3151 # Leningrad
 			ship = { name = "Marat" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } pride_of_the_fleet = yes }
 			ship = { name = "Oktyabrskaya Revolutsiya" definition = battleship start_experience_factor = 0.1 equipment = { ship_hull_heavy_1 = { amount = 1 owner = SOV version_name = "Sevastopol Class" } } }
+			ship = { name = "Amur" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SOV version_name = "Amur Class" } } }
 		}
 		task_force = {
 			name = "3ya Flotiliya Esmintsev"
@@ -314,7 +315,18 @@ instant_effect = {
 		progress = 0.67
 		amount = 2
 	}
-	# Destroyer
+	# On hold
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "SOV"
+			version_name = "Marti Class"
+		}
+		name = "Marti"
+		requested_factories = 1
+		progress = 0.73
+		amount = 1
+	}
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_light_1

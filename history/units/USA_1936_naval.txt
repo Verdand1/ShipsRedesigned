@@ -37,12 +37,9 @@ units= {
 		task_force = {
 			name = "Carrier Division 1"
 			location = 1562 # San Diego
-			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
-			}
-			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } }
-			}
-			ship = { name = "USS Ranger" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } }
-			}
+			ship = { name = "USS Saratoga" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
+			ship = { name = "USS Lexington" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Lexington Class" } } }
+			ship = { name = "USS Ranger" definition = carrier start_experience_factor = 0.3 equipment = { ship_hull_carrier_1 = { amount = 1 owner = USA version_name = "Ranger Class" } } }
 		}				
 		task_force = {
 			name = "Cruiser Division 2"
@@ -310,6 +307,13 @@ units= {
 			ship = { name = "USS S40" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
 			ship = { name = "USS S41" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = USA version_name = "S Superclass" } } }
 		}
+		task_force = {
+			name = "South China Patrol"
+			location = 10265 # Manilla
+			ship = { name = "USS Sacramento" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Sacramento Class" } } }
+			ship = { name = "USS Asheville" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Asheville Class" } } }
+			ship = { name = "USS Tulsa" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Asheville Class" } } }
+		}
 	}
 
 	### Submarine Force ###
@@ -471,6 +475,8 @@ units= {
 		task_force = {
 			name = "Pacific Reserve Fleet"
 			location = 1562 # San Diego
+			ship = { name = "USS Wright" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Wright Class" } } }
+			ship = { name = "USS Jason" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Jason Class" } } }
 			ship = { name = "USS Wickes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
 			ship = { name = "USS Philip" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
 			ship = { name = "USS Evans" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Wickes Class" } } }
@@ -509,7 +515,7 @@ units= {
 			ship = { name = "USS Swasey" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
 			ship = { name = "USS Meade" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
 			ship = { name = "USS Aulick" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
-			ship = { name = "USS Greene" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }		
+			ship = { name = "USS Greene" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = USA version_name = "Clemson Class" } } }
 		}
 		task_force = {
 			name = "Pearl Harbor Reserve Fleet"
@@ -664,20 +670,22 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_1
 			creator = "USA"
-			version_name = "Brooklyn Class"
+			version_name = "Erie Class"
 		}
+		name = "USS Erie"
 		requested_factories = 1
-		progress = 0.42
+		progress = 0.7
 		amount = 1
 	}
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_cruiser_1
 			creator = "USA"
-			version_name = "Brooklyn Class"
+			version_name = "Erie Class"
 		}
+		name = "USS Charleston"
 		requested_factories = 1
-		progress = 0.39
+		progress = 0.7
 		amount = 1
 	}
 	# Destroyer
@@ -806,6 +814,26 @@ instant_effect = {
 		amount = 4
 	}
 	# On hold
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.55
+		amount = 1
+	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_cruiser_1
+			creator = "USA"
+			version_name = "Brooklyn Class"
+		}
+		requested_factories = 1
+		progress = 0.59
+		amount = 1
+	}
 	add_equipment_production = {
 		equipment = {
 			type = ship_hull_light_1

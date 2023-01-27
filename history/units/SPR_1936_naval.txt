@@ -120,6 +120,17 @@ instant_effect = {
 		progress = 0.53
 		amount = 2
 	}
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "SPR"
+			version_name = "Calvo Sotelo Class"
+		}
+		name = "ARE Calvo Sotelo"
+		requested_factories = 1
+		progress = 0
+		amount = 1
+	}
 	# Submarine
 	add_equipment_production = {
 		equipment = {

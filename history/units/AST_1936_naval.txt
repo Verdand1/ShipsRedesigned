@@ -28,7 +28,24 @@ units = {
 			ship = { name = "HMAS Swordsman" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
 			ship = { name = "HMAS Stalwart" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
 			ship = { name = "HMAS Tasmania" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
-			ship = { name = "HMAS Tattoo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Stalwart Class" } } }
+			ship = { name = "HMAS Moresby" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Silvio Class" } } }
+			ship = { name = "HMAS Yarra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = AST version_name = "Yarra Class" } } }
 		}				
+	}
+}
+
+##### SHIP CONSTRUCTION #####
+instant_effect = {
+	# Destroyer
+	add_equipment_production = {
+		equipment = {
+			type = ship_hull_light_1
+			creator = "AST"
+			version_name = "Yarra Class"
+		}
+		name = "HMAS Swan"
+		requested_factories = 1
+		progress = 0
+		amount = 1
 	}
 }

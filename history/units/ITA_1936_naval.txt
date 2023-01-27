@@ -432,6 +432,17 @@ instant_effect = {
 			progress = 0.76
 			amount = 1
 		}
+		add_equipment_production = {
+			equipment = {
+				type = ship_hull_cruiser_1
+				creator = "ITA"
+				version_name = "Eritrea Class"
+			}
+			name = "RN Eritrea"
+			requested_factories = 1
+			progress = 0.28
+			amount = 1
+		}
 		# Submarine
 		add_equipment_production = {
 			equipment = {
