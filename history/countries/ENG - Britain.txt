@@ -656,7 +656,6 @@ create_equipment_variant = {
 	upgrades = {
 		sub_engine_upgrade = 1
 		sub_depth_upgrade = 3
-		ship_ai_priority = 7
 	}
 }
 
@@ -883,9 +882,6 @@ create_equipment_variant = {
 		rear_1 = ship_depth_charge_1
 		mid_2 = ship_torpedo_2
 	}
-	upgrades = {
-		ship_ai_priority = 4
-	}
 	obsolete = yes
 }
 
@@ -900,9 +896,6 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_2 = ship_light_battery_1
 	}
-	upgrades = {
-		ship_ai_priority = 0
-	}
 	obsolete = yes
 }
 
@@ -915,9 +908,6 @@ create_equipment_variant = {
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_2 = ship_mine_sweeper_1
-	}
-	upgrades = {
-		ship_ai_priority = 0
 	}
 }
 
@@ -1155,7 +1145,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_engine_upgrade = 7
 		ship_medium_armor_upgrade = 1
-		ship_ai_priority = 6
 	}
 }
 
@@ -1261,7 +1250,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_armor_upgrade = 2
-		ship_ai_priority = 1
 	}
 }
 
@@ -1302,7 +1290,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 4
-		ship_ai_priority = 1
 	}
 }
 
@@ -1397,7 +1384,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 2
-		ship_ai_priority = 5
 	}
 	obsolete = yes
 }
@@ -1454,9 +1440,6 @@ create_equipment_variant = {
 		fixed_inner_hull = empty
 		mid_1 = ship_light_medium_battery_1
 		mid_4 = empty
-	}
-	upgrades = {
-		ship_ai_priority = 6
 	}
 	obsolete = yes
 }

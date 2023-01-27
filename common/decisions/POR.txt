@@ -528,7 +528,6 @@ POR_arms_purchases = {
 							upgrades = {
 								sub_engine_upgrade = 1
 								sub_depth_upgrade = 3
-								ship_ai_priority = 6
 							}
 						}
 					}
@@ -571,7 +570,6 @@ POR_arms_purchases = {
 							upgrades = {
 								sub_engine_upgrade = 1
 								sub_depth_upgrade = 3
-								ship_ai_priority = 6
 							}
 						}
 					}
@@ -614,7 +612,6 @@ POR_arms_purchases = {
 							upgrades = {
 								sub_engine_upgrade = 1
 								sub_depth_upgrade = 3
-								ship_ai_priority = 6
 							}
 						}
 					}
@@ -654,7 +651,6 @@ POR_arms_purchases = {
 							upgrades = {
 								sub_engine_upgrade = 1
 								sub_depth_upgrade = 3
-								ship_ai_priority = 6
 							}
 						}
 					}
@@ -688,7 +684,6 @@ POR_arms_purchases = {
 							upgrades = {
 								sub_engine_upgrade = 1
 								sub_depth_upgrade = 3
-								ship_ai_priority = 6
 							}
 						}
 					}
@@ -1135,7 +1130,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}
@@ -1182,7 +1176,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}
@@ -1229,7 +1222,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}
@@ -1273,7 +1265,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}
@@ -1316,7 +1307,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}
@@ -1352,7 +1342,6 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
-								ship_ai_priority = 3
 							}
 						}
 					}

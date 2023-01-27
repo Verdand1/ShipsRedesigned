@@ -86,7 +86,6 @@ equipments = {
 		upgrades = {
 			sub_engine_upgrade
 			sub_depth_upgrade
-			ship_ai_priority
 		}
 
 		default_modules = {

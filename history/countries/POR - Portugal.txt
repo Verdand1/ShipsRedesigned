@@ -315,7 +315,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 4
-		ship_ai_priority = 8
 	}
 	obsolete = yes
 }

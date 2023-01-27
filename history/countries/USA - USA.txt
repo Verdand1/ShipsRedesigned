@@ -531,7 +531,6 @@ create_equipment_variant = {
 	role_icon_index = 6
 	upgrades = {
 		sub_engine_upgrade = 7
-		ship_ai_priority = 1
 	}
 }
 
@@ -653,7 +652,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 8
-		ship_ai_priority = 5
 	}
 	obsolete = yes
 }
@@ -695,7 +693,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
-		ship_ai_priority = 0
 	}
 	obsolete = yes
 }
@@ -905,9 +902,6 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
 	}
-	upgrades = {
-		ship_ai_priority = 2
-	}
 }
 
 create_equipment_variant = {
@@ -1025,9 +1019,6 @@ create_equipment_variant = {
 		fixed_front_1 = ship_heavy_battery_2
 		rear_2 = ship_heavy_battery_2
 		front_2 = empty
-	}
-	upgrades = {
-		ship_ai_priority = 2
 	}
 }
 
@@ -1147,7 +1138,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 9
-		ship_ai_priority = 2
 	}
 }
 
