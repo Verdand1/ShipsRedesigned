@@ -408,10 +408,24 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
-	name = "Sampson Class"
+	name = "Sacramento Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
 	parent_version = 0 #1
+	role_icon_index = 2
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_2
+		rear_1 = empty
+		rear_2 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Sampson Class"
+	type = ship_hull_light_1
+	name_group = USA_DD_HISTORICAL
+	parent_version = 0 #2
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_2
@@ -427,10 +441,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Asheville Class"
+	type = ship_hull_light_1
+	name_group = USA_DD_HISTORICAL
+	parent_version = 1 #3
+	role_icon_index = 2
+	modules = {
+		fixed_inner_hull = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "Caldwell Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 0 #2
+	parent_version = 0 #4
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_1
@@ -449,7 +475,7 @@ create_equipment_variant = {
 	name = "Wickes Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 2 #3
+	parent_version = 4 #5
 	role_icon_index = 4
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_2
@@ -466,7 +492,7 @@ create_equipment_variant = {
 	name = "Clemson Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 3 #4
+	parent_version = 5 #6
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = ship_extra_fuel_tank_1
@@ -483,7 +509,7 @@ create_equipment_variant = {
 	name = "Farragut Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 0 #5
+	parent_version = 0 #7
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_battery_3
@@ -507,7 +533,7 @@ create_equipment_variant = {
 	name = "Porter Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 0 #6
+	parent_version = 0 #8
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_0
@@ -531,7 +557,7 @@ create_equipment_variant = {
 	name = "Mahan Superclass"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 5 #7
+	parent_version = 7 #9
 	role_icon_index = 1
 	modules = {
 		fixed_engine = ship_range_engine_2
@@ -549,7 +575,7 @@ create_equipment_variant = {
 	name = "Bagley Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 7 #8
+	parent_version = 9 #10
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -560,7 +586,7 @@ create_equipment_variant = {
 	name = "Somers Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 6 #9
+	parent_version = 8 #11
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -572,7 +598,7 @@ create_equipment_variant = {
 	name = "Benham Class"
 	type = ship_hull_light_1
 	name_group = USA_DD_HISTORICAL
-	parent_version = 7 #10
+	parent_version = 9 #12
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
@@ -620,10 +646,47 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Brooklyn Class"
+	name = "Wright Class"
 	type = ship_hull_cruiser_1
 	name_group = USA_CL_HISTORICAL
 	parent_version = 0 #3
+	role_icon_index = 7
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_2
+		fixed_front_1 = ship_light_battery_1
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = ship_airplane_launcher_1
+		mid_2 = ship_airplane_launcher_1
+		mid_3 = ship_airplane_launcher_1
+	}
+}
+
+create_equipment_variant = {
+	name = "Jason Class"
+	type = ship_hull_cruiser_1
+	name_group = USA_CL_HISTORICAL
+	parent_version = 0 #4
+	role_icon_index = 7
+	modules = {
+		fixed_inner_hull = ship_extra_fuel_tank_1
+		fixed_front_1 = ship_light_battery_1
+		rear_1 = empty
+		rear_2 = empty
+		mid_1 = ship_airplane_launcher_1
+		mid_2 = ship_airplane_launcher_1
+		mid_3 = ship_airplane_launcher_1
+		mid_4 = empty
+		front_2 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Brooklyn Class"
+	type = ship_hull_cruiser_1
+	name_group = USA_CL_HISTORICAL
+	parent_version = 0 #5
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_2
@@ -644,12 +707,32 @@ create_equipment_variant = {
 	}
 }
 
+create_equipment_variant = {
+	name = "Erie Class"
+	type = ship_hull_cruiser_1
+	name_group = USA_CL_HISTORICAL
+	parent_version = 0 #6
+	role_icon_index = 2
+	modules = {
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_2
+		rear_1 = empty
+		rear_2 = ship_airplane_launcher_1
+		mid_1 = empty
+	}
+	upgrades = {
+		ship_medium_engine_upgrade = 1
+		ship_medium_armor_upgrade = 2
+	}
+	obsolete = yes
+}
+
 # Heavy Cruisers #
 create_equipment_variant = {
 	name = "Pensacola & Northampton Classes"				
 	type = ship_hull_cruiser_1
 	name_group = USA_CA_HISTORICAL
-	parent_version = 0 #4
+	parent_version = 0 #7
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
@@ -674,7 +757,7 @@ create_equipment_variant = {
 	name = "Portland Class"				
 	type = ship_hull_cruiser_1
 	name_group = USA_CA_HISTORICAL
-	parent_version = 4 #5
+	parent_version = 7 #8
 	role_icon_index = 1
 	modules = {
 		mid_2 = ship_light_battery_1
@@ -688,7 +771,7 @@ create_equipment_variant = {
 	name = "New Orleans Class"				
 	type = ship_hull_cruiser_1
 	name_group = USA_CA_HISTORICAL
-	parent_version = 5 #6
+	parent_version = 8 #9
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_1
@@ -702,7 +785,7 @@ create_equipment_variant = {
 	name = "Wichita Class"				
 	type = ship_hull_cruiser_1
 	name_group = USA_CA_HISTORICAL
-	parent_version = 0 #7
+	parent_version = 0 #10
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_medium_battery_2
