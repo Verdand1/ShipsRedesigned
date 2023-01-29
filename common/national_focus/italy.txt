@@ -7343,7 +7343,6 @@ focus_tree = {
 				allow_without_tech = yes # Display tooltip as if we have the tech.
 				role_icon_index = 7
 				modules = {
-					fixed_front_1 = ship_deck_space
 					fixed_engine = ship_range_engine_2
 					rear_1 = ship_deck_space
 					rear_2 = ship_deck_space

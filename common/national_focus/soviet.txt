@@ -3652,7 +3652,6 @@ focus_tree = {
 					parent_version = 0
 					allow_without_tech = yes #Makes no difference since focus requires appropriate tech (above), but it improves tooltip
 					modules = {
-						fixed_front_1 = ship_deck_space
 						fixed_engine = ship_perf_engine_3
 						rear_1 = ship_deck_space
 						rear_2 = ship_deck_space
