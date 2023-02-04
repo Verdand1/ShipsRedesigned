@@ -400,7 +400,7 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Flygia Class"
+	name = "Fylgia Class"
 	type = ship_hull_cruiser_1
 	name_group = SWE_CL_HISTORICAL
 	parent_version = 0

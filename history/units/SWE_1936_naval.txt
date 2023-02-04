@@ -16,7 +16,7 @@ units = {
 			ship = { name = "HMS Tapperheten" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
 			ship = { name = "HMS Wasa" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Äran Class" } } }
 			ship = { name = "HMS Dristigheten" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Dristigheten Class" } } }
-			ship = { name = "HMS Flygia" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Flygia Class" } } }
+			ship = { name = "HMS Fylgia" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Fylgia Class" } } }
 			ship = { name = "HMS Clas Fleming" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SWE version_name = "Clas Fleming Class" } } }
 		}
 		task_force = {
