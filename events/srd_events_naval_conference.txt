@@ -1285,7 +1285,7 @@ country_event = {
 	}
 	
 	option = { #refuse
-		name = SRD_naval_conference.720.c 
+		name = SRD_naval_conference.720.b 
 		
 		ai_chance = {
 			factor = 100

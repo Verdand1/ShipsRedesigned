@@ -864,21 +864,20 @@ country_event = {
 	hidden = yes
 	trigger = {
 		date > 1937.1.1
-		has_country_flag = srd_temporary_treaty
-		OR = {
-			tag = ENG
-			tag = USA
-			tag = FRA
-			tag = JAP
-			tag = ITA
+		any_country = {
+			has_country_flag = srd_temporary_treaty
 		}
 	}
+	fire_only_once = yes
 	
 	immediate = {
-		remove_ideas = SRD_naval_treaty_adherent
-		remove_ideas = SRD_naval_treaty_adherent_cheat
-		clr_country_flag = srd_treaty_members
-		clr_country_flag = srd_temporary_treaty
+		every_country = {
+			limit = { has_country_flag = srd_temporary_treaty }
+			remove_ideas = SRD_naval_treaty_adherent
+			remove_ideas = SRD_naval_treaty_adherent_cheat
+			clr_country_flag = srd_treaty_members
+			clr_country_flag = srd_temporary_treaty
+		}
 	}
 
 	option = { 
