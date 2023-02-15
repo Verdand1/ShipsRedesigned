@@ -1779,7 +1779,7 @@ focus_tree = {
 			has_tech = advanced_perf_engines
 			has_tech = advanced_armor_scheme
 			has_tech = advanced_light_battery
-			has_tech = antiair5
+			has_tech = antiair2
 			has_full_control_of_state = 133
 		}
 
@@ -1790,18 +1790,18 @@ focus_tree = {
 			create_equipment_variant = {
 				name = "Vanguard Class"
 				type = ship_hull_heavy_1
+				name_group = ENG_BB_HISTORICAL
 				parent_version = 0
 				modules = {
 					fixed_front_1 = ship_heavy_battery_2
 					fixed_target_acquisition = ship_fire_control_system_3
 					fixed_radar = ship_fire_control_radar_2
 					fixed_engine = ship_range_engine_4
-					fixed_inner_hull = ship_extra_fuel_tank_2
 					rear_1 = ship_heavy_battery_1
-					rear_2 = ship_anti_air_4
+					rear_2 = ship_anti_air_3
 					mid_1 = ship_light_battery_4
 					mid_2 = ship_light_battery_3
-					mid_3 = empty
+					mid_3 = ship_anti_air_3
 					front_2 = empty
 				}
 				upgrades = {

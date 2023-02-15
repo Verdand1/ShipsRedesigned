@@ -11,8 +11,8 @@ units = {
 			ship = { name = "Hai Yung" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
 			ship = { name = "Hai Chen" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
 			ship = { name = "Hai Chou" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Hai Yung Class" } } }
-			ship = { name = "Chao Ho" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ying Swei & Chao Ho Classes" } } }
-			ship = { name = "Ying Swei" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ying Swei & Chao Ho Classes" } } }
+			ship = { name = "Chao Ho" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Chao Ho Class" } } }
+			ship = { name = "Ying Swei" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = CHI version_name = "Ying Swei Class" } } }
 		}
 	}
 }

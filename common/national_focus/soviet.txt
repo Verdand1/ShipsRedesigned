@@ -3179,6 +3179,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
+				has_tech = antiair2
 				has_tech = basic_fire_control_system
 			}
 		}
@@ -3250,8 +3251,8 @@ focus_tree = {
 						rear_2 = ship_light_battery_2
 						mid_1 = ship_airplane_launcher_1
 						mid_2 = ship_light_battery_1
-						mid_3 = ship_light_battery_1
-						front_2 = ship_anti_air_1
+						mid_3 = ship_anti_air_3
+						front_2 = ship_anti_air_2
 					}
 					upgrades = {
 						ship_heavy_engine_upgrade = 8
@@ -3306,6 +3307,7 @@ focus_tree = {
 				limit = {
 					has_dlc = "Man the Guns"
 				}
+				has_tech = antiair2
 				has_tech = basic_fire_control_system
 				has_tech = improved_heavy_battery
 				has_tech = advanced_armor_scheme
@@ -3349,9 +3351,9 @@ focus_tree = {
 						rear_1 = ship_airplane_launcher_1
 						rear_2 = ship_heavy_battery_2
 						mid_1 = ship_light_medium_battery_1
-						mid_2 = ship_anti_air_1
+						mid_2 = ship_anti_air_3
 						mid_3 = ship_light_battery_1
-						mid_4 = ship_anti_air_1
+						mid_4 = ship_anti_air_3
 						front_2 = empty
 					}
 					upgrades = {
@@ -3644,6 +3646,18 @@ focus_tree = {
 					}
 					set_technology = { flight_deck = 1 }
 				}
+				if = {
+					limit = {
+						NOT = { has_tech = improved_light_battery }
+					}
+					set_technology = { improved_light_battery = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = advanced_perf_engines }
+					}
+					set_technology = { advanced_perf_engines = 1 }
+				}
 				#Equipment Variant
 				create_equipment_variant = {
 					name = "Project 71 Class"
@@ -3652,12 +3666,13 @@ focus_tree = {
 					parent_version = 0
 					allow_without_tech = yes #Makes no difference since focus requires appropriate tech (above), but it improves tooltip
 					modules = {
+						fixed_target_acquisition = ship_fire_control_system_1
 						fixed_engine = ship_perf_engine_3
-						rear_1 = ship_deck_space
-						rear_2 = ship_deck_space
-						mid_1 = ship_anti_air_1
-						mid_2 = ship_light_battery_1
-						front_2 = ship_deck_space
+						rear_1 = ship_deck_space_1
+						rear_2 = ship_anti_air_2
+						mid_1 = ship_anti_air_2
+						mid_2 = ship_light_battery_3
+						front_2 = ship_deck_space_1
 					}
 					upgrades = {
 						ship_medium_engine_upgrade = 9
@@ -12170,18 +12185,18 @@ ai_will_do = {
 					modules = {
 						fixed_front_1 = ship_medium_battery_2
 						fixed_target_acquisition = ship_fire_control_system_1
-						fixed_engine = ship_range_engine_2
+						fixed_engine = ship_perf_engine_2
 						fixed_inner_hull = ship_extra_fuel_tank_2
 						rear_1 = ship_medium_battery_2
 						rear_2 = ship_anti_air_2
 						mid_1 = ship_torpedo_2
 						mid_2 = ship_airplane_launcher_1
 						mid_3 = ship_light_battery_2
-						mid_4 = ship_torpedo_2
+						mid_4 = ship_anti_air_2
 						front_2 = ship_medium_battery_2
 					}
 					upgrades = {
-						ship_medium_engine_upgrade = 9
+						ship_medium_engine_upgrade = 7
 						ship_medium_armor_upgrade = 2
 					}
 				}

@@ -608,8 +608,8 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_reinforced_structure
 		rear_1 = ship_depth_charge_2
 		rear_2 = empty
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
 		mid_3 = empty
 		front_2 = empty
 	}
@@ -631,8 +631,8 @@ create_equipment_variant = {
 		fixed_inner_hull = cramped
 		rear_1 = ship_depth_charge_1
 		rear_2 = empty
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
 		front_2 = empty
 	}
 	upgrades = {
@@ -665,7 +665,6 @@ create_equipment_variant = {
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_depth_charge_2
-		mid_3 = ship_anti_air_1
 		front_2 = ship_light_battery_2
 	}
 	upgrades = {
@@ -682,6 +681,8 @@ create_equipment_variant = {
 	role_icon_index = 1
 	modules = {
 		rear_2 = ship_mine_layer_1
+		mid_1 = ship_torpedo_2
+		mid_2 = empty
 	}
 	obsolete = yes
 }
@@ -697,7 +698,9 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_2
 		fixed_inner_hull = ship_reinforced_structure
 		rear_1 = ship_depth_charge_1
-		mid_2 = ship_torpedo_2
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
+		mid_3 = ship_anti_air_1
 	}
 }
 
@@ -726,6 +729,8 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = empty
 		fixed_inner_hull = ship_extra_fuel_tank_2
+		mid_1 = ship_torpedo_2
+		mid_2 = empty
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
@@ -745,7 +750,7 @@ create_equipment_variant = {
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_light_battery_1
 		mid_1 = ship_torpedo_2
-		mid_2 = ship_anti_air_2
+		mid_2 = empty
 		front_2 = empty
 	}
 	upgrades = {
@@ -764,9 +769,9 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_airplane_launcher_1
 		rear_2 = ship_light_medium_battery_1
-		mid_1 = ship_torpedo_2
-		mid_2 = ship_torpedo_2
-		mid_3 = empty
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
+		mid_3 = ship_anti_air_1
 		front_2 = ship_light_medium_battery_1
 	}
 	upgrades = {
@@ -787,7 +792,7 @@ create_equipment_variant = {
 		fixed_inner_hull = cramped
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_mine_layer_1
-		mid_1 = ship_mine_layer_1
+		mid_1 = ship_anti_air_2
 		front_2 = ship_light_battery_2
 	}
 	upgrades = {
@@ -809,7 +814,7 @@ create_equipment_variant = {
 		mid_1 = ship_airplane_launcher_1
 		mid_2 = ship_airplane_launcher_1
 		mid_3 = ship_airplane_launcher_1
-		front_2 = ship_anti_air_1
+		front_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
@@ -845,7 +850,7 @@ create_equipment_variant = {
 		rear_1 = ship_light_medium_battery_1
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher_1
-		mid_2 = empty
+		mid_2 = ship_anti_air_1
 		mid_3 = empty
 		front_2 = ship_light_medium_battery_1
 	}
@@ -867,9 +872,8 @@ create_equipment_variant = {
 		rear_1 = ship_light_medium_battery_2
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_mine_layer_1
-		mid_2 = ship_airplane_launcher_1
-		mid_3 = ship_torpedo_2
-		mid_4 = ship_anti_air_1
+		mid_3 = ship_anti_air_2
+		mid_4 = ship_airplane_launcher_1
 		front_2 = ship_light_medium_battery_2
 	}
 	upgrades = {
@@ -888,9 +892,7 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_2 = ship_airplane_launcher_1
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
-		mid_3 = empty
+		mid_1 = empty
 		mid_4 = ship_unavailable_space
 	}
 	upgrades = {
@@ -911,9 +913,9 @@ create_equipment_variant = {
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_medium_battery_1
-		rear_2 = empty
-		mid_1 = ship_torpedo_2
-		mid_2 = ship_anti_air_1
+		rear_2 = ship_anti_air_2
+		mid_1 = ship_torpedo_1
+		mid_2 = empty
 		mid_3 = ship_airplane_launcher_1
 		front_2 = ship_medium_battery_1
 	}
@@ -930,7 +932,7 @@ create_equipment_variant = {
 	parent_version = 8
 	role_icon_index = 1
 	modules = {
-		mid_2 = empty
+		fixed_target_acquisition = ship_fire_control_system_1
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 6
@@ -946,10 +948,8 @@ create_equipment_variant = {
 	parent_version = 9
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = ship_range_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_2
-		rear_2 = ship_anti_air_1
 		mid_2 = ship_light_battery_1
 	}
 	upgrades = {
@@ -969,7 +969,7 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_1
 		rear_1 = empty
 		mid_1 = ship_light_battery_2
-		front_2 = empty
+		front_2 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 1
@@ -989,7 +989,6 @@ create_equipment_variant = {
 		rear_1 = ship_heavy_battery_1
 		mid_1 = empty
 		mid_2 = ship_light_battery_2
-		front_2 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 2
@@ -1004,13 +1003,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
-		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = ship_range_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_airplane_launcher_1
 		rear_2 = ship_light_medium_battery_1
-		mid_1 = ship_light_battery_1
-		mid_2 = empty
+		mid_1 = ship_anti_air_2
+		mid_2 = ship_anti_air_2
 		front_2 = ship_heavy_battery_1
 	}
 	upgrades = {
@@ -1026,9 +1025,6 @@ create_equipment_variant = {
 	name_group = FRA_BC_HISTORICAL
 	parent_version = 3
 	role_icon_index = 1
-	modules = {
-		mid_2 = ship_anti_air_1
-	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 7
 		ship_heavy_armor_upgrade = 2
@@ -1068,12 +1064,12 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 7
 	modules = {
-		fixed_front_1 = ship_large_deck_space
+		fixed_front_1 = ship_deck_space_3
 		fixed_engine = ship_perf_engine_1
 		fixed_inner_hull = ship_extra_fuel_tank_1
+		rear_1 = empty
 		mid_1 = ship_light_medium_battery_1
-		mid_2 = ship_anti_air_1
-		mid_3 = empty
+		mid_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 2

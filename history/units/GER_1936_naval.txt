@@ -16,27 +16,27 @@ units= {
 			ship = { name = "Nürnberg" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Nürnberg Class" } } }
 			ship = { name = "Leipzig" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Superclass" } } }
 			ship = { name = "Köln" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GER version_name = "Königsberg Superclass" } } }
-			ship = { name = "Möwe" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Seeadler" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Greif" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Kondor" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Falke" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Wolf" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Iltis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Luchs" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Tiger" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
-			ship = { name = "Leopard" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1923 & 1924" } } }
+			ship = { name = "Möwe" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Seeadler" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Greif" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Albatros" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Kondor" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Falke" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1923" } } }
+			ship = { name = "Wolf" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
+			ship = { name = "Iltis" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
+			ship = { name = "Luchs" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
+			ship = { name = "Tiger" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
+			ship = { name = "Jaguar" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
+			ship = { name = "Leopard" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1924" } } }
 		}
 		task_force = {
 			name = "Zerstörerflottille"
 			location = 6332 # Konigsberg
-			ship = { ordered_name = 1 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1934 & 1934A" } } }
-			ship = { ordered_name = 2 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1934 & 1934A" } } }
-			ship = { ordered_name = 3 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1934 & 1934A" } } }
-			ship = { ordered_name = 4 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1934 & 1934A" } } }
-			ship = { ordered_name = 5 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Types 1934 & 1934A" } } }
+			ship = { ordered_name = 1 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1934" } } }
+			ship = { ordered_name = 2 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1934" } } }
+			ship = { ordered_name = 3 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1934" } } }
+			ship = { ordered_name = 4 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1934" } } }
+			ship = { ordered_name = 5 definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = GER version_name = "Type 1934" } } }
 		}
 		task_force = {
 			name = "Geleitflottille"
@@ -147,7 +147,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_1
 			creator = "GER"
-			version_name = "Types 1934 & 1934A"
+			version_name = "Type 1934"
 		}
 		requested_factories = 1
 		progress = 0.95
@@ -157,7 +157,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_1
 			creator = "GER"
-			version_name = "Types 1934 & 1934A"
+			version_name = "Type 1934"
 		}
 		requested_factories = 1
 		progress = 0.87
@@ -167,7 +167,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_1
 			creator = "GER"
-			version_name = "Types 1934 & 1934A"
+			version_name = "Type 1934"
 		}
 		requested_factories = 1
 		progress = 0.79

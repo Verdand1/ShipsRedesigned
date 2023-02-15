@@ -321,7 +321,7 @@ add_opinion_modifier = { target = PRC modifier = hostile_status }
 
 # Light Cruisers #
 create_equipment_variant = {
-	name = "Ying Swei & Chao Ho Classes"
+	name = "Ying Swei Class"
 	type = ship_hull_cruiser_1
 	name_group = CHI_CL_HISTORICAL
 	parent_version = 0
@@ -333,6 +333,17 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Chao Ho Class"
+	type = ship_hull_cruiser_1
+	name_group = CHI_CL_HISTORICAL
+	parent_version = 1
+	role_icon_index = 2
+	modules = {
+		mid_1 = ship_anti_air_1
 	}
 	obsolete = yes
 }
@@ -358,7 +369,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_light_medium_battery_1
-		mid_1 = ship_torpedo_2
+		mid_1 = ship_torpedo_1
 		mid_2 = ship_airplane_launcher_1
 	}
 	upgrades = {
@@ -379,7 +390,7 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = empty
 		mid_1 = ship_light_battery_1
-		mid_2 = empty
+		mid_2 = ship_anti_air_1
 		front_2 = empty
 	}
 	upgrades = {

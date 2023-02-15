@@ -14,22 +14,22 @@ units= {
 		task_force = {
 			name = "Battleship Division 2"
 			location = 9814 # Los Angeles
-			ship = { name = "USS Pennsylvania" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } pride_of_the_fleet = yes }
-			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
-			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Pennsylvania" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } pride_of_the_fleet = yes }
+			ship = { name = "USS Arizona" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
+			ship = { name = "USS Tennessee" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
 			ship = { name = "USS Nevada" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Nevada Class" } } }
 		}
 		task_force = {
 			name = "Battleship Division 3"
 			location = 9814 # Los Angeles
-			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
-			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
-			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS Idaho" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
+			ship = { name = "USS Mississippi" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
+			ship = { name = "USS New Mexico" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
 		}
 		task_force = {
 			name = "Battleship Division 4"
 			location = 9814 # Los Angeles
-			ship = { name = "USS California" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Pennsylvania Superclass" } } }
+			ship = { name = "USS California" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Standard Battleship Type" } } }
 			ship = { name = "USS Maryland" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
 			ship = { name = "USS Colorado" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
 			ship = { name = "USS West Virginia" definition = battleship start_experience_factor = 0.3 equipment = { ship_hull_heavy_1 = { amount = 1 owner = USA version_name = "Colorado Class" } } }
@@ -126,37 +126,37 @@ units= {
 		task_force = {
 			name = "Cruiser Division 4"
 			location = 9814 # Los Angeles
-			ship = { name = "USS Northampton" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
-			ship = { name = "USS Pensacola" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
-			ship = { name = "USS Salt Lake City" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Northampton" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
+			ship = { name = "USS Pensacola" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
+			ship = { name = "USS Salt Lake City" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Cruiser Division 5"
 			location = 9814 # Los Angeles
-			ship = { name = "USS Chicago" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
-			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
-			ship = { name = "USS Houston" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Chicago" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
+			ship = { name = "USS Chester" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
+			ship = { name = "USS Houston" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Cruiser Division 6"
 			location = 9814 # Los Angeles
-			ship = { name = "USS Louisville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
-			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
-			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Portland Class" } } }
+			ship = { name = "USS Louisville" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
+			ship = { name = "USS Portland" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
+			ship = { name = "USS Indianapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Cruiser Division 7"
 			location = 1562 # San Diego
-			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
-			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
-			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS Astoria" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
+			ship = { name = "USS Minneapolis" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
+			ship = { name = "USS New Orleans" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Cruiser Division 8"
 			location = 9814 # Los Angeles
-			ship = { name = "USS San Francisco" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
-			ship = { name = "USS Quincy" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
-			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "New Orleans Class" } } }
+			ship = { name = "USS San Francisco" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
+			ship = { name = "USS Quincy" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
+			ship = { name = "USS Tuscaloosa" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "10000t Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Destroyer Flotilla 1"
@@ -277,7 +277,7 @@ units= {
 		task_force = {
 			name = "Flagship"
 			location = 10265 # Manilla
-			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Pensacola & Northampton Classes" } } }
+			ship = { name = "USS Augusta" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = USA version_name = "Treaty Cruiser Type" } } }
 		}
 		task_force = {
 			name = "Destroyer Squadron 5"
@@ -609,7 +609,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_cruiser_1
 			creator = "USA"
-			version_name = "New Orleans Class"
+			version_name = "10000t Cruiser Type"
 		}
 		requested_factories = 1
 		progress = 0.77

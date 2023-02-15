@@ -56,8 +56,8 @@ units = {
 		task_force = {
 			name = "Nederlands-Indië Mijnenlegger Flottielje"
 			location = 4608 # Soerbaja
-			ship = { name = "HrMs Prins van Oranje" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Krakatau Superclass" } } }
-			ship = { name = "HrMs Gouden Leeuw" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Krakatau Superclass" } } }
+			ship = { name = "HrMs Prins van Oranje" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Prins van Oranje Class" } } }
+			ship = { name = "HrMs Gouden Leeuw" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Prins van Oranje Class" } } }
 			ship = { name = "HrMs Rigel" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Krakatau Superclass" } } }
 			ship = { name = "HrMs Krakatau" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Krakatau Superclass" } } }
 		}

@@ -14,7 +14,7 @@ units= {
 			ship = { name = "ARE Méndez Núñez" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Méndez Núñes Class" } } }
 			ship = { name = "ARE Velasco" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
 			ship = { name = "ARE Júpiter" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Júpiter Class" } } }
-			ship = { name = "ARE Vulcano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Marte Class" } } }
+			ship = { name = "ARE Vulcano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Vulcano Class" } } }
 		}
 	}
 	fleet = {

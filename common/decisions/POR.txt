@@ -1141,7 +1141,6 @@ POR_arms_purchases = {
 			else_if = { #1942
 				limit = {
 					ENG = {
-						has_tech = improved_light_battery
 						has_tech = improved_sonar
 						has_tech = centimetric_radar
 						has_tech = advanced_range_engines
@@ -1187,7 +1186,6 @@ POR_arms_purchases = {
 			else_if = { #1940
 				limit = {
 					ENG = {
-						has_tech = improved_light_battery
 						has_tech = improved_sonar
 						has_tech = decimetric_radar
 						has_tech = advanced_range_engines
@@ -1235,7 +1233,6 @@ POR_arms_purchases = {
 					ENG = {
 						has_tech = decimetric_radar
 						has_tech = improved_depth_charges
-						has_tech = interwar_antiair
 					}
 				}
 				if = {
@@ -1252,7 +1249,7 @@ POR_arms_purchases = {
 							allow_without_tech = yes
 							role_icon_index = 1
 							modules = {
-								fixed_front_1 = ship_light_battery_2
+								fixed_front_1 = ship_light_battery_3
 								fixed_target_acquisition = ship_sonar_2
 								fixed_radar = ship_surveillance_radar_2
 								fixed_engine = ship_range_engine_2
@@ -1277,7 +1274,6 @@ POR_arms_purchases = {
 				limit = {
 					ENG = {
 						has_tech = improved_depth_charges
-						has_tech = interwar_antiair
 					}
 				}
 				if = {
@@ -1294,7 +1290,7 @@ POR_arms_purchases = {
 							allow_without_tech = yes
 							role_icon_index = 1
 							modules = {
-								fixed_front_1 = ship_light_battery_2
+								fixed_front_1 = ship_light_battery_3
 								fixed_target_acquisition = ship_sonar_2
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_2
@@ -1335,10 +1331,10 @@ POR_arms_purchases = {
 								fixed_engine = ship_range_engine_2
 								fixed_inner_hull = ship_extra_fuel_tank_1
 								rear_1 = ship_depth_charge_1
-								rear_2 = ship_anti_air_1
+								rear_2 = ship_anti_air_2
 								mid_1 = ship_torpedo_2
 								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_1
+								front_2 = ship_anti_air_2
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
@@ -1902,24 +1898,18 @@ POR_arms_purchases = {
 				hidden_effect = { add_manpower = 1080 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Cascais" }
 			}
-			else_if = { #1936
-				limit = {
-					ENG = {
-						has_tech = interwar_antiair
-					}
-				}
+			else = { #Fallback
 				if = {
 					limit = {
-						NOT = { has_country_flag = POR_1936_ENG_cruiser_purchased_flag }
+						NOT = { has_country_flag = POR_1934_ENG_cruiser_purchased_flag }
 					}
-					set_country_flag = POR_1936_ENG_cruiser_purchased_flag
+					set_country_flag = POR_1934_ENG_cruiser_purchased_flag
 					ENG = {
 						create_equipment_variant = {
 							name = "Braga Class"
 							type = ship_hull_cruiser_1
 							name_group = ENG_CL_HISTORICAL
 							parent_version = 0
-							allow_without_tech = yes
 							role_icon_index = 1
 							modules = {
 								fixed_front_1 = ship_light_medium_battery_2
@@ -1931,40 +1921,6 @@ POR_arms_purchases = {
 								mid_1 = ship_torpedo_2
 								mid_2 = ship_torpedo_2
 								front_2 = ship_anti_air_2
-							}
-							upgrades = {
-								ship_medium_engine_upgrade = 7
-								ship_medium_armor_upgrade = 2
-							}
-						}
-					}
-				}
-				hidden_effect = { add_manpower = 1070 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Braga Class" creator = ENG name = "NRP Braga" }
-			}
-			else = { #Fallback
-				if = {
-					limit = {
-						NOT = { has_country_flag = POR_1934_ENG_cruiser_purchased_flag }
-					}
-					set_country_flag = POR_1934_ENG_cruiser_purchased_flag
-					ENG = {
-						create_equipment_variant = {
-							name = "Matosinhos Class"
-							type = ship_hull_cruiser_1
-							name_group = ENG_CL_HISTORICAL
-							parent_version = 0
-							role_icon_index = 1
-							modules = {
-								fixed_front_1 = ship_light_medium_battery_2
-								fixed_target_acquisition = ship_fire_control_system_1
-								fixed_engine = ship_range_engine_2
-								fixed_inner_hull = ship_reinforced_structure
-								rear_1 = ship_light_medium_battery_2
-								rear_2 = ship_anti_air_1
-								mid_1 = ship_torpedo_2
-								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_1
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 7

@@ -40,6 +40,8 @@ set_technology = {
 	tech_support = 1		
 	tech_engineers = 1
 	basic_train = 1
+	electronic_mechanical_engineering = 1
+	basic_fire_control_system = 1
 	basic_light_battery = 1
 	basic_light_medium_battery = 1
 	basic_heavy_medium_battery = 1
@@ -378,6 +380,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_2
+		front_2 = ship_anti_air_2
 	}
 }
 
@@ -442,13 +445,13 @@ create_equipment_variant = {
 	role_icon_index = 7
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_2
-		fixed_target_acquisition = ship_fire_control_system_0
+		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = ship_perf_engine_2
 		rear_1 = ship_airplane_launcher_1
 		rear_2 = ship_airplane_launcher_1
 		mid_1 = ship_mine_layer_1
-		mid_2 = ship_torpedo_2
-		front_2 = ship_light_medium_battery_2
+		mid_2 = ship_torpedo_1
+		front_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 4
@@ -496,7 +499,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_medium_battery_2
 		fixed_engine = ship_perf_engine_2
-		front_2 = empty
+		front_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 2

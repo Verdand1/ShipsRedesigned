@@ -7019,13 +7019,13 @@ focus_tree = {
 					fixed_inner_hull = ship_reinforced_structure
 					rear_1 = ship_depth_charge_1
 					rear_2 = ship_light_battery_2
-					mid_1 = ship_torpedo_2
-					mid_2 = empty
+					mid_1 = ship_torpedo_1
+					mid_2 = ship_torpedo_1
 					mid_3 = ship_anti_air_2
 					front_2 = empty
 				}
 				upgrades = {
-					ship_light_engine_upgrade = 5
+					ship_light_engine_upgrade = 6
 					ship_light_armor_upgrade = 1
 				}
 			}
@@ -7268,14 +7268,15 @@ focus_tree = {
 				allow_without_tech = yes # Display tooltip as if we have the tech.
 				role_icon_index = 7
 				modules = {
-					fixed_front_1 = ship_large_deck_space
+					fixed_front_1 = ship_deck_space_3
+					fixed_target_acquisition = ship_fire_control_system_1
 					fixed_radar = ship_surveillance_radar_1
 					fixed_engine = ship_range_engine_2
-					rear_1 = ship_deck_space
+					rear_1 = ship_deck_space_2
 					mid_1 = ship_light_battery_2
-					mid_2 = ship_anti_air_1
-					mid_3 = empty
-					mid_4 = ship_deck_space
+					mid_2 = ship_anti_air_2
+					mid_3 = ship_anti_air_2
+					mid_4 = ship_anti_air_2
 				}
 				upgrades = {
 					ship_heavy_engine_upgrade = 8
@@ -7344,11 +7345,11 @@ focus_tree = {
 				role_icon_index = 7
 				modules = {
 					fixed_engine = ship_range_engine_2
-					rear_1 = ship_deck_space
-					rear_2 = ship_deck_space
+					rear_1 = ship_deck_space_1
+					rear_2 = ship_deck_space_1
 					mid_1 = ship_light_battery_2
-					mid_2 = empty
-					front_2 = empty
+					mid_2 = ship_anti_air_2
+					front_2 = ship_anti_air_2
 				}
 				upgrades = {
 					ship_medium_engine_upgrade = 3
@@ -7504,128 +7505,61 @@ focus_tree = {
 					}
 					if = {
 						limit = {
-							has_tech = antiair2
+							has_tech = radio_detection
 						}
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_3
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 					else = {
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_3
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
@@ -7633,128 +7567,61 @@ focus_tree = {
 				else = {
 					if = {
 						limit = {
-							has_tech = antiair2
+							has_tech = radio_detection
 						}
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_3
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 					else = {
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_3
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_3
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_3
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_3
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_3
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_3
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
@@ -7767,128 +7634,61 @@ focus_tree = {
 					}
 					if = {
 						limit = {
-							has_tech = antiair2
+							has_tech = radio_detection
 						}
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_2
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 					else = {
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_3
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_2
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_3
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
@@ -7896,127 +7696,61 @@ focus_tree = {
 				else = {
 					if = {
 						limit = {
-							has_tech = antiair2
+							has_tech = radio_detection
 						}
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_radar = ship_surveillance_radar_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_2
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_3
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 					else = {
-						if = {
-							limit = {
-								has_tech = radio_detection
+						#Equipment Variant
+						create_equipment_variant = {
+							name = "Costanzo Ciano Class"
+							type = ship_hull_cruiser_1
+							name_group = ITA_CL_HISTORICAL
+							parent_version = 0
+							allow_without_tech = yes # Display tooltip as if we have the tech.
+							role_icon_index = 7
+							modules = {
+								fixed_front_1 = ship_light_medium_battery_2
+								fixed_target_acquisition = ship_fire_control_system_1
+								fixed_engine = ship_range_engine_2
+								fixed_inner_hull = ship_extra_fuel_tank_3
+								rear_1 = ship_light_medium_battery_2
+								rear_2 = ship_anti_air_2
+								mid_1 = ship_airplane_launcher_1
+								mid_2 = ship_airplane_launcher_1
+								mid_3 = empty
+								mid_4 = ship_anti_air_1
+								front_2 = ship_light_medium_battery_2
 							}
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								allow_without_tech = yes # Display tooltip as if we have the tech.
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_radar = ship_surveillance_radar_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
-							}
-						}
-						else = {
-							#Equipment Variant
-							create_equipment_variant = {
-								name = "Costanzo Ciano Class"
-								type = ship_hull_cruiser_1
-								name_group = ITA_CL_HISTORICAL
-								parent_version = 0
-								role_icon_index = 7
-								modules = {
-									fixed_front_1 = ship_light_medium_battery_2
-									fixed_target_acquisition = ship_fire_control_system_1
-									fixed_engine = ship_range_engine_2
-									fixed_inner_hull = ship_extra_fuel_tank_3
-									rear_1 = ship_light_medium_battery_2
-									rear_2 = ship_anti_air_2
-									mid_1 = ship_airplane_launcher_1
-									mid_2 = ship_airplane_launcher_1
-									mid_3 = empty
-									mid_4 = ship_anti_air_2
-									front_2 = ship_light_medium_battery_2
-								}
-								upgrades = {
-									ship_medium_engine_upgrade = 9
-									ship_medium_armor_upgrade = 3
-								}
+							upgrades = {
+								ship_medium_engine_upgrade = 9
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
@@ -12713,6 +12447,7 @@ focus_tree = {
 				type = ship_hull_cruiser_1
 				name_group = ITA_CL_HISTORICAL
 				parent_version = 0
+				role_icon_index = 2
 				modules = {
 					rear_1 = empty
 					mid_1 = empty
@@ -12741,6 +12476,7 @@ focus_tree = {
 				type = ship_hull_cruiser_1
 				name_group = ITA_CL_HISTORICAL
 				parent_version = 0
+				role_icon_index = 2
 				modules = {
 					mid_1 = empty
 				}
@@ -12759,28 +12495,23 @@ focus_tree = {
 			}
 			
 			create_equipment_variant = {
-				name = "Eritrea Class"
-				type = ship_hull_cruiser_1
-				name_group = ITA_CL_HISTORICAL
+				name = "Sebastiano Caboto Class"
+				type = ship_hull_light_1
+				name_group = ITA_DD_HISTORICAL
 				parent_version = 0
+				role_icon_index = 2
 				modules = {
-					fixed_front_1 = ship_light_battery_1
-					fixed_engine = ship_range_engine_2
-					fixed_inner_hull = ship_extra_fuel_tank_2
-					rear_1 = empty
 					mid_1 = empty
 				}
-				upgrades = {
-					ship_medium_engine_upgrade = 1
-				}
+				obsolete = yes
 			}
 			add_equipment_production = {
 				equipment = {
-					type = ship_hull_cruiser_1
+					type = ship_hull_light_1
 					creator = "ITA"
-					version_name = "Eritrea Class"
+					version_name = "Sebastiano Caboto Class"
 				}
-				name = "Eritrea"
+				name = "Sebastiano Caboto"
 				requested_factories = 1
 				progress = 0.7
 				amount = 1
@@ -12798,6 +12529,7 @@ focus_tree = {
 				upgrades = {
 					ship_light_engine_upgrade = 5
 				}
+				obsolete = yes
 			}
 			add_equipment_production = {
 				equipment = {
@@ -12811,17 +12543,6 @@ focus_tree = {
 				amount = 1
 			}
 			
-			add_equipment_production = {
-				equipment = {
-					type = ship_hull_light_1
-					creator = "ITA"
-					version_name = "Indomito Superclass"
-				}
-				name = "Ardito"
-				requested_factories = 1
-				progress = 0.7
-				amount = 1
-			}
 		}
 	}
 

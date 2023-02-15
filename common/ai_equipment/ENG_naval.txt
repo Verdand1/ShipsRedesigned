@@ -845,7 +845,7 @@ ENG_CV = {
 			ship_range_engine_4
 			ship_range_engine_3
 			ship_range_engine_2
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -867,7 +867,7 @@ ENG_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_1 = ship_large_deck_space
+				rear_1 = ship_deck_space_3
 				rear_2 = ship_unavailable_space
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
@@ -908,7 +908,7 @@ ENG_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_1 = ship_large_deck_space
+				rear_1 = ship_deck_space_3
 				rear_2 = ship_unavailable_space
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
@@ -948,11 +948,11 @@ ENG_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_1 = ship_large_deck_space
+				rear_1 = ship_deck_space_3
 				rear_2 = ship_unavailable_space
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
-				front_2 = ship_deck_space
+				front_2 = ship_deck_space_1
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -988,11 +988,11 @@ ENG_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_1 = ship_large_deck_space
+				rear_1 = ship_deck_space_3
 				rear_2 = ship_unavailable_space
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
 				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
-				front_2 = ship_large_deck_space
+				front_2 = ship_deck_space_3
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1061,7 +1061,7 @@ ENG_CVL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2

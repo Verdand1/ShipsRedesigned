@@ -518,7 +518,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {

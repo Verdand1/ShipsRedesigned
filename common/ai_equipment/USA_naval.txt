@@ -287,7 +287,7 @@ USA_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -319,7 +319,7 @@ USA_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent }
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -450,7 +450,7 @@ USA_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -480,7 +480,7 @@ USA_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent }
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -624,7 +624,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -658,7 +658,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent }
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = USA_carrier_primacy
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -791,7 +791,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent }
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = USA_carrier_primacy }
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -957,7 +957,7 @@ USA_CV = {
 			modules = {
 				rear_2 = ship_unavailable_space
 				mid_1 = ship_light_battery_3
-				mid_4 = ship_deck_space
+				mid_4 = ship_deck_space_1
 				front_2 = ship_unavailable_space
 			}
 			upgrades = {
@@ -972,7 +972,7 @@ USA_CV = {
 			ship_fire_control_system_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_2
 		}
 	}
@@ -992,7 +992,7 @@ USA_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_deck_space_1
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
@@ -1010,7 +1010,7 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1050,7 +1050,7 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1088,8 +1088,8 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_reinforced_structure
-			ship_large_deck_space
-			ship_deck_space
+			ship_deck_space_3
+			ship_deck_space_1
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1129,7 +1129,7 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1152,7 +1152,7 @@ USA_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_deck_space_1
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
@@ -1170,7 +1170,7 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1209,8 +1209,8 @@ USA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_reinforced_structure
-			ship_large_deck_space
-			ship_deck_space
+			ship_deck_space_3
+			ship_deck_space_1
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -1268,7 +1268,7 @@ USA_CVL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2

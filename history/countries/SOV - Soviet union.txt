@@ -1373,16 +1373,16 @@ create_equipment_variant = {
 
 # Destroyers #
 create_equipment_variant = {
-	name = "Novik Superclass"
+	name = "Novik Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 0 #1
 	role_icon_index = 2
 	modules = {
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_1
-		front_2 = empty
+		mid_2 = ship_torpedo_1
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 8
@@ -1394,10 +1394,11 @@ create_equipment_variant = {
 	name = "Schastlivyy Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 1
+	parent_version = 1 #2
 	role_icon_index = 2
 	modules = {
-		front_2 = ship_unavailable_space
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_unavailable_space
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 7
@@ -1406,10 +1407,24 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
+	name = "Pobeditel Superclass"
+	type = ship_hull_light_1
+	name_group = SOV_DD_HISTORICAL
+	parent_version = 1 #3
+	role_icon_index = 2
+	modules = {
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_unavailable_space
+		front_2 = empty
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
 	name = "Fidonisi Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 2
+	parent_version = 2 #4
 	role_icon_index = 2
 	modules = {
 		fixed_inner_hull = cramped
@@ -1422,21 +1437,24 @@ create_equipment_variant = {
 	name = "Izyaslav Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 3
+	parent_version = 4 #5
 	role_icon_index = 2
 	modules = {
 		rear_1 = empty
-		mid_2 = empty
+		mid_1 = ship_torpedo_1
 		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
 	}
 	obsolete = yes
 }
 
 create_equipment_variant = {
-	name = "Leningrad Class"
+	name = "Leningrad Superclass"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 0 #is 5
+	parent_version = 0 #6
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_battery_2
@@ -1445,8 +1463,8 @@ create_equipment_variant = {
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_2
-		mid_2 = empty
-		mid_3 = empty
+		mid_2 = ship_torpedo_2
+		mid_3 = ship_anti_air_1
 		front_2 = ship_light_battery_1
 	}
 	upgrades = {
@@ -1457,30 +1475,19 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Minsk Class"
-	type = ship_hull_light_1
-	name_group = SOV_DD_HISTORICAL
-	parent_version = 5
-	role_icon_index = 1
-	modules = {
-		mid_3 = ship_anti_air_1
-	}
-}
-
-create_equipment_variant = {
 	name = "Gnevny Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 0 #is 6
+	parent_version = 0 #7
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_sonar_1
 		fixed_engine = ship_perf_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_depth_charge_1
-		rear_2 = ship_mine_layer_1
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
+		rear_2 = ship_anti_air_1
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
 		front_2 = ship_light_battery_1
 	}
 	upgrades = {
@@ -1492,12 +1499,15 @@ create_equipment_variant = {
 	name = "Opytnyy Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 7
+	parent_version = 7 #8
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_inner_hull = top_heavy
+		rear_2 = ship_mine_layer_1
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_torpedo_2
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
@@ -1508,7 +1518,7 @@ create_equipment_variant = {
 	name = "Tashkent Class"
 	type = ship_hull_light_1
 	name_group = SOV_DD_HISTORICAL
-	parent_version = 0
+	parent_version = 0 #9
 	role_icon_index = 1
 	modules = {
 		fixed_front_1 = ship_light_battery_2
@@ -1519,7 +1529,7 @@ create_equipment_variant = {
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_torpedo_2
-		mid_3 = empty
+		mid_3 = ship_anti_air_1
 		front_2 = ship_light_battery_1
 	}
 	upgrades = {
@@ -1554,8 +1564,8 @@ create_equipment_variant = {
 		fixed_inner_hull = cramped
 		rear_1 = ship_light_battery_1
 		rear_2 = ship_mine_layer_1
-		mid_1 = ship_torpedo_1
-		mid_2 = ship_torpedo_1
+		mid_1 = ship_torpedo_2
+		mid_2 = empty
 		mid_3 = ship_airplane_launcher_1
 		front_2 = ship_light_battery_1
 	}
@@ -1593,7 +1603,7 @@ create_equipment_variant = {
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_mine_layer_1
-		mid_2 = empty
+		mid_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
@@ -1605,21 +1615,12 @@ create_equipment_variant = {
 	name = "Krasnyy Kavkaz Class"				
 	type = ship_hull_cruiser_1
 	name_group = SOV_CA_HISTORICAL
-	parent_version = 0
+	parent_version = 2
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
-		fixed_inner_hull = cramped
-		rear_1 = ship_mine_layer_1
-		rear_2 = ship_airplane_launcher_1
-		mid_1 = ship_torpedo_1
-		mid_2 = ship_torpedo_1
-		mid_3 = ship_light_battery_1
+		mid_2 = ship_anti_air_2
 		front_2 = empty
-	}
-	upgrades = {
-		ship_medium_engine_upgrade = 6
-		ship_medium_armor_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -1636,9 +1637,9 @@ create_equipment_variant = {
 		fixed_engine = ship_perf_engine_2
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
-		mid_1 = ship_torpedo_2
+		mid_1 = ship_torpedo_1
 		mid_2 = ship_airplane_launcher_1
-		mid_3 = empty
+		mid_3 = ship_anti_air_2
 		front_2 = ship_medium_battery_1
 	}
 	upgrades = {
@@ -1657,8 +1658,8 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_perf_engine_2
 		rear_1 = ship_heavy_battery_1
-		mid_1 = ship_light_battery_1
-		front_2 = empty
+		mid_1 = ship_anti_air_1
+		front_2 = ship_anti_air_2
 	}
 	upgrades = {
 		ship_heavy_engine_upgrade = 2

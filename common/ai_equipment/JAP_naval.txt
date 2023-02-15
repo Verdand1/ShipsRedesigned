@@ -336,7 +336,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -369,8 +369,8 @@ JAP_CL = {
 		
 		enable = {
 			OR = {
-				has_idea = SRD_naval_treaty_adherent_cheat
-				has_idea = SRD_naval_treaty_adherent_escalator
+				has_country_flag = srd_treaty_members_cheat
+				has_country_flag = srd_treaty_members_escalator
 			}
 		}
 		
@@ -403,7 +403,7 @@ JAP_CL = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent_escalator_cheat
+			has_country_flag = srd_treaty_members_escalator_cheat
 		}
 		
 		target_variant = {
@@ -600,7 +600,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -632,8 +632,8 @@ JAP_CA = {
 		
 		enable = {
 			OR = {
-				has_idea = SRD_naval_treaty_adherent_cheat
-				has_idea = SRD_naval_treaty_adherent_escalator
+				has_country_flag = srd_treaty_members_cheat
+				has_country_flag = srd_treaty_members_escalator
 			}
 		}
 		
@@ -666,7 +666,7 @@ JAP_CA = {
 		role_icon_index = 2
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent_escalator_cheat
+			has_country_flag = srd_treaty_members_escalator_cheat
 		}
 		
 		target_variant = {
@@ -979,7 +979,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 		}
 		
@@ -1013,7 +1013,7 @@ JAP_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_idea = SRD_naval_treaty_adherent }
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = JAP_carrier_warfare_experiments }
 			not = { has_tech = advanced_perf_engines }
 		}
@@ -1196,8 +1196,8 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				fixed_front_1 = ship_large_deck_space
-				rear_1 = ship_large_deck_space
+				fixed_front_1 = ship_deck_space_3
+				rear_1 = ship_deck_space_3
 				mid_1 = ship_light_battery_2
 				mid_2 = { any_of = { ship_anti_air_2 ship_anti_air_1 } }
 				mid_3 = ship_light_battery_2
@@ -1233,7 +1233,7 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_deck_space_1
 				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 			}
@@ -1252,7 +1252,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1293,7 +1293,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1316,7 +1316,7 @@ JAP_CV = {
 			type = ship_hull_carrier_1
 			modules = {
 				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
-				mid_4 = ship_deck_space
+				mid_4 = ship_deck_space_1
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1333,7 +1333,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1375,7 +1375,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1398,7 +1398,7 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_deck_space_1
 				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				front_2 = ship_unavailable_space
@@ -1418,7 +1418,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1459,7 +1459,7 @@ JAP_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_extra_fuel_tank_1
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1537,7 +1537,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1577,7 +1577,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1615,7 +1615,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1655,7 +1655,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1696,7 +1696,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -1735,7 +1735,7 @@ JAP_CVL = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_extra_fuel_tank_1
-			ship_deck_space
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2

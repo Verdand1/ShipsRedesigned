@@ -329,7 +329,7 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = empty
 		rear_2 = empty
-		mid_1 = empty
+		mid_1 = ship_anti_air_1
 	}
 	obsolete = yes
 }
@@ -344,7 +344,7 @@ create_equipment_variant = {
 		fixed_engine = ship_range_engine_2
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_depth_charge_1
-		rear_2 = ship_mine_layer_1
+		rear_2 = ship_anti_air_1
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_torpedo_2
 	}
@@ -354,7 +354,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Goncalo Velho & Pedro Nunes Classes"
+	name = "Pedro Nunes Class"
+	type = ship_hull_light_1
+	name_group = POR_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		fixed_engine = ship_range_engine_2
+		fixed_inner_hull = ship_extra_fuel_tank_3
+		rear_1 = ship_depth_charge_1
+		rear_2 = ship_anti_air_1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Gonçalo Velho Class"
 	type = ship_hull_light_1
 	name_group = POR_DD_HISTORICAL
 	parent_version = 0
@@ -379,7 +394,7 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
-		mid_1 = empty
+		mid_1 = ship_anti_air_1
 		front_2 = empty
 	}
 	upgrades = {

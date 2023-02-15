@@ -522,7 +522,7 @@ FRA_BB = {
 		role_icon_index = 1
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -715,7 +715,7 @@ FRA_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			has_idea = SRD_naval_treaty_adherent
+			has_country_flag = srd_treaty_members
 		}
 		
 		target_variant = {
@@ -740,7 +740,7 @@ FRA_CV = {
 			ship_fire_control_system_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_2
 		}
 	}
@@ -778,7 +778,7 @@ FRA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -803,7 +803,7 @@ FRA_CV = {
 				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_battery_2 } }
 				mid_4 = ship_unavailable_space
-				front_2 = ship_deck_space
+				front_2 = ship_deck_space_1
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8
@@ -819,7 +819,7 @@ FRA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -858,7 +858,7 @@ FRA_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2

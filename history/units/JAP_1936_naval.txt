@@ -122,18 +122,18 @@ units = {
 			name = "Dai 2 Suirai Sentai"
 			location = 9950 #Sasebo
 			ship = { name = "Naka" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Sendai Class"} } }
-			ship = { name = "Uranami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Ayanami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Shikinami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Amagiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Yugiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Asagiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Hibiki" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Ikazuchi" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Inazuma" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Fubuki" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Shinonome" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Isonami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
+			ship = { name = "Uranami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Ayanami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Shikinami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Amagiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Yugiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Asagiri" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Hibiki" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Akatsuki Class"} } }
+			ship = { name = "Ikazuchi" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Akatsuki Class"} } }
+			ship = { name = "Inazuma" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Akatsuki Class"} } }
+			ship = { name = "Fubuki" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Shinonome" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Isonami" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
 		}
 		task_force = {
 			name = "Dai 2 Sensui Sentai"
@@ -202,11 +202,11 @@ units = {
 			ship = { name = "Furutaka" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Aoba Superclass"} } }
 			ship = { name = "Tatsuta" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Tenryu Class"} } }
 			ship = { name = "Shirataka" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Shirataka Class"} } }
-			ship = { name = "Murakumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Usugumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }	
-			ship = { name = "Shirakumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Shirayuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Hatsuyuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
+			ship = { name = "Murakumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Usugumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }	
+			ship = { name = "Shirakumo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Shirayuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Hatsuyuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
 			ship = { name = "Fuji" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Susuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Tsuta" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
@@ -222,12 +222,12 @@ units = {
 			location = 9998 #Yokosuka
 			ship = { name = "Kiso" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Kuma Class"} } }
 			ship = { name = "Itsukushima" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Itsukushima Class"} } }
-			ship = { name = "Oboro" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Akebono" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Sazanami" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Ushio" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Sagiri" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
-			ship = { name = "Akatsuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Superclass"} } }
+			ship = { name = "Oboro" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Akebono" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Sazanami" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Ushio" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Sagiri" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Fubuki Class"} } }
+			ship = { name = "Akatsuki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Akatsuki Class"} } }
 			ship = { name = "Shimakaze" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
 			ship = { name = "Nadakaze" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
 			ship = { name = "Shiokaze" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
@@ -259,10 +259,10 @@ units = {
 			ship = { name = "Kaya" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Nashi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Take" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
-			ship = { name = "Momo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
-			ship = { name = "Kashi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
-			ship = { name = "Hinoki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
-			ship = { name = "Yanagi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
+			ship = { name = "Momo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
+			ship = { name = "Kashi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
+			ship = { name = "Hinoki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
+			ship = { name = "Yanagi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
 			ship = { name = "RO60" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
 			ship = { name = "RO61" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
 			ship = { name = "RO62" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
@@ -285,8 +285,8 @@ units = {
 			ship = { name = "Sumire" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Yomogi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "Tade" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
-			ship = { name = "9-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
-			ship = { name = "10-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Superclass"} } }
+			ship = { name = "9-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Enoki Class"} } }
+			ship = { name = "10-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Enoki Class"} } }
 			ship = { name = "RO33" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 5"} } }
 			ship = { name = "RO34" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 5"} } }
 		}

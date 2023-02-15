@@ -196,10 +196,10 @@ units= {
 			ship = { name = "RCT Perseo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Spica Class" } } }
 			ship = { name = "RCT Sirio" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Spica Class" } } }
 			# IV Squadriglia Torpediniere
-			ship = { name = "RCT Calatafimi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Castelfidardo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Curtatone" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Monzambano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
+			ship = { name = "RCT Calatafimi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } }
+			ship = { name = "RCT Castelfidardo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } }
+			ship = { name = "RCT Curtatone" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } }
+			ship = { name = "RCT Monzambano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Curtatone Class" } } }
 		}
 		task_force = {
 			name = "Settore Basso Tirreno - Napoli"
@@ -315,10 +315,10 @@ units= {
 			ship = { name = "RCT Pantera" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Leone Class" } } }
 			ship = { name = "RCT Tigre" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Leone Class" } } }
 			# XI Squadriglia Torpediniere
-			ship = { name = "RCT Zenson" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Cortelazzo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Grado" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
-			ship = { name = "RCT Monfalcone" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Superclass" } } }
+			ship = { name = "RCT Zenson" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "RCT Cortelazzo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "RCT Grado" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
+			ship = { name = "RCT Monfalcone" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ITA version_name = "Fasana Class" } } }
 			# LXXI Squadriglia Sommergibili
 			ship = { name = "RSmg Archimede" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }
 			ship = { name = "RSmg Galileo Ferraris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ITA version_name = "Improved 800t Type" } } }

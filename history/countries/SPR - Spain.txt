@@ -255,6 +255,8 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
+	improved_light_battery = 1
+	basic_light_battery = 1
 	improved_torpedo_launcher = 1
 	basic_depth_charges = 1
 	improved_range_engines = 1
@@ -569,17 +571,18 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_3
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_1
+		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_depth_charge_1
-		rear_2 = empty
-		mid_1 = ship_torpedo_2
-		mid_2 = empty
-		front_2 = ship_light_battery_1
+		rear_2 = ship_anti_air_2
+		mid_1 = ship_torpedo_1
+		mid_2 = ship_torpedo_1
+		front_2 = ship_light_battery_3
 	}
 	upgrades = {
-		ship_light_engine_upgrade = 8
+		ship_light_engine_upgrade = 9
 	}
 }
 
@@ -590,10 +593,11 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_light_battery_3
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_depth_charge_1
-		rear_2 = empty
-		mid_1 = empty
+		rear_2 = ship_anti_air_2
+		mid_1 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 1
@@ -609,25 +613,27 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_mine_layer_1
-		rear_2 = ship_mine_layer_1
-		mid_1 = empty
+		rear_2 = ship_depth_charge_1
+		mid_1 = ship_anti_air_1
 		front_2 = empty
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 1
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {
-	name = "Marte Class"
+	name = "Vulcano Class"
 	type = ship_hull_light_1
 	name_group = SPR_DD_HISTORICAL
 	parent_version = 4
 	role_icon_index = 4
 	modules = {
-		rear_1 = ship_depth_charge_1
+		fixed_front_1 = ship_light_battery_3
+		rear_2 = ship_mine_layer_1
+		front_2 = ship_anti_air_2
 	}
-	obsolete = yes
 }
 
 # Light Cruisers #
@@ -640,7 +646,7 @@ create_equipment_variant = {
 	modules = {
 		rear_1 = ship_light_medium_battery_1
 		rear_2 = empty
-		mid_1 = ship_torpedo_2
+		mid_1 = ship_torpedo_1
 		front_2 = empty
 	}
 	upgrades = {
@@ -660,7 +666,7 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = ship_unavailable_space
-		mid_2 = ship_torpedo_2
+		mid_2 = ship_torpedo_1
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 6
@@ -703,14 +709,14 @@ create_equipment_variant = {
 		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_medium_battery_1
 		rear_2 = ship_depth_charge_1
-		mid_1 = empty
-		mid_2 = empty
-		mid_3 = ship_light_battery_1
+		mid_1 = ship_anti_air_2
+		mid_2 = ship_anti_air_2
+		mid_3 = ship_light_battery_3
 		mid_4 = empty
 		front_2 = ship_medium_battery_1
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 7
+		ship_medium_engine_upgrade = 8
 		ship_medium_armor_upgrade = 1
 	}
 }

@@ -812,7 +812,7 @@ GER_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_anti_air_4
@@ -835,7 +835,7 @@ GER_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space
+				rear_2 = ship_deck_space_1
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 } }
 			}
 			upgrades = {
@@ -852,7 +852,7 @@ GER_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_3
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_anti_air_4
@@ -890,7 +890,7 @@ GER_CV = {
 			ship_fire_control_radar_1
 			ship_perf_engine_4
 			ship_reinforced_structure
-			ship_large_deck_space
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_anti_air_4

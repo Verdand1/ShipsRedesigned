@@ -7,9 +7,9 @@ units= {
 		task_force = {
 			name = "Otdel'nogo Diviziona Eskadrennykh Minonostsev"
 			location = 3134 # Murmansk
-			ship = { name = "Rykov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Karl Libknekht" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Uritskiy" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
+			ship = { name = "Rykov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Karl Libknekht" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Uritskiy" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
 		}
 		task_force = {
 			name = "1iy Podvodniy Flot"
@@ -45,21 +45,21 @@ units= {
 		task_force = {
 			name = "3ya Flotiliya Esmintsev"
 			location = 3151 # Leningrad
-			ship = { name = "Artyom" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Engels" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Yakov Sverdlov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
+			ship = { name = "Artyom" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Engels" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Yakov Sverdlov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Class" } } }
 			ship = { name = "Kalinin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav Class" } } }
 			ship = { name = "Karl Marx" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Izyaslav Class" } } }
-			ship = { name = "Volodarskiy" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Lenin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
+			ship = { name = "Volodarskiy" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Lenin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
 		}
 		task_force = {
 			name = "4ya Flotiliya Esmintsev"
 			location = 3151 # Leningrad
-			ship = { name = "Leningrad" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Class" } } }
-			ship = { name = "Minsk" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Minsk Class" } } }
-			ship = { name = "Voykov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
-			ship = { name = "Stalin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Novik Superclass" } } }
+			ship = { name = "Leningrad" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Superclass" } } }
+			ship = { name = "Minsk" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Superclass" } } }
+			ship = { name = "Voykov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
+			ship = { name = "Stalin" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Pobeditel Superclass" } } }
 		}
 		task_force = {
 			name = "1iy Podvodniy Flot"
@@ -132,8 +132,8 @@ units= {
 		task_force = {
 			name = "3ya Flotiliya Esmintsev"
 			location = 3686 # Sevastopopl
-			ship = { name = "Kharkov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Class" } } }
-			ship = { name = "Moskva" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Class" } } }
+			ship = { name = "Kharkov" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Superclass" } } }
+			ship = { name = "Moskva" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SOV version_name = "Leningrad Superclass" } } }
 		}
 		task_force = {
 			name = "1iy Podvodniy Flot"
