@@ -21,9 +21,8 @@ set_technology = {
 	infantry_weapons = 1
 	gw_artillery = 1
 	improved_torpedo_launcher = 1
-	basic_range_engines = 1	
-	improved_perf_engines = 1
-	basic_perf_engines = 1
+	improved_range_engines = 1
+	basic_range_engines = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
@@ -158,7 +157,7 @@ set_popularities = {
 
 # Submarines #
 create_equipment_variant = {
-	name = "R Class"				
+	name = "R Type"				
 	type = ship_hull_submarine_1
 	name_group = PRU_SS_HISTORICAL
 	parent_version = 0
@@ -166,11 +165,12 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_3
-		rear_1 = ship_torpedo_sub_2
+		mid_1 = empty
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 2
+		sub_range_upgrade = 9
 		sub_depth_upgrade = 3
 	}
 }
@@ -184,6 +184,7 @@ create_equipment_variant = {
 	role_icon_index = 2
 	upgrades = {
 		ship_light_engine_upgrade = 4
+		ship_light_range_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -202,6 +203,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 7
+		ship_light_range_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -229,13 +231,14 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_light_medium_battery_1
-		fixed_engine = ship_perf_engine_2
+		fixed_engine = ship_range_engine_2
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_anti_air_1
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 2
+		ship_medium_engine_upgrade = 3
+		ship_medium_range_upgrade = 1
 		ship_medium_armor_upgrade = 1
 	}
 }

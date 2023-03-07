@@ -17,8 +17,8 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 3
-			reliability = 0.03
-			build_cost_ic = 50
+			reliability = 0.005
+			build_cost_ic = 80
 		}
 		manpower = 40 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -28,11 +28,11 @@ equipment_modules = {
 			lg_armor_piercing = 1
 		}
 		
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 32
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 20
+			convert_cost_ic = 32
 		}
 
 		critical_parts = { damaged_light_guns }
@@ -46,8 +46,8 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 4
-			reliability = 0.03
-			build_cost_ic = 100
+			reliability = 0.01
+			build_cost_ic = 120
 		}
 		manpower = 40 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -57,11 +57,11 @@ equipment_modules = {
 			lg_armor_piercing = 4
 		}
 		
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 32
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 60
+			convert_cost_ic = 64
 		}
 		
 		critical_parts = { damaged_light_guns }
@@ -76,8 +76,8 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 5
-			reliability = 0.03
-			build_cost_ic = 150
+			reliability = 0.015
+			build_cost_ic = 160
 		}
 		manpower = 40 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -87,11 +87,11 @@ equipment_modules = {
 			lg_armor_piercing = 2
 		}
 		
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 32
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 100
+			convert_cost_ic = 96
 		}
 		
 		critical_parts = { damaged_light_guns }
@@ -106,7 +106,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 6
-			reliability = 0.03
+			reliability = 0.02
 			build_cost_ic = 200
 		}
 		manpower = 40 #outside the add_stats section for code reasons
@@ -117,11 +117,11 @@ equipment_modules = {
 			lg_armor_piercing = 4
 		}
 		
-		dismantle_cost_ic = 20
+		dismantle_cost_ic = 32
 		
 		can_convert_from = {
 			module_category = ship_light_battery
-			convert_cost_ic = 140
+			convert_cost_ic = 128
 		}
 		
 		critical_parts = { damaged_light_guns }
@@ -144,7 +144,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.02
 			max_strength = 6
-			reliability = 0.03
+			reliability = 0.01
 			build_cost_ic = 200
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -180,7 +180,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.03
 			max_strength = 8
-			reliability = 0.03
+			reliability = 0.02
 			build_cost_ic = 300
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -252,7 +252,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.05
 			max_strength = 12
-			reliability = 0.03
+			reliability = 0.04
 			build_cost_ic = 500
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -289,7 +289,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.02
 			max_strength = 6
-			reliability = 0.03
+			reliability = 0.01
 			build_cost_ic = 200
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -330,7 +330,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.03
 			max_strength = 8
-			reliability = 0.03
+			reliability = 0.02
 			build_cost_ic = 300
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -412,7 +412,7 @@ equipment_modules = {
 			surface_visibility = 1
 			supply_consumption = 0.05
 			max_strength = 12
-			reliability = 0.03
+			reliability = 0.04
 			build_cost_ic = 500
 		}
 		manpower = 100 #outside the add_stats section for code reasons
@@ -461,8 +461,8 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.06
 			max_strength = 12
-			reliability = 0.03
-			build_cost_ic = 400
+			reliability = 0.02
+			build_cost_ic = 500
 		}
 		manpower = 160 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -479,7 +479,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 160
+			convert_cost_ic = 240
 		}
 		
 		critical_parts = { damaged_heavy_guns }
@@ -494,7 +494,7 @@ equipment_modules = {
 			supply_consumption = 0.08
 			max_strength = 16
 			reliability = 0.03
-			build_cost_ic = 600
+			build_cost_ic = 750
 		}
 		manpower = 160 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -511,7 +511,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 320
+			convert_cost_ic = 440
 		}
 		
 		critical_parts = { damaged_heavy_guns }
@@ -525,8 +525,8 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.1
 			max_strength = 20
-			reliability = 0.03
-			build_cost_ic = 800
+			reliability = 0.04
+			build_cost_ic = 1000
 		}
 		manpower = 160 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -543,7 +543,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 480
+			convert_cost_ic = 640
 		}
 		
 		critical_parts = { damaged_heavy_guns }
@@ -557,8 +557,8 @@ equipment_modules = {
 			surface_visibility = 2
 			supply_consumption = 0.12
 			max_strength = 24
-			reliability = 0.03
-			build_cost_ic = 1000
+			reliability = 0.05
+			build_cost_ic = 1250
 		}
 		manpower = 160 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -575,7 +575,7 @@ equipment_modules = {
 		
 		can_convert_from = {
 			module_category = ship_heavy_battery
-			convert_cost_ic = 640
+			convert_cost_ic = 840
 		}
 		
 		critical_parts = { damaged_heavy_guns }
@@ -705,12 +705,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			reliability = 0.02
+			reliability = 0.04
 		}		
 		multiply_stats = {
 			fuel_consumption = -0.05
 			naval_range = 0.1
-			build_cost_ic = 0.05
+			build_cost_ic = 0.08
 		}
 		
 		dismantle_cost_ic = 600
@@ -721,12 +721,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			reliability = 0.02
+			reliability = 0.06
 		}		
 		multiply_stats = {
 			fuel_consumption = -0.1
 			naval_range = 0.2
-			build_cost_ic = 0.1
+			build_cost_ic = 0.16
 		}
 		
 		dismantle_cost_ic = 600
@@ -737,12 +737,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			reliability = 0.02
+			reliability = 0.08
 		}		
 		multiply_stats = {
 			fuel_consumption = -0.15
 			naval_range = 0.3
-			build_cost_ic = 0.15
+			build_cost_ic = 0.24
 		}
 		
 		dismantle_cost_ic = 600
@@ -753,12 +753,12 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
-			reliability = 0.02
+			reliability = 0.1
 		}		
 		multiply_stats = {
 			fuel_consumption = -0.2
 			naval_range = 0.4
-			build_cost_ic = 0.2
+			build_cost_ic = 0.32
 		}
 		
 		dismantle_cost_ic = 600
@@ -770,7 +770,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.05
-			max_strength = 0.025
+			max_strength = 0.03
 			build_cost_ic = 0.07
 		}
 		
@@ -783,7 +783,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.1
-			max_strength = 0.05
+			max_strength = 0.06
 			build_cost_ic = 0.14
 		}
 		
@@ -796,7 +796,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.15
-			max_strength = 0.075
+			max_strength = 0.09
 			build_cost_ic = 0.21
 		}
 		
@@ -809,7 +809,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			naval_speed = 0.2
-			max_strength = 0.1
+			max_strength = 0.12
 			build_cost_ic = 0.28
 		}
 		
@@ -827,6 +827,9 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
+		add_stats = {
+			reliability = 0.04
+		}		
 		multiply_stats = {
 			naval_speed = 0.05
 			fuel_consumption = -0.05
@@ -841,6 +844,9 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
+		add_stats = {
+			reliability = 0.06
+		}		
 		multiply_stats = {
 			naval_speed = 0.1
 			fuel_consumption = -0.1
@@ -855,6 +861,9 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
+		add_stats = {
+			reliability = 0.08
+		}		
 		multiply_stats = {
 			naval_speed = 0.15
 			fuel_consumption = -0.15
@@ -869,6 +878,9 @@ equipment_modules = {
 		category = sub_ship_engine
 		sfx = sfx_ui_sd_module_engine
 		
+		add_stats = {
+			reliability = 0.1
+		}		
 		multiply_stats = {
 			naval_speed = 0.2
 			fuel_consumption = -0.2
@@ -877,87 +889,6 @@ equipment_modules = {
 		}
 		
 		dismantle_cost_ic = 300
-
-	}
-
-
-###   ##  #   #  ##   ##  ###      ##   ##  #  # ### ###   ##  #        ## #   #  ## ### ### #   # 
-#  # #  # ## ## #  # #    #       #  # #  # ## #  #  #  # #  # #       #    # #  #    #  #   ## ## 
-#  # #### # # # #### # ## ##      #    #  # # ##  #  ###  #  # #        #    #    #   #  ##  # # # 
-#  # #  # #   # #  # #  # #       #  # #  # #  #  #  #  # #  # #         #   #     #  #  #   #   # 
-###  #  # #   # #  #  ##  ###      ##   ##  #  #  #  #  #  ##  ###     ##    #   ##   #  ### #   # 
-
-
-	ship_damage_control_system_1 = {
-		category = ship_damage_control
-		
-		add_stats = {
-			build_cost_ic = 200
-		}
-		
-		multiply_stats = {
-			reliability = 0.1
-			build_cost_ic = 0.05
-		}
-		
-		dismantle_cost_ic = 200
-
-	}
-	ship_damage_control_system_2 = {
-		category = ship_damage_control
-		
-		add_stats = {
-			build_cost_ic = 200
-		}
-		
-		multiply_stats = {
-			reliability = 0.2
-			build_cost_ic = 0.1
-		}
-		
-		dismantle_cost_ic = 200
-
-	}
-	ship_damage_control_system_3 = {
-		category = ship_damage_control
-		
-		add_stats = {
-			build_cost_ic = 200
-		}
-		
-		multiply_stats = {
-			reliability = 0.3
-			build_cost_ic = 0.15
-		}
-		
-		dismantle_cost_ic = 200
-
-	}
-
-
-###  ### ### #  # ###  ##  ###   ##  ### ###       ## ### ###  #  #  ##  ### #  # ###  ### 
-#  # #    #  ## # #   #  # #  # #  # #   #  #     #    #  #  # #  # #  #  #  #  # #  # #   
-###  ##   #  # ## ##  #  # ###  #    ##  #  #      #   #  ###  #  # #     #  #  # ###  ##  
-#  # #    #  #  # #   #  # #  # #  # #   #  #       #  #  #  # #  # #  #  #  #  # #  # #   
-#  # ### ### #  # #    ##  #  #  ##  ### ###      ##   #  #  #  ##   ##   #   ##  #  # ### 
-
-
-	ship_reinforced_structure = {
-		category = ship_reinforced_structure
-		
-		add_stats = {
-			build_cost_ic = 100
-		}
-		
-		multiply_stats = {
-			max_strength = 0.1
-			build_cost_ic = 0.05
-		}
-		build_cost_resources = {
-			steel = 1
-		}
-		
-		dismantle_cost_ic = 200
 
 	}
 
@@ -979,7 +910,7 @@ equipment_modules = {
 			supply_consumption = 0.01
 			max_strength = 2
 			reliability = 0.03
-			build_cost_ic = 100
+			build_cost_ic = 110
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -990,7 +921,7 @@ equipment_modules = {
 
 		can_convert_from = {
 			module = ship_torpedo
-			convert_cost_ic = 60
+			convert_cost_ic = 70
 		}
 
 		critical_parts = { damaged_torpedoes }
@@ -1005,7 +936,7 @@ equipment_modules = {
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 2
-			reliability = 0.03
+			reliability = 0.04
 			build_cost_ic = 150
 		}
 		manpower = 10 #outside the add_stats section for code reasons
@@ -1028,11 +959,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			torpedo_attack = 10
-			sub_visibility = 1.5
+			torpedo_attack = 8
+			sub_visibility = 1
 			supply_consumption = 0.01
 			reliability = 0.03
-			build_cost_ic = 50
+			build_cost_ic = 60
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1047,11 +978,11 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			torpedo_attack = 14
+			torpedo_attack = 12
 			sub_visibility = 2
 			supply_consumption = 0.01
-			reliability = 0.03
-			build_cost_ic = 80
+			reliability = 0.04
+			build_cost_ic = 100
 		}
 		manpower = 10 #outside the add_stats section for code reasons
 		multiply_stats = {
@@ -1060,6 +991,17 @@ equipment_modules = {
 		
 		critical_parts = { damaged_torpedoes }
 		
+	}
+	ship_torpedo_sub_storage = {
+		category = ship_torpedo_sub_storage
+		
+		add_stats = {
+			supply_consumption = 0.01
+		}
+		multiply_stats = {
+			build_cost_ic = 0.1
+			torpedo_attack = 0.3
+		}		
 	}
 
 
@@ -1279,6 +1221,7 @@ equipment_modules = {
 
 		add_stats = {
 			surface_visibility = 1
+			reliability = 0.05
 			supply_consumption = 0.05
 			carrier_size = 1
 			max_strength = 5
@@ -1306,6 +1249,7 @@ equipment_modules = {
 
 		add_stats = {
 			surface_visibility = 2
+			reliability = 0.05
 			supply_consumption = 0.1
 			carrier_size = 2
 			max_strength = 10
@@ -1337,6 +1281,7 @@ equipment_modules = {
 
 		add_stats = {
 			surface_visibility = 3
+			reliability = 0.05
 			supply_consumption = 0.2
 			carrier_size = 4
 			max_strength = 20
@@ -1360,70 +1305,6 @@ equipment_modules = {
 			module_category = ship_large_deck_space
 			convert_cost_ic = 1000
 		}
-		
-	}
-
-
-### #  # ### #       ###  ##  #  # # #  ## 
-#   #  # #   #        #  #  # ## # # # #   
-##  #  # ##  #        #  #### # ## ##   #  
-#   #  # #   #        #  #  # #  # # #   # 
-#    ##  ### ###      #  #  # #  # # # ##  
-
-
-	ship_extra_fuel_tank_1 = {
-		category = ship_extra_fuel_tank
-		
-		add_stats = {
-			build_cost_ic = 100
-		}
-		
-		multiply_stats = {
-			max_strength = 0.03
-			surface_visibility = 0.05
-			sub_visibility = 0.05
-			naval_range = 0.2
-			build_cost_ic = 0.05
-		}
-		
-		dismantle_cost_ic = 200
-		
-	}
-	ship_extra_fuel_tank_2 = {
-		category = ship_extra_fuel_tank
-		
-		add_stats = {
-			build_cost_ic = 200
-		}
-		
-		multiply_stats = {
-			max_strength = 0.06
-			surface_visibility = 0.1
-			sub_visibility = 0.1
-			naval_range = 0.4
-			build_cost_ic = 0.1
-		}
-		
-		dismantle_cost_ic = 200
-		
-	}
-
-	ship_extra_fuel_tank_3 = {
-		category = ship_extra_fuel_tank
-		
-		add_stats = {
-			build_cost_ic = 300
-		}
-		
-		multiply_stats = {
-			max_strength = 0.09
-			surface_visibility = 0.15
-			sub_visibility = 0.15
-			naval_range = 0.6
-			build_cost_ic = 0.15
-		}
-		
-		dismantle_cost_ic = 200
 		
 	}
 
@@ -1732,28 +1613,7 @@ equipment_modules = {
 		}
 		multiply_stats = {
 			naval_speed = 0.1
-			naval_range = 0.3
 			max_strength = -0.1
-		}
-		
-		dismantle_cost_ic = 500
-
-	}
-	badly_shaped_hull = {
-		category = design_flaws
-		
-		multiply_stats = {
-			naval_speed = -0.15
-		}
-		
-		dismantle_cost_ic = 200
-
-	}
-	cramped = {
-		category = design_flaws
-		
-		multiply_stats = {
-			naval_range = -0.2
 		}
 		
 		dismantle_cost_ic = 500

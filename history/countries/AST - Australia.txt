@@ -269,23 +269,6 @@ set_convoys = 100
 
 # Destroyers #
 create_equipment_variant = {
-	name = "Stalwart Class"
-	type = ship_hull_light_1
-	name_group = AST_DD_HISTORICAL
-	parent_version = 0
-	role_icon_index = 2
-	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_1
-		rear_1 = ship_depth_charge_1
-		rear_2 = empty
-		mid_1 = ship_torpedo_2
-	}
-	upgrades = {
-		ship_light_engine_upgrade = 8
-	}
-	obsolete = yes
-}
-create_equipment_variant = {
 	name = "Vampire Class"
 	type = ship_hull_light_1
 	name_group = AST_DD_HISTORICAL
@@ -300,6 +283,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 7
+		ship_light_range_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -307,7 +291,7 @@ create_equipment_variant = {
 	name = "Vendetta & Voyager Classes"
 	type = ship_hull_light_1
 	name_group = AST_DD_HISTORICAL
-	parent_version = 2
+	parent_version = 1
 	role_icon_index = 2
 	modules = {
 		rear_1 = ship_depth_charge_1
@@ -315,21 +299,23 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 7
+		ship_light_range_upgrade = 3
 	}
 }
 create_equipment_variant = {
 	name = "Stuart Class"
 	type = ship_hull_light_1
 	name_group = AST_DD_HISTORICAL
-	parent_version = 2
+	parent_version = 1
 	role_icon_index = 2
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		front_2 = empty
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 8
+		ship_light_armor_upgrade = 1
 	}
 }
 create_equipment_variant = {
@@ -339,10 +325,29 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 5
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_sweeper_1
 		mid_1 = empty
+	}
+	upgrades = {
+		ship_light_range_upgrade = 3
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Stalwart Class"
+	type = ship_hull_light_1
+	name_group = AST_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+		mid_1 = ship_torpedo_2
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 6
 	}
 	obsolete = yes
 }
@@ -355,10 +360,12 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_sonar_2
 		fixed_engine = ship_range_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		rear_2 = empty
 		mid_1 = ship_anti_air_2
+	}
+	upgrades = {
+		ship_light_range_upgrade = 8
 	}
 }
 
@@ -378,6 +385,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 3
+		ship_medium_range_upgrade = 3
 		ship_medium_armor_upgrade = 1
 	}
 	obsolete = yes
@@ -391,7 +399,6 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_range_engine_1
 		fixed_front_1 = ship_light_battery_1
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_anti_air_1
 		rear_2 = ship_anti_air_2
 		mid_1 = ship_airplane_launcher_1
@@ -399,6 +406,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
+		ship_medium_range_upgrade = 9
 	}
 }
 create_equipment_variant = {
@@ -411,7 +419,6 @@ create_equipment_variant = {
 		fixed_front_1 = ship_light_medium_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_light_medium_battery_2
 		rear_2 = ship_anti_air_2
 		mid_1 = ship_torpedo_2
@@ -420,6 +427,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 8
+		ship_medium_range_upgrade = 9
 		ship_medium_armor_upgrade = 2
 	}
 }
@@ -435,7 +443,6 @@ create_equipment_variant = {
 		fixed_front_1 = ship_medium_battery_1
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_medium_battery_1
 		rear_2 = empty
 		mid_1 = ship_torpedo_2
@@ -446,6 +453,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 7
+		ship_medium_range_upgrade = 5
 		ship_medium_armor_upgrade = 1
 	}
 }

@@ -208,14 +208,9 @@ guiTypes = {
 				position = { x=@fixed_btn_mod_col_3 y=@fixed_btn_mod_row }
 			}
 
-			positionType = {
-				name = "pos_fixed_module_slot_window_4"
-				position = { x=@fixed_btn_mod_col_4 y=@fixed_btn_mod_row }
-			}
-
 			containerWindowType = {
 				name = "equipment_upgrade_0"
-				position = { x = 275 y = 297 }
+				position = { x = 202 y = 297 }
 				size = { width = 73 height = 40 } 
 			
 				buttonType = {
@@ -258,6 +253,49 @@ guiTypes = {
 
 			containerWindowType = {
 				name = "equipment_upgrade_1"
+				position = { x = 275 y = 297 }
+				size = { width = 73 height = 40 } 
+			
+				buttonType = {
+					name = "btn_dec"
+					quadTextureSprite ="GFX_naval_decrease_amount"
+					position = { x = 90 y = 17 }
+					clicksound = "ui_tank_designer_decrease"
+				}
+
+				buttonType = {
+					name = "btn_inc"
+					quadTextureSprite ="GFX_naval_increase_amount"
+					position = { x = 133 y = 17 }
+					clicksound = "ui_tank_designer_increase"
+				}
+				
+
+				instantTextboxType = {
+					name = "name"
+					position = { x = 84 y = 3 }
+					font = "hoi_18mbs"
+					maxWidth = 90
+					maxHeight = 20
+					format = center
+					text = "_range_"
+				}
+
+				instantTextboxType = {
+					name = "level"
+					position = { x = 114 y = 18 }
+					font = "hoi_18mbs"
+					maxWidth = 28
+					maxHeight = 30
+					format = center
+					vertical_alignment = center
+					text = "99"
+				}
+
+			}
+
+			containerWindowType = {
+				name = "equipment_upgrade_2"
 				position = { x = 348 y = 297 }
 				size = { width = 73 height = 40 } 
 			

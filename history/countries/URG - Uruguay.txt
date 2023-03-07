@@ -148,5 +148,6 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 2
+		ship_light_range_upgrade = 3
 	}
 }

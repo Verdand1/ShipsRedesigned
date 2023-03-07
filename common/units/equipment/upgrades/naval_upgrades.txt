@@ -19,7 +19,7 @@ upgrades = {
 			naval_range = -0.03
 			surface_detection = 0.05
 			sub_visibility = 0.02
-			build_cost_ic = 0.02
+			build_cost_ic = 0.03
 		}
 	}
 	ship_light_engine_upgrade = {
@@ -39,7 +39,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_range = -0.03
-			build_cost_ic = 0.02
+			build_cost_ic = 0.03
 		}
 	}
 	ship_medium_engine_upgrade = {
@@ -59,7 +59,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_range = -0.03
-			build_cost_ic = 0.02
+			build_cost_ic = 0.03
 		}
 	}
 	ship_heavy_engine_upgrade = {
@@ -79,6 +79,90 @@ upgrades = {
 
 		multiply_stats = {
 			naval_range = -0.03
+			build_cost_ic = 0.03
+		}
+	}
+
+	sub_range_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_range = 600
+			max_strength = 0.5
+		}		
+
+		multiply_stats = {
+			surface_visibility = 0.02
+			sub_visibility = 0.02
+			build_cost_ic = 0.02
+		}
+	}
+	ship_light_range_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_range = 300
+			max_strength = 1
+			naval_torpedo_damage_reduction_factor = 0.01
+			naval_torpedo_enemy_critical_chance_factor = -0.01
+		}		
+
+		multiply_stats = {
+			surface_visibility = 0.02
+			build_cost_ic = 0.02
+		}
+	}
+	ship_medium_range_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_range = 600
+			max_strength = 2
+			naval_torpedo_damage_reduction_factor = 0.01
+			naval_torpedo_enemy_critical_chance_factor = -0.01
+		}		
+
+		multiply_stats = {
+			surface_visibility = 0.02
+			build_cost_ic = 0.02
+		}
+	}
+	ship_heavy_range_upgrade = {
+		max_level = 9
+		cost = naval
+
+		linear_cost = {
+			cost_by_level = 1
+			cost_by_level_for_licensed_equipment = 2
+		}
+
+		add_stats = {
+			naval_range = 800
+			max_strength = 4
+			naval_torpedo_damage_reduction_factor = 0.01
+			naval_torpedo_enemy_critical_chance_factor = -0.01
+		}		
+
+		multiply_stats = {
+			surface_visibility = 0.02
 			build_cost_ic = 0.02
 		}
 	}
@@ -128,7 +212,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_speed = -0.005
-			build_cost_ic = 0.02
+			build_cost_ic = 0.01
 		}
 	}
 	ship_medium_armor_upgrade = {
@@ -172,7 +256,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_speed = -0.015
-			build_cost_ic = 0.06
+			build_cost_ic = 0.03
 		}
 	}
 	ship_heavy_armor_upgrade = {
@@ -216,7 +300,7 @@ upgrades = {
 
 		multiply_stats = {
 			naval_speed = -0.02
-			build_cost_ic = 0.08
+			build_cost_ic = 0.04
 		}
 	}
 }

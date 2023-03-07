@@ -100,12 +100,12 @@ units = {
 		task_force = {
 			name = "2nd Submarine Flotilla"
 			location = 540 # Plymouth
-			ship = { name = "HMS L18" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group"} } }
-			ship = { name = "HMS L19" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group"} } }
-			ship = { name = "HMS L21" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group"} } }
-			ship = { name = "HMS L23" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group"} } }
-			ship = { name = "HMS L27" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group"} } }
-			ship = { name = "HMS Narwhal" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Porpoise Superclass"} } }
+			ship = { name = "HMS L18" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group"} } }
+			ship = { name = "HMS L19" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group"} } }
+			ship = { name = "HMS L21" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group"} } }
+			ship = { name = "HMS L23" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group"} } }
+			ship = { name = "HMS L27" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group"} } }
+			ship = { name = "HMS Narwhal" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Grampus Class"} } }
 		}
 	}
 
@@ -131,10 +131,10 @@ units = {
 		task_force = {
 			name = "1st Cruiser Squadron"
 			location = 4076 # Alexandria
-			ship = { name = "HMS London" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }	
+			ship = { name = "HMS London" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }
+			ship = { name = "HMS Devonshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }
+			ship = { name = "HMS Shropshire" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }
+			ship = { name = "HMS Sussex" definition = heavy_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }	
 		}
 		task_force = {
 			name = "3rd Cruiser Squadron"
@@ -218,14 +218,14 @@ units = {
 			name = "1st Submarine Flotilla"
 			location = 12003 # Malta
 			ship = { name = "HMS Viscount" definition = destroyer start_experience_factor = 0.3 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V & W Types" } } }
-			ship = { name = "HMS Salmon" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Sealion" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Shark" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Snapper" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Thames" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames & XI Classes" } } }
-			ship = { name = "HMS Clyde" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames & XI Classes" } } }
-			ship = { name = "HMS Severn" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames & XI Classes" } } }
-			ship = { name = "HMS Oxley" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O Class" } } }
+			ship = { name = "HMS Salmon" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Sealion" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Shark" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Snapper" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Thames" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames Class" } } }
+			ship = { name = "HMS Clyde" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames Class" } } }
+			ship = { name = "HMS Severn" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames Class" } } }
+			ship = { name = "HMS Oxley" definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Oxley Class" } } }
 		}
 	}
 
@@ -242,12 +242,12 @@ units = {
 		task_force = {
 			name = "5th Cruiser Squadron"
 			location = 10062 # Hong Kong
-			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Cornwall" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Suffolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
-			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
+			ship = { name = "HMS Dorsetshire" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }
+			ship = { name = "HMS Kent" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Cornwall" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Berwick" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Suffolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
+			ship = { name = "HMS Cumberland" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - First Group" } } }
 			ship = { name = "HMS Capetown" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
 		}
 		task_force = {
@@ -271,21 +271,21 @@ units = {
 		task_force = {
 			name = "4th Submarine Flotilla"
 			location = 10062 # Hong Kong
-			ship = { name = "HMS Oswald" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Otus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Odin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Olympus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Osiris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Orpheus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Perseus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Proteus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Parthian" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Phoenix" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Regent" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Regulus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Rover" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Pandora" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
-			ship = { name = "HMS Rainbow" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Class" } } }
+			ship = { name = "HMS Oswald" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Otus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Odin" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Olympus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Osiris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Orpheus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Odin Class" } } }
+			ship = { name = "HMS Perseus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Proteus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Parthian" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Phoenix" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Regent" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Regulus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Rover" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Pandora" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
+			ship = { name = "HMS Rainbow" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-O Type" } } }
 		}
 	}
 
@@ -322,7 +322,7 @@ units = {
 		task_force = {
 			name = "4th Cruiser Squadron"
 			location = 5074 # Aden
-			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type" } } }
+			ship = { name = "HMS Norfolk" definition = heavy_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "County Type - Second & Third Group" } } }
 			ship = { name = "HMS Emerald" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "E Type" } } }
 			ship = { name = "HMS Enterprise" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "E Type" } } }
 			ship = { name = "HMS Colombo" definition = light_cruiser start_experience_factor = 0.1 equipment = { ship_hull_cruiser_1 = { amount = 1 owner = ENG version_name = "C Type" } } }
@@ -390,16 +390,16 @@ units = {
 			name = "5th Submarine Flotilla"
 			location = 9458 # Portsmouth
 			ship = { name = "HMS Winchelsea" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V & W Types" } } }
-			ship = { name = "HMS Porpoise" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Porpoise Superclass" } } }
-			ship = { name = "HMS Oberon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O Class" } } }
-			ship = { name = "HMS Otway" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "O Class" } } }
-			ship = { name = "HMS XI" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Thames & XI Classes" } } }
-			ship = { name = "HMS L26" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Second Group" } } }
-			ship = { name = "HMS L53" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Third Group" } } }
-			ship = { name = "HMS L54" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Third Group" } } }
-			ship = { name = "HMS L56" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Third Group" } } }
-			ship = { name = "HMS L69" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Third Group" } } }
-			ship = { name = "HMS L71" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Class - Third Group" } } }
+			ship = { name = "HMS Porpoise" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Porpoise Class" } } }
+			ship = { name = "HMS Oberon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Oberon Class" } } }
+			ship = { name = "HMS Otway" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Oxley Class" } } }
+			ship = { name = "HMS XI" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "XI Class" } } }
+			ship = { name = "HMS L26" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Second Group" } } }
+			ship = { name = "HMS L53" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Third Group" } } }
+			ship = { name = "HMS L54" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Third Group" } } }
+			ship = { name = "HMS L56" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Third Group" } } }
+			ship = { name = "HMS L69" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Third Group" } } }
+			ship = { name = "HMS L71" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "L Type - Third Group" } } }
 			ship = { name = "HMS H31" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-Holland Type" } } }
 			ship = { name = "HMS H33" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-Holland Type" } } }
 		}
@@ -407,11 +407,11 @@ units = {
 			name = "6th Submarine Flotilla"
 			location = 540 # Plymouth
 			ship = { name = "HMS Winchester" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = ENG version_name = "V & W Types" } } }	
-			ship = { name = "HMS Seawolf" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Sturgeon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Seahorse" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Starfish" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
-			ship = { name = "HMS Swordfish" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Class" } } }
+			ship = { name = "HMS Seawolf" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Sturgeon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Seahorse" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Starfish" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
+			ship = { name = "HMS Swordfish" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "S Type" } } }
 			ship = { name = "HMS H28" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-Holland Type" } } }
 			ship = { name = "HMS H32" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-Holland Type" } } }
 			ship = { name = "HMS H34" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = ENG version_name = "Super-Holland Type" } } }
@@ -785,7 +785,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "ENG"
-			version_name = "Porpoise Superclass"
+			version_name = "Grampus Class"
 		}
 		name = "HMS Grampus"
 		requested_factories = 1

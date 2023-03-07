@@ -4917,6 +4917,7 @@ focus_tree = {
 				}
 				upgrades = {
 					ship_heavy_engine_upgrade = 9
+					ship_heavy_range_upgrade = 2
 					ship_heavy_armor_upgrade = 4
 				}
 			}

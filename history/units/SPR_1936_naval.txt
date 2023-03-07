@@ -32,10 +32,10 @@ units= {
 		task_force = {
 			name = "S103 Flotilla"
 			location = 9793 #Palma de Mallorca
-			ship = { name = "ARE B1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
-			ship = { name = "ARE B2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
-			ship = { name = "ARE B3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
-			ship = { name = "ARE B4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE B1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
+			ship = { name = "ARE B2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
+			ship = { name = "ARE B3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
+			ship = { name = "ARE B4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
 		}
 	}
 	fleet = {
@@ -64,14 +64,14 @@ units= {
 		task_force = {
 			name = "S101 Flotilla"
 			location = 10024 #Cartagena/Murcia
-			ship = { name = "ARE C1 Isaac Peral" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE C2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE C3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE C4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE C5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE C6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Class" } } }
-			ship = { name = "ARE B5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
-			ship = { name = "ARE B6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE C1 Isaac Peral" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE C2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE C3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE C4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE C5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE C6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "C Type" } } }
+			ship = { name = "ARE B5" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
+			ship = { name = "ARE B6" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Type" } } }
 		}
 	}
 }
@@ -136,7 +136,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "SPR"
-			version_name = "D Class"
+			version_name = "D Type"
 		}
 		name = "ARE D1"
 		requested_factories = 1

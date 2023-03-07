@@ -217,8 +217,8 @@ units= {
 			ship = { name = "Thétis" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
 			ship = { name = "Calypso" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
 			ship = { name = "Circé" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
-			ship = { name = "Iris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
-			ship = { name = "Vénus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Iris" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Minerve Class" } } }
+			ship = { name = "Vénus" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Minerve Class" } } }
 			ship = { name = "Argonaute" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
 			ship = { name = "Galathée" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
 			ship = { name = "Sirène" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
@@ -271,10 +271,10 @@ units= {
 		task_force = {
 			name = "2e Escadre de Sous-marins"
 			location = 7132 # Oran
-			ship = { name = "Minerve" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Minerve" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Minerve Class" } } }
 			ship = { name = "Orion" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
 			ship = { name = "Ondine" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
-			ship = { name = "Junon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
+			ship = { name = "Junon" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "Minerve Class" } } }
 			ship = { name = "Diane" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "630t Type" } } }
 			ship = { name = "Ariane" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }
 			ship = { name = "Eurydice" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = FRA version_name = "600t Type" } } }

@@ -174,7 +174,6 @@ create_equipment_variant = {
 	modules = {
 		fixed_target_acquisition = ship_sonar_1
 		fixed_engine = ship_range_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_2
@@ -184,5 +183,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
+		ship_light_range_upgrade = 5
+		ship_light_armor_upgrade = 1
 	}
 }

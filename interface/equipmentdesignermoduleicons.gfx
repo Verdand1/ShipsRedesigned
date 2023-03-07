@@ -66,11 +66,6 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_EMSI_fixed_inner_hull"
-		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/armor.dds"
-	}
-	
-	spriteType = {
 		name = "GFX_EMSI_rear_1"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/rear.dds"
 	}
@@ -102,6 +97,11 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_EMSI_front_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/front.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMSI_front_3"
 		textureFile = "gfx/interface/equipmentdesigner/naval/module_slots/icons/front.dds"
 	}
 	
@@ -458,8 +458,14 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/sub_torpedo_launcher_icn_2.dds"
 	}
 
+######## Torpedo Storage
 
+	### Category Icon & Module Icon
 	
+	spriteType = {
+		name = "GFX_SMI_ship_torpedo_sub_storage"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/torpedo_storage_icn.dds"
+	}
 	
 ######## Fire control system
 
@@ -649,66 +655,6 @@ spriteTypes = {
 	}
 
 
-######## Fuel Tank
-
-	### Category Icon
-
-	spriteType = {
-		name = "GFX_SMI_ship_extra_fuel_tank"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_extra_fuel_tank_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn_1.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_extra_fuel_tank_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn_2.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_extra_fuel_tank_3"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/fuel_tank_icn_3.dds"
-	}
-
-
-######## Ship Damage Control
-
-	### Category Icon
-
-	spriteType = {
-		name = "GFX_SMI_ship_damage_control"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/damage_control_icn.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_ship_damage_control_system_1"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/damage_control_icn_1.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_damage_control_system_2"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/damage_control_icn_2.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_ship_damage_control_system_3"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/damage_control_icn_3.dds"
-	}
-
-
-######## Ship Structure
-
-	### Category Icon
-
-	spriteType = {
-		name = "GFX_SMI_ship_reinforced_structure"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/reinforced_icn.dds"
-	}
-
-	spriteType = {
-		name = "GFX_SMI_ship_reinforced_structure"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/reinforced_icn.dds"
-	}
-
-
 ######## Slot to unlock
 
 	### Category Icon & Module Icon
@@ -726,14 +672,6 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_top_heavy"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/top_heavy_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_badly_shaped_hull"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/badly_shaped_hull_icn.dds"
-	}
-	spriteType = {
-		name = "GFX_SMI_cramped"
-		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/cramped_icn.dds"
 	}
 
 }

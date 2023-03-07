@@ -218,4 +218,7 @@ create_equipment_variant = {
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_mine_sweeper_1
 	}
+	upgrades = {
+		ship_light_range_upgrade = 3
+	}
 }

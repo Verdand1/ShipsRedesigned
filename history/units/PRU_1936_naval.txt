@@ -15,10 +15,10 @@ units= {
 		task_force = {
 			name = "Flotilla de Submarinos"
 			location = 12997 # Lima
-			ship = { name = "BAP R1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Class" } } }
-			ship = { name = "BAP R2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Class" } } }
-			ship = { name = "BAP R3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Class" } } }
-			ship = { name = "BAP R4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Class" } } }
+			ship = { name = "BAP R1" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Type" } } }
+			ship = { name = "BAP R2" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Type" } } }
+			ship = { name = "BAP R3" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Type" } } }
+			ship = { name = "BAP R4" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = PRU version_name = "R Type" } } }
 		}
 	}
 }

@@ -67,19 +67,19 @@ units = {
 			name = "1 Sensui Sentai"
 			location = 9998 #Yokosuka
 			ship = { name = "Taigei" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Taigei Class"} } }
-			ship = { ordered_name = 56 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 57 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 58 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 59 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 60 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 63 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 1 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
-			ship = { ordered_name = 2 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
-			ship = { ordered_name = 3 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
-			ship = { ordered_name = 4 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1"} } }
-			ship = { ordered_name = 5 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 1M"} } }
-			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 2"} } }
-			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group 3"} } }
+			ship = { ordered_name = 56 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 57 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 58 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 59 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 60 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 63 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 1 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group I"} } }
+			ship = { ordered_name = 2 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group I"} } }
+			ship = { ordered_name = 3 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group I"} } }
+			ship = { ordered_name = 4 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group I"} } }
+			ship = { ordered_name = 5 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group IM"} } }
+			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group II"} } }
+			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Junsen Type - Group III"} } }
 		}
 	}
 
@@ -139,21 +139,21 @@ units = {
 			name = "Dai 2 Sensui Sentai"
 			location = 9950 #Sasebo
 			ship = { name = "Kinu" definition = light_cruiser start_experience_factor = 0.3 equipment = { ship_hull_cruiser_1 = {amount = 1 owner = JAP version_name = "Nagara Class"} } }	
-			ship = { ordered_name = 53 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 54 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 55 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 61 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 62 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 64 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 65 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 66 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 67 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 68 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
-			ship = { ordered_name = 69 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
-			ship = { ordered_name = 70 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
-			ship = { ordered_name = 71 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
-			ship = { ordered_name = 72 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
-			ship = { ordered_name = 73 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 6"} } }
+			ship = { ordered_name = 53 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 54 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 55 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group III"} } }
+			ship = { ordered_name = 61 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 62 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 64 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 65 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 66 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 67 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group IV & V"} } }
+			ship = { ordered_name = 68 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
+			ship = { ordered_name = 69 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
+			ship = { ordered_name = 70 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
+			ship = { ordered_name = 71 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
+			ship = { ordered_name = 72 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
+			ship = { ordered_name = 73 definition = submarine start_experience_factor = 0.3 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group VI"} } }
 		}
 	}
 
@@ -212,10 +212,10 @@ units = {
 			ship = { name = "Tsuta" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { ordered_name = 21 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kiraisen Type"} } }
 			ship = { ordered_name = 22 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kiraisen Type"} } }
-			ship = { ordered_name = 51 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { ordered_name = 52 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group 1 ~ 5"} } }
-			ship = { name = "RO51" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Groups 1 & 2"} } }
-			ship = { name = "RO53" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Groups 1 & 2"} } }
+			ship = { ordered_name = 51 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group I"} } }
+			ship = { ordered_name = 52 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaidai Type - Group II"} } }
+			ship = { name = "RO51" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group I"} } }
+			ship = { name = "RO53" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group II"} } }
 		}
 		task_force = {
 			name = "Yokosuka Yobi Kantai"
@@ -238,9 +238,12 @@ units = {
 			ship = { name = "Hayabusa" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Otori Class"} } }
 			ship = { ordered_name = 23 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kiraisen Type"} } }
 			ship = { ordered_name = 24 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kiraisen Type"} } }
-			ship = { name = "RO57" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 3"} } }
-			ship = { name = "RO58" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 3"} } }
-			ship = { name = "RO59" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 3"} } }
+			ship = { name = "RO17" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group III"} } }
+			ship = { name = "RO18" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group III"} } }
+			ship = { name = "RO19" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group III"} } }
+			ship = { name = "RO57" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group III"} } }
+			ship = { name = "RO58" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group III"} } }
+			ship = { name = "RO59" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group III"} } }
 		}
 		task_force = {
 			name = "Sasebo Yobi Kantai"
@@ -263,15 +266,16 @@ units = {
 			ship = { name = "Kashi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
 			ship = { name = "Hinoki" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
 			ship = { name = "Yanagi" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momo Class"} } }
-			ship = { name = "RO60" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO61" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO62" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO63" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO64" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO65" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO66" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO67" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
-			ship = { name = "RO68" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group 4"} } }
+			ship = { name = "RO25" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group III"} } }
+			ship = { name = "RO60" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO61" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO62" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO63" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO64" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO65" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO66" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO67" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
+			ship = { name = "RO68" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group IV"} } }
 		}
 		task_force = {
 			name = "Maizuru Yobi Kantai"
@@ -287,8 +291,8 @@ units = {
 			ship = { name = "Tade" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Momi Superclass"} } }
 			ship = { name = "9-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Enoki Class"} } }
 			ship = { name = "10-go" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Enoki Class"} } }
-			ship = { name = "RO33" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 5"} } }
-			ship = { name = "RO34" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 5"} } }
+			ship = { name = "RO33" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group V"} } }
+			ship = { name = "RO34" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group V"} } }
 		}
 		task_force = {
 			name = "Mako Yobi Kantai"
@@ -318,12 +322,12 @@ units = {
 			location = 7072 #Osaka
 			ship = { name = "Minekaze" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
 			ship = { name = "Okikaze" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = {amount = 1 owner = JAP version_name = "Minekaze Class"} } }
-			ship = { name = "RO26" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 4"} } }
-			ship = { name = "RO27" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 4"} } }
-			ship = { name = "RO28" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group 4"} } }
-			ship = { name = "RO54" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Groups 1 & 2"} } }
-			ship = { name = "RO55" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Groups 1 & 2"} } }
-			ship = { name = "RO56" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Groups 1 & 2"} } }
+			ship = { name = "RO26" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group IV"} } }
+			ship = { name = "RO27" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group IV"} } }
+			ship = { name = "RO28" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "Kaichu Type - Group IV"} } }
+			ship = { name = "RO54" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group II"} } }
+			ship = { name = "RO55" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group II"} } }
+			ship = { name = "RO56" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = {amount = 1 owner = JAP version_name = "L Type - Group II"} } }
 		}
 	}
 
@@ -543,7 +547,7 @@ instant_effect =
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "JAP"
-			version_name = "Kaidai Type - Group 6"
+			version_name = "Kaidai Type - Group VI"
 		}
 		requested_factories = 1
 		progress = 0.54
@@ -553,7 +557,7 @@ instant_effect =
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "JAP"
-			version_name = "Junsen Type - Group 3"
+			version_name = "Junsen Type - Group III"
 		}
 		name = "I8"
 		requested_factories = 1

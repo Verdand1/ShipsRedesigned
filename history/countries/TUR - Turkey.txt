@@ -528,11 +528,12 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_torpedo_sub_1
+		front_3 = ship_torpedo_sub_1
 	}
 	upgrades = {
-		sub_engine_upgrade = 1
+		sub_engine_upgrade = 2
+		sub_range_upgrade = 9
 		sub_depth_upgrade = 2
 	}
 	obsolete = yes
@@ -547,13 +548,13 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_torpedo_sub_2
-		mid_2 = empty
-		front_2 = ship_torpedo_sub_2
+		mid_1 = ship_torpedo_sub_storage
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 8
+		sub_range_upgrade = 8
 		sub_depth_upgrade = 7
 	}
 	obsolete = yes
@@ -568,13 +569,14 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_2
-		rear_1 = ship_mine_layer_sub
-		rear_2 = ship_mine_layer_sub
-		mid_2 = ship_torpedo_sub_2
-		front_2 = ship_torpedo_sub_2
+		rear_1 = ship_torpedo_sub_2
+		mid_1 = ship_mine_layer_sub
+		mid_2 = ship_mine_layer_sub
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 5
+		sub_range_upgrade = 2
 		sub_depth_upgrade = 7
 	}
 }
@@ -587,11 +589,11 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_2
-		fixed_inner_hull = empty
-		mid_2 = empty
+		mid_1 = empty
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
+		sub_range_upgrade = 2
 	}
 }
 
@@ -603,12 +605,12 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		mid_1 = empty
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 1
+		ship_light_range_upgrade = 5
 	}
 	obsolete = yes
 }
@@ -621,7 +623,6 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_engine = ship_range_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = empty
 		rear_2 = empty
 		mid_1 = ship_torpedo_1
@@ -629,6 +630,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 5
 	}
 }
 
@@ -641,14 +643,14 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_light_battery_1
-		fixed_engine = ship_perf_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_1
+		fixed_engine = ship_range_engine_1
 		rear_1 = empty
 		mid_1 = empty
 		front_2 = empty
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
+		ship_medium_range_upgrade = 3
 		ship_medium_armor_upgrade = 1
 	}
 	obsolete = yes
@@ -661,13 +663,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_mine_layer_1
 		rear_2 = empty
 		mid_1 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 2
+		ship_medium_range_upgrade = 5
 		ship_medium_armor_upgrade = 1
 	}
 }
@@ -680,14 +682,15 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
-		fixed_engine = ship_perf_engine_1
+		fixed_engine = ship_range_engine_1
 		rear_1 = empty
 		rear_2 = ship_anti_air_2
 		mid_1 = ship_light_medium_battery_1
 		front_2 = empty
 	}
 	upgrades = {
-		ship_heavy_engine_upgrade = 3
+		ship_heavy_engine_upgrade = 4
+		ship_heavy_range_upgrade = 1
 		ship_heavy_armor_upgrade = 1
 	}
 }

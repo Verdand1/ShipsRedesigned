@@ -60,8 +60,8 @@ set_technology = {
 	improved_torpedo_launcher = 1
 	improved_depth_charges = 1
 	basic_depth_charges = 1
-	improved_perf_engines = 1
-	basic_perf_engines = 1
+	improved_range_engines = 1
+	basic_range_engines = 1
 	basic_armor_scheme = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
@@ -194,9 +194,6 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 6
 	obsolete = yes
-	modules = {
-		fixed_inner_hull = cramped
-	}
 	upgrades = {
 		sub_engine_upgrade = 3
 		sub_depth_upgrade = 2
@@ -210,10 +207,10 @@ create_equipment_variant = {
 	parent_version = 1
 	role_icon_index = 6
 	modules = {
-		fixed_inner_hull = empty
-		rear_1 = ship_torpedo_sub_1
+		front_3 = ship_torpedo_sub_1
 	}
 	upgrades = {
+		sub_range_upgrade = 4
 		sub_depth_upgrade = 3
 	}
 }
@@ -226,11 +223,11 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 4
+		ship_light_range_upgrade = 7
 	}
 	obsolete = yes
 }
@@ -247,6 +244,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 2
+		ship_light_range_upgrade = 4
 	}
 }
 
@@ -257,14 +255,14 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_engine = ship_perf_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank_2
+		fixed_engine = ship_range_engine_2
 		rear_1 = ship_depth_charge_2
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_anti_air_2
 	}
 	upgrades = {
-		ship_light_engine_upgrade = 4
+		ship_light_engine_upgrade = 6
+		ship_light_range_upgrade = 4
 	}
 }
 
@@ -277,7 +275,7 @@ create_equipment_variant = {
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_light_battery_1
-		fixed_engine = ship_perf_engine_2
+		fixed_engine = ship_range_engine_2
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_anti_air_1
@@ -285,7 +283,8 @@ create_equipment_variant = {
 		front_2 = ship_light_battery_1
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 1
+		ship_medium_engine_upgrade = 2
+		ship_medium_range_upgrade = 1
 	}
 }
 
@@ -298,11 +297,11 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
-		fixed_inner_hull = ship_extra_fuel_tank_2
 		rear_1 = ship_anti_air_2
 		mid_1 = ship_light_battery_1
 	}
 	upgrades = {
+		ship_medium_range_upgrade = 8
 		ship_medium_armor_upgrade = 3
 	}
 }

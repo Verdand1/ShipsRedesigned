@@ -244,16 +244,30 @@ recruit_character = SWE_osten_unden
 
 # Submarines #
 create_equipment_variant = {
-	name = "Bävern Superclass"				
+	name = "Hajen Class"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
 	parent_version = 0
 	role_icon_index = 6
 	modules = {
-		rear_1 = ship_torpedo_sub_1
+		mid_1 = empty
+		front_3 = ship_torpedo_sub_1
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
+		sub_range_upgrade = 3
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "Bävern Class"				
+	type = ship_hull_submarine_1
+	name_group = SWE_SS_HISTORICAL
+	parent_version = 1
+	role_icon_index = 6
+	upgrades = {
+		sub_range_upgrade = 4
 	}
 	obsolete = yes
 }
@@ -262,11 +276,11 @@ create_equipment_variant = {
 	name = "Valen Class"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
-	parent_version = 1
+	parent_version = 2
 	role_icon_index = 4
 	modules = {
 		fixed_engine = sub_ship_engine_1
-		rear_1 = ship_mine_layer_sub
+		mid_1 = ship_mine_layer_sub
 	}
 	upgrades = {
 		sub_engine_upgrade = 3
@@ -279,17 +293,17 @@ create_equipment_variant = {
 	name = "Draken Class"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
-	parent_version = 1
+	parent_version = 2
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_torpedo_sub_2
-		front_2 = empty
+		front_3 = ship_unavailable_space
 	}
 	upgrades = {
 		sub_engine_upgrade = 2
+		sub_range_upgrade = 6
 		sub_depth_upgrade = 3
 	}
 	obsolete = yes
@@ -299,14 +313,17 @@ create_equipment_variant = {
 	name = "Delfinen Class"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
-	parent_version = 2
+	parent_version = 3
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_2
+		rear_1 = ship_torpedo_sub_2
+		front_3 = ship_unavailable_space
 	}
 	upgrades = {
 		sub_engine_upgrade = 2
+		sub_range_upgrade = 4
 	}
 }
 
@@ -314,13 +331,15 @@ create_equipment_variant = {
 	name = "Sjölejonet Class"				
 	type = ship_hull_submarine_1
 	name_group = SWE_SS_HISTORICAL
-	parent_version = 4
+	parent_version = 5
 	role_icon_index = 6
 	modules = {
-		rear_1 = ship_torpedo_sub_2
+		mid_1 = ship_unavailable_space
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
-		sub_engine_upgrade = 3
+		sub_engine_upgrade = 4
+		sub_range_upgrade = 5
 	}
 }
 
@@ -336,6 +355,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 5
+		ship_light_range_upgrade = 2
 	}
 	obsolete = yes
 }
@@ -347,14 +367,16 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
-		fixed_engine = ship_perf_engine_1
+		fixed_engine = ship_range_engine_1
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_2
 		front_2 = ship_anti_air_1
 	}
 	upgrades = {
-		ship_light_engine_upgrade = 7
+		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 1
+		ship_light_armor_upgrade = 1
 	}
 	obsolete = yes
 }
@@ -366,7 +388,7 @@ create_equipment_variant = {
 	parent_version = 2
 	role_icon_index = 1
 	upgrades = {
-		ship_light_engine_upgrade = 8
+		ship_light_engine_upgrade = 9
 	}
 	obsolete = yes
 }
@@ -381,6 +403,10 @@ create_equipment_variant = {
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_2
 		front_2 = ship_anti_air_2
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 0
 	}
 }
 
@@ -397,6 +423,7 @@ create_equipment_variant = {
 		mid_1 = ship_airplane_launcher_1
 	}
 	upgrades = {
+		ship_medium_range_upgrade = 4
 		ship_medium_armor_upgrade = 4
 	}
 	obsolete = yes
@@ -409,13 +436,13 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_light_medium_battery_1
 		rear_2 = empty
 		mid_1 = empty
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 2
+		ship_medium_range_upgrade = 9
 		ship_medium_armor_upgrade = 2
 	}
 	obsolete = yes
@@ -434,6 +461,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
+		ship_medium_range_upgrade = 3
 	}
 }
 
@@ -455,6 +483,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 4
+		ship_medium_range_upgrade = 2
 		ship_medium_armor_upgrade = 1
 	}
 }
@@ -473,6 +502,7 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_medium_armor_upgrade = 4
+		ship_medium_range_upgrade = 3
 	}
 	obsolete = yes
 }
@@ -498,11 +528,12 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_front_1 = ship_medium_battery_2
-		fixed_engine = ship_perf_engine_2
+		fixed_engine = ship_range_engine_2
 		front_2 = ship_anti_air_2
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 2
+		ship_medium_engine_upgrade = 3
+		ship_medium_range_upgrade = 1
 	}
 	obsolete = yes
 }

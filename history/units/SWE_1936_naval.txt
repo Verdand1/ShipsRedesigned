@@ -57,16 +57,16 @@ units = {
 		task_force = {
 			name = "2. Ubatsflottiljen"
 			location = 383 # Göteborg
-			ship = { name = "HMS Hajen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
-			ship = { name = "HMS Sälen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
-			ship = { name = "HMS Valrossen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
+			ship = { name = "HMS Hajen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen Class" } } }
+			ship = { name = "HMS Sälen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen Class" } } }
+			ship = { name = "HMS Valrossen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Hajen Class" } } }
 		}
 		task_force = {
 			name = "3. Ubatsflottiljen"
 			location = 383 # Göteborg
-			ship = { name = "HMS Bävern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
-			ship = { name = "HMS Illern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
-			ship = { name = "HMS Uttern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Superclass" } } }
+			ship = { name = "HMS Bävern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Class" } } }
+			ship = { name = "HMS Illern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Class" } } }
+			ship = { name = "HMS Uttern" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Bävern Class" } } }
 			ship = { name = "HMS Valen" definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SWE version_name = "Valen Class" } } }
 		}
 	}

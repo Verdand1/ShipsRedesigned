@@ -6809,15 +6809,16 @@ focus_tree = {
 				role_icon_index = 6
 				modules = {
 					fixed_engine = sub_ship_engine_2
-					fixed_inner_hull = ship_extra_fuel_tank_3
 					rear_1 = ship_torpedo_sub_1
 					rear_2 = ship_torpedo_sub_1
-					mid_1 = ship_torpedo_sub_1
-					mid_2 = ship_torpedo_sub_1
+					mid_1 = ship_torpedo_sub_storage
+					mid_2 = ship_torpedo_sub_storage
 					front_2 = ship_torpedo_sub_1
+					front_3 = ship_torpedo_sub_1
 				}
 				upgrades = {
 					sub_engine_upgrade = 5
+					sub_range_upgrade = 7
 					sub_depth_upgrade = 7
 				}
 			}
@@ -6895,14 +6896,14 @@ focus_tree = {
 				name = "Flutto Class"
 				type = ship_hull_submarine_1
 				name_group = ITA_SS_HISTORICAL
-				parent_version = 7
+				parent_version = 11
 				role_icon_index = 6
 				modules = {
-					fixed_inner_hull = empty
-					mid_2 = empty
+					mid_1 = empty
 				}
 				upgrades = {
 					sub_engine_upgrade = 3
+					sub_range_upgrade = 3
 					sub_depth_upgrade = 8
 				}
 			}
@@ -7010,13 +7011,13 @@ focus_tree = {
 				type = ship_hull_light_1
 				name_group = ITA_DD_HISTORICAL
 				parent_version = 0
+				role_icon_index = 2
 				allow_without_tech = yes # Display tooltip as if we have the tech.
 				modules = {
 					fixed_front_1 = ship_light_battery_2
 					fixed_target_acquisition = ship_sonar_2
 					fixed_radar = ship_fire_control_radar_1
 					fixed_engine = ship_perf_engine_3
-					fixed_inner_hull = ship_reinforced_structure
 					rear_1 = ship_depth_charge_1
 					rear_2 = ship_light_battery_2
 					mid_1 = ship_torpedo_1
@@ -7026,7 +7027,8 @@ focus_tree = {
 				}
 				upgrades = {
 					ship_light_engine_upgrade = 6
-					ship_light_armor_upgrade = 1
+					ship_light_range_upgrade = 4
+					ship_light_armor_upgrade = 2
 				}
 			}
 			#Line Production
@@ -7097,12 +7099,16 @@ focus_tree = {
 					type = ship_hull_light_1
 					name_group = ITA_DD_HISTORICAL
 					parent_version = 0
+					role_icon_index = 2
 					allow_without_tech = yes # Display tooltip as if we have the tech.
 					modules = {
 						fixed_target_acquisition = ship_sonar_2
 						fixed_engine = ship_range_engine_3
 						rear_1 = ship_depth_charge_3
 						rear_2 = ship_depth_charge_3
+					}
+					upgrades = {
+						ship_light_range_upgrade = 3
 					}
 				}
 			}
@@ -7112,11 +7118,15 @@ focus_tree = {
 					type = ship_hull_light_1
 					name_group = ITA_DD_HISTORICAL
 					parent_version = 0
+					role_icon_index = 2
 					modules = {
 						fixed_target_acquisition = ship_sonar_2
 						fixed_engine = ship_range_engine_2
 						rear_1 = ship_depth_charge_3
 						rear_2 = ship_depth_charge_3
+					}
+					upgrades = {
+						ship_light_range_upgrade = 3
 					}
 				}
 			}
@@ -7271,7 +7281,7 @@ focus_tree = {
 					fixed_front_1 = ship_deck_space_3
 					fixed_target_acquisition = ship_fire_control_system_1
 					fixed_radar = ship_surveillance_radar_1
-					fixed_engine = ship_range_engine_2
+					fixed_engine = ship_perf_engine_2
 					rear_1 = ship_deck_space_2
 					mid_1 = ship_light_battery_2
 					mid_2 = ship_anti_air_2
@@ -7279,7 +7289,8 @@ focus_tree = {
 					mid_4 = ship_anti_air_2
 				}
 				upgrades = {
-					ship_heavy_engine_upgrade = 8
+					ship_heavy_engine_upgrade = 6
+					ship_heavy_range_upgrade = 3
 				}
 			}
 			#Line Production
@@ -7353,6 +7364,7 @@ focus_tree = {
 				}
 				upgrades = {
 					ship_medium_engine_upgrade = 3
+					ship_medium_range_upgrade = 2
 					ship_medium_armor_upgrade = 4
 				}
 			}
@@ -7520,7 +7532,6 @@ focus_tree = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_3
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_3
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7531,6 +7542,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7548,7 +7560,6 @@ focus_tree = {
 								fixed_front_1 = ship_light_medium_battery_3
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_range_engine_3
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_3
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7559,6 +7570,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7582,7 +7594,6 @@ focus_tree = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_2
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_3
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7593,6 +7604,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7610,7 +7622,6 @@ focus_tree = {
 								fixed_front_1 = ship_light_medium_battery_3
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_range_engine_2
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_3
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7621,6 +7632,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7649,7 +7661,6 @@ focus_tree = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_3
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_2
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7660,6 +7671,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7677,7 +7689,6 @@ focus_tree = {
 								fixed_front_1 = ship_light_medium_battery_2
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_range_engine_3
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_2
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7688,6 +7699,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7711,7 +7723,6 @@ focus_tree = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_2
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_2
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7722,6 +7733,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -7739,7 +7751,6 @@ focus_tree = {
 								fixed_front_1 = ship_light_medium_battery_2
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_range_engine_2
-								fixed_inner_hull = ship_extra_fuel_tank_3
 								rear_1 = ship_light_medium_battery_2
 								rear_2 = ship_anti_air_2
 								mid_1 = ship_airplane_launcher_1
@@ -7750,6 +7761,7 @@ focus_tree = {
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 9
 								ship_medium_armor_upgrade = 3
 							}
 						}
@@ -12455,6 +12467,7 @@ focus_tree = {
 				}
 				upgrades = {
 					ship_medium_engine_upgrade = 2
+					ship_medium_range_upgrade = 2
 					ship_medium_armor_upgrade = 1
 				}
 				obsolete = yes
@@ -12479,6 +12492,9 @@ focus_tree = {
 				role_icon_index = 2
 				modules = {
 					mid_1 = empty
+				}
+				upgrades = {
+					ship_medium_range_upgrade = 2
 				}
 				obsolete = yes
 			}
@@ -13781,13 +13797,13 @@ focus_tree = {
 				type = ship_hull_heavy_1
 				name_group = ITA_BB_HISTORICAL
 				parent_version = 0
+				role_icon_index = 1
 				allow_without_tech = yes # Display tooltip as if we have the tech.
 				modules = {
 					fixed_front_1 = ship_heavy_battery_3
 					fixed_target_acquisition = ship_fire_control_system_2
 					fixed_radar = ship_surveillance_radar_2
 					fixed_engine = ship_perf_engine_3
-					fixed_inner_hull = empty
 					rear_1 = ship_heavy_battery_3
 					rear_2 = ship_airplane_launcher_1
 					mid_1 = ship_light_medium_battery_3
@@ -13798,6 +13814,7 @@ focus_tree = {
 				}
 				upgrades = {
 					ship_heavy_engine_upgrade = 9
+					ship_heavy_range_upgrade = 1
 					ship_heavy_armor_upgrade = 7
 				}
 			}

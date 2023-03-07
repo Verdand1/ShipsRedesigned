@@ -19,7 +19,7 @@ units = {
 		task_force = {
 			name = "Koninklijke Onderzeeboot Smaldeel"
 			location = 3314 # Amsterdam
-			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Holland Type" } } }
+			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O8 Class" } } }
 			ship = { ordered_name = 9 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
 			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
 			ship = { ordered_name = 11 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
@@ -64,11 +64,11 @@ units = {
 		task_force = {
 			name = "Nederlands-Indië Onderzeeboot Smaldeel"
 			location = 4608 # Soerbaja
-			ship = { ordered_name = 2 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Super-Holland Type" } } }
-			ship = { ordered_name = 4 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Super-Holland Type" } } }
-			ship = { ordered_name = 5 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Super-Holland Type" } } }
-			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Super-Holland Type" } } }
-			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "Super-Holland Type" } } }
+			ship = { ordered_name = 2 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K II Class" } } }
+			ship = { ordered_name = 4 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K III Class" } } }
+			ship = { ordered_name = 5 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K V Class" } } }
+			ship = { ordered_name = 6 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K V Class" } } }
+			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K V Class" } } }
 			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K VIII Class" } } }
 			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K VIII Class" } } }
 			# I Onderzeeboot Divisie

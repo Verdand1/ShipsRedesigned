@@ -21,7 +21,7 @@ equipments = {
 		can_convert_from = { ship_hull_carrier_1 }
 
 		naval_speed = 18
-		naval_range = 4000
+		naval_range = 2600
 		max_strength = 350
 		reliability = 0.5
 		supply_consumption = 0.5
@@ -30,7 +30,7 @@ equipments = {
 		fuel_consumption = 64
 		surface_visibility = 25
 		surface_detection = 20
-		build_cost_ic = 4000
+		build_cost_ic = 3900
 		
 		resources = { steel = 4	}
 
@@ -58,14 +58,6 @@ equipments = {
 					ship_deprecated_engine
 					ship_range_engine
 					ship_perf_engine
-				}
-			}
-			fixed_inner_hull = {
-				required = no
-				allowed_module_categories = {
-					ship_extra_fuel_tank
-					ship_reinforced_structure
-					ship_damage_control
 				}
 			}
 			rear_1 = {
@@ -115,6 +107,7 @@ equipments = {
 		
 		upgrades = {
 			ship_heavy_engine_upgrade
+			ship_heavy_range_upgrade
 			ship_heavy_armor_upgrade
 		}
 
@@ -123,7 +116,6 @@ equipments = {
 			fixed_target_acquisition = empty
 			fixed_radar = empty
 			fixed_engine = ship_deprecated_engine
-			fixed_inner_hull = empty
 			rear_1 = ship_unavailable_space
 			rear_2 = ship_unavailable_space
 			mid_1 = ship_unavailable_space

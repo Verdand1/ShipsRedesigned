@@ -6317,12 +6317,12 @@ country_event = {
 					type = ship_hull_cruiser_1
 					name_group = SOV_CA_HISTORICAL
 					parent_version = 0
+					role_icon_index = 1
 					allow_without_tech = yes #Makes no difference since event grants appropriate tech (above), but it improves tooltip
 					modules = {
 						fixed_front_1 = ship_medium_battery_2
 						fixed_target_acquisition = ship_fire_control_system_1
 						fixed_engine = ship_perf_engine_2
-						fixed_inner_hull = ship_extra_fuel_tank_2
 						rear_1 = ship_medium_battery_2
 						rear_2 = ship_anti_air_2
 						mid_1 = ship_torpedo_2
@@ -6333,6 +6333,7 @@ country_event = {
 					}
 					upgrades = {
 						ship_medium_engine_upgrade = 7
+						ship_medium_range_upgrade = 6
 						ship_medium_armor_upgrade = 2
 					}
 				}
@@ -6439,12 +6440,12 @@ country_event = {
 			type = ship_hull_cruiser_1
 			name_group = SOV_CA_HISTORICAL
 			parent_version = 0
+			role_icon_index = 1
 			allow_without_tech = yes #Makes no difference since event grants appropriate tech (above), but it improves tooltip
 			modules = {
 				fixed_front_1 = ship_medium_battery_2
 				fixed_target_acquisition = ship_fire_control_system_1
 				fixed_engine = ship_perf_engine_2
-				fixed_inner_hull = ship_extra_fuel_tank_2
 				rear_1 = ship_medium_battery_2
 				rear_2 = ship_anti_air_2
 				mid_1 = ship_torpedo_2
@@ -6455,6 +6456,7 @@ country_event = {
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 7
+				ship_medium_range_upgrade = 6
 				ship_medium_armor_upgrade = 2
 			}
 		}

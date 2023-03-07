@@ -117,6 +117,7 @@ set_technology = {
 	basic_depth_charges = 1
 	improved_range_engines = 1
 	basic_range_engines = 1	
+	basic_armor_scheme = 1
 	basic_naval_mines = 1
 	ship_light_hull = 1
 	ship_cruiser_hull = 1
@@ -347,12 +348,13 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
-		rear_1 = ship_torpedo_sub_2
-		mid_2 = empty
+		mid_1 = empty
 		front_2 = ship_torpedo_sub_2
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 5
+		sub_range_upgrade = 5
 		sub_depth_upgrade = 2
 	}
 }
@@ -367,10 +369,11 @@ create_equipment_variant = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
 		rear_1 = ship_torpedo_sub_2
-		front_2 = ship_torpedo_sub_2
+		front_3 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 3
+		sub_range_upgrade = 5
 		sub_depth_upgrade = 5
 	}
 }
@@ -386,6 +389,9 @@ create_equipment_variant = {
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_mine_sweeper_1
 	}
+	upgrades = {
+		ship_light_range_upgrade = 3
+	}
 }
 
 create_equipment_variant = {
@@ -398,7 +404,6 @@ create_equipment_variant = {
 		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_sonar_1
 		fixed_engine = ship_range_engine_2
-		fixed_inner_hull = ship_extra_fuel_tank_3
 		rear_1 = ship_depth_charge_1
 		rear_2 = ship_mine_layer_1
 		mid_1 = ship_torpedo_1
@@ -408,7 +413,8 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
-		ship_light_armor_upgrade = 1
+		ship_light_range_upgrade = 8
+		ship_light_armor_upgrade = 2
 	}
 }
 
@@ -426,6 +432,7 @@ create_equipment_variant = {
 		mid_1 = ship_anti_air_1
 	}
 	upgrades = {
+		ship_medium_range_upgrade = 3
 		ship_medium_armor_upgrade = 1
 	}
 }
@@ -439,8 +446,10 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_light_battery_1
 		fixed_engine = ship_range_engine_1
-		fixed_inner_hull = ship_extra_fuel_tank_1
 		rear_1 = ship_airplane_launcher_1
+	}
+	upgrades = {
+		ship_medium_range_upgrade = 5
 	}
 }
 
