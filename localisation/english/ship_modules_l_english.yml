@@ -1,8 +1,8 @@
 ﻿l_english:
- ship_armor_1_advice_tt:0 "Enables Armor Upgrade values of 2 and above."
- ship_armor_2_advice_tt:0 "Enables Armor Upgrade values of 4 and above."
- ship_armor_3_advice_tt:0 "Enables Armor Upgrade values of 6 and above."
- ship_armor_4_advice_tt:0 "Enables Armor Upgrade values of 8 and above."
+ ship_armor_1_advice_tt:0 "Enables Armor Upgrade values up to 3."
+ ship_armor_2_advice_tt:0 "Enables Armor Upgrade values up to 5."
+ ship_armor_3_advice_tt:0 "Enables Armor Upgrade values up to 7."
+ ship_armor_4_advice_tt:0 "Enables Armor Upgrade values up to 9."
  ship_light_armor_1_advice_tt:0 "Enables Armor Upgrade values of 2 for light ships."
  ship_light_armor_2_advice_tt:0 "Enables Armor Upgrade values of 3 for light ships."
  ship_light_armor_3_advice_tt:0 "Enables Armor Upgrade values of 4 for light ships."
