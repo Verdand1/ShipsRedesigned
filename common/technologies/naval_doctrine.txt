@@ -1430,7 +1430,22 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 0
+			factor = 1
+			modifier = {
+				has_war = yes
+				factor = 3
+			}
+			modifier = {
+				has_navy_experience > 120
+				factor = 3
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					not = { has_tech = ship_hull_submarine }
+					has_tech = submarine_operations
+				}
+			}
 		}
 	}
 	
@@ -1551,22 +1566,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 1
-			modifier = {
-				has_war = yes
-				factor = 3
-			}
-			modifier = {
-				has_navy_experience > 120
-				factor = 3
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					not = { has_tech = ship_hull_submarine }
-					has_tech = submarine_operations
-				}
-			}
+			factor = 0
 		}
 	}
 	
