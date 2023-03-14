@@ -13,7 +13,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 2
+			lg_attack = 4
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 3
@@ -42,7 +42,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 3
+			lg_attack = 6
 			surface_visibility = 0.5
 			supply_consumption = 0.01
 			max_strength = 4
@@ -71,7 +71,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 3
+			lg_attack = 6
 			anti_air_attack = 2
 			surface_visibility = 0.5
 			supply_consumption = 0.01
@@ -101,7 +101,7 @@ equipment_modules = {
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
-			lg_attack = 4
+			lg_attack = 8
 			anti_air_attack = 3
 			surface_visibility = 0.5
 			supply_consumption = 0.01
@@ -1031,7 +1031,7 @@ equipment_modules = {
 		category = ship_mine_layer_sub
 		
 		add_stats = {
-			mines_planting = 0.5
+			mines_planting = 0.3
 			sub_visibility = 2
 			supply_consumption = 0.01
 			reliability = 0.03
