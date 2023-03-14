@@ -101,9 +101,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 3400
-				production_cost_max_ship_hull_light = 1500
-				production_cost_max_ship_hull_submarine = 500
+				production_cost_max_ship_hull_cruiser = 4000
+				production_cost_max_ship_hull_light = 1700
+				production_cost_max_ship_hull_submarine = 600
 			}
 			on_remove = {
 				set_temp_variable = { ndt1938 = 707370 }
@@ -122,9 +122,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 3600
-				production_cost_max_ship_hull_light = 1600
-				production_cost_max_ship_hull_submarine = 520
+				production_cost_max_ship_hull_cruiser = 4150
+				production_cost_max_ship_hull_light = 1800
+				production_cost_max_ship_hull_submarine = 625
 			}
 			on_remove = {
 				set_temp_variable = { ndt1939 = 707735 }
@@ -143,9 +143,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 3800
-				production_cost_max_ship_hull_light = 1700
-				production_cost_max_ship_hull_submarine = 540
+				production_cost_max_ship_hull_cruiser = 4300
+				production_cost_max_ship_hull_light = 1900
+				production_cost_max_ship_hull_submarine = 650
 			}
 			on_remove = {
 				set_temp_variable = { ndt1940 = 708100 }
@@ -164,9 +164,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 4000
-				production_cost_max_ship_hull_light = 1800
-				production_cost_max_ship_hull_submarine = 560
+				production_cost_max_ship_hull_cruiser = 4450
+				production_cost_max_ship_hull_light = 2000
+				production_cost_max_ship_hull_submarine = 675
 			}
 			on_remove = {
 				set_temp_variable = { ndt1941 = 708465 }
@@ -185,9 +185,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 4200
-				production_cost_max_ship_hull_light = 1900
-				production_cost_max_ship_hull_submarine = 580
+				production_cost_max_ship_hull_cruiser = 4600
+				production_cost_max_ship_hull_light = 2100
+				production_cost_max_ship_hull_submarine = 700
 			}
 			on_remove = {
 				set_temp_variable = { ndt1942 = 708830 }
@@ -206,9 +206,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 4400
-				production_cost_max_ship_hull_light = 2000
-				production_cost_max_ship_hull_submarine = 600
+				production_cost_max_ship_hull_cruiser = 4750
+				production_cost_max_ship_hull_light = 2200
+				production_cost_max_ship_hull_submarine = 725
 			}
 			on_remove = {
 				set_temp_variable = { ndt1943 = 709195 }
@@ -227,9 +227,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 4600
-				production_cost_max_ship_hull_light = 2100
-				production_cost_max_ship_hull_submarine = 620
+				production_cost_max_ship_hull_cruiser = 4900
+				production_cost_max_ship_hull_light = 2300
+				production_cost_max_ship_hull_submarine = 750
 			}
 			on_remove = {
 				set_temp_variable = { ndt1944 = 709560 }
@@ -248,9 +248,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 4800
-				production_cost_max_ship_hull_light = 2200
-				production_cost_max_ship_hull_submarine = 640
+				production_cost_max_ship_hull_cruiser = 5050
+				production_cost_max_ship_hull_light = 2400
+				production_cost_max_ship_hull_submarine = 775
 			}
 			on_remove = {
 				set_temp_variable = { ndt1945 = 709925 }
@@ -269,9 +269,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 5000
-				production_cost_max_ship_hull_light = 2300
-				production_cost_max_ship_hull_submarine = 660
+				production_cost_max_ship_hull_cruiser = 5200
+				production_cost_max_ship_hull_light = 2500
+				production_cost_max_ship_hull_submarine = 800
 			}
 			on_remove = {
 				set_temp_variable = { ndt1946 = 710290 }
@@ -290,9 +290,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 5200
-				production_cost_max_ship_hull_light = 2400
-				production_cost_max_ship_hull_submarine = 680
+				production_cost_max_ship_hull_cruiser = 5350
+				production_cost_max_ship_hull_light = 2600
+				production_cost_max_ship_hull_submarine = 825
 			}
 			on_remove = {
 				add_ideas = brown_water_navy_1946
@@ -306,9 +306,9 @@ ideas = {
 			name = brown_water_navy
 			
 			modifier = {
-				production_cost_max_ship_hull_cruiser = 5400
-				production_cost_max_ship_hull_light = 2500
-				production_cost_max_ship_hull_submarine = 700
+				production_cost_max_ship_hull_cruiser = 5500
+				production_cost_max_ship_hull_light = 2700
+				production_cost_max_ship_hull_submarine = 850
 			}
 		}
 	}

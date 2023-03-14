@@ -1774,9 +1774,10 @@ focus_tree = {
 
 		available = {
 			date > 1944.1.1
+			not = { has_tech = brown_water_navy }
 			has_tech = advanced_fire_control_system
 			has_tech = advanced_centimetric_radar
-			has_tech = advanced_perf_engines
+			has_tech = advanced_range_engines
 			has_tech = advanced_armor_scheme
 			has_tech = advanced_light_battery
 			has_tech = antiair2

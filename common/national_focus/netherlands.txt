@@ -3174,6 +3174,7 @@ focus_tree = {
 		id = HOL_the_battlecruiser_plan
 		prerequisite = { focus = HOL_rely_on_submarines focus = HOL_modernize_the_cruiser_fleet focus = HOL_join_germany }
 		available = {
+			not = { has_tech = brown_water_navy }
 			GER = {
 				is_subject = no
 				AND = {

@@ -13,7 +13,7 @@ upgrades = {
 			naval_speed = 1
 			max_strength = 0.5
 			fuel_consumption = 0.5
-		}		
+		}
 
 		multiply_stats = {
 			naval_range = -0.03
@@ -35,7 +35,7 @@ upgrades = {
 			naval_speed = 2.5
 			max_strength = 2
 			fuel_consumption = 1
-		}		
+		}
 
 		multiply_stats = {
 			naval_range = -0.03
@@ -55,7 +55,7 @@ upgrades = {
 			naval_speed = 2.5
 			max_strength = 4
 			fuel_consumption = 2
-		}		
+		}
 
 		multiply_stats = {
 			naval_range = -0.03
@@ -75,7 +75,7 @@ upgrades = {
 			naval_speed = 2.5
 			max_strength = 8
 			fuel_consumption = 4
-		}		
+		}
 
 		multiply_stats = {
 			naval_range = -0.03
@@ -92,10 +92,16 @@ upgrades = {
 			cost_by_level_for_licensed_equipment = 2
 		}
 
+		level_requirements = {
+			4 = {
+				not = { has_tech = brown_water_navy }
+			}
+		}
+
 		add_stats = {
 			naval_range = 600
 			max_strength = 0.5
-		}		
+		}
 
 		multiply_stats = {
 			surface_visibility = 0.02
@@ -112,12 +118,18 @@ upgrades = {
 			cost_by_level_for_licensed_equipment = 2
 		}
 
+		level_requirements = {
+			4 = {
+				not = { has_tech = brown_water_navy }
+			}
+		}
+
 		add_stats = {
 			naval_range = 300
 			max_strength = 1
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
-		}		
+		}
 
 		multiply_stats = {
 			surface_visibility = 0.02
@@ -133,12 +145,18 @@ upgrades = {
 			cost_by_level_for_licensed_equipment = 2
 		}
 
+		level_requirements = {
+			4 = {
+				not = { has_tech = brown_water_navy }
+			}
+		}
+
 		add_stats = {
 			naval_range = 600
 			max_strength = 2
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
-		}		
+		}
 
 		multiply_stats = {
 			surface_visibility = 0.02
@@ -159,7 +177,7 @@ upgrades = {
 			max_strength = 4
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
-		}		
+		}
 
 		multiply_stats = {
 			surface_visibility = 0.02
