@@ -173,9 +173,29 @@ country_event = {
 		FROM = { country_event = { id = mtg_netherlands.8 days = 1 random_days = 3 } }
 		effect_tooltip = {
 			HOL = {
-				set_technology = {
-					ship_hull_heavy = 1
-					basic_fire_control_system = 1
+				if = {
+					limit = {
+						NOT = { has_tech = ship_hull_heavy }
+					}
+					set_technology = { ship_hull_heavy = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = improved_light_battery }
+					}
+					set_technology = { improved_light_battery = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = electronic_mechanical_engineering }
+					}
+					set_technology = { electronic_mechanical_engineering = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = basic_fire_control_system }
+					}
+					set_technology = { basic_fire_control_system = 1 }
 				}
 				create_equipment_variant = {
 					name = "Design 1047"
@@ -227,9 +247,29 @@ country_event = {
 	# Ok
 	option = {
 		name = mtg_netherlands.8.a
-		set_technology = {
-			ship_hull_heavy = 1
-			basic_fire_control_system = 1
+		if = {
+			limit = {
+				NOT = { has_tech = ship_hull_heavy }
+			}
+			set_technology = { ship_hull_heavy = 1 }
+		}
+		if = {
+			limit = {
+				NOT = { has_tech = improved_light_battery }
+			}
+			set_technology = { improved_light_battery = 1 }
+		}
+		if = {
+			limit = {
+				NOT = { has_tech = electronic_mechanical_engineering }
+			}
+			set_technology = { electronic_mechanical_engineering = 1 }
+		}
+		if = {
+			limit = {
+				NOT = { has_tech = basic_fire_control_system }
+			}
+			set_technology = { basic_fire_control_system = 1 }
 		}
 		create_equipment_variant = {
 			name = "Design 1047"

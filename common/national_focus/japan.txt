@@ -5464,11 +5464,29 @@
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
-			set_technology = {
-				improved_heavy_battery = 1
-				advanced_perf_engines = 1
-				advanced_armor_scheme = 1
-				antiair2 = 1
+			if = {
+				limit = {
+					NOT = { has_tech = improved_heavy_battery }
+				}
+				set_technology = { improved_heavy_battery = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = advanced_armor_scheme }
+				}
+				set_technology = { advanced_armor_scheme = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = antiair1 }
+				}
+				set_technology = { antiair1 = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = antiair2 }
+				}
+				set_technology = { antiair2 = 1 }
 			}
 			create_equipment_variant = {
 				name = "Yamato Class"

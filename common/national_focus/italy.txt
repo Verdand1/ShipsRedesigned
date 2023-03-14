@@ -7267,7 +7267,12 @@ focus_tree = {
 				category = cv_tech
 			}
 
-			set_technology = { flight_deck = 1 }
+			if = {
+				limit = {
+					NOT = { has_tech = flight_deck }
+				}
+				set_technology = { flight_deck = 1 }
+			}
 
 			#Equipment Variant
 			create_equipment_variant = {
@@ -7344,7 +7349,12 @@ focus_tree = {
 
 			navy_experience = 15
 
-			set_technology = { flight_deck = 1 }
+			if = {
+				limit = {
+					NOT = { has_tech = flight_deck }
+				}
+				set_technology = { flight_deck = 1 }
+			}
 
 			#Equipment Variant
 			create_equipment_variant = {

@@ -88,11 +88,29 @@
 		available_if_capitulated = no
 
 		completion_reward = {
-			set_technology = { 
-				basic_light_medium_battery = 1 
-				basic_range_engines = 1
-				improved_range_engines = 1
-				airplane_launcher = 1
+			if = {
+				limit = {
+					NOT = { has_tech = basic_light_medium_battery }
+				}
+				set_technology = { basic_light_medium_battery = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = basic_range_engines }
+				}
+				set_technology = { basic_range_engines = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = improved_range_engines }
+				}
+				set_technology = { improved_range_engines = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = airplane_launcher }
+				}
+				set_technology = { airplane_launcher = 1 }
 			}
 			create_equipment_variant = {
 				name = "Leander Class"

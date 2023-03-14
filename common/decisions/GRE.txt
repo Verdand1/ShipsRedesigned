@@ -3589,8 +3589,11 @@ political_actions = {
 				limit = { 
 					has_dlc = "Man the Guns"
 				}
-				set_technology = {
-					ship_hull_heavy = 1
+				if = {
+					limit = {
+						NOT = { has_tech = ship_hull_heavy }
+					}
+					set_technology = { ship_hull_heavy = 1 }
 				}
 				hidden_effect = { 
 					create_equipment_variant = {
@@ -3688,8 +3691,11 @@ political_actions = {
 				limit = { 
 					has_dlc = "Man the Guns"
 				}
-				set_technology = {
-					ship_hull_heavy = 1
+				if = {
+					limit = {
+						NOT = { has_tech = ship_hull_heavy }
+					}
+					set_technology = { ship_hull_heavy = 1 }
 				}
 				hidden_effect = { 
 					create_equipment_variant = {

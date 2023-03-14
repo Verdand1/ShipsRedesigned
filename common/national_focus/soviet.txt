@@ -12168,15 +12168,21 @@ ai_will_do = {
 			effect_tooltip = {
 				if = {
 					limit = {
-						NOT = { has_tech = basic_fire_control_system }
-					}
-					set_technology = { basic_fire_control_system = 1 }
-				}
-				if = {
-					limit = {
 						NOT = { has_tech = basic_heavy_medium_battery }
 					}
 					set_technology = { basic_heavy_medium_battery = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = electronic_mechanical_engineering }
+					}
+					set_technology = { electronic_mechanical_engineering = 1 }
+				}
+				if = {
+					limit = {
+						NOT = { has_tech = basic_fire_control_system }
+					}
+					set_technology = { basic_fire_control_system = 1 }
 				}
 				create_equipment_variant = {
 					name = "Admiral Hipper Class"
