@@ -4840,6 +4840,14 @@ focus_tree = {
 
 		search_filters = { FOCUS_FILTER_RESEARCH }
 		completion_reward = {
+			hidden_effect = {
+				if = {
+					limit = { 
+						is_ai = yes
+					}
+					set_technology = { basic_fire_control_system = 1 } # IA is cheating to avoid being locked further down
+				}
+			}
 			navy_experience = 15
 			add_tech_bonus = {
 				name = HUN_capital_ships

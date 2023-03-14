@@ -3099,6 +3099,12 @@ focus_tree = {
 				}
 				#This handles the equipment bonus that's not supported by dynamic modifiers
 				add_ideas = SOV_red_fleet_surface_bonus_1
+				if = {
+					limit = { 
+						is_ai = yes
+					}
+					set_technology = { basic_fire_control_system = 1 } # IA is cheating to avoid being locked further down
+				}
 			}
 			custom_effect_tooltip = SOV_surface_warfare_ns_tt
 
