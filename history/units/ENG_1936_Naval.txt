@@ -775,7 +775,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_submarine_1
 			creator = "ENG"
-			version_name = "S Class"
+			version_name = "S Type"
 		}
 		requested_factories = 1
 		progress = 0

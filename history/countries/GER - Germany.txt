@@ -512,6 +512,7 @@ create_equipment_variant = {
 	upgrades = {
 		sub_range_upgrade = 2
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -666,6 +667,7 @@ create_equipment_variant = {
 		ship_medium_engine_upgrade = 7
 		ship_medium_range_upgrade = 7
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -677,6 +679,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_range_upgrade = 2
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -755,7 +758,6 @@ create_equipment_variant = {
 		ship_medium_engine_upgrade = 1
 		ship_medium_range_upgrade = 1
 	}
-	obsolete = yes
 }
 
 # Heavy Cruisers #

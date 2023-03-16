@@ -299,6 +299,7 @@ create_equipment_variant = {
 		ship_light_engine_upgrade = 1
 		ship_light_range_upgrade = 2
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {

@@ -406,5 +406,4 @@ create_equipment_variant = {
 		ship_medium_engine_upgrade = 3
 		ship_medium_range_upgrade = 8
 	}
-	obsolete = yes
 }

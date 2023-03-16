@@ -252,7 +252,7 @@ add_ideas = {
 
 # Submarines #
 create_equipment_variant = {
-	name = "Super-Holland Type"				
+	name = "O Type"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
 	parent_version = 0 #1
@@ -270,10 +270,22 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "S Type"				
+	name = "R Type"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 0 #2
+	parent_version = 1 #2
+	role_icon_index = 6
+	upgrades = {
+		sub_range_upgrade = 3
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "S Type Group I"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 2 #3
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
@@ -283,8 +295,51 @@ create_equipment_variant = {
 	}
 	upgrades = {
 		sub_engine_upgrade = 3
-		sub_range_upgrade = 4
-		sub_depth_upgrade = 3
+		sub_range_upgrade = 1
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "S Type Group II"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 2 #4
+	role_icon_index = 6
+	modules = {
+		fixed_front_1 = ship_torpedo_sub_2
+		mid_1 = ship_torpedo_sub_storage
+		mid_2 = empty
+		front_3 = ship_torpedo_sub_2
+	}
+	upgrades = {
+		sub_engine_upgrade = 4
+		sub_range_upgrade = 5
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "S Type Group III"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 3 #5
+	role_icon_index = 6
+	upgrades = {
+		sub_range_upgrade = 0
+	}
+	obsolete = yes
+}
+
+create_equipment_variant = {
+	name = "S Type Group IV"				
+	type = ship_hull_submarine_1
+	name_group = USA_SS_HISTORICAL
+	parent_version = 4 #6
+	role_icon_index = 6
+	upgrades = {
+		sub_engine_upgrade = 3
+		sub_range_upgrade = 9
 	}
 	obsolete = yes
 }
@@ -293,7 +348,7 @@ create_equipment_variant = {
 	name = "V1 Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 2 #3
+	parent_version = 3 #7
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_1
@@ -313,7 +368,7 @@ create_equipment_variant = {
 	name = "V4 Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 0 #4
+	parent_version = 0 #8
 	role_icon_index = 4
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
@@ -337,7 +392,7 @@ create_equipment_variant = {
 	name = "V5 Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 4 #5
+	parent_version = 8 #9
 	role_icon_index = 6
 	modules = {
 		rear_1 = ship_torpedo_sub_2
@@ -355,7 +410,7 @@ create_equipment_variant = {
 	name = "Dolphin Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 0 #6
+	parent_version = 0 #10
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
@@ -378,7 +433,7 @@ create_equipment_variant = {
 	name = "Cachalot Class"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 0 #7
+	parent_version = 0 #11
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
@@ -397,10 +452,10 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Porpoise & Shark Classes"				
+	name = "P Type"				
 	type = ship_hull_submarine_1
 	name_group = USA_SS_HISTORICAL
-	parent_version = 7 #8
+	parent_version = 11 #12
 	role_icon_index = 6
 	modules = {
 		mid_3 = empty
@@ -555,7 +610,6 @@ create_equipment_variant = {
 		ship_light_range_upgrade = 6
 		ship_light_armor_upgrade = 2
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -572,7 +626,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_range_upgrade = 6
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -588,7 +641,6 @@ create_equipment_variant = {
 		ship_light_engine_upgrade = 8
 		ship_light_range_upgrade = 5
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -758,7 +810,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_range_upgrade = 7
 	}
-	obsolete = yes
 }
 
 # Light cruisers here for inheritance #
@@ -800,7 +851,6 @@ create_equipment_variant = {
 		ship_medium_range_upgrade = 7
 		ship_medium_armor_upgrade = 2
 	}
-	obsolete = yes
 }
 
 # Back to heavy cruisers #
@@ -932,7 +982,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_range_upgrade = 3
 	}
-	obsolete = yes
 }
 
 # Carriers #
@@ -1030,6 +1079,5 @@ create_equipment_variant = {
 		ship_heavy_armor_upgrade = 0
 	}
 }
-
 1939.1.1 = {
 }

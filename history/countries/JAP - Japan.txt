@@ -714,6 +714,7 @@ create_equipment_variant = {
 		sub_range_upgrade = 9
 		sub_depth_upgrade = 5
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -1285,6 +1286,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_medium_range_upgrade = 7
 	}
+	obsolete = yes
 }
 
 # Light cruisers here for inheritance #
@@ -1473,7 +1475,6 @@ create_equipment_variant = {
 		mid_2 = ship_light_medium_battery_1
 		mid_3 = ship_anti_air_2
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {
@@ -1575,7 +1576,6 @@ create_equipment_variant = {
 		ship_heavy_range_upgrade = 7
 		ship_heavy_armor_upgrade = 2
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {

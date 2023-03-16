@@ -279,7 +279,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_range_upgrade = 5
 	}
-	obsolete = yes
 }
 create_equipment_variant = {
 	name = "Cervantes Class"	
@@ -313,6 +312,7 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_range_upgrade = 7
 	}
+	obsolete = yes
 }
 create_equipment_variant = {
 	name = "Bouchard Class"

@@ -357,6 +357,7 @@ create_equipment_variant = {
 		sub_range_upgrade = 5
 		sub_depth_upgrade = 2
 	}
+	obsolete = yes
 }
 
 create_equipment_variant = {

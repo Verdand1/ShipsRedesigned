@@ -301,6 +301,7 @@ create_equipment_variant = {
 		ship_light_engine_upgrade = 7
 		ship_light_range_upgrade = 3
 	}
+	obsolete = yes
 }
 create_equipment_variant = {
 	name = "Stuart Class"
@@ -332,7 +333,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_range_upgrade = 3
 	}
-	obsolete = yes
 }
 create_equipment_variant = {
 	name = "Stalwart Class"

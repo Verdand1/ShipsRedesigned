@@ -390,7 +390,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_range_upgrade = 9
 	}
-	obsolete = yes
 }
 
 create_equipment_variant = {

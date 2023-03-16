@@ -244,7 +244,6 @@ create_equipment_variant = {
 		ship_medium_range_upgrade = 2
 		ship_medium_armor_upgrade = 4
 	}
-	obsolete = yes
 }
 
 # 1939 Start #
