@@ -522,16 +522,19 @@ POR_arms_purchases = {
 								fixed_radar = ship_surveillance_radar_4
 								fixed_engine = sub_ship_engine_4
 								rear_1 = ship_torpedo_sub_2
+								mid_1 = ship_torpedo_sub_storage
 								front_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 1
+								sub_engine_upgrade = 4
+								sub_range_upgrade = 2
 								sub_depth_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Tubarão" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Morsa" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tubarão Class" creator = ENG name = "NRP Focenídeos" }
@@ -563,16 +566,19 @@ POR_arms_purchases = {
 								fixed_radar = ship_surveillance_radar_3
 								fixed_engine = sub_ship_engine_3
 								rear_1 = ship_torpedo_sub_2
+								mid_1 = ship_torpedo_sub_storage
 								front_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 1
+								sub_engine_upgrade = 4
+								sub_range_upgrade = 2
 								sub_depth_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Perca" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Sernambiguara" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Perca Class" creator = ENG name = "NRP Escamudo" }
@@ -604,16 +610,19 @@ POR_arms_purchases = {
 								fixed_radar = ship_surveillance_radar_2
 								fixed_engine = sub_ship_engine_3
 								rear_1 = ship_torpedo_sub_2
+								mid_1 = ship_torpedo_sub_storage
 								front_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 1
+								sub_engine_upgrade = 4
+								sub_range_upgrade = 2
 								sub_depth_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Salmão" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Bonito" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Salmão Class" creator = ENG name = "NRP Caranha" }
@@ -642,16 +651,19 @@ POR_arms_purchases = {
 								fixed_radar = ship_surveillance_radar_2
 								fixed_engine = sub_ship_engine_2
 								rear_1 = ship_torpedo_sub_2
+								mid_1 = ship_torpedo_sub_storage
 								front_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 1
+								sub_engine_upgrade = 4
+								sub_range_upgrade = 2
 								sub_depth_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Esturjão" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Sargo" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Esturjão Class" creator = ENG name = "NRP Dragão-marinho" }
@@ -674,16 +686,19 @@ POR_arms_purchases = {
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = sub_ship_engine_2
 								rear_1 = ship_torpedo_sub_2
+								mid_1 = ship_torpedo_sub_storage
 								front_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 1
+								sub_engine_upgrade = 4
+								sub_range_upgrade = 2
 								sub_depth_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Tautog" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Truta" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Tautog Class" creator = ENG name = "NRP Atum" }
@@ -801,15 +816,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_4
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Cavalinha" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Marlim" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Cavalinha Class" creator = ITA name = "NRP Leão-marinho" }
@@ -842,15 +858,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_3
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Garoupa" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Exocetídeos" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Garoupa Class" creator = ITA name = "NRP Cienídeos" }
@@ -883,15 +900,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_3
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Eglefim" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Halibute" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Eglefim Class" creator = ITA name = "NRP Papa-terra" }
@@ -921,15 +939,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_2
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Misticetos" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Sarda" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Misticetos Class" creator = ITA name = "NRP Cavalla" }
@@ -959,15 +978,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_2
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
+				hidden_effect = { add_manpower = 300 } # 3 x 100MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Lúcio" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Choco" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Lúcio Class" creator = ITA name = "NRP Barracuda" }
@@ -990,15 +1010,16 @@ POR_arms_purchases = {
 								fixed_engine = sub_ship_engine_2
 								rear_1 = ship_torpedo_sub_2
 								rear_2 = ship_torpedo_sub_2
+								front_3 = ship_torpedo_sub_2
 							}
 							upgrades = {
-								sub_engine_upgrade = 4
-								sub_depth_upgrade = 7
+								sub_engine_upgrade = 1
+								sub_depth_upgrade = 5
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 240 } # 3 x 80MP/SS
+				hidden_effect = { add_manpower = 270 } # 3 x 90MP/SS
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Robalo" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Cisco" }
 				create_ship = { type = ship_hull_submarine_1 equipment_variant = "Robalo Class" creator = ITA name = "NRP Peixe-lua" }
@@ -1124,6 +1145,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1168,6 +1190,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1212,6 +1235,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1253,6 +1277,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1293,6 +1318,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1315,7 +1341,7 @@ POR_arms_purchases = {
 							parent_version = 0
 							role_icon_index = 1
 							modules = {
-								fixed_front_1 = ship_light_battery_2
+								fixed_front_1 = ship_light_battery_3
 								fixed_target_acquisition = ship_sonar_2
 								fixed_radar = ship_surveillance_radar_1
 								fixed_engine = ship_range_engine_2
@@ -1327,6 +1353,7 @@ POR_arms_purchases = {
 							}
 							upgrades = {
 								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 8
 							}
 						}
 					}
@@ -1426,7 +1453,7 @@ POR_arms_purchases = {
 						has_tech = advanced_light_battery
 						has_tech = advanced_sonar
 						has_tech = improved_centimetric_radar
-						has_tech = modern_range_engines
+						has_tech = modern_perf_engines
 						has_tech = modern_depth_charges
 						has_tech = antiair5
 					}
@@ -1448,20 +1475,22 @@ POR_arms_purchases = {
 								fixed_front_1 = ship_light_battery_4
 								fixed_target_acquisition = ship_sonar_4
 								fixed_radar = ship_surveillance_radar_4
-								fixed_engine = ship_range_engine_4
+								fixed_engine = ship_perf_engine_4
 								rear_1 = ship_depth_charge_4
 								rear_2 = ship_light_battery_4
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_4
-								front_2 = ship_light_battery_4
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_4
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
+				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Almada" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Seixal" }
 			}
@@ -1471,7 +1500,7 @@ POR_arms_purchases = {
 						has_tech = improved_light_battery
 						has_tech = improved_sonar
 						has_tech = centimetric_radar
-						has_tech = advanced_range_engines
+						has_tech = advanced_perf_engines
 						has_tech = advanced_depth_charges
 						has_tech = antiair2
 					}
@@ -1493,20 +1522,22 @@ POR_arms_purchases = {
 								fixed_front_1 = ship_light_battery_3
 								fixed_target_acquisition = ship_sonar_3
 								fixed_radar = ship_surveillance_radar_3
-								fixed_engine = ship_range_engine_3
+								fixed_engine = ship_perf_engine_3
 								rear_1 = ship_depth_charge_3
 								rear_2 = ship_light_battery_3
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_3
-								front_2 = ship_light_battery_3
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_3
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
+				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Odivelas" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Vila Franca De Xira" }
 			}
@@ -1516,7 +1547,7 @@ POR_arms_purchases = {
 						has_tech = improved_light_battery
 						has_tech = improved_sonar
 						has_tech = decimetric_radar
-						has_tech = advanced_range_engines
+						has_tech = advanced_perf_engines
 						has_tech = advanced_depth_charges
 						has_tech = antiair2
 					}
@@ -1538,20 +1569,22 @@ POR_arms_purchases = {
 								fixed_front_1 = ship_light_battery_3
 								fixed_target_acquisition = ship_sonar_3
 								fixed_radar = ship_surveillance_radar_2
-								fixed_engine = ship_range_engine_3
+								fixed_engine = ship_perf_engine_3
 								rear_1 = ship_depth_charge_3
 								rear_2 = ship_light_battery_3
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_3
-								front_2 = ship_light_battery_3
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_3
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
+				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Coimbra" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Leiria" }
 			}
@@ -1580,20 +1613,22 @@ POR_arms_purchases = {
 								fixed_front_1 = ship_light_battery_2
 								fixed_target_acquisition = ship_sonar_2
 								fixed_radar = ship_surveillance_radar_2
-								fixed_engine = ship_range_engine_2
+								fixed_engine = ship_perf_engine_2
 								rear_1 = ship_depth_charge_2
 								rear_2 = ship_light_battery_2
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_2
-								front_2 = ship_light_battery_2
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_2
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
+				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Funchal" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Viana do Castelo" }
 			}
@@ -1622,20 +1657,22 @@ POR_arms_purchases = {
 								fixed_front_1 = ship_light_battery_2
 								fixed_target_acquisition = ship_sonar_2
 								fixed_radar = ship_surveillance_radar_1
-								fixed_engine = ship_range_engine_2
+								fixed_engine = ship_perf_engine_2
 								rear_1 = ship_depth_charge_2
 								rear_2 = ship_light_battery_2
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_2
-								front_2 = ship_light_battery_2
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_2
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 560 } # 2 x 280MP/DD
+				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Vila Do Conde" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Mafra" }
 			}
@@ -1655,20 +1692,22 @@ POR_arms_purchases = {
 							modules = {
 								fixed_front_1 = ship_light_battery_2
 								fixed_target_acquisition = ship_sonar_1
-								fixed_engine = ship_range_engine_2
+								fixed_engine = ship_perf_engine_2
 								rear_1 = ship_depth_charge_1
 								rear_2 = ship_light_battery_2
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_anti_air_2
-								front_2 = ship_light_battery_2
+								mid_2 = ship_torpedo_2
+								mid_3 = ship_anti_air_2
 							}
 							upgrades = {
-								ship_light_engine_upgrade = 9
+								ship_light_engine_upgrade = 8
+								ship_light_range_upgrade = 2
+								ship_light_armor_upgrade = 1
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 540 } # 2 x 270MP/DD
+				hidden_effect = { add_manpower = 480 } # 2 x 240MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Faro" }
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Évora" }
 			}
@@ -1749,6 +1788,7 @@ POR_arms_purchases = {
 			if = { #1946
 				limit = {
 					ENG = {
+						has_tech = advanced_light_battery
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
 						has_tech = advanced_centimetric_radar
@@ -1775,24 +1815,26 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_2
 								fixed_engine = ship_range_engine_4
 								rear_1 = ship_light_medium_battery_4
-								rear_2 = ship_anti_air_4
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_4
+								mid_2 = ship_anti_air_4
+								mid_3 = ship_anti_air_4
+								front_2 = ship_light_battery_4
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
-								ship_medium_armor_upgrade = 2
+								ship_medium_range_upgrade = 8
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1080 }
+				hidden_effect = { add_manpower = 1110 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Lisboa Class" creator = ENG name = "NRP Lisboa" }
 			}
 			else_if = { #1944
 				limit = {
 					ENG = {
+						has_tech = advanced_light_battery
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
 						has_tech = improved_decimetric_radar
@@ -1819,19 +1861,20 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_1
 								fixed_engine = ship_range_engine_4
 								rear_1 = ship_light_medium_battery_4
-								rear_2 = ship_anti_air_4
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_4
+								mid_2 = ship_anti_air_4
+								mid_3 = ship_anti_air_4
+								front_2 = ship_light_battery_4
 							}
 							upgrades = {
 								ship_medium_engine_upgrade = 9
-								ship_medium_armor_upgrade = 2
+								ship_medium_range_upgrade = 8
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1080 }
+				hidden_effect = { add_manpower = 1110 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Vila Nova de Gaia Class" creator = ENG name = "NRP Vila Nova de Gaia" }
 			}
 			else_if = { #1940
@@ -1863,19 +1906,20 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_1
 								fixed_engine = ship_range_engine_3
 								rear_1 = ship_light_medium_battery_3
-								rear_2 = ship_anti_air_3
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_3
+								mid_2 = ship_anti_air_3
+								mid_3 = ship_anti_air_3
+								front_2 = ship_light_battery_3
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 8
-								ship_medium_armor_upgrade = 2
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 8
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1080 }
+				hidden_effect = { add_manpower = 1110 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Cascais" }
 			}
 			else = { #Fallback
@@ -1896,19 +1940,20 @@ POR_arms_purchases = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_range_engine_2
 								rear_1 = ship_light_medium_battery_2
-								rear_2 = ship_anti_air_2
 								mid_1 = ship_torpedo_2
-								mid_2 = ship_torpedo_2
-								front_2 = ship_anti_air_2
+								mid_2 = ship_anti_air_2
+								mid_3 = ship_anti_air_2
+								front_2 = ship_light_battery_3
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 7
-								ship_medium_armor_upgrade = 2
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 8
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1070 }
+				hidden_effect = { add_manpower = 1100 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Matosinhos Class" creator = ENG name = "NRP Matosinhos" }
 			}
 
@@ -2024,20 +2069,20 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_2
 								fixed_engine = ship_perf_engine_4
 								rear_1 = ship_light_medium_battery_4
-								rear_2 = ship_anti_air_4
-								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_4
 								mid_3 = ship_torpedo_2
 								mid_4 = ship_anti_air_4
 								front_2 = ship_light_medium_battery_4
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 8
-								ship_medium_armor_upgrade = 4
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 3
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1180 }
+				hidden_effect = { add_manpower = 1170 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Sintra Class" creator = ITA name = "NRP Sintra" }
 			}
 			else_if = { #1944
@@ -2069,20 +2114,20 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_1
 								fixed_engine = ship_perf_engine_4
 								rear_1 = ship_light_medium_battery_4
-								rear_2 = ship_anti_air_4
-								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_4
 								mid_3 = ship_torpedo_2
 								mid_4 = ship_anti_air_4
 								front_2 = ship_light_medium_battery_4
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 8
-								ship_medium_armor_upgrade = 4
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 3
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1180 }
+				hidden_effect = { add_manpower = 1170 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Porto Class" creator = ITA name = "NRP Porto" }
 			}
 			else_if = { #1940
@@ -2114,20 +2159,20 @@ POR_arms_purchases = {
 								fixed_radar = ship_fire_control_radar_1
 								fixed_engine = ship_perf_engine_3
 								rear_1 = ship_light_medium_battery_3
-								rear_2 = ship_anti_air_3
-								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_3
 								mid_3 = ship_torpedo_2
-								mid_4 = ship_anti_air_4
+								mid_4 = ship_anti_air_3
 								front_2 = ship_light_medium_battery_3
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 8
-								ship_medium_armor_upgrade = 4
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 3
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1180 }
+				hidden_effect = { add_manpower = 1170 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Loures Class" creator = ITA name = "NRP Loures" }
 			}
 			else = { #Fallback
@@ -2148,20 +2193,20 @@ POR_arms_purchases = {
 								fixed_target_acquisition = ship_fire_control_system_1
 								fixed_engine = ship_perf_engine_2
 								rear_1 = ship_light_medium_battery_2
-								rear_2 = ship_anti_air_2
-								mid_1 = ship_torpedo_2
+								mid_2 = ship_anti_air_2
 								mid_3 = ship_torpedo_2
-								mid_4 = ship_anti_air_4
+								mid_4 = ship_anti_air_2
 								front_2 = ship_light_medium_battery_2
 							}
 							upgrades = {
-								ship_medium_engine_upgrade = 8
-								ship_medium_armor_upgrade = 4
+								ship_medium_engine_upgrade = 9
+								ship_medium_range_upgrade = 3
+								ship_medium_armor_upgrade = 3
 							}
 						}
 					}
 				}
-				hidden_effect = { add_manpower = 1170 }
+				hidden_effect = { add_manpower = 1160 }
 				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Amadora Class" creator = ITA name = "NRP Amadora" }
 			}
 

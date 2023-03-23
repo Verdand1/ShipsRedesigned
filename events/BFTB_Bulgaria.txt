@@ -5401,6 +5401,7 @@ country_event = {
 							fixed_radar = ship_surveillance_radar_4
 							fixed_engine = sub_ship_engine_4
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5441,6 +5442,7 @@ country_event = {
 							fixed_radar = ship_surveillance_radar_3
 							fixed_engine = sub_ship_engine_3
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5481,6 +5483,7 @@ country_event = {
 							fixed_radar = ship_surveillance_radar_2
 							fixed_engine = sub_ship_engine_3
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5518,6 +5521,7 @@ country_event = {
 							fixed_radar = ship_surveillance_radar_2
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5555,6 +5559,7 @@ country_event = {
 							fixed_radar = ship_surveillance_radar_1
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5586,6 +5591,7 @@ country_event = {
 							fixed_front_1 = ship_torpedo_sub_2
 							fixed_engine = sub_ship_engine_2
 							rear_1 = ship_torpedo_sub_2
+							mid_1 = ship_torpedo_sub_storage
 							front_2 = ship_torpedo_sub_2
 						}
 						upgrades = {
@@ -5652,6 +5658,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5696,6 +5703,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5740,6 +5748,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5782,6 +5791,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5824,6 +5834,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5857,6 +5868,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_light_engine_upgrade = 8
+							ship_light_range_upgrade = 1
 						}
 					}
 				}
@@ -5916,6 +5928,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_medium_engine_upgrade = 9
+							ship_medium_range_upgrade = 1
 							ship_medium_armor_upgrade = 2
 						}
 					}
@@ -5958,6 +5971,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_medium_engine_upgrade = 9
+							ship_medium_range_upgrade = 1
 							ship_medium_armor_upgrade = 2
 						}
 					}
@@ -6000,6 +6014,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_medium_engine_upgrade = 8
+							ship_medium_range_upgrade = 1
 							ship_medium_armor_upgrade = 2
 						}
 					}
@@ -6039,6 +6054,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_medium_engine_upgrade = 7
+							ship_medium_range_upgrade = 1
 							ship_medium_armor_upgrade = 2
 						}
 					}
@@ -6071,6 +6087,7 @@ country_event = {
 						}
 						upgrades = {
 							ship_medium_engine_upgrade = 7
+							ship_medium_range_upgrade = 1
 							ship_medium_armor_upgrade = 2
 						}
 					}
