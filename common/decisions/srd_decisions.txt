@@ -418,6 +418,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_tech = brown_water_navy }
 			NOT = { has_country_flag = cheat_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			has_country_flag = srd_treaty_members
@@ -444,6 +445,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_tech = brown_water_navy }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			has_country_flag = srd_treaty_anglogerman_member
 			NOT = { has_government = democratic }
@@ -468,6 +470,7 @@ SRD_naval_treaties = {
 		icon = generic
 		
 		visible = {
+			NOT = { has_tech = brown_water_navy }
 			NOT = { has_country_flag = escalate_on_treaty_flag }
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			has_country_flag = srd_treaty_members
