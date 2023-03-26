@@ -39,6 +39,7 @@ equipment_modules = {
 	}
 	ship_light_battery_2 = {
 		category = ship_light_battery
+		parent = ship_light_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -68,6 +69,7 @@ equipment_modules = {
 	}
 	ship_light_battery_3 = {
 		category = ship_light_battery
+		parent = ship_light_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -98,6 +100,7 @@ equipment_modules = {
 	}
 	ship_light_battery_4 = {
 		category = ship_light_battery
+		parent = ship_light_battery_3
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -173,6 +176,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_2 = {
 		category = ship_light_medium_battery
+		parent = ship_light_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -209,6 +213,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_3 = {
 		category = ship_light_medium_battery
+		parent = ship_light_medium_battery_2
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -245,6 +250,7 @@ equipment_modules = {
 	}
 	ship_light_medium_battery_4 = {
 		category = ship_light_medium_battery
+		parent = ship_light_medium_battery_3
 		sfx = sfx_ui_sd_module_turret
 
 		add_stats = {
@@ -322,6 +328,7 @@ equipment_modules = {
 	}
 	ship_medium_battery_2 = {
 		category = ship_medium_battery
+		parent = ship_medium_battery_1
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -363,6 +370,7 @@ equipment_modules = {
 	}
 	ship_medium_battery_3 = {
 		category = ship_medium_battery
+		parent = ship_medium_battery_2
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -404,6 +412,7 @@ equipment_modules = {
 	}
 	ship_medium_battery_4 = {
 		category = ship_medium_battery
+		parent = ship_medium_battery_3
 		sfx = sfx_ui_sd_module_turret
 		add_equipment_type = capital_ship
 
@@ -486,6 +495,7 @@ equipment_modules = {
 	}
 	ship_heavy_battery_2 = {
 		category = ship_heavy_battery
+		parent = ship_heavy_battery_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -518,6 +528,7 @@ equipment_modules = {
 	}
 	ship_heavy_battery_3 = {
 		category = ship_heavy_battery
+		parent = ship_heavy_battery_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -550,6 +561,7 @@ equipment_modules = {
 	}
 	ship_heavy_battery_4 = {
 		category = ship_heavy_battery
+		parent = ship_heavy_battery_3
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -609,6 +621,7 @@ equipment_modules = {
 	}
 	ship_anti_air_2 = {
 		category = ship_anti_air
+		parent = ship_anti_air_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -627,6 +640,7 @@ equipment_modules = {
 	}
 	ship_anti_air_3 = {
 		category = ship_anti_air
+		parent = ship_anti_air_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -645,6 +659,7 @@ equipment_modules = {
 	}
 	ship_anti_air_4 = {
 		category = ship_anti_air
+		parent = ship_anti_air_3
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -702,6 +717,7 @@ equipment_modules = {
 	}
 	ship_range_engine_1 = {
 		category = ship_range_engine
+		parent = ship_deprecated_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -718,6 +734,7 @@ equipment_modules = {
 	}
 	ship_range_engine_2 = {
 		category = ship_range_engine
+		parent = ship_range_engine_1
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -734,6 +751,7 @@ equipment_modules = {
 	}
 	ship_range_engine_3 = {
 		category = ship_range_engine
+		parent = ship_range_engine_2
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -750,6 +768,7 @@ equipment_modules = {
 	}
 	ship_range_engine_4 = {
 		category = ship_range_engine
+		parent = ship_range_engine_3
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -779,6 +798,7 @@ equipment_modules = {
 	}
 	ship_perf_engine_2 = {
 		category = ship_perf_engine
+		parent = ship_perf_engine_1
 		sfx = sfx_ui_sd_module_engine
 		
 		multiply_stats = {
@@ -792,6 +812,7 @@ equipment_modules = {
 	}
 	ship_perf_engine_3 = {
 		category = ship_perf_engine
+		parent = ship_perf_engine_2
 		sfx = sfx_ui_sd_module_engine
 		
 		multiply_stats = {
@@ -805,6 +826,7 @@ equipment_modules = {
 	}
 	ship_perf_engine_4 = {
 		category = ship_perf_engine
+		parent = ship_perf_engine_3
 		sfx = sfx_ui_sd_module_engine
 		
 		multiply_stats = {
@@ -825,6 +847,7 @@ equipment_modules = {
 	}
 	sub_ship_engine_1 = {
 		category = sub_ship_engine
+		parent = sub_ship_deprecated_engine
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -842,6 +865,7 @@ equipment_modules = {
 	}
 	sub_ship_engine_2 = {
 		category = sub_ship_engine
+		parent = sub_ship_engine_1
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -859,6 +883,7 @@ equipment_modules = {
 	}
 	sub_ship_engine_3 = {
 		category = sub_ship_engine
+		parent = sub_ship_engine_2
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -876,6 +901,7 @@ equipment_modules = {
 	}
 	sub_ship_engine_4 = {
 		category = sub_ship_engine
+		parent = sub_ship_engine_3
 		sfx = sfx_ui_sd_module_engine
 		
 		add_stats = {
@@ -929,6 +955,7 @@ equipment_modules = {
 	}
 	ship_torpedo_2 = {
 		category = ship_torpedo
+		parent = ship_torpedo_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -975,6 +1002,7 @@ equipment_modules = {
 	}
 	ship_torpedo_sub_2 = {
 		category = ship_torpedo_sub
+		parent = ship_torpedo_sub_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -1089,6 +1117,7 @@ equipment_modules = {
 	}
 	ship_depth_charge_2 = {
 		category = ship_depth_charge
+		parent = ship_depth_charge_1
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -1106,6 +1135,7 @@ equipment_modules = {
 	}
 	ship_depth_charge_3 = {
 		category = ship_depth_charge
+		parent = ship_depth_charge_2
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -1123,6 +1153,7 @@ equipment_modules = {
 	}
 	ship_depth_charge_4 = {
 		category = ship_depth_charge
+		parent = ship_depth_charge_3
 		sfx = sfx_ui_sd_module_turret
 		
 		add_stats = {
@@ -1166,6 +1197,7 @@ equipment_modules = {
 	}
 	ship_sub_snorkel_2 = {
 		category = ship_sub_snorkel
+		parent = ship_sub_snorkel_1
 		
 		add_stats = {
 			build_cost_ic = 110
@@ -1277,6 +1309,7 @@ equipment_modules = {
 	}
 	ship_deck_space_3 = {
 		category = ship_large_deck_space
+		parent = ship_deck_space_2
 		gui_category = ship_deck_space
 
 		add_stats = {
@@ -1334,6 +1367,7 @@ equipment_modules = {
 	}
 	ship_sonar_2 = {
 		category = ship_sonar
+		parent = ship_sonar_1
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1353,6 +1387,7 @@ equipment_modules = {
 	}
 	ship_sonar_3 = {
 		category = ship_sonar
+		parent = ship_sonar_2
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1372,6 +1407,7 @@ equipment_modules = {
 	}
 	ship_sonar_4 = {
 		category = ship_sonar
+		parent = ship_sonar_3
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1418,6 +1454,7 @@ equipment_modules = {
 	}
 	ship_fire_control_system_1 = {
 		category = ship_fire_control_system
+		parent = ship_fire_control_system_0
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
@@ -1439,6 +1476,7 @@ equipment_modules = {
 	}
 	ship_fire_control_system_2 = {
 		category = ship_fire_control_system
+		parent = ship_fire_control_system_1
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
@@ -1460,6 +1498,7 @@ equipment_modules = {
 	}
 	ship_fire_control_system_3 = {
 		category = ship_fire_control_system
+		parent = ship_fire_control_system_2
 		sfx = sfx_ui_sd_module_sonar
 
 		add_stats = {
@@ -1508,6 +1547,7 @@ equipment_modules = {
 	}
 	ship_surveillance_radar_2 = {
 		category = ship_surveillance_radar
+		parent = ship_surveillance_radar_1
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1526,6 +1566,7 @@ equipment_modules = {
 	}
 	ship_surveillance_radar_3 = {
 		category = ship_surveillance_radar
+		parent = ship_surveillance_radar_2
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1544,6 +1585,7 @@ equipment_modules = {
 	}
 	ship_surveillance_radar_4 = {
 		category = ship_surveillance_radar
+		parent = ship_surveillance_radar_3
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1583,6 +1625,7 @@ equipment_modules = {
 	}
 	ship_fire_control_radar_2 = {
 		category = ship_fire_control_radar
+		parent = ship_fire_control_radar_1
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
