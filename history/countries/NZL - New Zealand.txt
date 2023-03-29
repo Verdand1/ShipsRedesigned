@@ -35,6 +35,7 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	blue_water_navy = 1
+	not_brown_water_navy = 1
 	escort_patrols = 1
 }
 if = {

@@ -9,6 +9,10 @@ technologies = {
 		mines_sweeping_by_fleets_factor = 0.2
 		on_research_complete = {
 			hidden_effect = {
+				set_technology = { 
+					not_brown_water_navy = 1
+					popup = no
+				}
 				remove_ideas = {
 					brown_water_navy_1936
 					brown_water_navy_1937
@@ -206,6 +210,10 @@ technologies = {
 		convoy_raiding_efficiency_factor = 0.2
 		on_research_complete = {
 			hidden_effect = {
+				set_technology = { 
+					not_brown_water_navy = 1
+					popup = no
+				}
 				remove_ideas = {
 					brown_water_navy_1936
 					brown_water_navy_1937
@@ -400,6 +408,7 @@ technologies = {
 		mines_planting_by_fleets_factor = 0.2
 		on_research_complete = {
 			hidden_effect = {
+				set_technology = { not_brown_water_navy = 0 }
 				remove_ideas = {
 					SRD_naval_treaty_adherent
 					SRD_naval_treaty_adherent_cheat
@@ -524,7 +533,7 @@ technologies = {
 		}
 		#####
 
-		xor = { blue_water_navy green_water_navy individual_superiority naval_air_operations } 
+		xor = { blue_water_navy green_water_navy } 
 		
 		xp_research_type = navy
 		xp_unlock_cost = 10
@@ -564,10 +573,14 @@ technologies = {
 		}
 		########
 
-		xor = { victory_through_number brown_water_navy } 
+		xor = { victory_through_number } 
 		
 		path = {
 			leads_to_tech = defeat_in_detail
+		}
+		
+		dependencies = {
+			not_brown_water_navy = 1
 		}
 		
 		xp_research_type = navy
@@ -623,6 +636,10 @@ technologies = {
 		
 		path = {
 			leads_to_tech = naval_air_operations
+		}
+		
+		dependencies = {
+			not_brown_water_navy = 1
 		}
 		
 		xp_research_type = navy
@@ -972,10 +989,14 @@ technologies = {
 		sortie_efficiency = 0.1
 		########
 
-		xor = { floating_fortress brown_water_navy } 
+		xor = { floating_fortress } 
 		
 		path = {
 			leads_to_tech = massed_strikes
+		}
+		
+		dependencies = {
+			not_brown_water_navy = 1
 		}
 		
 		xp_research_type = navy
@@ -1033,6 +1054,10 @@ technologies = {
 			leads_to_tech = carrier_battlegroups
 		}
 		
+		dependencies = {
+			not_brown_water_navy = 1
+		}
+		
 		xp_research_type = navy
 		xp_unlock_cost = 100
 		doctrine = yes	
@@ -1076,6 +1101,10 @@ technologies = {
 		}
 		naval_strike_targetting_factor = 0.1
 		###########
+		
+		dependencies = {
+			not_brown_water_navy = 1
+		}
 		
 		xp_research_type = navy
 		xp_unlock_cost = 100
@@ -1655,6 +1684,16 @@ technologies = {
 				factor = 2
 				tag = HOL
 			}
+		}
+	}
+	
+	not_brown_water_navy = {
+		# Used to check if brown_water_navy is not researched
+		allow = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 0
 		}
 	}
 }

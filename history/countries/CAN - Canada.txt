@@ -92,6 +92,7 @@ set_technology = {
 	basic_naval_mines = 1
 	ship_light_hull = 1
 	blue_water_navy = 1
+	not_brown_water_navy = 1
 	escort_patrols = 1
 }
 if = {

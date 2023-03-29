@@ -773,6 +773,7 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
 	green_water_navy = 1
+	not_brown_water_navy = 1
 	jeune_ecole = 1
 	convoy_interdiction = 1
 }
