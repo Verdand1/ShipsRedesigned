@@ -7561,7 +7561,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -7755,7 +7761,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -7778,7 +7790,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -7890,7 +7908,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -7915,7 +7939,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -8100,7 +8130,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -8278,7 +8314,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -8318,7 +8360,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 
@@ -8391,7 +8439,13 @@ focus_tree = {
 			is_subject_of = ITA
 			ITA = {
 				has_civil_war = no
-				has_government = fascism
+				OR = {
+					has_government = fascism
+					has_completed_focus = ITA_monarchia_d_italia
+					hidden_trigger = {
+						has_government = neutrality # if ITA has been couped to be a monarchy
+					}
+				}
 			}
 		}
 

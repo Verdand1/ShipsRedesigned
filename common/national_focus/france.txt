@@ -1547,6 +1547,21 @@
 			x = 0
 			y = 0
 		}
+
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_revive_the_national_bloc
+				}
+			}
+		}
+
 		prerequisite = {}
 		mutually_exclusive = { focus = FRA_revive_the_national_bloc }
 		cost = 10
@@ -1582,6 +1597,18 @@
 				promote_leader = yes
 			}
 			set_country_flag = { flag = FRA_popular_front_cooldown value = 1 days = 360 } #fires strike event if labour laws not reformed in time
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
 		}
 	}
 	focus = {
@@ -1593,10 +1620,25 @@
 			x = 0
 			y = 0
 		}
+		relative_position_id = FRA_form_the_popular_front
+		
+		allow_branch = {
+			has_dlc = "La Resistance"
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_revive_the_national_bloc
+				}
+			}
+		}
+
 		prerequisite = { focus = FRA_form_the_popular_front }
 		mutually_exclusive = { }
-		relative_position_id = FRA_form_the_popular_front
-		allow_branch = { has_dlc = "La Resistance" }
 		cost = 10
 
 		ai_will_do = {
@@ -3257,6 +3299,18 @@
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -8
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+
 		prerequisite = {
 			focus = FRA_reform_the_labour_laws
 			focus = FRA_protect_the_rights_of_man
@@ -3498,6 +3552,29 @@
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_form_the_popular_front
+			}
+		}
+		offset = {
+			x = -9
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+
 		prerequisite = {
 			focus = FRA_reform_the_labour_laws
 			focus = FRA_protect_the_rights_of_man
@@ -3535,10 +3612,34 @@
 		icon = GFX_focus_focus_fra_intervention_spain
 		x = 7
 		y = 2
+
 		offset = {
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -4
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_form_the_popular_front
+			}
+		}
+		offset = {
+			x = -5
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+
 		prerequisite = {
 			focus = FRA_form_the_popular_front
 			focus = FRA_revive_the_national_bloc
@@ -4472,7 +4573,20 @@
 		y = 1
 		relative_position_id = FRA_form_the_popular_front
 		cost = 10
-		allow_branch = { not = { has_dlc = "La Resistance" } } 
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_revive_the_national_bloc
+				}
+			}
+		}
 		available_if_capitulated = yes
 
 		ai_will_do = {
@@ -4613,6 +4727,31 @@
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -9
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+
+		allow_branch = {
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_form_the_popular_front
+				}
+			}
+		}
 
 		cost = 10
 		ai_will_do = {
@@ -4630,6 +4769,18 @@
 		search_filters = { FOCUS_FILTER_POLITICAL }
 		completion_reward = {
 			add_country_leader_trait = tenacious_negotiator
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
+			}
 		}
 	}	
 	focus = {
@@ -4983,20 +5134,48 @@
 		icon = GFX_focus_generic_strike_at_democracy1
 		x = 8
 		y = 1
+		relative_position_id = FRA_revive_the_national_bloc
+		
 		offset = {
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -1
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+
+		allow_branch = {
+			has_dlc = "La Resistance"
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_form_the_popular_front
+				}
+			}
+		}
 		prerequisite = {
 			focus = FRA_revive_the_national_bloc
 		}
-		relative_position_id = FRA_revive_the_national_bloc
 		cost = 10
 
 		ai_will_do = {
 			factor = 1
 		}
-		allow_branch = { has_dlc = "La Resistance" }
+
 		available = {
 			NOT = {
 				has_completed_focus = FRA_review_foreign_policy
@@ -5029,11 +5208,26 @@
 			x = 0
 			y = 0
 		}
+		relative_position_id = FRA_utilize_the_leagues
+
+		allow_branch = {
+			has_dlc = "La Resistance"
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = { has_completed_focus = FRA_form_the_popular_front }
+				NOT = {	has_completed_focus = FRA_the_council_of_rambouillet }
+			}
+		}
+
 		prerequisite = {
 			focus = FRA_utilize_the_leagues
 		}
 		mutually_exclusive = { focus = FRA_the_council_of_rambouillet }
-		relative_position_id = FRA_utilize_the_leagues
 		cost = 10
 
 		ai_will_do = {
@@ -5073,6 +5267,18 @@
 			set_politics = {
 				ruling_party = fascism
 				elections_allowed = no
+			}
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
 			}
 		}
 	}
@@ -6335,7 +6541,20 @@
 		cost = 10
 
 		available_if_capitulated = yes
-		allow_branch = { not = { has_dlc = "La Resistance" } } 
+		allow_branch = {
+			NOT = { has_dlc = "La Resistance" }
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {
+					has_completed_focus = FRA_form_the_popular_front
+				}
+			}
+		} 
 		ai_will_do = {
 			factor = 1
 		}
@@ -6766,11 +6985,39 @@
 			x = 0
 			y = 0
 		}
+		offset = {
+			x = -14
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_the_council_of_rambouillet
+			}
+		}
+
+		relative_position_id = FRA_utilize_the_leagues
+
+		allow_branch = {
+			has_dlc = "La Resistance"
+			if = {
+				limit = {
+					has_game_rule = {
+						rule = obsolete_focus_branches_visibility
+						option = HIDE
+					}
+				}
+				NOT = {	has_completed_focus = FRA_form_the_popular_front }
+				NOT = {	has_completed_focus = FRA_national_regeneration }
+			}
+		}
+
 		prerequisite = {
 			focus = FRA_utilize_the_leagues
 		}
 		mutually_exclusive = { focus = FRA_national_regeneration }
-		relative_position_id = FRA_utilize_the_leagues
 		cost = 10
 
 		ai_will_do = {
@@ -6793,6 +7040,18 @@
 			add_popularity = {
 				ideology = neutrality
 				popularity = 0.1
+			}
+
+			hidden_effect = {
+				if = {
+					limit = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+					}
+					mark_focus_tree_layout_dirty = yes
+				}
 			}
 		}
 	}
@@ -7989,14 +8248,88 @@
 		icon = GFX_goal_generic_construct_naval_dockyard
 		x = 70
 		y = 0
-		cost = 10
+
 		offset = {
 			x = -16
 			y = 0
 			trigger = {
-				not = { has_dlc = "La Resistance" }
+				NOT = { has_dlc = "La Resistance" }
 			}
 		}
+		offset = {
+			x = -12
+			y = 0
+			trigger = {
+				NOT = { has_dlc = "La Resistance"}
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_form_the_popular_front
+			}
+		}
+		offset = {
+			x = -9
+			y = 0
+			trigger = {
+				NOT = { has_dlc = "La Resistance"}
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+		offset = {
+			x = -27
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_form_the_popular_front
+			}
+		}
+		offset = {
+			x = -10
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_revive_the_national_bloc
+			}
+		}
+		offset = {
+			x = -11
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_national_regeneration
+			}
+		}
+		offset = {
+			x = -14
+			y = 0
+			trigger = {
+				has_dlc = "La Resistance"
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = FRA_the_council_of_rambouillet
+			}
+		}
+
+		cost = 10
 		available_if_capitulated = yes
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		complete_tooltip = {
@@ -8496,16 +8829,11 @@
 	focus = {
 		id = FRA_air_focus
 		icon = GFX_goal_generic_build_airforce
-		x = 80
+		x = 9
 		y = 0
+		relative_position_id = FRA_naval_rearmament
+		
 		cost = 10
-		offset = {
-			x = -17
-			y = 0
-			trigger = {
-				not = { has_dlc = "La Resistance" }
-			}
-		}
 		available_if_capitulated = yes
 
 		bypass = {

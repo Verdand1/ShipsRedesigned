@@ -90,7 +90,7 @@
  ETH_regional_supply_depots_desc:0 "Our troops will be unable to defend their homeland if they have no ammunition or food. After all, an army marches on its stomach. We should make sure they are always well supplied by establishing regional military supply depots across [ETH.GetName]."
  ETH_expand_the_levy:1 "Expand the [GetChitetName]"
  ETH_expand_the_levy_desc:0 "With better support and training, the [GetChitetName] has become a robust and flexible military force. With this strong base to build upon, we shall expand the [GetChitetName] to deter any foreign aggressor."
- ETH_expand_the_levy_tt:0 "Increases the amount of Chitet Sefari Divisions that can be fielded to §Y40§!.\nAdds §Y3 $irregular_infantry$§! battalions to Chitet Sefari Divisions. Adds §Y$engineer$§!, §Y$military_police$§!, and §Y$field_hospital$§! if relevant technologies have been researched."
+ ETH_expand_the_levy_tt:1 "Increases the amount of Chitet Sefari Divisions that can be fielded to §Y48§!.\nAdds §Y3 $irregular_infantry$§! battalions to Chitet Sefari Divisions. Adds §Y$engineer$§!, §Y$military_police$§!, and §Y$field_hospital$§! if relevant technologies have been researched."
  ETH_the_junior_officer_corps:0 "The Junior Officer Corps"
  ETH_the_junior_officer_corps_desc:0 "The armed forces have been dominated by aristocrats for centuries. If we want to make them more effective on the battlefield, we need to establish officer schools and training programs that promote meritocracy over nepotism. A stepping stone towards that would be the establishment of a junior officer corps."
  ETH_camouflage:0 "Camouflage"

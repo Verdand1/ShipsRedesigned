@@ -10682,6 +10682,7 @@ focus_tree = {
 				limit = {
 					has_government = communism
 					is_in_faction = no
+					is_subject = no
 					NOT = {
 						capital_scope = {
 							is_on_continent = asia
