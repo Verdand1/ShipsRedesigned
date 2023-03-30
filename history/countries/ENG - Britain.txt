@@ -752,24 +752,6 @@ create_equipment_variant = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Triton Class"				
-	type = ship_hull_submarine_1
-	name_group = ENG_SS_HISTORICAL
-	parent_version = 8 #13
-	role_icon_index = 6
-	modules = {
-		fixed_engine = sub_ship_engine_2
-		rear_2 = ship_torpedo_sub_2
-		mid_1 = ship_unavailable_space
-		mid_2 = ship_unavailable_space
-	}
-	upgrades = {
-		sub_engine_upgrade = 3
-		sub_range_upgrade = 6
-	}
-}
-
 # Destroyers #
 create_equipment_variant = {
 	name = "R Type"
@@ -1110,29 +1092,6 @@ create_equipment_variant = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Tribal Type"
-	type = ship_hull_light_1
-	name_group = ENG_DD_HISTORICAL
-	parent_version = 0
-	role_icon_index = 1
-	modules = {
-		fixed_target_acquisition = ship_sonar_2
-		fixed_engine = ship_perf_engine_2
-		rear_1 = ship_depth_charge_1
-		rear_2 = ship_light_battery_1
-		mid_1 = ship_torpedo_2
-		mid_2 = ship_anti_air_1
-		mid_3 = empty
-		front_2 = ship_light_battery_1
-	}
-	upgrades = {
-		ship_light_engine_upgrade = 7
-		ship_light_range_upgrade = 8
-		ship_light_armor_upgrade = 3
-	}
-}
-
 # Light Cruisers #
 create_equipment_variant = {
 	name = "C Type"
@@ -1403,25 +1362,6 @@ create_equipment_variant = {
 }
 
 create_equipment_variant = {
-	name = "Queen Elizabeth Class - Remodel"	
-	type = ship_hull_heavy_1
-	name_group = ENG_BB_HISTORICAL
-	parent_version = 1
-	role_icon_index = 1
-	modules = {
-		fixed_target_acquisition = ship_fire_control_system_1
-		fixed_engine = ship_range_engine_2
-		rear_2 = ship_anti_air_2
-		mid_1 = ship_airplane_launcher_1
-		front_2 = ship_anti_air_2
-	}
-	upgrades = {
-		ship_heavy_engine_upgrade = 4
-		ship_heavy_range_upgrade = 6
-	}
-}
-
-create_equipment_variant = {
 	name = "Revenge Class"	
 	type = ship_hull_heavy_1
 	name_group = ENG_BB_HISTORICAL
@@ -1440,7 +1380,7 @@ create_equipment_variant = {
 	name = "Renown Class"	
 	type = ship_hull_heavy_1
 	name_group = ENG_BC_HISTORICAL
-	parent_version = 3
+	parent_version = 2
 	role_icon_index = 1
 	modules = {
 		rear_2 = empty
@@ -1459,7 +1399,7 @@ create_equipment_variant = {
 	name = "Hood Class"	
 	type = ship_hull_heavy_1
 	name_group = ENG_BC_HISTORICAL
-	parent_version = 4
+	parent_version = 3
 	role_icon_index = 1
 	modules = {
 		fixed_target_acquisition = ship_fire_control_system_0
@@ -1495,6 +1435,25 @@ create_equipment_variant = {
 		ship_heavy_engine_upgrade = 4
 		ship_heavy_range_upgrade = 9
 		ship_heavy_armor_upgrade = 4
+	}
+}
+
+create_equipment_variant = {
+	name = "Queen Elizabeth Class - Remodel"	
+	type = ship_hull_heavy_1
+	name_group = ENG_BB_HISTORICAL
+	parent_version = 1
+	role_icon_index = 1
+	modules = {
+		fixed_target_acquisition = ship_fire_control_system_1
+		fixed_engine = ship_range_engine_2
+		rear_2 = ship_anti_air_2
+		mid_1 = ship_airplane_launcher_1
+		front_2 = ship_anti_air_2
+	}
+	upgrades = {
+		ship_heavy_engine_upgrade = 4
+		ship_heavy_range_upgrade = 6
 	}
 }
 

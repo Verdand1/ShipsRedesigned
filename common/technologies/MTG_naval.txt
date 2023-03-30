@@ -111,10 +111,6 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
-			modifier = {
-				factor = 10
-				has_completed_focus = uk_carrier_focus
-			}
 		}
 		
 		categories = {
@@ -243,12 +239,6 @@ technologies = {
 			modifier = {
 				factor = 0
 				num_of_naval_factories < 5
-				not = { tag = ENG }
-				not = { tag = JAP }
-				not = { tag = USA }
-				not = { tag = FRA }
-				not = { tag = ITA }
-				not = { tag = GER }
 				not = { tag = SOV }
 			}
 		}
@@ -290,6 +280,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
+					has_tech = brown_water_navy
 					AND = {
 						num_of_naval_factories < 5
 						not = { tag = ENG }
@@ -302,7 +293,7 @@ technologies = {
 					}
 					AND = {
 						tag = SOV
-						not = { has_completed_focus = SOV_an_oceangoing_navy }
+						not = { has_completed_focus = SOV_surface_warfare }
 					}
 					has_completed_focus = uk_carrier_focus
 				}
@@ -358,7 +349,7 @@ technologies = {
 					}
 					AND = {
 						tag = SOV
-						not = { has_completed_focus = SOV_an_oceangoing_navy }
+						not = { has_completed_focus = SOV_surface_warfare }
 					}
 					has_completed_focus = uk_carrier_focus
 				}
@@ -413,11 +404,7 @@ technologies = {
 							has_tech = ship_hull_heavy
 						}
 						not = { tag = ENG }
-						not = { tag = JAP }
-						not = { tag = USA }
 						not = { tag = FRA }
-						not = { tag = ITA }
-						not = { tag = GER }
 					}
 					AND = {
 						tag = ENG
@@ -464,6 +451,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
+					has_tech = brown_water_navy
 					AND = {
 						OR = {
 							num_of_naval_factories < 10
@@ -482,7 +470,7 @@ technologies = {
 					}
 					AND = {
 						tag = GER
-						  has_completed_focus = GER_plan_z
+						has_completed_focus = GER_plan_z
 					}
 				}
 			}
@@ -619,24 +607,12 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 6
+			factor = 20
 			modifier = {
 				factor = 0
 				OR = {
-					has_tech = brown_water_navy
-					AND = {
-						num_of_naval_factories < 10
-						not = { tag = JAP }
-						not = { tag = USA }
-						not = { tag = FRA }
-						not = { tag = ITA }
-						not = { tag = GER }
-						not = { tag = SOV }
-					}
-					AND = {
-						tag = SOV
-						not = { has_completed_focus = SOV_an_oceangoing_navy }
-					}
+					not = { tag = SOV }
+					not = { has_completed_focus = SOV_surface_warfare }
 				}
 			}
 		}
@@ -678,9 +654,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_tech = brown_water_navy
 					AND = {
-						num_of_naval_factories < 10
 						not = { tag = JAP }
 						not = { tag = USA }
 						not = { tag = FRA }
@@ -690,13 +664,12 @@ technologies = {
 					}
 					AND = {
 						tag = SOV
-						not = { has_completed_focus = SOV_an_oceangoing_navy }
+						not = { has_completed_focus = SOV_surface_warfare }
 					}
 					AND = {
 						tag = GER
 						not = { has_completed_focus = GER_plan_z }
 					}
-					tag = ENG
 				}
 			}
 			modifier = {
@@ -738,9 +711,7 @@ technologies = {
 			modifier = {
 				factor = 0
 				OR = {
-					has_tech = brown_water_navy
 					AND = {
-						num_of_naval_factories < 10
 						not = { tag = JAP }
 						not = { tag = USA }
 						not = { tag = FRA }
@@ -750,13 +721,12 @@ technologies = {
 					}
 					AND = {
 						tag = SOV
-						not = { has_completed_focus = SOV_an_oceangoing_navy }
+						not = { has_completed_focus = SOV_surface_warfare }
 					}
 					AND = {
 						tag = GER
 						not = { has_completed_focus = GER_plan_z }
 					}
-					tag = ENG
 				}
 			}
 			modifier = {
@@ -1811,13 +1781,21 @@ technologies = {
 			factor = 8
 			modifier = {
 				factor = 0
-				not = { tag = GER }
-				not = { tag = ITA }
-				not = { tag = FRA }
-				not = { tag = JAP }
-				not = { tag = USA }
-				not = { tag = ENG }
-				not = { has_completed_focus = SOV_an_oceangoing_navy }
+				OR = {
+					AND = {
+						not = { tag = JAP }
+						not = { tag = USA }
+						not = { tag = FRA }
+						not = { tag = ITA }
+						not = { tag = GER }
+						not = { tag = SOV }
+						not = { tag = ENG }
+					}
+					AND = {
+						tag = SOV
+						not = { has_completed_focus = SOV_surface_warfare }
+					}
+				}
 			}
 		}
 		
@@ -1930,7 +1908,7 @@ technologies = {
 					num_of_naval_factories < 10
 					has_tech = ship_hull_heavy
 				}
-				not = { has_completed_focus = SOV_an_oceangoing_navy }
+				not = { has_completed_focus = SOV_surface_warfare }
 			}
 		}
 		
@@ -1967,12 +1945,24 @@ technologies = {
 			factor = 5
 			modifier = {
 				factor = 0
-				not = { tag = JAP }
-				not = { tag = USA }
-				not = { tag = FRA }
-				not = { tag = ITA }
-				not = { tag = GER }
-				not = { has_completed_focus = SOV_an_oceangoing_navy }
+				OR = {
+					AND = {
+						not = { tag = JAP }
+						not = { tag = USA }
+						not = { tag = FRA }
+						not = { tag = ITA }
+						not = { tag = GER }
+						not = { tag = SOV }
+					}
+					AND = {
+						tag = JAP
+						not = { has_completed_focus = JAP_supremacy_of_the_battlefleet }
+					}
+					AND = {
+						tag = SOV
+						not = { has_completed_focus = SOV_surface_warfare }
+					}
+				}
 			}
 		}
 		
@@ -2005,9 +1995,10 @@ technologies = {
 			modifier = {
 				factor = 0
 				not = { tag = JAP }
+				not = { tag = USA }
 				not = { tag = FRA }
 				not = { tag = GER }
-				not = { has_completed_focus = SOV_an_oceangoing_navy }
+				not = { tag = SOV }
 			}
 		}
 		
@@ -2390,6 +2381,13 @@ technologies = {
 		
 		ai_will_do = {
 			factor = 5
+			modifier = {
+				factor = 0
+				OR = {
+					tag = JAP
+					tag = USA
+				}
+			}
 		}
 		
 		categories = {

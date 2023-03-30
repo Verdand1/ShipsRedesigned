@@ -763,7 +763,6 @@ set_technology = { #WARNING: Do not just remove techs from here -> It can impact
 	basic_range_engines = 1	
 	improved_perf_engines = 1
 	basic_perf_engines = 1
-	improved_armor_scheme = 1
 	basic_armor_scheme = 1
 	airplane_launcher = 1
 	basic_naval_mines = 1
@@ -1582,31 +1581,6 @@ create_equipment_variant = {
 	upgrades = {
 		ship_light_engine_upgrade = 9
 		ship_light_range_upgrade = 0
-	}
-}
-
-create_equipment_variant = {
-	name = "Tashkent Class"
-	type = ship_hull_light_1
-	name_group = SOV_DD_HISTORICAL
-	parent_version = 0 #9
-	role_icon_index = 1
-	modules = {
-		fixed_front_1 = ship_light_battery_2
-		fixed_target_acquisition = ship_fire_control_system_0
-		fixed_radar = top_heavy
-		fixed_engine = ship_perf_engine_2
-		rear_1 = ship_depth_charge_1
-		rear_2 = ship_mine_layer_1
-		mid_1 = ship_torpedo_2
-		mid_2 = ship_torpedo_2
-		mid_3 = ship_anti_air_1
-		front_2 = ship_light_battery_1
-	}
-	upgrades = {
-		ship_light_engine_upgrade = 9
-		ship_light_range_upgrade = 8
-		ship_light_armor_upgrade = 3
 	}
 }
 

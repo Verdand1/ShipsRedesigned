@@ -1617,21 +1617,6 @@ create_equipment_variant = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Hiryu Class"	
-	type = ship_hull_carrier_1
-	name_group = JAP_CV_HISTORICAL
-	parent_version = 3
-	role_icon_index = 7
-	modules = {
-		rear_1 = ship_deck_space_3
-		rear_2 = empty
-	}
-	upgrades = {
-		ship_heavy_range_upgrade = 9
-	}
-}
-
 if = {
 	limit = {
 		has_dlc = "No Step Back"

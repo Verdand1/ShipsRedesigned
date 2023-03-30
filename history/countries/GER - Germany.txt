@@ -612,21 +612,6 @@ create_equipment_variant = {
 	}
 }
 
-create_equipment_variant = {
-	name = "Type 1936"
-	type = ship_hull_light_1
-	name_group = GER_DD_HISTORICAL
-	parent_version = 4
-	role_icon_index = 1
-	modules = {
-		fixed_radar = empty
-	}
-	upgrades = {
-		ship_light_engine_upgrade = 9
-		ship_light_range_upgrade = 1
-	}
-}
-
 # Light Cruisers #
 create_equipment_variant = {
 	name = "Emden Class"

@@ -41,8 +41,12 @@ DD = {
 	}
 	
 	
-	DD = {
+	DD_BWN = {
 	
+		enable = {
+			has_tech = brown_water_navy
+		}
+		
 		role_icon_index = 2
 		
 		target_variant = {
@@ -51,10 +55,13 @@ DD = {
 			type = ship_hull_light_1
 			modules = {
 				rear_2 = ship_mine_sweeper_1
+				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 7
+				ship_light_range_upgrade = 3
 			}
 		}
 		
@@ -77,10 +84,55 @@ DD = {
 			ship_depth_charge_1
 			ship_torpedo_2
 			ship_torpedo_1
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
-			ship_anti_air_1
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+			ship_light_battery_1
+		}
+	}
+	
+	DD = {
+	
+		enable = {
+			not = { has_tech = brown_water_navy }
+		}
+		
+		role_icon_index = 1
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_light_1
+			modules = {
+				rear_2 = ship_mine_sweeper_1
+				mid_3 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_light_engine_upgrade = 8
+				ship_light_range_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_sonar_4
+			ship_sonar_3
+			ship_sonar_2
+			ship_sonar_1
+			ship_surveillance_radar_4
+			ship_surveillance_radar_3
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_range_engine_1
+			ship_depth_charge_4
+			ship_depth_charge_3
+			ship_depth_charge_2
+			ship_depth_charge_1
+			ship_torpedo_2
+			ship_torpedo_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -128,10 +180,10 @@ CL = {
 		}
 	}
 	
-	CL_1 = {
+	CL_BWN = {
 	
 		enable = {
-			not = { has_tech = basic_light_medium_battery }
+			has_tech = brown_water_navy
 		}
 		
 		role_icon_index = 2
@@ -142,11 +194,13 @@ CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_2 = { any_of = { ship_torpedo_2 ship_torpedo_1 } }
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
-				ship_medium_engine_upgrade = 6
+				ship_medium_engine_upgrade = 9
+				ship_medium_range_upgrade = 2
 				ship_medium_armor_upgrade = 2
 			}
 		}
@@ -162,7 +216,52 @@ CL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
+			ship_light_medium_battery_2
+			ship_light_medium_battery_1
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	CL_1 = {
+	
+		enable = {
+			not = { has_tech = brown_water_navy }
+			not = { has_tech = basic_light_medium_battery }
+		}
+		
+		role_icon_index = 1
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_range_upgrade = 3
+				ship_medium_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_range_engine_1
 			ship_light_medium_battery_1
 			ship_anti_air_4
 			ship_anti_air_3
@@ -173,9 +272,10 @@ CL = {
 	
 	CL_2 = {
 	
-		role_icon_index = 2
+		role_icon_index = 1
 		
 		enable = {
+			not = { has_tech = brown_water_navy }
 			has_tech = basic_light_medium_battery
 			not = { has_tech = improved_light_medium_battery }
 		}
@@ -188,9 +288,11 @@ CL = {
 				rear_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
-				ship_medium_engine_upgrade = 7
+				ship_medium_engine_upgrade = 8
+				ship_medium_range_upgrade = 3
 				ship_medium_armor_upgrade = 2
 			}
 		}
@@ -206,7 +308,6 @@ CL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
 			ship_light_medium_battery_2
 			ship_anti_air_4
 			ship_anti_air_3
@@ -217,9 +318,10 @@ CL = {
 
 	CL_3 = {
 	
-		role_icon_index = 2
+		role_icon_index = 1
 
 		enable = {
+			not = { has_tech = brown_water_navy }
 			has_tech = improved_light_medium_battery
 			not = { has_tech = advanced_light_medium_battery }
 		}
@@ -230,11 +332,14 @@ CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 8
+				ship_medium_range_upgrade = 3
 				ship_medium_armor_upgrade = 2
 			}
 		}
@@ -250,8 +355,9 @@ CL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
 			ship_light_medium_battery_3
+			ship_light_battery_4
+			ship_light_battery_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -261,9 +367,10 @@ CL = {
 	
 	CL_4 = {
 	
-		role_icon_index = 2
+		role_icon_index = 1
 		
 		enable = {
+			not = { has_tech = brown_water_navy }
 			has_tech = advanced_light_medium_battery
 		}
 		
@@ -273,12 +380,15 @@ CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
-				ship_medium_armor_upgrade = 2
+				ship_medium_range_upgrade = 3
+				ship_medium_armor_upgrade = 3
 			}
 		}
 		
@@ -293,8 +403,9 @@ CL = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
 			ship_light_medium_battery_4
+			ship_light_battery_4
+			ship_light_battery_3
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
@@ -346,10 +457,10 @@ CA = {
 		}
 	}
 	
-	CA_1 = {
+	CA_BWN = {
 	
 		enable = {
-			not = { has_tech = basic_heavy_medium_battery }
+			has_tech = brown_water_navy
 		}
 		
 		role_icon_index = 1
@@ -360,102 +471,13 @@ CA = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_2 = { any_of = { ship_torpedo_2 ship_torpedo_1 } }
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 			}
 			upgrades = {
-				ship_medium_engine_upgrade = 6
-				ship_medium_armor_upgrade = 2
-			}
-		}
-		
-		allowed_modules = {
-			ship_fire_control_system_3
-			ship_fire_control_system_2
-			ship_fire_control_system_1
-			ship_fire_control_system_0
-			ship_fire_control_radar_2
-			ship_fire_control_radar_1
-			ship_range_engine_4
-			ship_range_engine_3
-			ship_range_engine_2
-			ship_range_engine_1
-			ship_reinforced_structure
-			ship_medium_battery_1
-			ship_light_battery_4
-			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
-		}
-	}
-	
-	CA_2 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			has_tech = basic_heavy_medium_battery
-			not = { has_tech = improved_heavy_medium_battery }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				rear_2 = ship_unavailable_space
-				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 7
-				ship_medium_armor_upgrade = 3
-			}
-		}
-		
-		allowed_modules = {
-			ship_fire_control_system_3
-			ship_fire_control_system_2
-			ship_fire_control_system_1
-			ship_fire_control_system_0
-			ship_fire_control_radar_2
-			ship_fire_control_radar_1
-			ship_range_engine_4
-			ship_range_engine_3
-			ship_range_engine_2
-			ship_range_engine_1
-			ship_reinforced_structure
-			ship_medium_battery_2
-			ship_light_battery_4
-			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
-		}
-	}
-
-	CA_3 = {
-	
-		role_icon_index = 1
-
-		enable = {
-			has_tech = improved_heavy_medium_battery
-			not = { has_tech = advanced_heavy_medium_battery }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				rear_2 = ship_unavailable_space
-				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 8
+				ship_medium_engine_upgrade = 9
+				ship_medium_range_upgrade = 2
 				ship_medium_armor_upgrade = 4
 			}
 		}
@@ -471,7 +493,101 @@ CA = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
+			ship_medium_battery_2
+			ship_medium_battery_1
+			ship_anti_air_4
+			ship_anti_air_3
+			ship_anti_air_2
+			ship_anti_air_1
+		}
+	}
+	
+	CA_1_2 = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			not = { has_tech = brown_water_navy }
+			not = { has_tech = improved_heavy_medium_battery }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_range_upgrade = 3
+				ship_medium_armor_upgrade = 3
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_range_engine_1
+			ship_medium_battery_2
+			ship_medium_battery_1
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+			ship_light_battery_1
+		}
+	}
+
+	CA_3 = {
+	
+		role_icon_index = 1
+
+		enable = {
+			not = { has_tech = brown_water_navy }
+			has_tech = improved_heavy_medium_battery
+			not = { has_tech = advanced_heavy_medium_battery }
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 8
+				ship_medium_range_upgrade = 3
+				ship_medium_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_range_engine_1
 			ship_medium_battery_3
 			ship_light_battery_4
 			ship_light_battery_3
@@ -485,6 +601,7 @@ CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_tech = brown_water_navy }
 			has_tech = advanced_heavy_medium_battery
 		}
 		
@@ -494,12 +611,14 @@ CA = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
+				ship_medium_range_upgrade = 3
 				ship_medium_armor_upgrade = 5
 			}
 		}
@@ -515,8 +634,72 @@ CA = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_reinforced_structure
 			ship_medium_battery_4
+			ship_light_battery_4
+			ship_light_battery_3
+			ship_light_battery_2
+			ship_light_battery_1
+		}
+	}
+}
+
+CVL = {
+
+	category = naval
+	
+	blocked_for = {
+		GER
+		USA
+		JAP
+		ENG
+		FRA
+		ITA
+		SOV
+		AST
+		CAN
+		NZL
+		RAJ
+	}
+	
+	roles = { naval_carrier_light }
+	
+	priority = {
+		factor = 0
+	}
+
+	CVL = {
+	
+		role_icon_index = 7
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_2
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_range_upgrade = 2
+				ship_medium_armor_upgrade = 1
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_range_engine_4
+			ship_range_engine_3
+			ship_range_engine_2
+			ship_range_engine_1
+			ship_deck_space_1
 			ship_light_battery_4
 			ship_light_battery_3
 			ship_light_battery_2
@@ -559,19 +742,14 @@ BB = {
 			factor = 0
 			OR = {
 				num_of_naval_factories < 10
-				has_tech = brown_water_navy
 				SRD_treaty_limit_level_3_BB = yes
 			}
 		}
 	}
 	
-	BB_1 = {
+	BB = {
 	
 		role_icon_index = 1
-		
-		enable = {
-			not = { has_tech = basic_heavy_battery }
-		}
 		
 		target_variant = {
 			match_value = 1.0
@@ -579,102 +757,9 @@ BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
-			}
-			upgrades = {
-				ship_heavy_engine_upgrade = 6
-				ship_heavy_armor_upgrade = 2
-			}
-		}
-		
-		allowed_modules = {
-			ship_fire_control_system_3
-			ship_fire_control_system_2
-			ship_fire_control_system_1
-			ship_fire_control_system_0
-			ship_fire_control_radar_2
-			ship_fire_control_radar_1
-			ship_range_engine_4
-			ship_range_engine_3
-			ship_range_engine_2
-			ship_range_engine_1
-			ship_damage_control_system_3
-			ship_damage_control_system_2
-			ship_damage_control_system_1
-			ship_reinforced_structure
-			ship_heavy_battery_1
-			ship_light_battery_4
-			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
-		}
-	}
-
-	BB_2 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			has_tech = basic_heavy_battery
-			not = { has_tech = improved_heavy_battery }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_heavy_1
-			modules = {
-				rear_2 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
-			}
-			upgrades = {
-				ship_heavy_engine_upgrade = 7
-				ship_heavy_armor_upgrade = 2
-			}
-		}
-		
-		allowed_modules = {
-			ship_fire_control_system_3
-			ship_fire_control_system_2
-			ship_fire_control_system_1
-			ship_fire_control_system_0
-			ship_fire_control_radar_2
-			ship_fire_control_radar_1
-			ship_range_engine_4
-			ship_range_engine_3
-			ship_range_engine_2
-			ship_range_engine_1
-			ship_damage_control_system_3
-			ship_damage_control_system_2
-			ship_damage_control_system_1
-			ship_reinforced_structure
-			ship_heavy_battery_2
-			ship_light_battery_4
-			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
-		}
-	}
-
-	BB_3 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			has_tech = improved_heavy_battery
-			not = { has_tech = advanced_heavy_battery }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_heavy_1
-			modules = {
-				rear_2 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8
@@ -693,38 +778,58 @@ BB = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_damage_control_system_3
-			ship_damage_control_system_2
-			ship_damage_control_system_1
-			ship_reinforced_structure
-			ship_heavy_battery_3
+			ship_heavy_battery_1
 			ship_light_battery_4
 			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
+			ship_light_medium_battery_2
+			ship_light_medium_battery_1
 		}
 	}
+}
+
+CV = {
+
+	category = naval
 	
-	BB_4 = {
+	blocked_for = {
+		GER
+		USA
+		JAP
+		ENG
+		FRA
+		ITA
+		SOV
+		AST
+		CAN
+		NZL
+		RAJ
+	}
 	
-		role_icon_index = 1
-		
-		enable = {
-			has_tech = advanced_heavy_battery
-		}
+	roles = { naval_carrier }
+	
+	priority = {
+		factor = 0
+	}
+
+	CV = {
+	
+		role_icon_index = 7
 		
 		target_variant = {
 			match_value = 1.0
 			
-			type = ship_hull_heavy_1
+			type = ship_hull_carrier_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 ship_anti_air_1 } }
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
-				ship_heavy_armor_upgrade = 2
+				ship_heavy_range_upgrade = 1
+				ship_heavy_armor_upgrade = 1
 			}
 		}
 		
@@ -739,15 +844,72 @@ BB = {
 			ship_range_engine_3
 			ship_range_engine_2
 			ship_range_engine_1
-			ship_damage_control_system_3
-			ship_damage_control_system_2
-			ship_damage_control_system_1
-			ship_reinforced_structure
-			ship_heavy_battery_4
+			ship_deck_space_3
 			ship_light_battery_4
 			ship_light_battery_3
-			ship_light_battery_2
-			ship_light_battery_1
+			ship_light_medium_battery_2
+			ship_light_medium_battery_1
+		}
+	}
+}
+
+SS = {
+
+	category = naval
+	
+	blocked_for = {
+		GER
+		USA
+		JAP
+		ENG
+		FRA
+		ITA
+		SOV
+		AST
+		CAN
+		NZL
+		RAJ
+	}
+	
+	roles = { naval_submarine }
+	
+	priority = {
+		factor = 0
+	}
+
+	SS = {
+	
+		role_icon_index = 6
+
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_submarine_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = ship_torpedo_sub_storage
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				sub_range_upgrade = 1
+				sub_depth_upgrade = 9
+			}
+		}
+		
+		allowed_modules = {
+			ship_sub_snorkel_2
+			ship_sub_snorkel_1
+			ship_surveillance_radar_4
+			ship_surveillance_radar_3
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
+			sub_ship_engine_4
+			sub_ship_engine_3
+			sub_ship_engine_2
+			sub_ship_engine_1
+			ship_torpedo_sub_2
+			ship_torpedo_sub_1
+			ship_unavailable_space
 		}
 	}
 }
@@ -798,20 +960,21 @@ SM = {
 		}
 	}
 	
-	SM = {
+	SM_BWN = {
 	
-		role_icon_index = 5
+		role_icon_index = 4
 		
-		enable = { has_tech = submarine_mine_laying }
+		enable = {
+			has_tech = brown_water_navy
+			has_tech = submarine_mine_laying
+		}
 		
 		target_variant = {
 			match_value = 1.0
 			
 			type = ship_hull_submarine_1
 			modules = {
-				mid_1 = ship_unavailable_space
-				mid_2 = ship_unavailable_space
-				front_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_depth_upgrade = 9
@@ -826,6 +989,38 @@ SM = {
 			sub_ship_engine_2
 			sub_ship_engine_1
 			ship_mine_layer_sub
+			ship_unavailable_space
+			ship_torpedo_sub_1
+		}
+	}
+	
+	SM = {
+	
+		role_icon_index = 4
+		
+		enable = {
+			not = { has_tech = brown_water_navy }
+			has_tech = submarine_mine_laying
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_submarine_1
+			upgrades = {
+				sub_depth_upgrade = 9
+			}
+		}
+		
+		allowed_modules = {
+			ship_sub_snorkel_2
+			ship_sub_snorkel_1
+			sub_ship_engine_4
+			sub_ship_engine_3
+			sub_ship_engine_2
+			sub_ship_engine_1
+			ship_mine_layer_sub
+			ship_unavailable_space
 			ship_torpedo_sub_1
 		}
 	}
