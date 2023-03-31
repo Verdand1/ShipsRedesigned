@@ -1,4 +1,4 @@
-version="V0.2"
+version="V0.3"
 tags={
 	"Balance"
 	"Technologies"
