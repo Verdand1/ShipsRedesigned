@@ -108,6 +108,7 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				has_country_flag = USA_AI_RANDOM_FASCIST
+			}
 		}
 
 		allow_branch = {
