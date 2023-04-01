@@ -1947,7 +1947,7 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		gui_row = 1
+		gui_row = 0
 		gui_column = 0
 	}
 
@@ -1974,7 +1974,7 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		gui_row = 3
+		gui_row = 2
 		gui_column = 0
 	}
 
@@ -2031,7 +2031,7 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		gui_row = 0
+		gui_row = 4
 		gui_column = 0
 	}
 
@@ -2054,7 +2054,7 @@ leader_traits = {
 		ai_will_do = {
 			factor = 1
 		}
-		gui_row = 4
+		gui_row = 3
 		gui_column = 0
 	}
 
@@ -2135,7 +2135,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		parent = seawolf
 		mutually_exclusive = lancer
-		gui_row = 1
+		gui_row = 0
 		gui_column = 1
 	}
 
@@ -2151,7 +2151,7 @@ leader_traits = {
 
 		trait_type = assignable_trait
 		parent = silent_hunter
-		gui_row = 1
+		gui_row = 0
 		gui_column = 2
 	}
 
@@ -2174,7 +2174,7 @@ leader_traits = {
 		mutually_exclusive = silent_hunter
 		mutually_exclusive = destroyer_leader
 		
-		gui_row = 2
+		gui_row = 1
 		gui_column = 1
 	}
 
@@ -2200,7 +2200,7 @@ leader_traits = {
 		
 		mutually_exclusive = lancer
 		
-		gui_row = 3
+		gui_row = 2
 		gui_column = 1
 	}
 	loading_drill_master = { 
@@ -2216,7 +2216,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		parent = lancer
 		
-		gui_row = 2
+		gui_row = 1
 		gui_column = 2
 	}
 	hunter_killer = { 
@@ -2238,7 +2238,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		parent = destroyer_leader
 		
-		gui_row = 3
+		gui_row = 2
 		gui_column = 2
 	}
 
@@ -2270,7 +2270,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		parent = fly_swatter
 		
-		gui_row = 4
+		gui_row = 3
 		gui_column = 1
 	}
 
@@ -2287,7 +2287,7 @@ leader_traits = {
 		trait_type = assignable_trait
 		parent = spotter
 		
-		gui_row = 0
+		gui_row = 4
 		gui_column = 1
 	}
 
@@ -2326,7 +2326,7 @@ leader_traits = {
 		
 		trait_type = assignable_trait
 		parent = cruiser_captain
-		gui_row = 4
+		gui_row = 3
 		gui_column = 2
 	}
 	mine_sweeper = { 
