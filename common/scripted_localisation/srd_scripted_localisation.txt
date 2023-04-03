@@ -340,3 +340,103 @@ defined_text = { # Country
 		localization_key = SRD_loc_in_treaty
 	}
 }
+
+#HOW MANY CVS DO YOU HAVE
+
+defined_text = { # Country
+	name = SRDGetCarrierOwned
+	text = {
+		trigger = {
+			has_navy_size = { size < 1 unit = carrier }
+		}
+		localization_key = SRD_loc_num_CV_0
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 0 unit = carrier }
+				has_navy_size = { size < 2 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_1
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 1 unit = carrier }
+				has_navy_size = { size < 3 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_2
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 2 unit = carrier }
+				has_navy_size = { size < 4 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_3
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 3 unit = carrier }
+				has_navy_size = { size < 5 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_4
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 4 unit = carrier }
+				has_navy_size = { size < 6 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_5
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 5 unit = carrier }
+				has_navy_size = { size < 7 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_6
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 6 unit = carrier }
+				has_navy_size = { size < 8 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_7
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 7 unit = carrier }
+				has_navy_size = { size < 9 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_8
+	}
+	text = {
+		trigger = {
+			AND = {
+				has_navy_size = { size > 8 unit = carrier }
+				has_navy_size = { size < 10 unit = carrier }
+			}
+		}
+		localization_key = SRD_loc_num_CV_9
+	}
+	text = {
+		trigger = {
+			has_navy_size = { size > 9 unit = carrier }
+		}
+		localization_key = SRD_loc_num_CV_10
+	}
+	
+}

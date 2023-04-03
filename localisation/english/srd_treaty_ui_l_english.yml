@@ -8,7 +8,7 @@
  SRD_SS_name:0 "Submarine"
  
  SRD_owned_header:0 "Owned"
- SRD_CV_owned:0 "[?THIS.num_ships_with_type@carrier]"
+ SRD_CV_owned:0 "[SRDGetCarrierOwned]"
  SRD_CVL_owned:0 "[?THIS.num_ships_with_type@light_carrier]"
  SRD_BB_owned:0 "[?THIS.num_ships_with_type@battleship]"
  SRD_CA_owned:0 "[?THIS.num_ships_with_type@heavy_cruiser]"
