@@ -91,18 +91,9 @@ equipments = {
 					ship_mine_layer
 				}
 			}
-			mid_2 = {
-				required = no
-				allowed_module_categories = {
-					ship_unavailable_space
-					ship_anti_air
-					ship_light_battery
-					ship_torpedo
-					ship_airplane_launcher
-				}
-			}
-			mid_3 = mid_2
-			mid_4 = mid_2
+			mid_2 = mid_1
+			mid_3 = mid_1
+			mid_4 = mid_1
 			front_2 = {
 				required = no
 				allowed_module_categories = {
