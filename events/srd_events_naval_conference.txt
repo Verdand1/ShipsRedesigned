@@ -659,7 +659,7 @@ country_event = {
 		name = SRD_naval_conference.500.a 
 		
 		ai_chance = {
-			factor = 50
+			factor = 100
 			modifier = {
 				factor = 0
 				is_historical_focus_on = yes
@@ -669,8 +669,17 @@ country_event = {
 				has_country_flag = ITA_AI_RANDOM_FASCIST_HISTORICAL
 			}
 			modifier = {
+				factor = 3
+				has_country_flag = ITA_AI_RANDOM_FASCIST_GRANDI
+			}
+			
+			modifier = {
 				factor = 0
-				has_global_flag = FRA_refused_treaty
+				AND = {
+					has_global_flag = FRA_refused_treaty
+					NOT = { has_country_flag = ITA_AI_RANDOM_CHRISTIAN_DEMOCRACY }
+					NOT = { has_country_flag = ITA_AI_RANDOM_DEMOCRATIC_PLAN }
+				}
 			}
 		}
 		
@@ -710,9 +719,21 @@ country_event = {
 		ai_chance = {
 			factor = 100
 			modifier = {
-				factor = 0.5
-				has_country_flag = ITA_AI_RANDOM_FASCIST_ALTERNATE
+				factor = 0.9
+				has_country_flag = ITA_AI_RANDOM_FASCIST_HISTORICAL
 			}
+			modifier = {
+				factor = 3
+				has_country_flag = ITA_AI_RANDOM_MONARCHIST
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					has_country_flag = ITA_AI_RANDOM_CHRISTIAN_DEMOCRACY
+					has_country_flag = ITA_AI_RANDOM_DEMOCRATIC_PLAN
+				}
+			}
+			
 		}
 		
 		add_to_variable = {
