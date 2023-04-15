@@ -1938,7 +1938,13 @@ focus_tree = {
 			trigger = {
 				OR = {
 					NOT = { has_dlc = "Man the Guns" }
-					has_completed_focus = uk_empire_focus
+					AND = {
+						has_game_rule = {
+							rule = obsolete_focus_branches_visibility
+							option = HIDE
+						}
+						has_completed_focus = uk_empire_focus
+					}
 				}
 			}
 		}
@@ -2653,15 +2659,11 @@ focus_tree = {
 			x = -3
 			y = 0
 			trigger = {
-				if = {
-					limit = {
-						has_game_rule = {
-							rule = obsolete_focus_branches_visibility
-							option = HIDE
-						}
-					}
-					has_completed_focus = ENG_revisit_colonial_policy
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
 				}
+				has_completed_focus = ENG_revisit_colonial_policy
 			}
 		}
 
@@ -8308,6 +8310,18 @@ focus_tree = {
 				NOT = {
 					has_completed_focus = ENG_a_change_in_course
 				}
+			}
+		}
+
+		offset = {
+			x = 4
+			y = 0
+			trigger = {
+				has_game_rule = {
+					rule = obsolete_focus_branches_visibility
+					option = HIDE
+				}
+				has_completed_focus = ENG_global_defense
 			}
 		}
 

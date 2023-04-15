@@ -1957,7 +1957,7 @@ ideas = {
 
 		koolhoven = {
 			
-			picture = koolhoven
+			picture = generic_air_manufacturer_3
 
 			
 			allowed = {
