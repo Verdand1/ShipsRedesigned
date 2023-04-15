@@ -407,7 +407,10 @@ SRD_naval_treaties = {
 		
 		complete_effect = {
 			ENG = {
-				country_event = { id = SRD_naval_treaty.900 }
+				country_event = { 
+					id = SRD_naval_treaty.900 
+					hours = 3
+				}
 			}
 		}
 	}

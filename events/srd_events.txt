@@ -446,6 +446,9 @@ country_event = {
 
 	option = { #rally the french
 		name = SRD_naval_treaty.900.a 
+		trigger = {
+			country_exists = FRA
+		}
 		ai_chance = {
 			factor = 100
 		}
@@ -467,7 +470,21 @@ country_event = {
 				factor = 0
 			}
 		}
-		GER = {	country_event = { id = SRD_naval_treaty.901 } }
+		GER = {	country_event = { id = SRD_naval_treaty.904 } }
+	}
+	
+	option = { #refuse
+		name = SRD_naval_treaty.900.c
+		trigger = {
+			NOT = { country_exists = FRA }
+		}
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_political_power = -25
+		add_stability = -0.02
+		FRA = {	country_event = { id = SRD_naval_treaty.903 } }
 	}
 }
 
@@ -607,6 +624,40 @@ country_event = {
 	}
 }
 
+#FRANCE LEAVES US
+
+country_event = {
+	id = SRD_naval_treaty.907
+	title = SRD_naval_treaty.907.t
+	desc = SRD_naval_treaty.907.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	is_triggered_only = yes
+
+	option = { #we stand
+		name = SRD_naval_treaty.907.a
+		ai_chance = {
+			factor = 50
+		}
+		GER = {	country_event = { id = SRD_naval_treaty.903 } }
+	}
+	
+	option = { #shitshitshit offer them something
+		name = SRD_naval_treaty.907.b 
+		ai_chance = {
+			factor = 50
+			modifier = {
+				OR = {
+					has_completed_focus = ENG_global_defense
+					has_completed_focus = ENG_organize_the_blackshirts
+				}
+				factor = 0
+			}
+		}
+		GER = {	country_event = { id = SRD_naval_treaty.904 } }
+	}
+}
+
 #BRITAIN STANDS ALONE
 
 country_event = {
@@ -635,7 +686,7 @@ country_event = {
 	option = { #nevermind
 		name = SRD_naval_treaty.903.b
 		ai_chance = {
-			factor = 100
+			factor = 150
 		}
 		set_global_flag = german_naval_limitations_challenge_met
 	}

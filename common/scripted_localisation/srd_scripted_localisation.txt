@@ -440,3 +440,278 @@ defined_text = { # Country
 	}
 	
 }
+
+#ARE YOU EVEN IN THE TREATIES
+
+defined_text = { # Country
+	name = SRDTreatyResult
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EUFJI
+	}
+	
+	#ONE LEFT
+	
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_UFJI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EFJI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EUJI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EUFI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EUFJ
+	}
+	
+	#TWO LEFT
+	
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_FJI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_UJI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_UFI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_UFJ
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EJI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EFI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EFJ
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EUI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EUJ
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EUF
+	}
+	
+	#3 LEFT
+	
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_JI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_FI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_UI
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+			NOT = { has_global_flag = ITA_refused_treaty }
+		}
+		localization_key = SRD_loc_EI
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_FJ
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_UJ
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			has_global_flag = FRA_refused_treaty
+			NOT = { has_global_flag = JAP_refused_treaty }
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EJ
+	}
+	text = {
+		trigger = {
+			has_global_flag = ENG_refused_treaty
+			NOT = { has_global_flag = USA_refused_treaty }
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_UF
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			has_global_flag = USA_refused_treaty
+			NOT = { has_global_flag = FRA_refused_treaty }
+			has_global_flag = JAP_refused_treaty
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EF
+	}
+	text = {
+		trigger = {
+			NOT = { has_global_flag = ENG_refused_treaty }
+			NOT = { has_global_flag = USA_refused_treaty }
+			has_global_flag = FRA_refused_treaty
+			has_global_flag = JAP_refused_treaty
+			has_global_flag = ITA_refused_treaty
+		}
+		localization_key = SRD_loc_EU
+	}
+}
