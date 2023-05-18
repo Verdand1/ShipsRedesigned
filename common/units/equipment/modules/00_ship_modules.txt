@@ -696,6 +696,67 @@ equipment_modules = {
 			build_cost_ic = -0.1
 		}
 		
+		can_convert_from = {
+			module_category = ship_light_battery
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_light_medium_battery
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_medium_battery
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_heavy_battery
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_anti_air
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_torpedo
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_mine_layer
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_mine_warfare
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_depth_charge
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_airplane_launcher
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_deck_space
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_large_deck_space
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_torpedo_sub_storage
+			convert_cost_ic = 1000
+		}
+		can_convert_from = {
+			module_category = ship_mine_layer_sub
+			convert_cost_ic = 1000
+		}
+
 		dismantle_cost_ic = 1000
 		
 	}
