@@ -10,7 +10,6 @@ equipments = {
 		year = 1922
 
 		can_be_produced = {
-			has_tech = flight_deck
 			NOT = {
 				has_idea = BUL_army_restrictions
 				has_tech = brown_water_navy

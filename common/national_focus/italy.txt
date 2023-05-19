@@ -7265,7 +7265,7 @@ focus_tree = {
 				name = ITA_proper_carriers
 				bonus = 1.0
 				uses = 1
-				category = cv_tech
+				category = naval_air
 			}
 
 			if = {
@@ -7273,6 +7273,12 @@ focus_tree = {
 					NOT = { has_tech = flight_deck }
 				}
 				set_technology = { flight_deck = 1 }
+			}
+			if = {
+				limit = {
+					NOT = { has_tech = large_flight_deck }
+				}
+				set_technology = { large_flight_deck = 1 }
 			}
 
 			#Equipment Variant
