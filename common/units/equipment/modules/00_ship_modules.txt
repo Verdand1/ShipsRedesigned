@@ -758,6 +758,7 @@ equipment_modules = {
 		}
 
 		dismantle_cost_ic = 1000
+		xp_cost = 4
 		
 	}
 
