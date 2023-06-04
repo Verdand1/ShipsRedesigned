@@ -5755,10 +5755,6 @@
 		}
 
 		bypass = {
-			AND = {
-				has_tech = heavy_battleship
-				has_tech = heavy_battleship2
-			}
 		}
 
 		cancel_if_invalid = yes
