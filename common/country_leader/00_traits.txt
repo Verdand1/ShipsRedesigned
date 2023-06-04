@@ -5531,16 +5531,16 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			screen_ship = {
-				build_cost_ic = -0.05
+				reliability = 0.1
 			}
 			submarine = {
-				build_cost_ic = -0.05
+				reliability = 0.1
 			}
 			capital_ship = {
-				build_cost_ic = -0.05
+				reliability = 0.05
 			}
 			carrier = {
-				build_cost_ic = -0.05
+				reliability = 0.05
 			}
 		}
 
@@ -5724,16 +5724,16 @@ leader_traits = {
 		random = no
 		equipment_bonus = {
 			carrier = {
-				build_cost_ic = -0.1
+				build_cost_ic = -0.05
 			}
 			capital_ship = {
-				build_cost_ic = -0.1
+				build_cost_ic = -0.05
 			}
 			screen_ship = {
-				build_cost_ic = -0.1
+				build_cost_ic = -0.05
 			}
 			submarine = {
-				build_cost_ic = -0.1
+				build_cost_ic = -0.05
 			}
 		}
 

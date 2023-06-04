@@ -1370,12 +1370,16 @@ ideas = {
 
 			
 			research_bonus = {
-				naval_equipment = 0.15
+				naval_equipment = 0.1
 			}
 			
-			traits = { coastal_defence_naval_manufacturer }
+			traits = { repair_and_refurbishment_plant }
 			
 			modifier = {
+				naval_accidents_chance = -0.15
+				repair_speed_factor = 0.1
+				refit_ic_cost = -0.1
+				refit_speed = 0.1
 			}
 		}
 		
