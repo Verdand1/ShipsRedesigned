@@ -93,7 +93,6 @@ set_technology = {
 	airplane_launcher = 1
 	flight_deck = 1
 	large_flight_deck = 1
-	mtg_transport = 1
 	basic_naval_mines = 1
 	submarine_mine_laying = 1
 	ship_light_hull = 1
