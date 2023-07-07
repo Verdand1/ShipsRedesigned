@@ -15,11 +15,11 @@ FRA_DD = {
 			has_completed_focus = FRA_the_young_school
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -81,11 +81,11 @@ FRA_ASW = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -144,11 +144,11 @@ FRA_MS = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -203,11 +203,11 @@ FRA_CL = {
 	priority = {
 		factor = 60
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CL = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CL = yes
 		}
 		modifier = {
@@ -346,11 +346,11 @@ FRA_CA = {
 	priority = {
 		factor = 10
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CA = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CA = yes
 		}
 		modifier = {
@@ -761,7 +761,7 @@ FRA_CV = {
 	priority = {
 		factor = 10
 		modifier = {
-			factor = 0.1
+			factor = 0.0001
 			SRD_treaty_slow_level_3_CV = yes
 		}
 		modifier = {

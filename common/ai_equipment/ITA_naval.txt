@@ -215,11 +215,11 @@ ITA_CL = {
 			has_completed_focus = ITA_incrociatori_leggeri
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CL = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CL = yes
 		}
 		modifier = {
@@ -631,11 +631,11 @@ ITA_BB = {
 	priority = {
 		factor = 40
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_BB = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_BB = yes
 		}
 		modifier = {
@@ -910,11 +910,11 @@ ITA_SS = {
 	priority = {
 		factor = 60
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_SS = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_SS = yes
 		}
 		modifier = {
@@ -971,11 +971,11 @@ ITA_SM = {
 			has_completed_focus = ITA_incrociatori_leggeri
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_SS = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_SS = yes
 		}
 		modifier = {

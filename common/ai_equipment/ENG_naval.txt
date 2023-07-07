@@ -212,11 +212,11 @@ ENG_CL = {
 			not = { has_completed_focus = uk_carrier_focus }
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_7_CL = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_7_CL = yes
 		}
 		modifier = {
@@ -318,11 +318,11 @@ ENG_CA = {
 	priority = {
 		factor = 40
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_7_CA = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_7_CA = yes
 		}
 		modifier = {
@@ -621,11 +621,11 @@ ENG_CV = {
 			has_completed_focus = uk_carrier_focus
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_7_CV = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_7_CV = yes
 		}
 		modifier = {
@@ -845,11 +845,11 @@ ENG_SS = {
 	priority = {
 		factor = 60
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_7_SS = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_7_SS = yes
 		}
 		modifier = {
@@ -904,11 +904,11 @@ ENG_SM = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_7_SS = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_7_SS = yes
 		}
 		modifier = {

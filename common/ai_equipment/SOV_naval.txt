@@ -20,11 +20,11 @@ SOV_DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -87,11 +87,11 @@ SOV_ASW = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -158,11 +158,11 @@ SOV_MS = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -226,11 +226,11 @@ SOV_CL = {
 			has_completed_focus = SOV_surface_warfare
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CL = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CL = yes
 		}
 		modifier = {
@@ -642,11 +642,11 @@ SOV_BB = {
 	priority = {
 		factor = 40
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_BB = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_BB = yes
 		}
 		modifier = {

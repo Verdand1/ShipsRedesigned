@@ -27,11 +27,11 @@ DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_DD = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_DD = yes
 		}
 		modifier = {
@@ -164,11 +164,11 @@ CL = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CL = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CL = yes
 		}
 		modifier = {
@@ -437,11 +437,11 @@ CA = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_CA = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_CA = yes
 		}
 		modifier = {
@@ -731,11 +731,11 @@ BB = {
 	priority = {
 		factor = 20
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_BB = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_BB = yes
 		}
 		modifier = {
@@ -947,11 +947,11 @@ SM = {
 			}
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_reduced_level_3_SS = yes
 		}
 		modifier = {
-			factor = 0.1
+			factor = 0.01
 			SRD_treaty_slow_level_3_SS = yes
 		}
 		modifier = {
