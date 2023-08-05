@@ -35,7 +35,7 @@ SRD_naval_treaties = {
 			}
 		}
 		
-		days_mission_timeout = 60
+		days_mission_timeout = 30
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_members
@@ -131,7 +131,7 @@ SRD_naval_treaties = {
 			}
 		}
 		
-		days_mission_timeout = 60
+		days_mission_timeout = 30
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_members
@@ -230,7 +230,7 @@ SRD_naval_treaties = {
 			}
 		}
 		
-		days_mission_timeout = 60
+		days_mission_timeout = 30
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_members
@@ -322,7 +322,7 @@ SRD_naval_treaties = {
 			}
 		}
 		
-		days_mission_timeout = 60
+		days_mission_timeout = 30
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_commonwealth_members
@@ -368,7 +368,7 @@ SRD_naval_treaties = {
 			}
 		}
 		
-		days_mission_timeout = 60
+		days_mission_timeout = 30
 		
 		timeout_effect = {
 			clr_country_flag = srd_treaty_anglogerman_member

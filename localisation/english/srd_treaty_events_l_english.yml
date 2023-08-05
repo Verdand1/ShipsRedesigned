@@ -24,6 +24,10 @@
  SRD_naval_treaty.4.desc:0 "With only two members remaining, it was only a question of time before the second naval treaty completely collapsed. The remaining signatories met recently and agreed on the futility of the endeavour ; they have then announced the final and permanant dissolution of the second london naval treaty, effective immediately."
  SRD_naval_treaty.4.a:0 "There was an attempt"
  
+ SRD_naval_treaty.13.t:0 "Second london naval treaty collapses"
+ SRD_naval_treaty.13.desc:0 "With the world ablaze in wars and tension, it appears disarmament is no longer a relevant effort. The London Naval Treaty has officially been recognized as void by its signatories."
+ SRD_naval_treaty.13.a:0 "We did what we could"
+ 
  SRD_naval_treaty.5.t:0 "[From.GetName] breeched the naval treaty"
  SRD_naval_treaty.5.desc:0 "Evidence came proving that [From.GetName] has been disregarding treaty limitations for months now. Upon the news becoming public, other treaty members met immediately and agreed on the need to contain the treaty breechers."
  SRD_naval_treaty.5.a:0 "They will regret their dishonesty"
@@ -120,7 +124,7 @@
  SRD_naval_conference.500.desc_nousa:0 "The second london naval conference is coming to an end. Unexpectedly, the United States of America decided not to take part, but Japan signed the treaty regardless. It is now our turn.\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
  SRD_naval_conference.500.desc_nofra:0 "The second london naval conference is coming to an end. The sudden withdrawal of France is certainly putting in question our own participation, conditioned by parity between them and us. What should we do ?\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
  SRD_naval_conference.500.desc_nojap:0 "The second london naval conference is coming to an end. The Japanese delegation just informed other members of its withdrawal from the conference. Perhaps we should do the same…\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
- SRD_naval_conference.500.desc_noeng_nousa:0 "The second london naval conference is coming to an bizarre end. Somehow, in spite of British and American refusal to sign the treaty, France kept it alive and convinced Japan to sign it aswell. What should we do ?\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
+ SRD_naval_conference.500.desc_noeng_nousa:0 "The second london naval conference is coming to a bizarre end. Somehow, in spite of British and American refusal to sign the treaty, France kept it alive and convinced Japan to sign it aswell. What should we do ?\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
  SRD_naval_conference.500.desc_noeng_nofra:0 "The second london naval conference is coming to an end. It is now, however, mostly a Pacific agreement since only the United States and Japan have signed it. Do we even have a place there ?\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
  SRD_naval_conference.500.desc_noeng_nojap:0 "The second london naval conference is coming to an end. Only France and the United States have signed the treaty, while Japan and Britain have opted against it. We now have to choose.\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."
  SRD_naval_conference.500.desc_nousa_nofra:0 "The second london naval conference is coming to an end. It would appear disagreements exist within major democracies, as France and the United States decided not to participate. Should we join Japan and the UK ?\n\nIf we refuse, we will still be tied to the previous treaty until 1/1/37."

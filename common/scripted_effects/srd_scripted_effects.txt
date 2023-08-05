@@ -17,11 +17,14 @@
 #
 
 remove_regular_treaty_idea = {
-	remove_ideas = {
-		SRD_naval_treaty_adherent
-		SRD_naval_treaty_adherent_cheat
-		SRD_naval_treaty_adherent_escalator
-		SRD_naval_treaty_adherent_escalator_cheat
+	custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
+	hidden_effect = {
+		remove_ideas = {
+			SRD_naval_treaty_adherent
+			SRD_naval_treaty_adherent_cheat
+			SRD_naval_treaty_adherent_escalator
+			SRD_naval_treaty_adherent_escalator_cheat
+		}
 	}
 }
 
