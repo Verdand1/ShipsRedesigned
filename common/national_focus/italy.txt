@@ -7271,16 +7271,15 @@ focus_tree = {
 			if = {
 				limit = {
 					NOT = { has_tech = flight_deck }
-					has_tech = large_flight_deck
 				}
 				set_technology = { flight_deck = 1 }
 			}
-			else_if = {
+			if = {
 				limit = {
 					NOT = { has_tech = large_flight_deck }
 				}
-				hidden_effect = { set_technology = { flight_deck = 1 } }
-				set_technology = { large_flight_deck = 1 }
+				hidden_effect = { set_technology = { large_flight_deck = 1 } }
+				custom_effect_tooltip = unlock_large_carrier_cstt
 			}
 
 			#Equipment Variant

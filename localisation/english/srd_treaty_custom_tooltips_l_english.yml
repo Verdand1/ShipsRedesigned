@@ -1,3 +1,4 @@
 ﻿l_english:
  SRD_remove_treaty_idea_cstt_e:0 "We will lose any naval restriction currently applied on us.\n"
  SRD_escalate_on_treaty_cstt_t:0 "One of the following countries must not be part of the treaty :\nThe United States, Great Britain, Japan, France, Italy\n"
+ unlock_large_carrier_cstt:0 "Add technology: §YCarrier Hull§!.\n"
