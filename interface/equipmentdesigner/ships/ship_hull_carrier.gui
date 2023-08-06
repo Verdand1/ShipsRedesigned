@@ -2,9 +2,9 @@
 
 guiTypes = {
 
-	################# Equipment Archetype: ship_hull_light_carrier #################
+	################# Equipment Archetype: ship_hull_carrier #################
 	containerWindowType = {
-		name = "equipment_designer_ship_hull_light_carrier"
+		name = "equipment_designer_ship_hull_carrier"
 		# NOTE: to keep aligned with the window "equipment_modules" in equipmentdesignerview.gui
 		position = { x=0 y=0 }
 		size = { width=512 height=260 }
@@ -50,6 +50,29 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_front_deck_space@highlight"
+						position = { x=0 y=0 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_large_deck_space"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_front_large_deck_space"
+						position = { x=0 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_large_deck_space@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_front_large_deck_space@highlight"
 						position = { x=0 y=0 }
 					}
 				}
@@ -270,6 +293,30 @@ guiTypes = {
 					}
 				}
 
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries"
+						position = { x=60 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries@highlight"
+						position = { x=60 y=0 }
+					}
+				}
+
 				#### MODULE: Deck Space ####
 				containerWindowType = {
 					name = "ship_deck_space"
@@ -279,7 +326,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_carrier_hull_mid_deck_space"
-						position = { x=80 y=15 }
+						position = { x=170 y=15 }
 					}
 				}
 				containerWindowType = {
@@ -290,7 +337,31 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_mid_deck_space@highlight"
-						position = { x=80 y=15 }
+						position = { x=170 y=15 }
+					}
+				}
+
+				#### MODULE: Large Deck Space ####
+				containerWindowType = {
+					name = "ship_large_deck_space"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space"
+						position = { x=170 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_large_deck_space@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space@highlight"
+						position = { x=170 y=0 }
 					}
 				}
 			}
@@ -349,6 +420,30 @@ guiTypes = {
 					}
 				}
 
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries"
+						position = { x=70 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries@highlight"
+						position = { x=70 y=0 }
+					}
+				}
+
 				#### MODULE: Deck Space ####
 				containerWindowType = {
 					name = "ship_deck_space"
@@ -358,7 +453,7 @@ guiTypes = {
 					iconType = {
 						name = "blueprint"
 						spriteType = "GFX_SM_carrier_hull_mid_deck_space"
-						position = { x=110 y=15 }
+						position = { x=120 y=15 }
 					}
 				}
 				containerWindowType = {
@@ -369,7 +464,31 @@ guiTypes = {
 					iconType = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_mid_deck_space@highlight"
-						position = { x=110 y=15 }
+						position = { x=120 y=15 }
+					}
+				}
+
+				#### MODULE: Large Deck Space ####
+				containerWindowType = {
+					name = "ship_large_deck_space"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space"
+						position = { x=120 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_large_deck_space@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space@highlight"
+						position = { x=120 y=0 }
 					}
 				}
 			}
@@ -427,6 +546,30 @@ guiTypes = {
 						position = { x=240 y=0 }
 					}
 				}
+
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries"
+						position = { x=80 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries@highlight"
+						position = { x=80 y=0 }
+					}
+				}
 			}
 
 			################# MODULE SLOT: Middle #2 #################
@@ -480,6 +623,30 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_mid2_light_batteries@highlight"
 						position = { x=295 y=0 }
+					}
+				}
+
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries"
+						position = { x=90 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_rear_medium_batteries@highlight"
+						position = { x=90 y=0 }
 					}
 				}
 			}
@@ -538,27 +705,27 @@ guiTypes = {
 					}
 				}
 
-				#### MODULE: Deck Space ####
+				#### MODULE: Medium Battery ####
 				containerWindowType = {
-					name = "ship_deck_space"
+					name = "ship_light_medium_battery"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "image"
-						spriteType = "GFX_SM_carrier_hull_mid_deck_space"
-						position = { x=170 y=15 }
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries"
+						position = { x=380 y=0 }
 					}
 				}
 				containerWindowType = {
-					name = "ship_deck_space@highlight"
+					name = "ship_light_medium_battery@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
 					iconType = {
 						name = "highlight"
-						spriteType = "GFX_SM_carrier_hull_mid_deck_space@highlight"
-						position = { x=170 y=15 }
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries@highlight"
+						position = { x=380 y=0 }
 					}
 				}
 			}
@@ -614,6 +781,30 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_front_light_batteries@highlight"
 						position = { x=387 y=0 }
+					}
+				}
+
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries"
+						position = { x=390 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries@highlight"
+						position = { x=390 y=0 }
 					}
 				}
 
@@ -696,6 +887,30 @@ guiTypes = {
 					}
 				}
 
+				#### MODULE: Medium Battery ####
+				containerWindowType = {
+					name = "ship_light_medium_battery"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries"
+						position = { x=400 y=0 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_light_medium_battery@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_front_medium_batteries@highlight"
+						position = { x=400 y=0 }
+					}
+				}
+
 				#### MODULE: Deck Space ####
 				containerWindowType = {
 					name = "ship_deck_space"
@@ -708,7 +923,6 @@ guiTypes = {
 						position = { x=270 y=5 }
 					}
 				}
-
 				containerWindowType = {
 					name = "ship_deck_space@highlight"
 					position = { x=0 y=0 }
@@ -718,6 +932,30 @@ guiTypes = {
 						name = "highlight"
 						spriteType = "GFX_SM_carrier_hull_mid_deck_space@highlight"
 						position = { x=270 y=5 }
+					}
+				}
+
+				#### MODULE: Large Deck Space ####
+				containerWindowType = {
+					name = "ship_large_deck_space"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "image"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space"
+						position = { x=270 y=-15 }
+					}
+				}
+				containerWindowType = {
+					name = "ship_large_deck_space@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "highlight"
+						spriteType = "GFX_SM_carrier_hull_mid_large_deck_space@highlight"
+						position = { x=270 y=-15 }
 					}
 				}
 			}
