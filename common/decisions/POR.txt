@@ -1126,7 +1126,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1944_ENG_destroyer_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Oeiras Class"
+							name = "Ponta Delgada Class"
 							type = ship_hull_light_1
 							name_group = ENG_DD_HISTORICAL
 							parent_version = 0
@@ -1151,8 +1151,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Oeiras Class" creator = ENG name = "NRP Oeiras" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Oeiras Class" creator = ENG name = "NRP Gondomar" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Ponta Delgada Class" creator = ENG name = "NRP Ponta Delgada" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Ponta Delgada Class" creator = ENG name = "NRP Sintra" }
 			}
 			else_if = { #1942
 				limit = {
@@ -1171,7 +1171,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1942_ENG_destroyer_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Guimarães Class"
+							name = "Cascais Class"
 							type = ship_hull_light_1
 							name_group = ENG_DD_HISTORICAL
 							parent_version = 0
@@ -1196,8 +1196,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Guimarães Class" creator = ENG name = "NRP Guimarães" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Guimarães Class" creator = ENG name = "NRP Santa Maria Da Feira" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Cascais" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Bragança" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1216,7 +1216,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1940_ENG_destroyer_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Maia Class"
+							name = "Castelo Branco Class"
 							type = ship_hull_light_1
 							name_group = ENG_DD_HISTORICAL
 							parent_version = 0
@@ -1241,8 +1241,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Maia Class" creator = ENG name = "NRP Maia" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Maia Class" creator = ENG name = "NRP Famalicão" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Castelo Branco Class" creator = ENG name = "NRP Castelo Branco" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Castelo Branco Class" creator = ENG name = "NRP Guarda" }
 			}
 			else_if = { #1938
 				limit = {
@@ -1284,7 +1284,7 @@ POR_arms_purchases = {
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
 				create_ship = { type = ship_hull_light_1 equipment_variant = "Setúbal Class" creator = ENG name = "NRP Setúbal" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Setúbal Class" creator = ENG name = "NRP Valongo" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Setúbal Class" creator = ENG name = "NRP Viana do Castelo" }
 			}
 			else_if = { #1936
 				limit = {
@@ -1299,7 +1299,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1936_ENG_destroyer_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Paredes Class"
+							name = "Porto Santo Class"
 							type = ship_hull_light_1
 							name_group = ENG_DD_HISTORICAL
 							parent_version = 0
@@ -1324,8 +1324,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Paredes Class" creator = ENG name = "NRP Paredes" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Paredes Class" creator = ENG name = "NRP Aveiro" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Porto Santo Class" creator = ENG name = "NRP Porto Santo" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Porto Santo Class" creator = ENG name = "NRP Pico" }
 			}
 			else = { #Fallback
 				if = {
@@ -1335,7 +1335,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1934_ENG_destroyer_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Viseu Class"
+							name = "Famalicão Class"
 							type = ship_hull_light_1
 							name_group = ENG_DD_HISTORICAL
 							parent_version = 0
@@ -1359,8 +1359,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 460 } # 2 x 230MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Viseu Class" creator = ENG name = "NRP Viseu" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Viseu Class" creator = ENG name = "NRP Portimão" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Famalicão Class" creator = ENG name = "NRP Famalicão" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Famalicão Class" creator = ENG name = "NRP Vila Nova de Gaia" }
 			}
 
 			ENG = {
@@ -1465,7 +1465,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1944_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Almada Class"
+							name = "Leiria Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1491,8 +1491,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Almada" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Almada Class" creator = ITA name = "NRP Seixal" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Leiria Class" creator = ITA name = "NRP Leiria" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Leiria Class" creator = ITA name = "NRP Oeiras" }
 			}
 			else_if = { #1942
 				limit = {
@@ -1512,7 +1512,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1942_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Odivelas Class"
+							name = "Évora Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1538,8 +1538,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Odivelas" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Odivelas Class" creator = ITA name = "NRP Vila Franca De Xira" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Évora Class" creator = ITA name = "NRP Évora" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Évora Class" creator = ITA name = "NRP Albufeira" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1559,7 +1559,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1940_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Coimbra Class"
+							name = "Aveiro Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1585,8 +1585,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Coimbra" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Leiria" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Aveiro Class" creator = ITA name = "NRP Aveiro" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Aveiro Class" creator = ITA name = "NRP Viseu" }
 			}
 			else_if = { #1938
 				limit = {
@@ -1603,7 +1603,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1938_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Funchal Class"
+							name = "Portimão Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1629,8 +1629,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Funchal" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Viana do Castelo" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Portimão Class" creator = ITA name = "NRP Portimão" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Portimão Class" creator = ITA name = "NRP Tomar" }
 			}
 			else_if = { #1936
 				limit = {
@@ -1647,7 +1647,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1936_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Vila Do Conde Class"
+							name = "Sagres Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1673,8 +1673,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 500 } # 2 x 250MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Vila Do Conde" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Do Conde Class" creator = ITA name = "NRP Mafra" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Sagres Class" creator = ITA name = "NRP Sagres" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Sagres Class" creator = ITA name = "NRP Vila Do Conde" }
 			}
 			else = { #Fallback
 				if = {
@@ -1684,7 +1684,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1934_ITA_destroyer_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Faro Class"
+							name = "Vila Franca De Xira Class"
 							type = ship_hull_light_1
 							name_group = ITA_DD_HISTORICAL
 							parent_version = 0
@@ -1708,8 +1708,8 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 480 } # 2 x 240MP/DD
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Faro" }
-				create_ship = { type = ship_hull_light_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Évora" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Franca De Xira Class" creator = ITA name = "NRP Vila Franca De Xira" }
+				create_ship = { type = ship_hull_light_1 equipment_variant = "Vila Franca De Xira Class" creator = ITA name = "NRP Nazaré" }
 			}
 
 			ITA = {
@@ -1849,7 +1849,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1944_ENG_cruiser_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Vila Nova de Gaia Class"
+							name = "Guimarães Class"
 							type = ship_hull_cruiser_1
 							name_group = ENG_CL_HISTORICAL
 							parent_version = 0
@@ -1875,7 +1875,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1110 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Vila Nova de Gaia Class" creator = ENG name = "NRP Vila Nova de Gaia" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Guimarães Class" creator = ENG name = "NRP Guimarães" }
 			}
 			else_if = { #1940
 				limit = {
@@ -1894,7 +1894,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1940_ENG_cruiser_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Cascais Class"
+							name = "Braga Class"
 							type = ship_hull_cruiser_1
 							name_group = ENG_CL_HISTORICAL
 							parent_version = 0
@@ -1920,7 +1920,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1110 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Cascais Class" creator = ENG name = "NRP Cascais" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Braga Class" creator = ENG name = "NRP Braga" }
 			}
 			else = { #Fallback
 				if = {
@@ -1930,7 +1930,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1934_ENG_cruiser_purchased_flag
 					ENG = {
 						create_equipment_variant = {
-							name = "Braga Class"
+							name = "Fatima Class"
 							type = ship_hull_cruiser_1
 							name_group = ENG_CL_HISTORICAL
 							parent_version = 0
@@ -1954,7 +1954,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1100 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Matosinhos Class" creator = ENG name = "NRP Matosinhos" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Fatima Class" creator = ENG name = "NRP Fatima" }
 			}
 
 			ENG = {
@@ -2057,7 +2057,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1946_ITA_cruiser_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Sintra Class"
+							name = "Porto Class"
 							type = ship_hull_cruiser_1
 							name_group = ITA_CL_HISTORICAL
 							parent_version = 0
@@ -2083,7 +2083,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1170 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Sintra Class" creator = ITA name = "NRP Sintra" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Porto Class" creator = ITA name = "NRP Porto" }
 			}
 			else_if = { #1944
 				limit = {
@@ -2102,7 +2102,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1944_ITA_cruiser_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Porto Class"
+							name = "Faro Class"
 							type = ship_hull_cruiser_1
 							name_group = ITA_CL_HISTORICAL
 							parent_version = 0
@@ -2128,7 +2128,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1170 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Porto Class" creator = ITA name = "NRP Porto" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Faro Class" creator = ITA name = "NRP Faro" }
 			}
 			else_if = { #1940
 				limit = {
@@ -2147,7 +2147,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1940_ITA_cruiser_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Loures Class"
+							name = "Coimbra Class"
 							type = ship_hull_cruiser_1
 							name_group = ITA_CL_HISTORICAL
 							parent_version = 0
@@ -2173,7 +2173,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1170 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Loures Class" creator = ITA name = "NRP Loures" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Coimbra Class" creator = ITA name = "NRP Coimbra" }
 			}
 			else = { #Fallback
 				if = {
@@ -2183,7 +2183,7 @@ POR_arms_purchases = {
 					set_country_flag = POR_1936_ITA_cruiser_purchased_flag
 					ITA = {
 						create_equipment_variant = {
-							name = "Amadora Class"
+							name = "Funchal Class"
 							type = ship_hull_cruiser_1
 							name_group = ITA_CL_HISTORICAL
 							parent_version = 0
@@ -2207,7 +2207,7 @@ POR_arms_purchases = {
 					}
 				}
 				hidden_effect = { add_manpower = 1160 }
-				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Amadora Class" creator = ITA name = "NRP Amadora" }
+				create_ship = { type = ship_hull_cruiser_1 equipment_variant = "Funchal Class" creator = ITA name = "NRP Funchal" }
 			}
 
 			ITA = {
