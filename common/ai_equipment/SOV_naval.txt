@@ -114,7 +114,7 @@ SOV_ASW = {
 			modules = {
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 9
@@ -185,7 +185,7 @@ SOV_MS = {
 			modules = {
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 9

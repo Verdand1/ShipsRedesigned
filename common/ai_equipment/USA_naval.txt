@@ -1108,7 +1108,7 @@ USA_CV = {
 			type = ship_hull_carrier_1
 			modules = {
 				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				front_2 = 
+				front_2 = ship_deck_space_1
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8

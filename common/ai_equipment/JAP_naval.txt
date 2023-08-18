@@ -117,7 +117,7 @@ JAP_ASW = {
 			modules = {
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
@@ -189,7 +189,7 @@ JAP_MS = {
 			modules = {
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
@@ -258,7 +258,7 @@ JAP_ML = {
 			modules = {
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
-				mid_4 = ship_unavailable_space
+				front_2 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
