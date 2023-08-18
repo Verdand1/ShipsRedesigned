@@ -283,7 +283,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 6
 	modules = {
-		front_3 = ship_torpedo_sub_1
+		front_2 = ship_torpedo_sub_1
 	}
 	upgrades = {
 		sub_engine_upgrade = 1
@@ -346,7 +346,7 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		mid_1 = ship_torpedo_sub_storage
-		front_3 = ship_unavailable_space
+		front_2 = ship_unavailable_space
 	}
 	upgrades = {
 		sub_engine_upgrade = 5
@@ -363,8 +363,8 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_front_1 = ship_torpedo_sub_2
-		rear_1 = ship_torpedo_sub_1
 		mid_1 = ship_unavailable_space
+		front_2 = ship_torpedo_sub_1
 	}
 	upgrades = {
 		sub_engine_upgrade = 1
@@ -384,7 +384,7 @@ create_equipment_variant = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
 		mid_1 = ship_unavailable_space
-		front_3 = ship_torpedo_sub_1
+		front_2 = ship_torpedo_sub_1
 	}
 	upgrades = {
 		sub_range_upgrade = 3
@@ -402,7 +402,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = sub_ship_engine_1
 		rear_1 = ship_torpedo_sub_2
-		front_3 = ship_torpedo_sub_2
+		front_2 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 4
@@ -454,7 +454,7 @@ create_equipment_variant = {
 		rear_1 = ship_torpedo_sub_2
 		mid_1 = ship_mine_layer_sub
 		mid_2 = ship_mine_layer_sub
-		front_3 = ship_torpedo_sub_2
+		front_2 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 7
@@ -542,8 +542,8 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		fixed_engine = ship_range_engine_2
-		mid_1 = ship_anti_air_1
-		front_2 = empty
+		rear_2 = ship_anti_air_1
+		mid_2 = empty
 	}
 	upgrades = {
 		ship_light_range_upgrade = 2
@@ -575,9 +575,9 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		rear_1 = ship_light_medium_battery_1
-		rear_2 = ship_mine_layer_1
 		mid_1 = ship_airplane_launcher_1
 		mid_2 = ship_anti_air_2
+		mid_3 = ship_mine_layer_1
 		front_2 = empty
 	}
 	upgrades = {
@@ -650,7 +650,7 @@ create_equipment_variant = {
 	parent_version = 4
 	role_icon_index = 2
 	modules = {
-		rear_2 = ship_anti_air_1
+		mid_2 = ship_anti_air_1
 	}
 	upgrades = {
 		ship_medium_range_upgrade = 4

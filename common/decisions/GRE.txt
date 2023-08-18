@@ -3706,8 +3706,8 @@ political_actions = {
 						role_icon_index = 1
 						modules = { 
 							rear_1 = ship_heavy_battery_1
-							mid_1 = ship_light_battery_1
-							front_2 = empty
+							mid_1 = empty
+							mid_2 = ship_light_battery_1
 						} 
 						upgrades = {
 							ship_heavy_engine_upgrade = 3

@@ -328,8 +328,8 @@ create_equipment_variant = {
 	role_icon_index = 2
 	modules = {
 		rear_1 = empty
-		mid_1 = ship_light_battery_1
-		front_2 = empty
+		mid_1 = empty
+		mid_2 = ship_light_battery_1
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 1
@@ -378,8 +378,8 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_light_medium_battery_1
-		mid_1 = ship_torpedo_1
-		mid_2 = ship_airplane_launcher_1
+		mid_1 = ship_airplane_launcher_1
+		mid_2 = ship_torpedo_1
 	}
 	upgrades = {
 		ship_medium_engine_upgrade = 3
@@ -398,8 +398,8 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
 		rear_1 = empty
-		mid_1 = ship_light_battery_1
-		mid_2 = ship_anti_air_1
+		mid_1 = ship_anti_air_1
+		mid_2 = ship_light_battery_1
 		front_2 = empty
 	}
 	upgrades = {

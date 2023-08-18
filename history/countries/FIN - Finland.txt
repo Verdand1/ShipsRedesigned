@@ -179,7 +179,7 @@ create_equipment_variant = {
 		fixed_front_1 = ship_torpedo_sub_2
 		fixed_engine = sub_ship_engine_1
 		mid_1 = ship_mine_layer_sub
-		front_3 = ship_torpedo_sub_2
+		front_2 = ship_torpedo_sub_2
 	}
 	upgrades = {
 		sub_engine_upgrade = 2

@@ -1408,7 +1408,7 @@ focus_tree = {
 					rear_1 = ship_depth_charge_1
 					rear_2 = ship_mine_sweeper_1
 					mid_1 = empty
-					front_2 = empty
+					mid_2 = empty
 				}
 				upgrades = {
 					ship_light_range_upgrade = 7

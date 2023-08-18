@@ -51,7 +51,7 @@ GER_DD = {
 			
 			type = ship_hull_light_1
 			modules = {
-				rear_1 = { any_of = { ship_depth_charge_4 ship_depth_charge_3 ship_depth_charge_2 ship_depth_charge_1 } }
+				rear_2 = { any_of = { ship_depth_charge_4 ship_depth_charge_3 ship_depth_charge_2 ship_depth_charge_1 } }
 				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -261,7 +261,7 @@ GER_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -298,7 +298,7 @@ GER_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -335,7 +335,7 @@ GER_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -692,7 +692,7 @@ GER_BB = {
 			modules = {
 				rear_2 = ship_anti_air_2
 				mid_1 = ship_unavailable_space
-				mid_4 = ship_anti_air_2
+				mid_3 = ship_anti_air_2
 				front_2 = ship_anti_air_2
 			}
 			upgrades = {
@@ -729,7 +729,7 @@ GER_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -768,7 +768,7 @@ GER_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -807,7 +807,7 @@ GER_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_4 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -1015,8 +1015,9 @@ GER_SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_sub_storage
-				front_2 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+				front_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_engine_upgrade = 4
@@ -1036,7 +1037,7 @@ GER_SS = {
 			sub_ship_engine_3
 			sub_ship_engine_2
 			ship_torpedo_sub_2
-			ship_unavailable_space
+			ship_torpedo_sub_storage
 		}
 	}
 }

@@ -887,8 +887,9 @@ SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_sub_storage
-				front_2 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+				front_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_range_upgrade = 1
@@ -909,7 +910,7 @@ SS = {
 			sub_ship_engine_1
 			ship_torpedo_sub_2
 			ship_torpedo_sub_1
-			ship_unavailable_space
+			ship_torpedo_sub_storage
 		}
 	}
 }

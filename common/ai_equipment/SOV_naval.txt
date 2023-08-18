@@ -42,9 +42,9 @@ SOV_DD = {
 			
 			type = ship_hull_light_1
 			modules = {
-				rear_1 = { any_of = { ship_depth_charge_4 ship_depth_charge_3 ship_depth_charge_2 ship_depth_charge_1 } }
+				rear_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				rear_2 = { any_of = { ship_depth_charge_4 ship_depth_charge_3 ship_depth_charge_2 ship_depth_charge_1 } }
 				mid_1 = ship_torpedo_2
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 9
@@ -112,9 +112,9 @@ SOV_ASW = {
 			
 			type = ship_hull_light_1
 			modules = {
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 9
@@ -183,9 +183,9 @@ SOV_MS = {
 			
 			type = ship_hull_light_1
 			modules = {
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 9
@@ -253,7 +253,7 @@ SOV_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -294,7 +294,7 @@ SOV_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -335,7 +335,7 @@ SOV_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -390,7 +390,7 @@ SOV_CA = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -431,7 +431,7 @@ SOV_CA = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -472,7 +472,7 @@ SOV_CA = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
+				mid_2 = ship_torpedo_2
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -526,10 +526,9 @@ SOV_CVL = {
 			
 			type = ship_hull_carrier_2
 			modules = {
-				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_3 = ship_unavailable_space
+				rear_1 = ship_deck_space_1
+				rear_2 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -546,10 +545,10 @@ SOV_CVL = {
 			ship_fire_control_radar_2
 			ship_fire_control_radar_1
 			ship_perf_engine_2
-			ship_deck_space_1
 			ship_anti_air_4
 			ship_anti_air_3
 			ship_anti_air_2
+			ship_deck_space_1
 		}
 	}
 
@@ -567,8 +566,8 @@ SOV_CVL = {
 			
 			type = ship_hull_carrier_2
 			modules = {
-				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_3 = ship_unavailable_space
+				rear_2 = ship_unavailable_space
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -606,7 +605,7 @@ SOV_CVL = {
 			
 			type = ship_hull_carrier_2
 			modules = {
-				mid_3 = ship_unavailable_space
+				rear_2 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -675,8 +674,8 @@ SOV_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_2 = { any_of = { ship_heavy_battery_2 ship_heavy_battery_1 } }
-				mid_1 = { any_of = { ship_light_medium_battery_2 ship_light_medium_battery_1 } }
+				rear_1 = { any_of = { ship_heavy_battery_2 ship_heavy_battery_1 } }
+				mid_2 = { any_of = { ship_light_medium_battery_2 ship_light_medium_battery_1 } }
 				front_2 = ship_unavailable_space
 			}
 			upgrades = {
@@ -717,8 +716,8 @@ SOV_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
+				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -758,8 +757,8 @@ SOV_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
+				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -799,8 +798,8 @@ SOV_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
+				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 ship_light_medium_battery_2 ship_light_medium_battery_1 } }
 				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
@@ -994,9 +993,9 @@ SOV_SS = {
 			
 			type = ship_hull_submarine_1
 			modules = {
-				rear_2 = ship_unavailable_space
+				rear_1 = ship_torpedo_sub_2
 				mid_1 = ship_torpedo_sub_storage
-				front_2 = ship_unavailable_space
+				front_2 = ship_torpedo_sub_2
 			}
 			upgrades = {
 				sub_engine_upgrade = 3
@@ -1015,8 +1014,8 @@ SOV_SS = {
 			sub_ship_engine_4
 			sub_ship_engine_3
 			sub_ship_engine_2
-			ship_torpedo_sub_2
 			ship_unavailable_space
+			ship_torpedo_sub_2
 		}
 	}
 }

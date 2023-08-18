@@ -1715,6 +1715,7 @@ equipment_modules = {
 		add_stats = {
 			naval_light_gun_hit_chance_factor = -0.1
 			naval_heavy_gun_hit_chance_factor = -0.1
+			carrier_size = 1
 		}
 		multiply_stats = {
 			naval_speed = 0.1

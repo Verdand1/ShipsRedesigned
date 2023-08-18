@@ -115,9 +115,9 @@ JAP_ASW = {
 			
 			type = ship_hull_light_1
 			modules = {
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
@@ -187,9 +187,9 @@ JAP_MS = {
 			
 			type = ship_hull_light_1
 			modules = {
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
@@ -256,9 +256,9 @@ JAP_ML = {
 			
 			type = ship_hull_light_1
 			modules = {
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_light_engine_upgrade = 6
@@ -326,8 +326,8 @@ JAP_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
-				mid_2 = ship_torpedo_2
+				mid_3 = ship_torpedo_2
+				mid_4 = ship_torpedo_2
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -366,8 +366,8 @@ JAP_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
-				mid_2 = ship_torpedo_2
+				mid_3 = ship_torpedo_2
+				mid_4 = ship_torpedo_2
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -406,8 +406,8 @@ JAP_CL = {
 			type = ship_hull_cruiser_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_2
-				mid_2 = ship_torpedo_2
+				mid_3 = ship_torpedo_2
+				mid_4 = ship_torpedo_2
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -486,9 +486,9 @@ JAP_CA = {
 			
 			type = ship_hull_cruiser_1
 			modules = {
-				mid_1 = ship_torpedo_1
-				mid_2 = ship_torpedo_1
-				mid_4 = ship_anti_air_2
+				mid_2 = ship_anti_air_2
+				mid_3 = ship_torpedo_1
+				mid_4 = ship_torpedo_1
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -525,10 +525,10 @@ JAP_CA = {
 			
 			type = ship_hull_cruiser_1
 			modules = {
-				mid_1 = ship_torpedo_1
-				mid_2 = ship_torpedo_1
-				mid_3 = ship_light_battery_3
-				mid_4 = ship_anti_air_2
+				mid_1 = ship_light_battery_3
+				mid_2 = ship_anti_air_2
+				mid_3 = ship_torpedo_1
+				mid_4 = ship_torpedo_1
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -565,8 +565,8 @@ JAP_CA = {
 			
 			type = ship_hull_cruiser_1
 			modules = {
-				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -602,8 +602,8 @@ JAP_CA = {
 			
 			type = ship_hull_cruiser_1
 			modules = {
-				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -639,8 +639,8 @@ JAP_CA = {
 			
 			type = ship_hull_cruiser_1
 			modules = {
-				mid_3 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_4 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -712,8 +712,8 @@ JAP_CVL = {
 			
 			type = ship_hull_carrier_2
 			modules = {
+				rear_2 = ship_unavailable_space
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_3 = ship_unavailable_space
 				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
@@ -752,7 +752,7 @@ JAP_CVL = {
 			type = ship_hull_carrier_2
 			modules = {
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -789,7 +789,7 @@ JAP_CVL = {
 			type = ship_hull_carrier_2
 			modules = {
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_3 = ship_unavailable_space
+				mid_4 = ship_unavailable_space
 			}
 			upgrades = {
 				ship_medium_engine_upgrade = 9
@@ -863,9 +863,9 @@ JAP_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				front_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8
@@ -883,9 +883,8 @@ JAP_BB = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 	
@@ -905,9 +904,9 @@ JAP_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				front_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8
@@ -926,9 +925,8 @@ JAP_BB = {
 			ship_perf_engine_3
 			ship_heavy_battery_3
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 	
@@ -947,9 +945,9 @@ JAP_BB = {
 			type = ship_hull_heavy_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				front_2 = ship_unavailable_space
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -969,9 +967,8 @@ JAP_BB = {
 			ship_heavy_battery_4
 			ship_heavy_battery_3
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 	
@@ -989,9 +986,9 @@ JAP_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 7
@@ -1009,9 +1006,8 @@ JAP_BB = {
 			ship_fire_control_radar_1
 			ship_perf_engine_2
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 	
@@ -1030,9 +1026,9 @@ JAP_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 8
@@ -1051,9 +1047,8 @@ JAP_BB = {
 			ship_perf_engine_3
 			ship_heavy_battery_3
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 	
@@ -1071,9 +1066,9 @@ JAP_BB = {
 			
 			type = ship_hull_heavy_1
 			modules = {
-				rear_2 = ship_unavailable_space
-				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
-				mid_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				mid_1 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1093,9 +1088,8 @@ JAP_BB = {
 			ship_heavy_battery_4
 			ship_heavy_battery_3
 			ship_heavy_battery_2
-			ship_anti_air_4
-			ship_anti_air_3
-			ship_anti_air_2
+			ship_light_battery_4
+			ship_light_battery_3
 		}
 	}
 }
@@ -1152,10 +1146,10 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_anti_air_2
+				rear_2 = ship_unavailable_space
 				mid_1 = ship_light_battery_3
 				mid_4 = ship_unavailable_space
-				front_2 = ship_unavailable_space
+				front_2 = ship_anti_air_2
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1192,10 +1186,10 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				front_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1234,10 +1228,10 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
-				rear_2 = ship_deck_space_1
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
+				front_2 = ship_deck_space_1
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1275,9 +1269,9 @@ JAP_CV = {
 			
 			type = ship_hull_carrier_1
 			modules = {
+				rear_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_1 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 				mid_4 = ship_unavailable_space
-				front_2 = { any_of = { ship_light_battery_4 ship_light_battery_3 } }
 			}
 			upgrades = {
 				ship_heavy_engine_upgrade = 9
@@ -1472,6 +1466,9 @@ JAP_SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
+				mid_1 = ship_unavailable_space
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_engine_upgrade = 9
@@ -1484,7 +1481,6 @@ JAP_SS = {
 			ship_airplane_launcher_1
 			sub_ship_engine_2
 			ship_torpedo_sub_2
-			ship_unavailable_space
 		}
 	}
 
@@ -1511,7 +1507,8 @@ JAP_SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_sub_storage
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_engine_upgrade = 9
@@ -1524,7 +1521,7 @@ JAP_SS = {
 			ship_airplane_launcher_1
 			sub_ship_engine_2
 			ship_torpedo_sub_2
-			ship_unavailable_space
+			ship_torpedo_sub_storage
 		}
 	}
 
@@ -1548,7 +1545,8 @@ JAP_SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_torpedo_sub_storage
+				mid_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
 			}
 			upgrades = {
 				sub_engine_upgrade = 9
@@ -1567,7 +1565,7 @@ JAP_SS = {
 			sub_ship_engine_3
 			sub_ship_engine_2
 			ship_torpedo_sub_2
-			ship_unavailable_space
+			ship_torpedo_sub_storage
 		}
 	}
 }

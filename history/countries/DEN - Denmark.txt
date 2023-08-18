@@ -191,7 +191,7 @@ create_equipment_variant = {
 	role_icon_index = 6
 	modules = {
 		fixed_engine = sub_ship_engine_1
-		front_3 = ship_torpedo_sub_1
+		front_2 = ship_torpedo_sub_1
 	}
 	upgrades = {
 		sub_engine_upgrade = 1

@@ -48,8 +48,8 @@ units= {
 			ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
 			ship = { name = "ARE Alcalá Galiano" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
 			ship = { name = "ARE Almirante Valdés" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
-			ship = { name = "ARE Almirante Antequera" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
-			ship = { name = "ARE Gravina" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Antequera" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Almirante Antequera Class" } } }
+			ship = { name = "ARE Gravina" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Almirante Antequera Class" } } }
 		}
 		task_force = {
 			name = "2 Escuadrón"
@@ -57,7 +57,7 @@ units= {
 			ship = { name = "ARE Churucca" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
 			ship = { name = "ARE José Luis Díez" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
 			ship = { name = "ARE Lepanto" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
-			ship = { name = "ARE Almirante Miranda" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Miranda" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Almirante Antequera Class" } } }
 			ship = { name = "ARE Alsedo" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
 			ship = { name = "ARE Lazaga" definition = destroyer start_experience_factor = 0.1 equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
 		}
@@ -104,7 +104,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_1
 			creator = "SPR"
-			version_name = "Churucca Class"
+			version_name = "Almirante Antequera Class"
 		}
 		requested_factories = 1
 		progress = 0.55
@@ -114,7 +114,7 @@ instant_effect = {
 		equipment = {
 			type = ship_hull_light_1
 			creator = "SPR"
-			version_name = "Churucca Class"
+			version_name = "Almirante Antequera Class"
 		}
 		requested_factories = 1
 		progress = 0.53
