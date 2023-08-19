@@ -1472,7 +1472,7 @@ technologies = {
 				factor = 0
 				OR = {
 					not = { has_tech = ship_hull_submarine }
-					has_tech = submarine_operations
+					has_tech = convoy_interdiction
 				}
 			}
 		}
