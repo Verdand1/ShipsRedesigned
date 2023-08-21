@@ -33,7 +33,7 @@ upgrades = {
 
 		add_stats = {
 			naval_speed = 2.5
-			surface_detection = 0.5
+			surface_detection = 1.5
 			max_strength = 2
 			fuel_consumption = 1
 		}
@@ -54,7 +54,7 @@ upgrades = {
 
 		add_stats = {
 			naval_speed = 2.5
-			surface_detection = 0.5
+			surface_detection = 1.5
 			max_strength = 4
 			fuel_consumption = 2
 		}
@@ -75,7 +75,7 @@ upgrades = {
 
 		add_stats = {
 			naval_speed = 2.5
-			surface_detection = 0.5
+			surface_detection = 1
 			max_strength = 8
 			fuel_consumption = 4
 		}
@@ -180,7 +180,7 @@ upgrades = {
 		}
 
 		multiply_stats = {
-			surface_detection = -0.05
+			surface_detection = -0.02
 			sub_visibility = -0.04
 			build_cost_ic = 0.03
 		}

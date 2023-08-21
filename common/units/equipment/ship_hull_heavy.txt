@@ -29,7 +29,7 @@ equipments = {
 		armor_value = 12
 		fuel_consumption = 64
 		surface_visibility = 25
-		surface_detection = 20
+		surface_detection = 25
 		build_cost_ic = 3900
 		
 		resources = { steel = 4	}

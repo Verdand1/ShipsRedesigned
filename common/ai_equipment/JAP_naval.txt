@@ -1466,14 +1466,13 @@ JAP_SS = {
 			type = ship_hull_submarine_1
 			modules = {
 				rear_2 = ship_unavailable_space
-				mid_1 = ship_unavailable_space
 				mid_2 = ship_unavailable_space
 				mid_3 = ship_unavailable_space
 			}
 			upgrades = {
-				sub_engine_upgrade = 9
+				sub_engine_upgrade = 7
 				sub_range_upgrade = 9
-				sub_depth_upgrade = 8
+				sub_depth_upgrade = 4
 			}
 		}
 		
@@ -1481,6 +1480,7 @@ JAP_SS = {
 			ship_airplane_launcher_1
 			sub_ship_engine_2
 			ship_torpedo_sub_2
+			ship_torpedo_sub_storage
 		}
 	}
 
@@ -1513,12 +1513,14 @@ JAP_SS = {
 			upgrades = {
 				sub_engine_upgrade = 9
 				sub_range_upgrade = 9
-				sub_depth_upgrade = 9
+				sub_depth_upgrade = 4
 			}
 		}
 		
 		allowed_modules = {
 			ship_airplane_launcher_1
+			ship_surveillance_radar_2
+			ship_surveillance_radar_1
 			sub_ship_engine_2
 			ship_torpedo_sub_2
 			ship_torpedo_sub_storage
@@ -1551,12 +1553,13 @@ JAP_SS = {
 			upgrades = {
 				sub_engine_upgrade = 9
 				sub_range_upgrade = 9
-				sub_depth_upgrade = 9
+				sub_depth_upgrade = 4
 			}
 		}
 		
 		allowed_modules = {
-			ship_airplane_launcher_1
+			ship_sub_snorkel_2
+			ship_sub_snorkel_1
 			ship_surveillance_radar_4
 			ship_surveillance_radar_3
 			ship_surveillance_radar_2

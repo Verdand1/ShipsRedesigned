@@ -690,6 +690,7 @@ equipment_modules = {
 		
 		multiply_stats = {
 			max_strength = -0.1
+			surface_detection = -0.05
 			surface_visibility = -0.05
 			sub_visibility = -0.05
 			naval_range = -0.1
@@ -1290,8 +1291,8 @@ equipment_modules = {
 		
 		add_stats = {
 			surface_visibility = 0.5
-			surface_detection = 5
-			sub_detection = 5
+			surface_detection = 6
+			sub_detection = 6
 			supply_consumption = 0.01
 			max_strength = 2
 			build_cost_ic = 150
@@ -1595,11 +1596,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 50
+			surface_detection = 6
 		}
 		manpower = 10 #outside the add_stats section for code reasons
-		multiply_stats = {
-			surface_detection = 0.25
-		}
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
@@ -1614,11 +1613,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 100
+			surface_detection = 12
 		}
 		manpower = 10 #outside the add_stats section for code reasons
-		multiply_stats = {
-			surface_detection = 0.5
-		}
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
@@ -1633,11 +1630,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 150
+			surface_detection = 18
 		}
 		manpower = 10 #outside the add_stats section for code reasons
-		multiply_stats = {
-			surface_detection = 0.75
-		}
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
@@ -1652,11 +1647,9 @@ equipment_modules = {
 		
 		add_stats = {
 			build_cost_ic = 200
+			surface_detection = 24
 		}
 		manpower = 10 #outside the add_stats section for code reasons
-		multiply_stats = {
-			surface_detection = 1
-		}
 		
 		can_convert_from = {
 			module = ship_surveillance_radar
