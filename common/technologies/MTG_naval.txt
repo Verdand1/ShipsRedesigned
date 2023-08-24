@@ -1368,190 +1368,108 @@ technologies = {
 	}
 
 
- ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ### 
-#  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #   
-#### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##  
-#  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #   
-#  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ### 
+ ##  ### ###   ##  ###   ##  ### ###  ## 
+#  #  #  #  # #  # #  # #  # #    #  #   
+####  #  ###  #    ###  #### ##   #   #  
+#  #  #  #  # #  # #  # #  # #    #    # 
+#  # ### #  #  ##  #  # #  # #    #  ##  
 
 
-	basic_depth_charges = {
-
+	airplane_launcher = {
+		
 		enable_equipment_modules = {
-			ship_depth_charge_1
-			ship_sonar_1
+			ship_airplane_launcher_1
 		}
-
+		
 		on_research_complete = {
-			custom_effect_tooltip = depth_charges_advice_tt
+			custom_effect_tooltip = airplane_launcher_advice_tt
 		}
 
 		path = {
-			leads_to_tech = improved_depth_charges
+			leads_to_tech = flight_deck
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			ship_light_hull = 1
+			ship_cruiser_hull = 1
 		}
 		
-		research_cost = 1.5
+		research_cost = 1
 
 		start_year = 1922
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 1 }
+			position = {  x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
-			factor = 7
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
-			}
+			factor = 0
 		}
 		
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			asw_tech
+			cv_tech
 		}
 	}
-	
-	improved_depth_charges = {
 
+	flight_deck = {
+		
+		enable_equipments = {
+			ship_hull_carrier_2
+		}
 		enable_equipment_modules = {
-			ship_depth_charge_2
+			ship_deck_space_1
 		}
 		
-		on_research_complete = {
-			custom_effect_tooltip = depth_charges_advice_tt
-		}
-		
-		path = {
-			leads_to_tech = advanced_depth_charges
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
+		research_cost = 3
 
-		start_year = 1936
+		start_year = 1922
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 7 }
+			position = {  x = 0 y = 7 }
 		}
 		
+		sub_technologies = {
+			large_flight_deck
+		}
+	
 		ai_will_do = {
-			factor = 6
+			factor = 8
 			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
+				factor = 0
+				not = { has_completed_focus = GER_plan_z }
 			}
 		}
 		
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			asw_tech
+			cv_tech
 		}
 	}
-	
-	advanced_depth_charges = {
 
+	large_flight_deck = {
+		
+		enable_equipments = {
+			ship_hull_carrier_1
+		}
 		enable_equipment_modules = {
-			ship_depth_charge_3
+			ship_deck_space_2
+			ship_deck_space_3
 		}
 		
-		on_research_complete = {
-			custom_effect_tooltip = depth_charges_advice_tt
+		dependencies = {
+			ship_hull_heavy = 1
 		}
-		
-		path = {
-			leads_to_tech = modern_depth_charges
-			research_cost_coeff = 1
-		}
-		
-		research_cost = 1.5
 
-		start_year = 1940
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 13 }
-		}
+		research_cost = 0
+
+		start_year = 1922
 		
 		ai_will_do = {
-			factor = 5
-			modifier = {
-				factor = 2
-				OR = {
-					has_war_with = GER
-					has_war_with = SOV
-				}
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			asw_tech
-		}
-	}
-	
-	modern_depth_charges = {
-
-		enable_equipment_modules = {
-			ship_depth_charge_4
-		}
-		
-		on_research_complete = {
-			custom_effect_tooltip = depth_charges_advice_tt
-		}
-
-		research_cost = 1.5
-
-		start_year = 1944
-		
-		folder = {
-			name = mtgnavalfolder
-			position = { x = 0 y = 19 }
-		}
-		
-		ai_will_do = {
-			factor = 4
-			modifier = {
-				factor = 4
-				has_war_with = GER
-			}
-			modifier = {
-				factor = 2
-				anti_submarine_strategy_required_trigger = yes
-			}
-		}
-		
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			asw_tech
+			factor = 1000
 		}
 	}
 
@@ -2004,108 +1922,190 @@ technologies = {
 	}
 
 
- ##  ### ###   ##  ###   ##  ### ###  ## 
-#  #  #  #  # #  # #  # #  # #    #  #   
-####  #  ###  #    ###  #### ##   #   #  
-#  #  #  #  # #  # #  # #  # #    #    # 
-#  # ### #  #  ##  #  # #  # #    #  ##  
+ ##  #  # ### ###      ## #  # ###  #   #  ##  ###  ### #  # ### 
+#  # ## #  #   #      #   #  # #  # ## ## #  # #  #  #  ## # #   
+#### # ##  #   #       #  #  # ###  # # # #### ###   #  # ## ##  
+#  # #  #  #   #        # #  # #  # #   # #  # #  #  #  #  # #   
+#  # #  #  #  ###     ##   ##  ###  #   # #  # #  # ### #  # ### 
 
 
-	airplane_launcher = {
-		
+	basic_depth_charges = {
+
 		enable_equipment_modules = {
-			ship_airplane_launcher_1
+			ship_depth_charge_1
+			ship_sonar_1
 		}
-		
+
 		on_research_complete = {
-			custom_effect_tooltip = airplane_launcher_advice_tt
+			custom_effect_tooltip = depth_charges_advice_tt
 		}
 
 		path = {
-			leads_to_tech = flight_deck
+			leads_to_tech = improved_depth_charges
 			research_cost_coeff = 1
 		}
 		dependencies = {
-			ship_cruiser_hull = 1
+			ship_light_hull = 1
 		}
 		
-		research_cost = 1
+		research_cost = 1.5
 
 		start_year = 1922
 		
 		folder = {
 			name = mtgnavalfolder
-			position = {  x = 0 y = 1 }
+			position = { x = 0 y = 1 }
 		}
 		
 		ai_will_do = {
-			factor = 0
-		}
-		
-		categories = {
-			naval_equipment
-			ship_modules_tech
-			cv_tech
-		}
-	}
-
-	flight_deck = {
-		
-		enable_equipments = {
-			ship_hull_carrier_2
-		}
-		enable_equipment_modules = {
-			ship_deck_space_1
-		}
-		
-		research_cost = 3
-
-		start_year = 1922
-		
-		folder = {
-			name = mtgnavalfolder
-			position = {  x = 0 y = 7 }
-		}
-		
-		sub_technologies = {
-			large_flight_deck
-		}
-	
-		ai_will_do = {
-			factor = 8
+			factor = 7
 			modifier = {
-				factor = 0
-				not = { has_completed_focus = GER_plan_z }
+				factor = 2
+				OR = {
+					has_war_with = GER
+					has_war_with = SOV
+				}
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
 			}
 		}
 		
 		categories = {
 			naval_equipment
 			ship_modules_tech
-			cv_tech
+			asw_tech
 		}
 	}
+	
+	improved_depth_charges = {
 
-	large_flight_deck = {
-		
-		enable_equipments = {
-			ship_hull_carrier_1
-		}
 		enable_equipment_modules = {
-			ship_deck_space_2
-			ship_deck_space_3
+			ship_depth_charge_2
 		}
 		
-		dependencies = {
-			ship_hull_heavy = 1
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
 		}
+		
+		path = {
+			leads_to_tech = advanced_depth_charges
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
 
-		research_cost = 0
-
-		start_year = 1922
+		start_year = 1936
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 7 }
+		}
 		
 		ai_will_do = {
-			factor = 1000
+			factor = 6
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = GER
+					has_war_with = SOV
+				}
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			asw_tech
+		}
+	}
+	
+	advanced_depth_charges = {
+
+		enable_equipment_modules = {
+			ship_depth_charge_3
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+		
+		path = {
+			leads_to_tech = modern_depth_charges
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1940
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 13 }
+		}
+		
+		ai_will_do = {
+			factor = 5
+			modifier = {
+				factor = 2
+				OR = {
+					has_war_with = GER
+					has_war_with = SOV
+				}
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			asw_tech
+		}
+	}
+	
+	modern_depth_charges = {
+
+		enable_equipment_modules = {
+			ship_depth_charge_4
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = depth_charges_advice_tt
+		}
+
+		research_cost = 1.5
+
+		start_year = 1944
+		
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 0 y = 19 }
+		}
+		
+		ai_will_do = {
+			factor = 4
+			modifier = {
+				factor = 4
+				has_war_with = GER
+			}
+			modifier = {
+				factor = 2
+				anti_submarine_strategy_required_trigger = yes
+			}
+		}
+		
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			asw_tech
 		}
 	}
 
@@ -2668,5 +2668,4 @@ technologies = {
 			naval_equipment
 		}
 	}
-
 }
