@@ -106,7 +106,7 @@ country_event = {
 			ENG = {
 				create_wargoal = {
 				type = puppet_wargoal_focus
-				target = THIS
+				target = PREV
 				}
 			}
 		}
@@ -219,6 +219,7 @@ country_event = {
 			compare = equals
 		}
 		threat < 1
+		NOT = { has_completed_focus = ENG_enforce_the_naval_treaties }
 	}
 
 	option = { #welp, we tryied
@@ -253,17 +254,9 @@ country_event = {
 	trigger = {
 		threat > 0.99
 		ENG = { NOT = { has_completed_focus = ENG_enforce_the_naval_treaties } }
-		ENG = { NOT = { has_country_flag = threat_treaty_cleanse_temporized } }
 	}
 
 	immediate = {
-		ENG = {
-			set_country_flag = {
-				flag = threat_treaty_cleanse_temporized
-				days = 30
-				value = 1
-			}
-		}
 		every_country = {
 			limit = {
 				SRD_has_naval_treaty_trigger = yes

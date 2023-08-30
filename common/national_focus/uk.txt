@@ -7992,9 +7992,26 @@ focus_tree = {
 			factor = 1
 		}	
 		completion_reward = {
-			unlock_decision_category_tooltip = ENG_enforce_the_naval_treaties
-			custom_effect_tooltip = ENG_enforce_the_naval_treaties_tt
-			hidden_effect = { news_event = { id = mtg_news.17 days = 1 } }
+			### custom_effect_tooltip = ENG_enforce_the_naval_treaties_tt
+			### hidden_effect = { news_event = { id = mtg_news.17 days = 1 } }
+			hidden_effect = {
+				every_country = {
+					limit = { has_country_flag = srd_treaty_members }
+					set_country_flag = SRD_british_enforced
+					clr_country_flag = cheat_on_treaty_flag
+					revert_cheat_on_treaty_idea = yes
+				}
+			}
+			IF = {
+				limit = { NOT = { has_country_flag = srd_treaty_members } }
+				set_country_flag = srd_treaty_members
+				if  = {
+					limit  = {
+						not = { has_tech = brown_water_navy }
+					}
+					add_ideas = SRD_naval_treaty_adherent
+				}
+			}
 		}
 	}
 

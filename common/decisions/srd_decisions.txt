@@ -158,6 +158,15 @@ SRD_naval_treaties = {
 				var = global.london_treaty_member_count
 				value = 1
 			}
+			IF = {
+				limit = { 
+					FROM = {
+						tag = ENG
+						has_completed_focus = ENG_enforce_the_naval_treaties
+					}
+				}
+				set_country_flag = SRD_british_enforced
+			}
 			set_country_flag = srd_treaty_members
 		}
 	}
@@ -431,6 +440,10 @@ SRD_naval_treaties = {
 			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
+		available = {
+			NOT = { has_country_flag = SRD_british_enforced }
+		}
+		
 		cost = 200
 		ai_will_do = {
 			base = 160
@@ -452,6 +465,10 @@ SRD_naval_treaties = {
 			NOT = { has_global_flag = SRD_naval_conference_underway }
 			has_country_flag = srd_treaty_anglogerman_member
 			NOT = { has_government = democratic }
+		}
+		
+		available = {
+			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 200
@@ -540,6 +557,7 @@ SRD_naval_treaties = {
 		
 		available = {
 			date > 1936.12.30
+			NOT = { ENG = { has_completed_focus = ENG_enforce_the_naval_treaties } }
 		}
 		
 		cost = 100

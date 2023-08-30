@@ -138,3 +138,23 @@ treaty_deescalation_change = {
 		}
 	}
 }
+
+revert_cheat_on_treaty_idea = {
+
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_cheat
+			add_idea = SRD_naval_treaty_adherent
+		}
+	}
+	
+	IF = {
+		limit = { has_idea = SRD_naval_treaty_adherent_escalator_cheat }
+		swap_ideas = {
+			remove_idea = SRD_naval_treaty_adherent_escalator_cheat
+			add_idea = SRD_naval_treaty_adherent_escalator
+		}
+	}
+	
+}
