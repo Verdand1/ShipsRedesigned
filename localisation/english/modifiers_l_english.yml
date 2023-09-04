@@ -1182,6 +1182,7 @@
  ship_hull_light_design_cost_factor:0 "Light Ship Design Cost"
  ship_hull_heavy_design_cost_factor:0 "Heavy Ship Design Cost"
  ship_hull_carrier_design_cost_factor:0 "Carrier Design Cost"
+ ship_hull_light_carrier_design_cost_factor:0 "Light Carrier Design Cost"
  ship_hull_cruiser_design_cost_factor:0 "Cruiser Design Cost"
  ship_hull_submarine_design_cost_factor:0 "Submarine Design Cost"
  CAS_equipment_design_cost_factor:0 "Close Air Support Design Cost"
