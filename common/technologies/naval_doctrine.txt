@@ -549,6 +549,8 @@ technologies = {
 			position = { x = 2 y = 0 }
 		}
 		
+		desc = "brown_water_navy_special"
+		
 		ai_will_do = {
 			factor = 100
 			modifier = {

@@ -23,7 +23,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_torpedo_launcher
+			leads_to_tech = improved_ship_torpedo_launcher
 			research_cost_coeff = 1
 		}
 		path = {
@@ -1051,7 +1051,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		path = {
-			leads_to_tech = improved_torpedo_launcher
+			leads_to_tech = improved_ship_torpedo_launcher
 			research_cost_coeff = 1
 		}
 
@@ -1181,7 +1181,7 @@ technologies = {
  #   ##  #  # #    ### ###   ##  ### ##  
 
 
-	improved_torpedo_launcher = {
+	improved_ship_torpedo_launcher = {
 		
 		research_cost = 1.5
 

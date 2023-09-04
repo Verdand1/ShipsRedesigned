@@ -5161,7 +5161,7 @@ spriteTypes = {
 	 #   ##  #  # #    ### ###   ##  ### ##  
 
 	SpriteType = {
-		name = "GFX_improved_torpedo_launcher_medium"
+		name = "GFX_improved_ship_torpedo_launcher_medium"
 		texturefile = "gfx/interface/technologies/improved_torpedo_launcher.dds"
 	}
 
