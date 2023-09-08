@@ -341,6 +341,7 @@ USA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -376,6 +377,7 @@ USA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -511,6 +513,7 @@ USA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -550,6 +553,7 @@ USA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -659,8 +663,22 @@ USA_BB = {
 			not = { has_completed_focus = USA_carrier_primacy }
 		}
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_7_BB = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_7_BB = yes
+		}
+		modifier = {
 			factor = 0
-			has_country_flag = srd_treaty_members
+			OR = {
+				AND = {
+					ENG = { not = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+					has_country_flag = srd_treaty_members
+				}
+				SRD_treaty_limit_level_7_BB = yes
+			}
 		}
 	}
 
@@ -791,6 +809,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = USA_carrier_primacy }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -831,6 +850,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = USA_carrier_primacy }
 			has_tech = modern_perf_engines
 		}
@@ -916,6 +936,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = USA_carrier_primacy
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -958,6 +979,7 @@ USA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = USA_carrier_primacy
 			has_tech = modern_perf_engines
 		}
@@ -1135,6 +1157,7 @@ USA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = USA_carrier_primacy }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -1173,6 +1196,7 @@ USA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_completed_focus = USA_carrier_primacy }
 			has_tech = modern_perf_engines
 		}
@@ -1254,6 +1278,7 @@ USA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = USA_carrier_primacy
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
@@ -1294,6 +1319,7 @@ USA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_completed_focus = USA_carrier_primacy
 			has_tech = modern_perf_engines
 		}
@@ -1352,10 +1378,49 @@ USA_SS = {
 		}
 	}
 
+	SS_treaty = {
+	
+		role_icon_index = 6
+
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_submarine_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+				front_3 = ship_unavailable_space
+			}
+			upgrades = {
+				sub_engine_upgrade = 7
+				sub_range_upgrade = 8
+				sub_depth_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_sub_snorkel_2
+			ship_sub_snorkel_1
+			sub_ship_engine_4
+			sub_ship_engine_3
+			sub_ship_engine_2
+			ship_torpedo_sub_2
+			ship_torpedo_sub_storage
+		}
+	}
+
 	SS = {
 	
 		role_icon_index = 6
 
+		enable = {
+			not = { has_country_flag = srd_treaty_members }
+		}
+		
 		target_variant = {
 			match_value = 1.0
 			

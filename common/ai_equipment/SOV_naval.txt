@@ -244,7 +244,10 @@ SOV_CL = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_tech = advanced_perf_engines }
+			OR = {
+				has_country_flag = srd_treaty_members
+				not = { has_tech = advanced_perf_engines }
+			}
 		}
 		
 		target_variant = {
@@ -284,6 +287,7 @@ SOV_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -326,6 +330,7 @@ SOV_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -748,6 +753,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -790,6 +796,7 @@ SOV_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -838,11 +845,49 @@ SOV_CV = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.0001
+			SRD_treaty_slow_level_3_CV = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_completed_focus = SOV_surface_warfare }
-				has_country_flag = srd_treaty_members
+				SRD_treaty_limit_level_3_CV = yes
 			}
+		}
+	}
+
+	CV_treaty = {
+	
+		role_icon_index = 7
+		
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_carrier_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_1 = ship_light_battery_3
+				front_2 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 9
+				ship_heavy_range_upgrade = 3
+				ship_heavy_armor_upgrade = 2
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_1
+			ship_fire_control_system_0
+			ship_perf_engine_2
+			ship_deck_space_3
+			ship_anti_air_3
+			ship_anti_air_2
 		}
 	}
 
@@ -851,6 +896,7 @@ SOV_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -889,6 +935,7 @@ SOV_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -927,6 +974,7 @@ SOV_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -976,10 +1024,22 @@ SOV_SS = {
 			not = { has_completed_focus = SOV_surface_warfare }
 		}
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_SS = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_global_flag = anglo_soviet_naval_treaty_over }
-				has_country_flag = srd_treaty_members
+				AND = {
+					ENG = { not = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+					has_country_flag = srd_treaty_members
+				}
+				SRD_treaty_limit_level_3_SS = yes
 			}
 		}
 	}
@@ -1035,10 +1095,22 @@ SOV_SM = {
 			not = { has_completed_focus = SOV_surface_warfare }
 		}
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_SS = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				not = { has_global_flag = anglo_soviet_naval_treaty_over }
-				has_country_flag = srd_treaty_members
+				AND = {
+					ENG = { not = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+					has_country_flag = srd_treaty_members
+				}
+				SRD_treaty_limit_level_3_SS = yes
 			}
 		}
 	}

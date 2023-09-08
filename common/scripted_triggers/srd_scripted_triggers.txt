@@ -183,6 +183,24 @@ SRD_treaty_reduced_level_5_CV = {
 	has_navy_size = { size > 1 unit = carrier }
 }
 
+SRD_treaty_limit_level_5_BB = {
+	not = { has_global_flag = JAP_got_parity }
+	has_country_flag = srd_treaty_members
+	has_navy_size = { size > 9 unit = battleship }
+}
+
+SRD_treaty_slow_level_5_BB = {
+	not = { has_global_flag = JAP_got_parity }
+	has_country_flag = srd_treaty_members
+	has_navy_size = { size > 7 unit = battleship }
+}
+
+SRD_treaty_reduced_level_5_BB = {
+	not = { has_global_flag = JAP_got_parity }
+	has_country_flag = srd_treaty_members
+	has_navy_size = { size > 4 unit = battleship }
+}
+
 SRD_treaty_limit_level_5_CVL = {
 	not = { has_global_flag = JAP_got_parity }
 	has_country_flag = srd_treaty_members
@@ -289,6 +307,16 @@ SRD_treaty_slow_level_3_CV = {
 	has_navy_size = { size > 0 unit = carrier }
 }
 
+SRD_treaty_limit_level_3_CVL = {
+	has_country_flag = srd_treaty_members
+	has_navy_size = { size > 1 unit = light_carrier }
+}
+
+SRD_treaty_slow_level_3_CVL = {
+	has_country_flag = srd_treaty_members
+	has_navy_size = { size > 0 unit = light_carrier }
+}
+
 SRD_treaty_limit_level_3_SS = {
 	has_country_flag = srd_treaty_members
 	has_navy_size = { size > 99 unit = submarine }
@@ -384,12 +412,42 @@ SRD_treaty_limit_level_commonwealth_DD = {
 	has_navy_size = { size > 49 unit = destroyer }
 }
 
+SRD_treaty_slow_level_commonwealth_DD = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 37 unit = destroyer }
+}
+
+SRD_treaty_reduced_level_commonwealth_DD = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 24 unit = destroyer }
+}
+
 SRD_treaty_limit_level_commonwealth_CL = {
 	has_country_flag = srd_treaty_commonwealth_members
 	has_navy_size = { size > 6 unit = light_cruiser }
 }
 
+SRD_treaty_slow_level_commonwealth_CL = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 5 unit = light_cruiser }
+}
+
+SRD_treaty_reduced_level_commonwealth_CL = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 3 unit = light_cruiser }
+}
+
 SRD_treaty_limit_level_commonwealth_CA = {
 	has_country_flag = srd_treaty_commonwealth_members
 	has_navy_size = { size > 2 unit = heavy_cruiser }
+}
+
+SRD_treaty_slow_level_commonwealth_CA = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 1 unit = heavy_cruiser }
+}
+
+SRD_treaty_reduced_level_commonwealth_CA = {
+	has_country_flag = srd_treaty_commonwealth_members
+	has_navy_size = { size > 0 unit = heavy_cruiser }
 }

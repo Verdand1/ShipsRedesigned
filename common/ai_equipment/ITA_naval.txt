@@ -233,7 +233,10 @@ ITA_CL = {
 		role_icon_index = 1
 		
 		enable = {
-			not = { has_tech = advanced_perf_engines }
+			OR = {
+				has_country_flag = srd_treaty_members
+				not = { has_tech = advanced_perf_engines }
+			}
 		}
 		
 		target_variant = {
@@ -271,6 +274,7 @@ ITA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -311,6 +315,7 @@ ITA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -358,16 +363,67 @@ ITA_CA = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_CA = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_CA = yes
+		}
+		modifier = {
 			factor = 0
-			has_country_flag = srd_treaty_members
+			OR = {
+				AND = {
+					ENG = { not = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+					has_country_flag = srd_treaty_members
+				}
+				SRD_treaty_limit_level_3_CA = yes
+			}
 		}
 	}
 
+	CA_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_1 = ship_unavailable_space
+				mid_3 = { any_of = { ship_anti_air_4 ship_anti_air_3 ship_anti_air_2 } }
+				mid_4 = ship_torpedo_2
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 9
+				ship_medium_range_upgrade = 3
+				ship_medium_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_perf_engine_2
+			ship_medium_battery_2
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
 	CA_2 = {
 	
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -407,6 +463,7 @@ ITA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -448,6 +505,7 @@ ITA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -496,8 +554,15 @@ ITA_CVL = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.0001
+			SRD_treaty_slow_level_3_CVL = yes
+		}
+		modifier = {
 			factor = 0
-			not = { has_completed_focus = ITA_refit_civilian_ships }
+			OR = {
+				not = { has_completed_focus = ITA_refit_civilian_ships }
+				SRD_treaty_limit_level_3_CVL = yes
+			}
 		}
 	}
 
@@ -647,11 +712,49 @@ ITA_BB = {
 		}
 	}
 	
+	BB_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_2 = { any_of = { ship_light_battery_3 ship_anti_air_3 ship_anti_air_2 } }
+				mid_2 = { any_of = { ship_light_battery_3 ship_light_medium_battery_2 } }
+				mid_4 = ship_unavailable_space
+				front_2 = { any_of = { ship_anti_air_3 ship_anti_air_2 } }
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 8
+				ship_heavy_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_heavy_battery_2
+			ship_light_battery_3
+			ship_anti_air_3
+			ship_anti_air_2
+		}
+	}
+	
 	BB_2 = {
 	
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -692,6 +795,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -734,6 +838,7 @@ ITA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -782,8 +887,15 @@ ITA_CV = {
 	priority = {
 		factor = 10
 		modifier = {
+			factor = 0.0001
+			SRD_treaty_slow_level_3_CV = yes
+		}
+		modifier = {
 			factor = 0
-			not = { has_completed_focus = ITA_proper_carriers }
+			OR = {
+				not = { has_completed_focus = ITA_proper_carriers }
+				SRD_treaty_limit_level_3_CV = yes
+			}
 		}
 	}
 
@@ -792,7 +904,10 @@ ITA_CV = {
 		role_icon_index = 7
 		
 		enable = {
-			not = { has_tech = advanced_perf_engines }
+			OR = {
+				has_country_flag = srd_treaty_members
+				not = { has_tech = advanced_perf_engines }
+			}
 		}
 		
 		target_variant = {
@@ -830,6 +945,7 @@ ITA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -869,6 +985,7 @@ ITA_CV = {
 		role_icon_index = 7
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		

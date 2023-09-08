@@ -216,11 +216,48 @@ FRA_CL = {
 		}
 	}
 
+	CL_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 =ship_anti_air_2
+				mid_2 = ship_torpedo_2
+				mid_4 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 8
+				ship_medium_range_upgrade = 5
+				ship_medium_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_light_medium_battery_2
+			ship_anti_air_2
+		}
+	}
+	
 	CL_2 = {
 	
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -259,6 +296,7 @@ FRA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -299,6 +337,7 @@ FRA_CL = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -359,11 +398,51 @@ FRA_CA = {
 		}
 	}
 
+	CA_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_cruiser_1
+			modules = {
+				rear_2 = ship_anti_air_2
+				mid_1 = ship_anti_air_2
+				mid_2 = ship_torpedo_2
+				mid_4 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_medium_engine_upgrade = 7
+				ship_medium_range_upgrade = 6
+				ship_medium_armor_upgrade = 4
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_3
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_fire_control_radar_2
+			ship_fire_control_radar_1
+			ship_perf_engine_2
+			ship_medium_battery_2
+			ship_medium_battery_1
+			ship_light_battery_3
+			ship_light_battery_2
+		}
+	}
+	
 	CA_2 = {
 	
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -404,6 +483,7 @@ FRA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -446,6 +526,7 @@ FRA_CA = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -623,8 +704,56 @@ FRA_BB = {
 			not = { has_completed_focus = FRA_the_young_school }
 		}
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_BB = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_BB = yes
+		}
+		modifier = {
 			factor = 0
+			OR = {
+				AND = {
+					ENG = { not = { has_completed_focus = ENG_enforce_the_naval_treaties } }
+					has_country_flag = srd_treaty_members
+				}
+				SRD_treaty_limit_level_3_BB = yes
+			}
+		}
+	}
+	
+	BB_treaty = {
+	
+		role_icon_index = 1
+		
+		enable = {
 			has_country_flag = srd_treaty_members
+		}
+		
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_heavy_1
+			modules = {
+				rear_1 = ship_anti_air_2
+				rear_2 = ship_anti_air_2
+				mid_1 = ship_light_medium_battery_2
+				mid_4 = ship_unavailable_space
+			}
+			upgrades = {
+				ship_heavy_engine_upgrade = 8
+				ship_heavy_range_upgrade = 4
+				ship_heavy_armor_upgrade = 5
+			}
+		}
+		
+		allowed_modules = {
+			ship_fire_control_system_2
+			ship_fire_control_system_1
+			ship_perf_engine_2
+			ship_heavy_battery_2
+			ship_anti_air_2
 		}
 	}
 	
@@ -633,6 +762,7 @@ FRA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			not = { has_tech = advanced_perf_engines }
 		}
 		
@@ -672,6 +802,7 @@ FRA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
 			not = { has_tech = modern_perf_engines }
 		}
@@ -713,6 +844,7 @@ FRA_BB = {
 		role_icon_index = 1
 		
 		enable = {
+			not = { has_country_flag = srd_treaty_members }
 			has_tech = modern_perf_engines
 		}
 		
@@ -958,9 +1090,46 @@ FRA_SS = {
 		}
 	}
 
+	SS_treaty = {
+	
+		role_icon_index = 6
+
+		enable = {
+			has_country_flag = srd_treaty_members
+		}
+
+		target_variant = {
+			match_value = 1.0
+			
+			type = ship_hull_submarine_1
+			modules = {
+				rear_2 = ship_unavailable_space
+				mid_3 = ship_unavailable_space
+			}
+			upgrades = {
+				sub_engine_upgrade = 2
+				sub_range_upgrade = 4
+				sub_depth_upgrade = 7
+			}
+		}
+		
+		allowed_modules = {
+			ship_sub_snorkel_1
+			sub_ship_engine_4
+			sub_ship_engine_3
+			sub_ship_engine_2
+			ship_torpedo_sub_2
+			ship_torpedo_sub_storage
+		}
+	}
+
 	SS = {
 	
 		role_icon_index = 6
+
+		enable = {
+			not = { has_country_flag = srd_treaty_members }
+		}
 
 		target_variant = {
 			match_value = 1.0

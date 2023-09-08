@@ -20,6 +20,20 @@ DD = {
 			anti_submarine_strategy_required_trigger = yes
 		}
 		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_reduced_level_3_DD = yes
+				SRD_treaty_reduced_level_commonwealth_DD = yes
+			}
+		}
+		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_slow_level_3_DD = yes
+				SRD_treaty_slow_level_commonwealth_DD = yes
+			}
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				SRD_treaty_limit_level_3_DD = yes
@@ -142,6 +156,20 @@ CL = {
 	
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_reduced_level_3_CL = yes
+				SRD_treaty_reduced_level_commonwealth_CL = yes
+			}
+		}
+		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_slow_level_3_CL = yes
+				SRD_treaty_slow_level_commonwealth_CL = yes
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -352,6 +380,20 @@ CA = {
 	
 	priority = {
 		factor = 20
+		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_reduced_level_3_CA = yes
+				SRD_treaty_reduced_level_commonwealth_CA = yes
+			}
+		}
+		modifier = {
+			factor = 0.01
+			OR = {
+				SRD_treaty_slow_level_3_CA = yes
+				SRD_treaty_slow_level_commonwealth_CA = yes
+			}
+		}
 		modifier = {
 			factor = 0
 			OR = {
@@ -579,11 +621,18 @@ BB = {
 	priority = {
 		factor = 20
 		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_BB = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_BB = yes
+		}
+		modifier = {
 			factor = 0
 			OR = {
 				num_of_naval_factories < 10
 				is_subject_of = ENG
-				has_tech = brown_water_navy
 				SRD_treaty_limit_level_3_BB = yes
 			}
 		}
@@ -768,6 +817,14 @@ SM = {
 				has_war_with = FRA
 				has_war_with = ITA
 			}
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_reduced_level_3_SS = yes
+		}
+		modifier = {
+			factor = 0.01
+			SRD_treaty_slow_level_3_SS = yes
 		}
 		modifier = {
 			factor = 0
