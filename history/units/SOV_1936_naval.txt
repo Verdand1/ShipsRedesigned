@@ -203,10 +203,10 @@ units= {
 		task_force = {
 			name = "5iy Podvodniy Flot"
 			location = 957 # Vladivostok
-			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Series XI" } } }
-			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Series XI" } } }
-			ship = { ordered_name = 9 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Series XI" } } }
-			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Series XI" } } }
+			ship = { ordered_name = 7 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Serie XI" } } }
+			ship = { ordered_name = 8 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Serie XI" } } }
+			ship = { ordered_name = 9 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Serie XI" } } }
+			ship = { ordered_name = 10 definition = submarine start_experience_factor = 0.1 equipment = { ship_hull_submarine_1 = { amount = 1 owner = SOV version_name = "L Type - Serie XI" } } }
 		}
 		task_force = {
 			name = "8iy Podvodniy Flot"

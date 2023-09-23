@@ -1934,8 +1934,8 @@ nothing_wrong_with_our_bloody_ships = {
 	
 	happened = {
 		has_navy_size = {
-			unit = battle_cruiser
-			size > 8
+			unit = battleship
+			size > 37
 		}
 	}
 }
