@@ -4857,7 +4857,6 @@ focus_tree = {
 				name = HUN_capital_ships
 				bonus = 1.0
 				uses = 2
-				category = bc_tech
 				category = bb_tech
 			}
 

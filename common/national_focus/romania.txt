@@ -4690,7 +4690,6 @@
 				uses = 2
 				category = ca_tech
 				category = bb_tech
-				category = bc_tech
 			}
 		}
 	}

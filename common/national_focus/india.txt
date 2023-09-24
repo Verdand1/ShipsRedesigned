@@ -3176,7 +3176,6 @@ focus_tree = {
 				name = RAJ_cruiser_effort
 				bonus = 1.5
 				uses = 1
-				category = bc_tech
 				category = ca_tech
 			}
 		}

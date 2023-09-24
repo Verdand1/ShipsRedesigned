@@ -929,7 +929,6 @@ focus_tree = {
 				bonus = 1.0
 				ahead_reduction = 2
 				uses = 1
-				category = bc_tech
 				category = bb_tech
 				category = cv_tech
 			}
