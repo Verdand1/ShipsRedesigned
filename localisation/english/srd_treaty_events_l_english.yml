@@ -50,8 +50,9 @@
  
  SRD_naval_treaty.900.t:0 "Germany challenges the anglo-german naval agreement"
  SRD_naval_treaty.900.desc:0 "[GetLeader] has recently made a firey speech denouncing the opression of the anglo-german naval agreement as a tool of evil designed to subjugate [From.GetName]. In the same speech, he announced his intention to no longer abide by the agreement, and mentionned that a new and massive naval budget was being discussed by the [From.GetAdjective] government."
- SRD_naval_treaty.900.a:0 "They're going too far. We will make them obey !"
+ SRD_naval_treaty.900.a:0 "They're going too far. We will make them obey with French help!"
  SRD_naval_treaty.900.b:0 "Maybe they should be allowed in the London treaty ?"
+ SRD_naval_treaty.900.b:0 "They're going too far. We will make them obey !"
  
  SRD_naval_treaty.901.t:0 "Britain stands against the Germany's challenge of the naval agreement"
  SRD_naval_treaty.901.desc:0 "Following Germany's recent repudiation of their naval agreement, Britain has announced its intention to go to war shall the German breech the agreement in any way. In private, a british envoy has asked us to back their claim."
@@ -81,6 +82,11 @@
  SRD_naval_treaty.906.t:0 "Germany joins the London Naval Treaty"
  SRD_naval_treaty.906.desc:0 "The British delegation has made a shock announcement today : they back Germany's full membership in the London naval Treaty. While the change has already been acted, many await the reaction of the other members of the treaty, particularly European powers..."
  SRD_naval_treaty.906.a:0 "Germany rearms a bit more"
+ 
+ SRD_naval_treaty.907.t:0 "France refuses to back us"
+ SRD_naval_treaty.907.desc:0 "The French delegation's answer is most shocking : as they viewed this agreement as a betreyal from the get go, they're unwilling to back us to resolve the matter regardless of what happens with Germany ! What can we do now ?"
+ SRD_naval_treaty.907.a:0 "Just ignore the cheese-eating cowards !"
+ SRD_naval_treaty.907.b:0 "Damn it all, we can't do it alone..."
  
  SRD_naval_treaty.11.t:0 "Voiding of the naval agreement"
  SRD_naval_treaty.11.desc:0 "Our naval agreement has always been pegged on the British membership to the second london naval treaty. Now, with Britain no longer a member, our naval agreement is void."

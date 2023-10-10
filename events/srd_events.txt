@@ -928,3 +928,36 @@ country_event = {
 		name = SRD_naval_treaty.15.a 
 	}
 }
+
+country_event = {
+	id = SRD_naval_treaty.16
+	title = SRD_naval_treaty.16.t
+	desc = SRD_naval_treaty.16.desc
+	picture = GFX_report_event_usa_heavy_cruiser
+
+	hidden = yes
+	trigger = {
+		tag = ENG
+		NOT = { has_country_flag = srd_treaty_members }
+		NOT = { has_war = yes }
+		has_completed_focus = { ENG_enforce_the_naval_treaties }
+	}
+	
+	immediate = {
+		if  = {
+			limit  = {
+				not = { has_tech = brown_water_navy }
+			}
+			add_ideas = SRD_naval_treaty_adherent
+		}
+		add_to_variable = {
+			var = global.london_treaty_member_count
+			value = 1
+		}
+		set_country_flag = srd_treaty_members
+	}
+
+	option = { 
+		name = SRD_naval_treaty.16.a 
+	}
+}

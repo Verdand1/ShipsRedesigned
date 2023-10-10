@@ -194,8 +194,6 @@ SRD_naval_treaties = {
 					NOT = { tag = JAP }
 				}
 			}
-	# the british have forced this on you. Now you cannot leave
-			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 150
@@ -211,6 +209,17 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			# the british have forced this on you. Leave at your own risks
+			IF = {
+				limit = { has_country_flag = SRD_british_enforced }
+				ENG = {
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = PREV
+					}
+				}
+			}
+		
 			clr_country_flag = srd_treaty_members
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 			hidden_effect = {
@@ -305,8 +314,6 @@ SRD_naval_treaties = {
 					NOT = { tag = JAP }
 				}
 			}
-	# the british have forced this on you. Now you cannot leave
-			NOT = { has_country_flag = SRD_british_enforced }
 		}
 		
 		cost = 150
@@ -334,6 +341,17 @@ SRD_naval_treaties = {
 		}
 		
 		complete_effect = {
+			# the british have forced this on you. Leave at your own risks
+			IF = {
+				limit = { has_country_flag = SRD_british_enforced }
+				ENG = {
+					create_wargoal = {
+						type = puppet_wargoal_focus
+						target = PREV
+					}
+				}
+			}
+		
 			clr_country_flag = srd_treaty_members
 			custom_effect_tooltip = SRD_remove_treaty_idea_cstt_e
 			hidden_effect = {
