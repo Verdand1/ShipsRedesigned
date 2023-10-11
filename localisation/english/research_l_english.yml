@@ -591,7 +591,7 @@
  mass_destruction:0 "Mass Destruction"
  mass_destruction_desc:0 "Bombers are equipped with the most devastating weapons in great quantities. Guaranteeing results even if only a few of our pilots get through."
  blue_water_navy:0 "Blue Water Navy"
- blue_water_navy_desc:0 "Navies are power projection tools, created to threaten foes, even in their homes by giving us a large collection of strategic opportunities. To ensure that, we will have to stop any effort to impede our communication lines.\n\n"
+ blue_water_navy_desc:0 "Navies are power projection tools, created to threaten foes, even in their homes, by giving us a large collection of strategic opportunities. To ensure that, we will have to stop their effort at impeding our communication lines.\n\n"
  convoy_sailing:0 "Convoy Sailing"
  convoy_sailing_desc:0 "Introducing compulsory convoy sailing will make it easier to spot enemy raids and respond in time. Safety in numbers is the way to go."
  convoy_escorts:0 "Convoy Escorts"
