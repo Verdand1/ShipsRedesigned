@@ -1336,7 +1336,20 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			custom_effect_tooltip = HOL_expand_the_artillerieinrichtingen_tt
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = HOL_hih_siderius_organization
+				mio:HOL_hih_siderius_organization = {
+					add_mio_funds = 500
+				}
+			}
+			ELSE = {
+				custom_effect_tooltip = HOL_expand_the_artillerieinrichtingen_tt
+			}
+			
 			7 = {
 				if = {
 					limit = {
@@ -1574,7 +1587,20 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			custom_effect_tooltip = HOL_fokker_tt
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = HOL_fokker_organization
+				mio:HOL_fokker_organization = {
+					add_mio_funds = 500
+				}
+			}
+			ELSE = {
+				custom_effect_tooltip = HOL_fokker_tt
+			}
+			
 			7 = {
 				if = {
 					limit = {
@@ -1736,7 +1762,20 @@ focus_tree = {
 		available_if_capitulated = yes
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 		completion_reward = {
-			custom_effect_tooltip = HOL_daf_tt
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = HOL_daf_organization
+				mio:HOL_daf_organization = {
+					add_mio_funds = 500
+				}
+			}
+			ELSE = {
+				custom_effect_tooltip = HOL_daf_tt
+			}
+			
 			35 = {
 				if = {
 					limit = {
@@ -4018,6 +4057,17 @@ focus_tree = {
 					}
 				}
 			}
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				add_equipment_subsidy = {
+					cic = 500
+					equipment_type = medium_tank_chassis
+					seller_tags = { GER } 
+				}
+			}
+
 			add_offsite_building = { type = arms_factory level = 4 }
 		}
 	}
@@ -6420,6 +6470,7 @@ focus_tree = {
 					capital_scope = {
 						is_on_continent = europe
 					}
+					is_subject = no
 					is_major = no
 					has_government = democratic
 					NOT = { is_in_faction_with = ROOT }

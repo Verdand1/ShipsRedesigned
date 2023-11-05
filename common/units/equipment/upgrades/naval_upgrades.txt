@@ -98,6 +98,7 @@ upgrades = {
 		add_stats = {
 			naval_range = 600
 			max_strength = 0.5
+			naval_weather_penalty_factor = -0.02
 		}
 
 		multiply_stats = {
@@ -118,6 +119,7 @@ upgrades = {
 		add_stats = {
 			naval_range = 300
 			max_strength = 1
+			naval_weather_penalty_factor = -0.02
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
 		}
@@ -139,6 +141,7 @@ upgrades = {
 		add_stats = {
 			naval_range = 600
 			max_strength = 2
+			naval_weather_penalty_factor = -0.02
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
 		}
@@ -160,6 +163,7 @@ upgrades = {
 		add_stats = {
 			naval_range = 800
 			max_strength = 4
+			naval_weather_penalty_factor = -0.02
 			naval_torpedo_damage_reduction_factor = 0.01
 			naval_torpedo_enemy_critical_chance_factor = -0.01
 		}

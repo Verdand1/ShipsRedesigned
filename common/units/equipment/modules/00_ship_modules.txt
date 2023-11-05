@@ -688,6 +688,9 @@ equipment_modules = {
 	ship_unavailable_space = {
 		category = ship_unavailable_space
 		
+		add_stats = {
+			naval_weather_penalty_factor = 0.03
+		}
 		multiply_stats = {
 			max_strength = -0.1
 			surface_detection = -0.05
@@ -1706,13 +1709,13 @@ equipment_modules = {
 		category = design_flaws
 		
 		add_stats = {
+			naval_weather_penalty_factor = 0.2
 			naval_light_gun_hit_chance_factor = -0.1
 			naval_heavy_gun_hit_chance_factor = -0.1
 			carrier_size = 1
 		}
 		multiply_stats = {
 			naval_speed = 0.1
-			max_strength = -0.1
 		}
 		
 		dismantle_cost_ic = 500

@@ -2107,11 +2107,11 @@
 		}
 
 		available = {
-
+			NOT = { has_war_with = GER }
 		}
 
 		bypass = {
-
+			
 		}
 
 		cancel_if_invalid = yes
@@ -2142,6 +2142,7 @@
 		available = {
 			GER = { exists = yes }
 			GER = { is_subject = no }
+			NOT = { has_war_with = GER }
 		}
 
 		bypass = {
@@ -2218,10 +2219,17 @@
 		available = {
 			GER = { exists = yes }
 			GER = { is_subject = no }
+			NOT = { has_war_with = GER }
 		}
 
 		bypass = {
 
+			69 = {
+				is_owned_and_controlled_by = ROOT
+			}
+			74 = {
+				is_owned_and_controlled_by = ROOT
+			}
 		}
 
 		cancel_if_invalid = yes

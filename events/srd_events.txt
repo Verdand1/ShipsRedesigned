@@ -940,7 +940,7 @@ country_event = {
 		tag = ENG
 		NOT = { has_country_flag = srd_treaty_members }
 		NOT = { has_war = yes }
-		has_completed_focus = { ENG_enforce_the_naval_treaties }
+		has_completed_focus = ENG_enforce_the_naval_treaties
 	}
 	
 	immediate = {

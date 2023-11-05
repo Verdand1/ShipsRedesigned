@@ -2618,12 +2618,7 @@ GRE_hellenic_academy_category = {
 
 		available = {
 			AND = {
-				OR = {
-					has_war_with = AUS
-					has_war_with = CRO
-					has_war_with = CZE
-					has_war_with = HUN
-				}
+				has_war_with = FROM 
 				has_completed_focus = GRE_the_hellenic_air_force
 				has_completed_focus = GRE_the_hellenic_army
 				has_completed_focus = GRE_the_hellenic_navy
@@ -2637,7 +2632,7 @@ GRE_hellenic_academy_category = {
 
 		target_trigger = {
 			FROM = {
-				any_other_country = { has_cosmetic_tag = HUN_EMPIRE }
+				has_cosmetic_tag = HUN_EMPIRE
 			}
 		}
 

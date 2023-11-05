@@ -221,6 +221,17 @@ POR_arms_purchases = {
 				amount = 100
 				producer = ENG
 			}
+
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				add_equipment_subsidy = {
+					cic = 250
+					equipment_type = anti_air_equipment
+					seller_tags = { ENG } 
+				}
+			}
 			ENG = {
 				add_offsite_building = {
 					type = industrial_complex
@@ -299,6 +310,16 @@ POR_arms_purchases = {
 				type = anti_tank_equipment
 				amount = 100
 				producer = ENG
+			}
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				add_equipment_subsidy = {
+					cic = 250
+					equipment_type = anti_tank_equipment
+					seller_tags = { ENG } 
+				}
 			}
 			ENG = {
 				add_offsite_building = {

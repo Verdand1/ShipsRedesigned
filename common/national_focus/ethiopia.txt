@@ -722,7 +722,7 @@ focus_tree = {
 		completion_reward = {
 			add_doctrine_cost_reduction = {
 				name = ETH_tactical_training 
-				cost_reduction = 0.75
+				cost_reduction = 0.50
 				uses = 2 
 				category = land_doctrine
 			}
@@ -1777,7 +1777,7 @@ focus_tree = {
 			add_stability = 0.03
 			custom_effect_tooltip = ETH_communal_agriculture_consumer_tt
 			add_to_variable = {
-				ETH_industrialization_consumer_goods_factor = -0.05
+				ETH_industrialization_consumer_goods_factor = -0.15
 			}
 		}
 	}
@@ -2107,8 +2107,17 @@ focus_tree = {
 				}
 
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = ETH_hmmbi
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}	
+				custom_effect_tooltip = invites_mio_tt
+				show_mio_tooltip = ETH_hmmbi_organization
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = ETH_hmmbi
+			}
 		}
 	}
 	focus = {
@@ -2211,8 +2220,17 @@ focus_tree = {
 					set_state_flag = ETH_can_improve_communication_state_flag
 				}
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = ETH_ncgf
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}	
+				custom_effect_tooltip = invites_mio_tt
+				show_mio_tooltip = ETH_ncgf_organization
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = ETH_ncgf
+			}
 		}
 	}
 	focus = {
@@ -2506,60 +2524,68 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY}
 
 		completion_reward = {
-			custom_effect_tooltip = ETH_invite_foreign_industrialists_tt
-			IF = {
+			if = {
 				limit = {
-					ENG = {
-						exists = yes
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}
-					}					
+					has_dlc = "Arms Against Tyranny"
 				}
+				unlock_decision_category_tooltip = foreign_mio_decisions_category
 			}
-			IF = {
-				limit = {
-					SWE = {
-						exists = yes
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}
-					}					
+			else = {
+				custom_effect_tooltip = ETH_invite_foreign_industrialists_tt
+				IF = {
+					limit = {
+						ENG = {
+							exists = yes
+							has_opinion = {
+								target = ROOT
+								value > 50
+							}
+						}					
+					}
 				}
-			}
-			IF = {
-				limit = {
-					GER = {
-						exists = yes
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}
-					}					
+				IF = {
+					limit = {
+						SWE = {
+							exists = yes
+							has_opinion = {
+								target = ROOT
+								value > 50
+							}
+						}					
+					}
 				}
-			}
-			IF = {
-				limit = {
-					CZE = {
-						exists = yes
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}
-					}					
+				IF = {
+					limit = {
+						GER = {
+							exists = yes
+							has_opinion = {
+								target = ROOT
+								value > 50
+							}
+						}					
+					}
 				}
-			}
-			IF = {
-				limit = {
-					JAP = {
-						exists = yes
-						has_opinion = {
-							target = ROOT
-							value > 50
-						}
-					}					
+				IF = {
+					limit = {
+						CZE = {
+							exists = yes
+							has_opinion = {
+								target = ROOT
+								value > 50
+							}
+						}					
+					}
+				}
+				IF = {
+					limit = {
+						JAP = {
+							exists = yes
+							has_opinion = {
+								target = ROOT
+								value > 50
+							}
+						}					
+					}
 				}
 			}
 		}
@@ -2801,20 +2827,36 @@ focus_tree = {
 					level = 1
 					instant_build = yes
 				}
- 				custom_effect_tooltip = ETH_the_hindenburg_wall_tt_1
-	 			add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 7980
-				}
-				custom_effect_tooltip = ETH_the_hindenburg_wall_tt_2
-				add_building_construction = {
-					type = bunker
-					level = 2
-					instant_build = yes
-					province = 13249
-				}
+	 			IF = {
+	 				limit = {
+	 					ROOT = {
+	 						controls_province = 7980
+	 					}
+	 				}
+	 				custom_effect_tooltip = ETH_the_hindenburg_wall_tt_1
+	 				add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 7980
+					}
+ 				}
+	 				
+				IF = {
+	 				limit = {
+	 					ROOT = {
+	 						controls_province = 7980
+	 					}
+	 				}
+	 				custom_effect_tooltip = ETH_the_hindenburg_wall_tt_2
+	 				add_building_construction = {
+						type = bunker
+						level = 2
+						instant_build = yes
+						province = 13249
+					}
+ 				}
+
 			}
  		}
  	}
@@ -3212,6 +3254,12 @@ focus_tree = {
 
  		completion_reward = {
  			custom_effect_tooltip = ETH_arms_purchases_tt
+ 			hidden_effect = {
+	 			remove_relation_rule_override = {
+	 				trigger = has_lon_arms_embargo
+	 				can_access_market = no
+	 			}
+	 		}
  		}
  	}
  	focus = {
@@ -6489,7 +6537,7 @@ focus_tree = {
 				target = SPC
 				modifier = ETH_support_spain_static_modifier
 			}
-			set_relation_rule = {
+			add_relation_rule_override = {
 				target = SPC
 				can_send_volunteers = yes
 			}
@@ -6659,7 +6707,7 @@ focus_tree = {
 			}
 			custom_effect_tooltip = ETH_communal_agriculture_consumer_tt
 			add_to_variable = {
-				ETH_industrialization_consumer_goods_factor = -0.05
+				ETH_industrialization_consumer_goods_factor = -0.15
 			}
 			ETH_BOP_decentralization_large_effect = yes
 		}
@@ -6710,7 +6758,8 @@ focus_tree = {
 				add_building_construction = {
 					type = bunker
 					province = {
-						id = 5010
+						all_provinces = yes
+						limit_to_victory_point > 8
 					}
 					level = 2
 					instant_build = yes
@@ -6838,8 +6887,15 @@ focus_tree = {
 					localization = ETH_mytishchi-ababa_plant
 				}	
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = SOV_mytishchy_machine_building_plant
+			IF = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				custom_effect_tooltip = available_industrial_concern 
+				custom_effect_tooltip = SOV_mytishchy_machine_building_plant_organization
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = SOV_mytishchy_machine_building_plant
+			}
 			ETH_BOP_centralization_large_effect = yes
 		}
 	}
@@ -6907,10 +6963,33 @@ focus_tree = {
 					modifier = ETH_SOV_trade 
 				} 
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = SOV_rubin_design_bureau
-			show_ideas_tooltip = SOV_mig_design_bureau
-			show_ideas_tooltip = SOV_gaz
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}	
+				custom_effect_tooltip = invites_mio_tt
+				show_mio_tooltip = SOV_rubin_design_bureau_organization
+				show_mio_tooltip = SOV_mig_design_bureau_organization
+				show_mio_tooltip = SOV_gaz_organization
+
+				mio:SOV_rubin_design_bureau_organization = {
+					add_mio_size = 1
+				}
+				mio:SOV_mig_design_bureau_organization = {
+					add_mio_size = 1
+				}
+				mio:SOV_gaz_organization = {
+					add_mio_size = 1
+				}
+
+			}
+			ELSE = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = SOV_rubin_design_bureau
+				show_ideas_tooltip = SOV_mig_design_bureau
+				show_ideas_tooltip = SOV_gaz
+			}
+			custom_effect_tooltip = available_industrial_concern
 			custom_effect_tooltip = ETH_stalingrad_tractor_factory_tt
 			IF = {
 				limit = { is_subject_of = SOV }
@@ -8155,14 +8234,29 @@ focus_tree = {
 				hours = 1
 			}
 			custom_effect_tooltip = ETH_outsourced_production_tt
-			custom_effect_tooltip = ETH_outsourced_production_air_tt
-			show_ideas_tooltip = ETH_imam
-			show_ideas_tooltip = caproni_ETH
-			show_ideas_tooltip = macchi_ETH
-			custom_effect_tooltip = ETH_outsourced_production_army_tt
-			show_ideas_tooltip = fiat_ETH
-			show_ideas_tooltip = breda_ETH
-			show_ideas_tooltip = beretta_ETH
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}	
+				custom_effect_tooltip = ETH_outsourced_production_air_tt
+				show_mio_tooltip = ITA_imam_organization
+				show_mio_tooltip = ITA_caproni_organization
+				show_mio_tooltip = ITA_macchi_organization
+				custom_effect_tooltip = ETH_outsourced_production_army_tt
+				show_mio_tooltip = ITA_fiat_organization
+				show_mio_tooltip = ITA_breda_organization
+				show_mio_tooltip = ITA_beretta_organization
+			}
+			ELSE = {
+				custom_effect_tooltip = ETH_outsourced_production_air_tt
+				show_ideas_tooltip = ETH_imam
+				show_ideas_tooltip = caproni_ETH
+				show_ideas_tooltip = macchi_ETH
+				custom_effect_tooltip = ETH_outsourced_production_army_tt
+				show_ideas_tooltip = fiat_ETH
+				show_ideas_tooltip = breda_ETH
+				show_ideas_tooltip = beretta_ETH
+			}
 			custom_effect_tooltip = ETH_outsourced_production_factories_tt
 		}
 	}

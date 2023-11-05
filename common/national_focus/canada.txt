@@ -3367,6 +3367,10 @@
 
 		available = {
 			NOT = { has_country_flag = britain_enforced_our_loyalty }
+			ENG = {
+				owns_state = 331
+				owns_state = 332
+			}
 		}
 		
 		bypass = {
@@ -3407,6 +3411,10 @@
 			473 = {
 				is_owned_by = CAN
 				is_controlled_by = CAN
+			}
+			ENG = {
+				owns_state = 331
+				owns_state = 332
 			}
 		}
 		
@@ -4427,8 +4435,22 @@
 				category = tactical_bomber
 				category = cas_bomber
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = CAN_fairchild_aircraft_ltd
+
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = CAN_fairchild_aircraft_ltd_organization
+				mio:CAN_fairchild_aircraft_ltd_organization = {
+					add_mio_funds = 2500
+				}
+			}
+
+			else = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = CAN_fairchild_aircraft_ltd
+			}
 		}
 	}
 
@@ -4470,8 +4492,28 @@
 				uses = 1
 				category = cat_strategic_bomber
 			}
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = CAN_handley_page
+
+			IF = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				custom_effect_tooltip = available_mio_tt
+				show_mio_tooltip = CAN_handley_page_organization
+				mio:CAN_handley_page_organization = {
+					add_mio_size = 1
+					add_mio_funds = 500
+
+				#	unlock_mio_trait_tooltip  = {
+				#		department = CAN_mio_department_design_plane_heavy_combat
+				#		trait = CAN_mio_trait_cookie_carriers
+				#	}
+				}
+			}
+
+			else = {
+				custom_effect_tooltip = available_designer
+				show_ideas_tooltip = CAN_handley_page
+			}
 		}
 	}
 
