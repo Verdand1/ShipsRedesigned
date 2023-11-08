@@ -442,62 +442,27 @@ SWE_remove_rationing_modifier = {
 }
 
 SWE_psilander_fleet_creation = {
-	create_equipment_variant = {	
-		name = "Psilander Class" 		
-		type = ship_hull_light_1
-		parent_version = 0
-		role_icon_index = 2
-		modules = {
-			fixed_radar = top_heavy
-			fixed_engine = ship_perf_engine_1
-			rear_1 = ship_mine_layer_1
-			rear_2 = ship_depth_charge_1
-			mid_1 = ship_torpedo_2
-			mid_2 = empty
-		}
-		upgrades = {
-			ship_light_engine_upgrade = 5
-		}
-		obsolete = yes
-	}
-	create_equipment_variant = {	
-		name = "Romulus Class" 		
-		type = ship_hull_light_1
-		parent_version = 0
-		role_icon_index = 2
-		modules = {
-			fixed_engine = ship_perf_engine_2
-			rear_1 = ship_depth_charge_1
-			mid_1 = ship_torpedo_1
-		}
-		upgrades = {
-			ship_light_engine_upgrade = 6
-			ship_light_range_upgrade = 4
-		}
-		obsolete = yes
-	}
-	
 	create_ship = {
 		type = ship_hull_light_1
-		equipment_variant = "Psilander Class"
+		equipment_variant = "Quintino Sella Class"
 		creator = ITA
 		name = "Psilander"
 	}		
 	create_ship = {
 		type = ship_hull_light_1
-		equipment_variant = "Psilander Class"
+		equipment_variant = "Quintino Sella Class"
 		creator = ITA
 		name = "Puke"
 	}	
 	create_ship = {
 		type = ship_hull_light_1
-		equipment_variant = "Romulus Class"
+		equipment_variant = "Spica Class"
 		creator = ITA
 		name = "Romulus"
 	}	
 	create_ship = {
 		type = ship_hull_light_1
-		equipment_variant = "Romulus Class"
+		equipment_variant = "Spica Class"
 		creator = ITA
 		name = "Remus"
 	}	

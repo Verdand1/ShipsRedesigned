@@ -1098,7 +1098,7 @@
  ITA_comandante_diavolo_ethiopia_tt:0 "Create §Y1 $irregular_infantry$ division§!, §Y1 $cavalry$ division§! and §Y1 $camelry$ division§!."
  ITA_new_industrialization_program_factories_required_tt:0 "$TRIGGER_NUM_OF_TOTAL_CONTROLLED_FACTORIES_MORE_THAN$§Y[?ROOT.ITA_new_industrialization_program_factories_required]§! (Currently §[GetColorControlledFactoriesForNewIndustrializationProgram][?ROOT.num_of_controlled_factories]§!)"
  ITA_milizia_marittima_di_artiglieria_coastal_forts_tt:0 "Adds §Y2 $coastal_bunker$§! in every owned province with a §Y$naval_base$§!. \nCurrent effects:"
- ITA_cooperation_programs_deal_sweden_tt:0 "([ROOT.GetFlag]§Y[ROOT.GetName]§!): Transfers §Y2 Quintino Sella Class Destroyers§! and §Y2 Spica Class Destroyers§! to [SWE.GetFlag]§Y[SWE.GetName]§!."
+ ITA_cooperation_programs_deal_sweden_tt:0 "([ITA.GetFlag]§Y[ITA.GetName]§!): Transfers §Y2 Quintino Sella Class Destroyers§! and §Y2 Spica Class Destroyers§! to [SWE.GetFlag]§Y[SWE.GetName]§!."
  ITA_flotta_d_evasione_dockyards_tt:1 "\nCertain states in §YNorth Africa§!, §YWestern coast of Iberia§! and §YWestern coast of France§! will also receive §Y1 $dockyard$§! as long as they are fully controlled by §Y[ROOT.GetFlag][ROOT.GetName]§! or an §Y[ROOT.GetAdjective] subject§!."
  ITA_the_abyssinian_fiasco_completion_tt:2 "Can be auto-completed after failing the missions §Y$ITA_conquer_the_north_mission$§! and §Y$ITA_conquer_the_south_mission$§!, issued by $ITA_benito_mussolini$ in January 1936.\n"
  ITA_solid_progress_completion_tt:1 "Will be auto-completed after succeeding in both §Y$ITA_conquer_the_north_mission$§! and §Y$ITA_conquer_the_south_mission$§! missions, issued by $ITA_benito_mussolini$ in January 1936.\n"

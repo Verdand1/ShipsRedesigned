@@ -1895,6 +1895,12 @@ focus_tree = {
 			factor = 10		
 		}
 
+		bypass = {
+			ITA = {
+				has_country_flag = ITA_sweden_refused_to_buy_ships_flag
+			}
+		}
+
 		available = {
 			ITA = {
 				exists = yes
@@ -1912,13 +1918,21 @@ focus_tree = {
 		search_filters = {  }
 
 		completion_reward = {
-			country_event = {
-				id = AAT_Sweden_flashpoints.70
-				hours = 1
+			ITA = {
+				country_event = {
+					id = BBA_italy_naval_cooperation_programs.18
+					hours = 1
+				}
 			}
-			custom_effect_tooltip = SWE_italian_ships_tt
+			custom_effect_tooltip = if_they_accept
 			effect_tooltip = {
-				SWE_psilander_fleet_creation = yes
+				custom_effect_tooltip = ITA_cooperation_programs_deal_sweden_tt
+				ITA = {
+					add_timed_idea = {
+						idea = ITA_sold_obsolete_escort_ships_ns
+						days = 365
+					}
+				}
 			}
 			custom_effect_tooltip = SWE_italian_ships_tt_2
 			custom_effect_tooltip = ETH_purchase_obsolete_ships_tt

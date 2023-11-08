@@ -6762,6 +6762,9 @@ focus_tree = {
 					NOT = {
 						has_war_with = SWE
 						any_enemy_country = { is_in_faction_with = SWE }
+						SWE = {
+							has_completed_focus = SWE_italian_destroyers
+						}
 					}
 				}
 				SWE = { country_event = { id = BBA_italy_naval_cooperation_programs.08 hours = 1 } }

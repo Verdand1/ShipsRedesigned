@@ -5119,11 +5119,21 @@ country_event = {
 			base = 0 #AI always says 'yes'
 		}
 
+		effect_tooltip = {
+			if = {
+				limit = {
+					original_tag = SWE
+				}
+				custom_effect_tooltip = ETH_purchase_obsolete_ships_tt
+			}
+		}
+
 		hidden_effect = {
 			if = {
 				limit = {
 					original_tag = SWE
 				}
+				set_country_flag = generic_purchase_old_ships_flag
 				FROM = { set_country_flag = ITA_sweden_refused_to_buy_ships_flag }
 			}
 			set_country_flag = ITA_obsolete_escort_ships_rejected_flag #Preventing the decision to be taken again by Italy
@@ -5152,29 +5162,67 @@ country_event = {
 		name = BBA_italy_naval_cooperation_programs.09.a
 
 		hidden_effect = { #transfer_ship does not generate any tt
-			transfer_ship = {
-				prefer_name = "RCT Bettino Ricasoli"
-				type = destroyer
-				target = FROM
-				exclude_refitting = yes
+			if = {
+				limit = {
+					PREV = { original_tag = SWE }
+				}
+					transfer_ship = {
+						prefer_name = "RCT Bettino Ricasoli"
+						type = destroyer
+						target = D50
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Giovanni Nicotera"
+						type = destroyer
+						target = D50
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Astore"
+						type = destroyer
+						target = D50
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Spica"
+						type = destroyer
+						target = D50
+						exclude_refitting = yes
+					}
+				D50 = {
+					destroy_ships = {
+						type = destroyer
+						count = 4
+					}
+				}
+				country_event = { id = AAT_Sweden_flashpoints.70 hours = 1 }
 			}
-			transfer_ship = {
-				prefer_name = "RCT Giovanni Nicotera"
-				type = destroyer
-				target = FROM
-				exclude_refitting = yes
-			}
-			transfer_ship = {
-				prefer_name = "RCT Astore"
-				type = destroyer
-				target = FROM
-				exclude_refitting = yes
-			}
-			transfer_ship = {
-				prefer_name = "RCT Spica"
-				type = destroyer
-				target = FROM
-				exclude_refitting = yes
+			else = {
+					transfer_ship = {
+						prefer_name = "RCT Bettino Ricasoli"
+						type = destroyer
+						target = PREV
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Giovanni Nicotera"
+						type = destroyer
+						target = PREV
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Astore"
+						type = destroyer
+						target = PREV
+						exclude_refitting = yes
+					}
+					transfer_ship = {
+						prefer_name = "RCT Spica"
+						type = destroyer
+						target = PREV
+						exclude_refitting = yes
+					}
 			}
 		}
 		custom_effect_tooltip = ITA_cooperation_programs_deal_others_tt
@@ -5415,6 +5463,100 @@ country_event = {
 	# Accept
 	option = { 
 		name = BBA_italy_naval_cooperation_programs.17.a
+	}
+}
+
+# Sweden want to purchase italian ships
+country_event = {
+	id = BBA_italy_naval_cooperation_programs.18
+	title = BBA_italy_naval_cooperation_programs.18.t
+	desc = BBA_italy_naval_cooperation_programs.18.desc
+	picture = GFX_report_event_sailors_in_working_rig
+	
+	is_triggered_only = yes
+
+	# Accept
+	option = { 
+		name = BBA_italy_naval_cooperation_programs.18.a
+		ai_chance = {
+			base = 10
+		}
+
+		effect_tooltip = {
+			custom_effect_tooltip = ITA_cooperation_programs_deal_others_tt
+			add_timed_idea = {
+				idea = ITA_sold_obsolete_escort_ships_ns
+				days = 365
+			}
+		}
+
+		hidden_effect = {
+			transfer_ship = {
+				prefer_name = "RCT Bettino Ricasoli"
+				type = destroyer
+				target = D50
+				exclude_refitting = yes
+			}
+			transfer_ship = {
+				prefer_name = "RCT Giovanni Nicotera"
+				type = destroyer
+				target = D50
+				exclude_refitting = yes
+			}
+			transfer_ship = {
+				prefer_name = "RCT Astore"
+				type = destroyer
+				target = D50
+				exclude_refitting = yes
+			}
+			transfer_ship = {
+				prefer_name = "RCT Spica"
+				type = destroyer
+				target = D50
+				exclude_refitting = yes
+			}
+			set_country_flag = ITA_sold_obsolete_escort_ships_flag #Cannot sell ships again
+			add_timed_idea = {
+				idea = ITA_sold_obsolete_escort_ships_ns
+				days = 365
+			}
+			D50 = {
+				destroy_ships = {
+					type = destroyer
+					count = 4
+				}
+			}
+			SWE = {
+				country_event = { id = AAT_Sweden_flashpoints.70 hours = 1 }
+			}
+		}
+	}
+
+	# Refuse
+	option = {
+		name = BBA_italy_naval_cooperation_programs.18.b
+		ai_chance = {
+			base = 0 #AI always says 'yes'
+		}
+
+		hidden_effect = {
+			SWE = { country_event = { id = BBA_italy_naval_cooperation_programs.19 hours = 1 } }
+		}
+	}
+}
+
+# ITA rejects to sell escort ships to SWE
+country_event = {
+	id = BBA_italy_naval_cooperation_programs.19
+	title = BBA_italy_naval_cooperation_programs.19.t
+	desc = BBA_italy_naval_cooperation_programs.19.desc
+	picture = GFX_report_event_sailors_in_working_rig 
+	
+	is_triggered_only = yes
+
+	# Disappointing
+	option = { 
+		name = BBA_italy_naval_cooperation_programs.19.a
 	}
 }
 
