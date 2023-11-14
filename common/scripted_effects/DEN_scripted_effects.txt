@@ -1525,13 +1525,13 @@ DEN_activate_bought_ships = {
 				}
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Örnen Class"
+				type = ship_hull_submarine_1
+				equipment_variant = ""Hajen Class"
 				creator = SWE
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Örnen Class"
+				type = ship_hull_submarine_1
+				equipment_variant = ""Hajen Class"
 				creator = SWE
 			}
 		}
@@ -1542,13 +1542,13 @@ DEN_activate_bought_ships = {
 				}
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Draug Class"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type - First Group"
 				creator = NOR
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Draug Class"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type - First Group"
 				creator = NOR
 			}
 		}
@@ -1559,13 +1559,13 @@ DEN_activate_bought_ships = {
 				}
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Admiralen Type"
+				type = ship_hull_submarine_1
+				equipment_variant = "K V Class"
 				creator = HOL
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Admiralen Type"
+				type = ship_hull_submarine_1
+				equipment_variant = "K V Class"
 				creator = HOL
 			}
 		}
@@ -1657,23 +1657,23 @@ DEN_activate_bought_ships = {
 				}
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Pobeditel Superclass"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type"
 				creator = SOV
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Pobeditel Superclass"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type"
 				creator = SOV
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Pobeditel Superclass"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type"
 				creator = SOV
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Pobeditel Superclass"
+				type = ship_hull_submarine_1
+				equipment_variant = "Holland Type"
 				creator = SOV
 			}
 		}
@@ -1684,23 +1684,23 @@ DEN_activate_bought_ships = {
 				}
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Type 1923"
+				type = ship_hull_submarine_1
+				equipment_variant = "Type IIA"
 				creator = GER
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Type 1923"
+				type = ship_hull_submarine_1
+				equipment_variant = "Type IIA"
 				creator = GER
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Type 1923"
+				type = ship_hull_submarine_1
+				equipment_variant = "Type IIA"
 				creator = GER
 			}
 			create_ship = {
-				type = ship_hull_light_1
-				equipment_variant = "Type 1923"
+				type = ship_hull_submarine_1
+				equipment_variant = "Type IIA"
 				creator = GER
 			}
 		}
@@ -1712,22 +1712,22 @@ DEN_activate_bought_ships = {
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Curtatone Class"
+				equipment_variant = "Giuseppe La Masa Superclass"
 				creator = ITA
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Curtatone Class"
+				equipment_variant = "Giuseppe La Masa Superclass"
 				creator = ITA
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Curtatone Class"
+				equipment_variant = "Giuseppe La Masa Superclass"
 				creator = ITA
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Curtatone Class"
+				equipment_variant = "Giuseppe La Masa Superclass"
 				creator = ITA
 			}
 		}
@@ -1739,22 +1739,22 @@ DEN_activate_bought_ships = {
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Mutsuki Class"
+				equipment_variant = "Momi Superclass"
 				creator = JAP
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Mutsuki Class"
+				equipment_variant = "Momi Superclass"
 				creator = JAP
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Mutsuki Class"
+				equipment_variant = "Momi Superclass"
 				creator = JAP
 			}
 			create_ship = {
 				type = ship_hull_light_1
-				equipment_variant = "Mutsuki Class"
+				equipment_variant = "Momi Superclass"
 				creator = JAP
 			}
 		}
