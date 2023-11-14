@@ -1395,7 +1395,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 		GER = {
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-1"
 			}
@@ -1407,7 +1407,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-2"
 			}
@@ -1419,7 +1419,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-3"
 			}
@@ -1431,7 +1431,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-4"
 			}
@@ -1443,7 +1443,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-5"
 			}
@@ -1455,7 +1455,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIA"
 				creator = GER
 				name = "U-6"
 			}
@@ -1467,7 +1467,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIB"
 				creator = GER
 				name = "U-7"
 			}
@@ -1479,7 +1479,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIB"
 				creator = GER
 				name = "U-8"
 			}
@@ -1491,7 +1491,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIB"
 				creator = GER
 				name = "U-9"
 			}
@@ -1503,7 +1503,7 @@ ETH_get_ships_from_country = { #MOved this here from event in ETH. This works wi
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = "Type II"
+				equipment_variant = "Type IIB"
 				creator = GER
 				name = "U-10"
 			}
