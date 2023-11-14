@@ -1526,12 +1526,12 @@ DEN_activate_bought_ships = {
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = ""Hajen Class"
+				equipment_variant = "Hajen Class"
 				creator = SWE
 			}
 			create_ship = {
 				type = ship_hull_submarine_1
-				equipment_variant = ""Hajen Class"
+				equipment_variant = "Hajen Class"
 				creator = SWE
 			}
 		}
