@@ -3638,7 +3638,7 @@ ideas = {
 			traits = { convoy_escort_naval_manufacturer }
 
 			equipment_bonus = {
-				ship_hull_light = {
+				destroyer = {
 					instant = yes
 					build_cost_ic = -0.1
 				}

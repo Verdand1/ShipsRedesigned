@@ -179,6 +179,7 @@ script_enum_equipment_bonus_type = {
 	flame
 
 	# Equipment archetypes & types
+	destroyer
 	infantry_equipment
 	artillery_equipment
 	anti_tank_equipment

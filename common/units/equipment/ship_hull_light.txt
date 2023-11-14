@@ -4,6 +4,7 @@ equipments = {
 		is_archetype = yes
 		type = screen_ship
 		interface_category = interface_category_screen_ships
+		alias = destroyer
 	}
 
 	ship_hull_light_1 = {
