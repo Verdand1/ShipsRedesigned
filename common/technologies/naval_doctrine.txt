@@ -1039,6 +1039,7 @@ technologies = {
 					}
 					has_completed_focus = USA_battleship_primacy
 					has_completed_focus = JAP_supremacy_of_the_battlefleet
+					not = { has_tech = flight_deck }
 				}
 			}
 		}
