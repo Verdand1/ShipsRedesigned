@@ -775,8 +775,9 @@ equipment_modules = {
 
 
 	ship_deprecated_engine = {
-		category = ship_deprecated_engine
+		category = ship_range_engine
 		sfx = sfx_ui_sd_module_engine
+		gui_category = ship_deprecated_engine
 		
 		dismantle_cost_ic = 600
 
