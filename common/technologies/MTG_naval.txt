@@ -291,8 +291,15 @@ technologies = {
 						not = { tag = SOV }
 					}
 					AND = {
-						tag = SOV
-						not = { has_completed_focus = SOV_surface_warfare }
+						not = { has_tech = advanced_perf_engines }
+						OR = {
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					has_completed_focus = uk_carrier_focus
 				}
@@ -347,8 +354,15 @@ technologies = {
 						not = { tag = SOV }
 					}
 					AND = {
-						tag = SOV
-						not = { has_completed_focus = SOV_surface_warfare }
+						not = { has_tech = modern_perf_engines }
+						OR = {
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					has_completed_focus = uk_carrier_focus
 				}
@@ -407,7 +421,7 @@ technologies = {
 					}
 					AND = {
 						tag = ENG
-						not = { has_completed_focus = uk_carrier_focus }
+						not = { has_tech = improved_perf_engines }
 					}
 				}
 			}
@@ -464,8 +478,16 @@ technologies = {
 						not = { tag = GER }
 					}
 					AND = {
-						tag = ENG
-						not = { has_completed_focus = uk_carrier_focus }
+						not = { has_tech = advanced_perf_engines }
+						OR = {
+							tag = ENG
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					AND = {
 						tag = GER
@@ -520,12 +542,20 @@ technologies = {
 						not = { tag = GER }
 					}
 					AND = {
-						tag = ENG
-						not = { has_completed_focus = uk_carrier_focus }
+						not = { has_tech = modern_perf_engines }
+						OR = {
+							tag = ENG
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					AND = {
 						tag = GER
-						  has_completed_focus = GER_plan_z
+						has_completed_focus = GER_plan_z
 					}
 				}
 			}
@@ -661,8 +691,15 @@ technologies = {
 						not = { tag = SOV }
 					}
 					AND = {
-						tag = SOV
-						not = { has_completed_focus = SOV_surface_warfare }
+						not = { has_tech = advanced_perf_engines }
+						OR = {
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					AND = {
 						tag = GER
@@ -718,8 +755,15 @@ technologies = {
 						not = { tag = SOV }
 					}
 					AND = {
-						tag = SOV
-						not = { has_completed_focus = SOV_surface_warfare }
+						not = { has_tech = modern_perf_engines }
+						OR = {
+							tag = JAP
+							tag = USA
+							tag = FRA
+							tag = ITA
+							tag = GER
+							tag = SOV
+						}
 					}
 					AND = {
 						tag = GER
@@ -1657,7 +1701,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 10
+			factor = 16
 			modifier = {
 				factor = 0
 				not = { has_completed_focus = uk_carrier_focus }
@@ -1691,7 +1735,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 8
+			factor = 23
 			modifier = {
 				factor = 0
 				OR = {
@@ -1734,7 +1778,7 @@ technologies = {
 		}
 		
 		ai_will_do = {
-			factor = 6
+			factor = 18
 		}
 		
 		categories = {
