@@ -1295,8 +1295,16 @@ USA_SS = {
 			
 			type = ship_hull_submarine_1
 			modules = {
+				fixed_front_1 = ship_torpedo_sub_2
+				fixed_deck = ship_sub_snorkel
+				fixed_radar = empty
+				fixed_engine = sub_ship_engine
+				rear_1 = ship_torpedo_sub_2
 				rear_2 = ship_unavailable_space
+				mid_1 = ship_torpedo_sub_storage
+				mid_2 = ship_torpedo_sub_storage
 				mid_3 = ship_unavailable_space
+				front_2 = ship_torpedo_sub_2
 				front_3 = ship_unavailable_space
 			}
 			upgrades = {
@@ -1304,16 +1312,6 @@ USA_SS = {
 				sub_range_upgrade = 8
 				sub_depth_upgrade = 4
 			}
-		}
-		
-		allowed_modules = {
-			ship_sub_snorkel_2
-			ship_sub_snorkel_1
-			sub_ship_engine_4
-			sub_ship_engine_3
-			sub_ship_engine_2
-			ship_torpedo_sub_2
-			ship_torpedo_sub_storage
 		}
 	}
 
