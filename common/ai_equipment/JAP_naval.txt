@@ -321,17 +321,15 @@ JAP_CL = {
 		}
 	}
 	
-	CL_2 = {
+	CL_breach = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			OR = {
-				not = { has_country_flag = srd_treaty_members }
 				has_country_flag = cheat_on_treaty_flag
 				has_country_flag = escalate_on_treaty_flag
 			}
-			not = { has_tech = advanced_perf_engines }
 		}
 		
 		target_variant = {
@@ -341,7 +339,7 @@ JAP_CL = {
 			modules = {
 				fixed_front_1 = ship_light_medium_battery_2
 				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
+				fixed_radar = empty
 				fixed_engine = ship_perf_engine_2
 				rear_1 = ship_light_medium_battery_2
 				rear_2 = ship_unavailable_space
@@ -359,48 +357,12 @@ JAP_CL = {
 		}
 	}
 	
-	CL_3 = {
+	CL = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			not = { has_country_flag = srd_treaty_members }
-			has_tech = advanced_perf_engines
-			not = { has_tech = modern_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				fixed_front_1 < ship_light_medium_battery_4
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_3
-				rear_1 < ship_light_medium_battery_4
-				rear_2 = ship_unavailable_space
-				mid_1 = ship_anti_air
-				mid_2 = ship_anti_air
-				mid_3 = ship_torpedo_2
-				mid_4 = ship_torpedo_2
-				front_2 < ship_light_medium_battery_4
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 9
-				ship_medium_range_upgrade = 9
-				ship_medium_armor_upgrade = 5
-			}
-		}
-	}
-	
-	CL_4 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = modern_perf_engines
 		}
 		
 		target_variant = {
@@ -411,7 +373,7 @@ JAP_CL = {
 				fixed_front_1 = ship_light_medium_battery
 				fixed_target_acquisition = ship_fire_control_system
 				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_4
+				fixed_engine = ship_perf_engine
 				rear_1 = ship_light_medium_battery
 				rear_2 = ship_unavailable_space
 				mid_1 = ship_anti_air
@@ -543,19 +505,13 @@ JAP_CA = {
 		}
 	}
 	
-	CA_2 = {
+	CA_breach_escalate = {
 	
 		role_icon_index = 1
 		
 		enable = {
-			OR = {
-				not = { has_country_flag = srd_treaty_members }
-				AND = {
-					has_country_flag = cheat_on_treaty_flag
-					has_country_flag = escalate_on_treaty_flag
-				}
-			}
-			not = { has_tech = advanced_perf_engines }
+			has_country_flag = cheat_on_treaty_flag
+			has_country_flag = escalate_on_treaty_flag
 		}
 		
 		target_variant = {
@@ -583,48 +539,12 @@ JAP_CA = {
 		}
 	}
 	
-	CA_3 = {
+	CA = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			not = { has_country_flag = srd_treaty_members }
-			has_tech = advanced_perf_engines
-			not = { has_tech = modern_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				fixed_front_1 < ship_medium_battery_4
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_3
-				rear_1 < ship_medium_battery_4
-				rear_2 < ship_medium_battery_4
-				mid_1 = ship_light_battery
-				mid_2 = ship_anti_air
-				mid_3 = ship_torpedo_2
-				mid_4 = ship_torpedo_2
-				front_2 < ship_medium_battery_4
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 9
-				ship_medium_range_upgrade = 8
-				ship_medium_armor_upgrade = 3
-			}
-		}
-	}
-	
-	CA_4 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = modern_perf_engines
 		}
 		
 		target_variant = {
@@ -635,7 +555,7 @@ JAP_CA = {
 				fixed_front_1 = ship_medium_battery
 				fixed_target_acquisition = ship_fire_control_system
 				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_4
+				fixed_engine = ship_perf_engine
 				rear_1 = ship_medium_battery
 				rear_2 = ship_medium_battery
 				mid_1 = ship_light_battery

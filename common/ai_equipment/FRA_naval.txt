@@ -224,82 +224,12 @@ FRA_CL = {
 		}
 	}
 	
-	CL_2 = {
+	CL = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			not = { has_country_flag = srd_treaty_members }
-			not = { has_tech = advanced_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				fixed_front_1 = ship_light_medium_battery_2
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_2
-				rear_1 = ship_light_medium_battery_2
-				rear_2 = ship_anti_air
-				mid_1 = ship_anti_air
-				mid_2 = ship_torpedo_2
-				mid_3 = ship_anti_air
-				mid_4 = ship_unavailable_space
-				front_2 = ship_light_medium_battery_2
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 8
-				ship_medium_range_upgrade = 5
-				ship_medium_armor_upgrade = 4
-			}
-		}
-	}
-	
-	CL_3 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = advanced_perf_engines
-			not = { has_tech = modern_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				fixed_front_1 < ship_light_medium_battery_4
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_3
-				rear_1 < ship_light_medium_battery_4
-				rear_2 = ship_anti_air
-				mid_1 = ship_anti_air
-				mid_2 = ship_torpedo_2
-				mid_3 = ship_anti_air
-				mid_4 = ship_unavailable_space
-				front_2 < ship_light_medium_battery_4
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 8
-				ship_medium_range_upgrade = 5
-				ship_medium_armor_upgrade = 4
-			}
-		}
-	}
-	
-	CL_4 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = modern_perf_engines
 		}
 		
 		target_variant = {
@@ -310,7 +240,7 @@ FRA_CL = {
 				fixed_front_1 = ship_light_medium_battery
 				fixed_target_acquisition = ship_fire_control_system
 				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_4
+				fixed_engine = ship_perf_engine
 				rear_1 = ship_light_medium_battery
 				rear_2 = ship_anti_air
 				mid_1 = ship_anti_air
@@ -419,48 +349,13 @@ FRA_CA = {
 		}
 	}
 	
-	CA_3 = {
+	CA_3_4 = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
-			not = { has_tech = modern_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_cruiser_1
-			modules = {
-				fixed_front_1 < ship_medium_battery_4
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_3
-				rear_1 < ship_medium_battery_4
-				rear_2 = ship_anti_air
-				mid_1 = ship_anti_air
-				mid_2 = ship_torpedo_2
-				mid_3 = ship_light_battery
-				mid_4 = ship_unavailable_space
-				front_2 < ship_medium_battery_4
-			}
-			upgrades = {
-				ship_medium_engine_upgrade = 7
-				ship_medium_range_upgrade = 6
-				ship_medium_armor_upgrade = 4
-			}
-		}
-	}
-	
-	CA_4 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = modern_perf_engines
 		}
 		
 		target_variant = {
@@ -471,7 +366,7 @@ FRA_CA = {
 				fixed_front_1 = ship_medium_battery
 				fixed_target_acquisition = ship_fire_control_system
 				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_4
+				fixed_engine = ship_perf_engine
 				rear_1 = ship_medium_battery
 				rear_2 = ship_anti_air
 				mid_1 = ship_anti_air
@@ -709,48 +604,13 @@ FRA_BB = {
 		}
 	}
 	
-	BB_3 = {
+	BB_3_4 = {
 	
 		role_icon_index = 1
 		
 		enable = {
 			not = { has_country_flag = srd_treaty_members }
 			has_tech = advanced_perf_engines
-			not = { has_tech = modern_perf_engines }
-		}
-		
-		target_variant = {
-			match_value = 1.0
-			
-			type = ship_hull_heavy_1
-			modules = {
-				fixed_front_1 < ship_heavy_battery_4
-				fixed_target_acquisition = ship_fire_control_system
-				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_3
-				rear_1 = ship_anti_air
-				rear_2 = ship_light_battery
-				mid_1 = ship_unavailable_space
-				mid_2 = ship_anti_air
-				mid_3 = ship_anti_air
-				mid_4 = ship_light_battery
-				front_2 < ship_heavy_battery_4
-			}
-			upgrades = {
-				ship_heavy_engine_upgrade = 9
-				ship_heavy_range_upgrade = 4
-				ship_heavy_armor_upgrade = 7
-			}
-		}
-	}
-	
-	BB_4 = {
-	
-		role_icon_index = 1
-		
-		enable = {
-			not = { has_country_flag = srd_treaty_members }
-			has_tech = modern_perf_engines
 		}
 		
 		target_variant = {
@@ -761,7 +621,7 @@ FRA_BB = {
 				fixed_front_1 = ship_heavy_battery
 				fixed_target_acquisition = ship_fire_control_system
 				fixed_radar = ship_fire_control_radar
-				fixed_engine = ship_perf_engine_4
+				fixed_engine = ship_perf_engine
 				rear_1 = ship_anti_air
 				rear_2 = ship_light_battery
 				mid_1 = ship_unavailable_space
