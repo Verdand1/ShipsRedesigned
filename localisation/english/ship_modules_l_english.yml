@@ -139,6 +139,8 @@
  ship_mine_sweeper_1_desc:0 "Gear to deploy the various sweeping equipments."
  ship_mine_layer_sub:0 "Minelaying Tubes"
  ship_mine_layer_sub_desc:0 "Modifications to the hull of a submarine, allowing it to deploy a number of mines."
+ ship_torpedo_sub_storage:0 "Torpedo Storage"
+ ship_torpedo_sub_storage_desc:0 "A rather large space to put reserve torpedoes and allow crew to be less cramped."
  ship_sub_snorkel_1:0 "Snuiver"
  ship_sub_snorkel_1_short:0 "Schnorkel I"
  ship_sub_snorkel_1_desc:0 "A device that allows the submarine to run its main engines underwater, enabling it to recharge its batteries without exposing itself to attack by surfacing."
