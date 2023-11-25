@@ -333,6 +333,7 @@ country_event = {
 	trigger = {
 		has_country_flag = srd_treaty_members
 		has_war = yes
+		NOT = { enemies_naval_strength_ratio < 0.1 }
 		OR = {
 			NOT = { tag = ITA }
 			any_other_country = {
