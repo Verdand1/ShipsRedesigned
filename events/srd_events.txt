@@ -337,6 +337,7 @@ country_event = {
 			NOT = { tag = ITA }
 			any_other_country = {
 				NOT = { tag = ETH }
+				NOT = { tag = AFA }
 				has_war_with = ITA
 			}
 		}
