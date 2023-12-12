@@ -2058,7 +2058,7 @@ focus_tree = {
 		}
 	}
 
-	focus = {
+ 	focus = {
 		id = DEN_arm_the_resistance
 		icon = GFX_goal_generic_small_arms
 
@@ -2221,13 +2221,28 @@ focus_tree = {
 					ROOT.OVERLORD = {
 						has_government = fascism
 					}
-					NOT = { 
-						has_government = communism 
+				}
+				if = {
+					limit = {
+						NOT = { 
+							has_government = communism 
+						}
+					}
+					add_popularity = {
+				    	ideology = communism
+				   		popularity = 0.05
 					}
 				}
-				add_popularity = {
-				    ideology = communism
-				    popularity = 0.05
+				if = {
+					limit = {
+						has_government = fascism
+						fascism > 0.15
+						has_country_leader_with_trait = DEN_plenipotentiary
+					}
+					add_popularity = {
+						ideology = fascism
+						popularity = -0.05
+					}
 				}
 			}
 			if = {
@@ -2236,13 +2251,28 @@ focus_tree = {
 					ROOT.OVERLORD = {
 						has_government = communism
 					}
-					NOT = { 
-						has_government = fascism 
+				}
+				if = {
+					limit = {
+						NOT = { 
+							has_government = fascism 
+						}
+					}
+					add_popularity = {
+				    	ideology = fascism
+				   		popularity = 0.05
 					}
 				}
-				add_popularity = {
-				    ideology = fascism
-				    popularity = 0.05
+				if = {
+					limit = {
+						has_government = communism
+						communism > 0.15
+						has_country_leader_with_trait = DEN_plenipotentiary
+					}
+					add_popularity = {
+				    	ideology = communism
+				   		popularity = -0.05
+					}
 				}
 			}
 			DEN_upgrade_resistance_militia = yes
@@ -7610,8 +7640,12 @@ focus_tree = {
 				threat > 0.20
 				has_subject = SWE
 			}
-			is_subject = no
 		}
+
+		cancel = {
+			is_subject = yes
+		}
+		cancel_if_invalid = no #Don't cancel if World Tension goes below 20% or if you lose puppet
 
 		bypass = {
 			SWE = {
@@ -7765,7 +7799,6 @@ focus_tree = {
 		will_lead_to_war_with = FIN
 
 		available = {
-			threat > 0.20
 			OR = {	
 				has_subject = FIN
 				NOT = {
@@ -7847,8 +7880,12 @@ focus_tree = {
 					threat > 0.15
 				}
 			}
-			is_subject = no
 		}
+
+		cancel = {
+			is_subject = yes
+		}
+		cancel_if_invalid = no #Don't cancel if World Tension goes below a certain % or if you lose puppet
 
 		bypass = {
 			NOR = {
@@ -8066,7 +8103,7 @@ focus_tree = {
 				name = DEN_train_mountain_infantry
 				cost_reduction = 0.5
 				uses = 2
-				category = mountaineers_tech
+				category = cat_mountaineers_doctrine
 			}
 		}
 	}
@@ -8181,7 +8218,7 @@ focus_tree = {
 				
 				if = {
 					limit = {
-						fascism < 0.4
+						fascism < 0.5
 					}
 					if = {
 						limit = {
@@ -8757,16 +8794,16 @@ focus_tree = {
 			threat > 0.9
 			has_war_support > 0.79
 			OR = {
-				casualties_k > 250
+				casualties_k > 500
 				any_allied_country = {
 					is_faction_leader = yes
 					is_major = yes
-					casualties_k > 1500
+					casualties_k > 2500
 				}
 				any_allied_country = {
 					is_faction_leader = yes
 					is_major = no
-					casualties_k > 500
+					casualties_k > 1000
 				}
 				any_allied_country = {
 					is_faction_leader = yes
@@ -8774,6 +8811,8 @@ focus_tree = {
 				}
 			}
 		}
+
+		cancel_if_invalid = no #Don't cancel if World Tension goes below 20% or if you lose WS
 
 		search_filters = { FOCUS_FILTER_WAR_SUPPORT FOCUS_FILTER_INDUSTRY }
 
@@ -9922,7 +9961,7 @@ focus_tree = {
 				name = DEN_slaedepatruljen_sirius
 				cost_reduction = 0.25
 				uses = 2
-				category = mountaineers_tech
+				category = cat_mountaineers_doctrine
 			}
 		}
 	}
@@ -10775,7 +10814,7 @@ focus_tree = {
 			}
 			add_to_variable = {
 				DEN_sovaernet_screening_efficiency = 0.1
-				tooltip = screen
+				tooltip = screening_efficiency_tt
 			}
 			
 			add_tech_bonus = {
@@ -11333,7 +11372,7 @@ focus_tree = {
 				name = DEN_fromandskorpset
 				cost_reduction = 0.5
 				uses = 2
-				category = marine_tech
+				category = cat_marines_doctrine
 			}
 		}
 	}
@@ -11586,7 +11625,7 @@ focus_tree = {
 				name = DEN_unify_flyvevabnet
 				cost_reduction = 0.5
 				uses = 2
-				category = para_tech
+				category = cat_paratroopers_doctrine
 			}
 		}
 	}
@@ -11848,7 +11887,7 @@ focus_tree = {
 				name = DEN_torpedofly
 				cost_reduction = 0.5
 				uses = 2
-				category = para_tech
+				category = cat_paratroopers_doctrine
 			}
 		}
 	}

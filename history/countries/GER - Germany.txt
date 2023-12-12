@@ -139,15 +139,6 @@ set_convoys = 200
 set_stability = 0.75 
 set_war_support = 0.3
 
-#Trade
-create_import = {
-		resource = steel
-		factories = 2
-		exporter = SWE
-}
-
-add_ideas = SRD_naval_treaty_adherent
-
 1939.1.1 = {
 	add_named_threat = { threat = 40 name = 1939_bookmark_threat }
 	set_war_support = 0.7

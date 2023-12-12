@@ -200,7 +200,7 @@ ideas = {
 			}
 		}
 
-		SWE_hungershield = {
+			SWE_hungershield = {
 			allowed = {
 				original_tag = SWE
 			}
@@ -212,7 +212,10 @@ ideas = {
 			cancel = {
 				OR = {
 					num_of_civilian_factories > 45
-					num_of_available_civilian_factories > 25
+					has_built = {
+					    type = industrial_complex
+					    value > 14
+					}
 				}
 			}
 

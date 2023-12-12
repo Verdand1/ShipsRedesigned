@@ -3455,6 +3455,7 @@ it_has_my_name_on_it = {
 		controls_state = 37
 		controls_state = 99
 		controls_state = 58
+		controls_state = 909 #New state of SCHLESWIG
 		controls_state = 61
 		controls_state = 63
 		controls_state = 807
@@ -4543,7 +4544,6 @@ brexit = { #works
 		NIR = {
 			has_war_with = ENG
 		}
-
 		WLS = {
 			has_war_with = ENG
 		}
@@ -4564,7 +4564,7 @@ two_arms_against_tyranny = { #works
 
 	happened = {
 		tag = FIN
-		has_global_flag = capitulated_soviet_with_only_finland_and_another 
+		has_global_flag = capitulated_soviet_with_only_finland_and_another_nordic 
 	}
 }
 

@@ -687,8 +687,9 @@ NOR_exile_decisions_category = { # Unique versions of normal in exile decisiosn 
 		}
 
 		visible = {
+			has_completed_focus = NOR_use_xu 
 			FROM = {
-				resistance > 35
+				resistance > 10
 				resistance < 100
 			}
 		}
@@ -733,8 +734,8 @@ NOR_exile_decisions_category = { # Unique versions of normal in exile decisiosn 
 		days_remove = 30
 
 		visible = {
+			has_completed_focus = NOR_preparing_the_return_to_norway
 			has_legitimacy > 65
-			FROM = { resistance > 75 }
 			NOT = {
 				has_country_flag = NOR_already_done_rebellion
 			}
@@ -1662,8 +1663,7 @@ NOR_allied_democratic_preparation_decisions_category = {
 	NOR_alt_dem_modernize_armed_forces_decision = {
 		
 		visible = {
-			has_completed_focus = NOR_rearm_for_defense
-			check_variable = { NOR_country_preparedness > 15 }
+			has_completed_focus = NOR_reform_the_army 
 			OR = {
 				has_idea = NOR_obsolete_armed_forces_ns_1
 				has_idea = NOR_obsolete_armed_forces_ns_2

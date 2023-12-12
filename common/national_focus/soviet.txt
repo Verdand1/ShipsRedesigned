@@ -3265,9 +3265,6 @@ focus_tree = {
 		search_filters = {FOCUS_FILTER_INDUSTRY FOCUS_FILTER_RESEARCH FOCUS_FILTER_NAVY_XP}
 
 		completion_reward = {
-			custom_effect_tooltip = available_designer
-			show_ideas_tooltip = SOV_nevskoye_design_bureau
-
 			hidden_effect = {
 				if = { #DEFAULT COMMIE
 					limit = {
@@ -9833,7 +9830,13 @@ focus_tree = {
 				custom_effect_tooltip = SOV_coup_detat_success_tt
 				hidden_effect = {
 					set_global_flag = SOV_soviet_civil_war_over
-					SOV_remove_paranoia_effect = yes 
+					SOV_remove_paranoia_effect = yes
+					if = {
+						limit = {
+							has_idea = SOV_anti_soviet_military_thinking_banned_army
+						}
+						remove_ideas = SOV_anti_soviet_military_thinking_banned_army
+					}
 					country_event = {
 						id = NSB_soviet_communist_civil_war.002
 						hours = 1
@@ -13178,18 +13181,28 @@ ai_will_do = {
 
 		completion_reward = {
 			add_state_claim = 146 # Karjala
-			146 = {
-				controller = {
-					set_country_flag = SOV_ultimatum_sent_flag #Add it for AI strats reasons
-					add_timed_idea = {
-						idea = communist_pressure
-						days = 365
+
+			if= {
+				limit = {
+					146 = {
+						controller = {
+							NOT = { has_war_with = ROOT }
+						}
 					}
-					country_event = { id = finland.1 hours = 16 random_hours = 8 }
 				}
+				146 = {
+					controller = {
+						set_country_flag = SOV_ultimatum_sent_flag #Add it for AI strats reasons
+						add_timed_idea = {
+							idea = communist_pressure
+							days = 365
+						}
+						country_event = { id = finland.1 hours = 16 random_hours = 8 }
+					}
+				}
+				custom_effect_tooltip = if_they_accept_tt
+				event_option_tooltip = soviet.12.a
 			}
-			custom_effect_tooltip = if_they_accept_tt
-			event_option_tooltip = soviet.12.a
 		}
 	}
 

@@ -98,6 +98,7 @@
  MODIFIER_CONVOY_RETREAT_SPEED:0 "Convoy speed while retreating"
  convoy_retreat_speed_tt: " $MODIFIER_CONVOY_RETREAT_SPEED$: $RIGHT|+=%$"
  MODIFIER_SUB_RETREAT_SPEED:0 "Submarine speed while retreating"
+ sub_retreat_speed_tt: " $MODIFIER_SUB_RETREAT_SPEED$: $RIGHT|+=%0$"
  MODIFIER_OUT_OF_SUPPLY_FACTOR:1 "Non-Combat Out of Supply Penalties"
  MODIFIER_OUT_OF_SUPPLY_FACTOR_DESC:1 "Reduces the organization and recovery penalty that troops take when they run out of supplies."
  MODIFIER_OUT_OF_SUPPLY:1 "Non-Combat Out of Supply Penalties"
@@ -466,6 +467,7 @@
  MODIFIER_CARRIER_FIGHTER_SORTIE_EFFICIENCY_FACTOR_DESC:0 "The additional percents to the speed when refueling and rearming fighter planes on the carrier during the battle."
  MODIFIER_NAVY_SUBMARINE_ATTACK_FACTOR:0 "Submarine Attack"
  MODIFIER_NAVY_SUBMARINE_ATTACK_FACTOR_DESC:0 "Modifies the attack value of Submarines"
+ navy_submarine_attack_factor_tt: " $MODIFIER_NAVY_SUBMARINE_ATTACK_FACTOR$: $RIGHT|+=2%$"
  MODIFIER_NAVY_SUBMARINE_DEFENCE_FACTOR:0 "Submarine Defense"
  MODIFIER_NAVY_SUBMARINE_DEFENCE_FACTOR_DESC:0 "Modifies the defense value of Submarines"
  MODIFIER_NAVY_CAPITAL_SHIP_ATTACK_FACTOR:0 "Capital Ship Attack"
@@ -1016,7 +1018,7 @@
  WARGOAL_COST_ASSISTING_ENEMY:0 "Assisting enemy"
  MODIFIER_NAVAL_MINE_HIT_CHANCE:0 "Chance to hit naval mine"
  MODIFIER_MASTER_IDEOLOGY_DRIFT:0 "Master Ideology Drift"
- master_ideology_drift_tt: " $MODIFIER_MASTER_IDEOLOGY_DRIFT$: $RIGHT|Y=%1$"
+ master_ideology_drift_tt: " $MODIFIER_MASTER_IDEOLOGY_DRIFT$: $RIGHT|Y=%%1$"
  MODIFIER_SCREENING_EFFICIENCY:0 "Screening Efficiency"
  screening_efficiency_tt: " $MODIFIER_SCREENING_EFFICIENCY$: $RIGHT|+=%1$"
  MODIFIER_POSITIONING:0 "Positioning"
@@ -1887,7 +1889,7 @@
  MODIFIER_MIO_POLICY_COST_FACTOR: "Policy Cost"
  MODIFIER_MIO_POLICY_COOLDOWN_FACTOR: "Policy Cooldown"
  MODIFIER_CIC_CONSTRUCTION_BOOST: "Base construction line speed boost"
- MODIFIER_CIC_CONSTRUCTION_BOOST_FACTOR: "Construction line speed boost multiplier"
+ MODIFIER_CIC_CONSTRUCTION_BOOST_FACTOR: "Market construction boost multiplier"
  MODIFIER_LAND_BUNKER_EFFECTIVENESS_FACTOR: "$bunker$ effectiveness"
  MODIFIER_COASTAL_BUNKER_EFFECTIVENESS_FACTOR: "$coastal_bunker$ effectiveness"
 
@@ -1901,5 +1903,9 @@
  MODIFIER_SPECIAL_FORCES_CAP_FLAT: "Special Forces Cap"
  special_forces_cap_flat_tt: "$MODIFIER_SPECIAL_FORCES_CAP_FLAT$: $RIGHT|+=%0$"
  MODIFIER_ARMY_SUB_UNIT_CATEGORY_SPECIAL_FORCES_MAX_ORG_FACTOR: "Special Forces Organization"
- special_forces_organization_tt: " $MODIFIER_ARMY_SUB_UNIT_CATEGORY_SPECIAL_FORCES_MAX_ORG_FACTOR$: $RIGHT|+=0%$"
+ special_forces_mountaineers_organization_tt: " $modifier_army_sub_unit_mountaineers_max_org_factor$: $RIGHT|+=0%$"
+ special_forces_marines_organization_tt: " $modifier_army_sub_unit_marines_max_org_factor$: $RIGHT|+=0%$"
  SWE_royal_visit_modifier: "$POL_growing_monarchist_sentiment$"
+
+
+
