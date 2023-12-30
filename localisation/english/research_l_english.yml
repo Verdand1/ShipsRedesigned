@@ -610,7 +610,7 @@
  trade_interdiction:0 "Trade Interdiction"
  trade_interdiction_desc:0 "The sooner we spot the enemy ships, the sooner we can destroy them. Hit their trade convoys and escape before they have time to react."
  brown_water_navy:0 "Brown Water Navy"
- brown_water_navy_desc:0 "Our navy can hardly by considred a threat to any major one. However we can take from them what suits us the best and make ourselves as less cost effective as possible to deal with to dissuade opponents to jeopardize our nation.\n\n"
+ brown_water_navy_desc:0 "Our navy can hardly be considered a threat to any major one. However we can make ourselves as less cost effective as possible to deal with to dissuade opponents to jeopardize our nation.\n\n"
  brown_water_navy_tt:0 "Can build battleship: §RNo§!\nCan build aircraft carrier: §RNo§!\nCan build light aircraft carrier: §RNo§!\nCruiser Max Production Cost: §Y4000§! + §Y150§! per year\nDestroyer Max Production Cost: §Y1700§! + §Y100§! per year\nSubmarine Max Production Cost: §Y600§! + §Y25§! per year"
  brown_water_navy_special:0 "\nDeveloping a brown water navy limits our ship potential. We can't build any aircraft carrier or battleship and we will need up to 1946 to build up our production capacity for other types."
  not_brown_water_navy:0 "Blue Water Navy or Green Water Navy"
