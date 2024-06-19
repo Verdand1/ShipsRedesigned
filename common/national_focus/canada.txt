@@ -5022,6 +5022,7 @@
 				bonus = 0.5
 				uses = 1
 				category = cat_ship_medium_battery
+			}
 		}
 	}
 
