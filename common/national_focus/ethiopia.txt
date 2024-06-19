@@ -1147,7 +1147,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ETH_new_weapons_and_tactics_bonus
 				bonus = 0.5
-				uses = 4
+				uses = 3
 				category = infantry_weapons
 				category = armor
 				category = artillery
@@ -1889,7 +1889,7 @@ focus_tree = {
 			navy_experience = 35
 			add_tech_bonus = {
 				name = ETH_shipbuilding_bonus
-				bonus = 0.25
+				bonus = 0.5
 				uses = 1
 				category = dd_tech
 			}
@@ -4725,8 +4725,11 @@ focus_tree = {
 		y = 1
 		relative_position_id = ETH_a_federal_empire
 		cost = 10
+
 		available = {
+			is_subject = no
 		}
+
 		ai_will_do = {
 			base = 1
 			modifier = {
@@ -4766,6 +4769,7 @@ focus_tree = {
 		relative_position_id = ETH_restore_the_empire_of_axum
 		cost = 10
 		available = {
+			is_subject = no
 		}
 		ai_will_do = {
 			base = 1
@@ -5475,7 +5479,7 @@ focus_tree = {
 			IF = {
 				limit = { NOT = { has_dlc = "La Resistance"} }
 				add_tech_bonus = {
-					bonus = 0.75
+					bonus = 0.5
 					uses = 2
 					category = electronics
 				}
@@ -5577,7 +5581,6 @@ focus_tree = {
 		search_filters = {}
 
 		completion_reward = {
-			custom_effect_tooltip = TODO
 			ITA = {
 				every_owned_state = {
 					limit = {
@@ -6681,7 +6684,7 @@ focus_tree = {
 			add_tech_bonus = {
 				name = ETH_mass_transit
 				bonus = 1
-				uses = 2
+				uses = 1
 				category = train_tech
 			}
 			ETH_BOP_decentralization_large_effect = yes
@@ -7131,7 +7134,7 @@ focus_tree = {
 		completion_reward = {	
 			navy_experience = 35
 					add_tech_bonus = {
-						bonus = 0.25
+						bonus = 0.5
 						uses = 1
 						category = bb_tech
 					}		

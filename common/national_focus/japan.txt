@@ -1117,6 +1117,12 @@
 		completion_reward = {
 			set_rule = { can_create_factions = yes }
 			create_faction = JAP_greater_east_asian_co_prosperity_sphere
+			IF = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				JAP_create_ignatius_lincoln_operative = yes
+			}
 		}
 	}
 
@@ -1359,6 +1365,12 @@
 				cost_reduction = 0.5
 				uses = 2
 				category = naval_doctrine	
+			}
+			IF = {
+				limit = {
+					has_dlc = "La Resistance"
+				}
+				JAP_create_patrick_heenan_operative = yes
 			}
 			unlock_decision_tooltip = JAP_pressure_france
 		}
@@ -4990,8 +5002,8 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_armored_divisions
-				bonus = 1.0
-				uses = 1
+				bonus = 0.75
+				uses = 2
 				category = armor	
 			}
 		}
@@ -5926,7 +5938,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = JAP_cruiser_modernization
-				bonus = 3.0
+				bonus = 2.0
 				uses = 1
 				category = cl_tech	
 				category = ca_tech	

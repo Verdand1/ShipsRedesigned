@@ -143,6 +143,16 @@ POR_arms_purchases = {
 				amount = 100
 				producer = ENG
 			}
+			if = {
+				limit = {
+					has_dlc = "Arms Against Tyranny"
+				}
+				add_equipment_subsidy = {
+					cic = 250
+					equipment_type = artillery_equipment
+					seller_tags = { ENG } 
+				}
+			}
 			ENG = {
 				add_offsite_building = {
 					type = industrial_complex
@@ -2741,6 +2751,16 @@ POR_monarchist_cause = {
 		available = {
 			BRA = { 
 				has_war = no 
+				IF = {
+					limit = {
+						has_dlc = "Trial of Allegiance"
+					}
+				
+					NOT = {
+						has_country_flag = BRA_rejected_monarchism
+						has_completed_focus = BRA_romanticize_the_old_empire
+					}
+				}
 			}
 		}
 

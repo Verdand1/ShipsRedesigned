@@ -2449,7 +2449,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = SAF_establish_the_atomics_energy_board
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = nuclear
 			}
@@ -2870,6 +2870,14 @@
 				category = para_tech
 				category = marine_tech
 				category = mountaineers_tech
+			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 2
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}

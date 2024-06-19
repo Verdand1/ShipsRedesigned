@@ -4866,7 +4866,7 @@ focus_tree = {
 			add_doctrine_cost_reduction = {
 				name = GRE_disrupting_the_great_powers
 				cost_reduction = 0.5
-				uses = 3
+				uses = 2
 				category = naval_doctrine
 			}
 		}
@@ -4895,8 +4895,8 @@ focus_tree = {
 				}
 				add_tech_bonus = {
 					name = GRE_the_cannon
-					bonus = 1.00
-					uses = 2
+					bonus = 0.5
+					uses = 3
 					category = naval_equipment
 				}
  			}	
@@ -4923,7 +4923,7 @@ focus_tree = {
  				limit = { has_dlc = "Man the Guns" }
 				add_tech_bonus = {
 					name = GRE_the_torpedo
-					bonus = 1.00
+					bonus = 0.5
 					uses = 2
 					category = ss_tech
 				}
@@ -5064,7 +5064,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = GRE_embracing_modern_warfare
-				bonus = 0.75
+				bonus = 1
 				uses = 1
 				category = cat_light_armor
 			}
@@ -5102,7 +5102,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = GRE_new_weapons_old_tricks
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = artillery
 			}
@@ -5170,7 +5170,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = special_bonus
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				technology = tech_mountaineers
 				technology = tech_mountaineers2

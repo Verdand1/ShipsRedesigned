@@ -775,6 +775,7 @@ leader_traits = {
 					original_tag = ITA
 					original_tag = SWI
 					original_tag = SWE
+					original_tag = BRA
 				}
 			}
 		}
@@ -790,6 +791,7 @@ leader_traits = {
 					original_tag = ITA
 					original_tag = SWI
 					original_tag = SWE
+					original_tag = BRA
 				}
 				NOT = {
 					OR = {
@@ -2620,7 +2622,7 @@ leader_traits = {
 		}
 
 		trait_type = basic_terrain_trait
-		gui_row = 1
+		gui_row = 0
 	}
 
 	inshore_fighter = {
@@ -2643,7 +2645,7 @@ leader_traits = {
 		}
 
 		trait_type = basic_terrain_trait
-		gui_row = 2
+		gui_row = 1
 	}
 
 	blue_water_expert = {
@@ -2671,7 +2673,7 @@ leader_traits = {
 		}
 
 		trait_type = basic_terrain_trait
-		gui_row = 3
+		gui_row = 2
 	}
 
 	green_water_expert = {
@@ -2694,7 +2696,7 @@ leader_traits = {
 		}
 
 		trait_type = basic_terrain_trait
-		gui_row = 4
+		gui_row = 3
 	}
 
 

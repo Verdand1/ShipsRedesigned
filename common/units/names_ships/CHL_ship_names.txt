@@ -9,7 +9,7 @@ CHL_DD_HISTORICAL = {
 	ship_types = { destroyer }			
 
 	prefix = "BACH "
-	fallback_name = "BACH Destructor %d"					
+	fallback_name = "Destructor %d"					
 
 	unique = {
 		"Almirante Williams" "Almirante Riveros"
@@ -31,7 +31,7 @@ CHL_CL_HISTORICAL = {
 	ship_types = { light_cruiser }
 	
 	prefix = "BACH "
-	fallback_name = "BACH Crucero Ligero %d"
+	fallback_name = "Crucero Ligero %d"
 
 	unique = {
 		"O'Higgins" "Capitán Prat" "Chacabucco"
@@ -52,7 +52,7 @@ CHL_CA_HISTORICAL = {
 	ship_types = { heavy_cruiser }
 	
 	prefix = "BACH "
-	fallback_name = "BACH Crucero Pesado %d"
+	fallback_name = "Crucero Pesado %d"
 
 	unique = {
 		"Esmeralda"
@@ -70,7 +70,7 @@ CHL_BB_HISTORICAL = {
 	ship_types = { battleship }
 	
 	prefix = "BACH "
-	fallback_name = "BACH Acorazado %d"		
+	fallback_name = "Acorazado %d"		
 
 	unique = {
 		"Almirante Latorre" "Almirante Cochrane" "Libertad" "Constitución" "Valparaiso" "Santiago"
@@ -88,7 +88,7 @@ CHL_SS_HISTORICAL = {
 	ship_types = { ship_hull_submarine }
 	
 	prefix = "BACH "
-	fallback_name = "BACH Submarino %d"
+	fallback_name = "Submarino %d"
 	
 	unique = {
 	"Simpson" "Thomson"

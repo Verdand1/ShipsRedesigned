@@ -349,10 +349,12 @@
 		completion_reward = {
 			custom_effect_tooltip = ROM_invite_german_advisors_tt
 			hidden_effect = {
-				diplomatic_relation = {
-					country = GER
-					relation = military_access
-					active = yes
+				GER = {
+					diplomatic_relation = {
+						country = ROOT
+						relation = military_access
+						active = yes
+					}
 				}
 			}
 			add_doctrine_cost_reduction = {
@@ -2300,6 +2302,9 @@
 				ideology = communism
 			}
 			add_stability = -0.05
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			add_opinion_modifier = { modifier = ROM_appoint_soviet_friendly_government target = SOV }
 			SOV = { add_opinion_modifier = { modifier = ROM_appoint_soviet_friendly_government target = ROOT } }
 			if = {
@@ -2362,6 +2367,9 @@
 					}
 				}
 			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			unlock_decision_category_tooltip = ROM_change_sides
 			unlock_decision_tooltip = ROM_change_sides_to_commintern
 		}
@@ -2473,6 +2481,9 @@
 					}
 				}
 			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			if = {
 				limit = { NOT = { has_idea = ROM_flexible_foreign_policy_2 } }
 				swap_ideas = {
@@ -2484,6 +2495,9 @@
 				popularity = 0.35
 				ideology = fascism
 			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			custom_effect_tooltip = available_political_advisor
 			show_ideas_tooltip = ROM_mihail_sturdza
 			add_stability = -0.05
@@ -2549,8 +2563,14 @@
 					}
 				}
 			}
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			unlock_decision_category_tooltip = ROM_change_sides
-			unlock_decision_tooltip = ROM_change_sides_to_allies
+			unlock_decision_tooltip = ROM_change_sides_to_axis
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+
 			#Cancel guarantees
 			diplomatic_relation = {
 				country = YUG
@@ -2956,6 +2976,9 @@
 			unlock_decision_category_tooltip = ROM_change_sides
 			unlock_decision_tooltip = ROM_change_sides_to_allies
 			add_stability = -0.05
+
+			custom_effect_tooltip = CHL_skip_one_line_tt
+			
 			add_opinion_modifier = { modifier = ROM_appoint_allied_friendly_government target = ENG }
 			ENG = { add_opinion_modifier = { modifier = ROM_appoint_allied_friendly_government target = ROOT } }
 		}
@@ -3974,7 +3997,7 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_modern_at_guns
-				bonus = 1.0
+				bonus = 0.75
 				uses = 2
 				category = cat_anti_tank
 			}
@@ -4061,8 +4084,8 @@
 							infantry = { x = 1 y = 2 }
 				
 		    	   		 	infantry = { x = 2 y = 0 }
-							artillery_brigade = { x = 2 y = 1 }
-							artillery_brigade = { x = 2 y = 2 }
+							artillery_brigade = { x = 3 y = 0 }
+							artillery_brigade = { x = 3 y = 1 }
 						}
 						support = {
 							engineer = { x = 0 y = 0 }
@@ -4084,8 +4107,8 @@
 								infantry = { x = 1 y = 2 }
 					
 			    	   		 	infantry = { x = 2 y = 0 }
-								artillery_brigade = { x = 2 y = 1 }
-								artillery_brigade = { x = 2 y = 2 }
+								artillery_brigade = { x = 3 y = 0 }
+								artillery_brigade = { x = 3 y = 1 }
 							}
 							support = {
 								engineer = { x = 0 y = 0 }
@@ -4232,7 +4255,7 @@
 								support = {
 									engineer = { x = 0 y = 0 }
 									artillery = { x = 0 y = 1 }
-									recon = { x = 0 y = 2 }
+									#recon = { x = 0 y = 2 }
 								}
 							}
 							else = {
@@ -4827,10 +4850,18 @@
 		completion_reward = {
 			add_tech_bonus = {
 				name = ROM_expand_the_marine_regiment
-				bonus = 1.0
+				bonus = 0.5
 				uses = 2
 				category = tp_tech
 				category = marine_tech
+			}
+			if = {
+				limit = { has_dlc = "Arms Against Tyranny" }
+				add_doctrine_cost_reduction = {
+					cost_reduction = 0.5
+					uses = 2
+					category = special_forces_doctrine
+				}
 			}
 		}
 	}

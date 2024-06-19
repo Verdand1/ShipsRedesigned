@@ -4897,14 +4897,14 @@
 			add_research_slot = 1
 			add_tech_bonus = {
 				name = SWI_weapons_of_democracy
-				bonus = 2
+				bonus = 1
 				uses = 1
 				category = nuclear  
 			}
 			add_tech_bonus = {
 				name = SWI_weapons_of_democracy
 				ahead_reduction = 1
-				uses = 2 
+				uses = 1
 				category = nuclear
 			} 			
 		}
@@ -6714,8 +6714,8 @@
 					skill = 2
 					attack_skill = 2
 					defense_skill = 2
-					planning_skill = 2
-					logistics_skill = 2
+					maneuvering_skill = 2
+					coordination_skill = 2
 				}  
 			}
 			create_navy_leader = {

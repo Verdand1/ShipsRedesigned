@@ -439,7 +439,7 @@ if = {
 		traits = { operative_commando }
 		bypass_recruitment = no
 		available_to_spy_master = yes
-		nationalities = { GER }
+		nationalities = { GER AUS }
 		gender = male
 	}
 
@@ -459,6 +459,56 @@ if = {
 		bypass_recruitment = no
 		available_to_spy_master = yes
 		nationalities = { GER TUR }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Herbert Hans Haupt"
+		GFX = GFX_portrait_GER_herbert_hans_haupt
+		traits = { operative_demolition_expert }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER USA }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Erich Gimpel"
+		GFX = GFX_portrait_GER_erich_gimpel
+		traits = { operative_infiltrator }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Johannes Sigfried Becker"
+		GFX = GFX_portrait_GER_johannes_sigfried_becker
+		traits = { operative_natural_orator operative_linguist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER AUS ARG BRA }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Fritz Joubert Duquesne"
+		GFX = GFX_portrait_GER_fritz_joubert_duquesne
+		traits = { operative_commando operative_tough operative_escape_artist }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { GER SAF HOL USA }
+		gender = male
+	}
+
+	create_operative_leader = {
+		name = "Norman Baillie Stewart"
+		GFX = GFX_portrait_GER_norman_baillie_stewart
+		traits = { operative_natural_orator operative_tough }
+		bypass_recruitment = no
+		available_to_spy_master = yes
+		nationalities = { ENG SCO }
 		gender = male
 	}
 }
@@ -944,6 +994,26 @@ if = {
 		}
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
+	create_equipment_variant = {
+		name = "Panzer II"
+		type = light_tank_chassis_2
+		design_team = mio:GER_daimler_benz_organization
+		parent_version = 1
+		modules = {
+			main_armament_slot = tank_auto_cannon
+			turret_type_slot = tank_light_two_man_tank_turret
+			suspension_type_slot = tank_christie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+			special_type_slot_1 = tank_radio_1
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 3
+			tank_nsb_armor_upgrade = 3
+		}
+		icon = "GFX_GER_improved_light_tank_medium"
+	}
+}
 }
 if = {
 	limit = {
@@ -1256,7 +1326,7 @@ if = {
 	}
 	# Heavy Cruisers #
 	#create_equipment_variant = {
-	#	name = "Deutschland Class"
+	#	name = "Deutschland"
 	#	type = heavy_cruiser_1
 	#	parent_version = 0
 	#	upgrades = {

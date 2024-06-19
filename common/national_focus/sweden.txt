@@ -830,7 +830,7 @@ focus_tree = {
 			else = {
 				add_tech_bonus = {
 					name = SWE_lynx_winter_armored_cars
-					bonus = 0.6
+					bonus = 0.5
 					uses = 2
 					category = support_tech
 
@@ -884,7 +884,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 1.5
+				bonus = 1
 				uses = 1
 				category = cat_mechanized_equipment # optional
 				name = SWE_kp_bill
@@ -1182,7 +1182,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SWE_continue_the_second_industrial_revolution
-				bonus = 1.5
+				bonus = 1
 				uses = 2
 				category = industry # optional 
 				# technology  = technology_id # optional
@@ -2099,7 +2099,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_tech_bonus = {
-				bonus = 0.25
+				bonus = 0.5
 				uses = 1
 				category = bb_tech 
 				name = SWE_rule_the_baltic
@@ -2395,7 +2395,7 @@ focus_tree = {
 
 				add_tech_bonus = {
 					name = ss_bonus
-					ahead_reduction = 1.5
+					ahead_reduction = 1
 					uses = 1
 					category = ss_tech
 				}
@@ -2408,7 +2408,7 @@ focus_tree = {
 
 					add_tech_bonus = {
 						name = ss_bonus
-						ahead_reduction = 1.5
+						ahead_reduction = 1
 						uses = 1
 						technology = basic_submarine_snorkel
 					}
@@ -2577,7 +2577,7 @@ focus_tree = {
 			}
 
 			add_tech_bonus = {
-			    bonus = 0.25
+			    bonus = 0.5
 			    uses = 1
 			    category = artillery
 			}
@@ -6668,7 +6668,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = SWE_rapid_response_force
-				bonus = 1
+				bonus = 0.75
 				uses = 2
 				category = support_tech # optional 
 				# technology  = technology_id # optional
@@ -8027,7 +8027,7 @@ focus_tree = {
 			ELSE = {
 				add_tech_bonus = {
 					name = SWE_electronics_bonus
-					bonus = 1
+					bonus = 0.5
 					uses = 2
 					category = electronics
 				}
@@ -8388,7 +8388,7 @@ focus_tree = {
 		completion_reward = {
 			add_tech_bonus = {
 				name = SWE_ger_swe_nuclear_bonus
-				bonus = 1
+				bonus = 0.5
 				uses = 2
 				category = nuclear
 			}
@@ -9242,7 +9242,7 @@ focus_tree = {
 				create_wargoal = {
 					target = LAT
 					type = puppet_wargoal_focus
-					generator = { 11 }
+					generator = { 808 }
 					expire = 0
 				}
 			}
@@ -9256,7 +9256,7 @@ focus_tree = {
 				create_wargoal = {
 					target = LIT
 					type = puppet_wargoal_focus
-					generator = { 808 }
+					generator = { 11 }
 					expire = 0
 				}
 			}
@@ -9625,10 +9625,8 @@ focus_tree = {
 						state = 234
 						state = 217 #Stalingrad
 					}
-					NOT = { state = 705 } #Crimea
-
+					NOT = { state = 137 } #Crimea
 				} 
-
 				add_claim_by = ROOT
 			}
 		}
@@ -9865,7 +9863,7 @@ focus_tree = {
 			}
 			add_tech_bonus = {
 				name = SWE_acquire_ww2_tanks_and_wrecks
-				bonus = 1
+				bonus = 0.75
 				uses = 2
 				category = cat_medium_armor
 			

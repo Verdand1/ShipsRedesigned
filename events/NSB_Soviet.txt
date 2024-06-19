@@ -2968,8 +2968,10 @@ country_event = {
 
 		trigger = {
 			NOT = {
-				FROM = { original_tag = PER }
-				ROOT = { original_tag = SOV }
+				AND = {
+					FROM = { original_tag = PER }
+					ROOT = { original_tag = SOV }
+				}
 			}
 		}
 
@@ -3481,6 +3483,12 @@ country_event = {
 
 		trigger = {
 			FROM = { is_in_faction = yes }
+
+			IF = {
+				limit = { FROM = { original_tag = ITA } }
+				
+				FROM = { is_faction_leader = yes }
+			}
 		}
 
 		FROM = {
@@ -3844,13 +3852,13 @@ country_event = {
 			tag = FROM
 			#message = WE_CEDE_THEM_SOUTH_SAKHALIN_AND_KURIL_ISLANDS
 		}
+		537 = {
+			add_core_of = FROM
+		}
+		555 = {
+			add_core_of = FROM
+		}
 		FROM = {
-			537 = {
-				add_core_of = FROM
-			}
-			555 = {
-				add_core_of = FROM
-			}
 			transfer_state = 537
 			transfer_state = 555
 		}
@@ -3934,13 +3942,13 @@ country_event = {
 			tag = FROM
 			#message = WE_CEDE_THEM_SOUTH_SAKHALIN_AND_KURIL_ISLANDS
 		}
+		537 = {
+			add_core_of = FROM
+		}
+		555 = {
+			add_core_of = FROM
+		}
 		FROM = {
-			537 = {
-				add_core_of = FROM
-			}
-			555 = {
-				add_core_of = FROM
-			}
 			transfer_state = 537
 			transfer_state = 536 #Hokkaido
 			transfer_state = 555

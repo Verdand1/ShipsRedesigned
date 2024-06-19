@@ -1,0 +1,127 @@
+﻿capital = 468 # Montreal (Saint Lawrence)
+
+if = {
+	limit = {
+		NOT = {
+			has_dlc = "No Step Back"
+		}
+	}
+	set_oob = "CAN_1936"
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_oob = "CAN_1936_nsb"
+}
+
+set_research_slots = 3
+
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	tech_trucks = 1
+	gw_artillery = 1
+	trench_warfare = 1
+	basic_train = 1
+	improved_ship_torpedo_launcher = 1
+	basic_torpedo = 1
+	basic_depth_charges = 1
+	basic_range_engines = 1
+	basic_naval_mines = 1
+	ship_light_hull = 1
+	blue_water_navy = 1
+	not_brown_water_navy = 1
+	escort_patrols = 1
+}
+if = {
+	limit = {
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		naval_bomber1 = 1
+		early_bomber = 1
+		
+	}
+}
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+	}
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1935.10.14"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+	democratic = 70
+	fascism = 10
+	communism = 15
+	neutrality = 5
+}
+
+### VARIANTS ###
+# 1936 Start #
+
+# Destroyers #
+create_equipment_variant = {
+	name = "Vancouver Class"
+	type = ship_hull_light_1
+	name_group = CAN_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 2
+	modules = {
+		rear_1 = ship_depth_charge_1
+		rear_2 = empty
+		mid_1 = ship_torpedo_2
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 6
+	}
+	obsolete = yes
+}
+create_equipment_variant = {
+	name = "Saguenay Class"
+	type = ship_hull_light_1
+	name_group = CAN_DD_HISTORICAL
+	parent_version = 0
+	role_icon_index = 1
+	modules = {
+		fixed_engine = ship_range_engine_1
+		rear_1 = ship_depth_charge_1
+		rear_2 = ship_mine_sweeper_1
+		mid_1 = ship_torpedo_2
+		mid_2 = ship_torpedo_2
+		front_2 = empty
+	}
+	upgrades = {
+		ship_light_engine_upgrade = 8
+		ship_light_range_upgrade = 7
+		ship_light_armor_upgrade = 1
+	}
+}
