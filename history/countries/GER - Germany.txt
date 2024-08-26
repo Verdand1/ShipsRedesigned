@@ -1014,7 +1014,6 @@ if = {
 		icon = "GFX_GER_improved_light_tank_medium"
 	}
 }
-}
 if = {
 	limit = {
 		NOT = {
