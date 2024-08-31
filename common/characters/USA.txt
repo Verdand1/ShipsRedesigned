@@ -1409,25 +1409,16 @@ characters={
 			slot = political_advisor
 			idea_token = harry_white
 			allowed  = {
-				OR = {
-					original_tag  = USA
-					original_tag  = CHL
-				}
+				original_tag  = USA
 			}
 			available  = {
-				OR = {
-					if  = {
-						limit  = {
-							has_dlc = "Man the Guns"
-						}
-						has_completed_focus  = USA_reach_out_to_the_ware_group 
+				
+				if  = {
+					limit  = {
+						has_dlc = "Man the Guns"
 					}
-
-					AND = {
-						CHL_hub_of_the_revolution_trigger = yes
-						USA = { has_completed_focus = USA_america_first }
-					}	
-				}
+					has_completed_focus  = USA_reach_out_to_the_ware_group 
+				}	
 				
 				NOT  = {
 					has_idea  = USA_henry_morgenthau 
@@ -1465,7 +1456,6 @@ characters={
 				OR = {
 					original_tag  = USA
 					original_tag = SWE
-					original_tag = CHL
 				}
 			}
 			available  = {
@@ -1476,16 +1466,10 @@ characters={
 						}
 						has_completed_focus  = USA_reach_out_to_the_ware_group 
 					}
-
 					AND = {
 						SWE_refuge_for_revolutionaries_trigger = yes
 						USA = { has_completed_focus = USA_america_first }
 					}
-
-					AND = {
-						CHL_hub_of_the_revolution_trigger = yes
-						USA = { has_completed_focus = USA_america_first }
-					}	
 				}
 			}
 			visible  = {
@@ -1520,7 +1504,6 @@ characters={
 				OR = {
 					original_tag  = USA
 					original_tag = SWE
-					original_tag = CHL
 				}
 			}
 			available  = {
@@ -1533,10 +1516,6 @@ characters={
 					}
 					AND = {
 						SWE_refuge_for_revolutionaries_trigger = yes
-						USA = { has_completed_focus = USA_america_first }
-					}
-					AND = {
-						CHL_hub_of_the_revolution_trigger = yes
 						USA = { has_completed_focus = USA_america_first }
 					}	
 				}

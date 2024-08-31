@@ -1591,10 +1591,8 @@ focus_tree = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HOL_fokker_organization
 				mio:HOL_fokker_organization = {
-					add_mio_funds = 500
+					add_mio_size = 2
 				}
 			}
 			ELSE = {
@@ -1766,10 +1764,8 @@ focus_tree = {
 				limit = {
 					has_dlc = "Arms Against Tyranny"
 				}
-				custom_effect_tooltip = available_mio_tt
-				show_mio_tooltip = HOL_daf_organization
 				mio:HOL_daf_organization = {
-					add_mio_funds = 500
+					add_mio_size = 2
 				}
 			}
 			ELSE = {
