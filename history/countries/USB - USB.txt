@@ -54,6 +54,7 @@ set_technology = {
 	ship_cruiser_hull = 1
 	ship_hull_heavy = 1
 	ship_hull_submarine = 1
+	mtg_transport = 1
 	blue_water_navy = 1
 	not_brown_water_navy = 1
 	individual_superiority = 1
