@@ -1660,6 +1660,9 @@ technologies = {
 			leads_to_tech = improved_perf_engines
 			research_cost_coeff = 1
 		}
+		dependencies = {
+			ship_light_hull = 1
+		}
 
 		enable_equipment_modules = {
 			ship_perf_engine_1
