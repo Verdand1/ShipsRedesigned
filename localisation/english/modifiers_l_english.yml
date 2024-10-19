@@ -1641,7 +1641,7 @@
  modifier_trait_expert_improviser_xp_gain_factor:0 "Expert Improviser Trait XP Gain"
  modifier_trait_fast_planner_xp_gain_factor:0 "Fast Planner Trait XP Gain"
  modifier_trait_fighter_director_xp_gain_factor:0 "Fighter Director Trait XP Gain"
- modifier_trait_fleet_protector_xp_gain_factor:0 "Fleet Protector Trait XP Gain"
+ modifier_trait_fleet_protector_xp_gain_factor:0 "Destroyer Leader Trait XP Gain"
  modifier_trait_flight_deck_manager_xp_gain_factor:0 "Flight Deck Manager Trait XP Gain"
  modifier_trait_fly_swatter_xp_gain_factor:0 "Fly Swatter Trait XP Gain"
  modifier_trait_fortress_buster_xp_gain_factor:0 "Fortress Buster Trait XP Gain"
