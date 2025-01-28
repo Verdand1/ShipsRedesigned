@@ -1,4 +1,4 @@
-﻿capital = 41
+﻿capital = 41 # Madrid
 
 oob = "SPR_1936"
 if = {
@@ -51,6 +51,7 @@ if = {
 	recruit_character = SPR_diego_martinez_barrio
 	recruit_character = SPR_augusto_barcia_trelles
 	recruit_character = SPR_francisco_largo_caballero
+	recruit_character = SPA_karl_pius_von_habsburg
 	recruit_character = SPR_manuel_azana
 
 	set_popularities = {
@@ -65,6 +66,15 @@ if = {
 		has_dlc = "Battle for the Bosporus"
 	}
 	set_technology = { camelry = 1 }
+}
+
+IF = {
+	limit = {
+		has_dlc = "Gotterdammerung"
+	}
+	complete_special_project = {
+		project = sp:sp_air_helicopter
+	}
 }
 
 if = {
@@ -226,6 +236,7 @@ if = {
 	recruit_character = SPA_luis_hernando_de_larramendi
 	recruit_character = SPA_martin_de_riquer
 	recruit_character = SPA_mauricio_de_sivatte
+	recruit_character = SPA_karl_pius_von_habsburg
 	recruit_character = SPR_manuel_azana
 	165 = {
 		add_dynamic_modifier = { modifier = autonomous_state }
@@ -283,6 +294,14 @@ if = {
 		early_fighter = 1
 		early_bomber = 1
 		naval_bomber1 = 1
+		early_transport_plane = 1
+	}
+	else = {
+		set_technology = {
+			bba_early_transport_plane = 1
+		}
+	}
+}
 	}
 }
 
@@ -426,7 +445,6 @@ set_stability = 0.5
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -444,6 +462,9 @@ set_stability = 0.5
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 	limit = {

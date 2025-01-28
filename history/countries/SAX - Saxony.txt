@@ -95,8 +95,7 @@ set_stability = 0.75
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
-		decimetric_radar = 1
+		cavity_magnatron = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -113,6 +112,9 @@ set_stability = 0.75
 		dispersed_industry3 = 1
 		dispersed_industry4 = 1
 
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 	if = {
 		limit = {
@@ -134,14 +136,15 @@ set_politics = {
 }
 set_popularities = {
 	democratic = 30
-	fascism = 10
-	communism = 60
+	fascism = 5
+	communism = 15
+	neutrality = 50
 }
 
 add_ideas = {
 }
 
-
+recruit_character = SAX_george_of_saxony
 
 
 

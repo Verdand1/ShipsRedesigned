@@ -63,6 +63,7 @@ IF = {
 	recruit_character = EST_aleksander_jaakson
 	recruit_character = EST_herbert_brede
 	recruit_character = EST_otto_heinze
+	recruit_character = UBD_sophie_buxhoeveden
 }
 
 set_variable = {
@@ -131,7 +132,8 @@ set_convoys = 5
 		complete_national_focus = EST_republican_defence_league
 		complete_national_focus = BALTIC_ford_motors
 		complete_national_focus = BALTIC_crossley_motors
-		complete_national_focus = BALTIC_natural_resources
+		complete_national_focus = BALTIC_invest_in_baltic_trade
+		unlock_national_focus = BALTIC_natural_resources
 	}
 	
 	oob = "EST_1939"
@@ -145,6 +147,9 @@ set_convoys = 5
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "EST_1936_air_bba" #deliberately using 1936 OOB since no change in aircraft strength or models
+			set_technology = {
+				bba_early_transport_plane = 1
+			}
 		else = {
 			set_air_oob = "EST_1936_air_legacy"
 			set_technology = {
@@ -152,7 +157,7 @@ set_convoys = 5
 				early_bomber = 1
 				CAS1 = 1
 				naval_bomber1 = 1
-
+				early_transport_plane = 1
 			}
 		}
 	}
@@ -170,7 +175,6 @@ set_convoys = 5
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -186,6 +190,9 @@ set_convoys = 5
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 

@@ -772,7 +772,7 @@ entity = {
 	
 	default_state = idle
 	state = { name = "idle"	animation = "idle" animation_blend_time = 0.3 
-	#	event = { trigger_once = yes time = 0 sound = { soundeffect = ship_idle_light_cruiser }}
+		event = { trigger_once = yes time = 0 sound = { soundeffect = ship_idle_light_cruiser }}
 		event = { time = 0 particle = "submarine_idle_particle"  keep_particle = yes  }
 	}
 	
@@ -809,7 +809,7 @@ entity = {
 		event = { time = 0 node="hit_effect_locator2" particle = "ship_explosion_particle"  keep_particle = yes }	
 		event = { time = 0.2 node="hit_effect_locator2" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
 		
-	#	event = { sound = { soundeffect = "ships_light_cruiser_attacked" } }
+		event = { sound = { soundeffect = "ships_light_cruiser_attacked" } }
 		
 		game_data = {
 			hitmiss_effect = { time = 0.15 type = small }
@@ -822,7 +822,7 @@ entity = {
 		
 		event = { time = 0 node="hit_effect_locator2" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
 		
-	#	event = { sound = { soundeffect = "light_cruiser_attack_damaged" } }
+		event = { sound = { soundeffect = "light_cruiser_attack_damaged" } }
 		
 		game_data = {
 			hitmiss_effect = { time = 0.15 type = small }
@@ -839,7 +839,7 @@ entity = {
 		event = { time = 0 node="hit_effect_locator1" particle = "ship_explosion_particle"  keep_particle = yes }
 		event = { time = 0.2 node="hit_effect_locator1" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
 		
-	#	event = { sound = { soundeffect = "ships_light_cruiser_attacked" } }
+		event = { sound = { soundeffect = "ships_light_cruiser_attacked" } }
 		
 		game_data = {
 			hitmiss_effect = { time = 0.1 type = small }
@@ -855,7 +855,7 @@ entity = {
 
 		event = { time = 0 node="hit_effect_locator1" particle = "ship_damaged_smoke_particle"  keep_particle = yes trigger_once = yes }
 		
-	#	event = { sound = { soundeffect = "light_cruiser_defend_damaged_01" } }
+		event = { sound = { soundeffect = "light_cruiser_defend_damaged_01" } }
 
 		game_data = {
 			hitmiss_effect = { time = 0.1 type = small }

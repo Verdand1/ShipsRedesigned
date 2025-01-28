@@ -1383,14 +1383,25 @@ shared_focus = {
 		}
 
 	completion_reward = {
-		add_tech_bonus = {
-			name = secret_bonus
-			bonus = 0.5
-			uses = 2
-			category = electronics
-			category = nuclear
-			category = rocketry
+
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.75
 		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		add_ideas = generic_secret_weapons_ns
+
+		#add_tech_bonus = {
+		#	name = secret_bonus
+		#	bonus = 0.5
+		#	uses = 2
+		#	category = electronics
+		#	category = nuclear
+		#	category = rocketry
+		#}
+
 	}
 }
 
@@ -1414,21 +1425,36 @@ shared_focus = {
 	}
 
 	ai_will_do = {
-			factor = 20
-		} 
+		factor = 20
+	} 
 
 	completion_reward = {
-		add_tech_bonus = {
-			name = nuclear_bonus
-			ahead_reduction = 2
-			category = nuclear
+
+		if = {
+			limit = {
+				NOT = {
+					has_tech = atomic_research
+				}
+			}
+			add_tech_bonus = {
+				name = JUNO_nuclear_initiative
+				ahead_reduction = 2
+				bonus = 1
+				uses = 1
+				category = nuclear
+			}
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.25
+			}
 		}
-		add_tech_bonus = {
-			name = JUNO_nuclear_initiative
-			bonus = 1
-			uses = 1
-			category = nuclear
+		else = {
+			add_breakthrough_progress = {
+				specialization = specialization_nuclear
+				value = 0.75
+			}
 		}
+
 	}   
 }  
  
@@ -2343,7 +2369,6 @@ shared_focus = {
 				free_building_slots = {
 					building = air_base
 					size > 0
-					include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
 				NOT = {
@@ -2371,7 +2396,6 @@ shared_focus = {
 				free_building_slots = {
 					building = air_base
 					size > 0
-					include_locked = yes
 				}
 				is_owned_and_controlled_by = ROOT
 				NOT = {
@@ -2399,7 +2423,7 @@ shared_focus = {
 
 shared_focus = {
 	id = SMB_domestic_designs
-	icon = GFX_goal_generic_air_production
+	icon = GFX_focus_SMB_purchase_aircraft
 	relative_position_id = SMB_air_academy
 	mutually_exclusive = { focus = SMB_license_designs focus = SMB_purchase_aircraft }
 	prerequisite = { focus = SMB_air_academy focus = SMB_construct_air_bases }
@@ -2599,6 +2623,7 @@ shared_focus = {
 			mio:BRA_embraer_organization = {
 				add_mio_size = 1
 			}
+			custom_effect_tooltip = generic_skip_one_line_tt
 		}
 		random_core_state = {
 			limit = {
@@ -3078,6 +3103,10 @@ shared_focus = {
 			add_to_variable = { JUNO_airforce_modifier_air_agility_factor = 0.05 tooltip = air_agility_factor_tt }
 			add_to_variable = { JUNO_airforce_modifier_air_defence_factor = 0.1 tooltip = air_defence_factor_tt }
 		}
+		add_breakthrough_progress = {
+			specialization = specialization_air
+			value = 0.25
+		}
 		add_tech_bonus = {
 			name = SMB_jet_tech_bonus
 			bonus = 0.5
@@ -3147,6 +3176,10 @@ shared_focus = {
 
 	completion_reward = {
 		navy_experience = 15
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.5
+		}
 		add_tech_bonus = {
 			name = SMB_aircraft_carriers
 			bonus = 2
@@ -3973,7 +4006,6 @@ shared_focus = {
 		}
 
 	completion_reward = {
-		add_ideas = CAN_degauss_ship_hulls
 		if = {
 			limit = {
 				has_dlc = "Man the Guns"
@@ -3983,12 +4015,21 @@ shared_focus = {
 					has_tech = degaussing
 				}
 				navy_experience = 20
-			}
-			else = {
-				set_technology = {
-				    degaussing = 1
+				else = {
+					set_technology = {
+						   degaussing = 1
+					}
+				}
 				}
 			}
+			
+		if = {
+			limit = {
+					NOT = {
+						has_dlc = "Man the Guns"
+					}
+				}
+			add_ideas = CAN_degauss_ship_hulls
 		}
 	}	
 }
@@ -4054,6 +4095,12 @@ shared_focus = {
 			uses = 1
 			category = ss_tech
 		}
+
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
+
 		add_doctrine_cost_reduction = {
 			name = ITA_cruiser_submarines
 			cost_reduction = 1.0
@@ -4088,12 +4135,23 @@ shared_focus = {
 		}
 
 	completion_reward = {
+
 		add_tech_bonus = {
 			name = SMB_midget_subs
 			bonus = 1.0
 			uses = 1
 			category = ss_tech
 		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.25
+		}
+
+		custom_effect_tooltip = generic_skip_one_line_tt
+
 		add_doctrine_cost_reduction = {
 			name = SMB_midget_subs
 			cost_reduction = 1.0
@@ -4157,10 +4215,15 @@ shared_focus = {
 	}
 
 	ai_will_do = {
-			factor = 20
-		}
+		factor = 20
+	}
 
 	completion_reward = {
+		add_breakthrough_progress = {
+			specialization = specialization_naval
+			value = 0.5
+		}
+		custom_effect_tooltip = generic_skip_one_line_tt
 		create_equipment_variant = {
 			name = "Belo Horizonte Class"
 			type = ship_hull_carrier_2

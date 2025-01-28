@@ -421,6 +421,19 @@ spriteTypes = {
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/engine_icn_4.dds"
 	}
 
+	spriteType = {
+		name = "GFX_SMI_sub_ship_aip_engine_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_1.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_aip_engine_2"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_2.dds"
+	}
+	spriteType = {
+		name = "GFX_SMI_sub_ship_aip_engine_3"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_aip_engine_3.dds"
+	}
+
 ######## Torpedo Launcher
 
 
@@ -598,6 +611,21 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_SMI_ship_sub_snorkel_2"
 		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_snorkel_icn_2.dds"
+	}
+
+####### Coating
+
+	### Category Icon
+	spriteType = {
+		name = "GFX_SMI_ship_sub_coating"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_anechoic_tile_1.dds"
+	}
+
+	###
+
+	spriteType = {
+		name = "GFX_SMI_ship_sub_anechoic_tile_1"
+		textureFile = "gfx/interface/equipmentdesigner/naval/modules/icons/submarine_anechoic_tile_1.dds"
 	}
 
 ######## Armor

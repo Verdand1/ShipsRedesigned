@@ -167,6 +167,7 @@ if = { #DLC
 	106 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	731 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 	184 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
+	971 = { set_state_flag = BUL_historical_bulgarian_claim_flag }
 
 	#International Relations
 	add_opinion_modifier = { 
@@ -456,7 +457,6 @@ if = {
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -469,6 +469,9 @@ if = {
 		construction2 = 1
 		dispersed_industry = 1
 		dispersed_industry2 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 
 	if = {
@@ -498,13 +501,16 @@ if = {
 	if = {
 		limit = { has_dlc = "By Blood Alone" }
 			set_air_oob = "BUL_1939_air_bba"
+			set_technology = {
+				bba_early_transport_plane = 1
+			}
 		else = {
 			set_air_oob = "BUL_1939_air_legacy"
 			set_technology = {
 				fighter1 = 1
 				early_bomber = 1
 				tactical_bomber1 = 1
-
+				early_transport_plane = 1
 			}
 		}
 	}

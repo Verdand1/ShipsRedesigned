@@ -1,186 +1,15 @@
-﻿##### Germany NAME LISTS #####
-### REGULAR DESTROYER NAMES###
-GER_DD_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DESTROYERS
+﻿###### NEW NAMES #######
 
-	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
-	type = ship
-	ship_types = { destroyer }
-	
-	fallback_name = "Z%d"
-	
-	ordered = {
-		1 = {"Z1 Leberecht Maass"}
-		2 = {"Z2 Georg Thiele"}
-		3 = {"Z3 Max Schultz"}
-		4 = {"Z4 Richard Beitzen"}
-		5 = {"Z5 Paul Jacobi"}
-		6 = {"Z6 Theodor Riedel"}
-		7 = {"Z7 Hermann Schoemann"}
-		8 = {"Z8 Bruno Heinemann"}
-		9 = {"Z9 Wolfgang Zenker"}
-		10 = {"Z10 Hans Lody"}
-		11 = {"Z11 Bernd von Arnim"}
-		12 = {"Z12 Erich Giese"}
-		13 = {"Z13 Erich Koellner"}
-		14 = {"Z14 Friedrich Ihn"}
-		15 = {"Z15 Erich Steinbrinck"}
-		16 = {"Z16 Friedrich Eckholdt"}
-		17 = {"Z17 Diether von Roeder"}
-		18 = {"Z18 Hans Lüdemann"}
-		19 = {"Z19 Hermann Kühne"}
-		20 = {"Z20 Karl Galster"}
-		21 = {"Z21 Wilhelm Heidkamp"}
-		22 = {"Z22 Anton Schmidt"}
-	}
-}
-
-### DESTROYER ESCORT NAMES###
-GER_DE_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_DE
-
-	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
-	type = ship
-	ship_types = { destroyer }
-
-	fallback_name = "F%d"
-
-}
-
-### TORPEDO BOAT NAMES###
-GER_TB_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_TB
-
-	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
-	type = ship
-	ship_types = { destroyer }
-	
-	fallback_name = "T%d"
-	
-}
-
-### LIGHT CRUISER NAMES###
-GER_CL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CL
-
-	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser 
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
-	type = ship
-	ship_types = { light_cruiser}
-	
-	fallback_name = "Leichter Kreuzer %d"
-
-	unique = {
-		"Emden"
-		"Königsberg" "Karlsruhe" "Köln"
-		"Leipzig"
-		"Nürnberg"
-		"Bremen" "Hamburg" "Berlin" "Lübeck" "München" "Danzig"
-		"Stuttgart" "Stettin"
-		"Dresden"
-		"Kolberg" "Mainz" "Cöln" "Augsburg"
-		"Magdeburg" "Breslau" "Straßburg" "Stralsund"
-		"Rostock"
-		"Graudenz" "Regensburg"
-		"Pillau" "Elbing"
-		"Frankfurt"
-		"Brummer" "Bremse"
-		"Wiesbaden" "Frauenlob"
-		"Gazelle" "Niobe" "Nymphe" "Thetis" "Ariadne" "Amazone" "Medusa" "Arcona" "Undine"
-	}
-}
-
-### HEAVY CRUISER NAMES###
-GER_CA_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CA
-
-	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
-	type = ship
-	ship_types = { heavy_cruiser }
-	
-	fallback_name = "Schwerer Kreuzer %d"
-	
-	unique = {
-		"Deutschland" "Admiral Scheer" "Admiral Graf Spee"
-		"Admiral Hipper" "Blücher"
-		"Prinz Eugen" "Seydlitz" "Lützow"
-		"Fürst Bismarck"
-		"Prinz Heinrich"
-		"Prinz Adalbert" "Friedrich Carl"
-		"Roon" "Yorck"
-		"Scharnhorst" "Gneisenau"
-	}
-}
-
-### BATTLESHIP NAMES ###
 GER_BB_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BB
 
 	for_countries = { GER }
 
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
-
 	type = ship
 	ship_types = { battleship }
 	
 	fallback_name = "Schlachtschiff %d"
-
+	
 	unique = {
 		"Gneisenau" "Scharnhorst"
 		"Bismarck" "Tirpitz"
@@ -193,20 +22,10 @@ GER_BB_HISTORICAL = {
 	}
 }
 
-### BATTLECRUISER NAMES ###
 GER_BC_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_BC
 
 	for_countries = { GER }
-
-	can_use = { 
-		NOT = {
-			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
-				has_completed_focus = GER_the_monarchy_compromise
-			}
-		}
-	}
 
 	type = ship
 	ship_types = { battleship }
@@ -223,58 +42,79 @@ GER_BC_HISTORICAL = {
 	}
 }
 
-### AIRCRAFT CARRIER NAMES ###
-GER_CV_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CARRIERS
+GER_DE_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DE
 
 	for_countries = { GER }
 
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
 			}
 		}
 	}
 
 	type = ship
-	ship_types = { carrier }
-	
-	fallback_name = "Flugzeugträger %d"
+	ship_types = { destroyer }
 
-	unique = {
-		"Graf Zeppelin" "Peter Strasser"
-	}
+	fallback_name = "F%d"
+
 }
-
-### LIGHT CARRIER NAMES ###
-GER_CVL_HISTORICAL = {
-	name = NAME_THEME_HISTORICAL_CVL
+GER_TB_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_TB
 
 	for_countries = { GER }
 
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	link_numbering_with = { GER_THEME_ANIMALS }
+
+	type = ship
+	ship_types = { destroyer }
+	
+	fallback_name = "T%d"
+	
+}
+
+GER_MS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_MINESWEEPERS
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
 			}
 		}
 	}
 
 	type = ship
-	ship_types = { light_carrier }
+	ship_types = { destroyer }
 	
-	fallback_name = "Leichter Flugzeugträger %d"
+	fallback_name = "M%d"
 
-	unique = {
-		"Weser"
-		"Elbe" "Jade"
-	}
 }
 
-### SUBMARINES ###
 GER_SS_HISTORICAL = {
 	name = NAME_THEME_HISTORICAL_SUBMARINES
 
@@ -283,8 +123,10 @@ GER_SS_HISTORICAL = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
 			}
 		}
 	}
@@ -306,6 +148,459 @@ GER_SS_HISTORICAL = {
 	}
 }
 
+GER_CA_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CA
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { heavy_cruiser }
+	
+	fallback_name = "Schwerer Kreuzer %d"
+	
+	unique = {
+		"Deutschland" "Admiral Scheer" "Admiral Graf Spee"
+		"Admiral Hipper" "Blücher"
+		"Prinz Eugen" "Seydlitz" "Lützow"
+		"Fürst Bismarck"
+		"Prinz Heinrich"
+		"Prinz Adalbert" "Friedrich Carl"
+		"Roon" "Yorck"
+		"Scharnhorst" "Gneisenau"
+	}
+}
+
+GER_CL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CL
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { light_cruiser }
+	
+	fallback_name = "Leichter Kreuzer %d"
+	
+	unique = {
+		"Emden"
+		"Königsberg" "Karlsruhe" "Köln"
+		"Leipzig"
+		"Nürnberg"
+		"Bremen" "Hamburg" "Berlin" "Lübeck" "München" "Danzig"
+		"Stuttgart" "Stettin"
+		"Dresden"
+		"Kolberg" "Mainz" "Cöln" "Augsburg"
+		"Magdeburg" "Breslau" "Straßburg" "Stralsund"
+		"Rostock"
+		"Graudenz" "Regensburg"
+		"Pillau" "Elbing"
+		"Frankfurt"
+		"Brummer" "Bremse"
+		"Wiesbaden" "Frauenlob"
+		"Gazelle" "Niobe" "Nymphe" "Thetis" "Ariadne" "Amazone" "Medusa" "Arcona" "Undine"
+	}
+}
+  
+GER_CS_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CS
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { light_cruiser destroyer}
+	
+	fallback_name = "SP %d"
+	
+	ordered = {
+		1 = {"Dessau"}
+		2 = {"Witten"}
+		3 = {"Görlitz"}
+		4 = {"Esslingen"}
+		5 = {"Neumünster"}
+		6 = {"Castrop-Rauxel"}
+		7 = {"Gladbeck"}
+		8 = {"Plauen"}
+		9 = {"Lüdenscheid"}
+		10 = {"Ludwigsburg"}
+		11 = {"Worms"}
+		12 = {"Marl"}
+		13 = {"Gütersloh"}
+		14 = {"Gießen"}
+		15 = {"Lünen"}
+		16 = {"Bamberg"}
+		17 = {"Paderborn"}
+		18 = {"Herford"}
+		19 = {"Bayreuth"}
+		20 = {"Delmenhorst"}
+		21 = {"Detmold"}
+		22 = {"Weimar"}
+		23 = {"Neuwied"}
+		24 = {"Konstanz"}
+		25 = {"Rüsselsheim"}
+		26 = {"Lüneburg"}
+		27 = {"Hattingen"}
+		28 = {"Hoyerswerda"}
+		29 = {"Schweinfurt"}
+		30 = {"Siegen"}
+		31 = {"Iserlohn"}
+		32 = {"Celle"}
+		33 = {"Gotha"}
+		34 = {"Wismar"}
+		35 = {"Merseburg"}
+		36 = {"Norderstedt"}
+		37 = {"Velbert"}
+		38 = {"Hanau"}
+		39 = {"Dinslaken"}
+		40 = {"Pirmasens"}
+		41 = {"Tübingen"}
+		42 = {"Aschaffenburg"}
+		43 = {"Hof"}
+		44 = {"Düren"}
+		45 = {"Moers"}
+		46 = {"Herten"}
+		47 = {"Landshut"}
+		48 = {"Hürth"}
+		49 = {"Troisdorf"}
+		50 = {"Eisenach"}
+		51 = {"Freiberg"}
+		52 = {"Unna"}
+		53 = {"Bergisch Gladbach"}
+		54 = {"Hilden"}
+		55 = {"Rheine"}
+		56 = {"Ahlen"}
+		57 = {"Riesa"}
+		58 = {"Heidenheim"}
+		59 = {"Bad Salzuflen"}
+		60 = {"Bocholt"}
+		61 = {"Minden"}
+		62 = {"Göppingen"}
+		63 = {"Pirna"}
+		64 = {"Marburg"}
+		65 = {"Hameln"}
+		66 = {"Cuxhaven"}
+		67 = {"Greifswald"}
+		68 = {"Meerbusch"}
+		69 = {"Zeitz"}
+		70 = {"Altenburg"}
+		71 = {"Halberstadt"}
+		72 = {"Schönebeck"}
+		73 = {"Weißenfels"}
+		74 = {"Neubrandenburg"}
+		75 = {"Meißen"}
+		76 = {"Eisenhüttenstadt"}
+		77 = {"Bernburg"}
+		78 = {"Wesel"}
+		79 = {"Mühlhausen"}
+		80 = {"Kempten"}
+		81 = {"Gummersbach"}
+		82 = {"Nordhausen"}
+		83 = {"Ratingen"}
+		84 = {"Nordhorn"}
+		85 = {"Schwäbisch Gmünd"}
+		86 = {"Bergkamen"}
+		87 = {"Langenfeld"}
+		88 = {"Bautzen"}
+		89 = {"Friedrichshafen"}
+		90 = {"Kleve"}
+		91 = {"Neunkirchen"}
+		92 = {"Zittau"}
+		93 = {"Coburg"}
+		94 = {"Euskirchen"}
+		95 = {"Bad Kreuznach"}
+		96 = {"Speyer"}
+		97 = {"Freital"}
+		98 = {"Bad Homburg"}
+		99  = {"Kamen"}
+		100 = {"Sindelfingen"}
+		101 = {"Lippstadt"}
+		102 = {"Frankenthal"}
+		103 = {"Singen"}
+		104 = {"Amberg"}
+		105 = {"Elmshorn"}
+		106 = {"Brühl"}
+		107 = {"Radebeul"}
+		108 = {"Wolfenbüttel"}
+		109 = {"Bünde"}
+		110 = {"Goslar"}
+		111 = {"Kempen"}
+		112 = {"Stolberg"}
+		113 = {"Dorsten"}
+		114 = {"Völklingen"}
+		115 = {"Greiz"}
+		116 = {"Saarlouis"}
+		117 = {"Lemgo"}
+		118 = {"Kaufbeuren"}
+		119 = {"Idar-Oberstein"}
+		120 = {"Eschweiler"}
+		121 = {"Kamp-Lintfort"}
+		122 = {"Monheim am Rhein"}
+		123 = {"Villingen-Schwenningen"}
+		124 = {"Naumburg"}
+		125 = {"Straubing"}
+		126 = {"Willich"}
+		127 = {"Soest"}
+		128 = {"Güstrow"}
+		129 = {"Baden-Baden"}
+		130 = {"Aschersleben"}
+		131 = {"Ennepetal"}
+		132 = {"Rosenheim"}
+		133 = {"Aalen"}
+		134 = {"Rheda-Wiedenbrück"}
+		135 = {"Wetzlar"}
+		136 = {"Löhne"}
+		137 = {"Nettetal"}
+		138 = {"Stendal"}
+		139 = {"Köthen"}
+		140 = {"Erftstadt"}
+		141 = {"Itzehoe"}
+		142 = {"Böblingen"}
+		143 = {"Langenhagen"}
+		144 = {"Datteln"}
+		145 = {"Pinneberg"}
+		146 = {"Neu-Isenburg"}
+		147 = {"Rendsburg"}
+		148 = {"Schwedt"}
+		149 = {"Schwelm"}
+		150 = {"Lörrach"}
+		151 = {"Siegburg"}
+		152 = {"Gevelsberg"}
+		153 = {"Saalfeld"}
+		154 = {"Ansbach"}
+		155 = {"Offenburg"}
+		156 = {"Memmingen"}
+		157 = {"Dachau"}
+		158 = {"Höxter"}
+		159 = {"Zweibrücken"}
+		160 = {"Stade"}
+		161 = {"Wernigerode"}
+		162 = {"Homburg"}
+		163 = {"Sangerhausen"}
+		164 = {"Schleswig"}
+		165 = {"Glauchau"}
+		166 = {"Ravensburg"}
+		167 = {"Sankt Augustin"}
+		168 = {"Rudolstadt"}
+		169 = {"Suhl"}
+		170 = {"Lingen"}
+		171 = {"Landau"}
+		172 = {"Bornheim"}
+		173 = {"Königswinter"}
+		174 = {"Frechen"}
+		175 = {"Peine"}
+		176 = {"Lage"}
+		177 = {"Dormagen"}
+		178 = {"Fürstenwalde"}
+		179 = {"Alsdorf"}
+		180 = {"Passau"}
+		181 = {"Quedlinburg"}
+		182 = {"Wetter"}
+		183 = {"Mettmann"}
+		184 = {"Eisleben"}
+		185 = {"Leer"}
+		186 = {"Plettenberg"}
+		187 = {"Menden"}
+		188 = {"Burg"}
+		189 = {"Rastatt"}
+		190 = {"Langen"}
+		191 = {"Rathenow"}
+		192 = {"Sonneberg"}
+		193 = {"Weinheim"}
+		194 = {"Wedel"}
+		195 = {"Freising"}
+		196 = {"Borken"}
+		197 = {"Emsdetten"}
+		198 = {"Apolda"}
+		199 = {"Fellbach"}
+		200 = {"Luckenwalde"}
+		201 = {"Arnstadt"}
+		202 = {"Kreuztal"}
+		203 = {"Kornwestheim"}
+		204 = {"Georgsmarienhütte"}
+		205 = {"Heiligenhaus"}
+		206 = {"Voerde"}
+		207 = {"Nordenham"}
+		208 = {"Neu-Ulm"}
+		209 = {"Döbeln"}
+		210 = {"Neustrelitz"}
+		211 = {"Viernheim"}
+		212 = {"Backnang"}
+		213 = {"Grevenbroich"}
+		214 = {"Bensheim"}
+		215 = {"Goch"}
+		216 = {"Beckum"}
+		217 = {"Helmstedt"}
+		218 = {"Geislingen"}
+		219 = {"Bruchsal"}
+		220 = {"Andernach"}
+		221 = {"Garmisch-Patenkirchen"}
+		222 = {"Wermelskirchen"}
+		223 = {"Greven"}
+		224 = {"Tuttlingen"}
+		225 = {"Schwabach"}
+		226 = {"Gronau"}
+		227 = {"Garbsen"}
+		228 = {"Coesfeld"}
+		229 = {"Staßfurt"}
+		230 = {"Hennef"}
+		231 = {"Falkensee"}
+		232 = {"Wesseling"}
+		233 = {"Waltrop"}
+		234 = {"Limbach-Oberfrohna"}
+		235 = {"Meiningen"}
+		236 = {"Biberach"}
+		237 = {"Ahrensburg"}
+		238 = {"Lennestadt"}
+		239 = {"Oberursel"}
+		240 = {"Lindau"}
+		241 = {"Husum"}
+		242 = {"Leonberg"}
+		243 = {"Lahr"}
+		244 = {"Werl"}
+		245 = {"Uelzen"}
+	}
+}  
+
+GER_DD_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_DESTROYERS
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { destroyer }
+	
+	fallback_name = "Z %d"
+
+	
+	ordered = {
+		1 = {"Z1 Leberecht Maass"}
+		2 = {"Z2 Georg Thiele"} 
+		3 = {"Z3 Max Schultz"} 
+		4 = {"Z4 Richard Beitzen"} 
+		5 = {"Z5 Paul Jacobi"} 
+		6 = {"Z6 Theodor Riedel"} 
+		7 = {"Z7 Hermann Schoemann"} 
+		8 = {"Z8 Bruno Heinemann"} 
+		9 = {"Z9 Wolfgang Zenker"} 
+		10 = {"Z10 Hans Lody"}
+		11 = {"Z11 Bernd von Arnim"} 
+		12 = {"Z12 Erich Giese"}
+		13 = {"Z13 Erich Koellner"}
+		14 = {"Z14 Friedrich Ihn"}
+		15 = {"Z15 Erich Steinbrinck"}
+		16 = {"Z16 Friedrich Eckholdt"}
+		17 = {"Z17 Diether von Roeder"}
+		18 = {"Z18 Hans Lüdemann"}
+		19 = {"Z19 Hermann Kühne"}
+		20 = {"Z20 Karl Galster"}
+		21 = {"Z21 Wilhelm Heidkamp"}
+		22 = {"Z22 Anton Schmidt"}
+	}
+}
+
+GER_CV_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CARRIERS
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { carrier }
+	
+	fallback_name = "Träger %d"
+	
+	unique = {
+		"Graf Zeppelin" "Peter Strasser"
+	}
+}
+
+GER_CVL_HISTORICAL = {
+	name = NAME_THEME_HISTORICAL_CVL
+
+	for_countries = { GER }
+
+	can_use = { 
+		NOT = {
+			OR = { 
+				has_completed_focus = GER_return_of_the_kaiser 
+				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
+			}
+		}
+	}
+
+	type = ship
+	ship_types = { light_carrier }
+	
+	fallback_name = "Hilfsträger %d"
+
+	link_numbering_with = { GER_THEME_RIVERS }
+	
+	ordered = {
+		1 = {"Weser"}
+		2 = {"Elbe"} 
+		3 = {"Jade"} 
+	}
+}
+
 GER_THEME_FISH = {
 	name = NAME_THEME_FISH
 
@@ -314,13 +609,17 @@ GER_THEME_FISH = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
 			}
 		}
 	}
 
 	type = ship
+	
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Zander"}
@@ -358,31 +657,37 @@ GER_THEME_ANIMALS = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
 			}
 		}
 	}
 
 	type = ship
 	
+	fallback_name = "Schiff %d"
+
+	link_numbering_with = { GER_TB_HISTORICAL }
+	
 	ordered = {
-		1 = {"Möwe"}
-		2 = {"Albatros"} 
-		3 = {"Seeadler"} 
-		4 = {"Greif"} 
-		5 = {"Falke"} 
-		6 = {"Kondor"} 
-		7 = {"Wolf"} 
-		8 = {"Iltis"} 
-		9 = {"Gepard"} 
-		10 = {"Panther"}
-		11 = {"Tiger"} 
-		12 = {"Löwe"}
-		13 = {"Luchs"}
+		201 = {"Möwe"}
+		202 = {"Albatros"} 
+		203 = {"Seeadler"} 
+		204 = {"Greif"} 
+		205 = {"Falke"} 
+		206 = {"Kondor"} 
+		207 = {"Wolf"} 
+		208 = {"Iltis"} 
+		209 = {"Luchs"} 
+		210 = {"Jaguar"}
+		211 = {"Tiger"} 
+		212 = {"Leopard"}
+		13 = {"Gepard"}
 		14 = {"Bär"}
-		15 = {"Jaguar"}
-		16 = {"Leopard"}
+		15 = {"Panther"}
+		16 = {"Löwe"}
 		17 = {"Kobra"}
 		18 = {"Viper"}
 		19 = {"Drache"}
@@ -427,26 +732,32 @@ GER_THEME_RIVERS = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
 			}
 		}
 	}
 
 	type = ship
 	
+	link_numbering_with = { GER_CVL_HISTORICAL }
+	
+	fallback_name = "Schiff %d"
+	
 	ordered = {
-		1 = {"Rhein"}
-		2 = {"Donau"} 
-		3 = {"Oder"} 
-		4 = {"Warnow"} 
+		1 = {"Weser"}
+		2 = {"Jade"} 
+		3 = {"Elbe"} 
+		4 = {"Rhein"} 
 		5 = {"Recknitz"} 
 		6 = {"Neiße"} 
 		7 = {"Main"} 
 		8 = {"Trave"} 
 		9 = {"Uecker"} 
-		28 = {"Jade"}
-		29 = {"Elbe"}
+		28 = {"Donau"}
+		29 = {"Oder"}
 		10 = {"Inn"}
 		11 = {"Isar"} 
 		12 = {"Maas"}
@@ -458,7 +769,7 @@ GER_THEME_RIVERS = {
 		16 = {"Alf"}
 		17 = {"Neckar"}
 		18 = {"Sauer"}
-		19 = {"Weser"}
+		19 = {"Warnow"}
 		20 = {"Aller"}
 		21 = {"Fulda"}
 		22 = {"Werra"}
@@ -475,13 +786,18 @@ GER_THEME_GERMANIC = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
 			}
 		}
 	}
 
 	type = ship
+	
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Wotan"}
@@ -523,13 +839,18 @@ GER_THEME_BATTLE = {
 	can_use = { 
 		NOT = {
 			OR = { 
-				has_completed_focus = GER_return_of_the_kaiser
+				has_completed_focus = GER_return_of_the_kaiser 
 				has_completed_focus = GER_the_monarchy_compromise
+				has_completed_focus = GER_revive_the_kaiserreich_ww
+				has_completed_focus = GER_the_monarchy_compromise_ww
+				has_completed_focus = GER_start_the_proletarian_revolution
 			}
 		}
 	}
 
 	type = ship
+	
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Skaggerak"}
@@ -557,106 +878,67 @@ GER_THEME_BATTLE = {
 	}
 }
 
-### REGULAR DESTROYER NAMES###
-GER_DD_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_DD
+GER_BB_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BB
 
 	for_countries = { GER }
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
-	
-	type = ship
-	ship_types = { destroyer }
-	
 	prefix = "SMS "
-	fallback_name = "SMS Schiff %d"
-	
-	unique = { 
-		"G 200" "G 201" "G 202" "G 203" "G 204" "G 205" "G 206"
-		"S 207"
-		"G 208"
-		"V 209"
-		"S 210"
-		"G 211" "G 212" "G 213" "V 214"
-		"V 215" "V 216" "V 217" "V 218" "V 219"
-		"G 220"
-		"S 221" "S 222" "S 223" "S 224"
-		"T 225"
-		"T 226" "T 227" "T 228" "T 229" 
-		"B 230"
-		"S 231" "S 232" "S 233" "S 234" "S 235" "S 236"
-		"V 237"	"V 238" "V 239"
-		"T 240"
-		"S 241" "S 242"
-		"B 243"	"B 244" "B 245"
-		"S 246"
-		"V 247" "V 248" "V 249"
-		"G 250" "G 251" "G 252"	"G 253"	"G 254"
-		"B 255"
-		"S 256"
-		"B 257" "B 258" "B 259"
-		"T 260"
-		"S 261" "S 262"
-		"B 263" "B 264" "B 265" 
-		"S 266"
-		"G 267" "G 268" "G 269"
-		"T 270"
-		"S 271"
-		"V 272" "V 273" "V 274"
-		"B 275"
-		"S 276" "S 277" "S 278" "S 279"
-		"V 280" "V 281" "V 282" "V 283" "V 284" "V 285"
-		"B 286"	"B 287" "B 288" "B 289"
-		"G 290"	"G 291" "G 292" "G 293"	"G 294"
-		"T 295" "T 296" "T 297" "T 298" "T 299"
-	}
-}
-
-### LIGHT CRUISER NAMES###
-GER_CL_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CL
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-	
 	type = ship
-	ship_types = { light_cruiser}
+	ship_types = { battleship }
 	
-	prefix = "SMS "
-	fallback_name = "SMS Leichter Kreuzer %d"
+	fallback_name = "Schlachtschiff %d"
 
+	
 	unique = {
-		"Emden"
-		"Königsberg" "Karlsruhe" "Köln"
-		"Leipzig"
-		"Nürnberg"
-		"Bremen" "Hamburg" "Berlin" "Lübeck" "München" "Danzig"
-		"Stuttgart" "Stettin"
-		"Dresden"
-		"Kolberg" "Mainz" "Cöln" "Augsburg"
-		"Magdeburg" "Breslau" "Straßburg" "Stralsund"
-		"Rostock"
-		"Graudenz" "Regensburg"
-		"Pillau" "Elbing"
-		"Frankfurt"
-		"Brummer" "Bremse"
-		"Wiesbaden" "Frauenlob"
-		"Gazelle" "Niobe" "Nymphe" "Thetis" "Ariadne" "Amazone" "Medusa" "Arcona" "Undine"
+		"Gneisenau" "Scharnhorst"
+		"Bismarck" "Tirpitz"
+		"Nassau" "Westfalen" "Rheinland" "Posen"
+		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"
+		"Kaiser" "Friedrich der Grosse" "Kaiserin" "König Albert" "Prinzregent Luitpold"
+		"König" "Grosser Kurfürst" "Markgraf" "Kronprinz"
+		"Bayern" "Baden"
+		"Sachsen" "Württemberg"
 	}
 }
 
-### HEAVY CRUISER NAMES###
+GER_BC_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_BC
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = { battleship }
+	
+	fallback_name = "Schlachtkreuzer %d"
+	
+	unique = {
+		"Von der Tann"
+		"Moltke" "Goeben"
+		"Seydlitz"
+		"Derfflinger" "Lützow"
+		"Hindenburg"
+		"Mackensen" "Graf Spee"
+	}
+}
+
 GER_CA_IMPERIAL = {
 	name = NAME_THEME_IMPERIAL_CA
 
@@ -664,16 +946,17 @@ GER_CA_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
-	
+	prefix = "SMS "
 	type = ship
 	ship_types = { heavy_cruiser }
 	
-	prefix = "SMS "
-	fallback_name = "SMS Schwerer Kreuzer %d"
+	fallback_name = "Schwerer Kreuzer %d"
 	
 	unique = {
 		"Deutschland" "Admiral Scheer" "Admiral Graf Spee"
@@ -687,136 +970,6 @@ GER_CA_IMPERIAL = {
 	}
 }
 
-### BATTLESHIP NAMES ###
-GER_BB_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_BB
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-	
-	type = ship
-	ship_types = { battleship }
-	
-	prefix = "SMS "
-	fallback_name = "SMS Schlachtschiff %d"
-
-	unique = {
-		"Gneisenau" "Scharnhorst"
-		"Bismarck" "Tirpitz"
-		"Nassau" "Westfalen" "Rheinland" "Posen"
-		"Helgoland" "Ostfriesland" "Thüringen" "Oldenburg"
-		"Kaiser" "Friedrich der Grosse" "Kaiserin" "König Albert" "Prinzregent Luitpold"
-		"König" "Grosser Kurfürst" "Markgraf" "Kronprinz"
-		"Bayern" "Baden"
-		"Sachsen" "Württemberg"
-	}
-}
-
-### BATTLECRUISER NAMES ###
-GER_BC_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_BC
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-	
-	type = ship
-	ship_types = { battleship }
-	
-	prefix = "SMS "
-	fallback_name = "SMS Schlachtkreuzer %d"
-
-	unique = {
-		"Von der Tann"
-		"Moltke" "Goeben"
-		"Seydlitz"
-		"Derfflinger" "Lützow"
-		"Hindenburg"
-		"Mackensen" "Graf Spee"
-	}
-}
-
-### AIRCRAFT CARRIER NAMES ###
-GER_CV_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CARRIERS
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-
-	type = ship
-	ship_types = { carrier }
-	
-	prefix = "SMS "
-	fallback_name = "SMS Flugzeugträger %d"
-
-	unique = {
-		"Graf Zeppelin" "Peter Strasser"
-	}
-}
-
-### LIGHT CARRIER NAMES ###
-GER_CVL_IMPERIAL = {
-	name = NAME_THEME_IMPERIAL_CVL
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-
-	type = ship
-	ship_types = { light_carrier }
-	
-	prefix = "SMS "
-	fallback_name = "SMS Leichter Flugzeugträger %d"
-
-	unique = {
-		"Weser"
-		"Elbe" "Jade"
-	}
-}
-
-### SUBMARINES ###
-GER_SS_IMPERIAL = {
-	name = NAME_THEME_HISTORICAL_SUBMARINES
-
-	for_countries = { GER }
-
-	can_use = { 
-		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
-			has_completed_focus = GER_the_monarchy_compromise
-		}
-	}
-
-	type = ship
-	ship_types = { ship_hull_submarine }
-	
-	prefix = "SMS "
-	fallback_name = "SMS U-%d"
-	
-}
-
 GER_THEME_ANIMALS_IMPERIAL = {
 	name = NAME_THEME_ANIMALS
 
@@ -825,14 +978,18 @@ GER_THEME_ANIMALS_IMPERIAL = {
 	can_use = { 
 		
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 		
 	}
-	
 	prefix = "SMS "
 	type = ship
+	
+	fallback_name = "Schiff %d"
+
 	
 	ordered = {
 		1 = {"Möwe"}
@@ -887,6 +1044,91 @@ GER_THEME_ANIMALS_IMPERIAL = {
 	}
 }
 
+GER_DD_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_DD
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = { destroyer }
+	
+	fallback_name = "T %d"
+
+	unique = { 
+		"G 200" "G 201" "G 202" "G 203" "G 204" "G 205" "G 206"
+		"S 207"
+		"G 208"
+		"V 209"
+		"S 210"
+		"G 211" "G 212" "G 213" "V 214"
+		"V 215" "V 216" "V 217" "V 218" "V 219"
+		"G 220"
+		"S 221" "S 222" "S 223" "S 224"
+		"T 225"
+		"T 226" "T 227" "T 228" "T 229" 
+		"B 230"
+		"S 231" "S 232" "S 233" "S 234" "S 235" "S 236"
+		"V 237"	"V 238" "V 239"
+		"T 240"
+		"S 241" "S 242"
+		"B 243"	"B 244" "B 245"
+		"S 246"
+		"V 247" "V 248" "V 249"
+		"G 250" "G 251" "G 252"	"G 253"	"G 254"
+		"B 255"
+		"S 256"
+		"B 257" "B 258" "B 259"
+		"T 260"
+		"S 261" "S 262"
+		"B 263" "B 264" "B 265" 
+		"S 266"
+		"G 267" "G 268" "G 269"
+		"T 270"
+		"S 271"
+		"V 272" "V 273" "V 274"
+		"B 275"
+		"S 276" "S 277" "S 278" "S 279"
+		"V 280" "V 281" "V 282" "V 283" "V 284" "V 285"
+		"B 286"	"B 287" "B 288" "B 289"
+		"G 290"	"G 291" "G 292" "G 293"	"G 294"
+		"T 295" "T 296" "T 297" "T 298" "T 299"
+	}
+}
+
+GER_CV_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CARRIERS
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+
+	type = ship
+	ship_types = { carrier }
+	prefix = "SMS "
+	fallback_name = "Träger %d"
+
+	
+	unique = {
+		"Graf Zeppelin" "Peter Strasser"
+	}
+}
+
 GER_THEME_GERMANIC_IMPERIAL = {
 	name = NAME_THEME_GERMANIC_MYTHOLOGY
 
@@ -894,13 +1136,16 @@ GER_THEME_GERMANIC_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
 
 	type = ship
 	prefix = "SMS "
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Wotan"}
@@ -941,13 +1186,16 @@ GER_THEME_BATTLE_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
 
 	type = ship
 	prefix = "SMS "
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Skaggerak"}
@@ -971,6 +1219,7 @@ GER_THEME_BATTLE_IMPERIAL = {
 		14 = {"Doggerbank"}
 		15 = {"Coronel"}
 		16 = {"Penang"}
+
 	}
 }
 
@@ -981,13 +1230,16 @@ GER_THEME_FISH_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
 
 	type = ship
 	prefix = "SMS "
+	fallback_name = "Schiff %d"
 	
 	ordered = {
 		1 = {"Zander"}
@@ -1017,6 +1269,27 @@ GER_THEME_FISH_IMPERIAL = {
 	}
 }
 
+GER_SS_IMPERIAL = {
+	name = NAME_THEME_HISTORICAL_SUBMARINES
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+
+	type = ship
+	ship_types = { ship_hull_submarine }
+	prefix = "SMS "
+	fallback_name = "U-%d"
+	
+}
+
 GER_THEME_RIVERS_IMPERIAL = {
 	name = NAME_THEME_RIVERS
 
@@ -1024,14 +1297,16 @@ GER_THEME_RIVERS_IMPERIAL = {
 
 	can_use = { 
 		OR = { 
-			has_completed_focus = GER_return_of_the_kaiser
+			has_completed_focus = GER_return_of_the_kaiser 
 			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
 		}
 	}
 
 	type = ship
 	prefix = "SMS "
-
+	
 	ordered = {
 		1 = {"Rhein"}
 		2 = {"Donau"} 
@@ -1061,5 +1336,266 @@ GER_THEME_RIVERS_IMPERIAL = {
 		22 = {"Werra"}
 		23 = {"Alster"}
 		26 = {"Havel"}
+	}
+}
+
+GER_CL_IMPERIAL = {
+	name = NAME_THEME_IMPERIAL_CL
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = { 
+			has_completed_focus = GER_return_of_the_kaiser 
+			has_completed_focus = GER_the_monarchy_compromise
+			has_completed_focus = GER_revive_the_kaiserreich_ww
+			has_completed_focus = GER_the_monarchy_compromise_ww
+		}
+	}
+	prefix = "SMS "
+	type = ship
+	ship_types = { light_cruiser }
+	
+	fallback_name = "Leichter Kreuzer %d"
+
+	
+	unique = {
+		"Emden"
+		"Königsberg" "Karlsruhe" "Köln"
+		"Leipzig"
+		"Nürnberg"
+		"Bremen" "Hamburg" "Berlin" "Lübeck" "München" "Danzig"
+		"Stuttgart" "Stettin"
+		"Dresden"
+		"Kolberg" "Mainz" "Cöln" "Augsburg"
+		"Magdeburg" "Breslau" "Straßburg" "Stralsund"
+		"Rostock"
+		"Graudenz" "Regensburg"
+		"Pillau" "Elbing"
+		"Frankfurt"
+		"Brummer" "Bremse"
+		"Wiesbaden" "Frauenlob"
+		"Gazelle" "Niobe" "Nymphe" "Thetis" "Ariadne" "Amazone" "Medusa" "Arcona" "Undine"
+	}
+}
+
+GER_MR_HISTORICAL = { #Merchant Raiders
+	name = NAME_THEME_HISTORICAL_MR
+
+	for_countries = { GER }
+
+	can_use = { 
+		has_completed_focus = GER_cruiser_warfare 
+	}
+
+	type = ship
+	ship_types = { light_cruiser}
+	
+	unique = {
+		"Orion" "Atlantis" "Widder" "Thor" "Pinguin" "Stier" "Komet" "Kormoran" "Michel" "Coronel" "Hansa"
+	}
+	
+	fallback_name = "Hilfskreuzer %d"
+}
+
+
+
+### COMMUNIST UNIQUE SHIP NAMES ###
+
+
+
+GER_PEOPLE_COMMUNIST = {
+	name = NAME_THEME_COMMUNIST_PEOPLE
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = {
+			has_government = communism 
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+	prefix = "SMS "
+	type = ship
+
+	fallback_name = "Schiff %d"
+	
+	# Named after different revolutionary people
+	ordered = {
+		1 = {"Artelt"} # Karl Artelt
+		2 = {"Popp"}  # Lothar Popp
+		3 = {"Matrosen"} 
+		4 = {"Haußmann"} # Conrad Haußmann
+		5 = {"Noske"} # Gustav Noske
+		6 = {"Barth"} # Emil Barth
+		7 = {"Ebert"} # Friedrich Ebert
+		8 = {"Liebknecht"} # Karl Liebknecht
+		9 = {"Scheidemann"} # Philipp Scheidemann
+		46 = {"Ledebour"} # Georg Ledebour 
+		10 = {"Laufenberg"} # Heinrich Laufenberg
+		47 = {"Adelung"} # Bernhard Adelung
+		11 = {"Zetkin"} # Clara Zetkin
+		48 = {"Rosa Luxemburg"}
+		12 = {"Levi"} # Paul Levi 
+		13 = {"Jogiches"} # Leo Jogiches
+		14 = {"Duncker"} # Hermann Duncker
+		15 = {"Eberlein"} # Hugo Eberlein
+		16 = {"Radek"} # Karl Radek
+		17 = {"Ausländer"} # Fritz Ausländer
+		18 = {"Hoernle"} # Edwin Hoernle
+		19 = {"Walcher"} # Jacob Walcher
+		20 = {"Westmeyer"} # Friedrich Westmeyer
+		21 = {"Rühle"} # Otto Rühle
+		22 = {"Mehring"} # Franz Mehring
+		23 = {"Meyer"} # Ernst Meyer
+		24 = {"Pieck"} # Wilhelm Pieck
+		25 = {"Arendsee"} # Martha Arendsee
+		26 = {"Thalheimer"} # Bertha Thalheimer
+		27 = {"Brandler"} # Heinrich Brandler
+		28 = {"Marchlewski"} # Julian Marchlewski
+		29 = {"Haase"} # Hugo Haase
+		30 = {"Kautsky"} # Karl Kautsky
+		31 = {"Bernstein"} # Eduard Bernstein
+		32 = {"Heckert"} # Fritz Heckert
+		33 = {"Grosz"} # George Grosz
+		34 = {"Frölich"} # Paul Frölich
+		35 = {"Ulbricht"} # Walter Ulbricht
+		36 = {"Thälmann"} # Ernst Thälmann
+		37 = {"Grotewohl"} # Otto Grotewohl
+		38 = {"Zaisser"} # Wilhelm Zaisser
+		39 = {"Bästlein"} # Bernard Bästlein
+		40 = {"Fischer"} # Ruth Fischer
+		41 = {"Schehr"} # John Schehr
+		42 = {"Weinert"} # Erich Weinert
+		43 = {"Marx"} # Karl Marx
+		44 = {"Engels"} # Friedrich Engels
+		45 = {"Severing"} # Carl Severing
+		49 = {"Hasselmann"} # Wilhelm Hasselmann
+		50 = {"Marchwitza"} # Hans Marchwitza
+		51 = {"Zietz"} # Luise Zietz
+		52 = {"Dittmann"} # Wilhelm Dittmann
+		53 = {"Remmele"} # Hermann Remmele
+		54 = {"Schubert"} # Hermann Schubert
+		55 = {"Buber-Neumann"} # Margarete Buber-Neumann
+		56 = {"Korsch"} # Karl Korsch
+		57 = {"Schwarz"} # Ernst Schwarz
+		58 = {"Sobottka"} # Gustav Sobottka
+	}
+}
+
+GER_THEME_COMMUNIST_SLOGANS = {
+	name = NAME_THEME_COMMUNIST_SLOGANS
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = {
+			has_government = communism 
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+
+	prefix = "SMS "
+	type = ship
+	
+	fallback_name = "Schiff %d"
+	
+	# Revolutionary Slogans
+	ordered = {
+		1 = {"Die Rote Fahne"}
+		2 = {"Die Internationale"} 
+		3 = {"Proletarier aller Länder"} 
+		4 = {"Die Freiheit"} 
+		5 = {"Unsere Zeit"} 
+		6 = {"Vorwärts"} 
+		7 = {"Frieden und Sozialismus"} 
+		8 = {"Frieden und Einheit"} 
+		9 = {"Die Strahlende Zukunft der Menschheit"} 
+		10 = {"Roter Oktober"}
+		11 = {"Neues Deutschland"} 
+		12 = {"Gegen den Faschismus"}
+		13 = {"Gegen die Bourgeoisie"}
+		14 = {"Lang Lebe Spartakus"}
+		15 = {"Das Volk Hat Immer Recht"}
+		16 = {"Gegen den Imperialismus"}
+		17 = {"Die Permanente Revolution"}
+		18 = {"Antifaschistische Aktion"}
+		19 = {"Freies Volk"}
+		20 = {"Gegen den Strom"}
+		21 = {"Die Räterepublik"}
+		22 = {"Das Volksrecht"}
+		23 = {"Arbeitertribüne"}
+		24 = {"Der Klassenkampf"}
+		25 = {"Die Linke"}
+		26 = {"Die Kieler Matrosenaufstand"}
+		27 = {"Es Lebe die Sozialistische Republik"}
+		28 = {"Vereinigte Front"}
+		29 = {"Kronstadt"}
+		30 = {"Frieden und Syndikalismus"}
+		31 = {"Frieden und Anarchismus"}
+		32 = {"Gegen den Russischen Bolschewismus"}
+	}
+}
+
+GER_THEME_COMMUNIST_DDR = {
+	name = NAME_THEME_COMMUNIST_VOLKSMARINE
+
+	for_countries = { GER }
+
+	can_use = { 
+		OR = {
+			has_government = communism 
+			has_completed_focus = GER_start_the_proletarian_revolution
+		}
+	}
+
+	prefix = "SMS "
+	type = ship
+	
+	fallback_name = "Schiff %d"
+	
+	# DDR Ships
+	ordered = {
+		1 = {"Angermünde"}
+		2 = {"Bad Doberan"} 
+		3 = {"Bergen"} 
+		4 = {"Bützow"} 
+		5 = {"Gadebusch"} 
+		6 = {"Grevesmühlen"} 
+		7 = {"Güstrow"} 
+		8 = {"Lübz"} 
+		9 = {"Ludwigslust"} 
+		10 = {"Parchim"}
+		11 = {"Perleberg"} 
+		12 = {"Prenzlau"}
+		13 = {"Ribnitz-Damgarten"}
+		14 = {"Teterow"}
+		15 = {"Waren"}
+		16 = {"Wismar"}
+		17 = {"Jasmund"}
+		18 = {"Nordperd"}
+		19 = {"Ueckermuende"}
+		20 = {"Rostock"}
+		21 = {"Berlin-Haupstadt der DDR"}
+		22 = {"Peenemünde"}
+		23 = {"Warnemünde"}
+		24 = {"Sassnitz"}
+		25 = {"Moskit"}
+		26 = {"Hans Beimler"}
+		27 = {"Lumme"}
+		28 = {"Willi Bänsch"}
+		29 = {"Dranske"}
+		30 = {"Wustrow"}
+		31 = {"Rügen"}
+		32 = {"Hiddensee"}
+		33 = {"Altmark"}
+		34 = {"Dresden"}
+		35 = {"Libelle"}
+		36 = {"Triton"}
+		37 = {"Krake"}
+		38 = {"Komet"}
+		39 = {"Stralsund"}
+		40 = {"Orkan"}
+		41 = {"Halle"}
 	}
 }

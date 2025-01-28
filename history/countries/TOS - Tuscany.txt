@@ -1,13 +1,12 @@
 ﻿capital = 162
 
-
-
 set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
-add_ideas = {
-}
 
+add_ideas = {
+
+}
 
 # Starting tech
 set_technology = {
@@ -26,7 +25,8 @@ set_technology = {
 	basic_train = 1
 	armored_car1 = 1 #Fiat AB611 entered service in 1933
 }
-if = {
+
+IF = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
 	}
@@ -35,7 +35,7 @@ if = {
 		basic_light_tank = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
@@ -44,7 +44,7 @@ if = {
 		basic_light_tank_chassis = 1
 	}
 }
-if = {
+IF = {
 	limit = {
 		has_dlc = "Battle for the Bosporus"
 	}
@@ -59,6 +59,7 @@ set_politics = {
 	election_frequency = 60
 	elections_allowed = no
 }
+
 set_popularities = {
 	democratic = 30
 	fascism = 5
@@ -66,11 +67,11 @@ set_popularities = {
 	neutrality = 60
 }
 
-
+recruit_character = TOS_joseph_ferdinand_von_habsburg
 
 ### VARIANTS ###
 # 1936 Start #
-if = {
+IF = {
 	limit = {
 		has_dlc = "No Step Back"
 	}

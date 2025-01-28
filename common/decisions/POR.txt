@@ -392,7 +392,7 @@ POR_arms_purchases = {
 		}
 		complete_effect = {
 			ENG = {
-				country_event = { id = lar_portugal_purchase_ships.1 }
+				country_event = { id = lar_portugal_purchase_ships.1 hours = 3 }
 			}
 			set_country_flag = POR_ships_purchase_in_progress_flag
 			set_country_flag = {
@@ -445,7 +445,7 @@ POR_arms_purchases = {
 		}
 		complete_effect = {
 			ITA = {
-				country_event = { id = lar_portugal_purchase_ships.1 }
+				country_event = { id = lar_portugal_purchase_ships.1 hours = 3}
 			}
 			set_country_flag = POR_ships_purchase_in_progress_flag
 			set_country_flag = {
@@ -530,7 +530,7 @@ POR_arms_purchases = {
 				limit = {
 					ENG = {
 						has_tech = improved_submarine_snorkel
-						has_tech = improved_centimetric_radar
+						has_tech = phased_array
 						has_tech = modern_range_engines
 					}
 				}
@@ -618,7 +618,7 @@ POR_arms_purchases = {
 				limit = {
 					ENG = {
 						has_tech = basic_submarine_snorkel
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = advanced_range_engines
 					}
 				}
@@ -661,7 +661,7 @@ POR_arms_purchases = {
 			else_if = { #1938
 				limit = {
 					ENG = {
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 					}
 				}
 				if = {
@@ -823,7 +823,7 @@ POR_arms_purchases = {
 				limit = {
 					ITA = {
 						has_tech = improved_submarine_snorkel
-						has_tech = improved_centimetric_radar
+						has_tech = phased_array
 						has_tech = modern_range_engines
 					}
 				}
@@ -907,7 +907,7 @@ POR_arms_purchases = {
 				limit = {
 					ITA = {
 						has_tech = basic_submarine_snorkel
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = advanced_range_engines
 					}
 				}
@@ -948,7 +948,7 @@ POR_arms_purchases = {
 			else_if = { #1938
 				limit = {
 					ITA = {
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 					}
 				}
 				if = {
@@ -987,7 +987,7 @@ POR_arms_purchases = {
 			else_if = { #1936
 				limit = {
 					ITA = {
-						has_tech = radio_detection
+						is_special_project_completed = sp:sp_air_radar
 					}
 				}
 				if = {
@@ -1144,7 +1144,7 @@ POR_arms_purchases = {
 					ENG = {
 						has_tech = advanced_light_battery
 						has_tech = advanced_sonar
-						has_tech = improved_centimetric_radar
+						has_tech = phased_array
 						has_tech = modern_range_engines
 						has_tech = modern_depth_charges
 						has_tech = antiair5
@@ -1234,7 +1234,7 @@ POR_arms_purchases = {
 				limit = {
 					ENG = {
 						has_tech = improved_sonar
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = advanced_range_engines
 						has_tech = advanced_depth_charges
 						has_tech = antiair2
@@ -1278,7 +1278,7 @@ POR_arms_purchases = {
 			else_if = { #1938
 				limit = {
 					ENG = {
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = improved_depth_charges
 					}
 				}
@@ -1483,7 +1483,7 @@ POR_arms_purchases = {
 					ITA = {
 						has_tech = advanced_light_battery
 						has_tech = advanced_sonar
-						has_tech = improved_centimetric_radar
+						has_tech = phased_array
 						has_tech = modern_perf_engines
 						has_tech = modern_depth_charges
 						has_tech = antiair5
@@ -1577,7 +1577,7 @@ POR_arms_purchases = {
 					ITA = {
 						has_tech = improved_light_battery
 						has_tech = improved_sonar
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = advanced_perf_engines
 						has_tech = advanced_depth_charges
 						has_tech = antiair2
@@ -1623,7 +1623,7 @@ POR_arms_purchases = {
 				limit = {
 					ITA = {
 						has_tech = basic_sonar
-						has_tech = decimetric_radar
+						has_tech = cavity_magnatron
 						has_tech = improved_depth_charges
 					}
 				}
@@ -1667,7 +1667,7 @@ POR_arms_purchases = {
 				limit = {
 					ITA = {
 						has_tech = basic_sonar
-						has_tech = radio_detection
+						is_special_project_completed = sp:sp_air_radar
 						has_tech = improved_depth_charges
 					}
 				}
@@ -1822,7 +1822,7 @@ POR_arms_purchases = {
 						has_tech = advanced_light_battery
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
-						has_tech = advanced_centimetric_radar
+						has_tech = monopulse_radar
 						has_tech = modern_range_engines
 						has_tech = antiair5
 					}
@@ -1868,7 +1868,7 @@ POR_arms_purchases = {
 						has_tech = advanced_light_battery
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
-						has_tech = improved_decimetric_radar
+						has_tech = lobe_switching
 						has_tech = modern_range_engines
 						has_tech = antiair5
 					}
@@ -1913,7 +1913,7 @@ POR_arms_purchases = {
 					ENG = {
 						has_tech = improved_light_medium_battery
 						has_tech = improved_fire_control_system
-						has_tech = improved_decimetric_radar
+						has_tech = lobe_switching
 						has_tech = advanced_range_engines
 						has_tech = antiair2
 					}
@@ -2076,7 +2076,7 @@ POR_arms_purchases = {
 					ITA = {
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
-						has_tech = advanced_centimetric_radar
+						has_tech = monopulse_radar
 						has_tech = modern_perf_engines
 						has_tech = antiair5
 					}
@@ -2121,7 +2121,7 @@ POR_arms_purchases = {
 					ITA = {
 						has_tech = advanced_light_medium_battery
 						has_tech = advanced_fire_control_system
-						has_tech = improved_decimetric_radar
+						has_tech = lobe_switching
 						has_tech = modern_perf_engines
 						has_tech = antiair5
 					}
@@ -2166,7 +2166,7 @@ POR_arms_purchases = {
 					ITA = {
 						has_tech = improved_light_medium_battery
 						has_tech = improved_fire_control_system
-						has_tech = improved_decimetric_radar
+						has_tech = lobe_switching
 						has_tech = advanced_perf_engines
 						has_tech = antiair2
 					}
@@ -2534,8 +2534,14 @@ POR_iberian_summit = {
 				}
 				SPA = { has_war = no }
 			}
-			else = {
+			else_if = {
+				limit = {
+					country_exists = SPD
+				}
 				SPD = { has_war = no }
+			}
+			else = {
+				SPR = { has_war = no }
 			}
 			NOT = { has_global_flag = POR_iberian_summit_in_progress_flag }
 		}

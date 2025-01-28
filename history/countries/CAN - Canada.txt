@@ -22,6 +22,7 @@ if = {
 			engines_1 = 1
 			aircraft_construction = 1
 			iw_small_airframe = 1
+			bba_early_transport_plane = 1
 		}
 	else = {
 		set_air_oob = "CAN_1936_air_legacy"
@@ -111,7 +112,7 @@ if = {
 		early_fighter = 1
 		naval_bomber1 = 1
 		early_bomber = 1
-		
+		early_transport_plane = 1
 	}
 }
 
@@ -204,6 +205,7 @@ add_ideas = SRD_naval_treaty_adherent
 				aa_lmg = 1
 				early_bombs = 1
 				engines_1 = 1
+				bba_early_transport_plane = 1
 			}
 		else = {
 			set_air_oob = "CAN_1939_air_legacy"
@@ -230,7 +232,6 @@ add_ideas = SRD_naval_treaty_adherent
 		#electronics
 		electronic_mechanical_engineering = 1
 		radio = 1
-		radio_detection = 1
 		mechanical_computing = 1
 		computing_machine = 1
 
@@ -248,6 +249,9 @@ add_ideas = SRD_naval_treaty_adherent
 		dispersed_industry = 1
 		dispersed_industry2 = 1
 		dispersed_industry3 = 1
+	}
+	complete_special_project = {
+		project = sp:sp_air_radar
 	}
 }
 
