@@ -122,7 +122,7 @@ guiTypes = {
 
 				#### MODULE: Radar ####
 				containerWindowType = {
-					name = "ship_surveillance_radar"
+					name = "ship_radar"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					
@@ -134,7 +134,7 @@ guiTypes = {
 				}
 
 				containerWindowType = {
-					name = "ship_surveillance_radar@highlight"
+					name = "ship_radar@highlight"
 					position = { x=0 y=0 }
 					size = { width=100% height=100% }
 					

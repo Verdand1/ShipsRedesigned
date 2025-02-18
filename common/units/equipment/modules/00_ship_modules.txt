@@ -1594,8 +1594,8 @@ equipment_modules = {
 #  # #  # ###  #  # #  # 
 
 
-	ship_surveillance_radar_1 = {
-		category = ship_surveillance_radar
+	ship_radar_1 = {
+		category = ship_radar
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1605,14 +1605,14 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
-			module = ship_surveillance_radar
+			module = ship_radar
 			convert_cost_ic = 40
 		}
 		
 	}
-	ship_surveillance_radar_2 = {
-		category = ship_surveillance_radar
-		parent = ship_surveillance_radar_1
+	ship_radar_2 = {
+		category = ship_radar
+		parent = ship_radar_1
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1622,14 +1622,14 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
-			module = ship_surveillance_radar
+			module = ship_radar
 			convert_cost_ic = 80
 		}
 		
 	}
-	ship_surveillance_radar_3 = {
-		category = ship_surveillance_radar
-		parent = ship_surveillance_radar_2
+	ship_radar_3 = {
+		category = ship_radar
+		parent = ship_radar_2
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1639,14 +1639,14 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
-			module = ship_surveillance_radar
+			module = ship_radar
 			convert_cost_ic = 120
 		}
 		
 	}
-	ship_surveillance_radar_4 = {
-		category = ship_surveillance_radar
-		parent = ship_surveillance_radar_3
+	ship_radar_4 = {
+		category = ship_radar
+		parent = ship_radar_3
 		sfx = sfx_ui_sd_module_sonar
 		
 		add_stats = {
@@ -1656,7 +1656,7 @@ equipment_modules = {
 		manpower = 10 #outside the add_stats section for code reasons
 		
 		can_convert_from = {
-			module = ship_surveillance_radar
+			module = ship_radar
 			convert_cost_ic = 160
 		}
 		

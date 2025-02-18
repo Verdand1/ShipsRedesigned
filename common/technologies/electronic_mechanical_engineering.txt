@@ -235,7 +235,7 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		enable_equipment_modules = {
-			ship_surveillance_radar_1
+			ship_radar_1
 		#	radio_navigation_1
 		}
 		research_cost = 1.75
@@ -271,7 +271,7 @@ technologies = {
 		research_cost = 1.25
 		start_year = 1938
 		enable_equipment_modules = { 
-			ship_surveillance_radar_2
+			ship_radar_2
 			
 		}
 		
@@ -389,7 +389,7 @@ technologies = {
 		static_anti_air_hit_chance_factor = 0.2
 
 		enable_equipment_modules = { 
-			ship_surveillance_radar_3
+			ship_radar_3
 		}
 		
 		path = {
@@ -442,7 +442,7 @@ technologies = {
 		enable_equipment_modules = {
 			air_air_radar_2
 			air_ground_radar_2
-			ship_surveillance_radar_4
+			ship_radar_4
 		}
 
 		special_project_specialization = { specialization_air specialization_nuclear }

@@ -63,7 +63,7 @@ equipments = {
 			fixed_radar = {
 				required = no
 				allowed_module_categories = {
-					ship_surveillance_radar
+					ship_radar
 					ship_fire_control_radar
 				}
 			}
