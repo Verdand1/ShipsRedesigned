@@ -181,21 +181,19 @@ country_event = {
 				}
 				if = {
 					limit = {
-						NOT = { has_tech = improved_light_battery }
+						NOT = { is_special_project_completed = sp:sp_naval_fire_control_system }
 					}
-					set_technology = { improved_light_battery = 1 }
+					complete_special_project = {
+						project = sp:sp_naval_fire_control_system
+					}
 				}
 				if = {
 					limit = {
-						NOT = { has_tech = electronic_mechanical_engineering }
+						NOT = { is_special_project_completed = sp:sp_naval_light_dp_mounts }
 					}
-					set_technology = { electronic_mechanical_engineering = 1 }
-				}
-				if = {
-					limit = {
-						NOT = { has_tech = basic_fire_control_system }
+					complete_special_project = {
+						project = sp:sp_naval_light_dp_mounts
 					}
-					set_technology = { basic_fire_control_system = 1 }
 				}
 				create_equipment_variant = {
 					name = "Design 1047"
@@ -210,7 +208,7 @@ country_event = {
 						rear_1 = ship_heavy_battery_1
 						rear_2 = empty
 						mid_1 = ship_airplane_launcher_1
-						mid_2 = ship_light_battery_3
+						mid_2 = ship_light_dp_battery_2
 						mid_3 = ship_anti_air_2
 						mid_4 = ship_anti_air_2
 						front_2 = ship_anti_air_2
@@ -255,21 +253,19 @@ country_event = {
 		}
 		if = {
 			limit = {
-				NOT = { has_tech = improved_light_battery }
+				NOT = { is_special_project_completed = sp:sp_naval_fire_control_system }
 			}
-			set_technology = { improved_light_battery = 1 }
+			complete_special_project = {
+				project = sp:sp_naval_fire_control_system
+			}
 		}
 		if = {
 			limit = {
-				NOT = { has_tech = electronic_mechanical_engineering }
+				NOT = { is_special_project_completed = sp:sp_naval_light_dp_mounts }
 			}
-			set_technology = { electronic_mechanical_engineering = 1 }
-		}
-		if = {
-			limit = {
-				NOT = { has_tech = basic_fire_control_system }
+			complete_special_project = {
+				project = sp:sp_naval_light_dp_mounts
 			}
-			set_technology = { basic_fire_control_system = 1 }
 		}
 		create_equipment_variant = {
 			name = "Design 1047"
@@ -284,7 +280,7 @@ country_event = {
 				rear_1 = ship_heavy_battery_1
 				rear_2 = empty
 				mid_1 = ship_airplane_launcher_1
-				mid_2 = ship_light_battery_3
+				mid_2 = ship_light_dp_battery_2
 				mid_3 = ship_anti_air_2
 				mid_4 = ship_anti_air_2
 				front_2 = ship_anti_air_2

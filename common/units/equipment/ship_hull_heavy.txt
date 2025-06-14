@@ -82,6 +82,7 @@ equipments = {
 					ship_anti_air
 					ship_heavy_battery
 					ship_airplane_launcher
+					ship_rocket
 				}
 			}
 			rear_2 = {
@@ -90,9 +91,11 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 					ship_heavy_battery
 					ship_airplane_launcher
+					ship_rocket
 				}
 			}
 			mid_1 = {
@@ -101,8 +104,10 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 					ship_airplane_launcher
+					ship_rocket
 				}
 			}
 			mid_2 = mid_1
@@ -114,8 +119,10 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 					ship_heavy_battery
+					ship_rocket
 				}
 			}
 		}

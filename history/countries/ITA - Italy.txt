@@ -365,8 +365,8 @@ set_technology = {
 	fuel_silos = 1
 	fuel_refining = 1
 	basic_train = 1
-	electronic_mechanical_engineering = 1
 	basic_fire_control_system = 1
+	basic_sonar = 1
 	basic_light_battery = 1
 	basic_light_medium_battery = 1
 	basic_heavy_medium_battery = 1
@@ -392,6 +392,11 @@ set_technology = {
 	jeune_ecole = 1
 	submarine_operations = 1
 }
+
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
+}
+
 if = {
 	limit = {
 		has_dlc = "La Resistance"
@@ -1738,6 +1743,7 @@ create_equipment_variant = {
 	parent_version = 20 #22
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_perf_engine_2
 	}
@@ -1937,7 +1943,7 @@ create_equipment_variant = {
 	parent_version = 0 #11
 	role_icon_index = 2
 	modules = {
-		fixed_front_1 = ship_light_battery_1
+		fixed_front_1 = ship_light_battery_2
 		fixed_engine = ship_range_engine_2
 		rear_1 = empty
 		mid_1 = ship_anti_air_1

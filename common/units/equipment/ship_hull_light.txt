@@ -49,7 +49,10 @@ equipments = {
 		module_slots = {
 			fixed_front_1 = {
 				required = yes
-				allowed_module_categories = { ship_light_battery }
+				allowed_module_categories = {
+					ship_light_battery
+					ship_light_dp_battery
+				}
 			}
 			fixed_target_acquisition = {
 				required = no
@@ -79,9 +82,12 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_depth_charge
+					ship_ranged_asw
 					ship_mine_layer
 					ship_mine_warfare
+					ship_rocket
 				}
 			}
 			rear_2 = rear_1
@@ -91,6 +97,7 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_torpedo
+					ship_rocket
 				}
 			}
 			mid_2 = mid_1
@@ -101,6 +108,9 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
+					ship_ranged_asw
+					ship_rocket
 				}
 			}
 		}

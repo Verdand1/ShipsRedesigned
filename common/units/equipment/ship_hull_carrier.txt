@@ -89,6 +89,7 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 					ship_deck_space
 					ship_large_deck_space
@@ -101,6 +102,7 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 				}
 			}
@@ -112,6 +114,7 @@ equipments = {
 					ship_unavailable_space
 					ship_anti_air
 					ship_light_battery
+					ship_light_dp_battery
 					ship_light_medium_battery
 					ship_deck_space
 				}

@@ -28,7 +28,6 @@ set_technology = {
 	fuel_refining = 1
 	marines = 1
 	basic_train = 1
-	electronic_mechanical_engineering = 1
 	basic_fire_control_system = 1
 	basic_sonar = 1
 	improved_light_battery = 1
@@ -60,6 +59,16 @@ set_technology = {
 	individual_superiority = 1
 	escort_patrols = 1
 	submarine_operations = 1
+}
+
+complete_special_project = {
+	project = sp:sp_naval_light_dp_mounts
+}
+complete_special_project = {
+	project = sp:sp_naval_sonar
+}
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
 }
 
 if = {
@@ -574,7 +583,7 @@ create_equipment_variant = {
 	parent_version = 0 #7
 	role_icon_index = 1
 	modules = {
-		fixed_front_1 = ship_light_battery_3
+		fixed_front_1 = ship_light_dp_battery_2
 		fixed_target_acquisition = ship_sonar_1
 		fixed_engine = ship_range_engine_1
 		rear_1 = empty
@@ -598,14 +607,15 @@ create_equipment_variant = {
 	parent_version = 0 #8
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_depth_charge_1
-		rear_2 = ship_light_battery_1
+		rear_2 = ship_light_battery_2
 		mid_1 = ship_torpedo_2
 		mid_2 = ship_torpedo_2
 		mid_3 = ship_anti_air_2
-		front_2 = ship_light_battery_1
+		front_2 = ship_light_battery_2
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
@@ -668,7 +678,7 @@ create_equipment_variant = {
 	parent_version = 8 #12
 	role_icon_index = 1
 	modules = {
-		fixed_front_1 = ship_light_battery_3
+		fixed_front_1 = ship_light_dp_battery_2
 		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_radar = top_heavy
 		mid_3 = ship_torpedo_2
@@ -686,6 +696,7 @@ create_equipment_variant = {
 	parent_version = 11 #13
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_dp_battery_3
 		fixed_target_acquisition = ship_sonar_2
 		mid_3 = ship_anti_air_1
 	}
@@ -699,13 +710,13 @@ create_equipment_variant = {
 	parent_version = 0 #1
 	role_icon_index = 4
 	modules = {
-		fixed_front_1 = ship_light_battery_3
+		fixed_front_1 = ship_light_dp_battery_2
 		rear_1 = ship_mine_layer_1
 		mid_1 = ship_mine_layer_1
 		mid_2 = ship_mine_layer_1
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 1
+		ship_medium_engine_upgrade = 2
 		ship_medium_range_upgrade = 3
 	}
 }
@@ -788,7 +799,7 @@ create_equipment_variant = {
 		rear_2 = empty
 		mid_1 = ship_airplane_launcher_1
 		mid_2 = empty
-		mid_3 = ship_light_battery_3
+		mid_3 = ship_light_dp_battery_2
 		front_2 = ship_medium_battery_1
 	}
 	upgrades = {
@@ -867,6 +878,7 @@ create_equipment_variant = {
 		fixed_front_1 = ship_medium_battery_2
 		rear_1 = ship_medium_battery_2
 		rear_2 = empty
+		mid_3 = ship_light_dp_battery_3
 		mid_4 = ship_anti_air_2
 		front_2 = ship_medium_battery_2
 	}
@@ -925,8 +937,8 @@ create_equipment_variant = {
 		fixed_engine = ship_range_engine_1
 		rear_1 = ship_heavy_battery_1
 		mid_1 = ship_airplane_launcher_1
-		mid_2 = ship_light_battery_3
-		mid_3 = ship_light_battery_3
+		mid_2 = ship_light_dp_battery_2
+		mid_3 = ship_light_dp_battery_2
 		front_2 = empty
 	}
 	upgrades = {
@@ -1023,7 +1035,7 @@ create_equipment_variant = {
 		rear_1 = ship_deck_space_2
 		mid_1 = ship_anti_air_1
 		mid_2 = ship_anti_air_1
-		mid_3 = ship_light_battery_1
+		mid_3 = ship_light_dp_battery_2
 		front_2 = ship_deck_space_1
 	}
 	upgrades = {
@@ -1046,7 +1058,7 @@ create_equipment_variant = {
 		rear_1 = ship_deck_space_3
 		mid_1 = ship_anti_air_2
 		mid_2 = ship_anti_air_2
-		mid_3 = ship_light_battery_3
+		mid_3 = ship_light_dp_battery_2
 		front_2 = empty
 	}
 	upgrades = {

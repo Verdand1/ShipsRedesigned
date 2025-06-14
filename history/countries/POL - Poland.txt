@@ -40,8 +40,8 @@ set_technology = {
 	fuel_silos = 1
 	synth_oil_experiments = 1
 	basic_train = 1
-	electronic_mechanical_engineering = 1
 	basic_fire_control_system = 1
+	basic_light_battery = 1
 	improved_ship_torpedo_launcher = 1
 	basic_depth_charges = 1
 	improved_range_engines = 1
@@ -56,6 +56,10 @@ set_technology = {
 	brown_water_navy = 1
 	jeune_ecole = 1
 	convoy_interdiction = 1
+}
+
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
 }
 
 if = {
@@ -535,6 +539,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_1
 		rear_1 = ship_mine_layer_1
@@ -560,7 +565,7 @@ create_equipment_variant = {
 		fixed_target_acquisition = ship_fire_control_system_1
 		fixed_engine = ship_perf_engine_2
 		mid_3 = ship_anti_air_2
-		front_2 = ship_light_battery_1
+		front_2 = ship_light_battery_2
 	}
 	upgrades = {
 		ship_light_engine_upgrade = 9
@@ -577,7 +582,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 4
 	modules = {
-		fixed_front_1 = ship_light_battery_1
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = empty
 		fixed_engine = ship_range_engine_2
 		rear_1 = ship_mine_layer_1
@@ -586,7 +591,7 @@ create_equipment_variant = {
 		front_2 = ship_anti_air_2
 	}
 	upgrades = {
-		ship_medium_engine_upgrade = 1
+		ship_medium_engine_upgrade = 2
 		ship_medium_range_upgrade = 8
 	}
 }

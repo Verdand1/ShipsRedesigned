@@ -83,8 +83,8 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
-	electronic_mechanical_engineering = 1
 	basic_fire_control_system = 1
+	basic_light_battery = 1
 	improved_ship_torpedo_launcher = 1
 	basic_depth_charges = 1
 	improved_range_engines = 1
@@ -102,6 +102,10 @@ set_technology = {
 	not_brown_water_navy = 1
 	individual_superiority = 1
 	escort_patrols = 1
+}
+
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
 }
 
 IF = {
@@ -433,9 +437,10 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_engine = ship_perf_engine_1
 		rear_1 = ship_depth_charge_1
-		rear_2 = ship_light_battery_1
+		rear_2 = ship_light_battery_2
 		mid_1 = ship_torpedo_1
 		mid_2 = ship_torpedo_1
 		front_2 = empty
@@ -477,6 +482,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_2
 		rear_1 = empty
@@ -486,7 +492,7 @@ create_equipment_variant = {
 		front_2 = ship_anti_air_2
 	}
 	upgrades = {
-		ship_light_engine_upgrade = 8
+		ship_light_engine_upgrade = 9
 		ship_light_range_upgrade = 4
 		ship_light_armor_upgrade = 1
 	}
@@ -542,7 +548,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_engine = ship_range_engine_2
 		rear_1 = empty
-		mid_1 = ship_light_battery_1
+		mid_1 = ship_light_battery_2
 		mid_2 = empty
 	}
 	upgrades = {

@@ -15,9 +15,15 @@ technologies = {
 		enable_equipment_modules = {
 			ship_light_battery_1
 			ship_torpedo_1
-			ship_fire_control_system_0
 		}
 		
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_phosphorus_shell
+			}
+		}
+
 		path = {
 			leads_to_tech = basic_light_battery
 			research_cost_coeff = 1
@@ -48,6 +54,8 @@ technologies = {
 			naval_equipment
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	basic_light_battery = {
@@ -57,6 +65,10 @@ technologies = {
 		}
 		
 		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_light_dp_mounts
+			}
 			custom_effect_tooltip = light_battery_advice_tt
 		}
 
@@ -81,18 +93,32 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	improved_light_battery = {
 
 		enable_equipment_modules = {
 			ship_light_battery_3
+			ship_light_fake_dp_battery_3
 		}
 		
 		on_research_complete = {
+			custom_effect_tooltip = dp_light_battery_tt
 			custom_effect_tooltip = light_battery_advice_tt
+			if = {
+				limit = {
+					is_special_project_completed = sp:sp_naval_light_dp_mounts
+				}
+				set_technology = {
+					improved_dp_light_battery = 1
+					popup = no
+				}
+			}
 		}
 
 		path = {
@@ -116,18 +142,32 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	advanced_light_battery = {
 
 		enable_equipment_modules = {
 			ship_light_battery_4
+			ship_light_fake_dp_battery_4
 		}
 		
 		on_research_complete = {
+			custom_effect_tooltip = dp_light_battery_tt
 			custom_effect_tooltip = light_battery_advice_tt
+			if = {
+				limit = {
+					is_special_project_completed = sp:sp_naval_light_dp_mounts
+				}
+				set_technology = {
+					advanced_dp_light_battery = 1
+					popup = no
+				}
+			}
 		}
 
 		research_cost = 1.5
@@ -150,8 +190,11 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -207,6 +250,8 @@ technologies = {
 			cl_tech
 			ca_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_light_medium_battery = {
@@ -245,9 +290,12 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			cat_ship_medium_battery
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_light_medium_battery = {
@@ -314,9 +362,12 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			cat_ship_medium_battery
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_light_medium_battery = {
@@ -326,6 +377,10 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_light_medium_dp_mounts	
+			}
 			custom_effect_tooltip = light_medium_battery_advice_tt
 		}
 
@@ -377,9 +432,12 @@ technologies = {
 		categories = {
 			naval_equipment
 			ship_modules_tech
+			cat_ship_light_battery
 			cat_ship_medium_battery
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_heavy_medium_battery = {
@@ -433,6 +491,8 @@ technologies = {
 			cat_ship_medium_battery
 			ca_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_heavy_medium_battery = {
@@ -503,6 +563,8 @@ technologies = {
 			cat_ship_medium_battery
 			ca_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_heavy_medium_battery = {
@@ -567,6 +629,8 @@ technologies = {
 			cat_ship_medium_battery
 			ca_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -608,6 +672,8 @@ technologies = {
 			naval_equipment
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_heavy_battery = {
@@ -651,6 +717,8 @@ technologies = {
 			cat_ship_heavy_battery
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_heavy_battery = {
@@ -720,6 +788,8 @@ technologies = {
 			cat_ship_heavy_battery
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_heavy_battery = {
@@ -784,6 +854,8 @@ technologies = {
 			cat_ship_heavy_battery
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 
@@ -845,6 +917,8 @@ technologies = {
 			dd_tech
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	improved_light_shell = {
@@ -895,6 +969,8 @@ technologies = {
 			dd_tech
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_light_shell = {
@@ -940,6 +1016,8 @@ technologies = {
 			dd_tech
 			cl_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_heavy_shell = {
@@ -987,6 +1065,8 @@ technologies = {
 			ca_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	improved_heavy_shell = {
@@ -1031,6 +1111,8 @@ technologies = {
 			ca_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_heavy_shell = {
@@ -1070,6 +1152,8 @@ technologies = {
 			ca_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -1090,12 +1174,23 @@ technologies = {
 			ship_torpedo_sub_storage
 		}
 		
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_aip_engine	
+			}
+		}
+
 		path = {
 			leads_to_tech = basic_submarine_snorkel
 			research_cost_coeff = 1
 		}
 		path = {
 			leads_to_tech = improved_ship_torpedo_launcher
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = sp_aip_engine_improved_tech
 			research_cost_coeff = 1
 		}
 
@@ -1120,6 +1215,8 @@ technologies = {
 			naval_equipment
 			ss_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_submarine_snorkel = {
@@ -1129,6 +1226,10 @@ technologies = {
 		}
 		
 		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_anechoic_tiles	
+			}
 			custom_effect_tooltip = snorkel_advice_tt
 		}
 		
@@ -1170,6 +1271,8 @@ technologies = {
 			ship_modules_tech
 			ss_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_submarine_snorkel = {
@@ -1179,6 +1282,10 @@ technologies = {
 		}
 
 		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_underwater_optimised_submarine	
+			}
 			custom_effect_tooltip = snorkel_advice_tt
 		}
 		
@@ -1215,8 +1322,72 @@ technologies = {
 			ship_modules_tech
 			ss_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
+	sp_aip_engine_improved_tech = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_aip_engine
+			}
+		}
+
+		path = {
+			leads_to_tech = sp_aip_engine_advanced_tech
+			research_cost_coeff = 1
+		}
+
+		enable_equipment_modules = {
+			sub_ship_aip_engine_2
+		}
+		
+		force_use_small_tech_layout = yes		
+		is_special_project_tech = yes
+		research_cost = 2
+		start_year = 1940
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = 14 }
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			ss_tech
+		}
+
+		special_project_specialization = { specialization_naval }	
+	}
+
+	sp_aip_engine_advanced_tech = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_aip_engine
+			}
+		}
+
+		enable_equipment_modules = {
+			sub_ship_aip_engine_3
+		}
+
+		force_use_small_tech_layout = yes		
+		is_special_project_tech = yes
+		research_cost = 2
+		start_year = 1944
+		folder = {
+			name = mtgnavalfolder
+			position = {  x = -1 y = 20 }
+		}
+		categories = {
+			naval_equipment
+			ship_modules_tech
+			ss_tech
+		}
+
+		special_project_specialization = { specialization_naval }	
+	}
 
 ###  ##  ###  ###  ### ###   ##  ###  ## 
  #  #  # #  # #  # #   #  # #  # #   #   
@@ -1261,10 +1432,20 @@ technologies = {
 			ss_tech
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_torpedo = {
 		
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_torpedo_data_computer
+			}
+		}
+
+		is_special_project_tech = yes
+
 		research_cost = 2
 
 		start_year = 1936
@@ -1311,10 +1492,19 @@ technologies = {
 			ss_tech
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_torpedo = {
 		
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_torpedo_data_computer
+			}
+		}
+
+		is_special_project_tech = yes
 		research_cost = 2
 
 		start_year = 1940
@@ -1361,10 +1551,19 @@ technologies = {
 			ss_tech
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_torpedo = {
 		
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_torpedo_data_computer
+			}
+		}
+
+		is_special_project_tech = yes
 		research_cost = 2
 
 		start_year = 1944
@@ -1410,6 +1609,8 @@ technologies = {
 			ss_tech
 			dd_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -1456,6 +1657,8 @@ technologies = {
 			ship_modules_tech
 			cv_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	flight_deck = {
@@ -1493,6 +1696,8 @@ technologies = {
 			ship_modules_tech
 			cv_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	large_flight_deck = {
@@ -1516,6 +1721,8 @@ technologies = {
 		ai_will_do = {
 			factor = 1000
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -1560,6 +1767,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_range_engines = {
@@ -1591,6 +1800,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_range_engines = {
@@ -1622,6 +1833,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	modern_range_engines = {
@@ -1648,6 +1861,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	basic_perf_engines = {
@@ -1681,6 +1896,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_perf_engines = {
@@ -1715,6 +1932,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_perf_engines = {
@@ -1763,6 +1982,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	modern_perf_engines = {
@@ -1770,6 +1991,13 @@ technologies = {
 		research_cost = 2.5
 
 		start_year = 1944
+
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_gas_turbine	
+			}
+		}
 
 		enable_equipment_modules = {
 			ship_perf_engine_4
@@ -1788,6 +2016,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -1836,6 +2066,8 @@ technologies = {
 			ship_modules_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_armor_scheme = {
@@ -1882,6 +2114,8 @@ technologies = {
 			ship_modules_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	advanced_armor_scheme = {
@@ -1936,6 +2170,8 @@ technologies = {
 			ship_modules_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	modern_armor_scheme = {
@@ -1972,6 +2208,8 @@ technologies = {
 			ship_modules_tech
 			bb_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -1986,7 +2224,6 @@ technologies = {
 
 		enable_equipment_modules = {
 			ship_depth_charge_1
-			ship_sonar_1
 		}
 
 		on_research_complete = {
@@ -2030,6 +2267,8 @@ technologies = {
 			ship_modules_tech
 			asw_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	improved_depth_charges = {
@@ -2076,6 +2315,8 @@ technologies = {
 			ship_modules_tech
 			asw_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	advanced_depth_charges = {
@@ -2122,6 +2363,8 @@ technologies = {
 			ship_modules_tech
 			asw_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	modern_depth_charges = {
@@ -2160,6 +2403,8 @@ technologies = {
 			ship_modules_tech
 			asw_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 
@@ -2180,6 +2425,11 @@ technologies = {
 			research_cost_coeff = 1
 		}
 		
+		path = {
+			leads_to_tech = sp_multi_product_supply_ships
+			research_cost_coeff = 1
+		}	
+
 		research_cost = 2
 		start_year = 1922
 
@@ -2207,6 +2457,8 @@ technologies = {
 			naval_equipment
 			tp_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	mtg_landing_craft = {
@@ -2231,7 +2483,7 @@ technologies = {
 		
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 13 }
+			position = { x = 0 y = 12 }
 		}
 		
 		ai_will_do = {
@@ -2283,6 +2535,8 @@ technologies = {
 			naval_equipment
 			tp_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 	
 	mtg_tank_landing_craft = {
@@ -2295,7 +2549,7 @@ technologies = {
 		start_year = 1944
 		folder = {
 			name = mtgnavalfolder
-			position = { x = 0 y = 19 }
+			position = { x = 0 y = 18 }
 		}
 		
 		ai_will_do = {
@@ -2347,8 +2601,78 @@ technologies = {
 			naval_equipment
 			tp_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
+	sp_multi_product_supply_ships = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.2
+
+		path = {
+			leads_to_tech = sp_standard_tenshioned_replenishment_alongside_method
+			research_cost_coeff = 1
+		}
+
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes	
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.75
+		research_cost = 2.0
+		start_year = 1940
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = 14 }
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+
+		special_project_specialization = { specialization_naval }
+	}
+
+	sp_standard_tenshioned_replenishment_alongside_method = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_underway_replenishment
+			}
+		}
+
+		underway_replenishment_range = 0.25
+		underway_replenishment_convoy_cost = -0.2
+		
+		force_use_small_tech_layout = yes
+		is_special_project_tech = yes		
+		xp_research_type = navy
+		xp_boost_cost = 75
+		xp_research_bonus = 1.5
+		research_cost = 2.5
+		start_year = 1944
+
+		folder = {
+			name = mtgnavalfolder
+			position = { x = 1 y = 20 }
+		}
+
+		categories = {
+			naval_equipment
+			tp_tech
+		}
+
+		special_project_specialization = { specialization_naval }	
+	}
 
 #   # ### #  # ###  ## 
 ## ##  #  ## # #   #   
@@ -2400,6 +2724,8 @@ technologies = {
 			naval_equipment
 			ship_modules_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	submarine_mine_laying = {
@@ -2437,6 +2763,8 @@ technologies = {
 			ship_modules_tech
 			ss_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_submarine_mine_laying = {
@@ -2471,6 +2799,8 @@ technologies = {
 			naval_equipment
 			ss_tech
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	improved_naval_mines = {
@@ -2521,6 +2851,8 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	degaussing = {
@@ -2563,6 +2895,8 @@ technologies = {
 			naval_minesweeping
 			naval_equipment
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	advanced_naval_mines = {
@@ -2606,6 +2940,8 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	airdrop_mines = {
@@ -2649,6 +2985,8 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	modern_naval_mines = {
@@ -2687,6 +3025,8 @@ technologies = {
 			naval_minelaying
 			naval_equipment
 		}
+
+		special_project_specialization = { specialization_naval }	
 	}
 
 	airsweep_mines = {
@@ -2719,6 +3059,147 @@ technologies = {
 			naval_mines
 			naval_minesweeping
 			naval_equipment
+		}
+
+		special_project_specialization = { specialization_naval }	
+	}
+
+	### SPECIAL PROJECTS TECHS ###
+	sp_naval_torpedo_data_computer_custom_tech = {
+		#HIDDEN EFFECT FOR THE TORPEDO DATA COMPUTER
+		submarine = {
+			naval_torpedo_hit_chance_factor = 0.05 #Remember to adjust sp_naval_torpedo_data_computer_custom_tt when changing value
+		}
+		destroyer = {
+			naval_torpedo_hit_chance_factor = 0.05 #Remember to adjust sp_naval_torpedo_data_computer_custom_tt when changing value
+		}
+		research_cost = 1
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_torpedo_data_computer_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		submarine = {
+			naval_torpedo_hit_chance_factor = 0.025
+			build_cost_ic = 0.05
+		}
+		destroyer = {
+			naval_torpedo_hit_chance_factor = 0.025
+			build_cost_ic = 0.05
+		}
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	improved_dp_light_battery = {
+		#HIDDEN EFFECT FOR LIGHT GUN TECH WITH DP MOUNT SP COMPLETED
+		enable_equipment_modules = {
+			ship_light_dp_battery_3
+		}
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+	advanced_dp_light_battery = {
+		#HIDDEN EFFECT FOR LIGHT GUN TECH WITH DP MOUNT SP COMPLETED
+		enable_equipment_modules = {
+			ship_light_dp_battery_4
+		}
+		research_cost = 1
+		start_year = 1944
+
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_phosphorus_shell_tech = {
+		#HIDDEN EFFECT FOR THE WHITE PHOSPHORUS SHELL
+		naval_retreat_speed = 0.25 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+		destroyer = {
+			lg_attack = 0.025 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+		}
+		light_cruiser = {
+			lg_attack = 0.025 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+		}
+		research_cost = 1
+		start_year = 1936
+		
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_phosphorus_shell_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		naval_retreat_speed = -0.25
+		destroyer = {
+			lg_attack = 0.025
+		}
+		light_cruiser = {
+			lg_attack = 0.025
+		}
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_phosphorus_shell_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		naval_retreat_speed = 0.25
+		destroyer = {
+			lg_attack = -0.025
+		}
+		light_cruiser = {
+			lg_attack = -0.025
+		}
+		research_cost = 1
+		start_year = 1936
+
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_proximity_fuze_tech = {
+		#HIDDEN EFFECT FOR THE PROXIMITY FUZE 
+		navy_anti_air_attack_factor = 0.25 #Remember to adjust sp_naval_proximity_fuze_custom_tt when changing value
+		static_anti_air_hit_chance_factor = 0.25 #Remember to adjust sp_naval_proximity_fuze_custom_tt when changing value
+		research_cost = 1
+		start_year = 1940
+		
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_underway_replenishment_pick_a = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = 0.2
+		underway_replenishment_convoy_cost = 0.1
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
+		}
+	}
+	sp_naval_underway_replenishment_pick_b = {
+		#HIDDEN EFFECT FOR REWARD CHOICE
+		underway_replenishment_range = -0.1
+		underway_replenishment_convoy_cost = -0.2
+		research_cost = 1
+		start_year = 1940
+
+		allow = {
+			always = no
 		}
 	}
 }

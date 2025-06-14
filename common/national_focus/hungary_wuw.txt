@@ -20668,15 +20668,6 @@ focus_tree = {
 
 		completion_reward = {
 
-			hidden_effect = {
-				if = {
-					limit = { 
-						is_ai = yes
-					}
-					set_technology = { basic_fire_control_system = 1 } # IA is cheating to avoid being locked further down
-				}
-			}
-
 			navy_experience = 15
 
 			add_tech_bonus = {
@@ -20715,8 +20706,9 @@ focus_tree = {
 			has_tech = improved_armor_scheme
 			has_tech = airplane_launcher
 			has_tech = basic_fire_control_system
-			is_special_project_completed = sp:sp_air_radar
 			has_tech = interwar_antiair
+			is_special_project_completed = sp:sp_air_radar
+			is_special_project_completed = sp:sp_naval_fire_control_system
 			any_state = {
 				is_coastal = yes
 				is_controlled_by = ROOT

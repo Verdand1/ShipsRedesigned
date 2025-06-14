@@ -163,6 +163,7 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antiair = 1
 	basic_train = 1
+	basic_light_battery = 1
 	basic_range_engines = 1
 	improved_armor_scheme = 1
 	basic_armor_scheme = 1
@@ -622,7 +623,7 @@ create_equipment_variant = {
 	modules = {
 		fixed_front_1 = ship_medium_battery_1
 		rear_1 = empty
-		mid_1 = ship_light_battery_1
+		mid_1 = ship_light_battery_2
 	}
 	upgrades = {
 		ship_medium_range_upgrade = 2

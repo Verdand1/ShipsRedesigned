@@ -1855,7 +1855,7 @@ guiTypes = {
 			
 				instantTextBoxType = {
 					name = "naval_subtitle_sub"
-					position = { x = 30 y = 55 }
+					position = { x = 30 y = 110 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1869,7 +1869,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_destroyer"
-					position = { x = 30 y = 185 }
+					position = { x = 30 y = 250 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1883,7 +1883,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_cruiser"
-					position = { x = 30 y = 395 }
+					position = { x = 30 y = 460 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1897,7 +1897,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_battleship"
-					position = { x = 30 y = 605 }
+					position = { x = 30 y = 670 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1911,7 +1911,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_engines"
-					position = { x = 30 y = 865 }
+					position = { x = 30 y = 930 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1924,7 +1924,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_armor"
-					position = { x = 30 y = 1125 }
+					position = { x = 30 y = 1190 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1937,7 +1937,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_depth_charges"
-					position = { x = 30 y = 1255 }
+					position = { x = 30 y = 1320 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1950,7 +1950,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_air_operations"
-					position = { x = 30 y = 735 }
+					position = { x = 30 y = 800 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1963,7 +1963,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_transport"
-					position = { x = 30 y = 1385 }
+					position = { x = 30 y = 1450 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -1976,7 +1976,7 @@ guiTypes = {
 
 				instantTextBoxType = {
 					name = "naval_subtitle_mines"
-					position = { x = 30 y = 1515 }
+					position = { x = 30 y = 1640 }
 					textureFile = ""
 					font = "hoi_33"
 					borderSize = {x = 0 y = 4}
@@ -2004,7 +2004,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "ship_light_hull_tree"
-				position = { x = 150 y = 60}
+				position = { x = 150 y = 125}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2012,7 +2012,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_light_shell_tree"
-				position = { x = 150 y = 60}
+				position = { x = 150 y = 125}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2020,7 +2020,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_heavy_shell_tree"
-				position = { x = 150 y = 60}
+				position = { x = 150 y = 125}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2028,7 +2028,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "ship_hull_submarine_tree"
-				position = { x = 150 y = 60 }
+				position = { x = 150 y = 125 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2036,7 +2036,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_range_engines_tree"
-				position = { x = 150 y = 870 }
+				position = { x = 150 y = 935 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2044,7 +2044,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_perf_engines_tree"
-				position = { x = 150 y = 1000 }
+				position = { x = 150 y = 1065 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2052,7 +2052,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_armor_scheme_tree"
-				position = { x = 150 y = 1130 }
+				position = { x = 150 y = 1195 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2060,7 +2060,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_depth_charges_tree"
-				position = { x = 150 y = 1260 }
+				position = { x = 150 y = 1325 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2068,7 +2068,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "airplane_launcher_tree"
-				position = { x = 150 y = 740 }
+				position = { x = 150 y = 805 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2076,7 +2076,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "mtg_transport_tree"
-				position = { x = 150 y = 1390 }
+				position = { x = 150 y = 1455 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2084,7 +2084,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "basic_naval_mines_tree"
-				position = { x = 150 y = 1520 }
+				position = { x = 150 y = 1650 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -2092,7 +2092,7 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "airdrop_mines_tree"
-				position = { x = 150 y = 1520 }
+				position = { x = 150 y = 1650 }
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
@@ -3531,6 +3531,22 @@ guiTypes = {
 
 			gridboxtype = {
 				name = "electronic_mechanical_engineering_tree"
+				position = { x=0 y=172 }
+				size = { width = 680 height = 800 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "basic_fire_control_system_tree"
+				position = { x=0 y=172 }
+				size = { width = 680 height = 800 }
+				slotsize = { width=60 height= 60 }
+				format = "UP"
+			}
+
+			gridboxtype = {
+				name = "basic_sonar_tree"
 				position = { x=0 y=172 }
 				size = { width = 680 height = 800 }
 				slotsize = { width=60 height= 60 }

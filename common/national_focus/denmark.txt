@@ -10444,6 +10444,12 @@ focus_tree = {
 			
 			if = {
 				limit = {
+					NOT = { has_tech = 	basic_fire_control_system }
+				}
+				set_technology = { basic_fire_control_system = 1 }
+			}
+			if = {
+				limit = {
 					NOT = { has_tech = improved_ship_torpedo_launcher }
 				}
 				set_technology = { improved_ship_torpedo_launcher = 1 }

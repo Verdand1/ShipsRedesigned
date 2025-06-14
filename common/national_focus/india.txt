@@ -1395,9 +1395,11 @@ focus_tree = {
 			}
 			if = {
 				limit = {
-					NOT = { has_tech = basic_sonar }
+					NOT = { is_special_project_completed = sp:sp_naval_sonar }
 				}
-				set_technology = { basic_sonar = 1 }
+				complete_special_project = {
+					project = sp:sp_naval_sonar
+				}
 			}
 			navy_experience = 50
 			create_equipment_variant = {

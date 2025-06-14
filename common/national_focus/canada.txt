@@ -3049,8 +3049,6 @@
 			}
 
 			custom_effect_tooltip = generic_skip_one_line_tt
-			add_ideas = habakkuk_carriers_ns_mtg
-			custom_effect_tooltip = generic_skip_one_line_tt
 					
 			add_tech_bonus = {
 				name = CAN_habakkuk_carrier

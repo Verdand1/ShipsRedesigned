@@ -67,7 +67,6 @@ set_technology = {
 	tech_engineers = 1
 	basic_train = 1
 	interwar_antitank = 1 # 
-	electronic_mechanical_engineering = 1
 	basic_fire_control_system = 1
 	basic_light_battery = 1
 	basic_light_medium_battery = 1
@@ -90,6 +89,13 @@ set_technology = {
 	victory_through_number = 1
 	escort_patrols = 1
 	convoy_interdiction = 1
+}
+
+complete_special_project = {
+	project = sp:sp_naval_light_dp_mounts
+}
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
 }
 
 if = {
@@ -438,6 +444,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 1
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_engine = ship_range_engine_1
 		rear_1 = ship_mine_layer_1
 		rear_2 = ship_depth_charge_1

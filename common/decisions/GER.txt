@@ -3226,11 +3226,9 @@ GER_hilfskreuzer_cat = {
 
 		fire_only_once = no
 		available = {	
-			hidden_effect = {
-				has_navy_experience > 9
-				has_equipment = {
-					convoy > 19
-				}
+			has_navy_experience > 9
+			has_equipment = {
+				convoy > 19
 			}
 		}
 		days_remove = 25

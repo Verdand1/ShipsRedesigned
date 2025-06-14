@@ -42,6 +42,7 @@ set_technology = {
 	fuel_refining = 1
 	marines = 1
 	basic_train = 1
+	basic_fire_control_system = 1
 	basic_light_battery = 1
 	basic_light_medium_battery = 1
 	improved_ship_torpedo_launcher = 1
@@ -59,6 +60,10 @@ set_technology = {
 	not_brown_water_navy = 1
 	jeune_ecole = 1
 	convoy_interdiction = 1
+}
+
+complete_special_project = {
+	project = sp:sp_naval_fire_control_system
 }
 
 if = {
@@ -502,6 +507,7 @@ create_equipment_variant = {
 	parent_version = 0
 	role_icon_index = 2
 	modules = {
+		fixed_front_1 = ship_light_battery_2
 		fixed_target_acquisition = ship_fire_control_system_0
 		fixed_engine = ship_range_engine_1
 		rear_1 = ship_depth_charge_1

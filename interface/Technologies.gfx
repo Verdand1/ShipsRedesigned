@@ -2153,6 +2153,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/submarine.dds"
 	}
 	SpriteType = {
+		name = "GFX_ship_hull_submarine_2_medium"
+		texturefile = "gfx/interface/technologies/ship_hull_fleet_submarine.dds"
+	}
+	SpriteType = {
 		name = "GFX_ship_hull_light_1_medium"
 		texturefile = "gfx/interface/technologies/destroyer.dds"
 	}

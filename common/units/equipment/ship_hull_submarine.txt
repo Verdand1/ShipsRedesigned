@@ -4,6 +4,18 @@ equipments = {
 		is_archetype = yes
 		type = submarine
 		interface_category = interface_category_other_ships
+
+		naval_speed = 12
+		naval_range = 2400
+		reliability = 0.5
+		supply_consumption = 0.01
+		manpower = 50
+		surface_detection = 10
+
+		naval_supremacy_factor = 0.8
+		naval_weather_penalty_factor = 1.4 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
+		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
+		# change this from 1 at your own risk
 	}
 
 	ship_hull_submarine_1 = {
@@ -29,24 +41,13 @@ equipments = {
 		group_by = archetype
 		priority = 2500
 		
-		naval_speed = 12
-		naval_range = 2400
-		max_strength = 50
-		reliability = 0.5
-		supply_consumption = 0.01
-		manpower = 50
+		max_strength = 30
 		fuel_consumption = 5
-		surface_visibility = 1
-		surface_detection = 10
+		surface_visibility = 6
 		sub_visibility = 12
 		build_cost_ic = 300
 		
 		resources = { steel = 2	}
-
-		naval_supremacy_factor = 0.8
-		naval_weather_penalty_factor = 1.4 #this value gets -1 before its used so 1.5 will increase the effects of weather penalties by 0.5. this is base value is required for MIO stat modifiers
-		#MIO stat modifers will factory by the unmodified stat value so here a 0.5 mio stat modifier would make this ships naval_weather_penalty_factor stat 1.5.
-		# change this from 1 at your own risk
 
 		module_slots = {
 			fixed_front_1 = {
@@ -58,6 +59,7 @@ equipments = {
 				allowed_module_categories = {
 					ship_airplane_launcher
 					ship_sub_snorkel
+					ship_sub_coating
 				}
 			}
 			fixed_radar = {
@@ -66,7 +68,10 @@ equipments = {
 			}
 			fixed_engine = {
 				required = yes
-				allowed_module_categories = { sub_ship_engine }
+				allowed_module_categories = {
+					sub_ship_engine
+					sub_ship_aip_engine
+				}
 			}
 			rear_1 = {
 				required = no
@@ -110,4 +115,80 @@ equipments = {
 			front_3 = ship_unavailable_space
 		}
 	}
+
+	ship_hull_submarine_2 = {
+		year = 1944
+		archetype = ship_hull_submarine
+		priority = 2600
+		
+		max_strength = 50
+		fuel_consumption = 4
+		surface_visibility = 1
+		sub_visibility = 10
+		build_cost_ic = 400
+		
+		resources = { steel = 3	}
+
+		module_slots = {
+			fixed_front_1 = {
+				required = yes
+				allowed_module_categories = { ship_torpedo_sub }
+			}
+			fixed_deck = {
+				required = no
+				allowed_module_categories = { ship_sub_coating }
+			}
+			fixed_radar = {
+				required = no
+				allowed_module_categories = { ship_radar }
+			}
+			fixed_engine = {
+				required = yes
+				allowed_module_categories = {
+					sub_ship_engine
+					sub_ship_aip_engine
+				}
+			}
+			front_2 = {
+				required = no
+				allowed_module_categories = {
+					ship_unavailable_space
+					ship_torpedo_sub
+				}
+			}
+			front_3 = front_2
+			mid_1 = {
+				required = no
+				allowed_module_categories = {
+					ship_unavailable_space
+					ship_mine_layer_sub
+					ship_torpedo_sub_storage
+					sub_missile_launcher
+				}
+			}
+			mid_2 = mid_1
+			mid_3 = mid_1
+			rear_1 = mid_1
+			rear_2 = mid_1
+		}
+		
+		upgrades = {
+			sub_engine_upgrade
+			sub_range_upgrade
+			sub_depth_upgrade
+		}
+
+		default_modules = {
+			fixed_front_1 = ship_torpedo_sub_1
+			fixed_deck = empty
+			fixed_radar = empty
+			fixed_engine = sub_ship_deprecated_engine
+			rear_1 = ship_unavailable_space
+			rear_2 = ship_unavailable_space
+			mid_1 = ship_unavailable_space
+			mid_2 = ship_unavailable_space
+			mid_3 = ship_unavailable_space
+			front_2 = ship_unavailable_space
+			front_3 = ship_unavailable_space
+		}
 }

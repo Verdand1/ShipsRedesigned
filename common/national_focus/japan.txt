@@ -5927,7 +5927,7 @@
 					mid_1 = ship_airplane_launcher_1
 					mid_2 = ship_airplane_launcher_1
 					mid_3 = ship_light_medium_battery_2
-					mid_4 = ship_light_battery_3
+					mid_4 = ship_light_dp_battery_2
 					front_2 = ship_light_medium_battery_2
 				}
 				upgrades = {

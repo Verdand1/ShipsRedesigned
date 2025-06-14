@@ -25,22 +25,12 @@ technologies = {
 			leads_to_tech = mechanical_computing 
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = basic_fire_control_system
-			research_cost_coeff = 1
-		}
-		path = {
-			leads_to_tech = basic_sonar
-			research_cost_coeff = 1
-		}
 
 		path = {
 			leads_to_tech = cavity_magnatron 
 			research_cost_coeff = 1
 		}
 		
-
-
 		research_cost = 1
 		start_year = 1936
 		folder = {
@@ -66,6 +56,20 @@ technologies = {
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_PROJECT
 				PROJECT = sp_air_radar	
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_fire_control_system
+			}
+		}
+
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_sonar
 			}
 		}
 
@@ -575,10 +579,6 @@ technologies = {
 			leads_to_tech = improved_computing_machine 
 			research_cost_coeff = 1
 		}
-		path = {
-			leads_to_tech = improved_fire_control_system
-			research_cost_coeff = 1
-		}
 		research_cost = 2.5
 		start_year = 1940
 		
@@ -664,11 +664,6 @@ technologies = {
 		# small boost to research speed
 		research_speed_factor = 0.09
 		
-		path = {
-			leads_to_tech = advanced_fire_control_system
-			research_cost_coeff = 1
-		}
-
 		research_cost = 2.5
 		start_year = 1944
 		
@@ -700,11 +695,181 @@ technologies = {
 		special_project_specialization = { specialization_nuclear }
 	}
 	
+	basic_fire_control_system = {
+
+		dependencies = {
+			ship_light_hull = 1
+		}
+
+		path = {
+			leads_to_tech = improved_fire_control_system
+			research_cost_coeff = 1
+		}
+		enable_equipment_modules = { 
+			ship_fire_control_system_0
+		}
+		
+		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_fire_control_system
+			}
+		}
+
+		research_cost = 1.25
+		
+		start_year = 1936
+
+		folder = {
+			name = electronics_folder
+			position = { x = @firecontrol y = 0 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 3
+				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+					tag = FRA
+					tag = ITA
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
+				}
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	improved_fire_control_system = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_fire_control_system
+			}
+		}
+
+		is_special_project_tech = yes
+
+		enable_equipment_modules = { 
+			ship_fire_control_system_2
+		}
+		
+		path = {
+			leads_to_tech = advanced_fire_control_system
+			research_cost_coeff = 1
+		}
+
+		research_cost = 1.25
+		
+		start_year = 1940
+		
+		folder = {
+			name = electronics_folder
+			position = { x = @firecontrol y = 5 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 3
+				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+					tag = FRA
+					tag = ITA
+				}
+			}
+			modifier = {
+				factor = 0
+				OR = {
+					not = { has_tech = ship_cruiser_hull }
+					num_of_naval_factories < 5
+				}
+			}
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+		special_project_specialization = { specialization_naval }
+	}
+
+	advanced_fire_control_system = {
+
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_fire_control_system
+			}
+		}
+
+		is_special_project_tech = yes
+
+		enable_equipment_modules = { 
+			ship_fire_control_system_3
+		}
+		
+		research_cost = 1.25
+		
+		start_year = 1944
+
+		folder = {
+			name = electronics_folder
+			position = { x = @firecontrol y = 9 }
+		}
+		
+		ai_will_do = {
+			factor = 2
+			modifier = {
+				factor = 3
+				OR = {
+					tag = ENG
+					tag = USA
+					tag = JAP
+					tag = FRA
+					tag = ITA
+				}
+			}
+			modifier = {
+				factor = 0
+				not = { has_tech = ship_cruiser_hull }
+				num_of_naval_factories < 5
+			}			
+		}
+		
+		categories = {
+			electronics
+			computing_tech
+			naval_equipment
+		}
+		special_project_specialization = { specialization_naval }
+	}
+	
 	basic_sonar = {
 		enable_equipment_modules = { 
-			ship_sonar_2
+			ship_sonar_1
 		}
 		on_research_complete = {
+			custom_effect_tooltip = {
+				localization_key = SP_UNLOCK_PROJECT
+				PROJECT = sp_naval_sonar
+			}
 			custom_effect_tooltip = sonar_advice_tt
 		}
 		path = {
@@ -742,6 +907,14 @@ technologies = {
 	}
 
 	improved_sonar = {
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_sonar
+			}
+		}
+
+		is_special_project_tech = yes
+
 		enable_equipment_modules = { 
 			ship_sonar_3
 		}
@@ -787,6 +960,14 @@ technologies = {
 	}
 	
 	advanced_sonar = {
+		allow = {
+	 		ROOT = {
+				is_special_project_completed = sp:sp_naval_sonar
+			}
+		}
+
+		is_special_project_tech = yes
+
 		enable_equipment_modules = { 
 			ship_sonar_4
 		}
@@ -823,159 +1004,6 @@ technologies = {
 			electronics
 			naval_equipment
 			asw_tech
-		}
-		special_project_specialization = { specialization_naval }
-	}
-	
-	basic_fire_control_system = {
-
-		dependencies = {
-			ship_light_hull = 1
-		}
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-
-		enable_equipment_modules = { 
-			ship_fire_control_system_1
-		}
-		
-		research_cost = 1.25
-		
-		start_year = 1936
-
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 1 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 3
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-					tag = FRA
-					tag = ITA
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					can_research = improved_fire_control_system
-					has_tech = improved_fire_control_system
-					not = { has_tech = ship_cruiser_hull }
-					num_of_naval_factories < 5
-				}
-			}
-		}
-		
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
-		}
-		special_project_specialization = { specialization_naval }
-	}
-
-	improved_fire_control_system = {
-
-		dependencies = {
-			ship_light_hull = 1
-		}
-		enable_equipment_modules = { 
-			ship_fire_control_system_2
-		}
-		
-		research_cost = 1.25
-		
-		start_year = 1940
-		
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 5 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 3
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-					tag = FRA
-					tag = ITA
-				}
-			}
-			modifier = {
-				factor = 0
-				OR = {
-					can_research = advanced_fire_control_system
-					has_tech = advanced_fire_control_system
-					not = { has_tech = ship_cruiser_hull }
-					num_of_naval_factories < 5
-				}
-			}
-		}
-		
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
-		}
-		special_project_specialization = { specialization_naval }
-	}
-
-	advanced_fire_control_system = {
-
-		dependencies = {
-			ship_light_hull = 1
-		}
-		enable_equipment_modules = { 
-			ship_fire_control_system_3
-		}
-		allow_branch = {
-			has_dlc = "Man the Guns"
-		}
-		
-		research_cost = 1.25
-		
-		start_year = 1944
-
-		folder = {
-			name = electronics_folder
-			position = { x = @firecontrol y = 9 }
-		}
-		
-		ai_will_do = {
-			factor = 2
-			modifier = {
-				factor = 3
-				OR = {
-					tag = ENG
-					tag = USA
-					tag = JAP
-					tag = FRA
-					tag = ITA
-				}
-			}
-			modifier = {
-				factor = 0
-				not = { has_tech = ship_cruiser_hull }
-				num_of_naval_factories < 5
-			}			
-		}
-		
-		categories = {
-			electronics
-			computing_tech
-			naval_equipment
 		}
 		special_project_specialization = { specialization_naval }
 	}

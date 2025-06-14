@@ -24,5 +24,7 @@
  ship_hull_submarine_desc:0 "A far cry from the crude boats of the Great War, the modern submarine is more capable than ever before and can threaten even the biggest ship for a very moderate cost."
  ship_hull_submarine_1:1 "Submarine Hull"
  ship_hull_submarine_1_desc:0 "Submarines employ stealth and powerful torpedoes to destroy enemy convoys."
+ ship_hull_submarine_2:1 "Modern Submarine Hull"
+ ship_hull_submarine_2_desc:0 "A submarine designed to conduct all operations from the cover of the depth."
  screen_ship:0 "Screens"
  capital_ship:0 "Capital Ships"
