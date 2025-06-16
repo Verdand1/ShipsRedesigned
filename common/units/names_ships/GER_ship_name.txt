@@ -1415,7 +1415,6 @@ GER_PEOPLE_COMMUNIST = {
 			has_completed_focus = GER_start_the_proletarian_revolution
 		}
 	}
-	prefix = "SMS "
 	type = ship
 
 	fallback_name = "Schiff %d"
@@ -1495,7 +1494,6 @@ GER_THEME_COMMUNIST_SLOGANS = {
 		}
 	}
 
-	prefix = "SMS "
 	type = ship
 	
 	fallback_name = "Schiff %d"
@@ -1549,7 +1547,6 @@ GER_THEME_COMMUNIST_DDR = {
 		}
 	}
 
-	prefix = "SMS "
 	type = ship
 	
 	fallback_name = "Schiff %d"

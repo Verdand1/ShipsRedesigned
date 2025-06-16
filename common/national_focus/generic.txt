@@ -997,6 +997,18 @@ focus_tree = {
 		ai_will_do = {
 			factor = 3
 			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 6
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
+			modifier = {
 				factor = 0
 				date < 1939.1.1
 				OR = { 
@@ -1012,7 +1024,13 @@ focus_tree = {
 
 					# we also dont want tiny nations to go crazy with slots right away
 					num_of_controlled_states < 2
-				}				
+				}	
+				NOT = {
+					is_in_array = {
+						array = RAJ.raj_releasables
+						value = THIS
+					}
+				}			
 			}
 		}
 	}
@@ -1034,6 +1052,14 @@ focus_tree = {
 		
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
 		}
 
 		bypass = {
@@ -1107,7 +1133,19 @@ focus_tree = {
 
 
 		ai_will_do = {
-			factor = 2			
+			factor = 2
+				modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 5
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}	
 		}
 
 		bypass = {
@@ -1182,6 +1220,18 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 5
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
 		}
 
 		bypass = {
@@ -1256,6 +1306,18 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 5
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
 		}
 
 		bypass = {
@@ -1326,6 +1388,14 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
 		available_if_capitulated = yes
+
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+		}
 
 		bypass = {
 			custom_trigger_tooltip = {
@@ -1426,6 +1496,18 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 5
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
 		}
 
 		bypass = {
@@ -1496,7 +1578,13 @@ focus_tree = {
 		search_filters = { FOCUS_FILTER_INDUSTRY }
 		
 		available_if_capitulated = yes
-
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+		}
 		bypass = {
 			custom_trigger_tooltip = {
 				tooltip = infrastructure_effort_tt
@@ -1596,6 +1684,17 @@ focus_tree = {
 
 		ai_will_do = {
 			factor = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+			modifier = {
+				add = 5
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+			}
 		}
 
 		bypass = {
@@ -1699,7 +1798,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = infrastructure_effort_2
 		cost = 10
-
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+		}
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
 		available_if_capitulated = yes
@@ -1722,7 +1827,13 @@ focus_tree = {
 		y = 1
 		relative_position_id = extra_tech_slot
 		cost = 10
-
+		ai_will_do = {
+			base = 2
+			modifier = {
+				factor = 6
+				original_tag = SIA
+			}
+		}
 		search_filters = { FOCUS_FILTER_RESEARCH } 
 		
 		available_if_capitulated = yes
@@ -1958,6 +2069,19 @@ focus_tree = {
 		ai_will_do = {
 			factor = 95
 			modifier = {
+				factor = 0.05
+				is_historical_focus_on = yes
+				original_tag = SIA
+			}
+			modifier = {
+				factor = 0.05
+				is_in_array = {
+					array = RAJ.raj_releasables
+					value = THIS
+				}
+				is_subject_of = RAJ
+			}
+			modifier = {
 				factor = 0.1
 				any_neighbor_country = {
 					is_major = yes
@@ -2046,6 +2170,11 @@ focus_tree = {
 			modifier = {
 				factor = 0
 				tag = AUS
+			}
+
+			modifier = {
+				factor = 0
+				original_tag = SIA
 			}
 			modifier = {
 				factor = 0

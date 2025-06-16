@@ -390,7 +390,6 @@ SP_create_variant_based_on_country_armored_signal = {
 			icon = "GFX_SOV_armored_support_vehicle_command_medium"
 			model = SOV_armored_signal_entity
 		}
-		#TODO_Manu: Implement T-26 variant if art makes it in
 	}
 	else_if = {
 		limit = {

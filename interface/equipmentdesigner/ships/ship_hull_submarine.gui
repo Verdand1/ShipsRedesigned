@@ -112,6 +112,31 @@ guiTypes = {
 						position = { x=331 y=0 }
 					}
 				}
+
+				#### MODULE: Coating ####
+				containerWindowType = {
+					name = "ship_sub_coating"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_SM_submarine_anechoic_tiles"
+						position = { x=224 y=-22 }
+					}
+				}
+
+				containerWindowType = {
+					name = "ship_sub_coating@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+					
+					iconType = {
+						name = "blueprint_highlight"
+						spriteType = "GFX_SM_submarine_anechoic_tiles@highlight"
+						position = { x=224 y=-22 }
+					}
+				}
 			}
 
 			################# MODULE SLOT: Radar #################

@@ -641,7 +641,7 @@ sp_naval_torpedo_data_computer = {
 	
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = sp_naval_torpedo_data_computer_custom_tt
+			custom_effect_tooltip = tech_effect|sp_naval_torpedo_data_computer_custom_tech
 			hidden_effect = {
 				set_technology = {
 					sp_naval_torpedo_data_computer_custom_tech = 1
@@ -1245,7 +1245,7 @@ sp_naval_phosphorus_shell = {
 
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = sp_naval_phosphorus_shell_custom_tt
+			custom_effect_tooltip = tech_effect|sp_naval_phosphorus_shell_tech
 			hidden_effect = {
 				set_technology = {
 					sp_naval_phosphorus_shell_tech = 1
@@ -1363,7 +1363,7 @@ sp_naval_proximity_fuze = {
 	
 	project_output = {
 		country_effects = {
-			custom_effect_tooltip = sp_naval_proximity_fuze_custom_tt
+			custom_effect_tooltip = tech_effect|sp_naval_proximity_fuze_tech
 			custom_effect_tooltip = {
 				localization_key = SP_UNLOCK_TECH
 				TECH = sp_shock_hardening_techniques

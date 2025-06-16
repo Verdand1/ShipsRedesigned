@@ -2912,13 +2912,19 @@ focus_tree = {
 		bypass = {
 			AND = {
 				SOV = {
-					NOT = {
-						has_government = communism
+					OR = {
+						NOT = {
+							has_government = communism
+						}
+						exists = no
 					}
 				}
 				GER = {
-					NOT = {
-						has_government = fascism
+					OR = {
+						NOT = {
+							has_government = fascism
+						}
+						exists = no
 					}
 				}
 			}
@@ -2931,6 +2937,7 @@ focus_tree = {
 			}
 			any_country_with_original_tag = {
 				original_tag_to_check = SOV
+				exists = yes
 				has_government = communism
 				NOT = {
 					has_subject = ROOT
@@ -3012,13 +3019,19 @@ focus_tree = {
 		bypass = {
 			AND = {
 				SOV = {
-					NOT = {
-						has_government = communism
+					OR = {
+						NOT = {
+							has_government = communism
+						}
+						exists = no
 					}
 				}
 				GER = {
-					NOT = {
-						has_government = fascism
+					OR = {
+						NOT = {
+							has_government = fascism
+						}
+						exists = no
 					}
 				}
 			}
@@ -3031,6 +3044,7 @@ focus_tree = {
 			}
 			any_country_with_original_tag = {
 				original_tag_to_check = GER
+				exists = yes
 				OR = {
 					has_government = neutrality
 					has_government = fascism
@@ -3195,6 +3209,7 @@ focus_tree = {
 				original_tag = BEL
 				has_subject = ROOT
 			}
+			has_civil_war = no
 		}
 	
 		completion_reward = { 
@@ -3206,11 +3221,24 @@ focus_tree = {
 
 				drop_cosmetic_tag = yes
 
-				set_autonomy = {
-					target = ROOT
-					autonomy_state = autonomy_free
-					end_wars  = no
-					end_civil_wars = no
+				IF = {
+					limit = {
+						is_subject = yes
+					}
+					
+					OVERLORD = {
+
+						set_country_flag = was_congos_overlord_when_cw_started_flag
+
+						set_autonomy = {
+							target = ROOT
+							autonomy_state = autonomy_free
+							end_wars  = yes
+							end_civil_wars = yes
+						}
+
+					}
+
 				}
 
 				# Starts the war for independence depending on different factors
@@ -3366,6 +3394,29 @@ focus_tree = {
 			        		}
 			        	}
 			        }
+
+			        random_country = {
+			        	limit = {
+			        		has_country_flag = was_congos_overlord_when_cw_started_flag
+			        	}
+			        	set_autonomy = {
+			        	    target = PREV
+			        	    autonomous_state = autonomy_colony
+			        	    end_wars = no
+			        	    end_civil_wars = no
+			        	}
+			        }
+			        PREV.PREV = {
+			        	set_politics = {
+			        		ruling_party = neutrality
+			        		elections_allowed = no
+			        	}	
+			        	add_popularity = {
+			        		ideology = neutrality
+			        		popularity = 0.5
+			        	}	
+			        }
+
 				}
 
 				delete_unit_template_and_units = {
@@ -3755,7 +3806,6 @@ focus_tree = {
 						}
 					}
 				}
-
 
 			}
 
@@ -5602,6 +5652,7 @@ focus_tree = {
 		available = {
 			has_government = communism
 			is_in_faction = no
+			is_subject = no
 			any_country = {
 				original_tag = SOV
 				has_government = communism
@@ -5998,14 +6049,28 @@ focus_tree = {
 		}
 	
 		available = {
-			has_government = neutrality
+			OR = {
+				has_government = neutrality
+				has_government = fascism
+			}
 		}
 	
 		completion_reward = { 
 			
-			add_popularity = {
-				ideology = neutrality
-				popularity = 0.05
+			IF = {
+				limit = {
+					has_government = fascism
+				}
+				add_popularity = {
+					ideology = fascism
+					popularity = 0.05
+				}	
+			}
+			ELSE = {
+				add_popularity = {
+					ideology = neutrality
+					popularity = 0.05
+				}
 			}	
 			
 			custom_effect_tooltip = generic_skip_one_line_tt

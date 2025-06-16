@@ -2879,15 +2879,24 @@ kurdish_achievement = {
 	}
 	
 	happened = {
-		original_tag = KUR #has to be here because you can't start as Kurdistan
+		OR = {
+			original_tag = KUR #has to be here because you can't start as Kurdistan
+			has_country_flag = IRQ_has_become_kurdistan_flag
+		}
+		
 		custom_trigger_tooltip = {
 			tooltip = kurdish_achievement_tt
-			all_state = {
-				OR = {
-					NOT = { is_core_of = KUR }
-					is_controlled_by = ROOT
-				}
-			}
+			
+			controls_state = 352
+			controls_state = 350
+			controls_state = 800
+			controls_state = 353
+			controls_state = 344
+			controls_state = 1000
+			controls_state = 419
+			controls_state = 1001
+			controls_state = 421
+			controls_State = 680
 		}
 	}
 }
@@ -2936,6 +2945,12 @@ hoofin_it = {
 			owns_state = 765
 			owns_state = 659
 			owns_state = 679
+			# NEW GOE
+			owns_state = 1014
+			owns_state = 1013 
+			owns_state = 1015 
+			owns_state = 1016 
+			owns_state = 992 
 			check_variable = { num_equipment_in_armies@infantry_equipment > 4499 }
 			check_variable = { num_battalions_with_type@camelry > 29 }
 		}
@@ -6398,73 +6413,6 @@ woman_in_a_high_castle = {
 
 	happened = {
 		OR = {
-			USA = {
-				is_subject_of = GER
-				custom_trigger_tooltip = {
-					tooltip = woman_in_a_high_castle_tt1
-					owns_state = 357 #New England
-					owns_state = 358 #New York
-					owns_state = 359 #New Jersey
-					owns_state = 360 #Pennsylvania
-					owns_state = 361 #Maryland
-					owns_state = 362 #Virginia
-					owns_state = 363 #North Carolina
-					owns_state = 364 #South Carolina
-					owns_state = 365 #Georgia
-					owns_state = 366 #Florida
-					owns_state = 367 #Alabama
-					owns_state = 368 #Tennessee
-					owns_state = 369 #Kentucky
-					owns_state = 261 #Ohio
-					owns_state = 393 #Michigan
-					owns_state = 396 #Indiana
-					owns_state = 395 #Illinois
-					owns_state = 373 #Missouri
-					owns_state = 372 #Arkansas
-					owns_state = 371 #Louisiana
-					owns_state = 370 #mississippi
-					owns_state = 375 #Texas
-					owns_state = 374 #Oklahoma
-					owns_state = 383 #Kansas
-					owns_state = 392 #Iowa
-					owns_state = 394 #Wisconsin
-					owns_state = 391 #Minnesota
-					owns_state = 389 #North Dakota
-					owns_state = 390 #South Dakota
-					owns_state = 384 #Nebraska
-					owns_state = 382 #Colorado
-					owns_state = 381 #Wyoming
-					owns_state = 388 #Montana
-					owns_state = 376 #New Mexico
-					owns_state = 377 #Arizona
-					owns_state = 380 #Utah
-					owns_state = 387 #Idaho
-					owns_state = 386 #Washington
-					owns_state = 385 #Oregon
-					owns_state = 379 #Nevada
-					owns_state = 378 #California
-					owns_state = 463 #Alaska
-					owns_state = 629 #Hawaii
-				}
-				custom_trigger_tooltip = {
-					tooltip = woman_in_a_high_castle_tt2
-
-					GER = {
-						OR = {
-							has_country_leader = {
-								ruling_only = yes # default = yes
-								character = GER_victoria
-							}
-
-							has_country_leader = {
-								ruling_only = yes
-								character = GER_eva_braun
-							}
-						}
-					}
-					
-				}
-			}
 			GER = {
 				custom_trigger_tooltip = {
 					tooltip = woman_in_a_high_castle_tt1
@@ -6512,7 +6460,6 @@ woman_in_a_high_castle = {
 					owns_state = 463 #Alaska
 					owns_state = 629 #Hawaii
 				}
-
 				custom_trigger_tooltip = {
 					tooltip = woman_in_a_high_castle_tt2
 
@@ -6525,6 +6472,74 @@ woman_in_a_high_castle = {
 						has_country_leader = {
 							ruling_only = yes
 							character = GER_eva_braun
+						}
+					}
+				}
+			}
+			AND = {
+				USA = {
+					is_subject_of = GER
+					custom_trigger_tooltip = {
+						tooltip = woman_in_a_high_castle_tt1
+						owns_state = 357 #New England
+						owns_state = 358 #New York
+						owns_state = 359 #New Jersey
+						owns_state = 360 #Pennsylvania
+						owns_state = 361 #Maryland
+						owns_state = 362 #Virginia
+						owns_state = 363 #North Carolina
+						owns_state = 364 #South Carolina
+						owns_state = 365 #Georgia
+						owns_state = 366 #Florida
+						owns_state = 367 #Alabama
+						owns_state = 368 #Tennessee
+						owns_state = 369 #Kentucky
+						owns_state = 261 #Ohio
+						owns_state = 393 #Michigan
+						owns_state = 396 #Indiana
+						owns_state = 395 #Illinois
+						owns_state = 373 #Missouri
+						owns_state = 372 #Arkansas
+						owns_state = 371 #Louisiana
+						owns_state = 370 #mississippi
+						owns_state = 375 #Texas
+						owns_state = 374 #Oklahoma
+						owns_state = 383 #Kansas
+						owns_state = 392 #Iowa
+						owns_state = 394 #Wisconsin
+						owns_state = 391 #Minnesota
+						owns_state = 389 #North Dakota
+						owns_state = 390 #South Dakota
+						owns_state = 384 #Nebraska
+						owns_state = 382 #Colorado
+						owns_state = 381 #Wyoming
+						owns_state = 388 #Montana
+						owns_state = 376 #New Mexico
+						owns_state = 377 #Arizona
+						owns_state = 380 #Utah
+						owns_state = 387 #Idaho
+						owns_state = 386 #Washington
+						owns_state = 385 #Oregon
+						owns_state = 379 #Nevada
+						owns_state = 378 #California
+						owns_state = 463 #Alaska
+						owns_state = 629 #Hawaii
+					}
+				}
+				GER = {
+					custom_trigger_tooltip = {
+						tooltip = woman_in_a_high_castle_tt2
+
+						OR = {
+							has_country_leader = {
+								ruling_only = yes # default = yes
+								character = GER_victoria
+							}
+
+							has_country_leader = {
+								ruling_only = yes
+								character = GER_eva_braun
+							}
 						}
 					}
 				}
@@ -6674,6 +6689,522 @@ the_true_successor = {
 				tooltip = the_true_successor_tt
 				controls_province = 516
 				controls_province = 9575
+			}
+		}
+	}
+}
+
+graveyard_of_empires = {
+	id = 233
+	possible = {
+		OR = {
+			tag = AFG
+			tag = IRQ
+			tag = PER
+			tag = RAJ
+		}
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = graveyard_of_empires_tt
+			OR = {
+				AFG = {
+					has_country_flag = GOE_capitulated_IRQ
+					has_country_flag = GOE_capitulated_PER
+					has_country_flag = GOE_capitulated_RAJ
+					IRQ = {
+						all_core_state = {
+							is_fully_controlled_by = AFG
+						}
+					}
+					PER = {
+						all_core_state = {
+							is_fully_controlled_by = AFG
+						}
+					}
+					RAJ = {
+						all_core_state = {
+							is_fully_controlled_by = AFG
+						}
+					}
+				}
+				IRQ = {
+					has_country_flag = GOE_capitulated_AFG
+					has_country_flag = GOE_capitulated_PER
+					has_country_flag = GOE_capitulated_RAJ
+					AFG = {
+						all_core_state = {
+							is_fully_controlled_by = IRQ
+						}
+					}
+					PER = {
+						all_core_state = {
+							is_fully_controlled_by = IRQ
+						}
+					}
+					RAJ = {
+						all_core_state = {
+							is_fully_controlled_by = IRQ
+						}
+					}
+				}
+				PER = {
+					has_country_flag = GOE_capitulated_AFG
+					has_country_flag = GOE_capitulated_IRQ
+					has_country_flag = GOE_capitulated_RAJ
+					AFG = {
+						all_core_state = {
+							is_fully_controlled_by = PER
+						}
+					}
+					IRQ = {
+						all_core_state = {
+							is_fully_controlled_by = PER
+						}
+					}
+					RAJ = {
+						all_core_state = {
+							is_fully_controlled_by = PER
+						}
+					}
+				}
+				RAJ = {
+					has_country_flag = GOE_capitulated_AFG
+					has_country_flag = GOE_capitulated_IRQ
+					has_country_flag = GOE_capitulated_PER
+					AFG = {
+						all_core_state = {
+							is_fully_controlled_by = RAJ
+						}
+					}
+					IRQ = {
+						all_core_state = {
+							is_fully_controlled_by = RAJ
+						}
+					}
+					PER = {
+						all_core_state = {
+							is_fully_controlled_by = RAJ
+						}
+					}
+				}
+			}
+		}
+	}	
+}
+
+this_achievement_is_dedicated_to_the_brave_soldiers_of = {
+	id = 234
+	possible = {
+		tag = AFG
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		AFG = {
+			has_country_flag = AFG_capitulated_Soviet
+		}
+	}
+}
+
+i_have_the_high_ground = {
+	id = 235
+	possible = {
+		tag = AFG
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = i_have_the_high_ground_tt
+			all_of_scopes = {
+				array = AFG.AFG_himalaya_states_array
+				is_controlled_by = AFG
+			}
+		}
+	}
+}
+
+savior_of_the_holy_lands = {
+	id = 250
+	possible = {
+		tag = AFG
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		454 = {
+			is_owned_by = AFG
+		}
+		856 = {
+			is_owned_by = AFG
+		}
+	}
+}
+
+cradle_of_civilization = {
+	id = 240
+	possible = {
+		tag = IRQ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		IRQ = {
+			has_stability > 0.999
+			all_core_state = {
+				OR = {
+					impassable = yes
+					infrastructure > 4
+				}
+			}
+		}
+	}
+}
+
+oil_sheiks = {
+	id = 246
+	possible = {
+		tag = IRQ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		IRQ = {
+			has_resources_in_country = {
+			    resource = oil
+			    amount > 499 
+			    extracted = yes
+			}
+		}
+	}
+}
+
+revenge_for_1925 = {
+	id = 247
+	possible = {
+		tag = IRQ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = revenge_for_1925_tt
+			IRQ = {
+				has_cosmetic_tag = IRQ_hashemite_arab_federation
+				has_country_flag = IRQ_capitulated_SAU
+			}
+		}
+	}
+}
+
+avenging_the_sack_of_baghdad = {
+	id = 248
+	possible = {
+		tag = IRQ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		330 = {
+			is_fully_controlled_by = IRQ
+		}
+	}
+}
+
+thats_sikh = {
+	id = 245
+	possible = {
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		original_tag = KHL
+		custom_trigger_tooltip = {
+			tooltip = thats_sikh_tt
+			all_of_scopes = {
+				array = RAJ.owned_states_at_game_start
+				is_controlled_by = KHL
+			}
+		}
+	}
+}
+
+pesky_greeks = {
+	id = 236
+	possible = {
+		tag = PER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = pesky_greeks_tt
+			GRE = {
+				all_core_state = {
+					is_owned_by = PER
+				}
+			}
+		}
+	}
+}
+
+the_sands_of_time = {
+	id = 237
+	possible = {
+		tag = PER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = the_sands_of_time_tt
+			all_of_scopes = {
+				array = global.GOE_middle_east_array
+				is_owned_by = PER
+			}
+		}
+	}
+}
+
+the_legacy_of_cyrus_the_great = {
+	id = 238
+	possible = {
+		tag = PER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = the_legacy_of_cyrus_the_great_tt
+			all_of_scopes = {
+				array = PER.PER_achaemenid_empire_states
+				is_owned_by = PER
+			}
+		}
+	}
+}
+
+from_tehran_with_love = {
+	id = 239
+	possible = {
+		tag = PER
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = from_tehran_with_love_tt
+			date > 1945.1.1
+			PER = {
+				has_guaranteed = POL
+			}
+			POL = {
+				exists = yes
+				is_subject = no
+				NOT = { has_country_flag = POL_has_capitulated_flag }
+			}
+		}
+	}
+}
+
+its_just_good_business = {
+	id = 241
+	possible = {
+		tag = RAJ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = its_just_good_business_tt
+			RAJ = {
+				has_cosmetic_tag = RAJ_eic_tag
+			}
+			446 = {
+				is_owned_by = RAJ
+			}
+			685 = {
+				is_owned_by = RAJ
+			}
+		}
+	}
+}
+
+media_mughal = {
+	id = 242
+	possible = {
+		tag = RAJ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = media_mughal_tt
+			RAJ = {
+				has_cosmetic_tag = RAJ_mughal_empire
+				has_done_agency_upgrade = upgrade_psycho_warfare
+				is_spymaster = yes
+				num_of_operatives > 7
+			}
+		}
+	}
+}
+
+oh_how_the_turntables = {
+	id = 243
+	possible = {
+		tag = RAJ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		RAJ = {
+			has_subject = ENG
+		}
+		ENG = {
+			has_country_leader = {
+				ruling_only = yes # default = yes
+				character = ENG_winston_churchill
+			}
+		}
+	}
+}
+
+im_just_passing_by = {
+	id = 244
+	possible = {
+		tag = RAJ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = im_just_passing_by_tt
+			RAJ = {
+				has_war = no
+			}
+			any_state = {
+				is_on_continent = europe
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = asia
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = africa
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = middle_east
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = north_america
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = south_america
+				is_owned_by = RAJ
+			}
+			any_state = {
+				is_on_continent = australia
+				is_owned_by = RAJ
+			}
+		}
+	}
+}
+
+i_shall_either_find_a_way_or_make_one = {
+	id = 249
+	possible = {
+		tag = RAJ
+		is_ironman = yes
+		difficulty > 1
+		has_start_date < 1936.01.02
+		has_any_custom_difficulty_setting = no
+		game_rules_allow_achievements = yes
+	}
+
+	happened = {
+		custom_trigger_tooltip = {
+			tooltip = i_shall_either_find_a_way_or_make_one_tt
+			2 = {
+				is_fully_controlled_by = RAJ
+				any_state_division  = {
+					division_has_battalion_in_template = elephantry
+				}
 			}
 		}
 	}

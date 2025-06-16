@@ -183,15 +183,15 @@
 					id = wtt_japan.21
 					hours = 6
 				}
-				custom_effect_tooltip = JAP_if_man_accepts
-				effect_tooltip = {
-					every_character = {
-						limit = {
-							OWNER = { tag = ROOT }
-							has_trait = JAP_samurai_lineage
-						}
-						set_nationality = PREV
+			}
+			custom_effect_tooltip = JAP_if_man_accepts
+			effect_tooltip = {
+				every_army_leader = {
+					limit = {
+						OWNER = { tag = JAP }
+						has_trait = JAP_samurai_lineage
 					}
+					set_nationality = MAN
 				}
 			}
 		}
@@ -1775,8 +1775,8 @@
 		y = 1
 		relative_position_id = JAP_strike_south_doctrine
 
-		cost = 10
-
+		cost = 5
+ 
 		ai_will_do = {
 			factor = 3
 		}
@@ -1801,7 +1801,7 @@
 
 		completion_reward = {
 			SIA = { 
-				country_event = generic.5 
+				country_event = { id = generic.5 hours = 2 }
 			}
 			add_ai_strategy = {
 				type = protect

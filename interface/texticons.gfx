@@ -667,6 +667,13 @@ spriteTypes = {
 	}
 
 	spriteType = {
+		name = "GFX_unit_elephantry_icon_small"
+		texturefile = "gfx/texticons/unit_elephantry_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
+	spriteType = {
 		name = "GFX_unit_anti_air_icon_small"
 		texturefile = "gfx/texticons/support_AA_small.dds"
 		legacy_lazy_load = no
@@ -975,6 +982,31 @@ spriteTypes = {
 		legacy_lazy_load = no
 		noOfFrames = 2
 	}
+	spriteType = {
+		name = "GFX_unit_winter_logistics_support_icon_small"
+		texturefile = "gfx/texticons/unit_winter_logistics_support_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_long_range_patrol_support_icon_small"
+		texturefile = "gfx/texticons/unit_long_range_patrol_support_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_jungle_pioneers_support_icon_small"
+		texturefile = "gfx/texticons/unit_jungle_pioneers_support_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	spriteType = {
+		name = "GFX_unit_airborne_light_armor_icon_small"
+		texturefile = "gfx/texticons/unit_airborne_light_armor_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+
 
 	# Aircraft
 

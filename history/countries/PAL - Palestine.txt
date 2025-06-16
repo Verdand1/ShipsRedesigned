@@ -22,6 +22,10 @@ if = {
 	}
 }
 
+# TODO_GoE - Add DLC checks
+set_cosmetic_tag = PAL_mandate
+
+
 set_convoys = 5
 
 1939.1.1 = {
@@ -73,16 +77,19 @@ set_convoys = 5
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 40
-	fascism = 30
-	communism = 30
+	neutrality = 60
+	democratic = 30
+	fascism = 6
+	communism = 4 
 }
+
+recruit_character = PAL_harold_macmichael
 
 create_country_leader = {
 	name = "Ahmed Hilmi Pasha"
@@ -94,23 +101,20 @@ create_country_leader = {
 	}
 }
 
-create_country_leader = {
-	name = "Amin al-Husseini"
-	desc = ""
-	picture = GFX_portrait_Amin_al_Husseini
-	ideology = fascism_ideology
-	traits = {
-		#
+IF = {
+	limit = {
+		NOT = {
+			has_dlc = "Graveyard of Empires"
+		}
 	}
-}
-
-create_country_leader = {
-	name = "Prince Henry"
-	desc = ""
-	picture = GFX_portrait_Prince_Henry
-	ideology = despotism
-	traits = {
-		#
+	create_country_leader = {
+		name = "Amin al-Husseini"
+		desc = ""
+		picture = GFX_portrait_Amin_al_Husseini
+		ideology = fascism_ideology
+		traits = {
+			#
+		}
 	}
 }
 

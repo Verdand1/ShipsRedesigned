@@ -70,8 +70,8 @@
  PROGRAM_BASIC_RESEARCH_BREAKTHROUGH_DETAIL_TT: "Gains $BREAKTHROUGH_PROGRESS|Y$§Y%§! daily breakthrough progress towards $SPECIALIZATION|Y$ per skill level.\n  Skill Level $SKILL_LEVEL|Y$: $BREAKTHROUGH_TOTAL|Y$§Y%§! daily breakthrough progress"
  PROGRAM_BASIC_RESEARCH_TECHNOLOGY_DETAIL_TT: "Gains $TECHNOLOGY_BONUS|1%Y$ research bonus for $SPECIALIZATION|Y$ technologies per skill level.\n  Skill $SKILL_LEVEL|Y$: $TECHNOLOGY_TOTAL|1%Y$ technology research bonus"
  RESEARCH_BONUS_DIMINISHING_RETURN: "§RAdditional research bonus in the same specialization is reduced by $AMOUNT|1%Y$§!"
- PROGRAM_SCIENTIST_NAME: "[(Character?.GetName:'PROGRAM_NO_SCIENTIST_ASSIGNED)]"
  PROGRAM_NO_SCIENTIST_ASSIGNED: "Assign a Scientist to start a project"
+ PROGRAM_SCIENTIST_QUIT: "Can't assign scientist"
  PROGRAM_ITEM_TOOLTIP: "§Y[Building.GetName]§! in §Y[State.GetName]§!\n\n§GClick§! to open details\n§GRight-Click§! to pan to building"
  PROGRAM_ITEM_BASIC_RESEARCH_TOOLTIP: "§Y[Building.GetName]§! in §Y[State.GetName]§!\n\nPerforming basic research towards a new breakthrough."
  PROGRAM_ITEM_BASIC_RESEARCH_TOOLTIP_END: "§GClick§! to open details\n§GRight-Click§! to pan to building"
@@ -341,6 +341,7 @@
  sp_land_super_heavy_howitzer: "Super-Heavy Howitzer"
  AUS_sp_land_super_heavy_howitzer: "42 cm Haubitze M. 14/16"
  BEL_sp_land_super_heavy_howitzer: "Mortier Monstre"
+ USA_sp_land_super_heavy_howitzer: "M115 203 mm Howitzer"
  sp_land_super_heavy_howitzer_desc: "A formidable artillery piece boasting a large caliber, that can wreak havoc on enemy defenses with unprecedented destructive force."
  sp_land_self_propelled_super_heavy_howitzer: "Self-Propelled Super-Heavy Howitzer"
  IRQ_sp_land_self_propelled_super_heavy_howitzer: "Al-Fao Project"
@@ -853,8 +854,7 @@
 
  sp_naval_torpedo_data_computer: "Torpedo Data Computer"
  sp_naval_torpedo_data_computer_desc: "A dedicated machine to compute parameters for torpedo launches."
- sp_naval_torpedo_data_computer_custom_tt: "Submarines and Destroyers torpedo hit chance §G+5%§!"
-
+ 
  sp_naval_anti_submarine_mortar: "Anti-Submarine Mortar"
  sp_naval_anti_submarine_mortar_desc: "With submarines increasing their under water performance we need to be able to engage them while still tracking them in order to score a proper hit."
 
@@ -869,11 +869,9 @@
 
  sp_naval_phosphorus_shell: "White Phosphorus Shell"
  sp_naval_phosphorus_shell_desc: "A highly flamable shell that could be use on offense and defense."
- sp_naval_phosphorus_shell_custom_tt: "$MODIFIER_NAVAL_RETREAT_SPEED$ §G+25%§!\nDestroyers and Light Cruisers light attack §G+2.5%§!"
-
+ 
  sp_naval_proximity_fuze: "Proximity Fuze"
  sp_naval_proximity_fuze_desc: "With improved and more reliable radio technology, we can develop new kind of fuzes, that would explode by just being in the proximity of the target, and damaging it."
- sp_naval_proximity_fuze_custom_tt: "$MODIFIER_NAVY_ANTI_AIR_ATTACK$ §G+25%§!\n$MODIFIER_STATIC_ANTI_AIR_HIT_CHANCE_FACTOR$ §G+25%§!"
 
  sp_naval_fire_control_system: "Tachymetric Fire Control System"
  sp_naval_fire_control_system_desc: "By computing target position, speed, direction, and rate of range change directly from the measured data this fire control system greatly improves weapons accuracy."

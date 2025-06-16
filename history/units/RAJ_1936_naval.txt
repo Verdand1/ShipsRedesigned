@@ -1,0 +1,13 @@
+﻿##### NAVAL UNITS #####
+units = {
+	fleet = {
+		name = "Royal Indian Navy"			
+		naval_base = 4245 # Calcutta
+		task_force = {
+			name = "Royal Indian Division"			
+			location = 4245 # Calcutta
+			ship = { name = "HMIS Indus" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Indus Class" } } }
+			ship = { name = "HMIS Hindustan" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = RAJ version_name = "Hindustan Class" } } }
+		}				
+	}
+}

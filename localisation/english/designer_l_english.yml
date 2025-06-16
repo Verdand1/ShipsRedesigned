@@ -28,7 +28,7 @@
  DESIGNER_NO_STAT:0 "--"
  DESIGNER_CREATE_NEW_DIVISION:1 "Create Empty"
  DESIGNER_NEW_DIVISION:0 "New Division"
- DESIGNER_DEFAULT_DIVISION:1 "$DOMINANT_UNIT$ template $NUMBER$"
+ DESIGNER_DEFAULT_DIVISION:1 "$DOMINANT_UNIT$ $YEAR$ $NUMBER$"
  DESIGNER_DUPLICATE:0 "Duplicate"
  DESIGNER_DUPLICATE_DESC:1 "Duplicate to create a new template for §Gfree§! when saving this template. The original template will remain unchanged and you can continue using it as you deploy the new template."
  DESIGNER_DUPLICATE_OF_NAME:0 "Copy of $TEMPLATE_NAME$"
@@ -236,7 +236,7 @@
  tank_designer_land_cruiser_chassis: "Land Cruiser"
  tank_designer_land_cruiser_chassis_role_disallowed: "Requires a §Y$land_cruiser_chassis$§!."
 
- #TODO_Manu: Obsolete - Delete if no NSB support for these
+ #Obsolete - There is no NSB support for these
  tank_designer_armored_recovery_vehicle: "Armored Recovery Vehicle (Support Company)"
  tank_designer_armored_recovery_vehicle_role_disallowed: "Add a module that allows the §HArmored Recovery Vehicle§! role to be able to switch to it."
  tank_designer_clearance_vehicle: "Clearance Vehicle (Support Company)"
@@ -396,12 +396,14 @@
  EQUIPMENT_DESIGNER_FOREIGN_FILTER:0 "Click to toggle filtering for designs in our stockpile."
  EQUIPMENT_DESIGNER_OWN_FILTER:0 "Click to toggle filtering for designs in enemy stockpiles.\n\nYou will require high intel to view these."
  EQUIPMENT_DESIGNER_OBSOLETE_FILTER:0 "Click to toggle filtering for outdated designs."
- HISTORICAL_PRESET: "Presets"
  HISTORICAL_TEMPLATE_ENABLED: "Create a $ROLE|H$ template, matching the $NAME|H$ as closely as possible."
- HISTORICAL_TEMPLATE_DISABLED: "You require the following modules to create this $ROLE|H$ design:\n\n$RESTRICTIONS$"
+ HISTORICAL_TEMPLATE_DISABLED: "You require the following modules to create this $ROLE|H$ design:\n\n$RESTRICTIONS$" 
+ HISTORICAL_TEMPLATE_DESIGNER_NOTE:0 "§L$NOTE$§!"
  SLOT_TITLE_REQUIRED: "$SLOT|H$:"
+ UPGRADE_REQUIRED: "$UPGRADE|H$ requires level $LEVEL|H$"
  MODULE_NONE_FIXED: "None"
- EQUIPMENT_DESIGNER_HISTORICAL_DESIGN_DISABLED_CHASSIS: "Historical Presets can only be accessed from a blueprint chassis or hull."
+ EQUIPMENT_DESIGNER_HISTORICAL_DESIGN_DISABLED_CHASSIS: "Presets can only be accessed from a blueprint chassis or hull."
+ EQUIPMENT_DESIGNER_HISTORICAL_DESIGN_DISABLED_NO_DESIGNS: "You have no valid Presets for this chassis type."
  angry_speedboat: "Angry Speedboat Class"
 
  heavy_cruiser_2_class: "Heavy cruiser 1936"

@@ -3068,10 +3068,10 @@ technologies = {
 	sp_naval_torpedo_data_computer_custom_tech = {
 		#HIDDEN EFFECT FOR THE TORPEDO DATA COMPUTER
 		submarine = {
-			naval_torpedo_hit_chance_factor = 0.05 #Remember to adjust sp_naval_torpedo_data_computer_custom_tt when changing value
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		destroyer = {
-			naval_torpedo_hit_chance_factor = 0.05 #Remember to adjust sp_naval_torpedo_data_computer_custom_tt when changing value
+			naval_torpedo_hit_chance_factor = 0.05
 		}
 		research_cost = 1
 		start_year = 1936
@@ -3123,12 +3123,12 @@ technologies = {
 	}
 	sp_naval_phosphorus_shell_tech = {
 		#HIDDEN EFFECT FOR THE WHITE PHOSPHORUS SHELL
-		naval_retreat_speed = 0.25 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+		naval_retreat_speed = 0.25
 		destroyer = {
-			lg_attack = 0.025 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+			lg_attack = 0.025
 		}
 		light_cruiser = {
-			lg_attack = 0.025 #Remember to adjust sp_naval_phosphorus_shell_custom_tt when changing value
+			lg_attack = 0.025
 		}
 		research_cost = 1
 		start_year = 1936
@@ -3171,8 +3171,8 @@ technologies = {
 	}
 	sp_naval_proximity_fuze_tech = {
 		#HIDDEN EFFECT FOR THE PROXIMITY FUZE 
-		navy_anti_air_attack_factor = 0.25 #Remember to adjust sp_naval_proximity_fuze_custom_tt when changing value
-		static_anti_air_hit_chance_factor = 0.25 #Remember to adjust sp_naval_proximity_fuze_custom_tt when changing value
+		navy_anti_air_attack_factor = 0.25
+		static_anti_air_hit_chance_factor = 0.25
 		research_cost = 1
 		start_year = 1940
 		
