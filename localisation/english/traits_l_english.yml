@@ -1932,6 +1932,14 @@
  AFG_bukharan_jadidist: "Bukharan Jadidist"
  AFG_kokandi_insurrecionist: "Kokandi Insurrectionist"
  AFG_turkmen_khan: "The Turkmen Khan"
+ AFG_last_of_the_bukharans: "Last of the Bukharans"
+ AFG_the_golden_emir: "The Golden Emir"
+ AFG_father_of_kunduz_trait: "The Father of Kunduz"
+ AFG_royal_figurehead_trait: "Royal Figurehead"
+ AFG_influential_spiritual_leader_trait: "Influential Spiritual Leader"
+ AFG_red_shirt_trait: "Red Shirt"
+ AFG_caliph_trait: "Caliph"
+ AFG_legacy_of_the_durrani_trait: "Legacy of the Durrani"
 
  #IRQ Traits
  IRQ_nationalist_lawyer: "Nationalist Lawyer"
