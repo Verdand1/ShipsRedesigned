@@ -38,64 +38,130 @@ SRD_naval_treaties = {
 		days_mission_timeout = 30
 		
 		timeout_effect = {
-			clr_country_flag = srd_treaty_members
-			remove_regular_treaty_idea = yes
-			set_global_flag = treaty_escalation_possible
-			every_other_country = {
-				limit = {
-					SRD_has_naval_treaty_trigger = yes
+			IF = { 
+				limit = { is_ai = yes }
+				IF = {
+					limit = { has_navy_size = { size > 250 unit = destroyer } }
+					destroy_ships = {
+						type = destroyer
+						count = 1
+					}
 				}
-				country_event = { id = SRD_naval_treaty.5 }
-			}
-			
-			add_to_variable = {
-				var = global.london_treaty_member_count
-				value = -1
-			}
-			
-			IF = {
-				limit = {
-					OR = {
-						tag = USA
-						tag = ENG
-						AND = {
-							tag = JAP
-							has_global_flag = JAP_got_parity
+				IF = {
+					limit = { has_navy_size = { size > 50 unit = light_cruiser } }
+					transfer_ship = {
+						type = light_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
 						}
 					}
 				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_7 = yes
-			}
-			ELSE_IF = {
-				limit = {
-					tag = JAP
-					not = { has_global_flag = JAP_got_parity }
-				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_5 = yes
-			}
-			ELSE = {
-				set_temp_variable = { tempthreat = global.london_treaty_credibility }
 				IF = {
-					limit = { 
-						NOT = {
-							OR = {
-								tag = FRA
-								tag = ITA
+					limit = { has_navy_size = { size > 21 unit = heavy_cruiser } }
+					transfer_ship = {
+						type = heavy_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 15 unit = battleship } }
+					destroy_ships = {
+						type = ship_hull_heavy
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 6 unit = carrier } }
+					destroy_ships = {
+						type = ship_hull_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 6 unit = light_carrier } }
+					destroy_ships = {
+						type = ship_hull_light_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 150 unit = submarine } }
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 1
+					}
+				}
+			}
+			else = {
+				clr_country_flag = srd_treaty_members
+				remove_regular_treaty_idea = yes
+				set_global_flag = treaty_escalation_possible
+				every_other_country = {
+					limit = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					country_event = { id = SRD_naval_treaty.5 }
+				}
+				
+				add_to_variable = {
+					var = global.london_treaty_member_count
+					value = -1
+				}
+				
+				IF = {
+					limit = {
+						OR = {
+							tag = USA
+							tag = ENG
+							AND = {
+								tag = JAP
+								has_global_flag = JAP_got_parity
 							}
 						}
 					}
-					subtract_from_temp_variable = { tempthreat = 1 }
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_7 = yes
 				}
-				subtract_from_temp_variable = { tempthreat = 2 }
-				clamp_temp_variable = {
-					var = tempthreat
-					min = 1
-					max = 5
+				ELSE_IF = {
+					limit = {
+						tag = JAP
+						not = { has_global_flag = JAP_got_parity }
+					}
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_5 = yes
 				}
-				add_threat = tempthreat
-				treaty_credibility_change_3 = yes
+				ELSE = {
+					set_temp_variable = { tempthreat = global.london_treaty_credibility }
+					IF = {
+						limit = { 
+							NOT = {
+								OR = {
+									tag = FRA
+									tag = ITA
+								}
+							}
+						}
+						subtract_from_temp_variable = { tempthreat = 1 }
+					}
+					subtract_from_temp_variable = { tempthreat = 2 }
+					clamp_temp_variable = {
+						var = tempthreat
+						min = 1
+						max = 5
+					}
+					add_threat = tempthreat
+					treaty_credibility_change_3 = yes
+				}
 			}
 		}
 	}
@@ -134,64 +200,132 @@ SRD_naval_treaties = {
 		days_mission_timeout = 30
 		
 		timeout_effect = {
-			clr_country_flag = srd_treaty_members
-			remove_regular_treaty_idea = yes
-			set_global_flag = treaty_escalation_possible
-			every_other_country = {
-				limit = {
-					SRD_has_naval_treaty_trigger = yes
+			IF = { 
+				limit = { is_ai = yes }
+				IF = {
+					limit = { has_navy_size = { size > 180 unit = destroyer } }
+					destroy_ships = {
+						type = destroyer
+						count = 1
+					}
 				}
-				country_event = { id = SRD_naval_treaty.5 }
-			}
-			
-			add_to_variable = {
-				var = global.london_treaty_member_count
-				value = -1
-			}
-			
-			IF = {
-				limit = {
-					OR = {
-						tag = USA
-						tag = ENG
-						AND = {
-							tag = JAP
-							has_global_flag = JAP_got_parity
+				IF = {
+					limit = { has_navy_size = { size > 35 unit = light_cruiser } }
+					transfer_ship = {
+						type = light_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
 						}
 					}
 				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_7 = yes
-			}
-			ELSE_IF = {
-				limit = {
-					tag = JAP
-					not = { has_global_flag = JAP_got_parity }
-				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_5 = yes
-			}
-			ELSE = {
-				set_temp_variable = { tempthreat = global.london_treaty_credibility }
 				IF = {
-					limit = { 
-						NOT = {
-							OR = {
-								tag = FRA
-								tag = ITA
+					limit = { has_navy_size = { size > 15 unit = heavy_cruiser } }
+					transfer_ship = {
+						type = heavy_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 10 unit = battleship } }
+					destroy_ships = {
+						type = ship_hull_heavy
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 4 unit = carrier } }
+					destroy_ships = {
+						type = ship_hull_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 4 unit = light_carrier } }
+					destroy_ships = {
+						type = ship_hull_light_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 125 unit = submarine } }
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 1
+					}
+				}
+			}
+		
+			else = {
+			
+				clr_country_flag = srd_treaty_members
+				remove_regular_treaty_idea = yes
+				set_global_flag = treaty_escalation_possible
+				every_other_country = {
+					limit = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					country_event = { id = SRD_naval_treaty.5 }
+				}
+				
+				add_to_variable = {
+					var = global.london_treaty_member_count
+					value = -1
+				}
+				
+				IF = {
+					limit = {
+						OR = {
+							tag = USA
+							tag = ENG
+							AND = {
+								tag = JAP
+								has_global_flag = JAP_got_parity
 							}
 						}
 					}
-					subtract_from_temp_variable = { tempthreat = 1 }
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_7 = yes
 				}
-				subtract_from_temp_variable = { tempthreat = 2 }
-				clamp_temp_variable = {
-					var = tempthreat
-					min = 1
-					max = 5
+				ELSE_IF = {
+					limit = {
+						tag = JAP
+						not = { has_global_flag = JAP_got_parity }
+					}
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_5 = yes
 				}
-				add_threat = tempthreat
-				treaty_credibility_change_3 = yes
+				ELSE = {
+					set_temp_variable = { tempthreat = global.london_treaty_credibility }
+					IF = {
+						limit = { 
+							NOT = {
+								OR = {
+									tag = FRA
+									tag = ITA
+								}
+							}
+						}
+						subtract_from_temp_variable = { tempthreat = 1 }
+					}
+					subtract_from_temp_variable = { tempthreat = 2 }
+					clamp_temp_variable = {
+						var = tempthreat
+						min = 1
+						max = 5
+					}
+					add_threat = tempthreat
+					treaty_credibility_change_3 = yes
+				}
 			}
 		}
 	}
@@ -233,64 +367,131 @@ SRD_naval_treaties = {
 		days_mission_timeout = 30
 		
 		timeout_effect = {
-			clr_country_flag = srd_treaty_members
-			remove_regular_treaty_idea = yes
-			set_global_flag = treaty_escalation_possible
-			every_other_country = {
-				limit = {
-					SRD_has_naval_treaty_trigger = yes
+			IF = { 
+				limit = { is_ai = yes }
+				IF = {
+					limit = { has_navy_size = { size > 120 unit = destroyer } }
+					destroy_ships = {
+						type = destroyer
+						count = 1
+					}
 				}
-				country_event = { id = SRD_naval_treaty.5 }
-			}
-			
-			add_to_variable = {
-				var = global.london_treaty_member_count
-				value = -1
-			}
-			
-			IF = {
-				limit = {
-					OR = {
-						tag = USA
-						tag = ENG
-						AND = {
-							tag = JAP
-							has_global_flag = JAP_got_parity
+				IF = {
+					limit = { has_navy_size = { size > 25 unit = light_cruiser } }
+					transfer_ship = {
+						type = light_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
 						}
 					}
 				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_7 = yes
-			}
-			ELSE_IF = {
-				limit = {
-					tag = JAP
-					not = { has_global_flag = JAP_got_parity }
-				}
-				add_threat = global.london_treaty_credibility
-				treaty_credibility_change_5 = yes
-			}
-			ELSE = {
-				set_temp_variable = { tempthreat = global.london_treaty_credibility }
 				IF = {
-					limit = { 
-						NOT = {
-							OR = {
-								tag = FRA
-								tag = ITA
+					limit = { has_navy_size = { size > 9 unit = heavy_cruiser } }
+					transfer_ship = {
+						type = heavy_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 7 unit = battleship } }
+					destroy_ships = {
+						type = ship_hull_heavy
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 2 unit = carrier } }
+					destroy_ships = {
+						type = ship_hull_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 2 unit = light_carrier } }
+					destroy_ships = {
+						type = ship_hull_light_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 100 unit = submarine } }
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 1
+					}
+				}
+			}
+			
+			else = {
+				clr_country_flag = srd_treaty_members
+				remove_regular_treaty_idea = yes
+				set_global_flag = treaty_escalation_possible
+				every_other_country = {
+					limit = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					country_event = { id = SRD_naval_treaty.5 }
+				}
+				
+				add_to_variable = {
+					var = global.london_treaty_member_count
+					value = -1
+				}
+				
+				IF = {
+					limit = {
+						OR = {
+							tag = USA
+							tag = ENG
+							AND = {
+								tag = JAP
+								has_global_flag = JAP_got_parity
 							}
 						}
 					}
-					subtract_from_temp_variable = { tempthreat = 1 }
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_7 = yes
 				}
-				subtract_from_temp_variable = { tempthreat = 2 }
-				clamp_temp_variable = {
-					var = tempthreat
-					min = 1
-					max = 5
+				ELSE_IF = {
+					limit = {
+						tag = JAP
+						not = { has_global_flag = JAP_got_parity }
+					}
+					add_threat = global.london_treaty_credibility
+					treaty_credibility_change_5 = yes
 				}
-				add_threat = tempthreat
-				treaty_credibility_change_3 = yes
+				ELSE = {
+					set_temp_variable = { tempthreat = global.london_treaty_credibility }
+					IF = {
+						limit = { 
+							NOT = {
+								OR = {
+									tag = FRA
+									tag = ITA
+								}
+							}
+						}
+						subtract_from_temp_variable = { tempthreat = 1 }
+					}
+					subtract_from_temp_variable = { tempthreat = 2 }
+					clamp_temp_variable = {
+						var = tempthreat
+						min = 1
+						max = 5
+					}
+					add_threat = tempthreat
+					treaty_credibility_change_3 = yes
+				}
 			}
 		}
 	}
@@ -325,18 +526,85 @@ SRD_naval_treaties = {
 		days_mission_timeout = 30
 		
 		timeout_effect = {
-			clr_country_flag = srd_treaty_commonwealth_members
-			
-			remove_ideas = SRD_naval_treaty_adherent
-			remove_ideas = SRD_naval_treaty_adherent_escalator
-			
-			add_stability = -0.05
-			
-			every_other_country = {
-				limit = {
-					SRD_has_naval_treaty_trigger = yes
+			IF = { 
+				limit = { is_ai = yes }
+				IF = {
+					limit = { has_navy_size = { size > 50 unit = destroyer } }
+					destroy_ships = {
+						type = destroyer
+						count = 1
+					}
 				}
-				country_event = { id = SRD_naval_treaty.8 }
+				IF = {
+					limit = { has_navy_size = { size > 7 unit = light_cruiser } }
+					transfer_ship = {
+						type = light_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 3 unit = heavy_cruiser } }
+					transfer_ship = {
+						type = heavy_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 1 unit = battleship } }
+					destroy_ships = {
+						type = ship_hull_heavy
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 0 unit = carrier } }
+					destroy_ships = {
+						type = ship_hull_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 1 unit = light_carrier } }
+					destroy_ships = {
+						type = ship_hull_light_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 50 unit = submarine } }
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 1
+					}
+				}
+			}
+			
+			else = {
+				clr_country_flag = srd_treaty_commonwealth_members
+				
+				remove_ideas = SRD_naval_treaty_adherent
+				remove_ideas = SRD_naval_treaty_adherent_escalator
+				
+				add_stability = -0.05
+				
+				every_other_country = {
+					limit = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					country_event = { id = SRD_naval_treaty.8 }
+				}
 			}
 		}
 	}
@@ -371,15 +639,82 @@ SRD_naval_treaties = {
 		days_mission_timeout = 30
 		
 		timeout_effect = {
-			clr_country_flag = srd_treaty_anglogerman_member
-			remove_ideas = SRD_naval_treaty_adherent
-			remove_ideas = SRD_naval_treaty_adherent_cheat
-			
-			every_other_country = {
-				limit = {
-					SRD_has_naval_treaty_trigger = yes
+			IF = { 
+				limit = { is_ai = yes }
+				IF = {
+					limit = { has_navy_size = { size > 83 unit = destroyer } }
+					destroy_ships = {
+						type = destroyer
+						count = 1
+					}
 				}
-				country_event = { id = SRD_naval_treaty.5 }
+				IF = {
+					limit = { has_navy_size = { size > 16 unit = light_cruiser } }
+					transfer_ship = {
+						type = light_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 7 unit = heavy_cruiser } }
+					transfer_ship = {
+						type = heavy_cruiser
+						target = D50
+					}
+					D50 = {
+						destroy_ships = {
+							type = ship_hull_cruiser
+							count = all
+						}
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 5 unit = battleship } }
+					destroy_ships = {
+						type = ship_hull_heavy
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 0 unit = carrier } }
+					destroy_ships = {
+						type = ship_hull_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 0 unit = light_carrier } }
+					destroy_ships = {
+						type = ship_hull_light_carrier
+						count = 1
+					}
+				}
+				IF = {
+					limit = { has_navy_size = { size > 80 unit = submarine } }
+					destroy_ships = {
+						type = ship_hull_submarine
+						count = 1
+					}
+				}
+			}
+		
+			else = {
+				clr_country_flag = srd_treaty_anglogerman_member
+				remove_ideas = SRD_naval_treaty_adherent
+				remove_ideas = SRD_naval_treaty_adherent_cheat
+				
+				every_other_country = {
+					limit = {
+						SRD_has_naval_treaty_trigger = yes
+					}
+					country_event = { id = SRD_naval_treaty.5 }
+				}
 			}
 		}
 	}
